@@ -32,7 +32,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CodePoint", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CodePoint(CodePointconst&) = delete;
+  CodePoint(CodePoint const&) = delete;
 
   /// @brief Field APOSTROPHE offset 0xffffffff size 0x4
   static constexpr uint32_t APOSTROPHE{ static_cast<uint32_t>(0x27u) };

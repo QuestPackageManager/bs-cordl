@@ -143,7 +143,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Parser_Token", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Parser_Token(Parser_Tokenconst&) = delete;
+  Parser_Token(Parser_Token const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20324 };
@@ -189,7 +189,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DateTime_Parser___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DateTime_Parser___c(DateTime_Parser___cconst&) = delete;
+  DateTime_Parser___c(DateTime_Parser___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20325 };
@@ -231,7 +231,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Parser_DateTime", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Parser_DateTime(Parser_DateTimeconst&) = delete;
+  Parser_DateTime(Parser_DateTime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20326 };
@@ -264,7 +264,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Parser_EmailAddress", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Parser_EmailAddress(Parser_EmailAddressconst&) = delete;
+  Parser_EmailAddress(Parser_EmailAddress const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20327 };
@@ -297,7 +297,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Parser_Host", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Parser_Host(Parser_Hostconst&) = delete;
+  Parser_Host(Parser_Host const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20328 };
@@ -330,7 +330,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Parser_Int", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Parser_Int(Parser_Intconst&) = delete;
+  Parser_Int(Parser_Int const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20329 };
@@ -363,7 +363,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Parser_Long", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Parser_Long(Parser_Longconst&) = delete;
+  Parser_Long(Parser_Long const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20330 };
@@ -409,7 +409,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MD5_Parser___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MD5_Parser___c(MD5_Parser___cconst&) = delete;
+  MD5_Parser___c(MD5_Parser___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20331 };
@@ -451,7 +451,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Parser_MD5", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Parser_MD5(Parser_MD5const&) = delete;
+  Parser_MD5(Parser_MD5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20332 };
@@ -484,7 +484,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Parser_TimeSpanSeconds", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Parser_TimeSpanSeconds(Parser_TimeSpanSecondsconst&) = delete;
+  Parser_TimeSpanSeconds(Parser_TimeSpanSeconds const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20333 };
@@ -517,7 +517,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Parser_Uri", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Parser_Uri(Parser_Uriconst&) = delete;
+  Parser_Uri(Parser_Uri const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20334 };
@@ -565,7 +565,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Parser", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Parser(Parserconst&) = delete;
+  Parser(Parser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20335 };

@@ -190,7 +190,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEmitEventEffect_ParticleSystemEmitBehavior", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ParticleSystemEmitEventEffect_ParticleSystemEmitBehavior(ParticleSystemEmitEventEffect_ParticleSystemEmitBehaviorconst&) = delete;
+  ParticleSystemEmitEventEffect_ParticleSystemEmitBehavior(ParticleSystemEmitEventEffect_ParticleSystemEmitBehavior const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5931 };
@@ -281,7 +281,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEmitEventEffect_BeatmapEditorParticleSystemEmitBehavior", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ParticleSystemEmitEventEffect_BeatmapEditorParticleSystemEmitBehavior(ParticleSystemEmitEventEffect_BeatmapEditorParticleSystemEmitBehaviorconst&) = delete;
+  ParticleSystemEmitEventEffect_BeatmapEditorParticleSystemEmitBehavior(ParticleSystemEmitEventEffect_BeatmapEditorParticleSystemEmitBehavior const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5932 };
@@ -358,7 +358,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEmitEventEffect_GameplayParticleSystemEmitBehavior", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ParticleSystemEmitEventEffect_GameplayParticleSystemEmitBehavior(ParticleSystemEmitEventEffect_GameplayParticleSystemEmitBehaviorconst&) = delete;
+  ParticleSystemEmitEventEffect_GameplayParticleSystemEmitBehavior(ParticleSystemEmitEventEffect_GameplayParticleSystemEmitBehavior const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5933 };
@@ -471,7 +471,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEmitEventEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ParticleSystemEmitEventEffect(ParticleSystemEmitEventEffectconst&) = delete;
+  ParticleSystemEmitEventEffect(ParticleSystemEmitEventEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5934 };

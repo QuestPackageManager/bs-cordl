@@ -96,7 +96,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Curve25519Point", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Curve25519Point(Curve25519Pointconst&) = delete;
+  Curve25519Point(Curve25519Point const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1376 };

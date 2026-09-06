@@ -196,7 +196,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StandaloneMonobehavior__RunAsyncCoroutine_d__25", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandaloneMonobehavior__RunAsyncCoroutine_d__25(StandaloneMonobehavior__RunAsyncCoroutine_d__25const&) = delete;
+  StandaloneMonobehavior__RunAsyncCoroutine_d__25(StandaloneMonobehavior__RunAsyncCoroutine_d__25 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18286 };
@@ -523,7 +523,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StandaloneMonobehavior", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandaloneMonobehavior(StandaloneMonobehaviorconst&) = delete;
+  StandaloneMonobehavior(StandaloneMonobehavior const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18289 };

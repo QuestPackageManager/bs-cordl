@@ -492,7 +492,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderChain_VisualChangesProcessor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderChain_VisualChangesProcessor(RenderChain_VisualChangesProcessorconst&) = delete;
+  RenderChain_VisualChangesProcessor(RenderChain_VisualChangesProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5331 };
@@ -607,7 +607,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderChain___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderChain___c(RenderChain___cconst&) = delete;
+  RenderChain___c(RenderChain___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5332 };
@@ -1249,7 +1249,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderChain", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderChain(RenderChainconst&) = delete;
+  RenderChain(RenderChain const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5333 };

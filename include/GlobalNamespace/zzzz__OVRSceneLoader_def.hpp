@@ -203,7 +203,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSceneLoader__DelayCanvasPosUpdate_d__24", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSceneLoader__DelayCanvasPosUpdate_d__24(OVRSceneLoader__DelayCanvasPosUpdate_d__24const&) = delete;
+  OVRSceneLoader__DelayCanvasPosUpdate_d__24(OVRSceneLoader__DelayCanvasPosUpdate_d__24 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7657 };
@@ -324,7 +324,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSceneLoader__onCheckSceneCoroutine_d__25", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSceneLoader__onCheckSceneCoroutine_d__25(OVRSceneLoader__onCheckSceneCoroutine_d__25const&) = delete;
+  OVRSceneLoader__onCheckSceneCoroutine_d__25(OVRSceneLoader__onCheckSceneCoroutine_d__25 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7658 };
@@ -531,7 +531,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSceneLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSceneLoader(OVRSceneLoaderconst&) = delete;
+  OVRSceneLoader(OVRSceneLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7659 };

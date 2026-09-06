@@ -107,7 +107,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CertificateID", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CertificateID(CertificateIDconst&) = delete;
+  CertificateID(CertificateID const&) = delete;
 
   /// @brief Field HashSha1 offset 0xffffffff size 0x8
   static constexpr ::ConstString HashSha1{ u"1.3.14.3.2.26" };

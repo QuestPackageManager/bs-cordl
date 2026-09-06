@@ -98,7 +98,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction(JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunctionconst&) = delete;
+  JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction(JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15512 };
@@ -243,7 +243,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IJobParallelForBatchExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IJobParallelForBatchExtensions(IJobParallelForBatchExtensionsconst&) = delete;
+  IJobParallelForBatchExtensions(IJobParallelForBatchExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15514 };

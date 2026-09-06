@@ -94,7 +94,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncUtils___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncUtils___c(AsyncUtils___cconst&) = delete;
+  AsyncUtils___c(AsyncUtils___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13369 };
@@ -150,7 +150,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncUtils___c__6_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncUtils___c__6_1(AsyncUtils___c__6_1const&) = delete;
+  AsyncUtils___c__6_1(AsyncUtils___c__6_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13370 };
@@ -250,7 +250,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncUtils(AsyncUtilsconst&) = delete;
+  AsyncUtils(AsyncUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13371 };

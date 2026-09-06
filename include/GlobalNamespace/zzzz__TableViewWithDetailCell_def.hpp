@@ -55,7 +55,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TableViewWithDetailCell_IDataSource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TableViewWithDetailCell_IDataSource(TableViewWithDetailCell_IDataSourceconst&) = delete;
+  TableViewWithDetailCell_IDataSource(TableViewWithDetailCell_IDataSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19012 };
@@ -176,7 +176,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TableViewWithDetailCell", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TableViewWithDetailCell(TableViewWithDetailCellconst&) = delete;
+  TableViewWithDetailCell(TableViewWithDetailCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19013 };

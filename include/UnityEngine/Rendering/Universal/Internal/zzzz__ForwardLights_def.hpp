@@ -218,7 +218,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ForwardLights_LightConstantBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ForwardLights_LightConstantBuffer(ForwardLights_LightConstantBufferconst&) = delete;
+  ForwardLights_LightConstantBuffer(ForwardLights_LightConstantBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13064 };
@@ -329,7 +329,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ForwardLights_SetupLightPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ForwardLights_SetupLightPassData(ForwardLights_SetupLightPassDataconst&) = delete;
+  ForwardLights_SetupLightPassData(ForwardLights_SetupLightPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13066 };
@@ -408,7 +408,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ForwardLights___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ForwardLights___c(ForwardLights___cconst&) = delete;
+  ForwardLights___c(ForwardLights___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13067 };
@@ -787,7 +787,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ForwardLights", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ForwardLights(ForwardLightsconst&) = delete;
+  ForwardLights(ForwardLights const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13068 };

@@ -157,7 +157,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DeferredHash", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeferredHash(DeferredHashconst&) = delete;
+  DeferredHash(DeferredHash const&) = delete;
 
   /// @brief Field BUFFERING_HASH_LIMIT offset 0xffffffff size 0x4
   static constexpr int32_t BUFFERING_HASH_LIMIT{ static_cast<int32_t>(0x4) };

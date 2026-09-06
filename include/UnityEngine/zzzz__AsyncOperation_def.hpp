@@ -55,7 +55,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncOperation_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncOperation_BindingsMarshaller(AsyncOperation_BindingsMarshallerconst&) = delete;
+  AsyncOperation_BindingsMarshaller(AsyncOperation_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10299 };
@@ -184,7 +184,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncOperation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncOperation(AsyncOperationconst&) = delete;
+  AsyncOperation(AsyncOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10300 };

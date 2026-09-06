@@ -106,7 +106,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UInt16Storage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UInt16Storage(UInt16Storageconst&) = delete;
+  UInt16Storage(UInt16Storage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13949 };

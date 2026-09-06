@@ -146,7 +146,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTypeTrack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTypeTrack(EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTypeTrackconst&) = delete;
+  EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTypeTrack(EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTypeTrack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22958 };
@@ -240,7 +240,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTrack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTrack(EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTrackconst&) = delete;
+  EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTrack(EnvironmentTrackDefinitionModel_SpawnableEventBoxGroupTrack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22959 };
@@ -443,7 +443,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionModel___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentTrackDefinitionModel___c(EnvironmentTrackDefinitionModel___cconst&) = delete;
+  EnvironmentTrackDefinitionModel___c(EnvironmentTrackDefinitionModel___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22960 };
@@ -670,7 +670,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTrackDefinitionModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentTrackDefinitionModel(EnvironmentTrackDefinitionModelconst&) = delete;
+  EnvironmentTrackDefinitionModel(EnvironmentTrackDefinitionModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22961 };

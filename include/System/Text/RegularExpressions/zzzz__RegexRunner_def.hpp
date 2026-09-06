@@ -283,7 +283,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RegexRunner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RegexRunner(RegexRunnerconst&) = delete;
+  RegexRunner(RegexRunner const&) = delete;
 
   /// @brief Field TimeoutCheckFrequency offset 0xffffffff size 0x4
   static constexpr int32_t TimeoutCheckFrequency{ static_cast<int32_t>(0x3e8) };

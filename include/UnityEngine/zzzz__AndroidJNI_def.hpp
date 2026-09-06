@@ -1125,7 +1125,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AndroidJNI", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidJNI(AndroidJNIconst&) = delete;
+  AndroidJNI(AndroidJNI const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20152 };

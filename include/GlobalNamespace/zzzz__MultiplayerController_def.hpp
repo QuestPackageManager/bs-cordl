@@ -260,7 +260,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerController___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerController___c(MultiplayerController___cconst&) = delete;
+  MultiplayerController___c(MultiplayerController___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6134 };
@@ -317,7 +317,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerController___c__DisplayClass45_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerController___c__DisplayClass45_0(MultiplayerController___c__DisplayClass45_0const&) = delete;
+  MultiplayerController___c__DisplayClass45_0(MultiplayerController___c__DisplayClass45_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6135 };
@@ -451,7 +451,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerController__PerformSongStartSync_d__39", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerController__PerformSongStartSync_d__39(MultiplayerController__PerformSongStartSync_d__39const&) = delete;
+  MultiplayerController__PerformSongStartSync_d__39(MultiplayerController__PerformSongStartSync_d__39 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6136 };
@@ -834,7 +834,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerController(MultiplayerControllerconst&) = delete;
+  MultiplayerController(MultiplayerController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6137 };

@@ -112,7 +112,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "V128DebugView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  V128DebugView(V128DebugViewconst&) = delete;
+  V128DebugView(V128DebugView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17341 };

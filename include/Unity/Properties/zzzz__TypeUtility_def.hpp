@@ -120,7 +120,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_ITypeConstructor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeUtility_ITypeConstructor(TypeUtility_ITypeConstructorconst&) = delete;
+  TypeUtility_ITypeConstructor(TypeUtility_ITypeConstructor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19703 };
@@ -152,7 +152,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_ITypeConstructor_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeUtility_ITypeConstructor_1(TypeUtility_ITypeConstructor_1const&) = delete;
+  TypeUtility_ITypeConstructor_1(TypeUtility_ITypeConstructor_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19704 };
@@ -252,7 +252,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_TypeConstructor_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeUtility_TypeConstructor_1(TypeUtility_TypeConstructor_1const&) = delete;
+  TypeUtility_TypeConstructor_1(TypeUtility_TypeConstructor_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19705 };
@@ -308,7 +308,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_NonConstructable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeUtility_NonConstructable(TypeUtility_NonConstructableconst&) = delete;
+  TypeUtility_NonConstructable(TypeUtility_NonConstructable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19706 };
@@ -393,7 +393,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_TypeConstructorVisitor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeUtility_TypeConstructorVisitor(TypeUtility_TypeConstructorVisitorconst&) = delete;
+  TypeUtility_TypeConstructorVisitor(TypeUtility_TypeConstructorVisitor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19708 };
@@ -450,7 +450,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeUtility___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeUtility___c(TypeUtility___cconst&) = delete;
+  TypeUtility___c(TypeUtility___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19709 };
@@ -595,7 +595,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeUtility(TypeUtilityconst&) = delete;
+  TypeUtility(TypeUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19710 };

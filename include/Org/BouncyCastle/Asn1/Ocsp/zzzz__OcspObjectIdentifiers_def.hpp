@@ -96,7 +96,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OcspObjectIdentifiers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OcspObjectIdentifiers(OcspObjectIdentifiersconst&) = delete;
+  OcspObjectIdentifiers(OcspObjectIdentifiers const&) = delete;
 
   /// @brief Field PkixOcspId offset 0xffffffff size 0x8
   static constexpr ::ConstString PkixOcspId{ u"1.3.6.1.5.5.7.48.1" };

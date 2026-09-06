@@ -405,7 +405,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InstanceDataSystem_InstanceTransformUpdateIDs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InstanceDataSystem_InstanceTransformUpdateIDs(InstanceDataSystem_InstanceTransformUpdateIDsconst&) = delete;
+  InstanceDataSystem_InstanceTransformUpdateIDs(InstanceDataSystem_InstanceTransformUpdateIDs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17706 };
@@ -470,7 +470,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InstanceDataSystem_InstanceWindDataUpdateIDs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InstanceDataSystem_InstanceWindDataUpdateIDs(InstanceDataSystem_InstanceWindDataUpdateIDsconst&) = delete;
+  InstanceDataSystem_InstanceWindDataUpdateIDs(InstanceDataSystem_InstanceWindDataUpdateIDs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17707 };
@@ -2260,7 +2260,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InstanceDataSystem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InstanceDataSystem(InstanceDataSystemconst&) = delete;
+  InstanceDataSystem(InstanceDataSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17725 };

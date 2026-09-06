@@ -76,7 +76,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultJsonNameTable_Entry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultJsonNameTable_Entry(DefaultJsonNameTable_Entryconst&) = delete;
+  DefaultJsonNameTable_Entry(DefaultJsonNameTable_Entry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13237 };
@@ -179,7 +179,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultJsonNameTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultJsonNameTable(DefaultJsonNameTableconst&) = delete;
+  DefaultJsonNameTable(DefaultJsonNameTable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13238 };

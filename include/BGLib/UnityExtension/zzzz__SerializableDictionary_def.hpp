@@ -56,7 +56,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SerializableDictionary_Storage_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SerializableDictionary_Storage_1(SerializableDictionary_Storage_1const&) = delete;
+  SerializableDictionary_Storage_1(SerializableDictionary_Storage_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20805 };
@@ -89,7 +89,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SerializableDictionary", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SerializableDictionary(SerializableDictionaryconst&) = delete;
+  SerializableDictionary(SerializableDictionary const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20806 };

@@ -109,7 +109,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SteamLevelProductCollectionModel_LevelDepotData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SteamLevelProductCollectionModel_LevelDepotData(SteamLevelProductCollectionModel_LevelDepotDataconst&) = delete;
+  SteamLevelProductCollectionModel_LevelDepotData(SteamLevelProductCollectionModel_LevelDepotData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15142 };
@@ -202,7 +202,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SteamLevelProductCollectionModel_LevelProductData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SteamLevelProductCollectionModel_LevelProductData(SteamLevelProductCollectionModel_LevelProductDataconst&) = delete;
+  SteamLevelProductCollectionModel_LevelProductData(SteamLevelProductCollectionModel_LevelProductData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15143 };
@@ -306,7 +306,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SteamLevelProductCollectionModel_LevelPackProductData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SteamLevelProductCollectionModel_LevelPackProductData(SteamLevelProductCollectionModel_LevelPackProductDataconst&) = delete;
+  SteamLevelProductCollectionModel_LevelPackProductData(SteamLevelProductCollectionModel_LevelPackProductData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15144 };
@@ -415,7 +415,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SteamLevelProductCollectionModel_LevelPackRedirectionData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SteamLevelProductCollectionModel_LevelPackRedirectionData(SteamLevelProductCollectionModel_LevelPackRedirectionDataconst&) = delete;
+  SteamLevelProductCollectionModel_LevelPackRedirectionData(SteamLevelProductCollectionModel_LevelPackRedirectionData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15145 };
@@ -546,7 +546,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SteamLevelProductCollectionModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SteamLevelProductCollectionModel(SteamLevelProductCollectionModelconst&) = delete;
+  SteamLevelProductCollectionModel(SteamLevelProductCollectionModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15146 };

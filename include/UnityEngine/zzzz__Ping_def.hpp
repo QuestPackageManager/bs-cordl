@@ -51,7 +51,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Ping_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ping_BindingsMarshaller(Ping_BindingsMarshallerconst&) = delete;
+  Ping_BindingsMarshaller(Ping_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10269 };
@@ -136,7 +136,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Ping", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ping(Pingconst&) = delete;
+  Ping(Ping const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10270 };

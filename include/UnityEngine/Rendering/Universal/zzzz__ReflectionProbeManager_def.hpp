@@ -307,7 +307,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbeManager_ShaderProperties", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionProbeManager_ShaderProperties(ReflectionProbeManager_ShaderPropertiesconst&) = delete;
+  ReflectionProbeManager_ShaderProperties(ReflectionProbeManager_ShaderProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12902 };

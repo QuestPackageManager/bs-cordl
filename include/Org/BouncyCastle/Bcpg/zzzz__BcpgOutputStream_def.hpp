@@ -169,7 +169,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BcpgOutputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BcpgOutputStream(BcpgOutputStreamconst&) = delete;
+  BcpgOutputStream(BcpgOutputStream const&) = delete;
 
   /// @brief Field BufferSizePower offset 0xffffffff size 0x4
   static constexpr int32_t BufferSizePower{ static_cast<int32_t>(0x10) };

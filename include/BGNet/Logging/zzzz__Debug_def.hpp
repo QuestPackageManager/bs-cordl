@@ -86,7 +86,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Debug_LoggerLinkedList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Debug_LoggerLinkedList(Debug_LoggerLinkedListconst&) = delete;
+  Debug_LoggerLinkedList(Debug_LoggerLinkedList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23561 };
@@ -128,7 +128,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Debug_ILogger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Debug_ILogger(Debug_ILoggerconst&) = delete;
+  Debug_ILogger(Debug_ILogger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23562 };
@@ -237,7 +237,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Debug", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Debug(Debugconst&) = delete;
+  Debug(Debug const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23564 };

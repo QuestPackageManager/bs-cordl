@@ -61,7 +61,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TooltipEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TooltipEvent___c(TooltipEvent___cconst&) = delete;
+  TooltipEvent___c(TooltipEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4562 };
@@ -135,7 +135,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TooltipEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TooltipEvent(TooltipEventconst&) = delete;
+  TooltipEvent(TooltipEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4563 };

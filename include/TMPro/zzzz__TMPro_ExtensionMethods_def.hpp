@@ -129,7 +129,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TMPro_ExtensionMethods", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMPro_ExtensionMethods(TMPro_ExtensionMethodsconst&) = delete;
+  TMPro_ExtensionMethods(TMPro_ExtensionMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15870 };

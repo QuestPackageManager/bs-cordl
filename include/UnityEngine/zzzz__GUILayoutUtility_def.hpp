@@ -119,7 +119,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GUILayoutUtility_LayoutCache", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GUILayoutUtility_LayoutCache(GUILayoutUtility_LayoutCacheconst&) = delete;
+  GUILayoutUtility_LayoutCache(GUILayoutUtility_LayoutCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19880 };
@@ -305,7 +305,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GUILayoutUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GUILayoutUtility(GUILayoutUtilityconst&) = delete;
+  GUILayoutUtility(GUILayoutUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19881 };

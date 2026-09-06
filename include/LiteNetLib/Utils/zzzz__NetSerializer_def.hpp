@@ -336,7 +336,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCall_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_FastCall_1(NetSerializer_FastCall_1const&) = delete;
+  NetSerializer_FastCall_1(NetSerializer_FastCall_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20108 };
@@ -419,7 +419,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCallSpecific_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_FastCallSpecific_2(NetSerializer_FastCallSpecific_2const&) = delete;
+  NetSerializer_FastCallSpecific_2(NetSerializer_FastCallSpecific_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20109 };
@@ -484,7 +484,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCallSpecificAuto_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_FastCallSpecificAuto_2(NetSerializer_FastCallSpecificAuto_2const&) = delete;
+  NetSerializer_FastCallSpecificAuto_2(NetSerializer_FastCallSpecificAuto_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20110 };
@@ -550,7 +550,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCallStatic_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_FastCallStatic_2(NetSerializer_FastCallStatic_2const&) = delete;
+  NetSerializer_FastCallStatic_2(NetSerializer_FastCallStatic_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20111 };
@@ -614,7 +614,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCallStruct_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_FastCallStruct_2(NetSerializer_FastCallStruct_2const&) = delete;
+  NetSerializer_FastCallStruct_2(NetSerializer_FastCallStruct_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20112 };
@@ -674,7 +674,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCallClass_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_FastCallClass_2(NetSerializer_FastCallClass_2const&) = delete;
+  NetSerializer_FastCallClass_2(NetSerializer_FastCallClass_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20113 };
@@ -724,7 +724,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_IntSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_IntSerializer_1(NetSerializer_IntSerializer_1const&) = delete;
+  NetSerializer_IntSerializer_1(NetSerializer_IntSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20114 };
@@ -771,7 +771,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_UIntSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_UIntSerializer_1(NetSerializer_UIntSerializer_1const&) = delete;
+  NetSerializer_UIntSerializer_1(NetSerializer_UIntSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20115 };
@@ -818,7 +818,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_ShortSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_ShortSerializer_1(NetSerializer_ShortSerializer_1const&) = delete;
+  NetSerializer_ShortSerializer_1(NetSerializer_ShortSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20116 };
@@ -865,7 +865,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_UShortSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_UShortSerializer_1(NetSerializer_UShortSerializer_1const&) = delete;
+  NetSerializer_UShortSerializer_1(NetSerializer_UShortSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20117 };
@@ -912,7 +912,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_LongSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_LongSerializer_1(NetSerializer_LongSerializer_1const&) = delete;
+  NetSerializer_LongSerializer_1(NetSerializer_LongSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20118 };
@@ -959,7 +959,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_ULongSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_ULongSerializer_1(NetSerializer_ULongSerializer_1const&) = delete;
+  NetSerializer_ULongSerializer_1(NetSerializer_ULongSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20119 };
@@ -1006,7 +1006,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_ByteSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_ByteSerializer_1(NetSerializer_ByteSerializer_1const&) = delete;
+  NetSerializer_ByteSerializer_1(NetSerializer_ByteSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20120 };
@@ -1053,7 +1053,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_SByteSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_SByteSerializer_1(NetSerializer_SByteSerializer_1const&) = delete;
+  NetSerializer_SByteSerializer_1(NetSerializer_SByteSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20121 };
@@ -1100,7 +1100,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FloatSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_FloatSerializer_1(NetSerializer_FloatSerializer_1const&) = delete;
+  NetSerializer_FloatSerializer_1(NetSerializer_FloatSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20122 };
@@ -1147,7 +1147,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_DoubleSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_DoubleSerializer_1(NetSerializer_DoubleSerializer_1const&) = delete;
+  NetSerializer_DoubleSerializer_1(NetSerializer_DoubleSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20123 };
@@ -1194,7 +1194,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_BoolSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_BoolSerializer_1(NetSerializer_BoolSerializer_1const&) = delete;
+  NetSerializer_BoolSerializer_1(NetSerializer_BoolSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20124 };
@@ -1235,7 +1235,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_CharSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_CharSerializer_1(NetSerializer_CharSerializer_1const&) = delete;
+  NetSerializer_CharSerializer_1(NetSerializer_CharSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20125 };
@@ -1276,7 +1276,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_IPEndPointSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_IPEndPointSerializer_1(NetSerializer_IPEndPointSerializer_1const&) = delete;
+  NetSerializer_IPEndPointSerializer_1(NetSerializer_IPEndPointSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20126 };
@@ -1332,7 +1332,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_StringSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_StringSerializer_1(NetSerializer_StringSerializer_1const&) = delete;
+  NetSerializer_StringSerializer_1(NetSerializer_StringSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20127 };
@@ -1394,7 +1394,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_EnumByteSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_EnumByteSerializer_1(NetSerializer_EnumByteSerializer_1const&) = delete;
+  NetSerializer_EnumByteSerializer_1(NetSerializer_EnumByteSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20128 };
@@ -1441,7 +1441,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_EnumIntSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_EnumIntSerializer_1(NetSerializer_EnumIntSerializer_1const&) = delete;
+  NetSerializer_EnumIntSerializer_1(NetSerializer_EnumIntSerializer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20129 };
@@ -1507,7 +1507,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_ClassInfo_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_ClassInfo_1(NetSerializer_ClassInfo_1const&) = delete;
+  NetSerializer_ClassInfo_1(NetSerializer_ClassInfo_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20130 };
@@ -1549,7 +1549,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_CustomType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_CustomType(NetSerializer_CustomTypeconst&) = delete;
+  NetSerializer_CustomType(NetSerializer_CustomType const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20131 };
@@ -1591,7 +1591,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_CustomTypeStruct_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_CustomTypeStruct_1(NetSerializer_CustomTypeStruct_1const&) = delete;
+  NetSerializer_CustomTypeStruct_1(NetSerializer_CustomTypeStruct_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20132 };
@@ -1639,7 +1639,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_CustomTypeClass_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_CustomTypeClass_1(NetSerializer_CustomTypeClass_1const&) = delete;
+  NetSerializer_CustomTypeClass_1(NetSerializer_CustomTypeClass_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20133 };
@@ -1699,7 +1699,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_CustomTypeStatic_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_CustomTypeStatic_1(NetSerializer_CustomTypeStatic_1const&) = delete;
+  NetSerializer_CustomTypeStatic_1(NetSerializer_CustomTypeStatic_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20134 };
@@ -1874,7 +1874,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer(NetSerializerconst&) = delete;
+  NetSerializer(NetSerializer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20135 };

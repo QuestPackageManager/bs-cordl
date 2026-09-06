@@ -107,7 +107,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ActionManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ActionManager___c(ActionManager___cconst&) = delete;
+  ActionManager___c(ActionManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18425 };
@@ -205,7 +205,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ActionManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ActionManager(ActionManagerconst&) = delete;
+  ActionManager(ActionManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18426 };

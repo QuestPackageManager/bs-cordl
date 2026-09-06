@@ -62,7 +62,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IMGUIEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IMGUIEvent___c(IMGUIEvent___cconst&) = delete;
+  IMGUIEvent___c(IMGUIEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4575 };
@@ -112,7 +112,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IMGUIEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IMGUIEvent(IMGUIEventconst&) = delete;
+  IMGUIEvent(IMGUIEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4576 };

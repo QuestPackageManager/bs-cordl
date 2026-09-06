@@ -36,7 +36,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaMinInclusiveFacet", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaMinInclusiveFacet(XmlSchemaMinInclusiveFacetconst&) = delete;
+  XmlSchemaMinInclusiveFacet(XmlSchemaMinInclusiveFacet const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9777 };

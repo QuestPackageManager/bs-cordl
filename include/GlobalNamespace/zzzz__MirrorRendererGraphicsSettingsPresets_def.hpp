@@ -115,7 +115,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererGraphicsSettingsPresets_Preset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MirrorRendererGraphicsSettingsPresets_Preset(MirrorRendererGraphicsSettingsPresets_Presetconst&) = delete;
+  MirrorRendererGraphicsSettingsPresets_Preset(MirrorRendererGraphicsSettingsPresets_Preset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15055 };
@@ -206,7 +206,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererGraphicsSettingsPresets", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MirrorRendererGraphicsSettingsPresets(MirrorRendererGraphicsSettingsPresetsconst&) = delete;
+  MirrorRendererGraphicsSettingsPresets(MirrorRendererGraphicsSettingsPresets const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15056 };

@@ -95,7 +95,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ManagerUtils_RegisterMember_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ManagerUtils_RegisterMember_1(ManagerUtils_RegisterMember_1const&) = delete;
+  ManagerUtils_RegisterMember_1(ManagerUtils_RegisterMember_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18454 };
@@ -132,7 +132,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ManagerUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ManagerUtils(ManagerUtilsconst&) = delete;
+  ManagerUtils(ManagerUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18455 };

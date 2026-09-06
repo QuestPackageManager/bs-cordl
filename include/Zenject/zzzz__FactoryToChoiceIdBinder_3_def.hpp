@@ -58,7 +58,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FactoryToChoiceIdBinder_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactoryToChoiceIdBinder_3(FactoryToChoiceIdBinder_3const&) = delete;
+  FactoryToChoiceIdBinder_3(FactoryToChoiceIdBinder_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14212 };

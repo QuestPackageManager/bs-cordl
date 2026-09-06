@@ -104,7 +104,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConcreteBinderGeneric_1___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcreteBinderGeneric_1___c__DisplayClass5_0(ConcreteBinderGeneric_1___c__DisplayClass5_0const&) = delete;
+  ConcreteBinderGeneric_1___c__DisplayClass5_0(ConcreteBinderGeneric_1___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14023 };
@@ -170,7 +170,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConcreteBinderGeneric_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcreteBinderGeneric_1(ConcreteBinderGeneric_1const&) = delete;
+  ConcreteBinderGeneric_1(ConcreteBinderGeneric_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14024 };

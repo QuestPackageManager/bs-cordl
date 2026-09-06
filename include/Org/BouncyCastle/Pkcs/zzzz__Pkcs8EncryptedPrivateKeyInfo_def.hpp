@@ -77,7 +77,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs8EncryptedPrivateKeyInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pkcs8EncryptedPrivateKeyInfo(Pkcs8EncryptedPrivateKeyInfoconst&) = delete;
+  Pkcs8EncryptedPrivateKeyInfo(Pkcs8EncryptedPrivateKeyInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1703 };

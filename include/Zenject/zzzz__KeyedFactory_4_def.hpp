@@ -66,7 +66,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyedFactory_4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyedFactory_4(KeyedFactory_4const&) = delete;
+  KeyedFactory_4(KeyedFactory_4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14352 };

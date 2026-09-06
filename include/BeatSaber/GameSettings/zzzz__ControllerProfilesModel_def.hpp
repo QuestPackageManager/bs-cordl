@@ -166,7 +166,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ControllerProfilesModel___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ControllerProfilesModel___c(ControllerProfilesModel___cconst&) = delete;
+  ControllerProfilesModel___c(ControllerProfilesModel___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22048 };
@@ -295,7 +295,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ControllerProfilesModel__GetBuiltInProfiles_d__25", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ControllerProfilesModel__GetBuiltInProfiles_d__25(ControllerProfilesModel__GetBuiltInProfiles_d__25const&) = delete;
+  ControllerProfilesModel__GetBuiltInProfiles_d__25(ControllerProfilesModel__GetBuiltInProfiles_d__25 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22049 };
@@ -617,7 +617,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ControllerProfilesModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ControllerProfilesModel(ControllerProfilesModelconst&) = delete;
+  ControllerProfilesModel(ControllerProfilesModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22052 };

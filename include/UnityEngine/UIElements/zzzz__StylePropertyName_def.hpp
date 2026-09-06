@@ -205,7 +205,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_StylePropertyName_IdProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_StylePropertyName_IdProperty(PropertyBag_StylePropertyName_IdPropertyconst&) = delete;
+  PropertyBag_StylePropertyName_IdProperty(PropertyBag_StylePropertyName_IdProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5052 };
@@ -290,7 +290,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_StylePropertyName_NameProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_StylePropertyName_NameProperty(PropertyBag_StylePropertyName_NamePropertyconst&) = delete;
+  PropertyBag_StylePropertyName_NameProperty(PropertyBag_StylePropertyName_NameProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5053 };
@@ -343,7 +343,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StylePropertyName_PropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyName_PropertyBag(StylePropertyName_PropertyBagconst&) = delete;
+  StylePropertyName_PropertyBag(StylePropertyName_PropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5054 };

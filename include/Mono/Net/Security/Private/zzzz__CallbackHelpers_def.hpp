@@ -92,7 +92,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CallbackHelpers___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CallbackHelpers___c__DisplayClass0_0(CallbackHelpers___c__DisplayClass0_0const&) = delete;
+  CallbackHelpers___c__DisplayClass0_0(CallbackHelpers___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11038 };
@@ -146,7 +146,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CallbackHelpers___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CallbackHelpers___c__DisplayClass6_0(CallbackHelpers___c__DisplayClass6_0const&) = delete;
+  CallbackHelpers___c__DisplayClass6_0(CallbackHelpers___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11039 };
@@ -191,7 +191,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CallbackHelpers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CallbackHelpers(CallbackHelpersconst&) = delete;
+  CallbackHelpers(CallbackHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11040 };

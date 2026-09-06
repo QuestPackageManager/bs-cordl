@@ -155,7 +155,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20(SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20const&) = delete;
+  SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20(SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6675 };
@@ -332,7 +332,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SongTimeSyncedVideoPlayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongTimeSyncedVideoPlayer(SongTimeSyncedVideoPlayerconst&) = delete;
+  SongTimeSyncedVideoPlayer(SongTimeSyncedVideoPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6676 };

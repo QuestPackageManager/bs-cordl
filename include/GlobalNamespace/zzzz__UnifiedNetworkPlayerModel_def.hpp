@@ -228,7 +228,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnifiedNetworkPlayerModel_JoinMatchmakingPartyConfig", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnifiedNetworkPlayerModel_JoinMatchmakingPartyConfig(UnifiedNetworkPlayerModel_JoinMatchmakingPartyConfigconst&) = delete;
+  UnifiedNetworkPlayerModel_JoinMatchmakingPartyConfig(UnifiedNetworkPlayerModel_JoinMatchmakingPartyConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21605 };
@@ -308,7 +308,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnifiedNetworkPlayerModel_StartClientPartyConfig", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnifiedNetworkPlayerModel_StartClientPartyConfig(UnifiedNetworkPlayerModel_StartClientPartyConfigconst&) = delete;
+  UnifiedNetworkPlayerModel_StartClientPartyConfig(UnifiedNetworkPlayerModel_StartClientPartyConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21606 };
@@ -465,7 +465,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnifiedNetworkPlayerModel__get_otherPlayers_d__61", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnifiedNetworkPlayerModel__get_otherPlayers_d__61(UnifiedNetworkPlayerModel__get_otherPlayers_d__61const&) = delete;
+  UnifiedNetworkPlayerModel__get_otherPlayers_d__61(UnifiedNetworkPlayerModel__get_otherPlayers_d__61 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21607 };
@@ -848,7 +848,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnifiedNetworkPlayerModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnifiedNetworkPlayerModel(UnifiedNetworkPlayerModelconst&) = delete;
+  UnifiedNetworkPlayerModel(UnifiedNetworkPlayerModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21608 };

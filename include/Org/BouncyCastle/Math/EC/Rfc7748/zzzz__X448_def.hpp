@@ -68,7 +68,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "X448", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X448(X448const&) = delete;
+  X448(X448 const&) = delete;
 
   /// @brief Field C_A offset 0xffffffff size 0x4
   static constexpr uint32_t C_A{ static_cast<uint32_t>(0x262a6u) };

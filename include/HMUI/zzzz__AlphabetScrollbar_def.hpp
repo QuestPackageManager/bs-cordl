@@ -178,7 +178,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AlphabetScrollbar__PointerMoveInsideCoroutine_d__18", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AlphabetScrollbar__PointerMoveInsideCoroutine_d__18(AlphabetScrollbar__PointerMoveInsideCoroutine_d__18const&) = delete;
+  AlphabetScrollbar__PointerMoveInsideCoroutine_d__18(AlphabetScrollbar__PointerMoveInsideCoroutine_d__18 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19017 };
@@ -391,7 +391,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AlphabetScrollbar", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AlphabetScrollbar(AlphabetScrollbarconst&) = delete;
+  AlphabetScrollbar(AlphabetScrollbar const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19018 };

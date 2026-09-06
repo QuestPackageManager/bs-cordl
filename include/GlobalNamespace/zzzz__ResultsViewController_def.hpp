@@ -183,7 +183,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ResultsViewController__StartFireworksAfterDelay_d__35", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResultsViewController__StartFireworksAfterDelay_d__35(ResultsViewController__StartFireworksAfterDelay_d__35const&) = delete;
+  ResultsViewController__StartFireworksAfterDelay_d__35(ResultsViewController__StartFireworksAfterDelay_d__35 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6990 };
@@ -506,7 +506,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ResultsViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResultsViewController(ResultsViewControllerconst&) = delete;
+  ResultsViewController(ResultsViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6991 };

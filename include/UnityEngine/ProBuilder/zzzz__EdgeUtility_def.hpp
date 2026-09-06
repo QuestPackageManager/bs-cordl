@@ -77,7 +77,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EdgeUtility___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EdgeUtility___c__DisplayClass0_0(EdgeUtility___c__DisplayClass0_0const&) = delete;
+  EdgeUtility___c__DisplayClass0_0(EdgeUtility___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16731 };
@@ -152,7 +152,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EdgeUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EdgeUtility(EdgeUtilityconst&) = delete;
+  EdgeUtility(EdgeUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16732 };

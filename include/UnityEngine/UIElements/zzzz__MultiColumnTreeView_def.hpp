@@ -115,7 +115,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiColumnTreeView_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiColumnTreeView_UxmlFactory(MultiColumnTreeView_UxmlFactoryconst&) = delete;
+  MultiColumnTreeView_UxmlFactory(MultiColumnTreeView_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4272 };
@@ -185,7 +185,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiColumnTreeView_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiColumnTreeView_UxmlTraits(MultiColumnTreeView_UxmlTraitsconst&) = delete;
+  MultiColumnTreeView_UxmlTraits(MultiColumnTreeView_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4273 };
@@ -373,7 +373,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiColumnTreeView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiColumnTreeView(MultiColumnTreeViewconst&) = delete;
+  MultiColumnTreeView(MultiColumnTreeView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4274 };

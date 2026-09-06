@@ -355,7 +355,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTask_MultiTaskData_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTask_MultiTaskData_1(OVRTask_MultiTaskData_1const&) = delete;
+  OVRTask_MultiTaskData_1(OVRTask_MultiTaskData_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7831 };
@@ -413,7 +413,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiTaskData_2_OVRTask___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiTaskData_2_OVRTask___c(MultiTaskData_2_OVRTask___cconst&) = delete;
+  MultiTaskData_2_OVRTask___c(MultiTaskData_2_OVRTask___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7832 };
@@ -469,7 +469,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTask_MultiTaskData_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTask_MultiTaskData_2(OVRTask_MultiTaskData_2const&) = delete;
+  OVRTask_MultiTaskData_2(OVRTask_MultiTaskData_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7833 };
@@ -521,7 +521,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiTaskData_3_OVRTask___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiTaskData_3_OVRTask___c(MultiTaskData_3_OVRTask___cconst&) = delete;
+  MultiTaskData_3_OVRTask___c(MultiTaskData_3_OVRTask___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7834 };
@@ -586,7 +586,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTask_MultiTaskData_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTask_MultiTaskData_3(OVRTask_MultiTaskData_3const&) = delete;
+  OVRTask_MultiTaskData_3(OVRTask_MultiTaskData_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7835 };
@@ -641,7 +641,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiTaskData_4_OVRTask___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiTaskData_4_OVRTask___c(MultiTaskData_4_OVRTask___cconst&) = delete;
+  MultiTaskData_4_OVRTask___c(MultiTaskData_4_OVRTask___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7836 };
@@ -714,7 +714,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTask_MultiTaskData_4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTask_MultiTaskData_4(OVRTask_MultiTaskData_4const&) = delete;
+  OVRTask_MultiTaskData_4(OVRTask_MultiTaskData_4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7837 };
@@ -772,7 +772,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiTaskData_5_OVRTask___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiTaskData_5_OVRTask___c(MultiTaskData_5_OVRTask___cconst&) = delete;
+  MultiTaskData_5_OVRTask___c(MultiTaskData_5_OVRTask___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7838 };
@@ -854,7 +854,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTask_MultiTaskData_5", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTask_MultiTaskData_5(OVRTask_MultiTaskData_5const&) = delete;
+  OVRTask_MultiTaskData_5(OVRTask_MultiTaskData_5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7839 };
@@ -915,7 +915,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiTaskData_6_OVRTask___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiTaskData_6_OVRTask___c(MultiTaskData_6_OVRTask___cconst&) = delete;
+  MultiTaskData_6_OVRTask___c(MultiTaskData_6_OVRTask___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7840 };
@@ -1005,7 +1005,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTask_MultiTaskData_6", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTask_MultiTaskData_6(OVRTask_MultiTaskData_6const&) = delete;
+  OVRTask_MultiTaskData_6(OVRTask_MultiTaskData_6 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7841 };
@@ -1069,7 +1069,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiTaskData_7_OVRTask___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiTaskData_7_OVRTask___c(MultiTaskData_7_OVRTask___cconst&) = delete;
+  MultiTaskData_7_OVRTask___c(MultiTaskData_7_OVRTask___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7842 };
@@ -1168,7 +1168,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTask_MultiTaskData_7", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTask_MultiTaskData_7(OVRTask_MultiTaskData_7const&) = delete;
+  OVRTask_MultiTaskData_7(OVRTask_MultiTaskData_7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7843 };
@@ -1235,7 +1235,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiTaskData_8_OVRTask___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiTaskData_8_OVRTask___c(MultiTaskData_8_OVRTask___cconst&) = delete;
+  MultiTaskData_8_OVRTask___c(MultiTaskData_8_OVRTask___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7844 };
@@ -1349,7 +1349,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTask_MultiTaskData_8", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTask_MultiTaskData_8(OVRTask_MultiTaskData_8const&) = delete;
+  OVRTask_MultiTaskData_8(OVRTask_MultiTaskData_8 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7845 };
@@ -1509,7 +1509,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTask", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTask(OVRTaskconst&) = delete;
+  OVRTask(OVRTask const&) = delete;
 
   /// @brief Field HashModifier1 offset 0xffffffff size 0x8
   static constexpr uint64_t HashModifier1{ static_cast<uint64_t>(0x319642b2d24d8ec3u) };

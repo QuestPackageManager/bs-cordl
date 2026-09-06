@@ -78,7 +78,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskSchedulerAwaitTaskContinuation___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskSchedulerAwaitTaskContinuation___c(TaskSchedulerAwaitTaskContinuation___cconst&) = delete;
+  TaskSchedulerAwaitTaskContinuation___c(TaskSchedulerAwaitTaskContinuation___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2821 };
@@ -127,7 +127,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskSchedulerAwaitTaskContinuation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskSchedulerAwaitTaskContinuation(TaskSchedulerAwaitTaskContinuationconst&) = delete;
+  TaskSchedulerAwaitTaskContinuation(TaskSchedulerAwaitTaskContinuation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2822 };

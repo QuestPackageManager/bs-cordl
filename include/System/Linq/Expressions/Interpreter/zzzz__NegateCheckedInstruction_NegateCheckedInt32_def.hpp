@@ -43,7 +43,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NegateCheckedInstruction_NegateCheckedInt32", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NegateCheckedInstruction_NegateCheckedInt32(NegateCheckedInstruction_NegateCheckedInt32const&) = delete;
+  NegateCheckedInstruction_NegateCheckedInt32(NegateCheckedInstruction_NegateCheckedInt32 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16511 };

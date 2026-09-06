@@ -145,7 +145,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ImmutableCollectionsUtils_ImmutableCollectionTypeInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ImmutableCollectionsUtils_ImmutableCollectionTypeInfo(ImmutableCollectionsUtils_ImmutableCollectionTypeInfoconst&) = delete;
+  ImmutableCollectionsUtils_ImmutableCollectionTypeInfo(ImmutableCollectionsUtils_ImmutableCollectionTypeInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13424 };
@@ -228,7 +228,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ImmutableCollectionsUtils___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ImmutableCollectionsUtils___c(ImmutableCollectionsUtils___cconst&) = delete;
+  ImmutableCollectionsUtils___c(ImmutableCollectionsUtils___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13425 };
@@ -277,7 +277,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ImmutableCollectionsUtils___c__DisplayClass24_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ImmutableCollectionsUtils___c__DisplayClass24_0(ImmutableCollectionsUtils___c__DisplayClass24_0const&) = delete;
+  ImmutableCollectionsUtils___c__DisplayClass24_0(ImmutableCollectionsUtils___c__DisplayClass24_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13426 };
@@ -332,7 +332,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ImmutableCollectionsUtils___c__DisplayClass25_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ImmutableCollectionsUtils___c__DisplayClass25_0(ImmutableCollectionsUtils___c__DisplayClass25_0const&) = delete;
+  ImmutableCollectionsUtils___c__DisplayClass25_0(ImmutableCollectionsUtils___c__DisplayClass25_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13427 };
@@ -408,7 +408,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ImmutableCollectionsUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ImmutableCollectionsUtils(ImmutableCollectionsUtilsconst&) = delete;
+  ImmutableCollectionsUtils(ImmutableCollectionsUtils const&) = delete;
 
   /// @brief Field ImmutableArrayGenericTypeName offset 0xffffffff size 0x8
   static constexpr ::ConstString ImmutableArrayGenericTypeName{ u"System.Collections.Immutable.ImmutableArray`1" };

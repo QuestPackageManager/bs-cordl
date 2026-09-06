@@ -203,7 +203,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_FontDefinition_FontProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_FontDefinition_FontProperty(PropertyBag_FontDefinition_FontPropertyconst&) = delete;
+  PropertyBag_FontDefinition_FontProperty(PropertyBag_FontDefinition_FontProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4714 };
@@ -288,7 +288,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_FontDefinition_FontAssetProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_FontDefinition_FontAssetProperty(PropertyBag_FontDefinition_FontAssetPropertyconst&) = delete;
+  PropertyBag_FontDefinition_FontAssetProperty(PropertyBag_FontDefinition_FontAssetProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4715 };
@@ -341,7 +341,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FontDefinition_PropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FontDefinition_PropertyBag(FontDefinition_PropertyBagconst&) = delete;
+  FontDefinition_PropertyBag(FontDefinition_PropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4716 };

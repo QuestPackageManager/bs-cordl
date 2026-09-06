@@ -134,7 +134,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WebRequest_DesignerWebRequestCreate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WebRequest_DesignerWebRequestCreate(WebRequest_DesignerWebRequestCreateconst&) = delete;
+  WebRequest_DesignerWebRequestCreate(WebRequest_DesignerWebRequestCreate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11517 };
@@ -191,7 +191,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WebRequest___c__DisplayClass78_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WebRequest___c__DisplayClass78_0(WebRequest___c__DisplayClass78_0const&) = delete;
+  WebRequest___c__DisplayClass78_0(WebRequest___c__DisplayClass78_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11518 };
@@ -258,7 +258,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WebRequest___c__DisplayClass79_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WebRequest___c__DisplayClass79_0(WebRequest___c__DisplayClass79_0const&) = delete;
+  WebRequest___c__DisplayClass79_0(WebRequest___c__DisplayClass79_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11519 };
@@ -554,7 +554,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WebRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WebRequest(WebRequestconst&) = delete;
+  WebRequest(WebRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11520 };

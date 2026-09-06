@@ -104,7 +104,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputState_StateChangeMonitorDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputState_StateChangeMonitorDelegate(InputState_StateChangeMonitorDelegateconst&) = delete;
+  InputState_StateChangeMonitorDelegate(InputState_StateChangeMonitorDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9058 };
@@ -202,7 +202,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputState(InputStateconst&) = delete;
+  InputState(InputState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9059 };

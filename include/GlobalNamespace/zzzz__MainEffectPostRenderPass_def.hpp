@@ -133,7 +133,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MainEffectPostRenderPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainEffectPostRenderPass_PassData(MainEffectPostRenderPass_PassDataconst&) = delete;
+  MainEffectPostRenderPass_PassData(MainEffectPostRenderPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20640 };
@@ -234,7 +234,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MainEffectPostRenderPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainEffectPostRenderPass___c(MainEffectPostRenderPass___cconst&) = delete;
+  MainEffectPostRenderPass___c(MainEffectPostRenderPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20641 };
@@ -282,7 +282,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MainEffectPostRenderPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainEffectPostRenderPass(MainEffectPostRenderPassconst&) = delete;
+  MainEffectPostRenderPass(MainEffectPostRenderPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20642 };

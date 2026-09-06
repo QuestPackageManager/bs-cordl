@@ -142,7 +142,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeResourceSet", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeResourceSet(RuntimeResourceSetconst&) = delete;
+  RuntimeResourceSet(RuntimeResourceSet const&) = delete;
 
   /// @brief Field Version offset 0xffffffff size 0x4
   static constexpr int32_t Version{ static_cast<int32_t>(0x2) };

@@ -182,7 +182,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HC128Engine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HC128Engine(HC128Engineconst&) = delete;
+  HC128Engine(HC128Engine const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 846 };

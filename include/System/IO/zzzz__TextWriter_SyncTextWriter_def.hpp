@@ -141,7 +141,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TextWriter_SyncTextWriter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextWriter_SyncTextWriter(TextWriter_SyncTextWriterconst&) = delete;
+  TextWriter_SyncTextWriter(TextWriter_SyncTextWriter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3869 };

@@ -123,7 +123,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HableCurve_Segment", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HableCurve_Segment(HableCurve_Segmentconst&) = delete;
+  HableCurve_Segment(HableCurve_Segment const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12297 };
@@ -301,7 +301,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HableCurve_Uniforms", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HableCurve_Uniforms(HableCurve_Uniformsconst&) = delete;
+  HableCurve_Uniforms(HableCurve_Uniforms const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12299 };
@@ -459,7 +459,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HableCurve", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HableCurve(HableCurveconst&) = delete;
+  HableCurve(HableCurve const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12300 };

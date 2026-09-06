@@ -127,7 +127,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LoggerAnalyticsBatch", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LoggerAnalyticsBatch(LoggerAnalyticsBatchconst&) = delete;
+  LoggerAnalyticsBatch(LoggerAnalyticsBatch const&) = delete;
 
   /// @brief Field FAILED_BATCH_RETRIES offset 0xffffffff size 0x4
   static constexpr int32_t FAILED_BATCH_RETRIES{ static_cast<int32_t>(0x3) };

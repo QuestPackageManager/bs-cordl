@@ -124,7 +124,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InspectedMember", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InspectedMember(InspectedMemberconst&) = delete;
+  InspectedMember(InspectedMember const&) = delete;
 
   /// @brief Field Flags value: I32(62)
   static ::System::Reflection::BindingFlags const Flags;

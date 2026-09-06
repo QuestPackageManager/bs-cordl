@@ -40,7 +40,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CipherSuite", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CipherSuite(CipherSuiteconst&) = delete;
+  CipherSuite(CipherSuite const&) = delete;
 
   /// @brief Field DRAFT_TLS_DHE_PSK_WITH_CHACHA20_POLY1305_SHA256 offset 0xffffffff size 0x4
   static constexpr int32_t DRAFT_TLS_DHE_PSK_WITH_CHACHA20_POLY1305_SHA256{ static_cast<int32_t>(0xccad) };

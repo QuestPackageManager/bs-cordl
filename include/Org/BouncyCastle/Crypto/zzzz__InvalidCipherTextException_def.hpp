@@ -50,7 +50,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InvalidCipherTextException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InvalidCipherTextException(InvalidCipherTextExceptionconst&) = delete;
+  InvalidCipherTextException(InvalidCipherTextException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1350 };

@@ -243,7 +243,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRInput__SetActionManifestPath", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__SetActionManifestPath(IVRInput__SetActionManifestPathconst&) = delete;
+  IVRInput__SetActionManifestPath(IVRInput__SetActionManifestPath const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8340 };
@@ -288,7 +288,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetActionSetHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__GetActionSetHandle(IVRInput__GetActionSetHandleconst&) = delete;
+  IVRInput__GetActionSetHandle(IVRInput__GetActionSetHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8341 };
@@ -333,7 +333,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetActionHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__GetActionHandle(IVRInput__GetActionHandleconst&) = delete;
+  IVRInput__GetActionHandle(IVRInput__GetActionHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8342 };
@@ -378,7 +378,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetInputSourceHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__GetInputSourceHandle(IVRInput__GetInputSourceHandleconst&) = delete;
+  IVRInput__GetInputSourceHandle(IVRInput__GetInputSourceHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8343 };
@@ -424,7 +424,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRInput__UpdateActionState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__UpdateActionState(IVRInput__UpdateActionStateconst&) = delete;
+  IVRInput__UpdateActionState(IVRInput__UpdateActionState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8344 };
@@ -470,7 +470,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetDigitalActionData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__GetDigitalActionData(IVRInput__GetDigitalActionDataconst&) = delete;
+  IVRInput__GetDigitalActionData(IVRInput__GetDigitalActionData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8345 };
@@ -516,7 +516,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetAnalogActionData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__GetAnalogActionData(IVRInput__GetAnalogActionDataconst&) = delete;
+  IVRInput__GetAnalogActionData(IVRInput__GetAnalogActionData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8346 };
@@ -564,7 +564,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetPoseActionData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__GetPoseActionData(IVRInput__GetPoseActionDataconst&) = delete;
+  IVRInput__GetPoseActionData(IVRInput__GetPoseActionData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8347 };
@@ -610,7 +610,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetSkeletalActionData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__GetSkeletalActionData(IVRInput__GetSkeletalActionDataconst&) = delete;
+  IVRInput__GetSkeletalActionData(IVRInput__GetSkeletalActionData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8348 };
@@ -658,7 +658,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetSkeletalBoneData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__GetSkeletalBoneData(IVRInput__GetSkeletalBoneDataconst&) = delete;
+  IVRInput__GetSkeletalBoneData(IVRInput__GetSkeletalBoneData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8349 };
@@ -706,7 +706,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetSkeletalBoneDataCompressed", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__GetSkeletalBoneDataCompressed(IVRInput__GetSkeletalBoneDataCompressedconst&) = delete;
+  IVRInput__GetSkeletalBoneDataCompressed(IVRInput__GetSkeletalBoneDataCompressed const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8350 };
@@ -754,7 +754,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRInput__DecompressSkeletalBoneData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__DecompressSkeletalBoneData(IVRInput__DecompressSkeletalBoneDataconst&) = delete;
+  IVRInput__DecompressSkeletalBoneData(IVRInput__DecompressSkeletalBoneData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8351 };
@@ -800,7 +800,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRInput__TriggerHapticVibrationAction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__TriggerHapticVibrationAction(IVRInput__TriggerHapticVibrationActionconst&) = delete;
+  IVRInput__TriggerHapticVibrationAction(IVRInput__TriggerHapticVibrationAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8352 };
@@ -846,7 +846,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetActionOrigins", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__GetActionOrigins(IVRInput__GetActionOriginsconst&) = delete;
+  IVRInput__GetActionOrigins(IVRInput__GetActionOrigins const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8353 };
@@ -891,7 +891,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetOriginLocalizedName", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__GetOriginLocalizedName(IVRInput__GetOriginLocalizedNameconst&) = delete;
+  IVRInput__GetOriginLocalizedName(IVRInput__GetOriginLocalizedName const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8354 };
@@ -937,7 +937,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRInput__GetOriginTrackedDeviceInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__GetOriginTrackedDeviceInfo(IVRInput__GetOriginTrackedDeviceInfoconst&) = delete;
+  IVRInput__GetOriginTrackedDeviceInfo(IVRInput__GetOriginTrackedDeviceInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8355 };
@@ -982,7 +982,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRInput__ShowActionOrigins", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__ShowActionOrigins(IVRInput__ShowActionOriginsconst&) = delete;
+  IVRInput__ShowActionOrigins(IVRInput__ShowActionOrigins const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8356 };
@@ -1028,7 +1028,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRInput__ShowBindingsForActionSet", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRInput__ShowBindingsForActionSet(IVRInput__ShowBindingsForActionSetconst&) = delete;
+  IVRInput__ShowBindingsForActionSet(IVRInput__ShowBindingsForActionSet const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8357 };

@@ -61,7 +61,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_untypedAtomicType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Datatype_untypedAtomicType(Datatype_untypedAtomicTypeconst&) = delete;
+  Datatype_untypedAtomicType(Datatype_untypedAtomicType const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9618 };

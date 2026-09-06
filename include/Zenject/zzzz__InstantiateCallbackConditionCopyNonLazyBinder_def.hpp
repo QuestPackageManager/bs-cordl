@@ -86,7 +86,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InstantiateCallbackConditionCopyNonLazyBinder___c__DisplayClass2_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InstantiateCallbackConditionCopyNonLazyBinder___c__DisplayClass2_0_1(InstantiateCallbackConditionCopyNonLazyBinder___c__DisplayClass2_0_1const&) = delete;
+  InstantiateCallbackConditionCopyNonLazyBinder___c__DisplayClass2_0_1(InstantiateCallbackConditionCopyNonLazyBinder___c__DisplayClass2_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14277 };
@@ -131,7 +131,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InstantiateCallbackConditionCopyNonLazyBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InstantiateCallbackConditionCopyNonLazyBinder(InstantiateCallbackConditionCopyNonLazyBinderconst&) = delete;
+  InstantiateCallbackConditionCopyNonLazyBinder(InstantiateCallbackConditionCopyNonLazyBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14278 };

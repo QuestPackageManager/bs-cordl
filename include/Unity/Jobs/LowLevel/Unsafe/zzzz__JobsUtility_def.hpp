@@ -129,7 +129,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JobsUtility_PanicFunction_", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JobsUtility_PanicFunction_(JobsUtility_PanicFunction_const&) = delete;
+  JobsUtility_PanicFunction_(JobsUtility_PanicFunction_ const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9934 };
@@ -260,7 +260,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JobsUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JobsUtility(JobsUtilityconst&) = delete;
+  JobsUtility(JobsUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9935 };

@@ -76,7 +76,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Gradient_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Gradient_BindingsMarshaller(Gradient_BindingsMarshallerconst&) = delete;
+  Gradient_BindingsMarshaller(Gradient_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10252 };
@@ -254,7 +254,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Gradient", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Gradient(Gradientconst&) = delete;
+  Gradient(Gradient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10253 };

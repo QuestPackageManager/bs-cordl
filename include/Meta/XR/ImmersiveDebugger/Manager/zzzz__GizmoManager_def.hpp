@@ -158,7 +158,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GizmoManager___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GizmoManager___c__DisplayClass4_0(GizmoManager___c__DisplayClass4_0const&) = delete;
+  GizmoManager___c__DisplayClass4_0(GizmoManager___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18432 };
@@ -253,7 +253,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GizmoManager___c__DisplayClass4_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GizmoManager___c__DisplayClass4_1(GizmoManager___c__DisplayClass4_1const&) = delete;
+  GizmoManager___c__DisplayClass4_1(GizmoManager___c__DisplayClass4_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18433 };
@@ -377,7 +377,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GizmoManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GizmoManager(GizmoManagerconst&) = delete;
+  GizmoManager(GizmoManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18434 };

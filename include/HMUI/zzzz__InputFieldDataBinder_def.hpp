@@ -108,7 +108,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputFieldDataBinder___c__3_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputFieldDataBinder___c__3_1(InputFieldDataBinder___c__3_1const&) = delete;
+  InputFieldDataBinder___c__3_1(InputFieldDataBinder___c__3_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19023 };
@@ -187,7 +187,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputFieldDataBinder___c__DisplayClass2_0_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputFieldDataBinder___c__DisplayClass2_0_2(InputFieldDataBinder___c__DisplayClass2_0_2const&) = delete;
+  InputFieldDataBinder___c__DisplayClass2_0_2(InputFieldDataBinder___c__DisplayClass2_0_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19024 };
@@ -269,7 +269,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputFieldDataBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputFieldDataBinder(InputFieldDataBinderconst&) = delete;
+  InputFieldDataBinder(InputFieldDataBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19025 };

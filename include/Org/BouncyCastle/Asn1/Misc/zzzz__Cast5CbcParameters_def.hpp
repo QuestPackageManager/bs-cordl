@@ -90,7 +90,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Cast5CbcParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Cast5CbcParameters(Cast5CbcParametersconst&) = delete;
+  Cast5CbcParameters(Cast5CbcParameters const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 195 };

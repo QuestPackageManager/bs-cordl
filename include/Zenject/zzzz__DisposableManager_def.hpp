@@ -181,7 +181,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DisposableManager_LateDisposableInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DisposableManager_LateDisposableInfo(DisposableManager_LateDisposableInfoconst&) = delete;
+  DisposableManager_LateDisposableInfo(DisposableManager_LateDisposableInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14660 };
@@ -281,7 +281,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DisposableManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DisposableManager___c(DisposableManager___cconst&) = delete;
+  DisposableManager___c(DisposableManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14661 };
@@ -336,7 +336,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DisposableManager___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DisposableManager___c__DisplayClass4_0(DisposableManager___c__DisplayClass4_0const&) = delete;
+  DisposableManager___c__DisplayClass4_0(DisposableManager___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14662 };
@@ -396,7 +396,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DisposableManager___c__DisplayClass4_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DisposableManager___c__DisplayClass4_1(DisposableManager___c__DisplayClass4_1const&) = delete;
+  DisposableManager___c__DisplayClass4_1(DisposableManager___c__DisplayClass4_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14663 };
@@ -456,7 +456,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DisposableManager___c__DisplayClass9_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DisposableManager___c__DisplayClass9_0(DisposableManager___c__DisplayClass9_0const&) = delete;
+  DisposableManager___c__DisplayClass9_0(DisposableManager___c__DisplayClass9_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14664 };
@@ -591,7 +591,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DisposableManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DisposableManager(DisposableManagerconst&) = delete;
+  DisposableManager(DisposableManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14665 };

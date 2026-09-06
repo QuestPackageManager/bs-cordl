@@ -84,7 +84,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SmallXmlParser_IContentHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SmallXmlParser_IContentHandler(SmallXmlParser_IContentHandlerconst&) = delete;
+  SmallXmlParser_IContentHandler(SmallXmlParser_IContentHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2251 };
@@ -126,7 +126,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SmallXmlParser_IAttrList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SmallXmlParser_IAttrList(SmallXmlParser_IAttrListconst&) = delete;
+  SmallXmlParser_IAttrList(SmallXmlParser_IAttrList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2252 };
@@ -213,7 +213,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SmallXmlParser_AttrListImpl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SmallXmlParser_AttrListImpl(SmallXmlParser_AttrListImplconst&) = delete;
+  SmallXmlParser_AttrListImpl(SmallXmlParser_AttrListImpl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2253 };
@@ -438,7 +438,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SmallXmlParser", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SmallXmlParser(SmallXmlParserconst&) = delete;
+  SmallXmlParser(SmallXmlParser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2254 };

@@ -82,7 +82,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TemplateContainer_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TemplateContainer_UxmlFactory(TemplateContainer_UxmlFactoryconst&) = delete;
+  TemplateContainer_UxmlFactory(TemplateContainer_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5085 };
@@ -130,7 +130,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TemplateContainer_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TemplateContainer_UxmlTraits(TemplateContainer_UxmlTraitsconst&) = delete;
+  TemplateContainer_UxmlTraits(TemplateContainer_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5086 };
@@ -256,7 +256,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TemplateContainer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TemplateContainer(TemplateContainerconst&) = delete;
+  TemplateContainer(TemplateContainer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5087 };

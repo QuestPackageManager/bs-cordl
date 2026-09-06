@@ -99,7 +99,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Vector2Field_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector2Field_UxmlFactory(Vector2Field_UxmlFactoryconst&) = delete;
+  Vector2Field_UxmlFactory(Vector2Field_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4157 };
@@ -156,7 +156,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Vector2Field_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector2Field_UxmlTraits(Vector2Field_UxmlTraitsconst&) = delete;
+  Vector2Field_UxmlTraits(Vector2Field_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4158 };
@@ -255,7 +255,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Vector2Field___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector2Field___c(Vector2Field___cconst&) = delete;
+  Vector2Field___c(Vector2Field___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4159 };
@@ -326,7 +326,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Vector2Field", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector2Field(Vector2Fieldconst&) = delete;
+  Vector2Field(Vector2Field const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4160 };

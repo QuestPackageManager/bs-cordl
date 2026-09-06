@@ -74,7 +74,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ViewControllerBase_DidActivateDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ViewControllerBase_DidActivateDelegate(ViewControllerBase_DidActivateDelegateconst&) = delete;
+  ViewControllerBase_DidActivateDelegate(ViewControllerBase_DidActivateDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19072 };
@@ -118,7 +118,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ViewControllerBase_DidDeactivateDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ViewControllerBase_DidDeactivateDelegate(ViewControllerBase_DidDeactivateDelegateconst&) = delete;
+  ViewControllerBase_DidDeactivateDelegate(ViewControllerBase_DidDeactivateDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19073 };
@@ -197,7 +197,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ViewControllerBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ViewControllerBase(ViewControllerBaseconst&) = delete;
+  ViewControllerBase(ViewControllerBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19074 };

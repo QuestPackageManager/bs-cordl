@@ -91,7 +91,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RegexConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RegexConverter(RegexConverterconst&) = delete;
+  RegexConverter(RegexConverter const&) = delete;
 
   /// @brief Field OptionsName offset 0xffffffff size 0x8
   static constexpr ::ConstString OptionsName{ u"Options" };

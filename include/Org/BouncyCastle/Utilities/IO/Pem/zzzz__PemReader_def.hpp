@@ -63,7 +63,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PemReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PemReader(PemReaderconst&) = delete;
+  PemReader(PemReader const&) = delete;
 
   /// @brief Field BeginString offset 0xffffffff size 0x8
   static constexpr ::ConstString BeginString{ u"-----BEGIN " };

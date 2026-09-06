@@ -192,7 +192,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetBundleResource___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetBundleResource___c(AssetBundleResource___cconst&) = delete;
+  AssetBundleResource___c(AssetBundleResource___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18767 };
@@ -536,7 +536,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetBundleResource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetBundleResource(AssetBundleResourceconst&) = delete;
+  AssetBundleResource(AssetBundleResource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18768 };

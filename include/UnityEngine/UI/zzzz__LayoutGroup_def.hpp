@@ -154,7 +154,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LayoutGroup__DelayedSetDirty_d__56", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LayoutGroup__DelayedSetDirty_d__56(LayoutGroup__DelayedSetDirty_d__56const&) = delete;
+  LayoutGroup__DelayedSetDirty_d__56(LayoutGroup__DelayedSetDirty_d__56 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17460 };
@@ -433,7 +433,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LayoutGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LayoutGroup(LayoutGroupconst&) = delete;
+  LayoutGroup(LayoutGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17461 };

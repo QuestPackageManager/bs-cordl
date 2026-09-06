@@ -34,7 +34,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SupportedPlatforms", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SupportedPlatforms(SupportedPlatformsconst&) = delete;
+  SupportedPlatforms(SupportedPlatforms const&) = delete;
 
   /// @brief Field Android offset 0xffffffff size 0x8
   static constexpr ::ConstString Android{ u"ANDROID" };

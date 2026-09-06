@@ -104,7 +104,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Assembly_ResolveEventHolder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Assembly_ResolveEventHolder(Assembly_ResolveEventHolderconst&) = delete;
+  Assembly_ResolveEventHolder(Assembly_ResolveEventHolder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3536 };
@@ -329,7 +329,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Assembly", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Assembly(Assemblyconst&) = delete;
+  Assembly(Assembly const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3537 };

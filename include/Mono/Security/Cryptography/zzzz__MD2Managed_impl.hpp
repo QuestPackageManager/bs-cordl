@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Mono::Security::Cryptography::MD2Managed::*)(int32_t)>(&::Mono::Security::Cryptography::MD2Managed::Padding)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x5a9fcf4;
+  constexpr static std::size_t addrs = 0x5abbbc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::MD2Managed::*)()>(&::Mono::Security::Cryptography::MD2Managed::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5a9fc48;
+  constexpr static std::size_t addrs = 0x5abbb1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::MD2Managed*>(), { ".ctor", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::MD2Managed::*)()>(&::Mono::Security::Cryptography::MD2Managed::Initialize)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5a9ffbc;
+  constexpr static std::size_t addrs = 0x5abbe90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::MD2Managed::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Mono::Security::Cryptography::MD2Managed::HashCore)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5aa001c;
+  constexpr static std::size_t addrs = 0x5abbef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Mono::Security::Cryptography::MD2Managed::*)()>(&::Mono::Security::Cryptography::MD2Managed::HashFinal)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5aa0360;
+  constexpr static std::size_t addrs = 0x5abc234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::MD2Managed::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, int32_t)>(
     &::Mono::Security::Cryptography::MD2Managed::MD2Transform)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x5aa00f8;
+  constexpr static std::size_t addrs = 0x5abbfcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

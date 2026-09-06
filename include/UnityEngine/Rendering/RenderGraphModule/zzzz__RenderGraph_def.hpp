@@ -506,7 +506,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_ICompiledGraph", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraph_ICompiledGraph(RenderGraph_ICompiledGraphconst&) = delete;
+  RenderGraph_ICompiledGraph(RenderGraph_ICompiledGraph const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12390 };
@@ -588,7 +588,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_CompiledGraph", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraph_CompiledGraph(RenderGraph_CompiledGraphconst&) = delete;
+  RenderGraph_CompiledGraph(RenderGraph_CompiledGraph const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12391 };
@@ -647,7 +647,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_ProfilingScopePassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraph_ProfilingScopePassData(RenderGraph_ProfilingScopePassDataconst&) = delete;
+  RenderGraph_ProfilingScopePassData(RenderGraph_ProfilingScopePassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12392 };
@@ -696,7 +696,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_OnGraphRegisteredDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraph_OnGraphRegisteredDelegate(RenderGraph_OnGraphRegisteredDelegateconst&) = delete;
+  RenderGraph_OnGraphRegisteredDelegate(RenderGraph_OnGraphRegisteredDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12393 };
@@ -740,7 +740,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_OnExecutionRegisteredDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraph_OnExecutionRegisteredDelegate(RenderGraph_OnExecutionRegisteredDelegateconst&) = delete;
+  RenderGraph_OnExecutionRegisteredDelegate(RenderGraph_OnExecutionRegisteredDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12394 };
@@ -830,7 +830,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeRenderPassInfo_NRPInfo_PassData_DebugData_RenderGraph_AttachmentInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeRenderPassInfo_NRPInfo_PassData_DebugData_RenderGraph_AttachmentInfo(NativeRenderPassInfo_NRPInfo_PassData_DebugData_RenderGraph_AttachmentInfoconst&) = delete;
+  NativeRenderPassInfo_NRPInfo_PassData_DebugData_RenderGraph_AttachmentInfo(NativeRenderPassInfo_NRPInfo_PassData_DebugData_RenderGraph_AttachmentInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12395 };
@@ -981,7 +981,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NRPInfo_PassData_DebugData_RenderGraph_NativeRenderPassInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NRPInfo_PassData_DebugData_RenderGraph_NativeRenderPassInfo(NRPInfo_PassData_DebugData_RenderGraph_NativeRenderPassInfoconst&) = delete;
+  NRPInfo_PassData_DebugData_RenderGraph_NativeRenderPassInfo(NRPInfo_PassData_DebugData_RenderGraph_NativeRenderPassInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12397 };
@@ -1112,7 +1112,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PassData_DebugData_RenderGraph_NRPInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PassData_DebugData_RenderGraph_NRPInfo(PassData_DebugData_RenderGraph_NRPInfoconst&) = delete;
+  PassData_DebugData_RenderGraph_NRPInfo(PassData_DebugData_RenderGraph_NRPInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12398 };
@@ -1324,7 +1324,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugData_RenderGraph_BufferResourceData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugData_RenderGraph_BufferResourceData(DebugData_RenderGraph_BufferResourceDataconst&) = delete;
+  DebugData_RenderGraph_BufferResourceData(DebugData_RenderGraph_BufferResourceData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12400 };
@@ -1442,7 +1442,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugData_RenderGraph_TextureResourceData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugData_RenderGraph_TextureResourceData(DebugData_RenderGraph_TextureResourceDataconst&) = delete;
+  DebugData_RenderGraph_TextureResourceData(DebugData_RenderGraph_TextureResourceData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12401 };
@@ -1610,7 +1610,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugData_RenderGraph_PassScriptInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugData_RenderGraph_PassScriptInfo(DebugData_RenderGraph_PassScriptInfoconst&) = delete;
+  DebugData_RenderGraph_PassScriptInfo(DebugData_RenderGraph_PassScriptInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12403 };
@@ -1707,7 +1707,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderGraph_DebugData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraph_DebugData(RenderGraph_DebugDataconst&) = delete;
+  RenderGraph_DebugData(RenderGraph_DebugData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12404 };
@@ -1796,7 +1796,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderGraph___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraph___c(RenderGraph___cconst&) = delete;
+  RenderGraph___c(RenderGraph___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12405 };
@@ -2668,7 +2668,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderGraph", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraph(RenderGraphconst&) = delete;
+  RenderGraph(RenderGraph const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12406 };

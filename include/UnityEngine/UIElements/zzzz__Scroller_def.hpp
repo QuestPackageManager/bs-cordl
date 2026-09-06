@@ -100,7 +100,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Scroller_ScrollerSlider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Scroller_ScrollerSlider(Scroller_ScrollerSliderconst&) = delete;
+  Scroller_ScrollerSlider(Scroller_ScrollerSlider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4311 };
@@ -136,7 +136,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Scroller_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Scroller_UxmlFactory(Scroller_UxmlFactoryconst&) = delete;
+  Scroller_UxmlFactory(Scroller_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4312 };
@@ -212,7 +212,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Scroller_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Scroller_UxmlTraits(Scroller_UxmlTraitsconst&) = delete;
+  Scroller_UxmlTraits(Scroller_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4313 };
@@ -466,7 +466,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Scroller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Scroller(Scrollerconst&) = delete;
+  Scroller(Scroller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4314 };

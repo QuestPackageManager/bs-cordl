@@ -160,7 +160,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_FontAsset___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_FontAsset___c(TMP_FontAsset___cconst&) = delete;
+  TMP_FontAsset___c(TMP_FontAsset___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15914 };
@@ -1222,7 +1222,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_FontAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_FontAsset(TMP_FontAssetconst&) = delete;
+  TMP_FontAsset(TMP_FontAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15915 };

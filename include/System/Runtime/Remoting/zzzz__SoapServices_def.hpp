@@ -75,7 +75,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SoapServices_TypeInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SoapServices_TypeInfo(SoapServices_TypeInfoconst&) = delete;
+  SoapServices_TypeInfo(SoapServices_TypeInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3093 };
@@ -198,7 +198,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SoapServices", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SoapServices(SoapServicesconst&) = delete;
+  SoapServices(SoapServices const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3094 };

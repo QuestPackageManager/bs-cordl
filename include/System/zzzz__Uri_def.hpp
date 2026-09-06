@@ -509,7 +509,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Uri_UriInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Uri_UriInfo(Uri_UriInfoconst&) = delete;
+  Uri_UriInfo(Uri_UriInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11062 };
@@ -628,7 +628,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Uri_MoreInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Uri_MoreInfo(Uri_MoreInfoconst&) = delete;
+  Uri_MoreInfo(Uri_MoreInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11064 };
@@ -1477,7 +1477,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Uri", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Uri(Uriconst&) = delete;
+  Uri(Uri const&) = delete;
 
   /// @brief Field DotNetRelativeOrAbsolute value: I32(300)
   static ::System::UriKind const DotNetRelativeOrAbsolute;

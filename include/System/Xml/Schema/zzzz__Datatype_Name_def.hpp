@@ -44,7 +44,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_Name", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Datatype_Name(Datatype_Nameconst&) = delete;
+  Datatype_Name(Datatype_Name const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9650 };

@@ -104,7 +104,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SecT409Field", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecT409Field(SecT409Fieldconst&) = delete;
+  SecT409Field(SecT409Field const&) = delete;
 
   /// @brief Field M25 offset 0xffffffff size 0x8
   static constexpr uint64_t M25{ static_cast<uint64_t>(0x1ffffffu) };

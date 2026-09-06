@@ -60,7 +60,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Display_DisplaysUpdatedDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Display_DisplaysUpdatedDelegate(Display_DisplaysUpdatedDelegateconst&) = delete;
+  Display_DisplaysUpdatedDelegate(Display_DisplaysUpdatedDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10129 };
@@ -196,7 +196,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Display", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Display(Displayconst&) = delete;
+  Display(Display const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10130 };

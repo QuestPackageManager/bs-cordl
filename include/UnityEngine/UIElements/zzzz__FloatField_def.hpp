@@ -75,7 +75,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FloatField_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatField_UxmlFactory(FloatField_UxmlFactoryconst&) = delete;
+  FloatField_UxmlFactory(FloatField_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4189 };
@@ -111,7 +111,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FloatField_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatField_UxmlTraits(FloatField_UxmlTraitsconst&) = delete;
+  FloatField_UxmlTraits(FloatField_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4190 };
@@ -165,7 +165,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FloatField_FloatInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatField_FloatInput(FloatField_FloatInputconst&) = delete;
+  FloatField_FloatInput(FloatField_FloatInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4191 };
@@ -250,7 +250,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FloatField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatField(FloatFieldconst&) = delete;
+  FloatField(FloatField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4192 };

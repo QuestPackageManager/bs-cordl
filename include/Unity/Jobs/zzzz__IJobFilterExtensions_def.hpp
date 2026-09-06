@@ -156,7 +156,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction(JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunctionconst&) = delete;
+  JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction(JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15508 };
@@ -298,7 +298,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IJobFilterExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IJobFilterExtensions(IJobFilterExtensionsconst&) = delete;
+  IJobFilterExtensions(IJobFilterExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15510 };

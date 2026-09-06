@@ -170,7 +170,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13(MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13const&) = delete;
+  MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13(MultiplayerLobbyAvatarManager__RemovePlayerAndDestroy_d__13 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6157 };
@@ -316,7 +316,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLobbyAvatarManager(MultiplayerLobbyAvatarManagerconst&) = delete;
+  MultiplayerLobbyAvatarManager(MultiplayerLobbyAvatarManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6158 };

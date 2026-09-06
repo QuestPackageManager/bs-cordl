@@ -114,7 +114,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0(CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0const&) = delete;
+  CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0(CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17125 };
@@ -169,7 +169,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0(CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0const&) = delete;
+  CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0(CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17126 };
@@ -223,7 +223,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0(CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0const&) = delete;
+  CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0(CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17127 };
@@ -278,7 +278,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlFormatReaderGenerator_CriticalHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlFormatReaderGenerator_CriticalHelper(XmlFormatReaderGenerator_CriticalHelperconst&) = delete;
+  XmlFormatReaderGenerator_CriticalHelper(XmlFormatReaderGenerator_CriticalHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17128 };
@@ -336,7 +336,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlFormatReaderGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlFormatReaderGenerator(XmlFormatReaderGeneratorconst&) = delete;
+  XmlFormatReaderGenerator(XmlFormatReaderGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17129 };

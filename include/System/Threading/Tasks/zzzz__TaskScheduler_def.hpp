@@ -55,7 +55,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskScheduler_SystemThreadingTasks_TaskSchedulerDebugView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskScheduler_SystemThreadingTasks_TaskSchedulerDebugView(TaskScheduler_SystemThreadingTasks_TaskSchedulerDebugViewconst&) = delete;
+  TaskScheduler_SystemThreadingTasks_TaskSchedulerDebugView(TaskScheduler_SystemThreadingTasks_TaskSchedulerDebugView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2827 };
@@ -169,7 +169,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskScheduler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskScheduler(TaskSchedulerconst&) = delete;
+  TaskScheduler(TaskScheduler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2828 };

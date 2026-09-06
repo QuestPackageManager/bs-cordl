@@ -244,7 +244,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightCookieManager_ShaderProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightCookieManager_ShaderProperty(LightCookieManager_ShaderPropertyconst&) = delete;
+  LightCookieManager_ShaderProperty(LightCookieManager_ShaderProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12768 };
@@ -457,7 +457,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightCookieMapping_LightCookieManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightCookieMapping_LightCookieManager___c(LightCookieMapping_LightCookieManager___cconst&) = delete;
+  LightCookieMapping_LightCookieManager___c(LightCookieMapping_LightCookieManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12772 };
@@ -645,7 +645,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightCookieManager_WorkMemory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightCookieManager_WorkMemory(LightCookieManager_WorkMemoryconst&) = delete;
+  LightCookieManager_WorkMemory(LightCookieManager_WorkMemory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12775 };
@@ -829,7 +829,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightCookieManager_LightCookieShaderData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightCookieManager_LightCookieShaderData(LightCookieManager_LightCookieShaderDataconst&) = delete;
+  LightCookieManager_LightCookieShaderData(LightCookieManager_LightCookieShaderData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12776 };
@@ -1113,7 +1113,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightCookieManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightCookieManager(LightCookieManagerconst&) = delete;
+  LightCookieManager(LightCookieManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12777 };

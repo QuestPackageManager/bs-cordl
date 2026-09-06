@@ -77,7 +77,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DroneHover_SineLayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DroneHover_SineLayer(DroneHover_SineLayerconst&) = delete;
+  DroneHover_SineLayer(DroneHover_SineLayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5539 };
@@ -231,7 +231,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DroneHover", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DroneHover(DroneHoverconst&) = delete;
+  DroneHover(DroneHover const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5540 };

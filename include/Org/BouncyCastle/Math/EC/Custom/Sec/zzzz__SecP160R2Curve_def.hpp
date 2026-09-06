@@ -111,7 +111,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SecP160R2Curve_SecP160R2LookupTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecP160R2Curve_SecP160R2LookupTable(SecP160R2Curve_SecP160R2LookupTableconst&) = delete;
+  SecP160R2Curve_SecP160R2LookupTable(SecP160R2Curve_SecP160R2LookupTable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1395 };
@@ -226,7 +226,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SecP160R2Curve", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecP160R2Curve(SecP160R2Curveconst&) = delete;
+  SecP160R2Curve(SecP160R2Curve const&) = delete;
 
   /// @brief Field SECP160R2_DEFAULT_COORDS offset 0xffffffff size 0x4
   static constexpr int32_t SECP160R2_DEFAULT_COORDS{ static_cast<int32_t>(0x2) };

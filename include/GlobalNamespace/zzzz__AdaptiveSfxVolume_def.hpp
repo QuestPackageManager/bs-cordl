@@ -87,7 +87,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AdaptiveSfxVolume_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AdaptiveSfxVolume_InitData(AdaptiveSfxVolume_InitDataconst&) = delete;
+  AdaptiveSfxVolume_InitData(AdaptiveSfxVolume_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22623 };
@@ -208,7 +208,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AdaptiveSfxVolume", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AdaptiveSfxVolume(AdaptiveSfxVolumeconst&) = delete;
+  AdaptiveSfxVolume(AdaptiveSfxVolume const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22624 };

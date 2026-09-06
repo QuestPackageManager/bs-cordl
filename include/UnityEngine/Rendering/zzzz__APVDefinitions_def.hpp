@@ -71,7 +71,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "APVDefinitions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  APVDefinitions(APVDefinitionsconst&) = delete;
+  APVDefinitions(APVDefinitions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12157 };

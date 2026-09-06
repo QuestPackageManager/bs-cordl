@@ -879,7 +879,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Keyboard", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Keyboard(Keyboardconst&) = delete;
+  Keyboard(Keyboard const&) = delete;
 
   /// @brief Field KeyCount offset 0xffffffff size 0x4
   static constexpr int32_t KeyCount{ static_cast<int32_t>(0x6e) };

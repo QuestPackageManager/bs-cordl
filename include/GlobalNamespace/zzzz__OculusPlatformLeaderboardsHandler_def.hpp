@@ -131,7 +131,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformLeaderboardsHandler___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusPlatformLeaderboardsHandler___c(OculusPlatformLeaderboardsHandler___cconst&) = delete;
+  OculusPlatformLeaderboardsHandler___c(OculusPlatformLeaderboardsHandler___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15298 };
@@ -188,7 +188,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformLeaderboardsHandler___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusPlatformLeaderboardsHandler___c__DisplayClass5_0(OculusPlatformLeaderboardsHandler___c__DisplayClass5_0const&) = delete;
+  OculusPlatformLeaderboardsHandler___c__DisplayClass5_0(OculusPlatformLeaderboardsHandler___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15299 };
@@ -265,7 +265,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformLeaderboardsHandler___c__DisplayClass7_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusPlatformLeaderboardsHandler___c__DisplayClass7_0(OculusPlatformLeaderboardsHandler___c__DisplayClass7_0const&) = delete;
+  OculusPlatformLeaderboardsHandler___c__DisplayClass7_0(OculusPlatformLeaderboardsHandler___c__DisplayClass7_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15300 };
@@ -338,7 +338,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformLeaderboardsHandler___c__DisplayClass8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusPlatformLeaderboardsHandler___c__DisplayClass8_0(OculusPlatformLeaderboardsHandler___c__DisplayClass8_0const&) = delete;
+  OculusPlatformLeaderboardsHandler___c__DisplayClass8_0(OculusPlatformLeaderboardsHandler___c__DisplayClass8_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15301 };
@@ -434,7 +434,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformLeaderboardsHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusPlatformLeaderboardsHandler(OculusPlatformLeaderboardsHandlerconst&) = delete;
+  OculusPlatformLeaderboardsHandler(OculusPlatformLeaderboardsHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15302 };

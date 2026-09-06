@@ -155,7 +155,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformUser___c__DisplayClass17_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformUser___c__DisplayClass17_0(PlatformUser___c__DisplayClass17_0const&) = delete;
+  PlatformUser___c__DisplayClass17_0(PlatformUser___c__DisplayClass17_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22143 };
@@ -211,7 +211,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformUser___c__DisplayClass18_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformUser___c__DisplayClass18_0(PlatformUser___c__DisplayClass18_0const&) = delete;
+  PlatformUser___c__DisplayClass18_0(PlatformUser___c__DisplayClass18_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22144 };
@@ -713,7 +713,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformUser", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformUser(PlatformUserconst&) = delete;
+  PlatformUser(PlatformUser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22150 };

@@ -186,7 +186,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Blitter_BlitShaderIDs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Blitter_BlitShaderIDs(Blitter_BlitShaderIDsconst&) = delete;
+  Blitter_BlitShaderIDs(Blitter_BlitShaderIDs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12265 };
@@ -664,7 +664,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Blitter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Blitter(Blitterconst&) = delete;
+  Blitter(Blitter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12268 };

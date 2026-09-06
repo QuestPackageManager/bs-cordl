@@ -65,7 +65,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DigestInputBuffer_DigStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DigestInputBuffer_DigStream(DigestInputBuffer_DigStreamconst&) = delete;
+  DigestInputBuffer_DigStream(DigestInputBuffer_DigStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1219 };
@@ -110,7 +110,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DigestInputBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DigestInputBuffer(DigestInputBufferconst&) = delete;
+  DigestInputBuffer(DigestInputBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1220 };

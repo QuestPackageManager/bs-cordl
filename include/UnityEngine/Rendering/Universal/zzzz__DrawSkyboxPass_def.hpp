@@ -126,7 +126,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DrawSkyboxPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DrawSkyboxPass_PassData(DrawSkyboxPass_PassDataconst&) = delete;
+  DrawSkyboxPass_PassData(DrawSkyboxPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12832 };
@@ -199,7 +199,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DrawSkyboxPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DrawSkyboxPass___c(DrawSkyboxPass___cconst&) = delete;
+  DrawSkyboxPass___c(DrawSkyboxPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12833 };
@@ -262,7 +262,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DrawSkyboxPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DrawSkyboxPass(DrawSkyboxPassconst&) = delete;
+  DrawSkyboxPass(DrawSkyboxPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12834 };

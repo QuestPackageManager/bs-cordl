@@ -71,7 +71,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameObjectKeywordSwitchEffect_GameObjectKeywordItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameObjectKeywordSwitchEffect_GameObjectKeywordItem(GameObjectKeywordSwitchEffect_GameObjectKeywordItemconst&) = delete;
+  GameObjectKeywordSwitchEffect_GameObjectKeywordItem(GameObjectKeywordSwitchEffect_GameObjectKeywordItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5846 };
@@ -142,7 +142,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameObjectKeywordSwitchEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameObjectKeywordSwitchEffect(GameObjectKeywordSwitchEffectconst&) = delete;
+  GameObjectKeywordSwitchEffect(GameObjectKeywordSwitchEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5847 };

@@ -120,7 +120,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeStampToken_CertID", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeStampToken_CertID(TimeStampToken_CertIDconst&) = delete;
+  TimeStampToken_CertID(TimeStampToken_CertID const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1769 };
@@ -249,7 +249,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeStampToken", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeStampToken(TimeStampTokenconst&) = delete;
+  TimeStampToken(TimeStampToken const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1770 };

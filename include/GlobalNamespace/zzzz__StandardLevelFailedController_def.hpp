@@ -102,7 +102,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelFailedController_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelFailedController_InitData(StandardLevelFailedController_InitDataconst&) = delete;
+  StandardLevelFailedController_InitData(StandardLevelFailedController_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6040 };
@@ -223,7 +223,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelFailedController__LevelFailedCoroutine_d__13", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelFailedController__LevelFailedCoroutine_d__13(StandardLevelFailedController__LevelFailedCoroutine_d__13const&) = delete;
+  StandardLevelFailedController__LevelFailedCoroutine_d__13(StandardLevelFailedController__LevelFailedCoroutine_d__13 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6041 };
@@ -380,7 +380,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelFailedController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelFailedController(StandardLevelFailedControllerconst&) = delete;
+  StandardLevelFailedController(StandardLevelFailedController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6042 };

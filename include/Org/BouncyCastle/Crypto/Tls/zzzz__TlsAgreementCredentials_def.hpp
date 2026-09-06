@@ -37,7 +37,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsAgreementCredentials", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TlsAgreementCredentials(TlsAgreementCredentialsconst&) = delete;
+  TlsAgreementCredentials(TlsAgreementCredentials const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1158 };

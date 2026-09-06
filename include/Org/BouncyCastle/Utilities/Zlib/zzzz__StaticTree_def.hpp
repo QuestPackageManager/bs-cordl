@@ -118,7 +118,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StaticTree", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StaticTree(StaticTreeconst&) = delete;
+  StaticTree(StaticTree const&) = delete;
 
   /// @brief Field BL_CODES offset 0xffffffff size 0x4
   static constexpr int32_t BL_CODES{ static_cast<int32_t>(0x13) };

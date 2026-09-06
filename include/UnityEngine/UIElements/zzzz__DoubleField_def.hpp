@@ -75,7 +75,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DoubleField_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DoubleField_UxmlFactory(DoubleField_UxmlFactoryconst&) = delete;
+  DoubleField_UxmlFactory(DoubleField_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4177 };
@@ -111,7 +111,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DoubleField_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DoubleField_UxmlTraits(DoubleField_UxmlTraitsconst&) = delete;
+  DoubleField_UxmlTraits(DoubleField_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4178 };
@@ -165,7 +165,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DoubleField_DoubleInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DoubleField_DoubleInput(DoubleField_DoubleInputconst&) = delete;
+  DoubleField_DoubleInput(DoubleField_DoubleInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4179 };
@@ -250,7 +250,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DoubleField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DoubleField(DoubleFieldconst&) = delete;
+  DoubleField(DoubleField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4180 };

@@ -45,7 +45,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DeleteIndexBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeleteIndexBinder(DeleteIndexBinderconst&) = delete;
+  DeleteIndexBinder(DeleteIndexBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16649 };

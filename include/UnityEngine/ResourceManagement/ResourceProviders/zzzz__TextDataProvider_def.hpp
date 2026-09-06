@@ -159,7 +159,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TextDataProvider_InternalOp", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextDataProvider_InternalOp(TextDataProvider_InternalOpconst&) = delete;
+  TextDataProvider_InternalOp(TextDataProvider_InternalOp const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18795 };
@@ -257,7 +257,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TextDataProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextDataProvider(TextDataProviderconst&) = delete;
+  TextDataProvider(TextDataProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18796 };

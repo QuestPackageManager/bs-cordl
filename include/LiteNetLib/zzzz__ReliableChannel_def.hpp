@@ -238,7 +238,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReliableChannel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReliableChannel(ReliableChannelconst&) = delete;
+  ReliableChannel(ReliableChannel const&) = delete;
 
   /// @brief Field BitsInByte offset 0xffffffff size 0x4
   static constexpr int32_t BitsInByte{ static_cast<int32_t>(0x8) };

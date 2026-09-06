@@ -219,7 +219,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugManager_UIState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugManager_UIState(DebugManager_UIStateconst&) = delete;
+  DebugManager_UIState(DebugManager_UIState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11980 };
@@ -306,7 +306,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugManager___c(DebugManager___cconst&) = delete;
+  DebugManager___c(DebugManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11981 };
@@ -354,7 +354,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugManager___c__DisplayClass67_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugManager___c__DisplayClass67_0(DebugManager___c__DisplayClass67_0const&) = delete;
+  DebugManager___c__DisplayClass67_0(DebugManager___c__DisplayClass67_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11982 };
@@ -757,7 +757,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugManager(DebugManagerconst&) = delete;
+  DebugManager(DebugManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11983 };

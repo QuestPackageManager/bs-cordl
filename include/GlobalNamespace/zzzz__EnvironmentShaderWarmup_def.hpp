@@ -143,7 +143,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentShaderWarmup__Start_d__7", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentShaderWarmup__Start_d__7(EnvironmentShaderWarmup__Start_d__7const&) = delete;
+  EnvironmentShaderWarmup__Start_d__7(EnvironmentShaderWarmup__Start_d__7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5532 };
@@ -244,7 +244,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentShaderWarmup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentShaderWarmup(EnvironmentShaderWarmupconst&) = delete;
+  EnvironmentShaderWarmup(EnvironmentShaderWarmup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5533 };

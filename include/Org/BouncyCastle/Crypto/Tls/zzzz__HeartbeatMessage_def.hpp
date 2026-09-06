@@ -56,7 +56,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HeartbeatMessage_PayloadBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HeartbeatMessage_PayloadBuffer(HeartbeatMessage_PayloadBufferconst&) = delete;
+  HeartbeatMessage_PayloadBuffer(HeartbeatMessage_PayloadBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1248 };
@@ -126,7 +126,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HeartbeatMessage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HeartbeatMessage(HeartbeatMessageconst&) = delete;
+  HeartbeatMessage(HeartbeatMessage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1249 };

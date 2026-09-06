@@ -109,7 +109,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "F2mCurve_DefaultF2mLookupTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  F2mCurve_DefaultF2mLookupTable(F2mCurve_DefaultF2mLookupTableconst&) = delete;
+  F2mCurve_DefaultF2mLookupTable(F2mCurve_DefaultF2mLookupTable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1567 };
@@ -292,7 +292,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "F2mCurve", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  F2mCurve(F2mCurveconst&) = delete;
+  F2mCurve(F2mCurve const&) = delete;
 
   /// @brief Field F2M_DEFAULT_COORDS offset 0xffffffff size 0x4
   static constexpr int32_t F2M_DEFAULT_COORDS{ static_cast<int32_t>(0x6) };

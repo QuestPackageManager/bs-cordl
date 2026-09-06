@@ -83,7 +83,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Srp6VerifierGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Srp6VerifierGenerator(Srp6VerifierGeneratorconst&) = delete;
+  Srp6VerifierGenerator(Srp6VerifierGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 731 };

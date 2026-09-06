@@ -165,7 +165,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StablePriorityQueue_1__GetEnumerator_d__22", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StablePriorityQueue_1__GetEnumerator_d__22(StablePriorityQueue_1__GetEnumerator_d__22const&) = delete;
+  StablePriorityQueue_1__GetEnumerator_d__22(StablePriorityQueue_1__GetEnumerator_d__22 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20496 };
@@ -330,7 +330,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StablePriorityQueue_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StablePriorityQueue_1(StablePriorityQueue_1const&) = delete;
+  StablePriorityQueue_1(StablePriorityQueue_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20497 };

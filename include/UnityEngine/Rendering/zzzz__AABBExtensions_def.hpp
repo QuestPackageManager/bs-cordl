@@ -46,7 +46,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AABBExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AABBExtensions(AABBExtensionsconst&) = delete;
+  AABBExtensions(AABBExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17594 };

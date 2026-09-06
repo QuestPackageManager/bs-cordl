@@ -92,7 +92,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UTF32Encoding_UTF32Decoder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UTF32Encoding_UTF32Decoder(UTF32Encoding_UTF32Decoderconst&) = delete;
+  UTF32Encoding_UTF32Decoder(UTF32Encoding_UTF32Decoder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2874 };
@@ -291,7 +291,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UTF32Encoding", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UTF32Encoding(UTF32Encodingconst&) = delete;
+  UTF32Encoding(UTF32Encoding const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2875 };

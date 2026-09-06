@@ -83,7 +83,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SeverityEntry___c__DisplayClass9_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SeverityEntry___c__DisplayClass9_0(SeverityEntry___c__DisplayClass9_0const&) = delete;
+  SeverityEntry___c__DisplayClass9_0(SeverityEntry___c__DisplayClass9_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18376 };
@@ -210,7 +210,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SeverityEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SeverityEntry(SeverityEntryconst&) = delete;
+  SeverityEntry(SeverityEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18377 };

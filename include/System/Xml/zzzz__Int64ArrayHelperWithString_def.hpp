@@ -58,7 +58,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Int64ArrayHelperWithString", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Int64ArrayHelperWithString(Int64ArrayHelperWithStringconst&) = delete;
+  Int64ArrayHelperWithString(Int64ArrayHelperWithString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16917 };

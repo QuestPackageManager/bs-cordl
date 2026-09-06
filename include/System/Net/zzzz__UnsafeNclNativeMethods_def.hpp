@@ -71,7 +71,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpApi_UnsafeNclNativeMethods_HTTP_REQUEST_HEADER_ID", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpApi_UnsafeNclNativeMethods_HTTP_REQUEST_HEADER_ID(HttpApi_UnsafeNclNativeMethods_HTTP_REQUEST_HEADER_IDconst&) = delete;
+  HttpApi_UnsafeNclNativeMethods_HTTP_REQUEST_HEADER_ID(HttpApi_UnsafeNclNativeMethods_HTTP_REQUEST_HEADER_ID const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11565 };
@@ -110,7 +110,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnsafeNclNativeMethods_HttpApi", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsafeNclNativeMethods_HttpApi(UnsafeNclNativeMethods_HttpApiconst&) = delete;
+  UnsafeNclNativeMethods_HttpApi(UnsafeNclNativeMethods_HttpApi const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11566 };
@@ -146,7 +146,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnsafeNclNativeMethods_SecureStringHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsafeNclNativeMethods_SecureStringHelper(UnsafeNclNativeMethods_SecureStringHelperconst&) = delete;
+  UnsafeNclNativeMethods_SecureStringHelper(UnsafeNclNativeMethods_SecureStringHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11567 };
@@ -180,7 +180,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnsafeNclNativeMethods", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsafeNclNativeMethods(UnsafeNclNativeMethodsconst&) = delete;
+  UnsafeNclNativeMethods(UnsafeNclNativeMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11568 };

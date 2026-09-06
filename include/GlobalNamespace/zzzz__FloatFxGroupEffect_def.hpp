@@ -96,7 +96,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FloatFxGroupEffect_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatFxGroupEffect_InitData(FloatFxGroupEffect_InitDataconst&) = delete;
+  FloatFxGroupEffect_InitData(FloatFxGroupEffect_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5859 };
@@ -159,7 +159,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FloatFxGroupEffect___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatFxGroupEffect___c__DisplayClass4_0(FloatFxGroupEffect___c__DisplayClass4_0const&) = delete;
+  FloatFxGroupEffect___c__DisplayClass4_0(FloatFxGroupEffect___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5860 };
@@ -237,7 +237,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FloatFxGroupEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatFxGroupEffect(FloatFxGroupEffectconst&) = delete;
+  FloatFxGroupEffect(FloatFxGroupEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5861 };

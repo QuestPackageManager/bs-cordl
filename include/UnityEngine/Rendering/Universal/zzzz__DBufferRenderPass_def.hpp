@@ -197,7 +197,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DBufferRenderPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DBufferRenderPass_PassData(DBufferRenderPass_PassDataconst&) = delete;
+  DBufferRenderPass_PassData(DBufferRenderPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12674 };
@@ -295,7 +295,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DBufferRenderPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DBufferRenderPass___c(DBufferRenderPass___cconst&) = delete;
+  DBufferRenderPass___c(DBufferRenderPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12675 };
@@ -537,7 +537,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DBufferRenderPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DBufferRenderPass(DBufferRenderPassconst&) = delete;
+  DBufferRenderPass(DBufferRenderPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12676 };

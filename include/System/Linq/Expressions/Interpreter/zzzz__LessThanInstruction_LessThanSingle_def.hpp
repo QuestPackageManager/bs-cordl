@@ -46,7 +46,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LessThanInstruction_LessThanSingle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LessThanInstruction_LessThanSingle(LessThanInstruction_LessThanSingleconst&) = delete;
+  LessThanInstruction_LessThanSingle(LessThanInstruction_LessThanSingle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16418 };

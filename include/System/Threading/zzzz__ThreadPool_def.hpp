@@ -95,7 +95,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadPool___c__DisplayClass17_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadPool___c__DisplayClass17_0_1(ThreadPool___c__DisplayClass17_0_1const&) = delete;
+  ThreadPool___c__DisplayClass17_0_1(ThreadPool___c__DisplayClass17_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2751 };
@@ -146,7 +146,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadPool___c__DisplayClass18_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadPool___c__DisplayClass18_0_1(ThreadPool___c__DisplayClass18_0_1const&) = delete;
+  ThreadPool___c__DisplayClass18_0_1(ThreadPool___c__DisplayClass18_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2752 };
@@ -246,7 +246,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadPool(ThreadPoolconst&) = delete;
+  ThreadPool(ThreadPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2753 };

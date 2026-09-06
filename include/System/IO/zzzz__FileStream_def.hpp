@@ -108,7 +108,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FileStream_ReadDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileStream_ReadDelegate(FileStream_ReadDelegateconst&) = delete;
+  FileStream_ReadDelegate(FileStream_ReadDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3909 };
@@ -152,7 +152,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FileStream_WriteDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileStream_WriteDelegate(FileStream_WriteDelegateconst&) = delete;
+  FileStream_WriteDelegate(FileStream_WriteDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3910 };
@@ -511,7 +511,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FileStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileStream(FileStreamconst&) = delete;
+  FileStream(FileStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3911 };

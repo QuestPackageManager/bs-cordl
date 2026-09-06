@@ -182,7 +182,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Tuple_4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Tuple_4(Tuple_4const&) = delete;
+  Tuple_4(Tuple_4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2497 };

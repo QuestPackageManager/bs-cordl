@@ -183,7 +183,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader___c__DisplayClass26_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRGLTFLoader___c__DisplayClass26_0(OVRGLTFLoader___c__DisplayClass26_0const&) = delete;
+  OVRGLTFLoader___c__DisplayClass26_0(OVRGLTFLoader___c__DisplayClass26_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7170 };
@@ -330,7 +330,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader__LoadGLBCoroutine_d__26", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRGLTFLoader__LoadGLBCoroutine_d__26(OVRGLTFLoader__LoadGLBCoroutine_d__26const&) = delete;
+  OVRGLTFLoader__LoadGLBCoroutine_d__26(OVRGLTFLoader__LoadGLBCoroutine_d__26 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7171 };
@@ -525,7 +525,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader__LoadGLTF_d__37", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRGLTFLoader__LoadGLTF_d__37(OVRGLTFLoader__LoadGLTF_d__37const&) = delete;
+  OVRGLTFLoader__LoadGLTF_d__37(OVRGLTFLoader__LoadGLTF_d__37 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7172 };
@@ -703,7 +703,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader__ProcessAnimations_d__48", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRGLTFLoader__ProcessAnimations_d__48(OVRGLTFLoader__ProcessAnimations_d__48const&) = delete;
+  OVRGLTFLoader__ProcessAnimations_d__48(OVRGLTFLoader__ProcessAnimations_d__48 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7173 };
@@ -938,7 +938,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader__ProcessNode_d__38", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRGLTFLoader__ProcessNode_d__38(OVRGLTFLoader__ProcessNode_d__38const&) = delete;
+  OVRGLTFLoader__ProcessNode_d__38(OVRGLTFLoader__ProcessNode_d__38 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7174 };
@@ -1333,7 +1333,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRGLTFLoader(OVRGLTFLoaderconst&) = delete;
+  OVRGLTFLoader(OVRGLTFLoader const&) = delete;
 
   /// @brief Field LoadingMaxTimePerFrame offset 0xffffffff size 0x4
   static constexpr float_t LoadingMaxTimePerFrame{ static_cast<float_t>(0.014285714f) };

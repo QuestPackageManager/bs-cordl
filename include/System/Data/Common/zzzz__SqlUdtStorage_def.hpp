@@ -88,7 +88,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SqlUdtStorage___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SqlUdtStorage___c__DisplayClass6_0(SqlUdtStorage___c__DisplayClass6_0const&) = delete;
+  SqlUdtStorage___c__DisplayClass6_0(SqlUdtStorage___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13945 };
@@ -217,7 +217,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SqlUdtStorage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SqlUdtStorage(SqlUdtStorageconst&) = delete;
+  SqlUdtStorage(SqlUdtStorage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13946 };

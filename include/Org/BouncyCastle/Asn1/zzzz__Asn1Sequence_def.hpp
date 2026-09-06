@@ -121,7 +121,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1Sequence_Asn1SequenceParserImpl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Asn1Sequence_Asn1SequenceParserImpl(Asn1Sequence_Asn1SequenceParserImplconst&) = delete;
+  Asn1Sequence_Asn1SequenceParserImpl(Asn1Sequence_Asn1SequenceParserImpl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 460 };
@@ -240,7 +240,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1Sequence", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Asn1Sequence(Asn1Sequenceconst&) = delete;
+  Asn1Sequence(Asn1Sequence const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 461 };

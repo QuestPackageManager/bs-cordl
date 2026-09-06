@@ -152,7 +152,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionResultsViewController___c__DisplayClass31_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionResultsViewController___c__DisplayClass31_0(MissionResultsViewController___c__DisplayClass31_0const&) = delete;
+  MissionResultsViewController___c__DisplayClass31_0(MissionResultsViewController___c__DisplayClass31_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6964 };
@@ -287,7 +287,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionResultsViewController__StartFireworksAfterDelay_d__30", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionResultsViewController__StartFireworksAfterDelay_d__30(MissionResultsViewController__StartFireworksAfterDelay_d__30const&) = delete;
+  MissionResultsViewController__StartFireworksAfterDelay_d__30(MissionResultsViewController__StartFireworksAfterDelay_d__30 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6965 };
@@ -587,7 +587,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionResultsViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionResultsViewController(MissionResultsViewControllerconst&) = delete;
+  MissionResultsViewController(MissionResultsViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6966 };

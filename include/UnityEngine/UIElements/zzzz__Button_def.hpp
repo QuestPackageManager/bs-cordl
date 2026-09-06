@@ -94,7 +94,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Button_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Button_UxmlFactory(Button_UxmlFactoryconst&) = delete;
+  Button_UxmlFactory(Button_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4143 };
@@ -142,7 +142,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Button_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Button_UxmlTraits(Button_UxmlTraitsconst&) = delete;
+  Button_UxmlTraits(Button_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4144 };
@@ -321,7 +321,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Button", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Button(Buttonconst&) = delete;
+  Button(Button const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4145 };

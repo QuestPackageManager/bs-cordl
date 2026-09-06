@@ -88,7 +88,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRExtendedDisplay__GetWindowBounds", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRExtendedDisplay__GetWindowBounds(IVRExtendedDisplay__GetWindowBoundsconst&) = delete;
+  IVRExtendedDisplay__GetWindowBounds(IVRExtendedDisplay__GetWindowBounds const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8083 };
@@ -134,7 +134,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRExtendedDisplay__GetEyeOutputViewport", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRExtendedDisplay__GetEyeOutputViewport(IVRExtendedDisplay__GetEyeOutputViewportconst&) = delete;
+  IVRExtendedDisplay__GetEyeOutputViewport(IVRExtendedDisplay__GetEyeOutputViewport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8084 };
@@ -179,7 +179,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRExtendedDisplay__GetDXGIOutputInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRExtendedDisplay__GetDXGIOutputInfo(IVRExtendedDisplay__GetDXGIOutputInfoconst&) = delete;
+  IVRExtendedDisplay__GetDXGIOutputInfo(IVRExtendedDisplay__GetDXGIOutputInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8085 };

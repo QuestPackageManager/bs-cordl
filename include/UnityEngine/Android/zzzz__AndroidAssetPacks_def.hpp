@@ -131,7 +131,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___c(AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___cconst&) = delete;
+  AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___c(AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20170 };
@@ -192,7 +192,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPacks_AssetPackManagerDownloadStatusCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidAssetPacks_AssetPackManagerDownloadStatusCallback(AndroidAssetPacks_AssetPackManagerDownloadStatusCallbackconst&) = delete;
+  AndroidAssetPacks_AssetPackManagerDownloadStatusCallback(AndroidAssetPacks_AssetPackManagerDownloadStatusCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20171 };
@@ -252,7 +252,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPacks_AssetPackManagerMobileDataConfirmationCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidAssetPacks_AssetPackManagerMobileDataConfirmationCallback(AndroidAssetPacks_AssetPackManagerMobileDataConfirmationCallbackconst&) = delete;
+  AndroidAssetPacks_AssetPackManagerMobileDataConfirmationCallback(AndroidAssetPacks_AssetPackManagerMobileDataConfirmationCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20172 };
@@ -333,7 +333,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPacks_AssetPackManagerStatusQueryCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidAssetPacks_AssetPackManagerStatusQueryCallback(AndroidAssetPacks_AssetPackManagerStatusQueryCallbackconst&) = delete;
+  AndroidAssetPacks_AssetPackManagerStatusQueryCallback(AndroidAssetPacks_AssetPackManagerStatusQueryCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20173 };
@@ -408,7 +408,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPacks", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidAssetPacks(AndroidAssetPacksconst&) = delete;
+  AndroidAssetPacks(AndroidAssetPacks const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20174 };

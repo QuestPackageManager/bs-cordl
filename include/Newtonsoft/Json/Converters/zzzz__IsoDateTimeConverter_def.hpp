@@ -122,7 +122,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IsoDateTimeConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IsoDateTimeConverter(IsoDateTimeConverterconst&) = delete;
+  IsoDateTimeConverter(IsoDateTimeConverter const&) = delete;
 
   /// @brief Field DefaultDateTimeFormat offset 0xffffffff size 0x8
   static constexpr ::ConstString DefaultDateTimeFormat{ u"yyyy\'-\'MM\'-\'dd\'T\'HH\':\'mm\':\'ss.FFFFFFFK" };

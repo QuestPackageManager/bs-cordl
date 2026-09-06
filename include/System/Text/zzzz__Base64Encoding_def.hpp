@@ -90,7 +90,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Base64Encoding", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Base64Encoding(Base64Encodingconst&) = delete;
+  Base64Encoding(Base64Encoding const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16997 };

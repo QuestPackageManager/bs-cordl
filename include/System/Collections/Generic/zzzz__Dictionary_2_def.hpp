@@ -472,7 +472,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Dictionary_2_KeyCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Dictionary_2_KeyCollection(Dictionary_2_KeyCollectionconst&) = delete;
+  Dictionary_2_KeyCollection(Dictionary_2_KeyCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3760 };
@@ -680,7 +680,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Dictionary_2_ValueCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Dictionary_2_ValueCollection(Dictionary_2_ValueCollectionconst&) = delete;
+  Dictionary_2_ValueCollection(Dictionary_2_ValueCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3762 };
@@ -1114,7 +1114,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Dictionary_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Dictionary_2(Dictionary_2const&) = delete;
+  Dictionary_2(Dictionary_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3763 };

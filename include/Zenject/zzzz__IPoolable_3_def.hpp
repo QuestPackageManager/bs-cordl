@@ -28,7 +28,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IPoolable_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IPoolable_3(IPoolable_3const&) = delete;
+  IPoolable_3(IPoolable_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22524 };

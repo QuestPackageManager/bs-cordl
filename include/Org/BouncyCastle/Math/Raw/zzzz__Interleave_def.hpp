@@ -71,7 +71,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Interleave", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Interleave(Interleaveconst&) = delete;
+  Interleave(Interleave const&) = delete;
 
   /// @brief Field M32 offset 0xffffffff size 0x8
   static constexpr uint64_t M32{ static_cast<uint64_t>(0x55555555u) };

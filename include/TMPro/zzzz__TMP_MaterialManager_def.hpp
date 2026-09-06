@@ -151,7 +151,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_MaterialManager_FallbackMaterial", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_MaterialManager_FallbackMaterial(TMP_MaterialManager_FallbackMaterialconst&) = delete;
+  TMP_MaterialManager_FallbackMaterial(TMP_MaterialManager_FallbackMaterial const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15956 };
@@ -247,7 +247,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_MaterialManager_MaskingMaterial", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_MaterialManager_MaskingMaterial(TMP_MaterialManager_MaskingMaterialconst&) = delete;
+  TMP_MaterialManager_MaskingMaterial(TMP_MaterialManager_MaskingMaterial const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15957 };
@@ -315,7 +315,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_MaterialManager___c__DisplayClass11_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_MaterialManager___c__DisplayClass11_0(TMP_MaterialManager___c__DisplayClass11_0const&) = delete;
+  TMP_MaterialManager___c__DisplayClass11_0(TMP_MaterialManager___c__DisplayClass11_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15958 };
@@ -368,7 +368,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_MaterialManager___c__DisplayClass12_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_MaterialManager___c__DisplayClass12_0(TMP_MaterialManager___c__DisplayClass12_0const&) = delete;
+  TMP_MaterialManager___c__DisplayClass12_0(TMP_MaterialManager___c__DisplayClass12_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15959 };
@@ -421,7 +421,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_MaterialManager___c__DisplayClass13_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_MaterialManager___c__DisplayClass13_0(TMP_MaterialManager___c__DisplayClass13_0const&) = delete;
+  TMP_MaterialManager___c__DisplayClass13_0(TMP_MaterialManager___c__DisplayClass13_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15960 };
@@ -474,7 +474,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_MaterialManager___c__DisplayClass9_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_MaterialManager___c__DisplayClass9_0(TMP_MaterialManager___c__DisplayClass9_0const&) = delete;
+  TMP_MaterialManager___c__DisplayClass9_0(TMP_MaterialManager___c__DisplayClass9_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15961 };
@@ -615,7 +615,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_MaterialManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_MaterialManager(TMP_MaterialManagerconst&) = delete;
+  TMP_MaterialManager(TMP_MaterialManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15962 };

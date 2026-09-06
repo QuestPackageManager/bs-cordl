@@ -167,7 +167,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataLoader___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataLoader___c(BeatmapDataLoader___cconst&) = delete;
+  BeatmapDataLoader___c(BeatmapDataLoader___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14891 };
@@ -813,7 +813,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataLoader(BeatmapDataLoaderconst&) = delete;
+  BeatmapDataLoader(BeatmapDataLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14896 };

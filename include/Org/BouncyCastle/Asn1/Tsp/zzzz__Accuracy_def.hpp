@@ -103,7 +103,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Accuracy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Accuracy(Accuracyconst&) = delete;
+  Accuracy(Accuracy const&) = delete;
 
   /// @brief Field MaxMicros offset 0xffffffff size 0x4
   static constexpr int32_t MaxMicros{ static_cast<int32_t>(0x3e7) };

@@ -112,7 +112,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SqlStringStorage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SqlStringStorage(SqlStringStorageconst&) = delete;
+  SqlStringStorage(SqlStringStorage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13942 };

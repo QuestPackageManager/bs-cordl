@@ -119,7 +119,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScoreController_ApproximateFloatComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScoreController_ApproximateFloatComparer(ScoreController_ApproximateFloatComparerconst&) = delete;
+  ScoreController_ApproximateFloatComparer(ScoreController_ApproximateFloatComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6262 };
@@ -525,7 +525,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScoreController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScoreController(ScoreControllerconst&) = delete;
+  ScoreController(ScoreController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6263 };

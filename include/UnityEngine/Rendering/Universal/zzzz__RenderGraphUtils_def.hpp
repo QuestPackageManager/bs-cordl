@@ -96,7 +96,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphUtils_PassData(RenderGraphUtils_PassDataconst&) = delete;
+  RenderGraphUtils_PassData(RenderGraphUtils_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13015 };
@@ -164,7 +164,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphUtils___c(RenderGraphUtils___cconst&) = delete;
+  RenderGraphUtils___c(RenderGraphUtils___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13016 };
@@ -213,7 +213,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphUtils(RenderGraphUtilsconst&) = delete;
+  RenderGraphUtils(RenderGraphUtils const&) = delete;
 
   /// @brief Field DBufferSize offset 0xffffffff size 0x4
   static constexpr int32_t DBufferSize{ static_cast<int32_t>(0x3) };

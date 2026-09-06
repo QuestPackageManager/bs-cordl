@@ -470,7 +470,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HPReverbG2ControllerProfile_ReverbG2Controller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HPReverbG2ControllerProfile_ReverbG2Controller(HPReverbG2ControllerProfile_ReverbG2Controllerconst&) = delete;
+  HPReverbG2ControllerProfile_ReverbG2Controller(HPReverbG2ControllerProfile_ReverbG2Controller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18577 };
@@ -630,7 +630,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HPReverbG2ControllerProfile", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HPReverbG2ControllerProfile(HPReverbG2ControllerProfileconst&) = delete;
+  HPReverbG2ControllerProfile(HPReverbG2ControllerProfile const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18578 };

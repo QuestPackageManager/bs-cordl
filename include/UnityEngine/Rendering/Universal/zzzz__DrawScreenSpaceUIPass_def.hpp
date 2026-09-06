@@ -126,7 +126,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DrawScreenSpaceUIPass_PassData(DrawScreenSpaceUIPass_PassDataconst&) = delete;
+  DrawScreenSpaceUIPass_PassData(DrawScreenSpaceUIPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12828 };
@@ -184,7 +184,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass_UnsafePassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DrawScreenSpaceUIPass_UnsafePassData(DrawScreenSpaceUIPass_UnsafePassDataconst&) = delete;
+  DrawScreenSpaceUIPass_UnsafePassData(DrawScreenSpaceUIPass_UnsafePassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12829 };
@@ -297,7 +297,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DrawScreenSpaceUIPass___c(DrawScreenSpaceUIPass___cconst&) = delete;
+  DrawScreenSpaceUIPass___c(DrawScreenSpaceUIPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12830 };
@@ -426,7 +426,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DrawScreenSpaceUIPass(DrawScreenSpaceUIPassconst&) = delete;
+  DrawScreenSpaceUIPass(DrawScreenSpaceUIPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12831 };

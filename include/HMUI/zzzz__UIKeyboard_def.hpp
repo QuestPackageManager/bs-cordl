@@ -99,7 +99,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UIKeyboard___c__DisplayClass24_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIKeyboard___c__DisplayClass24_0(UIKeyboard___c__DisplayClass24_0const&) = delete;
+  UIKeyboard___c__DisplayClass24_0(UIKeyboard___c__DisplayClass24_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19048 };
@@ -324,7 +324,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UIKeyboard", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIKeyboard(UIKeyboardconst&) = delete;
+  UIKeyboard(UIKeyboard const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19049 };

@@ -117,7 +117,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerCanvas___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerCanvas___c(DebugUIHandlerCanvas___cconst&) = delete;
+  DebugUIHandlerCanvas___c(DebugUIHandlerCanvas___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12510 };
@@ -165,7 +165,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerCanvas___c__DisplayClass14_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerCanvas___c__DisplayClass14_0(DebugUIHandlerCanvas___c__DisplayClass14_0const&) = delete;
+  DebugUIHandlerCanvas___c__DisplayClass14_0(DebugUIHandlerCanvas___c__DisplayClass14_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12511 };
@@ -335,7 +335,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerCanvas", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerCanvas(DebugUIHandlerCanvasconst&) = delete;
+  DebugUIHandlerCanvas(DebugUIHandlerCanvas const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12512 };

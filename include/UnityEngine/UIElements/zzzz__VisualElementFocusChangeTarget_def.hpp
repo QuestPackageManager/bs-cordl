@@ -67,7 +67,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusChangeTarget___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElementFocusChangeTarget___c(VisualElementFocusChangeTarget___cconst&) = delete;
+  VisualElementFocusChangeTarget___c(VisualElementFocusChangeTarget___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5241 };
@@ -139,7 +139,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusChangeTarget", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElementFocusChangeTarget(VisualElementFocusChangeTargetconst&) = delete;
+  VisualElementFocusChangeTarget(VisualElementFocusChangeTarget const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5242 };

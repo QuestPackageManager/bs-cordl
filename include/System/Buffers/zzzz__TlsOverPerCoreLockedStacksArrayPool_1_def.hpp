@@ -167,7 +167,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsOverPerCoreLockedStacksArrayPool_1_LockedStack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TlsOverPerCoreLockedStacksArrayPool_1_LockedStack(TlsOverPerCoreLockedStacksArrayPool_1_LockedStackconst&) = delete;
+  TlsOverPerCoreLockedStacksArrayPool_1_LockedStack(TlsOverPerCoreLockedStacksArrayPool_1_LockedStack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3829 };
@@ -230,7 +230,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks(TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacksconst&) = delete;
+  TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks(TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3828 };
@@ -349,7 +349,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsOverPerCoreLockedStacksArrayPool_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TlsOverPerCoreLockedStacksArrayPool_1(TlsOverPerCoreLockedStacksArrayPool_1const&) = delete;
+  TlsOverPerCoreLockedStacksArrayPool_1(TlsOverPerCoreLockedStacksArrayPool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3830 };

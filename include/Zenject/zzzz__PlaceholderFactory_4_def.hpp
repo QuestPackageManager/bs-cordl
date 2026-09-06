@@ -177,7 +177,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlaceholderFactory_4__get_ParamTypes_d__2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlaceholderFactory_4__get_ParamTypes_d__2(PlaceholderFactory_4__get_ParamTypes_d__2const&) = delete;
+  PlaceholderFactory_4__get_ParamTypes_d__2(PlaceholderFactory_4__get_ParamTypes_d__2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14364 };
@@ -252,7 +252,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlaceholderFactory_4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlaceholderFactory_4(PlaceholderFactory_4const&) = delete;
+  PlaceholderFactory_4(PlaceholderFactory_4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14365 };

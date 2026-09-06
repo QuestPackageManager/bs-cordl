@@ -78,7 +78,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BoundsPropertyBag_CenterProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BoundsPropertyBag_CenterProperty(BoundsPropertyBag_CenterPropertyconst&) = delete;
+  BoundsPropertyBag_CenterProperty(BoundsPropertyBag_CenterProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19747 };
@@ -129,7 +129,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BoundsPropertyBag_ExtentsProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BoundsPropertyBag_ExtentsProperty(BoundsPropertyBag_ExtentsPropertyconst&) = delete;
+  BoundsPropertyBag_ExtentsProperty(BoundsPropertyBag_ExtentsProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19748 };
@@ -168,7 +168,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BoundsPropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BoundsPropertyBag(BoundsPropertyBagconst&) = delete;
+  BoundsPropertyBag(BoundsPropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19749 };

@@ -519,7 +519,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSqlBinaryReader_NamespaceDecl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSqlBinaryReader_NamespaceDecl(XmlSqlBinaryReader_NamespaceDeclconst&) = delete;
+  XmlSqlBinaryReader_NamespaceDecl(XmlSqlBinaryReader_NamespaceDecl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9256 };
@@ -663,7 +663,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSqlBinaryReader_NestedBinXml", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSqlBinaryReader_NestedBinXml(XmlSqlBinaryReader_NestedBinXmlconst&) = delete;
+  XmlSqlBinaryReader_NestedBinXml(XmlSqlBinaryReader_NestedBinXml const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9258 };
@@ -1653,7 +1653,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSqlBinaryReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSqlBinaryReader(XmlSqlBinaryReaderconst&) = delete;
+  XmlSqlBinaryReader(XmlSqlBinaryReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9259 };

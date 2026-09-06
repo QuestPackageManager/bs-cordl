@@ -166,7 +166,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TreeSubSet_SortedSet_1___c__DisplayClass9_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TreeSubSet_SortedSet_1___c__DisplayClass9_0(TreeSubSet_SortedSet_1___c__DisplayClass9_0const&) = delete;
+  TreeSubSet_SortedSet_1___c__DisplayClass9_0(TreeSubSet_SortedSet_1___c__DisplayClass9_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11420 };
@@ -349,7 +349,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SortedSet_1_Node", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedSet_1_Node(SortedSet_1_Nodeconst&) = delete;
+  SortedSet_1_Node(SortedSet_1_Node const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11422 };
@@ -589,7 +589,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SortedSet_1___c__DisplayClass52_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedSet_1___c__DisplayClass52_0(SortedSet_1___c__DisplayClass52_0const&) = delete;
+  SortedSet_1___c__DisplayClass52_0(SortedSet_1___c__DisplayClass52_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11425 };
@@ -655,7 +655,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SortedSet_1___c__DisplayClass53_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedSet_1___c__DisplayClass53_0(SortedSet_1___c__DisplayClass53_0const&) = delete;
+  SortedSet_1___c__DisplayClass53_0(SortedSet_1___c__DisplayClass53_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11426 };
@@ -1026,7 +1026,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SortedSet_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedSet_1(SortedSet_1const&) = delete;
+  SortedSet_1(SortedSet_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11427 };

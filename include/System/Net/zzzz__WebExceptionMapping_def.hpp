@@ -46,7 +46,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WebExceptionMapping", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WebExceptionMapping(WebExceptionMappingconst&) = delete;
+  WebExceptionMapping(WebExceptionMapping const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11512 };

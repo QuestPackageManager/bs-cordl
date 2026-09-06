@@ -87,7 +87,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FakeMirrorObjectsInstaller___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FakeMirrorObjectsInstaller___c(FakeMirrorObjectsInstaller___cconst&) = delete;
+  FakeMirrorObjectsInstaller___c(FakeMirrorObjectsInstaller___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6303 };
@@ -217,7 +217,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FakeMirrorObjectsInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FakeMirrorObjectsInstaller(FakeMirrorObjectsInstallerconst&) = delete;
+  FakeMirrorObjectsInstaller(FakeMirrorObjectsInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6304 };

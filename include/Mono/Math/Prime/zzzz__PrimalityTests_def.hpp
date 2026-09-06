@@ -26,11 +26,17 @@ namespace Mono::Math::Prime {
 class CORDL_TYPE PrimalityTests : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetSPPRounds, addr 0x5aab3cc, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method GetSPPRounds, addr 0x5ac6790, size 0x1a8, virtual false, abstract: false, final false
   static inline int32_t GetSPPRounds(::Mono::Math::BigInteger* bi, ::Mono::Math::Prime::ConfidenceFactor confidence);
 
-  /// @brief Method RabinMillerTest, addr 0x5aab574, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method RabinMillerTest, addr 0x5ac6b14, size 0x2a8, virtual false, abstract: false, final false
   static inline bool RabinMillerTest(::Mono::Math::BigInteger* n, ::Mono::Math::Prime::ConfidenceFactor confidence);
+
+  /// @brief Method SmallPrimeSppTest, addr 0x5ac6938, size 0x1dc, virtual false, abstract: false, final false
+  static inline bool SmallPrimeSppTest(::Mono::Math::BigInteger* bi, ::Mono::Math::Prime::ConfidenceFactor confidence);
+
+  /// @brief Method Test, addr 0x5ac58fc, size 0x4c, virtual false, abstract: false, final false
+  static inline bool Test(::Mono::Math::BigInteger* n, ::Mono::Math::Prime::ConfidenceFactor confidence);
 
 protected:
   // Ctor Parameters []
@@ -44,10 +50,10 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PrimalityTests", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PrimalityTests(PrimalityTestsconst&) = delete;
+  PrimalityTests(PrimalityTests const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19347 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2293 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

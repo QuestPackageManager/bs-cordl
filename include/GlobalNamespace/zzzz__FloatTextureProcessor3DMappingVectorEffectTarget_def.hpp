@@ -311,7 +311,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FloatTextureProcessor3DMappingVectorEffectTarget", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatTextureProcessor3DMappingVectorEffectTarget(FloatTextureProcessor3DMappingVectorEffectTargetconst&) = delete;
+  FloatTextureProcessor3DMappingVectorEffectTarget(FloatTextureProcessor3DMappingVectorEffectTarget const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5870 };

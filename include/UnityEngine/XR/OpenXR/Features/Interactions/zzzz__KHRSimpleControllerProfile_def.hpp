@@ -310,7 +310,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "KHRSimpleControllerProfile_KHRSimpleController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KHRSimpleControllerProfile_KHRSimpleController(KHRSimpleControllerProfile_KHRSimpleControllerconst&) = delete;
+  KHRSimpleControllerProfile_KHRSimpleController(KHRSimpleControllerProfile_KHRSimpleController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18581 };
@@ -425,7 +425,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "KHRSimpleControllerProfile", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KHRSimpleControllerProfile(KHRSimpleControllerProfileconst&) = delete;
+  KHRSimpleControllerProfile(KHRSimpleControllerProfile const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18582 };

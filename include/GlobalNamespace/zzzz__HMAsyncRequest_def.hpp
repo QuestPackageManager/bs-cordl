@@ -66,7 +66,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HMAsyncRequest_CancelHander", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HMAsyncRequest_CancelHander(HMAsyncRequest_CancelHanderconst&) = delete;
+  HMAsyncRequest_CancelHander(HMAsyncRequest_CancelHander const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21412 };
@@ -137,7 +137,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HMAsyncRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HMAsyncRequest(HMAsyncRequestconst&) = delete;
+  HMAsyncRequest(HMAsyncRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21413 };

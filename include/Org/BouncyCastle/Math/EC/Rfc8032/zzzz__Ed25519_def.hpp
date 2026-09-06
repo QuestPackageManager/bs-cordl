@@ -184,7 +184,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Ed25519_PointAccum", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ed25519_PointAccum(Ed25519_PointAccumconst&) = delete;
+  Ed25519_PointAccum(Ed25519_PointAccum const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1557 };
@@ -280,7 +280,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Ed25519_PointExt", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ed25519_PointExt(Ed25519_PointExtconst&) = delete;
+  Ed25519_PointExt(Ed25519_PointExt const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1558 };
@@ -362,7 +362,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Ed25519_PointPrecomp", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ed25519_PointPrecomp(Ed25519_PointPrecompconst&) = delete;
+  Ed25519_PointPrecomp(Ed25519_PointPrecomp const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1559 };
@@ -700,7 +700,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Ed25519", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ed25519(Ed25519const&) = delete;
+  Ed25519(Ed25519 const&) = delete;
 
   /// @brief Field L0 offset 0xffffffff size 0x4
   static constexpr int32_t L0{ static_cast<int32_t>(0xfcf5d3ed) };

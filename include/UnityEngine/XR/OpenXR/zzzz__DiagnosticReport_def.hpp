@@ -81,7 +81,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DiagnosticReport", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiagnosticReport(DiagnosticReportconst&) = delete;
+  DiagnosticReport(DiagnosticReport const&) = delete;
 
   /// @brief Field LibraryName offset 0xffffffff size 0x8
   static constexpr ::ConstString LibraryName{ u"UnityOpenXR" };

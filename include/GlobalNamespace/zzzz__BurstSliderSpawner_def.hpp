@@ -86,7 +86,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BurstSliderSpawner_ProcessNoteDataDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstSliderSpawner_ProcessNoteDataDelegate(BurstSliderSpawner_ProcessNoteDataDelegateconst&) = delete;
+  BurstSliderSpawner_ProcessNoteDataDelegate(BurstSliderSpawner_ProcessNoteDataDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5631 };
@@ -126,7 +126,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BurstSliderSpawner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstSliderSpawner(BurstSliderSpawnerconst&) = delete;
+  BurstSliderSpawner(BurstSliderSpawner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5632 };

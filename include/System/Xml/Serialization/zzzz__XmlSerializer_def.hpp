@@ -150,7 +150,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSerializer_SerializerData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSerializer_SerializerData(XmlSerializer_SerializerDataconst&) = delete;
+  XmlSerializer_SerializerData(XmlSerializer_SerializerData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9540 };
@@ -358,7 +358,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSerializer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSerializer(XmlSerializerconst&) = delete;
+  XmlSerializer(XmlSerializer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9541 };

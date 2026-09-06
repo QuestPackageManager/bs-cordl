@@ -75,7 +75,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsignedIntegerField_UxmlFactory(UnsignedIntegerField_UxmlFactoryconst&) = delete;
+  UnsignedIntegerField_UxmlFactory(UnsignedIntegerField_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4356 };
@@ -111,7 +111,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsignedIntegerField_UxmlTraits(UnsignedIntegerField_UxmlTraitsconst&) = delete;
+  UnsignedIntegerField_UxmlTraits(UnsignedIntegerField_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4357 };
@@ -165,7 +165,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField_UnsignedIntegerInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsignedIntegerField_UnsignedIntegerInput(UnsignedIntegerField_UnsignedIntegerInputconst&) = delete;
+  UnsignedIntegerField_UnsignedIntegerInput(UnsignedIntegerField_UnsignedIntegerInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4358 };
@@ -249,7 +249,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnsignedIntegerField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsignedIntegerField(UnsignedIntegerFieldconst&) = delete;
+  UnsignedIntegerField(UnsignedIntegerField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4359 };

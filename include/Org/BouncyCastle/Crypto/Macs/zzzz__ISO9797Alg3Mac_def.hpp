@@ -171,7 +171,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ISO9797Alg3Mac", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ISO9797Alg3Mac(ISO9797Alg3Macconst&) = delete;
+  ISO9797Alg3Mac(ISO9797Alg3Mac const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 944 };

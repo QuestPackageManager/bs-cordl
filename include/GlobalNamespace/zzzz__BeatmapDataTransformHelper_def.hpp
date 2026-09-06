@@ -145,7 +145,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataTransformHelper___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataTransformHelper___c__DisplayClass0_0(BeatmapDataTransformHelper___c__DisplayClass0_0const&) = delete;
+  BeatmapDataTransformHelper___c__DisplayClass0_0(BeatmapDataTransformHelper___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14807 };
@@ -238,7 +238,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataTransformHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataTransformHelper(BeatmapDataTransformHelperconst&) = delete;
+  BeatmapDataTransformHelper(BeatmapDataTransformHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14808 };

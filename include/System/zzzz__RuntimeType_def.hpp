@@ -930,7 +930,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeType(RuntimeTypeconst&) = delete;
+  RuntimeType(RuntimeType const&) = delete;
 
   /// @brief Field BinderGetSetField value: I32(3072)
   static ::System::Reflection::BindingFlags const BinderGetSetField;

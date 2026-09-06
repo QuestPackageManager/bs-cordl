@@ -257,7 +257,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpWebResponse", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpWebResponse(HttpWebResponseconst&) = delete;
+  HttpWebResponse(HttpWebResponse const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11611 };

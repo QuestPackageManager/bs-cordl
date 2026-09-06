@@ -98,7 +98,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRingsRotationEffect_RingRotationEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrackLaneRingsRotationEffect_RingRotationEffect(TrackLaneRingsRotationEffect_RingRotationEffectconst&) = delete;
+  TrackLaneRingsRotationEffect_RingRotationEffect(TrackLaneRingsRotationEffect_RingRotationEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5991 };
@@ -263,7 +263,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRingsRotationEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrackLaneRingsRotationEffect(TrackLaneRingsRotationEffectconst&) = delete;
+  TrackLaneRingsRotationEffect(TrackLaneRingsRotationEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5992 };

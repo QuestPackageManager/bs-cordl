@@ -49,7 +49,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRFace_IMeshWeightsProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRFace_IMeshWeightsProvider(OVRFace_IMeshWeightsProviderconst&) = delete;
+  OVRFace_IMeshWeightsProvider(OVRFace_IMeshWeightsProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7055 };
@@ -177,7 +177,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRFace", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRFace(OVRFaceconst&) = delete;
+  OVRFace(OVRFace const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7056 };

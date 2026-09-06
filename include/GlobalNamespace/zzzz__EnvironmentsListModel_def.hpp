@@ -147,7 +147,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsListModel___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentsListModel___c(EnvironmentsListModel___cconst&) = delete;
+  EnvironmentsListModel___c(EnvironmentsListModel___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14849 };
@@ -196,7 +196,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsListModel___c__DisplayClass22_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentsListModel___c__DisplayClass22_0(EnvironmentsListModel___c__DisplayClass22_0const&) = delete;
+  EnvironmentsListModel___c__DisplayClass22_0(EnvironmentsListModel___c__DisplayClass22_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14850 };
@@ -341,7 +341,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsListModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentsListModel(EnvironmentsListModelconst&) = delete;
+  EnvironmentsListModel(EnvironmentsListModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14851 };

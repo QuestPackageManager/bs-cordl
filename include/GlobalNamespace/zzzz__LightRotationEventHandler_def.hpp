@@ -128,7 +128,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightRotationEventHandler_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightRotationEventHandler_InitData(LightRotationEventHandler_InitDataconst&) = delete;
+  LightRotationEventHandler_InitData(LightRotationEventHandler_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5840 };
@@ -290,7 +290,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightRotationEventHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightRotationEventHandler(LightRotationEventHandlerconst&) = delete;
+  LightRotationEventHandler(LightRotationEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5841 };

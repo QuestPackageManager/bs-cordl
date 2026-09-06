@@ -78,7 +78,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScaleVector3Processor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScaleVector3Processor(ScaleVector3Processorconst&) = delete;
+  ScaleVector3Processor(ScaleVector3Processor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9086 };

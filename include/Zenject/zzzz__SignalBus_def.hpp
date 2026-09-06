@@ -170,7 +170,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SignalBus___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignalBus___c(SignalBus___cconst&) = delete;
+  SignalBus___c(SignalBus___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14016 };
@@ -227,7 +227,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SignalBus___c__DisplayClass25_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignalBus___c__DisplayClass25_0_1(SignalBus___c__DisplayClass25_0_1const&) = delete;
+  SignalBus___c__DisplayClass25_0_1(SignalBus___c__DisplayClass25_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14017 };
@@ -285,7 +285,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SignalBus___c__DisplayClass27_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignalBus___c__DisplayClass27_0_1(SignalBus___c__DisplayClass27_0_1const&) = delete;
+  SignalBus___c__DisplayClass27_0_1(SignalBus___c__DisplayClass27_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14018 };
@@ -558,7 +558,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SignalBus", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignalBus(SignalBusconst&) = delete;
+  SignalBus(SignalBus const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14019 };

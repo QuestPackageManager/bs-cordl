@@ -91,7 +91,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderInt_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderInt_UxmlFactory(SliderInt_UxmlFactoryconst&) = delete;
+  SliderInt_UxmlFactory(SliderInt_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4318 };
@@ -185,7 +185,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderInt_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderInt_UxmlTraits(SliderInt_UxmlTraitsconst&) = delete;
+  SliderInt_UxmlTraits(SliderInt_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4319 };
@@ -309,7 +309,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderInt", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderInt(SliderIntconst&) = delete;
+  SliderInt(SliderInt const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4320 };

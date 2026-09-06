@@ -137,7 +137,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PKCS7_ContentInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PKCS7_ContentInfo(PKCS7_ContentInfoconst&) = delete;
+  PKCS7_ContentInfo(PKCS7_ContentInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19277 };
@@ -233,7 +233,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PKCS7_EncryptedData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PKCS7_EncryptedData(PKCS7_EncryptedDataconst&) = delete;
+  PKCS7_EncryptedData(PKCS7_EncryptedData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19278 };
@@ -374,7 +374,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PKCS7_SignedData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PKCS7_SignedData(PKCS7_SignedDataconst&) = delete;
+  PKCS7_SignedData(PKCS7_SignedData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19279 };
@@ -559,7 +559,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PKCS7_SignerInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PKCS7_SignerInfo(PKCS7_SignerInfoconst&) = delete;
+  PKCS7_SignerInfo(PKCS7_SignerInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19280 };
@@ -637,7 +637,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PKCS7", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PKCS7(PKCS7const&) = delete;
+  PKCS7(PKCS7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19281 };

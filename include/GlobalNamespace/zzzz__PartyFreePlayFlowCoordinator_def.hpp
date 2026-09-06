@@ -158,7 +158,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PartyFreePlayFlowCoordinator___c__DisplayClass19_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PartyFreePlayFlowCoordinator___c__DisplayClass19_0(PartyFreePlayFlowCoordinator___c__DisplayClass19_0const&) = delete;
+  PartyFreePlayFlowCoordinator___c__DisplayClass19_0(PartyFreePlayFlowCoordinator___c__DisplayClass19_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6853 };
@@ -250,7 +250,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PartyFreePlayFlowCoordinator___c__DisplayClass24_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PartyFreePlayFlowCoordinator___c__DisplayClass24_0(PartyFreePlayFlowCoordinator___c__DisplayClass24_0const&) = delete;
+  PartyFreePlayFlowCoordinator___c__DisplayClass24_0(PartyFreePlayFlowCoordinator___c__DisplayClass24_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6854 };
@@ -422,7 +422,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PartyFreePlayFlowCoordinator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PartyFreePlayFlowCoordinator(PartyFreePlayFlowCoordinatorconst&) = delete;
+  PartyFreePlayFlowCoordinator(PartyFreePlayFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6855 };

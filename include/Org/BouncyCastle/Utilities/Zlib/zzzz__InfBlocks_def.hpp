@@ -253,7 +253,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InfBlocks", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InfBlocks(InfBlocksconst&) = delete;
+  InfBlocks(InfBlocks const&) = delete;
 
   /// @brief Field BAD offset 0xffffffff size 0x4
   static constexpr int32_t BAD{ static_cast<int32_t>(0x9) };

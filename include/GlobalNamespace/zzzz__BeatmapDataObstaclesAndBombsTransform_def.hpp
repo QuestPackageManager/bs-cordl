@@ -76,7 +76,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0(BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0const&) = delete;
+  BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0(BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14801 };
@@ -125,7 +125,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesAndBombsTransform", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataObstaclesAndBombsTransform(BeatmapDataObstaclesAndBombsTransformconst&) = delete;
+  BeatmapDataObstaclesAndBombsTransform(BeatmapDataObstaclesAndBombsTransform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14802 };

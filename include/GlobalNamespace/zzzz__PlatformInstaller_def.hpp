@@ -126,7 +126,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformInstaller_Arguments", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformInstaller_Arguments(PlatformInstaller_Argumentsconst&) = delete;
+  PlatformInstaller_Arguments(PlatformInstaller_Arguments const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21032 };
@@ -221,7 +221,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformInstaller(PlatformInstallerconst&) = delete;
+  PlatformInstaller(PlatformInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21033 };

@@ -160,7 +160,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ListLogger_LogMessage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ListLogger_LogMessage(ListLogger_LogMessageconst&) = delete;
+  ListLogger_LogMessage(ListLogger_LogMessage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6555 };
@@ -258,7 +258,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ListLogger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ListLogger(ListLoggerconst&) = delete;
+  ListLogger(ListLogger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6556 };

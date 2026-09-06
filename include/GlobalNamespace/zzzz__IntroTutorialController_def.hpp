@@ -163,7 +163,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IntroTutorialController__ShowFinishAnimationCoroutine_d__22", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntroTutorialController__ShowFinishAnimationCoroutine_d__22(IntroTutorialController__ShowFinishAnimationCoroutine_d__22const&) = delete;
+  IntroTutorialController__ShowFinishAnimationCoroutine_d__22(IntroTutorialController__ShowFinishAnimationCoroutine_d__22 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6278 };
@@ -374,7 +374,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IntroTutorialController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntroTutorialController(IntroTutorialControllerconst&) = delete;
+  IntroTutorialController(IntroTutorialController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6279 };

@@ -172,7 +172,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DecalScreenSpaceRenderPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalScreenSpaceRenderPass_PassData(DecalScreenSpaceRenderPass_PassDataconst&) = delete;
+  DecalScreenSpaceRenderPass_PassData(DecalScreenSpaceRenderPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12714 };
@@ -265,7 +265,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DecalScreenSpaceRenderPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalScreenSpaceRenderPass___c(DecalScreenSpaceRenderPass___cconst&) = delete;
+  DecalScreenSpaceRenderPass___c(DecalScreenSpaceRenderPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12715 };
@@ -382,7 +382,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DecalScreenSpaceRenderPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalScreenSpaceRenderPass(DecalScreenSpaceRenderPassconst&) = delete;
+  DecalScreenSpaceRenderPass(DecalScreenSpaceRenderPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12716 };

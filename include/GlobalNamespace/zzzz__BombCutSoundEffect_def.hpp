@@ -58,7 +58,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BombCutSoundEffect_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BombCutSoundEffect_Pool(BombCutSoundEffect_Poolconst&) = delete;
+  BombCutSoundEffect_Pool(BombCutSoundEffect_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5559 };
@@ -139,7 +139,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BombCutSoundEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BombCutSoundEffect(BombCutSoundEffectconst&) = delete;
+  BombCutSoundEffect(BombCutSoundEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5560 };

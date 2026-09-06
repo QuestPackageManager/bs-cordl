@@ -328,7 +328,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JContainer__GetDescendants_d__36", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JContainer__GetDescendants_d__36(JContainer__GetDescendants_d__36const&) = delete;
+  JContainer__GetDescendants_d__36(JContainer__GetDescendants_d__36 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13581 };
@@ -1112,7 +1112,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JContainer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JContainer(JContainerconst&) = delete;
+  JContainer(JContainer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13584 };

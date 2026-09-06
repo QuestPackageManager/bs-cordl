@@ -144,7 +144,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GcmUtilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GcmUtilities(GcmUtilitiesconst&) = delete;
+  GcmUtilities(GcmUtilities const&) = delete;
 
   /// @brief Field E1 offset 0xffffffff size 0x4
   static constexpr uint32_t E1{ static_cast<uint32_t>(0xe1000000u) };

@@ -74,7 +74,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LongField_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LongField_UxmlFactory(LongField_UxmlFactoryconst&) = delete;
+  LongField_UxmlFactory(LongField_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4242 };
@@ -110,7 +110,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LongField_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LongField_UxmlTraits(LongField_UxmlTraitsconst&) = delete;
+  LongField_UxmlTraits(LongField_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4243 };
@@ -167,7 +167,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LongField_LongInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LongField_LongInput(LongField_LongInputconst&) = delete;
+  LongField_LongInput(LongField_LongInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4244 };
@@ -252,7 +252,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LongField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LongField(LongFieldconst&) = delete;
+  LongField(LongField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4245 };

@@ -67,7 +67,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Sha512Digest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Sha512Digest(Sha512Digestconst&) = delete;
+  Sha512Digest(Sha512Digest const&) = delete;
 
   /// @brief Field DigestLength offset 0xffffffff size 0x4
   static constexpr int32_t DigestLength{ static_cast<int32_t>(0x40) };

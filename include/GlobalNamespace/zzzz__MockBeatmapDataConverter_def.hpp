@@ -143,7 +143,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapDataConverter___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockBeatmapDataConverter___c(MockBeatmapDataConverter___cconst&) = delete;
+  MockBeatmapDataConverter___c(MockBeatmapDataConverter___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6108 };
@@ -188,7 +188,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapDataConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockBeatmapDataConverter(MockBeatmapDataConverterconst&) = delete;
+  MockBeatmapDataConverter(MockBeatmapDataConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6109 };

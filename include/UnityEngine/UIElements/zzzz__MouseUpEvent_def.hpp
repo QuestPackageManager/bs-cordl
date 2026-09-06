@@ -68,7 +68,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MouseUpEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MouseUpEvent___c(MouseUpEvent___cconst&) = delete;
+  MouseUpEvent___c(MouseUpEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4491 };
@@ -123,7 +123,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MouseUpEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MouseUpEvent(MouseUpEventconst&) = delete;
+  MouseUpEvent(MouseUpEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4492 };

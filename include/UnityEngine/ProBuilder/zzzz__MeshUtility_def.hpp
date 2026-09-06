@@ -107,7 +107,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MeshUtility___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshUtility___c(MeshUtility___cconst&) = delete;
+  MeshUtility___c(MeshUtility___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16754 };
@@ -201,7 +201,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MeshUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshUtility(MeshUtilityconst&) = delete;
+  MeshUtility(MeshUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16755 };

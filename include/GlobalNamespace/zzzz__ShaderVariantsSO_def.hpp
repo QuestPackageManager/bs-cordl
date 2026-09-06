@@ -90,7 +90,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ShaderVariant_ShaderVariantsSO_Variant", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShaderVariant_ShaderVariantsSO_Variant(ShaderVariant_ShaderVariantsSO_Variantconst&) = delete;
+  ShaderVariant_ShaderVariantsSO_Variant(ShaderVariant_ShaderVariantsSO_Variant const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20692 };
@@ -167,7 +167,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ShaderVariantsSO_ShaderVariant", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShaderVariantsSO_ShaderVariant(ShaderVariantsSO_ShaderVariantconst&) = delete;
+  ShaderVariantsSO_ShaderVariant(ShaderVariantsSO_ShaderVariant const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20693 };
@@ -233,7 +233,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ShaderVariantsSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShaderVariantsSO(ShaderVariantsSOconst&) = delete;
+  ShaderVariantsSO(ShaderVariantsSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20694 };

@@ -72,7 +72,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SetValueVisitor_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetValueVisitor_1___c(SetValueVisitor_1___cconst&) = delete;
+  SetValueVisitor_1___c(SetValueVisitor_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4364 };
@@ -150,7 +150,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SetValueVisitor_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetValueVisitor_1(SetValueVisitor_1const&) = delete;
+  SetValueVisitor_1(SetValueVisitor_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4365 };

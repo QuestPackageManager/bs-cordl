@@ -75,7 +75,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugInspector_InspectionRegistry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugInspector_InspectionRegistry(DebugInspector_InspectionRegistryconst&) = delete;
+  DebugInspector_InspectionRegistry(DebugInspector_InspectionRegistry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18325 };
@@ -159,7 +159,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugInspector", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugInspector(DebugInspectorconst&) = delete;
+  DebugInspector(DebugInspector const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18326 };

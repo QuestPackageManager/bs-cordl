@@ -93,7 +93,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterMaterialSwitcher_RendererMaterialsPairs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BTSCharacterMaterialSwitcher_RendererMaterialsPairs(BTSCharacterMaterialSwitcher_RendererMaterialsPairsconst&) = delete;
+  BTSCharacterMaterialSwitcher_RendererMaterialsPairs(BTSCharacterMaterialSwitcher_RendererMaterialsPairs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22009 };
@@ -167,7 +167,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterMaterialSwitcher_MaterialPairs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BTSCharacterMaterialSwitcher_MaterialPairs(BTSCharacterMaterialSwitcher_MaterialPairsconst&) = delete;
+  BTSCharacterMaterialSwitcher_MaterialPairs(BTSCharacterMaterialSwitcher_MaterialPairs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22010 };
@@ -235,7 +235,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterMaterialSwitcher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BTSCharacterMaterialSwitcher(BTSCharacterMaterialSwitcherconst&) = delete;
+  BTSCharacterMaterialSwitcher(BTSCharacterMaterialSwitcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22011 };

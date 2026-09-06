@@ -84,7 +84,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingData_TransformsKeyframe", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PosesRecordingData_TransformsKeyframe(PosesRecordingData_TransformsKeyframeconst&) = delete;
+  PosesRecordingData_TransformsKeyframe(PosesRecordingData_TransformsKeyframe const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6579 };
@@ -179,7 +179,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingData_ExternalCameraCalibration", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PosesRecordingData_ExternalCameraCalibration(PosesRecordingData_ExternalCameraCalibrationconst&) = delete;
+  PosesRecordingData_ExternalCameraCalibration(PosesRecordingData_ExternalCameraCalibration const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6580 };
@@ -289,7 +289,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PosesRecordingData(PosesRecordingDataconst&) = delete;
+  PosesRecordingData(PosesRecordingData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6581 };

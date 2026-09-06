@@ -137,7 +137,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_FontFeatureTable___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_FontFeatureTable___c(TMP_FontFeatureTable___cconst&) = delete;
+  TMP_FontFeatureTable___c(TMP_FontFeatureTable___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15935 };
@@ -323,7 +323,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_FontFeatureTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_FontFeatureTable(TMP_FontFeatureTableconst&) = delete;
+  TMP_FontFeatureTable(TMP_FontFeatureTable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15936 };

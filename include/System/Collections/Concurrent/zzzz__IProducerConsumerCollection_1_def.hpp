@@ -59,7 +59,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IProducerConsumerCollection_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IProducerConsumerCollection_1(IProducerConsumerCollection_1const&) = delete;
+  IProducerConsumerCollection_1(IProducerConsumerCollection_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3746 };

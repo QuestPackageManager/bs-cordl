@@ -79,7 +79,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StringSwitchInstruction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StringSwitchInstruction(StringSwitchInstructionconst&) = delete;
+  StringSwitchInstruction(StringSwitchInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16293 };

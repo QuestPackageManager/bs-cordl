@@ -125,7 +125,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightPairRotationEventEffect_RotationData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightPairRotationEventEffect_RotationData(LightPairRotationEventEffect_RotationDataconst&) = delete;
+  LightPairRotationEventEffect_RotationData(LightPairRotationEventEffect_RotationData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5921 };
@@ -392,7 +392,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightPairRotationEventEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightPairRotationEventEffect(LightPairRotationEventEffectconst&) = delete;
+  LightPairRotationEventEffect(LightPairRotationEventEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5922 };

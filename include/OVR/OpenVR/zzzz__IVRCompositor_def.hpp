@@ -442,7 +442,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__SetTrackingSpace", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__SetTrackingSpace(IVRCompositor__SetTrackingSpaceconst&) = delete;
+  IVRCompositor__SetTrackingSpace(IVRCompositor__SetTrackingSpace const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8162 };
@@ -487,7 +487,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetTrackingSpace", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetTrackingSpace(IVRCompositor__GetTrackingSpaceconst&) = delete;
+  IVRCompositor__GetTrackingSpace(IVRCompositor__GetTrackingSpace const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8163 };
@@ -535,7 +535,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__WaitGetPoses", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__WaitGetPoses(IVRCompositor__WaitGetPosesconst&) = delete;
+  IVRCompositor__WaitGetPoses(IVRCompositor__WaitGetPoses const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8164 };
@@ -583,7 +583,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetLastPoses", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetLastPoses(IVRCompositor__GetLastPosesconst&) = delete;
+  IVRCompositor__GetLastPoses(IVRCompositor__GetLastPoses const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8165 };
@@ -630,7 +630,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetLastPoseForTrackedDeviceIndex", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetLastPoseForTrackedDeviceIndex(IVRCompositor__GetLastPoseForTrackedDeviceIndexconst&) = delete;
+  IVRCompositor__GetLastPoseForTrackedDeviceIndex(IVRCompositor__GetLastPoseForTrackedDeviceIndex const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8166 };
@@ -677,7 +677,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__Submit", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__Submit(IVRCompositor__Submitconst&) = delete;
+  IVRCompositor__Submit(IVRCompositor__Submit const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8167 };
@@ -722,7 +722,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ClearLastSubmittedFrame", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__ClearLastSubmittedFrame(IVRCompositor__ClearLastSubmittedFrameconst&) = delete;
+  IVRCompositor__ClearLastSubmittedFrame(IVRCompositor__ClearLastSubmittedFrame const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8168 };
@@ -767,7 +767,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__PostPresentHandoff", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__PostPresentHandoff(IVRCompositor__PostPresentHandoffconst&) = delete;
+  IVRCompositor__PostPresentHandoff(IVRCompositor__PostPresentHandoff const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8169 };
@@ -812,7 +812,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetFrameTiming", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetFrameTiming(IVRCompositor__GetFrameTimingconst&) = delete;
+  IVRCompositor__GetFrameTiming(IVRCompositor__GetFrameTiming const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8170 };
@@ -857,7 +857,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetFrameTimings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetFrameTimings(IVRCompositor__GetFrameTimingsconst&) = delete;
+  IVRCompositor__GetFrameTimings(IVRCompositor__GetFrameTimings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8171 };
@@ -902,7 +902,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetFrameTimeRemaining", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetFrameTimeRemaining(IVRCompositor__GetFrameTimeRemainingconst&) = delete;
+  IVRCompositor__GetFrameTimeRemaining(IVRCompositor__GetFrameTimeRemaining const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8172 };
@@ -947,7 +947,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetCumulativeStats", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetCumulativeStats(IVRCompositor__GetCumulativeStatsconst&) = delete;
+  IVRCompositor__GetCumulativeStats(IVRCompositor__GetCumulativeStats const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8173 };
@@ -993,7 +993,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__FadeToColor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__FadeToColor(IVRCompositor__FadeToColorconst&) = delete;
+  IVRCompositor__FadeToColor(IVRCompositor__FadeToColor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8174 };
@@ -1038,7 +1038,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetCurrentFadeColor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetCurrentFadeColor(IVRCompositor__GetCurrentFadeColorconst&) = delete;
+  IVRCompositor__GetCurrentFadeColor(IVRCompositor__GetCurrentFadeColor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8175 };
@@ -1083,7 +1083,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__FadeGrid", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__FadeGrid(IVRCompositor__FadeGridconst&) = delete;
+  IVRCompositor__FadeGrid(IVRCompositor__FadeGrid const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8176 };
@@ -1128,7 +1128,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetCurrentGridAlpha", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetCurrentGridAlpha(IVRCompositor__GetCurrentGridAlphaconst&) = delete;
+  IVRCompositor__GetCurrentGridAlpha(IVRCompositor__GetCurrentGridAlpha const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8177 };
@@ -1173,7 +1173,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__SetSkyboxOverride", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__SetSkyboxOverride(IVRCompositor__SetSkyboxOverrideconst&) = delete;
+  IVRCompositor__SetSkyboxOverride(IVRCompositor__SetSkyboxOverride const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8178 };
@@ -1218,7 +1218,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ClearSkyboxOverride", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__ClearSkyboxOverride(IVRCompositor__ClearSkyboxOverrideconst&) = delete;
+  IVRCompositor__ClearSkyboxOverride(IVRCompositor__ClearSkyboxOverride const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8179 };
@@ -1263,7 +1263,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__CompositorBringToFront", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__CompositorBringToFront(IVRCompositor__CompositorBringToFrontconst&) = delete;
+  IVRCompositor__CompositorBringToFront(IVRCompositor__CompositorBringToFront const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8180 };
@@ -1308,7 +1308,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__CompositorGoToBack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__CompositorGoToBack(IVRCompositor__CompositorGoToBackconst&) = delete;
+  IVRCompositor__CompositorGoToBack(IVRCompositor__CompositorGoToBack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8181 };
@@ -1353,7 +1353,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__CompositorQuit", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__CompositorQuit(IVRCompositor__CompositorQuitconst&) = delete;
+  IVRCompositor__CompositorQuit(IVRCompositor__CompositorQuit const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8182 };
@@ -1398,7 +1398,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__IsFullscreen", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__IsFullscreen(IVRCompositor__IsFullscreenconst&) = delete;
+  IVRCompositor__IsFullscreen(IVRCompositor__IsFullscreen const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8183 };
@@ -1443,7 +1443,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetCurrentSceneFocusProcess", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetCurrentSceneFocusProcess(IVRCompositor__GetCurrentSceneFocusProcessconst&) = delete;
+  IVRCompositor__GetCurrentSceneFocusProcess(IVRCompositor__GetCurrentSceneFocusProcess const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8184 };
@@ -1488,7 +1488,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetLastFrameRenderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetLastFrameRenderer(IVRCompositor__GetLastFrameRendererconst&) = delete;
+  IVRCompositor__GetLastFrameRenderer(IVRCompositor__GetLastFrameRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8185 };
@@ -1533,7 +1533,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__CanRenderScene", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__CanRenderScene(IVRCompositor__CanRenderSceneconst&) = delete;
+  IVRCompositor__CanRenderScene(IVRCompositor__CanRenderScene const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8186 };
@@ -1578,7 +1578,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ShowMirrorWindow", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__ShowMirrorWindow(IVRCompositor__ShowMirrorWindowconst&) = delete;
+  IVRCompositor__ShowMirrorWindow(IVRCompositor__ShowMirrorWindow const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8187 };
@@ -1623,7 +1623,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__HideMirrorWindow", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__HideMirrorWindow(IVRCompositor__HideMirrorWindowconst&) = delete;
+  IVRCompositor__HideMirrorWindow(IVRCompositor__HideMirrorWindow const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8188 };
@@ -1668,7 +1668,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__IsMirrorWindowVisible", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__IsMirrorWindowVisible(IVRCompositor__IsMirrorWindowVisibleconst&) = delete;
+  IVRCompositor__IsMirrorWindowVisible(IVRCompositor__IsMirrorWindowVisible const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8189 };
@@ -1713,7 +1713,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__CompositorDumpImages", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__CompositorDumpImages(IVRCompositor__CompositorDumpImagesconst&) = delete;
+  IVRCompositor__CompositorDumpImages(IVRCompositor__CompositorDumpImages const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8190 };
@@ -1758,7 +1758,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ShouldAppRenderWithLowResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__ShouldAppRenderWithLowResources(IVRCompositor__ShouldAppRenderWithLowResourcesconst&) = delete;
+  IVRCompositor__ShouldAppRenderWithLowResources(IVRCompositor__ShouldAppRenderWithLowResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8191 };
@@ -1803,7 +1803,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ForceInterleavedReprojectionOn", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__ForceInterleavedReprojectionOn(IVRCompositor__ForceInterleavedReprojectionOnconst&) = delete;
+  IVRCompositor__ForceInterleavedReprojectionOn(IVRCompositor__ForceInterleavedReprojectionOn const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8192 };
@@ -1848,7 +1848,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ForceReconnectProcess", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__ForceReconnectProcess(IVRCompositor__ForceReconnectProcessconst&) = delete;
+  IVRCompositor__ForceReconnectProcess(IVRCompositor__ForceReconnectProcess const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8193 };
@@ -1893,7 +1893,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__SuspendRendering", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__SuspendRendering(IVRCompositor__SuspendRenderingconst&) = delete;
+  IVRCompositor__SuspendRendering(IVRCompositor__SuspendRendering const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8194 };
@@ -1939,7 +1939,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetMirrorTextureD3D11", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetMirrorTextureD3D11(IVRCompositor__GetMirrorTextureD3D11const&) = delete;
+  IVRCompositor__GetMirrorTextureD3D11(IVRCompositor__GetMirrorTextureD3D11 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8195 };
@@ -1984,7 +1984,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ReleaseMirrorTextureD3D11", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__ReleaseMirrorTextureD3D11(IVRCompositor__ReleaseMirrorTextureD3D11const&) = delete;
+  IVRCompositor__ReleaseMirrorTextureD3D11(IVRCompositor__ReleaseMirrorTextureD3D11 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8196 };
@@ -2030,7 +2030,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetMirrorTextureGL", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetMirrorTextureGL(IVRCompositor__GetMirrorTextureGLconst&) = delete;
+  IVRCompositor__GetMirrorTextureGL(IVRCompositor__GetMirrorTextureGL const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8197 };
@@ -2075,7 +2075,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ReleaseSharedGLTexture", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__ReleaseSharedGLTexture(IVRCompositor__ReleaseSharedGLTextureconst&) = delete;
+  IVRCompositor__ReleaseSharedGLTexture(IVRCompositor__ReleaseSharedGLTexture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8198 };
@@ -2120,7 +2120,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__LockGLSharedTextureForAccess", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__LockGLSharedTextureForAccess(IVRCompositor__LockGLSharedTextureForAccessconst&) = delete;
+  IVRCompositor__LockGLSharedTextureForAccess(IVRCompositor__LockGLSharedTextureForAccess const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8199 };
@@ -2165,7 +2165,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__UnlockGLSharedTextureForAccess", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__UnlockGLSharedTextureForAccess(IVRCompositor__UnlockGLSharedTextureForAccessconst&) = delete;
+  IVRCompositor__UnlockGLSharedTextureForAccess(IVRCompositor__UnlockGLSharedTextureForAccess const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8200 };
@@ -2210,7 +2210,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetVulkanInstanceExtensionsRequired", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetVulkanInstanceExtensionsRequired(IVRCompositor__GetVulkanInstanceExtensionsRequiredconst&) = delete;
+  IVRCompositor__GetVulkanInstanceExtensionsRequired(IVRCompositor__GetVulkanInstanceExtensionsRequired const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8201 };
@@ -2256,7 +2256,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetVulkanDeviceExtensionsRequired", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetVulkanDeviceExtensionsRequired(IVRCompositor__GetVulkanDeviceExtensionsRequiredconst&) = delete;
+  IVRCompositor__GetVulkanDeviceExtensionsRequired(IVRCompositor__GetVulkanDeviceExtensionsRequired const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8202 };
@@ -2301,7 +2301,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__SetExplicitTimingMode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__SetExplicitTimingMode(IVRCompositor__SetExplicitTimingModeconst&) = delete;
+  IVRCompositor__SetExplicitTimingMode(IVRCompositor__SetExplicitTimingMode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8203 };
@@ -2346,7 +2346,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__SubmitExplicitTimingData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__SubmitExplicitTimingData(IVRCompositor__SubmitExplicitTimingDataconst&) = delete;
+  IVRCompositor__SubmitExplicitTimingData(IVRCompositor__SubmitExplicitTimingData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8204 };

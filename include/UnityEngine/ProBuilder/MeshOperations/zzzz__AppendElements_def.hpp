@@ -148,7 +148,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AppendElements___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AppendElements___c(AppendElements___cconst&) = delete;
+  AppendElements___c(AppendElements___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16851 };
@@ -196,7 +196,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AppendElements___c__DisplayClass17_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AppendElements___c__DisplayClass17_0(AppendElements___c__DisplayClass17_0const&) = delete;
+  AppendElements___c__DisplayClass17_0(AppendElements___c__DisplayClass17_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16852 };
@@ -336,7 +336,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AppendElements", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AppendElements(AppendElementsconst&) = delete;
+  AppendElements(AppendElements const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16853 };

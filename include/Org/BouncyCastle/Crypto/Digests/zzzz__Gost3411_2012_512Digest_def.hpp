@@ -65,7 +65,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Gost3411_2012_512Digest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Gost3411_2012_512Digest(Gost3411_2012_512Digestconst&) = delete;
+  Gost3411_2012_512Digest(Gost3411_2012_512Digest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 754 };

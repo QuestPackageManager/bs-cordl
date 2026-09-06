@@ -98,7 +98,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersModelSO_GameplayModifierBoolGetter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifiersModelSO_GameplayModifierBoolGetter(GameplayModifiersModelSO_GameplayModifierBoolGetterconst&) = delete;
+  GameplayModifiersModelSO_GameplayModifierBoolGetter(GameplayModifiersModelSO_GameplayModifierBoolGetter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14871 };
@@ -301,7 +301,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersModelSO___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifiersModelSO___c(GameplayModifiersModelSO___cconst&) = delete;
+  GameplayModifiersModelSO___c(GameplayModifiersModelSO___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14872 };
@@ -538,7 +538,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersModelSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifiersModelSO(GameplayModifiersModelSOconst&) = delete;
+  GameplayModifiersModelSO(GameplayModifiersModelSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14873 };

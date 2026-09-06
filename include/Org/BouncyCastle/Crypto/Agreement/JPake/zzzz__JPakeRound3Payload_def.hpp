@@ -68,7 +68,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JPakeRound3Payload", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JPakeRound3Payload(JPakeRound3Payloadconst&) = delete;
+  JPakeRound3Payload(JPakeRound3Payload const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 719 };

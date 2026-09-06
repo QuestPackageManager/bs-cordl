@@ -79,7 +79,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Fx_InternalException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Fx_InternalException(Fx_InternalExceptionconst&) = delete;
+  Fx_InternalException(Fx_InternalException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21302 };
@@ -114,7 +114,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Fx_FatalInternalException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Fx_FatalInternalException(Fx_FatalInternalExceptionconst&) = delete;
+  Fx_FatalInternalException(Fx_FatalInternalException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21303 };
@@ -167,7 +167,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Fx___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Fx___c(Fx___cconst&) = delete;
+  Fx___c(Fx___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21304 };
@@ -235,7 +235,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Fx", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Fx(Fxconst&) = delete;
+  Fx(Fx const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21305 };

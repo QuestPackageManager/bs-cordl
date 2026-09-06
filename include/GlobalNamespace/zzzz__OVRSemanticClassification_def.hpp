@@ -83,7 +83,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSemanticClassification", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSemanticClassification(OVRSemanticClassificationconst&) = delete;
+  OVRSemanticClassification(OVRSemanticClassification const&) = delete;
 
   /// @brief Field LabelSeparator offset 0xffffffff size 0x2
   static constexpr char16_t LabelSeparator{ u',' };

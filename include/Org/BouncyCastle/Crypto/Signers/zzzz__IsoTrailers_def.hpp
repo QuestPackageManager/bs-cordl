@@ -59,7 +59,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IsoTrailers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IsoTrailers(IsoTrailersconst&) = delete;
+  IsoTrailers(IsoTrailers const&) = delete;
 
   /// @brief Field TRAILER_IMPLICIT offset 0xffffffff size 0x4
   static constexpr int32_t TRAILER_IMPLICIT{ static_cast<int32_t>(0xbc) };

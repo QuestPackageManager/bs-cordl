@@ -1184,7 +1184,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "X86_Avx", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X86_Avx(X86_Avxconst&) = delete;
+  X86_Avx(X86_Avx const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17347 };
@@ -2025,7 +2025,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "X86_Avx2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X86_Avx2(X86_Avx2const&) = delete;
+  X86_Avx2(X86_Avx2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17348 };
@@ -2114,7 +2114,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "X86_Bmi1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X86_Bmi1(X86_Bmi1const&) = delete;
+  X86_Bmi1(X86_Bmi1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17349 };
@@ -2179,7 +2179,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "X86_Bmi2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X86_Bmi2(X86_Bmi2const&) = delete;
+  X86_Bmi2(X86_Bmi2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17350 };
@@ -2545,7 +2545,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "X86_F16C", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X86_F16C(X86_F16Cconst&) = delete;
+  X86_F16C(X86_F16C const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17354 };
@@ -2794,7 +2794,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "X86_Fma", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X86_Fma(X86_Fmaconst&) = delete;
+  X86_Fma(X86_Fma const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17356 };
@@ -2835,7 +2835,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "X86_Popcnt", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X86_Popcnt(X86_Popcntconst&) = delete;
+  X86_Popcnt(X86_Popcnt const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17357 };
@@ -3248,7 +3248,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "X86_Sse", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X86_Sse(X86_Sseconst&) = delete;
+  X86_Sse(X86_Sse const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17358 };
@@ -4068,7 +4068,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "X86_Sse2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X86_Sse2(X86_Sse2const&) = delete;
+  X86_Sse2(X86_Sse2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17359 };
@@ -4137,7 +4137,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "X86_Sse3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X86_Sse3(X86_Sse3const&) = delete;
+  X86_Sse3(X86_Sse3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17360 };
@@ -4436,7 +4436,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "X86_Sse4_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X86_Sse4_1(X86_Sse4_1const&) = delete;
+  X86_Sse4_1(X86_Sse4_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17361 };
@@ -4795,7 +4795,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "X86_Sse4_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X86_Sse4_2(X86_Sse4_2const&) = delete;
+  X86_Sse4_2(X86_Sse4_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17365 };
@@ -4892,7 +4892,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "X86_Ssse3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X86_Ssse3(X86_Ssse3const&) = delete;
+  X86_Ssse3(X86_Ssse3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17366 };
@@ -5007,7 +5007,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "X86", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X86(X86const&) = delete;
+  X86(X86 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17367 };

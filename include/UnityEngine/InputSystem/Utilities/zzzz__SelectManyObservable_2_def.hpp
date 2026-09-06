@@ -98,7 +98,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SelectManyObservable_2_Select", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SelectManyObservable_2_Select(SelectManyObservable_2_Selectconst&) = delete;
+  SelectManyObservable_2_Select(SelectManyObservable_2_Select const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9184 };
@@ -169,7 +169,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SelectManyObservable_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SelectManyObservable_2(SelectManyObservable_2const&) = delete;
+  SelectManyObservable_2(SelectManyObservable_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9185 };

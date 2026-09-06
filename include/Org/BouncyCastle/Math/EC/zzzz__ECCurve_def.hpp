@@ -139,7 +139,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ECCurve_Config", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ECCurve_Config(ECCurve_Configconst&) = delete;
+  ECCurve_Config(ECCurve_Config const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1359 };
@@ -235,7 +235,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ECCurve_DefaultLookupTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ECCurve_DefaultLookupTable(ECCurve_DefaultLookupTableconst&) = delete;
+  ECCurve_DefaultLookupTable(ECCurve_DefaultLookupTable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1360 };
@@ -498,7 +498,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ECCurve", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ECCurve(ECCurveconst&) = delete;
+  ECCurve(ECCurve const&) = delete;
 
   /// @brief Field COORD_AFFINE offset 0xffffffff size 0x4
   static constexpr int32_t COORD_AFFINE{ static_cast<int32_t>(0x0) };

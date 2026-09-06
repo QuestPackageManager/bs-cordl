@@ -130,7 +130,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlanarMirrorRenderPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlanarMirrorRenderPass_PassData(PlanarMirrorRenderPass_PassDataconst&) = delete;
+  PlanarMirrorRenderPass_PassData(PlanarMirrorRenderPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20661 };
@@ -207,7 +207,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlanarMirrorRenderPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlanarMirrorRenderPass___c(PlanarMirrorRenderPass___cconst&) = delete;
+  PlanarMirrorRenderPass___c(PlanarMirrorRenderPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20662 };
@@ -296,7 +296,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlanarMirrorRenderPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlanarMirrorRenderPass(PlanarMirrorRenderPassconst&) = delete;
+  PlanarMirrorRenderPass(PlanarMirrorRenderPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20663 };

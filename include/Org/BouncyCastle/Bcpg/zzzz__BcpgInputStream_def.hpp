@@ -91,7 +91,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BcpgInputStream_PartialInputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BcpgInputStream_PartialInputStream(BcpgInputStream_PartialInputStreamconst&) = delete;
+  BcpgInputStream_PartialInputStream(BcpgInputStream_PartialInputStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 552 };
@@ -197,7 +197,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BcpgInputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BcpgInputStream(BcpgInputStreamconst&) = delete;
+  BcpgInputStream(BcpgInputStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 553 };

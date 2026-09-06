@@ -203,7 +203,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionInfoTypeInfoConverter___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionInfoTypeInfoConverter___c(ReflectionInfoTypeInfoConverter___cconst&) = delete;
+  ReflectionInfoTypeInfoConverter___c(ReflectionInfoTypeInfoConverter___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14725 };
@@ -258,7 +258,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionInfoTypeInfoConverter___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionInfoTypeInfoConverter___c__DisplayClass0_0(ReflectionInfoTypeInfoConverter___c__DisplayClass0_0const&) = delete;
+  ReflectionInfoTypeInfoConverter___c__DisplayClass0_0(ReflectionInfoTypeInfoConverter___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14726 };
@@ -318,7 +318,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionInfoTypeInfoConverter___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionInfoTypeInfoConverter___c__DisplayClass4_0(ReflectionInfoTypeInfoConverter___c__DisplayClass4_0const&) = delete;
+  ReflectionInfoTypeInfoConverter___c__DisplayClass4_0(ReflectionInfoTypeInfoConverter___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14727 };
@@ -391,7 +391,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionInfoTypeInfoConverter___c__DisplayClass8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionInfoTypeInfoConverter___c__DisplayClass8_0(ReflectionInfoTypeInfoConverter___c__DisplayClass8_0const&) = delete;
+  ReflectionInfoTypeInfoConverter___c__DisplayClass8_0(ReflectionInfoTypeInfoConverter___c__DisplayClass8_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14728 };
@@ -465,7 +465,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionInfoTypeInfoConverter___c__DisplayClass8_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionInfoTypeInfoConverter___c__DisplayClass8_1(ReflectionInfoTypeInfoConverter___c__DisplayClass8_1const&) = delete;
+  ReflectionInfoTypeInfoConverter___c__DisplayClass8_1(ReflectionInfoTypeInfoConverter___c__DisplayClass8_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14729 };
@@ -542,7 +542,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionInfoTypeInfoConverter___c__DisplayClass9_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionInfoTypeInfoConverter___c__DisplayClass9_0(ReflectionInfoTypeInfoConverter___c__DisplayClass9_0const&) = delete;
+  ReflectionInfoTypeInfoConverter___c__DisplayClass9_0(ReflectionInfoTypeInfoConverter___c__DisplayClass9_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14730 };
@@ -627,7 +627,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionInfoTypeInfoConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionInfoTypeInfoConverter(ReflectionInfoTypeInfoConverterconst&) = delete;
+  ReflectionInfoTypeInfoConverter(ReflectionInfoTypeInfoConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14731 };

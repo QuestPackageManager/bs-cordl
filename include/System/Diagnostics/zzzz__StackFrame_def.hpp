@@ -163,7 +163,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StackFrame", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StackFrame(StackFrameconst&) = delete;
+  StackFrame(StackFrame const&) = delete;
 
   /// @brief Field OFFSET_UNKNOWN offset 0xffffffff size 0x4
   static constexpr int32_t OFFSET_UNKNOWN{ static_cast<int32_t>(0xffffffff) };

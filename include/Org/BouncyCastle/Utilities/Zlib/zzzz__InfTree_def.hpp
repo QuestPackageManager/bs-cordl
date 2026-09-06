@@ -155,7 +155,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InfTree", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InfTree(InfTreeconst&) = delete;
+  InfTree(InfTree const&) = delete;
 
   /// @brief Field BMAX offset 0xffffffff size 0x4
   static constexpr int32_t BMAX{ static_cast<int32_t>(0xf) };

@@ -163,7 +163,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenXRRuntime", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRRuntime(OpenXRRuntimeconst&) = delete;
+  OpenXRRuntime(OpenXRRuntime const&) = delete;
 
   /// @brief Field LibraryName offset 0xffffffff size 0x8
   static constexpr ::ConstString LibraryName{ u"UnityOpenXR" };

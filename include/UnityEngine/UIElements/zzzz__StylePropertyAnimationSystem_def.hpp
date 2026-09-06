@@ -517,7 +517,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparer(ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparerconst&) = delete;
+  ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparer(ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5026 };
@@ -629,7 +629,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_Values", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_Values(StylePropertyAnimationSystem_Valuesconst&) = delete;
+  StylePropertyAnimationSystem_Values(StylePropertyAnimationSystem_Values const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5028 };
@@ -677,7 +677,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TransitionEventsFrameState_Values_1_StylePropertyAnimationSystem___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TransitionEventsFrameState_Values_1_StylePropertyAnimationSystem___c(TransitionEventsFrameState_Values_1_StylePropertyAnimationSystem___cconst&) = delete;
+  TransitionEventsFrameState_Values_1_StylePropertyAnimationSystem___c(TransitionEventsFrameState_Values_1_StylePropertyAnimationSystem___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5029 };
@@ -785,7 +785,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Values_1_StylePropertyAnimationSystem_TransitionEventsFrameState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Values_1_StylePropertyAnimationSystem_TransitionEventsFrameState(Values_1_StylePropertyAnimationSystem_TransitionEventsFrameStateconst&) = delete;
+  Values_1_StylePropertyAnimationSystem_TransitionEventsFrameState(Values_1_StylePropertyAnimationSystem_TransitionEventsFrameState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5030 };
@@ -1106,7 +1106,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_Values_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_Values_1(StylePropertyAnimationSystem_Values_1const&) = delete;
+  StylePropertyAnimationSystem_Values_1(StylePropertyAnimationSystem_Values_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5034 };
@@ -1186,7 +1186,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesFloat", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesFloat(StylePropertyAnimationSystem_ValuesFloatconst&) = delete;
+  StylePropertyAnimationSystem_ValuesFloat(StylePropertyAnimationSystem_ValuesFloat const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5035 };
@@ -1258,7 +1258,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesInt", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesInt(StylePropertyAnimationSystem_ValuesIntconst&) = delete;
+  StylePropertyAnimationSystem_ValuesInt(StylePropertyAnimationSystem_ValuesInt const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5036 };
@@ -1335,7 +1335,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesLength", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesLength(StylePropertyAnimationSystem_ValuesLengthconst&) = delete;
+  StylePropertyAnimationSystem_ValuesLength(StylePropertyAnimationSystem_ValuesLength const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5037 };
@@ -1408,7 +1408,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesColor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesColor(StylePropertyAnimationSystem_ValuesColorconst&) = delete;
+  StylePropertyAnimationSystem_ValuesColor(StylePropertyAnimationSystem_ValuesColor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5038 };
@@ -1476,7 +1476,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesDiscrete_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesDiscrete_1(StylePropertyAnimationSystem_ValuesDiscrete_1const&) = delete;
+  StylePropertyAnimationSystem_ValuesDiscrete_1(StylePropertyAnimationSystem_ValuesDiscrete_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5039 };
@@ -1520,7 +1520,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesBackground", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesBackground(StylePropertyAnimationSystem_ValuesBackgroundconst&) = delete;
+  StylePropertyAnimationSystem_ValuesBackground(StylePropertyAnimationSystem_ValuesBackground const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5040 };
@@ -1561,7 +1561,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesFontDefinition", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesFontDefinition(StylePropertyAnimationSystem_ValuesFontDefinitionconst&) = delete;
+  StylePropertyAnimationSystem_ValuesFontDefinition(StylePropertyAnimationSystem_ValuesFontDefinition const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5041 };
@@ -1602,7 +1602,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesFont", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesFont(StylePropertyAnimationSystem_ValuesFontconst&) = delete;
+  StylePropertyAnimationSystem_ValuesFont(StylePropertyAnimationSystem_ValuesFont const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5042 };
@@ -1669,7 +1669,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesTextShadow", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesTextShadow(StylePropertyAnimationSystem_ValuesTextShadowconst&) = delete;
+  StylePropertyAnimationSystem_ValuesTextShadow(StylePropertyAnimationSystem_ValuesTextShadow const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5043 };
@@ -1742,7 +1742,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesScale", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesScale(StylePropertyAnimationSystem_ValuesScaleconst&) = delete;
+  StylePropertyAnimationSystem_ValuesScale(StylePropertyAnimationSystem_ValuesScale const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5044 };
@@ -1815,7 +1815,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesRotate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesRotate(StylePropertyAnimationSystem_ValuesRotateconst&) = delete;
+  StylePropertyAnimationSystem_ValuesRotate(StylePropertyAnimationSystem_ValuesRotate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5045 };
@@ -1893,7 +1893,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesTranslate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesTranslate(StylePropertyAnimationSystem_ValuesTranslateconst&) = delete;
+  StylePropertyAnimationSystem_ValuesTranslate(StylePropertyAnimationSystem_ValuesTranslate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5046 };
@@ -1971,7 +1971,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesTransformOrigin", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesTransformOrigin(StylePropertyAnimationSystem_ValuesTransformOriginconst&) = delete;
+  StylePropertyAnimationSystem_ValuesTransformOrigin(StylePropertyAnimationSystem_ValuesTransformOrigin const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5047 };
@@ -2020,7 +2020,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesBackgroundPosition", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesBackgroundPosition(StylePropertyAnimationSystem_ValuesBackgroundPositionconst&) = delete;
+  StylePropertyAnimationSystem_ValuesBackgroundPosition(StylePropertyAnimationSystem_ValuesBackgroundPosition const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5048 };
@@ -2061,7 +2061,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesBackgroundRepeat", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesBackgroundRepeat(StylePropertyAnimationSystem_ValuesBackgroundRepeatconst&) = delete;
+  StylePropertyAnimationSystem_ValuesBackgroundRepeat(StylePropertyAnimationSystem_ValuesBackgroundRepeat const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5049 };
@@ -2132,7 +2132,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem_ValuesBackgroundSize", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem_ValuesBackgroundSize(StylePropertyAnimationSystem_ValuesBackgroundSizeconst&) = delete;
+  StylePropertyAnimationSystem_ValuesBackgroundSize(StylePropertyAnimationSystem_ValuesBackgroundSize const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5050 };
@@ -2490,7 +2490,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StylePropertyAnimationSystem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyAnimationSystem(StylePropertyAnimationSystemconst&) = delete;
+  StylePropertyAnimationSystem(StylePropertyAnimationSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5051 };

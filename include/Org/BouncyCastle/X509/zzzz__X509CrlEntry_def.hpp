@@ -152,7 +152,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "X509CrlEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509CrlEntry(X509CrlEntryconst&) = delete;
+  X509CrlEntry(X509CrlEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1865 };

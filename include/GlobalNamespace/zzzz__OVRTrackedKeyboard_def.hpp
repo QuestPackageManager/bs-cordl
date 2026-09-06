@@ -428,7 +428,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboard___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTrackedKeyboard___c(OVRTrackedKeyboard___cconst&) = delete;
+  OVRTrackedKeyboard___c(OVRTrackedKeyboard___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7781 };
@@ -534,7 +534,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboard__InitializeHandPresenceData_d__86", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTrackedKeyboard__InitializeHandPresenceData_d__86(OVRTrackedKeyboard__InitializeHandPresenceData_d__86const&) = delete;
+  OVRTrackedKeyboard__InitializeHandPresenceData_d__86(OVRTrackedKeyboard__InitializeHandPresenceData_d__86 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7782 };
@@ -655,7 +655,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboard__Start_d__85", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTrackedKeyboard__Start_d__85(OVRTrackedKeyboard__Start_d__85const&) = delete;
+  OVRTrackedKeyboard__Start_d__85(OVRTrackedKeyboard__Start_d__85 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7783 };
@@ -776,7 +776,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93(OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93const&) = delete;
+  OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93(OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7784 };
@@ -897,7 +897,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboard__UpdateKeyboardPose_d__95", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTrackedKeyboard__UpdateKeyboardPose_d__95(OVRTrackedKeyboard__UpdateKeyboardPose_d__95const&) = delete;
+  OVRTrackedKeyboard__UpdateKeyboardPose_d__95(OVRTrackedKeyboard__UpdateKeyboardPose_d__95 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7785 };
@@ -1027,7 +1027,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92(OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92const&) = delete;
+  OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92(OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7786 };
@@ -1706,7 +1706,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboard", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTrackedKeyboard(OVRTrackedKeyboardconst&) = delete;
+  OVRTrackedKeyboard(OVRTrackedKeyboard const&) = delete;
 
   /// @brief Field FILTERED_POSE_TIMEOUT offset 0xffffffff size 0x4
   static constexpr float_t FILTERED_POSE_TIMEOUT{ static_cast<float_t>(15.0f) };

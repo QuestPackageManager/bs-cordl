@@ -104,7 +104,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CachedOpenTypeProvider___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CachedOpenTypeProvider___c(CachedOpenTypeProvider___cconst&) = delete;
+  CachedOpenTypeProvider___c(CachedOpenTypeProvider___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14531 };
@@ -192,7 +192,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CachedOpenTypeProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CachedOpenTypeProvider(CachedOpenTypeProviderconst&) = delete;
+  CachedOpenTypeProvider(CachedOpenTypeProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14532 };

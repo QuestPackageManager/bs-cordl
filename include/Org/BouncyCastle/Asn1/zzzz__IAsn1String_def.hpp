@@ -24,7 +24,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IAsn1String", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IAsn1String(IAsn1Stringconst&) = delete;
+  IAsn1String(IAsn1String const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 32 };

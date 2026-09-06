@@ -130,7 +130,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AvatarShadowController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AvatarShadowController(AvatarShadowControllerconst&) = delete;
+  AvatarShadowController(AvatarShadowController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21644 };

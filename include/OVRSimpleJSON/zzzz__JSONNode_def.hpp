@@ -469,7 +469,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JSONNode_LinqEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JSONNode_LinqEnumerator(JSONNode_LinqEnumeratorconst&) = delete;
+  JSONNode_LinqEnumerator(JSONNode_LinqEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8019 };
@@ -606,7 +606,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JSONNode__get_Children_d__43", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JSONNode__get_Children_d__43(JSONNode__get_Children_d__43const&) = delete;
+  JSONNode__get_Children_d__43(JSONNode__get_Children_d__43 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8020 };
@@ -781,7 +781,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JSONNode__get_DeepChildren_d__45", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JSONNode__get_DeepChildren_d__45(JSONNode__get_DeepChildren_d__45const&) = delete;
+  JSONNode__get_DeepChildren_d__45(JSONNode__get_DeepChildren_d__45 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8021 };
@@ -1307,7 +1307,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JSONNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JSONNode(JSONNodeconst&) = delete;
+  JSONNode(JSONNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8022 };

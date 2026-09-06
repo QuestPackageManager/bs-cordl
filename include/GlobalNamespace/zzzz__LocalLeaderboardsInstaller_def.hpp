@@ -52,7 +52,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalLeaderboardsInstaller(LocalLeaderboardsInstallerconst&) = delete;
+  LocalLeaderboardsInstaller(LocalLeaderboardsInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21024 };

@@ -67,7 +67,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IdentityFunction_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IdentityFunction_1___c(IdentityFunction_1___cconst&) = delete;
+  IdentityFunction_1___c(IdentityFunction_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16087 };
@@ -102,7 +102,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IdentityFunction_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IdentityFunction_1(IdentityFunction_1const&) = delete;
+  IdentityFunction_1(IdentityFunction_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16088 };

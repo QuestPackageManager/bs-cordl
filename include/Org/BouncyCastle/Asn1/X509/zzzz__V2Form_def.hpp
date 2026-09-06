@@ -130,7 +130,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "V2Form", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  V2Form(V2Formconst&) = delete;
+  V2Form(V2Form const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 398 };

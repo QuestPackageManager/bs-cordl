@@ -122,7 +122,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage_SaveFileCommand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemFileStorage_SaveFileCommand(FileSystemFileStorage_SaveFileCommandconst&) = delete;
+  FileSystemFileStorage_SaveFileCommand(FileSystemFileStorage_SaveFileCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23265 };
@@ -181,7 +181,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage_LoadFileCommand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemFileStorage_LoadFileCommand(FileSystemFileStorage_LoadFileCommandconst&) = delete;
+  FileSystemFileStorage_LoadFileCommand(FileSystemFileStorage_LoadFileCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23266 };
@@ -234,7 +234,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage_DeleteFileCommand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemFileStorage_DeleteFileCommand(FileSystemFileStorage_DeleteFileCommandconst&) = delete;
+  FileSystemFileStorage_DeleteFileCommand(FileSystemFileStorage_DeleteFileCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23267 };
@@ -287,7 +287,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage_FileExistsCommand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemFileStorage_FileExistsCommand(FileSystemFileStorage_FileExistsCommandconst&) = delete;
+  FileSystemFileStorage_FileExistsCommand(FileSystemFileStorage_FileExistsCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23268 };
@@ -345,7 +345,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemFileStorage___c(FileSystemFileStorage___cconst&) = delete;
+  FileSystemFileStorage___c(FileSystemFileStorage___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23269 };
@@ -441,7 +441,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemFileStorage(FileSystemFileStorageconst&) = delete;
+  FileSystemFileStorage(FileSystemFileStorage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23270 };

@@ -189,7 +189,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Dropdown__UpdateScrollPosition_d__24", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Dropdown__UpdateScrollPosition_d__24(Dropdown__UpdateScrollPosition_d__24const&) = delete;
+  Dropdown__UpdateScrollPosition_d__24(Dropdown__UpdateScrollPosition_d__24 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18395 };
@@ -396,7 +396,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Dropdown", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Dropdown(Dropdownconst&) = delete;
+  Dropdown(Dropdown const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18396 };

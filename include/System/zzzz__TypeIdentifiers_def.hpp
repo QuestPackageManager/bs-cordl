@@ -104,7 +104,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeIdentifiers_Display", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeIdentifiers_Display(TypeIdentifiers_Displayconst&) = delete;
+  TypeIdentifiers_Display(TypeIdentifiers_Display const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2641 };
@@ -149,7 +149,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeIdentifiers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeIdentifiers(TypeIdentifiersconst&) = delete;
+  TypeIdentifiers(TypeIdentifiers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2642 };

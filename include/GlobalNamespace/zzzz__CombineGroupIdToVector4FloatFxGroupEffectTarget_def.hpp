@@ -141,7 +141,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CombineGroupIdToVector4FloatFxGroupEffectTarget___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CombineGroupIdToVector4FloatFxGroupEffectTarget___c(CombineGroupIdToVector4FloatFxGroupEffectTarget___cconst&) = delete;
+  CombineGroupIdToVector4FloatFxGroupEffectTarget___c(CombineGroupIdToVector4FloatFxGroupEffectTarget___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5852 };
@@ -284,7 +284,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CombineGroupIdToVector4FloatFxGroupEffectTarget", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CombineGroupIdToVector4FloatFxGroupEffectTarget(CombineGroupIdToVector4FloatFxGroupEffectTargetconst&) = delete;
+  CombineGroupIdToVector4FloatFxGroupEffectTarget(CombineGroupIdToVector4FloatFxGroupEffectTarget const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5853 };

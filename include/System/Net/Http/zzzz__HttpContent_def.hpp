@@ -140,7 +140,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpContent_FixedMemoryStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpContent_FixedMemoryStream(HttpContent_FixedMemoryStreamconst&) = delete;
+  HttpContent_FixedMemoryStream(HttpContent_FixedMemoryStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20275 };
@@ -624,7 +624,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpContent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpContent(HttpContentconst&) = delete;
+  HttpContent(HttpContent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20281 };

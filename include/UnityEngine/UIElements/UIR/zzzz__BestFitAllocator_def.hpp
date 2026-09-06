@@ -64,7 +64,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BestFitAllocator_BlockPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BestFitAllocator_BlockPool(BestFitAllocator_BlockPoolconst&) = delete;
+  BestFitAllocator_BlockPool(BestFitAllocator_BlockPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5376 };
@@ -167,7 +167,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BestFitAllocator_Block", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BestFitAllocator_Block(BestFitAllocator_Blockconst&) = delete;
+  BestFitAllocator_Block(BestFitAllocator_Block const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5377 };
@@ -313,7 +313,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BestFitAllocator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BestFitAllocator(BestFitAllocatorconst&) = delete;
+  BestFitAllocator(BestFitAllocator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5378 };

@@ -165,7 +165,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ArrayList_ArrayListEnumeratorSimple", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayList_ArrayListEnumeratorSimple(ArrayList_ArrayListEnumeratorSimpleconst&) = delete;
+  ArrayList_ArrayListEnumeratorSimple(ArrayList_ArrayListEnumeratorSimple const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3723 };
@@ -220,7 +220,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ArrayList_ArrayListDebugView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayList_ArrayListDebugView(ArrayList_ArrayListDebugViewconst&) = delete;
+  ArrayList_ArrayListDebugView(ArrayList_ArrayListDebugView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3724 };
@@ -446,7 +446,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ArrayList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayList(ArrayListconst&) = delete;
+  ArrayList(ArrayList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3725 };

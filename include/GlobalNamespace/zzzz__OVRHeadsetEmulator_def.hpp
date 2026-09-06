@@ -308,7 +308,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRHeadsetEmulator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRHeadsetEmulator(OVRHeadsetEmulatorconst&) = delete;
+  OVRHeadsetEmulator(OVRHeadsetEmulator const&) = delete;
 
   /// @brief Field MAX_ROLL offset 0xffffffff size 0x4
   static constexpr float_t MAX_ROLL{ static_cast<float_t>(85.0f) };

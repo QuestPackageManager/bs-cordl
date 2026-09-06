@@ -134,7 +134,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs12Store_CertId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pkcs12Store_CertId(Pkcs12Store_CertIdconst&) = delete;
+  Pkcs12Store_CertId(Pkcs12Store_CertId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1698 };
@@ -231,7 +231,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs12Store_IgnoresCaseHashtable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pkcs12Store_IgnoresCaseHashtable(Pkcs12Store_IgnoresCaseHashtableconst&) = delete;
+  Pkcs12Store_IgnoresCaseHashtable(Pkcs12Store_IgnoresCaseHashtable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1699 };
@@ -472,7 +472,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs12Store", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pkcs12Store(Pkcs12Storeconst&) = delete;
+  Pkcs12Store(Pkcs12Store const&) = delete;
 
   /// @brief Field IgnoreUselessPasswordProperty offset 0xffffffff size 0x8
   static constexpr ::ConstString IgnoreUselessPasswordProperty{ u"Org.BouncyCastle.Pkcs12.IgnoreUselessPassword" };

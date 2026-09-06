@@ -183,7 +183,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoWebRequestHandler___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MonoWebRequestHandler___c(MonoWebRequestHandler___cconst&) = delete;
+  MonoWebRequestHandler___c(MonoWebRequestHandler___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20264 };
@@ -652,7 +652,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoWebRequestHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MonoWebRequestHandler(MonoWebRequestHandlerconst&) = delete;
+  MonoWebRequestHandler(MonoWebRequestHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20266 };

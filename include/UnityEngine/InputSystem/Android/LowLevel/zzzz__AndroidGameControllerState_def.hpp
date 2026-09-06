@@ -79,7 +79,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AndroidGameControllerState_Variants", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidGameControllerState_Variants(AndroidGameControllerState_Variantsconst&) = delete;
+  AndroidGameControllerState_Variants(AndroidGameControllerState_Variants const&) = delete;
 
   /// @brief Field DPadAxes offset 0xffffffff size 0x8
   static constexpr ::ConstString DPadAxes{ u"DpadAxes" };

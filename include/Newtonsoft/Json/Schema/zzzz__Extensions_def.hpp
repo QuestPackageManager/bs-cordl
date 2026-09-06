@@ -84,7 +84,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Extensions___c__DisplayClass0_0(Extensions___c__DisplayClass0_0const&) = delete;
+  Extensions___c__DisplayClass0_0(Extensions___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13539 };
@@ -137,7 +137,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__DisplayClass1_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Extensions___c__DisplayClass1_0(Extensions___c__DisplayClass1_0const&) = delete;
+  Extensions___c__DisplayClass1_0(Extensions___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13540 };
@@ -198,7 +198,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Extensions(Extensionsconst&) = delete;
+  Extensions(Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13541 };

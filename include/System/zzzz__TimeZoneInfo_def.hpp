@@ -647,7 +647,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo_AdjustmentRule", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeZoneInfo_AdjustmentRule(TimeZoneInfo_AdjustmentRuleconst&) = delete;
+  TimeZoneInfo_AdjustmentRule(TimeZoneInfo_AdjustmentRule const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2316 };
@@ -737,7 +737,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo_CachedData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeZoneInfo_CachedData(TimeZoneInfo_CachedDataconst&) = delete;
+  TimeZoneInfo_CachedData(TimeZoneInfo_CachedData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2318 };
@@ -835,7 +835,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo___c__DisplayClass16_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeZoneInfo___c__DisplayClass16_0(TimeZoneInfo___c__DisplayClass16_0const&) = delete;
+  TimeZoneInfo___c__DisplayClass16_0(TimeZoneInfo___c__DisplayClass16_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2319 };
@@ -968,7 +968,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeZoneInfo___c(TimeZoneInfo___cconst&) = delete;
+  TimeZoneInfo___c(TimeZoneInfo___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2320 };
@@ -1451,7 +1451,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeZoneInfo(TimeZoneInfoconst&) = delete;
+  TimeZoneInfo(TimeZoneInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2321 };

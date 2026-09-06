@@ -100,7 +100,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProjectKernel___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProjectKernel___c__DisplayClass4_0(ProjectKernel___c__DisplayClass4_0const&) = delete;
+  ProjectKernel___c__DisplayClass4_0(ProjectKernel___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14678 };
@@ -184,7 +184,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProjectKernel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProjectKernel(ProjectKernelconst&) = delete;
+  ProjectKernel(ProjectKernel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14679 };

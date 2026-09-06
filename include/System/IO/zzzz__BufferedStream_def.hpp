@@ -177,7 +177,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BufferedStream___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BufferedStream___c(BufferedStream___cconst&) = delete;
+  BufferedStream___c(BufferedStream___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3885 };
@@ -990,7 +990,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BufferedStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BufferedStream(BufferedStreamconst&) = delete;
+  BufferedStream(BufferedStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3892 };

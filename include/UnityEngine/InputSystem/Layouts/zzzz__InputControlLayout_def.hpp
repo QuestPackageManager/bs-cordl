@@ -808,7 +808,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ControlBuilder_Builder_InputControlLayout___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ControlBuilder_Builder_InputControlLayout___c(ControlBuilder_Builder_InputControlLayout___cconst&) = delete;
+  ControlBuilder_Builder_InputControlLayout___c(ControlBuilder_Builder_InputControlLayout___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9092 };
@@ -1126,7 +1126,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputControlLayout_Builder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputControlLayout_Builder(InputControlLayout_Builderconst&) = delete;
+  InputControlLayout_Builder(InputControlLayout_Builder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9094 };
@@ -1371,7 +1371,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LayoutJson_InputControlLayout___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LayoutJson_InputControlLayout___c(LayoutJson_InputControlLayout___cconst&) = delete;
+  LayoutJson_InputControlLayout___c(LayoutJson_InputControlLayout___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9097 };
@@ -1622,7 +1622,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputControlLayout_ControlItemJson", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputControlLayout_ControlItemJson(InputControlLayout_ControlItemJsonconst&) = delete;
+  InputControlLayout_ControlItemJson(InputControlLayout_ControlItemJson const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9100 };
@@ -1953,7 +1953,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ControlItemJson_InputControlLayout___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ControlItemJson_InputControlLayout___c(ControlItemJson_InputControlLayout___cconst&) = delete;
+  ControlItemJson_InputControlLayout___c(ControlItemJson_InputControlLayout___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9099 };
@@ -2363,7 +2363,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Collection_InputControlLayout__GetBaseLayouts_d__24", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Collection_InputControlLayout__GetBaseLayouts_d__24(Collection_InputControlLayout__GetBaseLayouts_d__24const&) = delete;
+  Collection_InputControlLayout__GetBaseLayouts_d__24(Collection_InputControlLayout__GetBaseLayouts_d__24 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9103 };
@@ -2479,7 +2479,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputControlLayout_LayoutNotFoundException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputControlLayout_LayoutNotFoundException(InputControlLayout_LayoutNotFoundExceptionconst&) = delete;
+  InputControlLayout_LayoutNotFoundException(InputControlLayout_LayoutNotFoundException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9105 };
@@ -2638,7 +2638,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputControlLayout___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputControlLayout___c(InputControlLayout___cconst&) = delete;
+  InputControlLayout___c(InputControlLayout___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9108 };
@@ -3033,7 +3033,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputControlLayout", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputControlLayout(InputControlLayoutconst&) = delete;
+  InputControlLayout(InputControlLayout const&) = delete;
 
   /// @brief Field VariantSeparator offset 0xffffffff size 0x8
   static constexpr ::ConstString VariantSeparator{ u";" };

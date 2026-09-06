@@ -121,7 +121,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Ssl3Mac", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ssl3Mac(Ssl3Macconst&) = delete;
+  Ssl3Mac(Ssl3Mac const&) = delete;
 
   /// @brief Field IPAD_BYTE offset 0xffffffff size 0x1
   static constexpr uint8_t IPAD_BYTE{ static_cast<uint8_t>(0x36u) };

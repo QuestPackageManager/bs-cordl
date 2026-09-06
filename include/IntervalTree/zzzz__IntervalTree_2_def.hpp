@@ -128,7 +128,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntervalTree_2___c(IntervalTree_2___cconst&) = delete;
+  IntervalTree_2___c(IntervalTree_2___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20500 };
@@ -177,7 +177,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2___c__DisplayClass19_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntervalTree_2___c__DisplayClass19_0(IntervalTree_2___c__DisplayClass19_0const&) = delete;
+  IntervalTree_2___c__DisplayClass19_0(IntervalTree_2___c__DisplayClass19_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20501 };
@@ -230,7 +230,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2___c__DisplayClass20_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntervalTree_2___c__DisplayClass20_0(IntervalTree_2___c__DisplayClass20_0const&) = delete;
+  IntervalTree_2___c__DisplayClass20_0(IntervalTree_2___c__DisplayClass20_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20502 };
@@ -291,7 +291,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2___c__DisplayClass23_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntervalTree_2___c__DisplayClass23_0(IntervalTree_2___c__DisplayClass23_0const&) = delete;
+  IntervalTree_2___c__DisplayClass23_0(IntervalTree_2___c__DisplayClass23_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20503 };
@@ -356,7 +356,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2___c__DisplayClass24_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntervalTree_2___c__DisplayClass24_0(IntervalTree_2___c__DisplayClass24_0const&) = delete;
+  IntervalTree_2___c__DisplayClass24_0(IntervalTree_2___c__DisplayClass24_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20504 };
@@ -531,7 +531,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntervalTree_2(IntervalTree_2const&) = delete;
+  IntervalTree_2(IntervalTree_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20505 };

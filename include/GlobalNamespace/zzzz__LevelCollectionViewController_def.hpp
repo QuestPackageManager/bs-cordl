@@ -146,7 +146,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelCollectionViewController___c__DisplayClass25_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelCollectionViewController___c__DisplayClass25_0(LevelCollectionViewController___c__DisplayClass25_0const&) = delete;
+  LevelCollectionViewController___c__DisplayClass25_0(LevelCollectionViewController___c__DisplayClass25_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6927 };
@@ -532,7 +532,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelCollectionViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelCollectionViewController(LevelCollectionViewControllerconst&) = delete;
+  LevelCollectionViewController(LevelCollectionViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6930 };

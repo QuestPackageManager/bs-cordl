@@ -155,7 +155,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OrderedDictionary_OrderedDictionaryEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OrderedDictionary_OrderedDictionaryEnumerator(OrderedDictionary_OrderedDictionaryEnumeratorconst&) = delete;
+  OrderedDictionary_OrderedDictionaryEnumerator(OrderedDictionary_OrderedDictionaryEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11370 };
@@ -251,7 +251,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OrderedDictionary_OrderedDictionaryKeyValueCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OrderedDictionary_OrderedDictionaryKeyValueCollection(OrderedDictionary_OrderedDictionaryKeyValueCollectionconst&) = delete;
+  OrderedDictionary_OrderedDictionaryKeyValueCollection(OrderedDictionary_OrderedDictionaryKeyValueCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11371 };
@@ -495,7 +495,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OrderedDictionary", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OrderedDictionary(OrderedDictionaryconst&) = delete;
+  OrderedDictionary(OrderedDictionary const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11372 };

@@ -127,7 +127,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProviderBindingFinalizer___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProviderBindingFinalizer___c(ProviderBindingFinalizer___cconst&) = delete;
+  ProviderBindingFinalizer___c(ProviderBindingFinalizer___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14319 };
@@ -239,7 +239,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProviderBindingFinalizer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProviderBindingFinalizer(ProviderBindingFinalizerconst&) = delete;
+  ProviderBindingFinalizer(ProviderBindingFinalizer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14320 };

@@ -292,7 +292,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSessionManager_5___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerSessionManager_5___c(MultiplayerSessionManager_5___cconst&) = delete;
+  MultiplayerSessionManager_5___c(MultiplayerSessionManager_5___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18218 };
@@ -349,7 +349,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSessionManager_5___c__DisplayClass94_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerSessionManager_5___c__DisplayClass94_0(MultiplayerSessionManager_5___c__DisplayClass94_0const&) = delete;
+  MultiplayerSessionManager_5___c__DisplayClass94_0(MultiplayerSessionManager_5___c__DisplayClass94_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18219 };
@@ -847,7 +847,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSessionManager_5", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerSessionManager_5(MultiplayerSessionManager_5const&) = delete;
+  MultiplayerSessionManager_5(MultiplayerSessionManager_5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18220 };

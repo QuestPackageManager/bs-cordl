@@ -150,7 +150,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Entitlements___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Entitlements___c(Entitlements___cconst&) = delete;
+  Entitlements___c(Entitlements___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22125 };
@@ -209,7 +209,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Entitlements___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Entitlements___c__DisplayClass5_0(Entitlements___c__DisplayClass5_0const&) = delete;
+  Entitlements___c__DisplayClass5_0(Entitlements___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22126 };
@@ -267,7 +267,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Entitlements___c__DisplayClass5_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Entitlements___c__DisplayClass5_1(Entitlements___c__DisplayClass5_1const&) = delete;
+  Entitlements___c__DisplayClass5_1(Entitlements___c__DisplayClass5_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22127 };
@@ -429,7 +429,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Entitlements", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Entitlements(Entitlementsconst&) = delete;
+  Entitlements(Entitlements const&) = delete;
 
   /// @brief Field VENDOR value: U8(2)
   static ::OculusStudios::Platform::Core::Vendor const VENDOR;

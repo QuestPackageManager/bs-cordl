@@ -341,7 +341,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CompareInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CompareInfo(CompareInfoconst&) = delete;
+  CompareInfo(CompareInfo const&) = delete;
 
   /// @brief Field ValidCompareMaskOffFlags value: I32(-536870944)
   static ::System::Globalization::CompareOptions const ValidCompareMaskOffFlags;

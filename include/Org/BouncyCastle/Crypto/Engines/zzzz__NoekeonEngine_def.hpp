@@ -113,7 +113,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NoekeonEngine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoekeonEngine(NoekeonEngineconst&) = delete;
+  NoekeonEngine(NoekeonEngine const&) = delete;
 
   /// @brief Field Size offset 0xffffffff size 0x4
   static constexpr int32_t Size{ static_cast<int32_t>(0x10) };

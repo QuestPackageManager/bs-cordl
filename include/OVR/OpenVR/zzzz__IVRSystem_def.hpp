@@ -502,7 +502,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetRecommendedRenderTargetSize", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetRecommendedRenderTargetSize(IVRSystem__GetRecommendedRenderTargetSizeconst&) = delete;
+  IVRSystem__GetRecommendedRenderTargetSize(IVRSystem__GetRecommendedRenderTargetSize const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8035 };
@@ -547,7 +547,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetProjectionMatrix", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetProjectionMatrix(IVRSystem__GetProjectionMatrixconst&) = delete;
+  IVRSystem__GetProjectionMatrix(IVRSystem__GetProjectionMatrix const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8036 };
@@ -593,7 +593,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetProjectionRaw", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetProjectionRaw(IVRSystem__GetProjectionRawconst&) = delete;
+  IVRSystem__GetProjectionRaw(IVRSystem__GetProjectionRaw const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8037 };
@@ -639,7 +639,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__ComputeDistortion", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__ComputeDistortion(IVRSystem__ComputeDistortionconst&) = delete;
+  IVRSystem__ComputeDistortion(IVRSystem__ComputeDistortion const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8038 };
@@ -684,7 +684,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetEyeToHeadTransform", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetEyeToHeadTransform(IVRSystem__GetEyeToHeadTransformconst&) = delete;
+  IVRSystem__GetEyeToHeadTransform(IVRSystem__GetEyeToHeadTransform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8039 };
@@ -729,7 +729,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetTimeSinceLastVsync", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetTimeSinceLastVsync(IVRSystem__GetTimeSinceLastVsyncconst&) = delete;
+  IVRSystem__GetTimeSinceLastVsync(IVRSystem__GetTimeSinceLastVsync const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8040 };
@@ -774,7 +774,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetD3D9AdapterIndex", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetD3D9AdapterIndex(IVRSystem__GetD3D9AdapterIndexconst&) = delete;
+  IVRSystem__GetD3D9AdapterIndex(IVRSystem__GetD3D9AdapterIndex const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8041 };
@@ -819,7 +819,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetDXGIOutputInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetDXGIOutputInfo(IVRSystem__GetDXGIOutputInfoconst&) = delete;
+  IVRSystem__GetDXGIOutputInfo(IVRSystem__GetDXGIOutputInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8042 };
@@ -865,7 +865,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetOutputDevice", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetOutputDevice(IVRSystem__GetOutputDeviceconst&) = delete;
+  IVRSystem__GetOutputDevice(IVRSystem__GetOutputDevice const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8043 };
@@ -910,7 +910,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__IsDisplayOnDesktop", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__IsDisplayOnDesktop(IVRSystem__IsDisplayOnDesktopconst&) = delete;
+  IVRSystem__IsDisplayOnDesktop(IVRSystem__IsDisplayOnDesktop const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8044 };
@@ -955,7 +955,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__SetDisplayVisibility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__SetDisplayVisibility(IVRSystem__SetDisplayVisibilityconst&) = delete;
+  IVRSystem__SetDisplayVisibility(IVRSystem__SetDisplayVisibility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8045 };
@@ -1003,7 +1003,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetDeviceToAbsoluteTrackingPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetDeviceToAbsoluteTrackingPose(IVRSystem__GetDeviceToAbsoluteTrackingPoseconst&) = delete;
+  IVRSystem__GetDeviceToAbsoluteTrackingPose(IVRSystem__GetDeviceToAbsoluteTrackingPose const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8046 };
@@ -1048,7 +1048,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__ResetSeatedZeroPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__ResetSeatedZeroPose(IVRSystem__ResetSeatedZeroPoseconst&) = delete;
+  IVRSystem__ResetSeatedZeroPose(IVRSystem__ResetSeatedZeroPose const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8047 };
@@ -1093,7 +1093,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetSeatedZeroPoseToStandingAbsoluteTrackingPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetSeatedZeroPoseToStandingAbsoluteTrackingPose(IVRSystem__GetSeatedZeroPoseToStandingAbsoluteTrackingPoseconst&) = delete;
+  IVRSystem__GetSeatedZeroPoseToStandingAbsoluteTrackingPose(IVRSystem__GetSeatedZeroPoseToStandingAbsoluteTrackingPose const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8048 };
@@ -1138,7 +1138,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetRawZeroPoseToStandingAbsoluteTrackingPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetRawZeroPoseToStandingAbsoluteTrackingPose(IVRSystem__GetRawZeroPoseToStandingAbsoluteTrackingPoseconst&) = delete;
+  IVRSystem__GetRawZeroPoseToStandingAbsoluteTrackingPose(IVRSystem__GetRawZeroPoseToStandingAbsoluteTrackingPose const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8049 };
@@ -1185,7 +1185,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetSortedTrackedDeviceIndicesOfClass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetSortedTrackedDeviceIndicesOfClass(IVRSystem__GetSortedTrackedDeviceIndicesOfClassconst&) = delete;
+  IVRSystem__GetSortedTrackedDeviceIndicesOfClass(IVRSystem__GetSortedTrackedDeviceIndicesOfClass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8050 };
@@ -1230,7 +1230,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetTrackedDeviceActivityLevel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetTrackedDeviceActivityLevel(IVRSystem__GetTrackedDeviceActivityLevelconst&) = delete;
+  IVRSystem__GetTrackedDeviceActivityLevel(IVRSystem__GetTrackedDeviceActivityLevel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8051 };
@@ -1277,7 +1277,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__ApplyTransform", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__ApplyTransform(IVRSystem__ApplyTransformconst&) = delete;
+  IVRSystem__ApplyTransform(IVRSystem__ApplyTransform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8052 };
@@ -1322,7 +1322,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetTrackedDeviceIndexForControllerRole", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetTrackedDeviceIndexForControllerRole(IVRSystem__GetTrackedDeviceIndexForControllerRoleconst&) = delete;
+  IVRSystem__GetTrackedDeviceIndexForControllerRole(IVRSystem__GetTrackedDeviceIndexForControllerRole const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8053 };
@@ -1367,7 +1367,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetControllerRoleForTrackedDeviceIndex", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetControllerRoleForTrackedDeviceIndex(IVRSystem__GetControllerRoleForTrackedDeviceIndexconst&) = delete;
+  IVRSystem__GetControllerRoleForTrackedDeviceIndex(IVRSystem__GetControllerRoleForTrackedDeviceIndex const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8054 };
@@ -1412,7 +1412,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetTrackedDeviceClass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetTrackedDeviceClass(IVRSystem__GetTrackedDeviceClassconst&) = delete;
+  IVRSystem__GetTrackedDeviceClass(IVRSystem__GetTrackedDeviceClass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8055 };
@@ -1457,7 +1457,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__IsTrackedDeviceConnected", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__IsTrackedDeviceConnected(IVRSystem__IsTrackedDeviceConnectedconst&) = delete;
+  IVRSystem__IsTrackedDeviceConnected(IVRSystem__IsTrackedDeviceConnected const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8056 };
@@ -1503,7 +1503,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetBoolTrackedDeviceProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetBoolTrackedDeviceProperty(IVRSystem__GetBoolTrackedDevicePropertyconst&) = delete;
+  IVRSystem__GetBoolTrackedDeviceProperty(IVRSystem__GetBoolTrackedDeviceProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8057 };
@@ -1549,7 +1549,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetFloatTrackedDeviceProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetFloatTrackedDeviceProperty(IVRSystem__GetFloatTrackedDevicePropertyconst&) = delete;
+  IVRSystem__GetFloatTrackedDeviceProperty(IVRSystem__GetFloatTrackedDeviceProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8058 };
@@ -1595,7 +1595,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetInt32TrackedDeviceProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetInt32TrackedDeviceProperty(IVRSystem__GetInt32TrackedDevicePropertyconst&) = delete;
+  IVRSystem__GetInt32TrackedDeviceProperty(IVRSystem__GetInt32TrackedDeviceProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8059 };
@@ -1641,7 +1641,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetUint64TrackedDeviceProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetUint64TrackedDeviceProperty(IVRSystem__GetUint64TrackedDevicePropertyconst&) = delete;
+  IVRSystem__GetUint64TrackedDeviceProperty(IVRSystem__GetUint64TrackedDeviceProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8060 };
@@ -1687,7 +1687,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetMatrix34TrackedDeviceProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetMatrix34TrackedDeviceProperty(IVRSystem__GetMatrix34TrackedDevicePropertyconst&) = delete;
+  IVRSystem__GetMatrix34TrackedDeviceProperty(IVRSystem__GetMatrix34TrackedDeviceProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8061 };
@@ -1734,7 +1734,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetArrayTrackedDeviceProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetArrayTrackedDeviceProperty(IVRSystem__GetArrayTrackedDevicePropertyconst&) = delete;
+  IVRSystem__GetArrayTrackedDeviceProperty(IVRSystem__GetArrayTrackedDeviceProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8062 };
@@ -1781,7 +1781,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetStringTrackedDeviceProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetStringTrackedDeviceProperty(IVRSystem__GetStringTrackedDevicePropertyconst&) = delete;
+  IVRSystem__GetStringTrackedDeviceProperty(IVRSystem__GetStringTrackedDeviceProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8063 };
@@ -1826,7 +1826,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetPropErrorNameFromEnum", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetPropErrorNameFromEnum(IVRSystem__GetPropErrorNameFromEnumconst&) = delete;
+  IVRSystem__GetPropErrorNameFromEnum(IVRSystem__GetPropErrorNameFromEnum const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8064 };
@@ -1871,7 +1871,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__PollNextEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__PollNextEvent(IVRSystem__PollNextEventconst&) = delete;
+  IVRSystem__PollNextEvent(IVRSystem__PollNextEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8065 };
@@ -1917,7 +1917,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__PollNextEventWithPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__PollNextEventWithPose(IVRSystem__PollNextEventWithPoseconst&) = delete;
+  IVRSystem__PollNextEventWithPose(IVRSystem__PollNextEventWithPose const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8066 };
@@ -1962,7 +1962,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetEventTypeNameFromEnum", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetEventTypeNameFromEnum(IVRSystem__GetEventTypeNameFromEnumconst&) = delete;
+  IVRSystem__GetEventTypeNameFromEnum(IVRSystem__GetEventTypeNameFromEnum const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8067 };
@@ -2007,7 +2007,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetHiddenAreaMesh", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetHiddenAreaMesh(IVRSystem__GetHiddenAreaMeshconst&) = delete;
+  IVRSystem__GetHiddenAreaMesh(IVRSystem__GetHiddenAreaMesh const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8068 };
@@ -2053,7 +2053,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetControllerState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetControllerState(IVRSystem__GetControllerStateconst&) = delete;
+  IVRSystem__GetControllerState(IVRSystem__GetControllerState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8069 };
@@ -2101,7 +2101,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetControllerStateWithPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetControllerStateWithPose(IVRSystem__GetControllerStateWithPoseconst&) = delete;
+  IVRSystem__GetControllerStateWithPose(IVRSystem__GetControllerStateWithPose const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8070 };
@@ -2146,7 +2146,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__TriggerHapticPulse", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__TriggerHapticPulse(IVRSystem__TriggerHapticPulseconst&) = delete;
+  IVRSystem__TriggerHapticPulse(IVRSystem__TriggerHapticPulse const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8071 };
@@ -2191,7 +2191,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetButtonIdNameFromEnum", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetButtonIdNameFromEnum(IVRSystem__GetButtonIdNameFromEnumconst&) = delete;
+  IVRSystem__GetButtonIdNameFromEnum(IVRSystem__GetButtonIdNameFromEnum const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8072 };
@@ -2236,7 +2236,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__GetControllerAxisTypeNameFromEnum", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__GetControllerAxisTypeNameFromEnum(IVRSystem__GetControllerAxisTypeNameFromEnumconst&) = delete;
+  IVRSystem__GetControllerAxisTypeNameFromEnum(IVRSystem__GetControllerAxisTypeNameFromEnum const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8073 };
@@ -2281,7 +2281,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__IsInputAvailable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__IsInputAvailable(IVRSystem__IsInputAvailableconst&) = delete;
+  IVRSystem__IsInputAvailable(IVRSystem__IsInputAvailable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8074 };
@@ -2326,7 +2326,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__IsSteamVRDrawingControllers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__IsSteamVRDrawingControllers(IVRSystem__IsSteamVRDrawingControllersconst&) = delete;
+  IVRSystem__IsSteamVRDrawingControllers(IVRSystem__IsSteamVRDrawingControllers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8075 };
@@ -2371,7 +2371,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__ShouldApplicationPause", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__ShouldApplicationPause(IVRSystem__ShouldApplicationPauseconst&) = delete;
+  IVRSystem__ShouldApplicationPause(IVRSystem__ShouldApplicationPause const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8076 };
@@ -2416,7 +2416,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__ShouldApplicationReduceRenderingWork", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__ShouldApplicationReduceRenderingWork(IVRSystem__ShouldApplicationReduceRenderingWorkconst&) = delete;
+  IVRSystem__ShouldApplicationReduceRenderingWork(IVRSystem__ShouldApplicationReduceRenderingWork const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8077 };
@@ -2462,7 +2462,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__DriverDebugRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__DriverDebugRequest(IVRSystem__DriverDebugRequestconst&) = delete;
+  IVRSystem__DriverDebugRequest(IVRSystem__DriverDebugRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8078 };
@@ -2507,7 +2507,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__PerformFirmwareUpdate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__PerformFirmwareUpdate(IVRSystem__PerformFirmwareUpdateconst&) = delete;
+  IVRSystem__PerformFirmwareUpdate(IVRSystem__PerformFirmwareUpdate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8079 };
@@ -2552,7 +2552,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__AcknowledgeQuit_Exiting", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__AcknowledgeQuit_Exiting(IVRSystem__AcknowledgeQuit_Exitingconst&) = delete;
+  IVRSystem__AcknowledgeQuit_Exiting(IVRSystem__AcknowledgeQuit_Exiting const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8080 };
@@ -2597,7 +2597,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSystem__AcknowledgeQuit_UserPrompt", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSystem__AcknowledgeQuit_UserPrompt(IVRSystem__AcknowledgeQuit_UserPromptconst&) = delete;
+  IVRSystem__AcknowledgeQuit_UserPrompt(IVRSystem__AcknowledgeQuit_UserPrompt const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8081 };

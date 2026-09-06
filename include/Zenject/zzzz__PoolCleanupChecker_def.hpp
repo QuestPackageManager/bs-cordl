@@ -91,7 +91,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PoolCleanupChecker___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PoolCleanupChecker___c(PoolCleanupChecker___cconst&) = delete;
+  PoolCleanupChecker___c(PoolCleanupChecker___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14452 };
@@ -165,7 +165,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PoolCleanupChecker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PoolCleanupChecker(PoolCleanupCheckerconst&) = delete;
+  PoolCleanupChecker(PoolCleanupChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14453 };

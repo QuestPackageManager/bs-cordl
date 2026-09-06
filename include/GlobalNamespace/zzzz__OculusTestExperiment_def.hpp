@@ -86,7 +86,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusTestExperiment_ExperimentData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusTestExperiment_ExperimentData(OculusTestExperiment_ExperimentDataconst&) = delete;
+  OculusTestExperiment_ExperimentData(OculusTestExperiment_ExperimentData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14859 };
@@ -207,7 +207,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusTestExperiment", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusTestExperiment(OculusTestExperimentconst&) = delete;
+  OculusTestExperiment(OculusTestExperiment const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14861 };

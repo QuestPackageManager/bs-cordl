@@ -120,7 +120,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonTypeReflector___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonTypeReflector___c(JsonTypeReflector___cconst&) = delete;
+  JsonTypeReflector___c(JsonTypeReflector___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13525 };
@@ -177,7 +177,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonTypeReflector___c__DisplayClass22_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonTypeReflector___c__DisplayClass22_0(JsonTypeReflector___c__DisplayClass22_0const&) = delete;
+  JsonTypeReflector___c__DisplayClass22_0(JsonTypeReflector___c__DisplayClass22_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13526 };
@@ -332,7 +332,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonTypeReflector", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonTypeReflector(JsonTypeReflectorconst&) = delete;
+  JsonTypeReflector(JsonTypeReflector const&) = delete;
 
   /// @brief Field ArrayValuesPropertyName offset 0xffffffff size 0x8
   static constexpr ::ConstString ArrayValuesPropertyName{ u"$values" };

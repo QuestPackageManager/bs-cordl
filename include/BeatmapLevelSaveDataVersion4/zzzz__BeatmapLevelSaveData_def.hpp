@@ -281,7 +281,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSaveData_ColorScheme", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelSaveData_ColorScheme(BeatmapLevelSaveData_ColorSchemeconst&) = delete;
+  BeatmapLevelSaveData_ColorScheme(BeatmapLevelSaveData_ColorScheme const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15416 };
@@ -484,7 +484,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSaveData_DifficultyBeatmap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelSaveData_DifficultyBeatmap(BeatmapLevelSaveData_DifficultyBeatmapconst&) = delete;
+  BeatmapLevelSaveData_DifficultyBeatmap(BeatmapLevelSaveData_DifficultyBeatmap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15418 };
@@ -655,7 +655,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSaveData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelSaveData(BeatmapLevelSaveDataconst&) = delete;
+  BeatmapLevelSaveData(BeatmapLevelSaveData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15419 };

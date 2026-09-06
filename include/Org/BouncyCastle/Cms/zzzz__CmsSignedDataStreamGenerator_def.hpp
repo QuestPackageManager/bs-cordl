@@ -161,7 +161,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsSignedDataStreamGenerator_DigestAndSignerInfoGeneratorHolder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsSignedDataStreamGenerator_DigestAndSignerInfoGeneratorHolder(CmsSignedDataStreamGenerator_DigestAndSignerInfoGeneratorHolderconst&) = delete;
+  CmsSignedDataStreamGenerator_DigestAndSignerInfoGeneratorHolder(CmsSignedDataStreamGenerator_DigestAndSignerInfoGeneratorHolder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 653 };
@@ -292,7 +292,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsSignedDataStreamGenerator_SignerInfoGeneratorImpl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsSignedDataStreamGenerator_SignerInfoGeneratorImpl(CmsSignedDataStreamGenerator_SignerInfoGeneratorImplconst&) = delete;
+  CmsSignedDataStreamGenerator_SignerInfoGeneratorImpl(CmsSignedDataStreamGenerator_SignerInfoGeneratorImpl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 654 };
@@ -439,7 +439,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsSignedDataStreamGenerator_CmsSignedDataOutputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsSignedDataStreamGenerator_CmsSignedDataOutputStream(CmsSignedDataStreamGenerator_CmsSignedDataOutputStreamconst&) = delete;
+  CmsSignedDataStreamGenerator_CmsSignedDataOutputStream(CmsSignedDataStreamGenerator_CmsSignedDataOutputStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 655 };
@@ -671,7 +671,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsSignedDataStreamGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsSignedDataStreamGenerator(CmsSignedDataStreamGeneratorconst&) = delete;
+  CmsSignedDataStreamGenerator(CmsSignedDataStreamGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 656 };

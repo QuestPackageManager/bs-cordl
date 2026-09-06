@@ -71,7 +71,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Toggle_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Toggle_UxmlFactory(Toggle_UxmlFactoryconst&) = delete;
+  Toggle_UxmlFactory(Toggle_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4340 };
@@ -119,7 +119,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Toggle_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Toggle_UxmlTraits(Toggle_UxmlTraitsconst&) = delete;
+  Toggle_UxmlTraits(Toggle_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4341 };
@@ -223,7 +223,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Toggle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Toggle(Toggleconst&) = delete;
+  Toggle(Toggle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4342 };

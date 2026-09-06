@@ -52,7 +52,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetBundleCreateRequest_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetBundleCreateRequest_BindingsMarshaller(AssetBundleCreateRequest_BindingsMarshallerconst&) = delete;
+  AssetBundleCreateRequest_BindingsMarshaller(AssetBundleCreateRequest_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23093 };
@@ -100,7 +100,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetBundleCreateRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetBundleCreateRequest(AssetBundleCreateRequestconst&) = delete;
+  AssetBundleCreateRequest(AssetBundleCreateRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23094 };

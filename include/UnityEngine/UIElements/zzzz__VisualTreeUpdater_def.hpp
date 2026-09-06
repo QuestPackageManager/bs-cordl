@@ -88,7 +88,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualTreeUpdater_UpdaterArray", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualTreeUpdater_UpdaterArray(VisualTreeUpdater_UpdaterArrayconst&) = delete;
+  VisualTreeUpdater_UpdaterArray(VisualTreeUpdater_UpdaterArray const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5263 };
@@ -177,7 +177,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualTreeUpdater", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualTreeUpdater(VisualTreeUpdaterconst&) = delete;
+  VisualTreeUpdater(VisualTreeUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5264 };

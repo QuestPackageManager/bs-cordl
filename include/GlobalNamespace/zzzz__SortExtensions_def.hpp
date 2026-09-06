@@ -66,7 +66,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SortExtensions___c__DisplayClass1_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortExtensions___c__DisplayClass1_0_1(SortExtensions___c__DisplayClass1_0_1const&) = delete;
+  SortExtensions___c__DisplayClass1_0_1(SortExtensions___c__DisplayClass1_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18284 };
@@ -108,7 +108,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SortExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortExtensions(SortExtensionsconst&) = delete;
+  SortExtensions(SortExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18285 };

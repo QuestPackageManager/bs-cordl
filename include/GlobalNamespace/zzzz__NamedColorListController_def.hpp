@@ -75,7 +75,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NamedColorListController_ColorValuePair", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NamedColorListController_ColorValuePair(NamedColorListController_ColorValuePairconst&) = delete;
+  NamedColorListController_ColorValuePair(NamedColorListController_ColorValuePair const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23342 };
@@ -178,7 +178,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NamedColorListController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NamedColorListController(NamedColorListControllerconst&) = delete;
+  NamedColorListController(NamedColorListController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23343 };

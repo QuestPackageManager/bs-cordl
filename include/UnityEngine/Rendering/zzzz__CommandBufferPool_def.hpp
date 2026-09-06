@@ -64,7 +64,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CommandBufferPool___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CommandBufferPool___c(CommandBufferPool___cconst&) = delete;
+  CommandBufferPool___c(CommandBufferPool___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11879 };
@@ -112,7 +112,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CommandBufferPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CommandBufferPool(CommandBufferPoolconst&) = delete;
+  CommandBufferPool(CommandBufferPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11880 };

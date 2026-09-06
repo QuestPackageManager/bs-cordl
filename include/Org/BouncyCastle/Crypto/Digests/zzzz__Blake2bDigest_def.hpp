@@ -237,7 +237,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Blake2bDigest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Blake2bDigest(Blake2bDigestconst&) = delete;
+  Blake2bDigest(Blake2bDigest const&) = delete;
 
   /// @brief Field BLOCK_LENGTH_BYTES offset 0xffffffff size 0x4
   static constexpr int32_t BLOCK_LENGTH_BYTES{ static_cast<int32_t>(0x80) };

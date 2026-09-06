@@ -97,7 +97,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerInputManager_PlayerJoinedEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerInputManager_PlayerJoinedEvent(PlayerInputManager_PlayerJoinedEventconst&) = delete;
+  PlayerInputManager_PlayerJoinedEvent(PlayerInputManager_PlayerJoinedEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8803 };
@@ -132,7 +132,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerInputManager_PlayerLeftEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerInputManager_PlayerLeftEvent(PlayerInputManager_PlayerLeftEventconst&) = delete;
+  PlayerInputManager_PlayerLeftEvent(PlayerInputManager_PlayerLeftEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8804 };
@@ -504,7 +504,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerInputManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerInputManager(PlayerInputManagerconst&) = delete;
+  PlayerInputManager(PlayerInputManager const&) = delete;
 
   /// @brief Field PlayerJoinedMessage offset 0xffffffff size 0x8
   static constexpr ::ConstString PlayerJoinedMessage{ u"OnPlayerJoined" };

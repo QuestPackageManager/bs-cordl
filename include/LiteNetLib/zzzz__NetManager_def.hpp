@@ -172,7 +172,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetManager_IPEndPointComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetManager_IPEndPointComparer(NetManager_IPEndPointComparerconst&) = delete;
+  NetManager_IPEndPointComparer(NetManager_IPEndPointComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20063 };
@@ -897,7 +897,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetManager(NetManagerconst&) = delete;
+  NetManager(NetManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20065 };

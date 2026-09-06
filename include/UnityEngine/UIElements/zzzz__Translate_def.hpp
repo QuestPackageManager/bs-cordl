@@ -229,7 +229,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Translate_XProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_Translate_XProperty(PropertyBag_Translate_XPropertyconst&) = delete;
+  PropertyBag_Translate_XProperty(PropertyBag_Translate_XProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4998 };
@@ -314,7 +314,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Translate_YProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_Translate_YProperty(PropertyBag_Translate_YPropertyconst&) = delete;
+  PropertyBag_Translate_YProperty(PropertyBag_Translate_YProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4999 };
@@ -399,7 +399,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Translate_ZProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_Translate_ZProperty(PropertyBag_Translate_ZPropertyconst&) = delete;
+  PropertyBag_Translate_ZProperty(PropertyBag_Translate_ZProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5000 };
@@ -454,7 +454,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Translate_PropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Translate_PropertyBag(Translate_PropertyBagconst&) = delete;
+  Translate_PropertyBag(Translate_PropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5001 };

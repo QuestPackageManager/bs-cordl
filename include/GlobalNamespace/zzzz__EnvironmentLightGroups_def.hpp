@@ -84,7 +84,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentLightGroups___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentLightGroups___c(EnvironmentLightGroups___cconst&) = delete;
+  EnvironmentLightGroups___c(EnvironmentLightGroups___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14842 };
@@ -174,7 +174,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentLightGroups", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentLightGroups(EnvironmentLightGroupsconst&) = delete;
+  EnvironmentLightGroups(EnvironmentLightGroups const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14843 };

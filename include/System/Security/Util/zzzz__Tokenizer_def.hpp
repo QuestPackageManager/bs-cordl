@@ -225,7 +225,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Tokenizer_StringMaker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Tokenizer_StringMaker(Tokenizer_StringMakerconst&) = delete;
+  Tokenizer_StringMaker(Tokenizer_StringMaker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2913 };
@@ -278,7 +278,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Tokenizer_ITokenReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Tokenizer_ITokenReader(Tokenizer_ITokenReaderconst&) = delete;
+  Tokenizer_ITokenReader(Tokenizer_ITokenReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2914 };
@@ -343,7 +343,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Tokenizer_StreamTokenReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Tokenizer_StreamTokenReader(Tokenizer_StreamTokenReaderconst&) = delete;
+  Tokenizer_StreamTokenReader(Tokenizer_StreamTokenReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2915 };
@@ -555,7 +555,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Tokenizer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Tokenizer(Tokenizerconst&) = delete;
+  Tokenizer(Tokenizer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2916 };

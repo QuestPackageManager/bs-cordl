@@ -64,7 +64,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptionProvider_EmptyCustomTypeDescriptor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeDescriptionProvider_EmptyCustomTypeDescriptor(TypeDescriptionProvider_EmptyCustomTypeDescriptorconst&) = delete;
+  TypeDescriptionProvider_EmptyCustomTypeDescriptor(TypeDescriptionProvider_EmptyCustomTypeDescriptor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11301 };
@@ -147,7 +147,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptionProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeDescriptionProvider(TypeDescriptionProviderconst&) = delete;
+  TypeDescriptionProvider(TypeDescriptionProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11302 };

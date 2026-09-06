@@ -76,7 +76,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryHeap_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BinaryHeap_1(BinaryHeap_1const&) = delete;
+  BinaryHeap_1(BinaryHeap_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20455 };

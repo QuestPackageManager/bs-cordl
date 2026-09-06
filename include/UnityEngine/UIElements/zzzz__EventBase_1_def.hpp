@@ -129,7 +129,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EventBase_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventBase_1(EventBase_1const&) = delete;
+  EventBase_1(EventBase_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4450 };
@@ -179,7 +179,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EventBase_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventBase_1___c(EventBase_1___cconst&) = delete;
+  EventBase_1___c(EventBase_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4449 };

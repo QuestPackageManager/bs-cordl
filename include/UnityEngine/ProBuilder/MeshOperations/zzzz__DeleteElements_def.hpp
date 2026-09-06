@@ -101,7 +101,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DeleteElements___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeleteElements___c(DeleteElements___cconst&) = delete;
+  DeleteElements___c(DeleteElements___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16866 };
@@ -167,7 +167,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DeleteElements___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeleteElements___c__DisplayClass0_0(DeleteElements___c__DisplayClass0_0const&) = delete;
+  DeleteElements___c__DisplayClass0_0(DeleteElements___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16867 };
@@ -225,7 +225,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DeleteElements___c__DisplayClass2_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeleteElements___c__DisplayClass2_0(DeleteElements___c__DisplayClass2_0const&) = delete;
+  DeleteElements___c__DisplayClass2_0(DeleteElements___c__DisplayClass2_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16868 };
@@ -295,7 +295,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DeleteElements", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeleteElements(DeleteElementsconst&) = delete;
+  DeleteElements(DeleteElements const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16869 };

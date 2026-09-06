@@ -352,7 +352,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Stream_ReadWriteTask", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Stream_ReadWriteTask(Stream_ReadWriteTaskconst&) = delete;
+  Stream_ReadWriteTask(Stream_ReadWriteTask const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3895 };
@@ -445,7 +445,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SynchronousAsyncResult_Stream___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SynchronousAsyncResult_Stream___c(SynchronousAsyncResult_Stream___cconst&) = delete;
+  SynchronousAsyncResult_Stream___c(SynchronousAsyncResult_Stream___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3897 };
@@ -581,7 +581,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Stream_SynchronousAsyncResult", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Stream_SynchronousAsyncResult(Stream_SynchronousAsyncResultconst&) = delete;
+  Stream_SynchronousAsyncResult(Stream_SynchronousAsyncResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3898 };
@@ -750,7 +750,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Stream___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Stream___c(Stream___cconst&) = delete;
+  Stream___c(Stream___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3899 };
@@ -1278,7 +1278,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Stream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Stream(Streamconst&) = delete;
+  Stream(Stream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3903 };

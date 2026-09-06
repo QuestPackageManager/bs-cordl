@@ -41,7 +41,7 @@ public:
                                                                           bool IsEditorOnly) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23765 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21544 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -89,12 +89,12 @@ public:
   // Declarations
   using MonoScriptData = ::GlobalNamespace::UnitySourceGeneratedAssemblyMonoScriptTypes_v1_MonoScriptData;
 
-  /// @brief Method Get, addr 0x6e3d664, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x33083cc, size 0xc0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::UnitySourceGeneratedAssemblyMonoScriptTypes_v1_MonoScriptData Get();
 
   static inline ::GlobalNamespace::UnitySourceGeneratedAssemblyMonoScriptTypes_v1* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6e3d720, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x330848c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -109,10 +109,10 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnitySourceGeneratedAssemblyMonoScriptTypes_v1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnitySourceGeneratedAssemblyMonoScriptTypes_v1(UnitySourceGeneratedAssemblyMonoScriptTypes_v1const&) = delete;
+  UnitySourceGeneratedAssemblyMonoScriptTypes_v1(UnitySourceGeneratedAssemblyMonoScriptTypes_v1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23766 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21545 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -220,7 +220,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuTransitionsHelper___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuTransitionsHelper___c(MenuTransitionsHelper___cconst&) = delete;
+  MenuTransitionsHelper___c(MenuTransitionsHelper___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6742 };
@@ -306,7 +306,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuTransitionsHelper___c__DisplayClass24_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuTransitionsHelper___c__DisplayClass24_0(MenuTransitionsHelper___c__DisplayClass24_0const&) = delete;
+  MenuTransitionsHelper___c__DisplayClass24_0(MenuTransitionsHelper___c__DisplayClass24_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6743 };
@@ -404,7 +404,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuTransitionsHelper___c__DisplayClass33_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuTransitionsHelper___c__DisplayClass33_0(MenuTransitionsHelper___c__DisplayClass33_0const&) = delete;
+  MenuTransitionsHelper___c__DisplayClass33_0(MenuTransitionsHelper___c__DisplayClass33_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6744 };
@@ -490,7 +490,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuTransitionsHelper___c__DisplayClass34_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuTransitionsHelper___c__DisplayClass34_0(MenuTransitionsHelper___c__DisplayClass34_0const&) = delete;
+  MenuTransitionsHelper___c__DisplayClass34_0(MenuTransitionsHelper___c__DisplayClass34_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6745 };
@@ -566,7 +566,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuTransitionsHelper___c__DisplayClass35_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuTransitionsHelper___c__DisplayClass35_0(MenuTransitionsHelper___c__DisplayClass35_0const&) = delete;
+  MenuTransitionsHelper___c__DisplayClass35_0(MenuTransitionsHelper___c__DisplayClass35_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6746 };
@@ -645,7 +645,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuTransitionsHelper___c__DisplayClass36_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuTransitionsHelper___c__DisplayClass36_0(MenuTransitionsHelper___c__DisplayClass36_0const&) = delete;
+  MenuTransitionsHelper___c__DisplayClass36_0(MenuTransitionsHelper___c__DisplayClass36_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6747 };
@@ -1027,7 +1027,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuTransitionsHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuTransitionsHelper(MenuTransitionsHelperconst&) = delete;
+  MenuTransitionsHelper(MenuTransitionsHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6748 };

@@ -87,7 +87,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AnalyticsScribeConverter___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnalyticsScribeConverter___c__DisplayClass4_0(AnalyticsScribeConverter___c__DisplayClass4_0const&) = delete;
+  AnalyticsScribeConverter___c__DisplayClass4_0(AnalyticsScribeConverter___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21910 };
@@ -154,7 +154,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AnalyticsScribeConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnalyticsScribeConverter(AnalyticsScribeConverterconst&) = delete;
+  AnalyticsScribeConverter(AnalyticsScribeConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21911 };

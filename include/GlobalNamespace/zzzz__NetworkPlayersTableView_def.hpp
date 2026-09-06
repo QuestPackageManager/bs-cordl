@@ -181,7 +181,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayersTableView_CellInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPlayersTableView_CellInfo(NetworkPlayersTableView_CellInfoconst&) = delete;
+  NetworkPlayersTableView_CellInfo(NetworkPlayersTableView_CellInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6393 };
@@ -348,7 +348,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayersTableView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPlayersTableView(NetworkPlayersTableViewconst&) = delete;
+  NetworkPlayersTableView(NetworkPlayersTableView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6394 };

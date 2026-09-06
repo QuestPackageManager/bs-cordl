@@ -150,7 +150,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ParameterizedStrings_LowLevelStack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ParameterizedStrings_LowLevelStack(ParameterizedStrings_LowLevelStackconst&) = delete;
+  ParameterizedStrings_LowLevelStack(ParameterizedStrings_LowLevelStack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2631 };
@@ -230,7 +230,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ParameterizedStrings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ParameterizedStrings(ParameterizedStringsconst&) = delete;
+  ParameterizedStrings(ParameterizedStrings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2632 };

@@ -200,7 +200,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DateTimeUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DateTimeUtils(DateTimeUtilsconst&) = delete;
+  DateTimeUtils(DateTimeUtils const&) = delete;
 
   /// @brief Field DaysPer100Years offset 0xffffffff size 0x4
   static constexpr int32_t DaysPer100Years{ static_cast<int32_t>(0x8eac) };

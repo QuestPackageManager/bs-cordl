@@ -66,7 +66,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VFXEventAttribute_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXEventAttribute_BindingsMarshaller(VFXEventAttribute_BindingsMarshallerconst&) = delete;
+  VFXEventAttribute_BindingsMarshaller(VFXEventAttribute_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22396 };
@@ -282,7 +282,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VFXEventAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXEventAttribute(VFXEventAttributeconst&) = delete;
+  VFXEventAttribute(VFXEventAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22397 };

@@ -65,7 +65,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_ListPool_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_ListPool_1___c(TMP_ListPool_1___cconst&) = delete;
+  TMP_ListPool_1___c(TMP_ListPool_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15954 };
@@ -110,7 +110,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_ListPool_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_ListPool_1(TMP_ListPool_1const&) = delete;
+  TMP_ListPool_1(TMP_ListPool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15955 };

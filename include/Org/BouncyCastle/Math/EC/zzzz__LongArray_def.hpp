@@ -305,7 +305,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LongArray", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LongArray(LongArrayconst&) = delete;
+  LongArray(LongArray const&) = delete;
 
   /// @brief Field ZEROES offset 0xffffffff size 0x8
   static constexpr ::ConstString ZEROES{ u"0000000000000000000000000000000000000000000000000000000000000000" };

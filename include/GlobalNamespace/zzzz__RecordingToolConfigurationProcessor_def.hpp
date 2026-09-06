@@ -139,7 +139,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RecordingToolConfigurationProcessor_ColorSaveData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RecordingToolConfigurationProcessor_ColorSaveData(RecordingToolConfigurationProcessor_ColorSaveDataconst&) = delete;
+  RecordingToolConfigurationProcessor_ColorSaveData(RecordingToolConfigurationProcessor_ColorSaveData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6632 };
@@ -234,7 +234,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RecordingToolConfigurationProcessor_PlaybackScreenshot", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RecordingToolConfigurationProcessor_PlaybackScreenshot(RecordingToolConfigurationProcessor_PlaybackScreenshotconst&) = delete;
+  RecordingToolConfigurationProcessor_PlaybackScreenshot(RecordingToolConfigurationProcessor_PlaybackScreenshot const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6633 };
@@ -503,7 +503,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RecordingToolConfigurationProcessor_RecordingConfiguration", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RecordingToolConfigurationProcessor_RecordingConfiguration(RecordingToolConfigurationProcessor_RecordingConfigurationconst&) = delete;
+  RecordingToolConfigurationProcessor_RecordingConfiguration(RecordingToolConfigurationProcessor_RecordingConfiguration const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6635 };
@@ -664,7 +664,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RecordingToolConfigurationProcessor_RecordingToolConfiguration", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RecordingToolConfigurationProcessor_RecordingToolConfiguration(RecordingToolConfigurationProcessor_RecordingToolConfigurationconst&) = delete;
+  RecordingToolConfigurationProcessor_RecordingToolConfiguration(RecordingToolConfigurationProcessor_RecordingToolConfiguration const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6634 };
@@ -800,7 +800,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RecordingToolConfigurationProcessor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RecordingToolConfigurationProcessor(RecordingToolConfigurationProcessorconst&) = delete;
+  RecordingToolConfigurationProcessor(RecordingToolConfigurationProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6636 };

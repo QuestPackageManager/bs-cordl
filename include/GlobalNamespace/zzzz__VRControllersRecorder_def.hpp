@@ -253,7 +253,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VRControllersRecorder_InitData(VRControllersRecorder_InitDataconst&) = delete;
+  VRControllersRecorder_InitData(VRControllersRecorder_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6513 };
@@ -301,7 +301,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder_TypeSerializationBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VRControllersRecorder_TypeSerializationBinder(VRControllersRecorder_TypeSerializationBinderconst&) = delete;
+  VRControllersRecorder_TypeSerializationBinder(VRControllersRecorder_TypeSerializationBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6514 };
@@ -534,7 +534,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SavedData_VRControllersRecorder_KeyframeSerializable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SavedData_VRControllersRecorder_KeyframeSerializable(SavedData_VRControllersRecorder_KeyframeSerializableconst&) = delete;
+  SavedData_VRControllersRecorder_KeyframeSerializable(SavedData_VRControllersRecorder_KeyframeSerializable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6515 };
@@ -690,7 +690,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder_SavedData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VRControllersRecorder_SavedData(VRControllersRecorder_SavedDataconst&) = delete;
+  VRControllersRecorder_SavedData(VRControllersRecorder_SavedData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6516 };
@@ -851,7 +851,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder_Keyframe", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VRControllersRecorder_Keyframe(VRControllersRecorder_Keyframeconst&) = delete;
+  VRControllersRecorder_Keyframe(VRControllersRecorder_Keyframe const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6518 };
@@ -939,7 +939,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "State_VRControllersRecorder___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  State_VRControllersRecorder___c(State_VRControllersRecorder___cconst&) = delete;
+  State_VRControllersRecorder___c(State_VRControllersRecorder___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6519 };
@@ -1060,7 +1060,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder_State", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VRControllersRecorder_State(VRControllersRecorder_Stateconst&) = delete;
+  VRControllersRecorder_State(VRControllersRecorder_State const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6520 };
@@ -1455,7 +1455,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VRControllersRecorder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VRControllersRecorder(VRControllersRecorderconst&) = delete;
+  VRControllersRecorder(VRControllersRecorder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6521 };

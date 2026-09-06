@@ -138,7 +138,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultSceneStart__Start_d__3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultSceneStart__Start_d__3(DefaultSceneStart__Start_d__3const&) = delete;
+  DefaultSceneStart__Start_d__3(DefaultSceneStart__Start_d__3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6713 };
@@ -221,7 +221,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultSceneStart", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultSceneStart(DefaultSceneStartconst&) = delete;
+  DefaultSceneStart(DefaultSceneStart const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6714 };

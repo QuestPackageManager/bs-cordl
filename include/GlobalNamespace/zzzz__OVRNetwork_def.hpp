@@ -193,7 +193,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRNetwork_OVRNetworkTcpServer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRNetwork_OVRNetworkTcpServer(OVRNetwork_OVRNetworkTcpServerconst&) = delete;
+  OVRNetwork_OVRNetworkTcpServer(OVRNetwork_OVRNetworkTcpServer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7949 };
@@ -393,7 +393,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRNetwork_OVRNetworkTcpClient", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRNetwork_OVRNetworkTcpClient(OVRNetwork_OVRNetworkTcpClientconst&) = delete;
+  OVRNetwork_OVRNetworkTcpClient(OVRNetwork_OVRNetworkTcpClient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7951 };
@@ -469,7 +469,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRNetwork", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRNetwork(OVRNetworkconst&) = delete;
+  OVRNetwork(OVRNetwork const&) = delete;
 
   /// @brief Field FrameHeaderMagicIdentifier offset 0xffffffff size 0x4
   static constexpr uint32_t FrameHeaderMagicIdentifier{ static_cast<uint32_t>(0x5283a76bu) };

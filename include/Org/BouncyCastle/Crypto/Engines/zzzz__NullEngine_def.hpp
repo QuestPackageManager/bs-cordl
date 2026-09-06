@@ -82,7 +82,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NullEngine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NullEngine(NullEngineconst&) = delete;
+  NullEngine(NullEngine const&) = delete;
 
   /// @brief Field BlockSize offset 0xffffffff size 0x4
   static constexpr int32_t BlockSize{ static_cast<int32_t>(0x1) };

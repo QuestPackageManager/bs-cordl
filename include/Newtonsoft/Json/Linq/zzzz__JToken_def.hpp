@@ -256,7 +256,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JToken_LineInfoAnnotation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JToken_LineInfoAnnotation(JToken_LineInfoAnnotationconst&) = delete;
+  JToken_LineInfoAnnotation(JToken_LineInfoAnnotation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13606 };
@@ -411,7 +411,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JToken__AfterSelf_d__49", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JToken__AfterSelf_d__49(JToken__AfterSelf_d__49const&) = delete;
+  JToken__AfterSelf_d__49(JToken__AfterSelf_d__49 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13607 };
@@ -594,7 +594,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JToken__Annotations_d__185_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JToken__Annotations_d__185_1(JToken__Annotations_d__185_1const&) = delete;
+  JToken__Annotations_d__185_1(JToken__Annotations_d__185_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13608 };
@@ -783,7 +783,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JToken__Annotations_d__186", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JToken__Annotations_d__186(JToken__Annotations_d__186const&) = delete;
+  JToken__Annotations_d__186(JToken__Annotations_d__186 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13609 };
@@ -972,7 +972,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JToken__BeforeSelf_d__50", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JToken__BeforeSelf_d__50(JToken__BeforeSelf_d__50const&) = delete;
+  JToken__BeforeSelf_d__50(JToken__BeforeSelf_d__50 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13610 };
@@ -1162,7 +1162,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JToken__GetAncestors_d__48", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JToken__GetAncestors_d__48(JToken__GetAncestors_d__48const&) = delete;
+  JToken__GetAncestors_d__48(JToken__GetAncestors_d__48 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13611 };
@@ -2100,7 +2100,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JToken", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JToken(JTokenconst&) = delete;
+  JToken(JToken const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13613 };

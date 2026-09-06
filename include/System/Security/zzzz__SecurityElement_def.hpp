@@ -81,7 +81,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SecurityElement_SecurityAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecurityElement_SecurityAttribute(SecurityElement_SecurityAttributeconst&) = delete;
+  SecurityElement_SecurityAttribute(SecurityElement_SecurityAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2907 };
@@ -264,7 +264,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SecurityElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecurityElement(SecurityElementconst&) = delete;
+  SecurityElement(SecurityElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2908 };

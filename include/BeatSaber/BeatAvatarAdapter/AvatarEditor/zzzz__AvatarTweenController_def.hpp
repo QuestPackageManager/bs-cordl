@@ -120,7 +120,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AvatarTweenController___c__DisplayClass54_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AvatarTweenController___c__DisplayClass54_0(AvatarTweenController___c__DisplayClass54_0const&) = delete;
+  AvatarTweenController___c__DisplayClass54_0(AvatarTweenController___c__DisplayClass54_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21690 };
@@ -245,7 +245,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AvatarTweenController__AppearAnimation_d__55", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AvatarTweenController__AppearAnimation_d__55(AvatarTweenController__AppearAnimation_d__55const&) = delete;
+  AvatarTweenController__AppearAnimation_d__55(AvatarTweenController__AppearAnimation_d__55 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21691 };
@@ -371,7 +371,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AvatarTweenController__DisappearAnimation_d__60", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AvatarTweenController__DisappearAnimation_d__60(AvatarTweenController__DisappearAnimation_d__60const&) = delete;
+  AvatarTweenController__DisappearAnimation_d__60(AvatarTweenController__DisappearAnimation_d__60 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21692 };
@@ -911,7 +911,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AvatarTweenController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AvatarTweenController(AvatarTweenControllerconst&) = delete;
+  AvatarTweenController(AvatarTweenController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21693 };

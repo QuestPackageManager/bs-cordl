@@ -175,7 +175,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DepthNormalOnlyPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DepthNormalOnlyPass_PassData(DepthNormalOnlyPass_PassDataconst&) = delete;
+  DepthNormalOnlyPass_PassData(DepthNormalOnlyPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13084 };
@@ -258,7 +258,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DepthNormalOnlyPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DepthNormalOnlyPass___c(DepthNormalOnlyPass___cconst&) = delete;
+  DepthNormalOnlyPass___c(DepthNormalOnlyPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13085 };
@@ -513,7 +513,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DepthNormalOnlyPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DepthNormalOnlyPass(DepthNormalOnlyPassconst&) = delete;
+  DepthNormalOnlyPass(DepthNormalOnlyPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13086 };

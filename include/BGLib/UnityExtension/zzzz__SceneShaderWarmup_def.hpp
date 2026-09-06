@@ -237,7 +237,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SceneShaderWarmup__WarmupShaders_d__8", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SceneShaderWarmup__WarmupShaders_d__8(SceneShaderWarmup__WarmupShaders_d__8const&) = delete;
+  SceneShaderWarmup__WarmupShaders_d__8(SceneShaderWarmup__WarmupShaders_d__8 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20799 };
@@ -346,7 +346,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SceneShaderWarmup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SceneShaderWarmup(SceneShaderWarmupconst&) = delete;
+  SceneShaderWarmup(SceneShaderWarmup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20800 };

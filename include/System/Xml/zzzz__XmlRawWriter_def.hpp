@@ -196,7 +196,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlRawWriter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlRawWriter(XmlRawWriterconst&) = delete;
+  XmlRawWriter(XmlRawWriter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9315 };

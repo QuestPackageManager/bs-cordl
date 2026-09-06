@@ -45,7 +45,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BZip2Constants", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BZip2Constants(BZip2Constantsconst&) = delete;
+  BZip2Constants(BZip2Constants const&) = delete;
 
   /// @brief Field G_SIZE offset 0xffffffff size 0x4
   static constexpr int32_t G_SIZE{ static_cast<int32_t>(0x32) };

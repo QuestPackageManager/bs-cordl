@@ -280,7 +280,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PacketEncryptionLayer_EncryptionStatistics", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PacketEncryptionLayer_EncryptionStatistics(PacketEncryptionLayer_EncryptionStatisticsconst&) = delete;
+  PacketEncryptionLayer_EncryptionStatistics(PacketEncryptionLayer_EncryptionStatistics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18243 };
@@ -379,7 +379,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PendingEncryptionStateList_PacketEncryptionLayer___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PendingEncryptionStateList_PacketEncryptionLayer___c(PendingEncryptionStateList_PacketEncryptionLayer___cconst&) = delete;
+  PendingEncryptionStateList_PacketEncryptionLayer___c(PendingEncryptionStateList_PacketEncryptionLayer___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18244 };
@@ -427,7 +427,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass4_0(PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass4_0const&) = delete;
+  PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass4_0(PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18245 };
@@ -480,7 +480,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass8_0(PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass8_0const&) = delete;
+  PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass8_0(PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass8_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18246 };
@@ -566,7 +566,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PacketEncryptionLayer_PendingEncryptionStateList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PacketEncryptionLayer_PendingEncryptionStateList(PacketEncryptionLayer_PendingEncryptionStateListconst&) = delete;
+  PacketEncryptionLayer_PendingEncryptionStateList(PacketEncryptionLayer_PendingEncryptionStateList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18247 };
@@ -955,7 +955,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PacketEncryptionLayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PacketEncryptionLayer(PacketEncryptionLayerconst&) = delete;
+  PacketEncryptionLayer(PacketEncryptionLayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18250 };

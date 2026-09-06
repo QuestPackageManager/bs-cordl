@@ -208,7 +208,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsSignedDataGenerator_SignerInf", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsSignedDataGenerator_SignerInf(CmsSignedDataGenerator_SignerInfconst&) = delete;
+  CmsSignedDataGenerator_SignerInf(CmsSignedDataGenerator_SignerInf const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 650 };
@@ -370,7 +370,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsSignedDataGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsSignedDataGenerator(CmsSignedDataGeneratorconst&) = delete;
+  CmsSignedDataGenerator(CmsSignedDataGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 651 };

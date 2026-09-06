@@ -146,7 +146,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PrefabInstantiator___c__DisplayClass15_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PrefabInstantiator___c__DisplayClass15_0(PrefabInstantiator___c__DisplayClass15_0const&) = delete;
+  PrefabInstantiator___c__DisplayClass15_0(PrefabInstantiator___c__DisplayClass15_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14582 };
@@ -307,7 +307,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PrefabInstantiator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PrefabInstantiator(PrefabInstantiatorconst&) = delete;
+  PrefabInstantiator(PrefabInstantiator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14583 };

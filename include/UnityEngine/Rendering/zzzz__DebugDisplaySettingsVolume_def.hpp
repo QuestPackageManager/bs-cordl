@@ -210,7 +210,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsVolume_Styles", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsVolume_Styles(DebugDisplaySettingsVolume_Stylesconst&) = delete;
+  DebugDisplaySettingsVolume_Styles(DebugDisplaySettingsVolume_Styles const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11957 };
@@ -359,7 +359,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsVolume_Strings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsVolume_Strings(DebugDisplaySettingsVolume_Stringsconst&) = delete;
+  DebugDisplaySettingsVolume_Strings(DebugDisplaySettingsVolume_Strings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11958 };
@@ -467,7 +467,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsVolume___c(WidgetFactory_DebugDisplaySettingsVolume___cconst&) = delete;
+  WidgetFactory_DebugDisplaySettingsVolume___c(WidgetFactory_DebugDisplaySettingsVolume___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11960 };
@@ -524,7 +524,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0const&) = delete;
+  WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11961 };
@@ -583,7 +583,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0const&) = delete;
+  WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11962 };
@@ -675,7 +675,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass7_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass7_0(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass7_0const&) = delete;
+  WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass7_0(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass7_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11963 };
@@ -745,7 +745,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_0(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_0const&) = delete;
+  WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_0(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11964 };
@@ -814,7 +814,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_1(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_1const&) = delete;
+  WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_1(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11965 };
@@ -909,7 +909,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsVolume_WidgetFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsVolume_WidgetFactory(DebugDisplaySettingsVolume_WidgetFactoryconst&) = delete;
+  DebugDisplaySettingsVolume_WidgetFactory(DebugDisplaySettingsVolume_WidgetFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11966 };
@@ -965,7 +965,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsVolume_SettingsPanel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsVolume_SettingsPanel(DebugDisplaySettingsVolume_SettingsPanelconst&) = delete;
+  DebugDisplaySettingsVolume_SettingsPanel(DebugDisplaySettingsVolume_SettingsPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11967 };
@@ -1068,7 +1068,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsVolume", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsVolume(DebugDisplaySettingsVolumeconst&) = delete;
+  DebugDisplaySettingsVolume(DebugDisplaySettingsVolume const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11968 };

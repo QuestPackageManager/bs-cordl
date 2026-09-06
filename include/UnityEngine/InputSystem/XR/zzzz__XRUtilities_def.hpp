@@ -32,7 +32,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XRUtilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRUtilities(XRUtilitiesconst&) = delete;
+  XRUtilities(XRUtilities const&) = delete;
 
   /// @brief Field InterfaceCurrent offset 0xffffffff size 0x8
   static constexpr ::ConstString InterfaceCurrent{ u"XRInputV1" };

@@ -396,7 +396,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CAPI_FilterCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CAPI_FilterCallback(CAPI_FilterCallbackconst&) = delete;
+  CAPI_FilterCallback(CAPI_FilterCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17832 };
@@ -3399,7 +3399,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CAPI", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CAPI(CAPIconst&) = delete;
+  CAPI(CAPI const&) = delete;
 
   /// @brief Field DLL_NAME offset 0xffffffff size 0x8
   static constexpr ::ConstString DLL_NAME{ u"ovrplatformloader" };

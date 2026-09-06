@@ -74,7 +74,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Extrapolation___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Extrapolation___c(Extrapolation___cconst&) = delete;
+  Extrapolation___c(Extrapolation___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19254 };
@@ -121,7 +121,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Extrapolation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Extrapolation(Extrapolationconst&) = delete;
+  Extrapolation(Extrapolation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19255 };

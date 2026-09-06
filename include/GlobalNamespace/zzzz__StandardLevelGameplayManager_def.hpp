@@ -127,7 +127,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelGameplayManager_InitData(StandardLevelGameplayManager_InitDataconst&) = delete;
+  StandardLevelGameplayManager_InitData(StandardLevelGameplayManager_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5999 };
@@ -309,7 +309,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager__Start_d__27", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelGameplayManager__Start_d__27(StandardLevelGameplayManager__Start_d__27const&) = delete;
+  StandardLevelGameplayManager__Start_d__27(StandardLevelGameplayManager__Start_d__27 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6001 };
@@ -582,7 +582,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelGameplayManager(StandardLevelGameplayManagerconst&) = delete;
+  StandardLevelGameplayManager(StandardLevelGameplayManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6002 };

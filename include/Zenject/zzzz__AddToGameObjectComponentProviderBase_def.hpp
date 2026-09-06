@@ -146,7 +146,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddToGameObjectComponentProviderBase___c__DisplayClass17_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddToGameObjectComponentProviderBase___c__DisplayClass17_0(AddToGameObjectComponentProviderBase___c__DisplayClass17_0const&) = delete;
+  AddToGameObjectComponentProviderBase___c__DisplayClass17_0(AddToGameObjectComponentProviderBase___c__DisplayClass17_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14538 };
@@ -304,7 +304,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddToGameObjectComponentProviderBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddToGameObjectComponentProviderBase(AddToGameObjectComponentProviderBaseconst&) = delete;
+  AddToGameObjectComponentProviderBase(AddToGameObjectComponentProviderBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14539 };

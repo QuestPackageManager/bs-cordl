@@ -146,7 +146,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HealthWarningViewController__DismissHealthAndSafety_d__11", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HealthWarningViewController__DismissHealthAndSafety_d__11(HealthWarningViewController__DismissHealthAndSafety_d__11const&) = delete;
+  HealthWarningViewController__DismissHealthAndSafety_d__11(HealthWarningViewController__DismissHealthAndSafety_d__11 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6441 };
@@ -283,7 +283,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HealthWarningViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HealthWarningViewController(HealthWarningViewControllerconst&) = delete;
+  HealthWarningViewController(HealthWarningViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6442 };

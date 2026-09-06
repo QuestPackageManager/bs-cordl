@@ -172,7 +172,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1_FromAsyncTrimPromise_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskFactory_1_FromAsyncTrimPromise_1(TaskFactory_1_FromAsyncTrimPromise_1const&) = delete;
+  TaskFactory_1_FromAsyncTrimPromise_1(TaskFactory_1_FromAsyncTrimPromise_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2789 };
@@ -274,7 +274,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass32_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskFactory_1___c__DisplayClass32_0(TaskFactory_1___c__DisplayClass32_0const&) = delete;
+  TaskFactory_1___c__DisplayClass32_0(TaskFactory_1___c__DisplayClass32_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2790 };
@@ -358,7 +358,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass35_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskFactory_1___c__DisplayClass35_0(TaskFactory_1___c__DisplayClass35_0const&) = delete;
+  TaskFactory_1___c__DisplayClass35_0(TaskFactory_1___c__DisplayClass35_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2791 };
@@ -433,7 +433,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass38_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskFactory_1___c__DisplayClass38_0_1(TaskFactory_1___c__DisplayClass38_0_1const&) = delete;
+  TaskFactory_1___c__DisplayClass38_0_1(TaskFactory_1___c__DisplayClass38_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2792 };
@@ -508,7 +508,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass41_0_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskFactory_1___c__DisplayClass41_0_2(TaskFactory_1___c__DisplayClass41_0_2const&) = delete;
+  TaskFactory_1___c__DisplayClass41_0_2(TaskFactory_1___c__DisplayClass41_0_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2793 };
@@ -583,7 +583,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass44_0_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskFactory_1___c__DisplayClass44_0_3(TaskFactory_1___c__DisplayClass44_0_3const&) = delete;
+  TaskFactory_1___c__DisplayClass44_0_3(TaskFactory_1___c__DisplayClass44_0_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2794 };
@@ -746,7 +746,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskFactory_1(TaskFactory_1const&) = delete;
+  TaskFactory_1(TaskFactory_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2795 };

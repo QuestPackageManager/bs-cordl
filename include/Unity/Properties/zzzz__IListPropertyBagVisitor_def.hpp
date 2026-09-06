@@ -31,7 +31,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IListPropertyBagVisitor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IListPropertyBagVisitor(IListPropertyBagVisitorconst&) = delete;
+  IListPropertyBagVisitor(IListPropertyBagVisitor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19683 };

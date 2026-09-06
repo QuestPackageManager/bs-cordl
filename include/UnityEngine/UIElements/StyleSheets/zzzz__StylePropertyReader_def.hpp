@@ -156,7 +156,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StylePropertyReader_GetCursorIdFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyReader_GetCursorIdFunction(StylePropertyReader_GetCursorIdFunctionconst&) = delete;
+  StylePropertyReader_GetCursorIdFunction(StylePropertyReader_GetCursorIdFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5457 };
@@ -500,7 +500,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StylePropertyReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyReader(StylePropertyReaderconst&) = delete;
+  StylePropertyReader(StylePropertyReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5458 };

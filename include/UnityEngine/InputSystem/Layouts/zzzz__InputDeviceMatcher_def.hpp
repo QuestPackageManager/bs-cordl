@@ -265,7 +265,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputDeviceMatcher___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputDeviceMatcher___c(InputDeviceMatcher___cconst&) = delete;
+  InputDeviceMatcher___c(InputDeviceMatcher___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9117 };
@@ -590,7 +590,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputDeviceMatcher__get_patterns_d__4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputDeviceMatcher__get_patterns_d__4(InputDeviceMatcher__get_patterns_d__4const&) = delete;
+  InputDeviceMatcher__get_patterns_d__4(InputDeviceMatcher__get_patterns_d__4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9118 };

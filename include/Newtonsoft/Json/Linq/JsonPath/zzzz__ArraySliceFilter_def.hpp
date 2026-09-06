@@ -273,7 +273,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ArraySliceFilter__ExecuteFilter_d__12", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArraySliceFilter__ExecuteFilter_d__12(ArraySliceFilter__ExecuteFilter_d__12const&) = delete;
+  ArraySliceFilter__ExecuteFilter_d__12(ArraySliceFilter__ExecuteFilter_d__12 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13627 };
@@ -451,7 +451,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ArraySliceFilter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArraySliceFilter(ArraySliceFilterconst&) = delete;
+  ArraySliceFilter(ArraySliceFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13628 };

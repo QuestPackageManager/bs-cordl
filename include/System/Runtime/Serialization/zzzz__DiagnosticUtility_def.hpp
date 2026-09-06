@@ -61,7 +61,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DiagnosticUtility_DiagnosticTrace", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiagnosticUtility_DiagnosticTrace(DiagnosticUtility_DiagnosticTraceconst&) = delete;
+  DiagnosticUtility_DiagnosticTrace(DiagnosticUtility_DiagnosticTrace const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17151 };
@@ -106,7 +106,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DiagnosticUtility_ExceptionUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiagnosticUtility_ExceptionUtility(DiagnosticUtility_ExceptionUtilityconst&) = delete;
+  DiagnosticUtility_ExceptionUtility(DiagnosticUtility_ExceptionUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17152 };
@@ -168,7 +168,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DiagnosticUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiagnosticUtility(DiagnosticUtilityconst&) = delete;
+  DiagnosticUtility(DiagnosticUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17153 };

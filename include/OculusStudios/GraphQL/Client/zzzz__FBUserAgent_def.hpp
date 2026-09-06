@@ -160,7 +160,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FBUserAgent__EncodedPropertyKeys_d__7", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FBUserAgent__EncodedPropertyKeys_d__7(FBUserAgent__EncodedPropertyKeys_d__7const&) = delete;
+  FBUserAgent__EncodedPropertyKeys_d__7(FBUserAgent__EncodedPropertyKeys_d__7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20409 };
@@ -302,7 +302,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FBUserAgent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FBUserAgent(FBUserAgentconst&) = delete;
+  FBUserAgent(FBUserAgent const&) = delete;
 
   /// @brief Field APP_NAME offset 0xffffffff size 0x8
   static constexpr ::ConstString APP_NAME{ u"FBAN" };

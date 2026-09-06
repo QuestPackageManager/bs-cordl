@@ -103,7 +103,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UpdateCatalogsOperation___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UpdateCatalogsOperation___c(UpdateCatalogsOperation___cconst&) = delete;
+  UpdateCatalogsOperation___c(UpdateCatalogsOperation___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19829 };
@@ -161,7 +161,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UpdateCatalogsOperation___c__DisplayClass11_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UpdateCatalogsOperation___c__DisplayClass11_0(UpdateCatalogsOperation___c__DisplayClass11_0const&) = delete;
+  UpdateCatalogsOperation___c__DisplayClass11_0(UpdateCatalogsOperation___c__DisplayClass11_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19830 };
@@ -286,7 +286,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UpdateCatalogsOperation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UpdateCatalogsOperation(UpdateCatalogsOperationconst&) = delete;
+  UpdateCatalogsOperation(UpdateCatalogsOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19831 };

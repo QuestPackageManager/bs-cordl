@@ -142,7 +142,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FireworksController__SpawningCoroutine_d__10", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FireworksController__SpawningCoroutine_d__10(FireworksController__SpawningCoroutine_d__10const&) = delete;
+  FireworksController__SpawningCoroutine_d__10(FireworksController__SpawningCoroutine_d__10 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5767 };
@@ -284,7 +284,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FireworksController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FireworksController(FireworksControllerconst&) = delete;
+  FireworksController(FireworksController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5768 };

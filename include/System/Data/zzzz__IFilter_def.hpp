@@ -29,7 +29,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IFilter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IFilter(IFilterconst&) = delete;
+  IFilter(IFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13825 };

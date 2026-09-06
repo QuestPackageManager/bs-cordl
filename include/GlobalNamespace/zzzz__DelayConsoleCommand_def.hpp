@@ -113,7 +113,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DelayConsoleCommand___c__DisplayClass8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DelayConsoleCommand___c__DisplayClass8_0(DelayConsoleCommand___c__DisplayClass8_0const&) = delete;
+  DelayConsoleCommand___c__DisplayClass8_0(DelayConsoleCommand___c__DisplayClass8_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19381 };
@@ -247,7 +247,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9(DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9const&) = delete;
+  DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9(DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19382 };
@@ -365,7 +365,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DelayConsoleCommand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DelayConsoleCommand(DelayConsoleCommandconst&) = delete;
+  DelayConsoleCommand(DelayConsoleCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19383 };

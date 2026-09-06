@@ -140,7 +140,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Toggle_ToggleEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Toggle_ToggleEvent(Toggle_ToggleEventconst&) = delete;
+  Toggle_ToggleEvent(Toggle_ToggleEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17500 };
@@ -314,7 +314,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Toggle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Toggle(Toggleconst&) = delete;
+  Toggle(Toggle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17501 };

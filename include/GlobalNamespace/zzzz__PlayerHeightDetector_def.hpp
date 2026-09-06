@@ -82,7 +82,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerHeightDetector_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerHeightDetector_InitData(PlayerHeightDetector_InitDataconst&) = delete;
+  PlayerHeightDetector_InitData(PlayerHeightDetector_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6214 };
@@ -247,7 +247,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerHeightDetector", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerHeightDetector(PlayerHeightDetectorconst&) = delete;
+  PlayerHeightDetector(PlayerHeightDetector const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6215 };

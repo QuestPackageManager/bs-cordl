@@ -73,7 +73,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultControls_IFactoryControls", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultControls_IFactoryControls(DefaultControls_IFactoryControlsconst&) = delete;
+  DefaultControls_IFactoryControls(DefaultControls_IFactoryControls const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17399 };
@@ -122,7 +122,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultControls_DefaultRuntimeFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultControls_DefaultRuntimeFactory(DefaultControls_DefaultRuntimeFactoryconst&) = delete;
+  DefaultControls_DefaultRuntimeFactory(DefaultControls_DefaultRuntimeFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17400 };
@@ -328,7 +328,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultControls", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultControls(DefaultControlsconst&) = delete;
+  DefaultControls(DefaultControls const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17402 };

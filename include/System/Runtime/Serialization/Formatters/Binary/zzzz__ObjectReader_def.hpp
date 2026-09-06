@@ -136,7 +136,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectReader_TypeNAssembly", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectReader_TypeNAssembly(ObjectReader_TypeNAssemblyconst&) = delete;
+  ObjectReader_TypeNAssembly(ObjectReader_TypeNAssembly const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3299 };
@@ -193,7 +193,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectReader_TopLevelAssemblyTypeResolver", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectReader_TopLevelAssemblyTypeResolver(ObjectReader_TopLevelAssemblyTypeResolverconst&) = delete;
+  ObjectReader_TopLevelAssemblyTypeResolver(ObjectReader_TopLevelAssemblyTypeResolver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3300 };
@@ -560,7 +560,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectReader(ObjectReaderconst&) = delete;
+  ObjectReader(ObjectReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3301 };

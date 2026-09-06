@@ -120,7 +120,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AppInit___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AppInit___c(AppInit___cconst&) = delete;
+  AppInit___c(AppInit___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21512 };
@@ -426,7 +426,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AppInit", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AppInit(AppInitconst&) = delete;
+  AppInit(AppInit const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21516 };

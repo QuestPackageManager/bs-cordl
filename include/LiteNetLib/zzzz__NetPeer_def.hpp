@@ -143,7 +143,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetPeer_IncomingFragments", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetPeer_IncomingFragments(NetPeer_IncomingFragmentsconst&) = delete;
+  NetPeer_IncomingFragments(NetPeer_IncomingFragments const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20075 };
@@ -775,7 +775,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetPeer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetPeer(NetPeerconst&) = delete;
+  NetPeer(NetPeer const&) = delete;
 
   /// @brief Field MaxMtuCheckAttempts offset 0xffffffff size 0x4
   static constexpr int32_t MaxMtuCheckAttempts{ static_cast<int32_t>(0x4) };

@@ -137,7 +137,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerIntroCountdown___c__DisplayClass28_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerIntroCountdown___c__DisplayClass28_0(MultiplayerIntroCountdown___c__DisplayClass28_0const&) = delete;
+  MultiplayerIntroCountdown___c__DisplayClass28_0(MultiplayerIntroCountdown___c__DisplayClass28_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6144 };
@@ -289,7 +289,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerIntroCountdown__CountdownRoutine_d__26", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerIntroCountdown__CountdownRoutine_d__26(MultiplayerIntroCountdown__CountdownRoutine_d__26const&) = delete;
+  MultiplayerIntroCountdown__CountdownRoutine_d__26(MultiplayerIntroCountdown__CountdownRoutine_d__26 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6145 };
@@ -466,7 +466,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerIntroCountdown__PhaseRoutine_d__28", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerIntroCountdown__PhaseRoutine_d__28(MultiplayerIntroCountdown__PhaseRoutine_d__28const&) = delete;
+  MultiplayerIntroCountdown__PhaseRoutine_d__28(MultiplayerIntroCountdown__PhaseRoutine_d__28 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6146 };
@@ -625,7 +625,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerIntroCountdown__PlayDelayed_d__27", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerIntroCountdown__PlayDelayed_d__27(MultiplayerIntroCountdown__PlayDelayed_d__27const&) = delete;
+  MultiplayerIntroCountdown__PlayDelayed_d__27(MultiplayerIntroCountdown__PlayDelayed_d__27 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6147 };
@@ -885,7 +885,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerIntroCountdown", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerIntroCountdown(MultiplayerIntroCountdownconst&) = delete;
+  MultiplayerIntroCountdown(MultiplayerIntroCountdown const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6148 };

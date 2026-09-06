@@ -105,7 +105,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BurstSliderGameNoteController_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstSliderGameNoteController_Pool(BurstSliderGameNoteController_Poolconst&) = delete;
+  BurstSliderGameNoteController_Pool(BurstSliderGameNoteController_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5649 };
@@ -358,7 +358,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BurstSliderGameNoteController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstSliderGameNoteController(BurstSliderGameNoteControllerconst&) = delete;
+  BurstSliderGameNoteController(BurstSliderGameNoteController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5650 };

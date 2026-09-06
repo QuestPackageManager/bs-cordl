@@ -269,7 +269,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerator_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemEnumerator_1(FileSystemEnumerator_1const&) = delete;
+  FileSystemEnumerator_1(FileSystemEnumerator_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3936 };

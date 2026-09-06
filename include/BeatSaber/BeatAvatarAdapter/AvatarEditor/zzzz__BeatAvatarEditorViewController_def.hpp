@@ -194,7 +194,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarEditorViewController___c__DisplayClass60_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatAvatarEditorViewController___c__DisplayClass60_0(BeatAvatarEditorViewController___c__DisplayClass60_0const&) = delete;
+  BeatAvatarEditorViewController___c__DisplayClass60_0(BeatAvatarEditorViewController___c__DisplayClass60_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21694 };
@@ -297,7 +297,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarEditorViewController___c__DisplayClass62_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatAvatarEditorViewController___c__DisplayClass62_0_1(BeatAvatarEditorViewController___c__DisplayClass62_0_1const&) = delete;
+  BeatAvatarEditorViewController___c__DisplayClass62_0_1(BeatAvatarEditorViewController___c__DisplayClass62_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21695 };
@@ -866,7 +866,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarEditorViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatAvatarEditorViewController(BeatAvatarEditorViewControllerconst&) = delete;
+  BeatAvatarEditorViewController(BeatAvatarEditorViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21697 };

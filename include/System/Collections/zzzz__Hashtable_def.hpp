@@ -214,7 +214,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Hashtable_KeyCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Hashtable_KeyCollection(Hashtable_KeyCollectionconst&) = delete;
+  Hashtable_KeyCollection(Hashtable_KeyCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3727 };
@@ -296,7 +296,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Hashtable_ValueCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Hashtable_ValueCollection(Hashtable_ValueCollectionconst&) = delete;
+  Hashtable_ValueCollection(Hashtable_ValueCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3728 };
@@ -446,7 +446,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Hashtable_HashtableEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Hashtable_HashtableEnumerator(Hashtable_HashtableEnumeratorconst&) = delete;
+  Hashtable_HashtableEnumerator(Hashtable_HashtableEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3730 };
@@ -511,7 +511,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Hashtable_HashtableDebugView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Hashtable_HashtableDebugView(Hashtable_HashtableDebugViewconst&) = delete;
+  Hashtable_HashtableDebugView(Hashtable_HashtableDebugView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3731 };
@@ -875,7 +875,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Hashtable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Hashtable(Hashtableconst&) = delete;
+  Hashtable(Hashtable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3732 };

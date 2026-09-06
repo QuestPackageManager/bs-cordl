@@ -45,7 +45,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReasonFlags", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReasonFlags(ReasonFlagsconst&) = delete;
+  ReasonFlags(ReasonFlags const&) = delete;
 
   /// @brief Field AACompromise offset 0xffffffff size 0x4
   static constexpr int32_t AACompromise{ static_cast<int32_t>(0x8000) };

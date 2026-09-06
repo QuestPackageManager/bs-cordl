@@ -135,7 +135,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandomBuilder_HashDrbgProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SP800SecureRandomBuilder_HashDrbgProvider(SP800SecureRandomBuilder_HashDrbgProviderconst&) = delete;
+  SP800SecureRandomBuilder_HashDrbgProvider(SP800SecureRandomBuilder_HashDrbgProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1113 };
@@ -236,7 +236,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandomBuilder_HMacDrbgProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SP800SecureRandomBuilder_HMacDrbgProvider(SP800SecureRandomBuilder_HMacDrbgProviderconst&) = delete;
+  SP800SecureRandomBuilder_HMacDrbgProvider(SP800SecureRandomBuilder_HMacDrbgProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1114 };
@@ -346,7 +346,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandomBuilder_CtrDrbgProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SP800SecureRandomBuilder_CtrDrbgProvider(SP800SecureRandomBuilder_CtrDrbgProviderconst&) = delete;
+  SP800SecureRandomBuilder_CtrDrbgProvider(SP800SecureRandomBuilder_CtrDrbgProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1115 };
@@ -486,7 +486,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandomBuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SP800SecureRandomBuilder(SP800SecureRandomBuilderconst&) = delete;
+  SP800SecureRandomBuilder(SP800SecureRandomBuilder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1116 };

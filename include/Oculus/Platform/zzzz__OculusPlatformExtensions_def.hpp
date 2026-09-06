@@ -131,7 +131,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformExtensions___c__DisplayClass0_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusPlatformExtensions___c__DisplayClass0_0_1(OculusPlatformExtensions___c__DisplayClass0_0_1const&) = delete;
+  OculusPlatformExtensions___c__DisplayClass0_0_1(OculusPlatformExtensions___c__DisplayClass0_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18004 };
@@ -350,7 +350,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusPlatformExtensions(OculusPlatformExtensionsconst&) = delete;
+  OculusPlatformExtensions(OculusPlatformExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18007 };

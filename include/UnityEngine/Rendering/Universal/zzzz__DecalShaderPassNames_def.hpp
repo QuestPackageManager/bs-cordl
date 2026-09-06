@@ -32,7 +32,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DecalShaderPassNames", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalShaderPassNames(DecalShaderPassNamesconst&) = delete;
+  DecalShaderPassNames(DecalShaderPassNames const&) = delete;
 
   /// @brief Field DBufferMesh offset 0xffffffff size 0x8
   static constexpr ::ConstString DBufferMesh{ u"DBufferMesh" };

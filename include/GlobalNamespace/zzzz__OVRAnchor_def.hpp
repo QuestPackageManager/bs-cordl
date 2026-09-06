@@ -1284,7 +1284,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Telemetry_OVRAnchor_Annotation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Telemetry_OVRAnchor_Annotation(Telemetry_OVRAnchor_Annotationconst&) = delete;
+  Telemetry_OVRAnchor_Annotation(Telemetry_OVRAnchor_Annotation const&) = delete;
 
   /// @brief Field AsynchronousResult offset 0xffffffff size 0x8
   static constexpr ::ConstString AsynchronousResult{ u"async_result" };
@@ -1394,7 +1394,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRAnchor_Telemetry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRAnchor_Telemetry(OVRAnchor_Telemetryconst&) = delete;
+  OVRAnchor_Telemetry(OVRAnchor_Telemetry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7080 };
@@ -2093,7 +2093,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRAnchor_Tracker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRAnchor_Tracker(OVRAnchor_Trackerconst&) = delete;
+  OVRAnchor_Tracker(OVRAnchor_Tracker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7089 };
@@ -2677,7 +2677,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRAnchor___c__DisplayClass54_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRAnchor___c__DisplayClass54_0(OVRAnchor___c__DisplayClass54_0const&) = delete;
+  OVRAnchor___c__DisplayClass54_0(OVRAnchor___c__DisplayClass54_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7092 };

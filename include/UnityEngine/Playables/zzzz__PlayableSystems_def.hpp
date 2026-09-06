@@ -117,7 +117,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayableSystems_PlayableSystemDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayableSystems_PlayableSystemDelegate(PlayableSystems_PlayableSystemDelegateconst&) = delete;
+  PlayableSystems_PlayableSystemDelegate(PlayableSystems_PlayableSystemDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22617 };
@@ -283,7 +283,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator(DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumeratorconst&) = delete;
+  DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator(DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22619 };
@@ -392,7 +392,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayableSystems_DataPlayableOutputList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayableSystems_DataPlayableOutputList(PlayableSystems_DataPlayableOutputListconst&) = delete;
+  PlayableSystems_DataPlayableOutputList(PlayableSystems_DataPlayableOutputList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22620 };
@@ -469,7 +469,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayableSystems", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayableSystems(PlayableSystemsconst&) = delete;
+  PlayableSystems(PlayableSystems const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22621 };

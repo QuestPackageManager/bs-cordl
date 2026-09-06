@@ -131,7 +131,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UniversalAdditionalCameraData___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalAdditionalCameraData___c(UniversalAdditionalCameraData___cconst&) = delete;
+  UniversalAdditionalCameraData___c(UniversalAdditionalCameraData___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12992 };
@@ -709,7 +709,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UniversalAdditionalCameraData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalAdditionalCameraData(UniversalAdditionalCameraDataconst&) = delete;
+  UniversalAdditionalCameraData(UniversalAdditionalCameraData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12993 };

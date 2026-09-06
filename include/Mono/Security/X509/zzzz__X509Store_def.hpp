@@ -124,7 +124,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "X509Store", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509Store(X509Storeconst&) = delete;
+  X509Store(X509Store const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19295 };

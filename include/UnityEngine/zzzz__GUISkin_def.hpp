@@ -72,7 +72,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GUISkin_SkinChangedDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GUISkin_SkinChangedDelegate(GUISkin_SkinChangedDelegateconst&) = delete;
+  GUISkin_SkinChangedDelegate(GUISkin_SkinChangedDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19883 };
@@ -609,7 +609,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GUISkin", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GUISkin(GUISkinconst&) = delete;
+  GUISkin(GUISkin const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19884 };

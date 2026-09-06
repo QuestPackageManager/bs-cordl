@@ -43,7 +43,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SubInstruction_SubSingle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SubInstruction_SubSingle(SubInstruction_SubSingleconst&) = delete;
+  SubInstruction_SubSingle(SubInstruction_SubSingle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16587 };

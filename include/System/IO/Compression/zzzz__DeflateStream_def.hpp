@@ -113,7 +113,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DeflateStream_ReadMethod", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeflateStream_ReadMethod(DeflateStream_ReadMethodconst&) = delete;
+  DeflateStream_ReadMethod(DeflateStream_ReadMethod const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11436 };
@@ -157,7 +157,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DeflateStream_WriteMethod", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeflateStream_WriteMethod(DeflateStream_WriteMethodconst&) = delete;
+  DeflateStream_WriteMethod(DeflateStream_WriteMethod const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11437 };
@@ -340,7 +340,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DeflateStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeflateStream(DeflateStreamconst&) = delete;
+  DeflateStream(DeflateStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11438 };

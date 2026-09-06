@@ -81,7 +81,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomTweenBehaviour___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomTweenBehaviour___c(CustomTweenBehaviour___cconst&) = delete;
+  CustomTweenBehaviour___c(CustomTweenBehaviour___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6692 };
@@ -292,7 +292,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomTweenBehaviour", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomTweenBehaviour(CustomTweenBehaviourconst&) = delete;
+  CustomTweenBehaviour(CustomTweenBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6693 };

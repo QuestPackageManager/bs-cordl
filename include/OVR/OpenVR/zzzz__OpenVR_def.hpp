@@ -256,7 +256,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenVR_COpenVRContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenVR_COpenVRContext(OpenVR_COpenVRContextconst&) = delete;
+  OpenVR_COpenVRContext(OpenVR_COpenVRContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8546 };
@@ -455,7 +455,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenVR", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenVR(OpenVRconst&) = delete;
+  OpenVR(OpenVR const&) = delete;
 
   /// @brief Field FnTable_Prefix offset 0xffffffff size 0x8
   static constexpr ::ConstString FnTable_Prefix{ u"FnTable:" };

@@ -83,7 +83,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ToggleButtonGroup_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ToggleButtonGroup_UxmlFactory(ToggleButtonGroup_UxmlFactoryconst&) = delete;
+  ToggleButtonGroup_UxmlFactory(ToggleButtonGroup_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4343 };
@@ -142,7 +142,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ToggleButtonGroup_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ToggleButtonGroup_UxmlTraits(ToggleButtonGroup_UxmlTraitsconst&) = delete;
+  ToggleButtonGroup_UxmlTraits(ToggleButtonGroup_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4344 };
@@ -377,7 +377,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ToggleButtonGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ToggleButtonGroup(ToggleButtonGroupconst&) = delete;
+  ToggleButtonGroup(ToggleButtonGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4345 };

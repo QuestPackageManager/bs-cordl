@@ -172,7 +172,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CreditsController___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CreditsController___c(CreditsController___cconst&) = delete;
+  CreditsController___c(CreditsController___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23221 };
@@ -314,7 +314,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CreditsController__ScrollCoroutine_d__18", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CreditsController__ScrollCoroutine_d__18(CreditsController__ScrollCoroutine_d__18const&) = delete;
+  CreditsController__ScrollCoroutine_d__18(CreditsController__ScrollCoroutine_d__18 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23222 };
@@ -612,7 +612,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CreditsController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CreditsController(CreditsControllerconst&) = delete;
+  CreditsController(CreditsController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23224 };

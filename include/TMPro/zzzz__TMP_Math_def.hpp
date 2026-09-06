@@ -54,7 +54,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_Math", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_Math(TMP_Mathconst&) = delete;
+  TMP_Math(TMP_Math const&) = delete;
 
   /// @brief Field FLOAT_MAX offset 0xffffffff size 0x4
   static constexpr float_t FLOAT_MAX{ static_cast<float_t>(32767.0f) };

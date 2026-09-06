@@ -141,7 +141,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UserMessage_MultiplayerStatusData_LocalizedMessage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UserMessage_MultiplayerStatusData_LocalizedMessage(UserMessage_MultiplayerStatusData_LocalizedMessageconst&) = delete;
+  UserMessage_MultiplayerStatusData_LocalizedMessage(UserMessage_MultiplayerStatusData_LocalizedMessage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18960 };
@@ -198,7 +198,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerStatusData_UserMessage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerStatusData_UserMessage(MultiplayerStatusData_UserMessageconst&) = delete;
+  MultiplayerStatusData_UserMessage(MultiplayerStatusData_UserMessage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18961 };
@@ -388,7 +388,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerStatusData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerStatusData(MultiplayerStatusDataconst&) = delete;
+  MultiplayerStatusData(MultiplayerStatusData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18962 };

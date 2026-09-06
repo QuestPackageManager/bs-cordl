@@ -250,7 +250,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlValidatingReaderImpl_ValidationEventHandling", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlValidatingReaderImpl_ValidationEventHandling(XmlValidatingReaderImpl_ValidationEventHandlingconst&) = delete;
+  XmlValidatingReaderImpl_ValidationEventHandling(XmlValidatingReaderImpl_ValidationEventHandling const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9348 };
@@ -679,7 +679,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlValidatingReaderImpl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlValidatingReaderImpl(XmlValidatingReaderImplconst&) = delete;
+  XmlValidatingReaderImpl(XmlValidatingReaderImpl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9349 };

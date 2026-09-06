@@ -66,7 +66,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConnectionErrorDialogViewController___c__DisplayClass2_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConnectionErrorDialogViewController___c__DisplayClass2_0(ConnectionErrorDialogViewController___c__DisplayClass2_0const&) = delete;
+  ConnectionErrorDialogViewController___c__DisplayClass2_0(ConnectionErrorDialogViewController___c__DisplayClass2_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6420 };
@@ -111,7 +111,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConnectionErrorDialogViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConnectionErrorDialogViewController(ConnectionErrorDialogViewControllerconst&) = delete;
+  ConnectionErrorDialogViewController(ConnectionErrorDialogViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6421 };

@@ -612,7 +612,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger_DebugPacket", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphyDebugger_DebugPacket(GraphyDebugger_DebugPacketconst&) = delete;
+  GraphyDebugger_DebugPacket(GraphyDebugger_DebugPacket const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21473 };
@@ -758,7 +758,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphyDebugger___c(GraphyDebugger___cconst&) = delete;
+  GraphyDebugger___c(GraphyDebugger___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21474 };
@@ -806,7 +806,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger___c__DisplayClass18_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphyDebugger___c__DisplayClass18_0(GraphyDebugger___c__DisplayClass18_0const&) = delete;
+  GraphyDebugger___c__DisplayClass18_0(GraphyDebugger___c__DisplayClass18_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21475 };
@@ -859,7 +859,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger___c__DisplayClass19_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphyDebugger___c__DisplayClass19_0(GraphyDebugger___c__DisplayClass19_0const&) = delete;
+  GraphyDebugger___c__DisplayClass19_0(GraphyDebugger___c__DisplayClass19_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21476 };
@@ -912,7 +912,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger___c__DisplayClass21_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphyDebugger___c__DisplayClass21_0(GraphyDebugger___c__DisplayClass21_0const&) = delete;
+  GraphyDebugger___c__DisplayClass21_0(GraphyDebugger___c__DisplayClass21_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21477 };
@@ -1065,7 +1065,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphyDebugger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphyDebugger(GraphyDebuggerconst&) = delete;
+  GraphyDebugger(GraphyDebugger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21478 };

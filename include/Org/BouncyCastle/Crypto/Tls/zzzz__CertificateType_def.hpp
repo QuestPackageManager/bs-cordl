@@ -37,7 +37,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CertificateType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CertificateType(CertificateTypeconst&) = delete;
+  CertificateType(CertificateType const&) = delete;
 
   /// @brief Field OpenPGP offset 0xffffffff size 0x1
   static constexpr uint8_t OpenPGP{ static_cast<uint8_t>(0x1u) };

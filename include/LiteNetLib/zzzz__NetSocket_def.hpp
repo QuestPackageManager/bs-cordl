@@ -178,7 +178,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSocket", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSocket(NetSocketconst&) = delete;
+  NetSocket(NetSocket const&) = delete;
 
   /// @brief Field ReceivePollingTime offset 0xffffffff size 0x4
   static constexpr int32_t ReceivePollingTime{ static_cast<int32_t>(0x7a120) };

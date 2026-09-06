@@ -143,7 +143,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectManager_NoteWasCutDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapObjectManager_NoteWasCutDelegate(BeatmapObjectManager_NoteWasCutDelegateconst&) = delete;
+  BeatmapObjectManager_NoteWasCutDelegate(BeatmapObjectManager_NoteWasCutDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5624 };
@@ -657,7 +657,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapObjectManager(BeatmapObjectManagerconst&) = delete;
+  BeatmapObjectManager(BeatmapObjectManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5625 };

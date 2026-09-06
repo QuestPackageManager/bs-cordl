@@ -99,7 +99,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConventionAssemblySelectionBinder___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConventionAssemblySelectionBinder___c(ConventionAssemblySelectionBinder___cconst&) = delete;
+  ConventionAssemblySelectionBinder___c(ConventionAssemblySelectionBinder___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14035 };
@@ -154,7 +154,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConventionAssemblySelectionBinder___c__DisplayClass12_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConventionAssemblySelectionBinder___c__DisplayClass12_0(ConventionAssemblySelectionBinder___c__DisplayClass12_0const&) = delete;
+  ConventionAssemblySelectionBinder___c__DisplayClass12_0(ConventionAssemblySelectionBinder___c__DisplayClass12_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14036 };
@@ -245,7 +245,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConventionAssemblySelectionBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConventionAssemblySelectionBinder(ConventionAssemblySelectionBinderconst&) = delete;
+  ConventionAssemblySelectionBinder(ConventionAssemblySelectionBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14037 };

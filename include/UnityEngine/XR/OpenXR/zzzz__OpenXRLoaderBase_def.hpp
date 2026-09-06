@@ -150,7 +150,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenXRLoaderBase_FeatureLoggingInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRLoaderBase_FeatureLoggingInfo(OpenXRLoaderBase_FeatureLoggingInfoconst&) = delete;
+  OpenXRLoaderBase_FeatureLoggingInfo(OpenXRLoaderBase_FeatureLoggingInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18504 };
@@ -293,7 +293,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenXRLoaderBase_ReceiveNativeEventDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRLoaderBase_ReceiveNativeEventDelegate(OpenXRLoaderBase_ReceiveNativeEventDelegateconst&) = delete;
+  OpenXRLoaderBase_ReceiveNativeEventDelegate(OpenXRLoaderBase_ReceiveNativeEventDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18506 };
@@ -366,7 +366,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenXRLoaderBase___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRLoaderBase___c(OpenXRLoaderBase___cconst&) = delete;
+  OpenXRLoaderBase___c(OpenXRLoaderBase___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18507 };
@@ -703,7 +703,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenXRLoaderBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRLoaderBase(OpenXRLoaderBaseconst&) = delete;
+  OpenXRLoaderBase(OpenXRLoaderBase const&) = delete;
 
   /// @brief Field LibraryName offset 0xffffffff size 0x8
   static constexpr ::ConstString LibraryName{ u"UnityOpenXR" };

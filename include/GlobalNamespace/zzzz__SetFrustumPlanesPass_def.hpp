@@ -95,7 +95,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SetFrustumPlanesPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetFrustumPlanesPass_PassData(SetFrustumPlanesPass_PassDataconst&) = delete;
+  SetFrustumPlanesPass_PassData(SetFrustumPlanesPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20685 };
@@ -162,7 +162,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SetFrustumPlanesPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetFrustumPlanesPass___c(SetFrustumPlanesPass___cconst&) = delete;
+  SetFrustumPlanesPass___c(SetFrustumPlanesPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20686 };
@@ -237,7 +237,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SetFrustumPlanesPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetFrustumPlanesPass(SetFrustumPlanesPassconst&) = delete;
+  SetFrustumPlanesPass(SetFrustumPlanesPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20687 };

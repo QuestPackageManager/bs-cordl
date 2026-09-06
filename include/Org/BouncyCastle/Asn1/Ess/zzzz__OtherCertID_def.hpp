@@ -105,7 +105,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OtherCertID", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OtherCertID(OtherCertIDconst&) = delete;
+  OtherCertID(OtherCertID const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 164 };

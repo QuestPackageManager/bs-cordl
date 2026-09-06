@@ -96,7 +96,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlEnumAttributeDescription_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlEnumAttributeDescription_1___c(UxmlEnumAttributeDescription_1___cconst&) = delete;
+  UxmlEnumAttributeDescription_1___c(UxmlEnumAttributeDescription_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5167 };
@@ -151,7 +151,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlEnumAttributeDescription_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlEnumAttributeDescription_1(UxmlEnumAttributeDescription_1const&) = delete;
+  UxmlEnumAttributeDescription_1(UxmlEnumAttributeDescription_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5168 };

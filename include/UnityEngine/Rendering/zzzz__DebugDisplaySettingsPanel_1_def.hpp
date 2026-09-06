@@ -59,7 +59,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsPanel_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsPanel_1(DebugDisplaySettingsPanel_1const&) = delete;
+  DebugDisplaySettingsPanel_1(DebugDisplaySettingsPanel_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11952 };

@@ -106,7 +106,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MinMaxSlider_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MinMaxSlider_UxmlFactory(MinMaxSlider_UxmlFactoryconst&) = delete;
+  MinMaxSlider_UxmlFactory(MinMaxSlider_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4246 };
@@ -181,7 +181,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MinMaxSlider_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MinMaxSlider_UxmlTraits(MinMaxSlider_UxmlTraitsconst&) = delete;
+  MinMaxSlider_UxmlTraits(MinMaxSlider_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4247 };
@@ -640,7 +640,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MinMaxSlider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MinMaxSlider(MinMaxSliderconst&) = delete;
+  MinMaxSlider(MinMaxSlider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4249 };

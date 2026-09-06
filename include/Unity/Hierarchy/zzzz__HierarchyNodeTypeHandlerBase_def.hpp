@@ -84,7 +84,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HierarchyNodeTypeHandlerBase_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HierarchyNodeTypeHandlerBase_BindingsMarshaller(HierarchyNodeTypeHandlerBase_BindingsMarshallerconst&) = delete;
+  HierarchyNodeTypeHandlerBase_BindingsMarshaller(HierarchyNodeTypeHandlerBase_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21926 };
@@ -328,7 +328,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HierarchyNodeTypeHandlerBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HierarchyNodeTypeHandlerBase(HierarchyNodeTypeHandlerBaseconst&) = delete;
+  HierarchyNodeTypeHandlerBase(HierarchyNodeTypeHandlerBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21928 };

@@ -71,7 +71,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ContextualMenuPopulateEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContextualMenuPopulateEvent___c(ContextualMenuPopulateEvent___cconst&) = delete;
+  ContextualMenuPopulateEvent___c(ContextualMenuPopulateEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4511 };
@@ -170,7 +170,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ContextualMenuPopulateEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContextualMenuPopulateEvent(ContextualMenuPopulateEventconst&) = delete;
+  ContextualMenuPopulateEvent(ContextualMenuPopulateEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4512 };

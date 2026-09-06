@@ -70,7 +70,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HashSetPool_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HashSetPool_1___c(HashSetPool_1___cconst&) = delete;
+  HashSetPool_1___c(HashSetPool_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11928 };
@@ -118,7 +118,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HashSetPool_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HashSetPool_1(HashSetPool_1const&) = delete;
+  HashSetPool_1(HashSetPool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11929 };

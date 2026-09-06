@@ -53,7 +53,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReadOnlyException(ReadOnlyExceptionconst&) = delete;
+  ReadOnlyException(ReadOnlyException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13738 };

@@ -52,7 +52,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "X509KeyUsage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509KeyUsage(X509KeyUsageconst&) = delete;
+  X509KeyUsage(X509KeyUsage const&) = delete;
 
   /// @brief Field CrlSign offset 0xffffffff size 0x4
   static constexpr int32_t CrlSign{ static_cast<int32_t>(0x2) };

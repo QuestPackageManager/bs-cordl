@@ -690,7 +690,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MetaQuestTouchPlusControllerProfile_QuestTouchPlusController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MetaQuestTouchPlusControllerProfile_QuestTouchPlusController(MetaQuestTouchPlusControllerProfile_QuestTouchPlusControllerconst&) = delete;
+  MetaQuestTouchPlusControllerProfile_QuestTouchPlusController(MetaQuestTouchPlusControllerProfile_QuestTouchPlusController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18583 };
@@ -926,7 +926,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MetaQuestTouchPlusControllerProfile", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MetaQuestTouchPlusControllerProfile(MetaQuestTouchPlusControllerProfileconst&) = delete;
+  MetaQuestTouchPlusControllerProfile(MetaQuestTouchPlusControllerProfile const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18584 };

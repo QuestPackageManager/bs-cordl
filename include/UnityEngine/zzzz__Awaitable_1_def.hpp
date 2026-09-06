@@ -84,7 +84,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Awaitable_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Awaitable_1___c(Awaitable_1___cconst&) = delete;
+  Awaitable_1___c(Awaitable_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10325 };
@@ -156,7 +156,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Awaitable_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Awaitable_1(Awaitable_1const&) = delete;
+  Awaitable_1(Awaitable_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10326 };

@@ -100,7 +100,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ModalView___c__DisplayClass19_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ModalView___c__DisplayClass19_0(ModalView___c__DisplayClass19_0const&) = delete;
+  ModalView___c__DisplayClass19_0(ModalView___c__DisplayClass19_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20991 };
@@ -167,7 +167,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ModalView___c__DisplayClass23_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ModalView___c__DisplayClass23_0(ModalView___c__DisplayClass23_0const&) = delete;
+  ModalView___c__DisplayClass23_0(ModalView___c__DisplayClass23_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20992 };
@@ -365,7 +365,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ModalView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ModalView(ModalViewconst&) = delete;
+  ModalView(ModalView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20993 };

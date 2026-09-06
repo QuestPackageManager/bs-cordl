@@ -177,7 +177,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GPUInstanceDataBufferUploader_UploadKernelIDs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GPUInstanceDataBufferUploader_UploadKernelIDs(GPUInstanceDataBufferUploader_UploadKernelIDsconst&) = delete;
+  GPUInstanceDataBufferUploader_UploadKernelIDs(GPUInstanceDataBufferUploader_UploadKernelIDs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17682 };

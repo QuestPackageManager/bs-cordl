@@ -132,7 +132,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnableAfterDelay__Start_d__1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnableAfterDelay__Start_d__1(EnableAfterDelay__Start_d__1const&) = delete;
+  EnableAfterDelay__Start_d__1(EnableAfterDelay__Start_d__1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21405 };
@@ -197,7 +197,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnableAfterDelay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnableAfterDelay(EnableAfterDelayconst&) = delete;
+  EnableAfterDelay(EnableAfterDelay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21406 };

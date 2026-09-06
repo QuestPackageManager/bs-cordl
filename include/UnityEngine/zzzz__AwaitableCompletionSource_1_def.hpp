@@ -91,7 +91,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AwaitableCompletionSource_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AwaitableCompletionSource_1(AwaitableCompletionSource_1const&) = delete;
+  AwaitableCompletionSource_1(AwaitableCompletionSource_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10324 };

@@ -131,7 +131,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PreviewDifficultyBeatmapSet_BeatmapLevelSO___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PreviewDifficultyBeatmapSet_BeatmapLevelSO___c(PreviewDifficultyBeatmapSet_BeatmapLevelSO___cconst&) = delete;
+  PreviewDifficultyBeatmapSet_BeatmapLevelSO___c(PreviewDifficultyBeatmapSet_BeatmapLevelSO___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14988 };
@@ -210,7 +210,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSO_PreviewDifficultyBeatmapSet", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelSO_PreviewDifficultyBeatmapSet(BeatmapLevelSO_PreviewDifficultyBeatmapSetconst&) = delete;
+  BeatmapLevelSO_PreviewDifficultyBeatmapSet(BeatmapLevelSO_PreviewDifficultyBeatmapSet const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14989 };
@@ -386,7 +386,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSO_PreviewDifficultyBeatmap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelSO_PreviewDifficultyBeatmap(BeatmapLevelSO_PreviewDifficultyBeatmapconst&) = delete;
+  BeatmapLevelSO_PreviewDifficultyBeatmap(BeatmapLevelSO_PreviewDifficultyBeatmap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14990 };
@@ -620,7 +620,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSO_ColorScheme", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelSO_ColorScheme(BeatmapLevelSO_ColorSchemeconst&) = delete;
+  BeatmapLevelSO_ColorScheme(BeatmapLevelSO_ColorScheme const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14991 };
@@ -1071,7 +1071,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelSO(BeatmapLevelSOconst&) = delete;
+  BeatmapLevelSO(BeatmapLevelSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14992 };

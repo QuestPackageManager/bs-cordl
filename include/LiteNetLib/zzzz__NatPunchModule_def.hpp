@@ -226,7 +226,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NatPunchModule_NatIntroduceRequestPacket", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NatPunchModule_NatIntroduceRequestPacket(NatPunchModule_NatIntroduceRequestPacketconst&) = delete;
+  NatPunchModule_NatIntroduceRequestPacket(NatPunchModule_NatIntroduceRequestPacket const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20049 };
@@ -330,7 +330,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NatPunchModule_NatIntroduceResponsePacket", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NatPunchModule_NatIntroduceResponsePacket(NatPunchModule_NatIntroduceResponsePacketconst&) = delete;
+  NatPunchModule_NatIntroduceResponsePacket(NatPunchModule_NatIntroduceResponsePacket const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20050 };
@@ -421,7 +421,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NatPunchModule_NatPunchPacket", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NatPunchModule_NatPunchPacket(NatPunchModule_NatPunchPacketconst&) = delete;
+  NatPunchModule_NatPunchPacket(NatPunchModule_NatPunchPacket const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20051 };
@@ -576,7 +576,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NatPunchModule", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NatPunchModule(NatPunchModuleconst&) = delete;
+  NatPunchModule(NatPunchModule const&) = delete;
 
   /// @brief Field MaxTokenLength offset 0xffffffff size 0x4
   static constexpr int32_t MaxTokenLength{ static_cast<int32_t>(0x100) };

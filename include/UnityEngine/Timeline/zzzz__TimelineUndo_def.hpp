@@ -60,7 +60,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimelineUndo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelineUndo(TimelineUndoconst&) = delete;
+  TimelineUndo(TimelineUndo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19264 };

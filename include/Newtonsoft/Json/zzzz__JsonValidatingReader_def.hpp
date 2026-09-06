@@ -197,7 +197,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SchemaScope_JsonValidatingReader___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SchemaScope_JsonValidatingReader___c(SchemaScope_JsonValidatingReader___cconst&) = delete;
+  SchemaScope_JsonValidatingReader___c(SchemaScope_JsonValidatingReader___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13337 };
@@ -370,7 +370,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonValidatingReader_SchemaScope", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonValidatingReader_SchemaScope(JsonValidatingReader_SchemaScopeconst&) = delete;
+  JsonValidatingReader_SchemaScope(JsonValidatingReader_SchemaScope const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13338 };
@@ -518,7 +518,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonValidatingReader___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonValidatingReader___c(JsonValidatingReader___cconst&) = delete;
+  JsonValidatingReader___c(JsonValidatingReader___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13339 };
@@ -801,7 +801,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonValidatingReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonValidatingReader(JsonValidatingReaderconst&) = delete;
+  JsonValidatingReader(JsonValidatingReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13340 };

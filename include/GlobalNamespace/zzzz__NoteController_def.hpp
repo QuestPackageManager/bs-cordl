@@ -196,7 +196,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteController__DissolveCoroutine_d__69", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteController__DissolveCoroutine_d__69(NoteController__DissolveCoroutine_d__69const&) = delete;
+  NoteController__DissolveCoroutine_d__69(NoteController__DissolveCoroutine_d__69 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5672 };
@@ -567,7 +567,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteController(NoteControllerconst&) = delete;
+  NoteController(NoteController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5673 };

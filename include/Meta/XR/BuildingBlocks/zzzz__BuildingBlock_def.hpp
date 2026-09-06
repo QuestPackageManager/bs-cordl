@@ -116,7 +116,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BuildingBlock", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BuildingBlock(BuildingBlockconst&) = delete;
+  BuildingBlock(BuildingBlock const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21353 };

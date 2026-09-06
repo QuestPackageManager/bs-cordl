@@ -411,7 +411,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel_GetScoresCompletionHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformLeaderboardsModel_GetScoresCompletionHandler(PlatformLeaderboardsModel_GetScoresCompletionHandlerconst&) = delete;
+  PlatformLeaderboardsModel_GetScoresCompletionHandler(PlatformLeaderboardsModel_GetScoresCompletionHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15309 };
@@ -455,7 +455,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel_UploadScoreCompletionHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformLeaderboardsModel_UploadScoreCompletionHandler(PlatformLeaderboardsModel_UploadScoreCompletionHandlerconst&) = delete;
+  PlatformLeaderboardsModel_UploadScoreCompletionHandler(PlatformLeaderboardsModel_UploadScoreCompletionHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15310 };
@@ -536,7 +536,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel_LeaderboardScore", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformLeaderboardsModel_LeaderboardScore(PlatformLeaderboardsModel_LeaderboardScoreconst&) = delete;
+  PlatformLeaderboardsModel_LeaderboardScore(PlatformLeaderboardsModel_LeaderboardScore const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15311 };
@@ -609,7 +609,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformLeaderboardsModel___c(PlatformLeaderboardsModel___cconst&) = delete;
+  PlatformLeaderboardsModel___c(PlatformLeaderboardsModel___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15312 };
@@ -746,7 +746,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel___c__DisplayClass26_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformLeaderboardsModel___c__DisplayClass26_0(PlatformLeaderboardsModel___c__DisplayClass26_0const&) = delete;
+  PlatformLeaderboardsModel___c__DisplayClass26_0(PlatformLeaderboardsModel___c__DisplayClass26_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15313 };
@@ -987,7 +987,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformLeaderboardsModel(PlatformLeaderboardsModelconst&) = delete;
+  PlatformLeaderboardsModel(PlatformLeaderboardsModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15314 };

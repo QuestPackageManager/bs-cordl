@@ -275,7 +275,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_Text_MissingCharacterEventCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_Text_MissingCharacterEventCallback(TMP_Text_MissingCharacterEventCallbackconst&) = delete;
+  TMP_Text_MissingCharacterEventCallback(TMP_Text_MissingCharacterEventCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16001 };
@@ -601,7 +601,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_Text___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_Text___c(TMP_Text___cconst&) = delete;
+  TMP_Text___c(TMP_Text___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16007 };
@@ -3885,7 +3885,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_Text", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_Text(TMP_Textconst&) = delete;
+  TMP_Text(TMP_Text const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16008 };

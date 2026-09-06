@@ -297,7 +297,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FtpWebRequest___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FtpWebRequest___c(FtpWebRequest___cconst&) = delete;
+  FtpWebRequest___c(FtpWebRequest___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11473 };
@@ -844,7 +844,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FtpWebRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FtpWebRequest(FtpWebRequestconst&) = delete;
+  FtpWebRequest(FtpWebRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11474 };

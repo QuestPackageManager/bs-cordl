@@ -91,7 +91,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorPropertyBag_RProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorPropertyBag_RProperty(ColorPropertyBag_RPropertyconst&) = delete;
+  ColorPropertyBag_RProperty(ColorPropertyBag_RProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19713 };
@@ -142,7 +142,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorPropertyBag_GProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorPropertyBag_GProperty(ColorPropertyBag_GPropertyconst&) = delete;
+  ColorPropertyBag_GProperty(ColorPropertyBag_GProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19714 };
@@ -193,7 +193,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorPropertyBag_BProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorPropertyBag_BProperty(ColorPropertyBag_BPropertyconst&) = delete;
+  ColorPropertyBag_BProperty(ColorPropertyBag_BProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19715 };
@@ -244,7 +244,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorPropertyBag_AProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorPropertyBag_AProperty(ColorPropertyBag_APropertyconst&) = delete;
+  ColorPropertyBag_AProperty(ColorPropertyBag_AProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19716 };
@@ -287,7 +287,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorPropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorPropertyBag(ColorPropertyBagconst&) = delete;
+  ColorPropertyBag(ColorPropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19717 };

@@ -169,7 +169,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RunSongScreenshotsConsoleCommand___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RunSongScreenshotsConsoleCommand___c(RunSongScreenshotsConsoleCommand___cconst&) = delete;
+  RunSongScreenshotsConsoleCommand___c(RunSongScreenshotsConsoleCommand___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19416 };
@@ -217,7 +217,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RunSongScreenshotsConsoleCommand___c__DisplayClass18_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RunSongScreenshotsConsoleCommand___c__DisplayClass18_0(RunSongScreenshotsConsoleCommand___c__DisplayClass18_0const&) = delete;
+  RunSongScreenshotsConsoleCommand___c__DisplayClass18_0(RunSongScreenshotsConsoleCommand___c__DisplayClass18_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19417 };
@@ -497,7 +497,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20(RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20const&) = delete;
+  RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20(RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19420 };
@@ -706,7 +706,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RunSongScreenshotsConsoleCommand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RunSongScreenshotsConsoleCommand(RunSongScreenshotsConsoleCommandconst&) = delete;
+  RunSongScreenshotsConsoleCommand(RunSongScreenshotsConsoleCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19421 };

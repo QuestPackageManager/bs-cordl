@@ -160,7 +160,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelLoader_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelLoader_InitData(BeatmapLevelLoader_InitDataconst&) = delete;
+  BeatmapLevelLoader_InitData(BeatmapLevelLoader_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14944 };
@@ -837,7 +837,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelLoader(BeatmapLevelLoaderconst&) = delete;
+  BeatmapLevelLoader(BeatmapLevelLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14951 };

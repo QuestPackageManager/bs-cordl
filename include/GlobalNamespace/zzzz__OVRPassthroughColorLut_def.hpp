@@ -413,7 +413,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughColorLut_ColorLutTextureConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughColorLut_ColorLutTextureConverter(OVRPassthroughColorLut_ColorLutTextureConverterconst&) = delete;
+  OVRPassthroughColorLut_ColorLutTextureConverter(OVRPassthroughColorLut_ColorLutTextureConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8008 };
@@ -746,7 +746,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughColorLut", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughColorLut(OVRPassthroughColorLutconst&) = delete;
+  OVRPassthroughColorLut(OVRPassthroughColorLut const&) = delete;
 
   /// @brief Field RecomendedBatchSize offset 0xffffffff size 0x4
   static constexpr int32_t RecomendedBatchSize{ static_cast<int32_t>(0x80) };

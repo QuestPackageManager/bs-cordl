@@ -98,7 +98,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BoolMonitor_OVRHandTest_BoolGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BoolMonitor_OVRHandTest_BoolGenerator(BoolMonitor_OVRHandTest_BoolGeneratorconst&) = delete;
+  BoolMonitor_OVRHandTest_BoolGenerator(BoolMonitor_OVRHandTest_BoolGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7922 };
@@ -204,7 +204,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRHandTest_BoolMonitor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRHandTest_BoolMonitor(OVRHandTest_BoolMonitorconst&) = delete;
+  OVRHandTest_BoolMonitor(OVRHandTest_BoolMonitor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7923 };
@@ -295,7 +295,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRHandTest___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRHandTest___c(OVRHandTest___cconst&) = delete;
+  OVRHandTest___c(OVRHandTest___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7924 };
@@ -472,7 +472,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRHandTest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRHandTest(OVRHandTestconst&) = delete;
+  OVRHandTest(OVRHandTest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7925 };

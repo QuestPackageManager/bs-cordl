@@ -198,7 +198,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetry_TelemetryClient", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTelemetry_TelemetryClient(OVRTelemetry_TelemetryClientconst&) = delete;
+  OVRTelemetry_TelemetryClient(OVRTelemetry_TelemetryClient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7730 };
@@ -260,7 +260,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetry_NullTelemetryClient", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTelemetry_NullTelemetryClient(OVRTelemetry_NullTelemetryClientconst&) = delete;
+  OVRTelemetry_NullTelemetryClient(OVRTelemetry_NullTelemetryClient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7731 };
@@ -322,7 +322,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetry_QPLTelemetryClient", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTelemetry_QPLTelemetryClient(OVRTelemetry_QPLTelemetryClientconst&) = delete;
+  OVRTelemetry_QPLTelemetryClient(OVRTelemetry_QPLTelemetryClient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7732 };
@@ -358,7 +358,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetry_MarkersAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTelemetry_MarkersAttribute(OVRTelemetry_MarkersAttributeconst&) = delete;
+  OVRTelemetry_MarkersAttribute(OVRTelemetry_MarkersAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7733 };
@@ -446,7 +446,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTelemetry(OVRTelemetryconst&) = delete;
+  OVRTelemetry(OVRTelemetry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7734 };

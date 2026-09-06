@@ -284,7 +284,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TextInputBaseField_1_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextInputBaseField_1_UxmlTraits(TextInputBaseField_1_UxmlTraitsconst&) = delete;
+  TextInputBaseField_1_UxmlTraits(TextInputBaseField_1_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4228 };
@@ -606,7 +606,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TextInputBaseField_1_TextInputBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextInputBaseField_1_TextInputBase(TextInputBaseField_1_TextInputBaseconst&) = delete;
+  TextInputBaseField_1_TextInputBase(TextInputBaseField_1_TextInputBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4229 };
@@ -1184,7 +1184,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TextInputBaseField_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextInputBaseField_1(TextInputBaseField_1const&) = delete;
+  TextInputBaseField_1(TextInputBaseField_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4230 };

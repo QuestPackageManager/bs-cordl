@@ -152,7 +152,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GroupCollection_Enumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GroupCollection_Enumerator(GroupCollection_Enumeratorconst&) = delete;
+  GroupCollection_Enumerator(GroupCollection_Enumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11098 };
@@ -399,7 +399,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GroupCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GroupCollection(GroupCollectionconst&) = delete;
+  GroupCollection(GroupCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11099 };

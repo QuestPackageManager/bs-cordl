@@ -112,7 +112,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MulticolorAvatarPartPropertyBlockSetter_ColorData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MulticolorAvatarPartPropertyBlockSetter_ColorData(MulticolorAvatarPartPropertyBlockSetter_ColorDataconst&) = delete;
+  MulticolorAvatarPartPropertyBlockSetter_ColorData(MulticolorAvatarPartPropertyBlockSetter_ColorData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22347 };
@@ -184,7 +184,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MulticolorAvatarPartPropertyBlockSetter___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MulticolorAvatarPartPropertyBlockSetter___c(MulticolorAvatarPartPropertyBlockSetter___cconst&) = delete;
+  MulticolorAvatarPartPropertyBlockSetter___c(MulticolorAvatarPartPropertyBlockSetter___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22348 };
@@ -315,7 +315,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MulticolorAvatarPartPropertyBlockSetter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MulticolorAvatarPartPropertyBlockSetter(MulticolorAvatarPartPropertyBlockSetterconst&) = delete;
+  MulticolorAvatarPartPropertyBlockSetter(MulticolorAvatarPartPropertyBlockSetter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22349 };

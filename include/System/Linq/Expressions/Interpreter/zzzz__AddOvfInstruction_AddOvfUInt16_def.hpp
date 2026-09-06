@@ -43,7 +43,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddOvfInstruction_AddOvfUInt16", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddOvfInstruction_AddOvfUInt16(AddOvfInstruction_AddOvfUInt16const&) = delete;
+  AddOvfInstruction_AddOvfUInt16(AddOvfInstruction_AddOvfUInt16 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16248 };

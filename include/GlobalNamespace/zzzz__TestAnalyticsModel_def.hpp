@@ -79,7 +79,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TestAnalyticsModel___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TestAnalyticsModel___c(TestAnalyticsModel___cconst&) = delete;
+  TestAnalyticsModel___c(TestAnalyticsModel___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23430 };
@@ -148,7 +148,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TestAnalyticsModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TestAnalyticsModel(TestAnalyticsModelconst&) = delete;
+  TestAnalyticsModel(TestAnalyticsModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23431 };

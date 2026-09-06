@@ -379,7 +379,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager_ScenesStackData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager_ScenesStackData(GameScenesManager_ScenesStackDataconst&) = delete;
+  GameScenesManager_ScenesStackData(GameScenesManager_ScenesStackData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21520 };
@@ -560,7 +560,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass43_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager___c__DisplayClass43_0(GameScenesManager___c__DisplayClass43_0const&) = delete;
+  GameScenesManager___c__DisplayClass43_0(GameScenesManager___c__DisplayClass43_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21523 };
@@ -644,7 +644,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass44_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager___c__DisplayClass44_0(GameScenesManager___c__DisplayClass44_0const&) = delete;
+  GameScenesManager___c__DisplayClass44_0(GameScenesManager___c__DisplayClass44_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21524 };
@@ -721,7 +721,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass45_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager___c__DisplayClass45_0(GameScenesManager___c__DisplayClass45_0const&) = delete;
+  GameScenesManager___c__DisplayClass45_0(GameScenesManager___c__DisplayClass45_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21525 };
@@ -779,7 +779,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass46_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager___c__DisplayClass46_0(GameScenesManager___c__DisplayClass46_0const&) = delete;
+  GameScenesManager___c__DisplayClass46_0(GameScenesManager___c__DisplayClass46_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21526 };
@@ -903,7 +903,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass47_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager___c__DisplayClass47_0(GameScenesManager___c__DisplayClass47_0const&) = delete;
+  GameScenesManager___c__DisplayClass47_0(GameScenesManager___c__DisplayClass47_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21527 };
@@ -1062,7 +1062,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass48_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager___c__DisplayClass48_0(GameScenesManager___c__DisplayClass48_0const&) = delete;
+  GameScenesManager___c__DisplayClass48_0(GameScenesManager___c__DisplayClass48_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21528 };
@@ -1181,7 +1181,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass49_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager___c__DisplayClass49_0(GameScenesManager___c__DisplayClass49_0const&) = delete;
+  GameScenesManager___c__DisplayClass49_0(GameScenesManager___c__DisplayClass49_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21529 };
@@ -1270,7 +1270,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass50_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager___c__DisplayClass50_0(GameScenesManager___c__DisplayClass50_0const&) = delete;
+  GameScenesManager___c__DisplayClass50_0(GameScenesManager___c__DisplayClass50_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21530 };
@@ -1352,7 +1352,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass51_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager___c__DisplayClass51_0(GameScenesManager___c__DisplayClass51_0const&) = delete;
+  GameScenesManager___c__DisplayClass51_0(GameScenesManager___c__DisplayClass51_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21531 };
@@ -1434,7 +1434,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass52_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager___c__DisplayClass52_0(GameScenesManager___c__DisplayClass52_0const&) = delete;
+  GameScenesManager___c__DisplayClass52_0(GameScenesManager___c__DisplayClass52_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21532 };
@@ -1497,7 +1497,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager___c__DisplayClass60_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager___c__DisplayClass60_0(GameScenesManager___c__DisplayClass60_0const&) = delete;
+  GameScenesManager___c__DisplayClass60_0(GameScenesManager___c__DisplayClass60_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21533 };
@@ -1617,7 +1617,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager__LoadOneScene_d__55", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager__LoadOneScene_d__55(GameScenesManager__LoadOneScene_d__55const&) = delete;
+  GameScenesManager__LoadOneScene_d__55(GameScenesManager__LoadOneScene_d__55 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21534 };
@@ -1901,7 +1901,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager__ScenesTransitionCoroutine_d__57", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager__ScenesTransitionCoroutine_d__57(GameScenesManager__ScenesTransitionCoroutine_d__57const&) = delete;
+  GameScenesManager__ScenesTransitionCoroutine_d__57(GameScenesManager__ScenesTransitionCoroutine_d__57 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21535 };
@@ -2111,7 +2111,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager__UnloadOneScene_d__56", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager__UnloadOneScene_d__56(GameScenesManager__UnloadOneScene_d__56const&) = delete;
+  GameScenesManager__UnloadOneScene_d__56(GameScenesManager__UnloadOneScene_d__56 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21536 };
@@ -2246,7 +2246,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager__WaitUntilTaskCompleted_d__60", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager__WaitUntilTaskCompleted_d__60(GameScenesManager__WaitUntilTaskCompleted_d__60const&) = delete;
+  GameScenesManager__WaitUntilTaskCompleted_d__60(GameScenesManager__WaitUntilTaskCompleted_d__60 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21537 };
@@ -2637,7 +2637,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameScenesManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameScenesManager(GameScenesManagerconst&) = delete;
+  GameScenesManager(GameScenesManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21538 };

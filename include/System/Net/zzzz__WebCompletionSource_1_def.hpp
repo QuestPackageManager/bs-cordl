@@ -204,7 +204,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WebCompletionSource_1_Result", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WebCompletionSource_1_Result(WebCompletionSource_1_Resultconst&) = delete;
+  WebCompletionSource_1_Result(WebCompletionSource_1_Result const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11634 };
@@ -365,7 +365,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WebCompletionSource_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WebCompletionSource_1(WebCompletionSource_1const&) = delete;
+  WebCompletionSource_1(WebCompletionSource_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11636 };

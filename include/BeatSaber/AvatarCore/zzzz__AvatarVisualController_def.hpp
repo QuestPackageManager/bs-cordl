@@ -145,7 +145,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AvatarVisualController__WaitForAvatarLoadAndSetLightColor_d__2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AvatarVisualController__WaitForAvatarLoadAndSetLightColor_d__2(AvatarVisualController__WaitForAvatarLoadAndSetLightColor_d__2const&) = delete;
+  AvatarVisualController__WaitForAvatarLoadAndSetLightColor_d__2(AvatarVisualController__WaitForAvatarLoadAndSetLightColor_d__2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21651 };
@@ -221,7 +221,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AvatarVisualController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AvatarVisualController(AvatarVisualControllerconst&) = delete;
+  AvatarVisualController(AvatarVisualController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21652 };

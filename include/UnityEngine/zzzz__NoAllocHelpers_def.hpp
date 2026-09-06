@@ -79,7 +79,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NoAllocHelpers_ListPrivateFieldAccess_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoAllocHelpers_ListPrivateFieldAccess_1(NoAllocHelpers_ListPrivateFieldAccess_1const&) = delete;
+  NoAllocHelpers_ListPrivateFieldAccess_1(NoAllocHelpers_ListPrivateFieldAccess_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10354 };
@@ -138,7 +138,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NoAllocHelpers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoAllocHelpers(NoAllocHelpersconst&) = delete;
+  NoAllocHelpers(NoAllocHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10355 };

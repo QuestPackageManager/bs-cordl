@@ -171,7 +171,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ListDictionary_NodeEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ListDictionary_NodeEnumerator(ListDictionary_NodeEnumeratorconst&) = delete;
+  ListDictionary_NodeEnumerator(ListDictionary_NodeEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11364 };
@@ -288,7 +288,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator(NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumeratorconst&) = delete;
+  NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator(NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11365 };
@@ -401,7 +401,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ListDictionary_NodeKeyValueCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ListDictionary_NodeKeyValueCollection(ListDictionary_NodeKeyValueCollectionconst&) = delete;
+  ListDictionary_NodeKeyValueCollection(ListDictionary_NodeKeyValueCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11366 };
@@ -473,7 +473,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ListDictionary_DictionaryNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ListDictionary_DictionaryNode(ListDictionary_DictionaryNodeconst&) = delete;
+  ListDictionary_DictionaryNode(ListDictionary_DictionaryNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11367 };
@@ -662,7 +662,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ListDictionary", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ListDictionary(ListDictionaryconst&) = delete;
+  ListDictionary(ListDictionary const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11368 };

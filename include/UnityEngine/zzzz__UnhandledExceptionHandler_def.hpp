@@ -71,7 +71,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnhandledExceptionHandler___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnhandledExceptionHandler___c(UnhandledExceptionHandler___cconst&) = delete;
+  UnhandledExceptionHandler___c(UnhandledExceptionHandler___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10372 };
@@ -108,7 +108,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnhandledExceptionHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnhandledExceptionHandler(UnhandledExceptionHandlerconst&) = delete;
+  UnhandledExceptionHandler(UnhandledExceptionHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10373 };

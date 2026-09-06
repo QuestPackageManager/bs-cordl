@@ -142,7 +142,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1EncodableVector", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Asn1EncodableVector(Asn1EncodableVectorconst&) = delete;
+  Asn1EncodableVector(Asn1EncodableVector const&) = delete;
 
   /// @brief Field DefaultCapacity offset 0xffffffff size 0x4
   static constexpr int32_t DefaultCapacity{ static_cast<int32_t>(0xa) };

@@ -161,7 +161,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18(MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18const&) = delete;
+  MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18(MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6198 };
@@ -291,7 +291,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17(MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17const&) = delete;
+  MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17(MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6199 };
@@ -461,7 +461,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSpectatorController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerSpectatorController(MultiplayerSpectatorControllerconst&) = delete;
+  MultiplayerSpectatorController(MultiplayerSpectatorController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6200 };

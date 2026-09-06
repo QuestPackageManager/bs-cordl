@@ -77,7 +77,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ResetPitchOnGameplayFinished", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResetPitchOnGameplayFinished(ResetPitchOnGameplayFinishedconst&) = delete;
+  ResetPitchOnGameplayFinished(ResetPitchOnGameplayFinished const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5579 };

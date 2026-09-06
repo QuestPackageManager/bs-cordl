@@ -170,7 +170,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler_CommandBuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstCompiler_CommandBuilder(BurstCompiler_CommandBuilderconst&) = delete;
+  BurstCompiler_CommandBuilder(BurstCompiler_CommandBuilder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17299 };
@@ -225,7 +225,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler_StaticTypeReinitAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstCompiler_StaticTypeReinitAttribute(BurstCompiler_StaticTypeReinitAttributeconst&) = delete;
+  BurstCompiler_StaticTypeReinitAttribute(BurstCompiler_StaticTypeReinitAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17300 };
@@ -275,7 +275,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BurstCompilerHelper_BurstCompiler_IsBurstEnabledDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstCompilerHelper_BurstCompiler_IsBurstEnabledDelegate(BurstCompilerHelper_BurstCompiler_IsBurstEnabledDelegateconst&) = delete;
+  BurstCompilerHelper_BurstCompiler_IsBurstEnabledDelegate(BurstCompilerHelper_BurstCompiler_IsBurstEnabledDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17301 };
@@ -334,7 +334,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler_BurstCompilerHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstCompiler_BurstCompilerHelper(BurstCompiler_BurstCompilerHelperconst&) = delete;
+  BurstCompiler_BurstCompilerHelper(BurstCompiler_BurstCompilerHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17302 };
@@ -385,7 +385,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler_FakeDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstCompiler_FakeDelegate(BurstCompiler_FakeDelegateconst&) = delete;
+  BurstCompiler_FakeDelegate(BurstCompiler_FakeDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17303 };
@@ -454,7 +454,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstCompiler___c(BurstCompiler___cconst&) = delete;
+  BurstCompiler___c(BurstCompiler___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17304 };
@@ -656,7 +656,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstCompiler(BurstCompilerconst&) = delete;
+  BurstCompiler(BurstCompiler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17305 };

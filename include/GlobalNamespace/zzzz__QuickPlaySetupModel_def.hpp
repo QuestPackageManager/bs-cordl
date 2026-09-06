@@ -94,7 +94,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySetupModel_QuickPlaySetupDataFB", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QuickPlaySetupModel_QuickPlaySetupDataFB(QuickPlaySetupModel_QuickPlaySetupDataFBconst&) = delete;
+  QuickPlaySetupModel_QuickPlaySetupDataFB(QuickPlaySetupModel_QuickPlaySetupDataFB const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15068 };
@@ -270,7 +270,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySetupModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QuickPlaySetupModel(QuickPlaySetupModelconst&) = delete;
+  QuickPlaySetupModel(QuickPlaySetupModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15070 };

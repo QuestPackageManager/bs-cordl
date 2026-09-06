@@ -80,7 +80,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalInactivePlayerFacade_Factory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLocalInactivePlayerFacade_Factory(MultiplayerLocalInactivePlayerFacade_Factoryconst&) = delete;
+  MultiplayerLocalInactivePlayerFacade_Factory(MultiplayerLocalInactivePlayerFacade_Factory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6098 };
@@ -241,7 +241,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalInactivePlayerFacade", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLocalInactivePlayerFacade(MultiplayerLocalInactivePlayerFacadeconst&) = delete;
+  MultiplayerLocalInactivePlayerFacade(MultiplayerLocalInactivePlayerFacade const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6099 };

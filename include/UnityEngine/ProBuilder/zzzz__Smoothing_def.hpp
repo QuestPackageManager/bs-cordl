@@ -99,7 +99,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Smoothing___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Smoothing___c(Smoothing___cconst&) = delete;
+  Smoothing___c(Smoothing___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16814 };
@@ -155,7 +155,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Smoothing", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Smoothing(Smoothingconst&) = delete;
+  Smoothing(Smoothing const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16815 };

@@ -39,7 +39,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Ed25519KeyGenerationParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ed25519KeyGenerationParameters(Ed25519KeyGenerationParametersconst&) = delete;
+  Ed25519KeyGenerationParameters(Ed25519KeyGenerationParameters const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1040 };

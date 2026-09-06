@@ -95,7 +95,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PosesRecorder___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PosesRecorder___c(PosesRecorder___cconst&) = delete;
+  PosesRecorder___c(PosesRecorder___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6577 };
@@ -181,7 +181,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PosesRecorder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PosesRecorder(PosesRecorderconst&) = delete;
+  PosesRecorder(PosesRecorder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6578 };

@@ -163,7 +163,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20(UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20const&) = delete;
+  UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20(UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6337 };
@@ -323,7 +323,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UIKeyboardManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIKeyboardManager(UIKeyboardManagerconst&) = delete;
+  UIKeyboardManager(UIKeyboardManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6338 };

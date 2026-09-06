@@ -165,7 +165,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Slider_SliderEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Slider_SliderEvent(Slider_SliderEventconst&) = delete;
+  Slider_SliderEvent(Slider_SliderEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17492 };
@@ -594,7 +594,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Slider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Slider(Sliderconst&) = delete;
+  Slider(Slider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17494 };

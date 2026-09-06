@@ -119,7 +119,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SurfaceTopology___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SurfaceTopology___c(SurfaceTopology___cconst&) = delete;
+  SurfaceTopology___c(SurfaceTopology___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16892 };
@@ -194,7 +194,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SurfaceTopology", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SurfaceTopology(SurfaceTopologyconst&) = delete;
+  SurfaceTopology(SurfaceTopology const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16893 };

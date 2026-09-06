@@ -276,7 +276,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Iso9796d2PssSigner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Iso9796d2PssSigner(Iso9796d2PssSignerconst&) = delete;
+  Iso9796d2PssSigner(Iso9796d2PssSigner const&) = delete;
 
   /// @brief Field TrailerImplicit offset 0xffffffff size 0x4
   static constexpr int32_t TrailerImplicit{ static_cast<int32_t>(0xbc) };

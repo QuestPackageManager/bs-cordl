@@ -69,7 +69,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DelegateHelpers___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DelegateHelpers___c(DelegateHelpers___cconst&) = delete;
+  DelegateHelpers___c(DelegateHelpers___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16618 };
@@ -104,7 +104,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DelegateHelpers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DelegateHelpers(DelegateHelpersconst&) = delete;
+  DelegateHelpers(DelegateHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16619 };

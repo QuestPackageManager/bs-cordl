@@ -169,7 +169,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PowerOfTwoTextureAtlas___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PowerOfTwoTextureAtlas___c(PowerOfTwoTextureAtlas___cconst&) = delete;
+  PowerOfTwoTextureAtlas___c(PowerOfTwoTextureAtlas___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12238 };
@@ -297,7 +297,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PowerOfTwoTextureAtlas", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PowerOfTwoTextureAtlas(PowerOfTwoTextureAtlasconst&) = delete;
+  PowerOfTwoTextureAtlas(PowerOfTwoTextureAtlas const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12239 };

@@ -93,7 +93,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenDisplacementEffectDrawPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenDisplacementEffectDrawPass_PassData(ScreenDisplacementEffectDrawPass_PassDataconst&) = delete;
+  ScreenDisplacementEffectDrawPass_PassData(ScreenDisplacementEffectDrawPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20680 };
@@ -156,7 +156,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenDisplacementEffectDrawPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenDisplacementEffectDrawPass___c(ScreenDisplacementEffectDrawPass___cconst&) = delete;
+  ScreenDisplacementEffectDrawPass___c(ScreenDisplacementEffectDrawPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20681 };
@@ -233,7 +233,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenDisplacementEffectDrawPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenDisplacementEffectDrawPass(ScreenDisplacementEffectDrawPassconst&) = delete;
+  ScreenDisplacementEffectDrawPass(ScreenDisplacementEffectDrawPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20682 };

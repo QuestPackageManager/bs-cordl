@@ -204,7 +204,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MainLightShadowCasterPass_MainLightShadowConstantBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainLightShadowCasterPass_MainLightShadowConstantBuffer(MainLightShadowCasterPass_MainLightShadowConstantBufferconst&) = delete;
+  MainLightShadowCasterPass_MainLightShadowConstantBuffer(MainLightShadowCasterPass_MainLightShadowConstantBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13105 };
@@ -322,7 +322,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MainLightShadowCasterPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainLightShadowCasterPass_PassData(MainLightShadowCasterPass_PassDataconst&) = delete;
+  MainLightShadowCasterPass_PassData(MainLightShadowCasterPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13106 };
@@ -425,7 +425,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MainLightShadowCasterPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainLightShadowCasterPass___c(MainLightShadowCasterPass___cconst&) = delete;
+  MainLightShadowCasterPass___c(MainLightShadowCasterPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13107 };
@@ -668,7 +668,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MainLightShadowCasterPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainLightShadowCasterPass(MainLightShadowCasterPassconst&) = delete;
+  MainLightShadowCasterPass(MainLightShadowCasterPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13108 };

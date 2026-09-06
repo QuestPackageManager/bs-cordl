@@ -639,7 +639,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputControl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputControl(InputControlconst&) = delete;
+  InputControl(InputControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8697 };

@@ -105,7 +105,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Allocator2D_Area", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Allocator2D_Area(Allocator2D_Areaconst&) = delete;
+  Allocator2D_Area(Allocator2D_Area const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5276 };
@@ -208,7 +208,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Allocator2D_Row", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Allocator2D_Row(Allocator2D_Rowconst&) = delete;
+  Allocator2D_Row(Allocator2D_Row const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5277 };
@@ -389,7 +389,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Allocator2D", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Allocator2D(Allocator2Dconst&) = delete;
+  Allocator2D(Allocator2D const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5279 };

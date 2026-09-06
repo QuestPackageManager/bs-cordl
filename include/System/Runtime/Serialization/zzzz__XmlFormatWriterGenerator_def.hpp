@@ -97,7 +97,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0(CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0const&) = delete;
+  CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0(CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17132 };
@@ -151,7 +151,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0(CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0const&) = delete;
+  CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0(CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17133 };
@@ -201,7 +201,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterGenerator_CriticalHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlFormatWriterGenerator_CriticalHelper(XmlFormatWriterGenerator_CriticalHelperconst&) = delete;
+  XmlFormatWriterGenerator_CriticalHelper(XmlFormatWriterGenerator_CriticalHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17134 };
@@ -253,7 +253,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlFormatWriterGenerator(XmlFormatWriterGeneratorconst&) = delete;
+  XmlFormatWriterGenerator(XmlFormatWriterGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17135 };

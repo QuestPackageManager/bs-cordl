@@ -122,7 +122,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "X509CertificateUtility_PasswordFinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509CertificateUtility_PasswordFinder(X509CertificateUtility_PasswordFinderconst&) = delete;
+  X509CertificateUtility_PasswordFinder(X509CertificateUtility_PasswordFinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18305 };
@@ -189,7 +189,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "X509CertificateUtility_RSACertificateEncryptionProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509CertificateUtility_RSACertificateEncryptionProvider(X509CertificateUtility_RSACertificateEncryptionProviderconst&) = delete;
+  X509CertificateUtility_RSACertificateEncryptionProvider(X509CertificateUtility_RSACertificateEncryptionProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18306 };
@@ -385,7 +385,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "X509CertificateUtility__GetCertificateList_d__5", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509CertificateUtility__GetCertificateList_d__5(X509CertificateUtility__GetCertificateList_d__5const&) = delete;
+  X509CertificateUtility__GetCertificateList_d__5(X509CertificateUtility__GetCertificateList_d__5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18307 };
@@ -485,7 +485,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "X509CertificateUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509CertificateUtility(X509CertificateUtilityconst&) = delete;
+  X509CertificateUtility(X509CertificateUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18308 };

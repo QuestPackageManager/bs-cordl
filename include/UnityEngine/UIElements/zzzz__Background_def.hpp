@@ -262,7 +262,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Background_TextureProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_Background_TextureProperty(PropertyBag_Background_TexturePropertyconst&) = delete;
+  PropertyBag_Background_TextureProperty(PropertyBag_Background_TextureProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4698 };
@@ -347,7 +347,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Background_SpriteProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_Background_SpriteProperty(PropertyBag_Background_SpritePropertyconst&) = delete;
+  PropertyBag_Background_SpriteProperty(PropertyBag_Background_SpriteProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4699 };
@@ -432,7 +432,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Background_RenderTextureProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_Background_RenderTextureProperty(PropertyBag_Background_RenderTexturePropertyconst&) = delete;
+  PropertyBag_Background_RenderTextureProperty(PropertyBag_Background_RenderTextureProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4700 };
@@ -517,7 +517,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Background_VectorImageProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_Background_VectorImageProperty(PropertyBag_Background_VectorImagePropertyconst&) = delete;
+  PropertyBag_Background_VectorImageProperty(PropertyBag_Background_VectorImageProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4701 };
@@ -574,7 +574,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Background_PropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Background_PropertyBag(Background_PropertyBagconst&) = delete;
+  Background_PropertyBag(Background_PropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4702 };

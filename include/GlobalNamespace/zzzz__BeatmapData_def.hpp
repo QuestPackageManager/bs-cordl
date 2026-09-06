@@ -131,7 +131,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapData_BeatmapDataBinaryHeapItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapData_BeatmapDataBinaryHeapItem(BeatmapData_BeatmapDataBinaryHeapItemconst&) = delete;
+  BeatmapData_BeatmapDataBinaryHeapItem(BeatmapData_BeatmapDataBinaryHeapItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14881 };
@@ -187,7 +187,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapData___c__DisplayClass50_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapData___c__DisplayClass50_0_1(BeatmapData___c__DisplayClass50_0_1const&) = delete;
+  BeatmapData___c__DisplayClass50_0_1(BeatmapData___c__DisplayClass50_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14882 };
@@ -553,7 +553,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapData(BeatmapDataconst&) = delete;
+  BeatmapData(BeatmapData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14883 };

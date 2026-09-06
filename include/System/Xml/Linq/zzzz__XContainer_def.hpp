@@ -151,7 +151,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XContainer_ContentReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XContainer_ContentReader(XContainer_ContentReaderconst&) = delete;
+  XContainer_ContentReader(XContainer_ContentReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21969 };
@@ -321,7 +321,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XContainer__Nodes_d__18", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XContainer__Nodes_d__18(XContainer__Nodes_d__18const&) = delete;
+  XContainer__Nodes_d__18(XContainer__Nodes_d__18 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21970 };
@@ -471,7 +471,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XContainer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XContainer(XContainerconst&) = delete;
+  XContainer(XContainer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21971 };

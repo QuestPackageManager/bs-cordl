@@ -76,7 +76,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StyleSelector___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StyleSelector___c(StyleSelector___cconst&) = delete;
+  StyleSelector___c(StyleSelector___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5064 };
@@ -172,7 +172,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StyleSelector", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StyleSelector(StyleSelectorconst&) = delete;
+  StyleSelector(StyleSelector const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5065 };

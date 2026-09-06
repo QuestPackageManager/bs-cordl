@@ -114,7 +114,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1CipherBuilderWithKey", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Asn1CipherBuilderWithKey(Asn1CipherBuilderWithKeyconst&) = delete;
+  Asn1CipherBuilderWithKey(Asn1CipherBuilderWithKey const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 980 };

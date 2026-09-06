@@ -111,7 +111,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductCollectionModel_AdditionalSkus", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusLevelProductCollectionModel_AdditionalSkus(OculusLevelProductCollectionModel_AdditionalSkusconst&) = delete;
+  OculusLevelProductCollectionModel_AdditionalSkus(OculusLevelProductCollectionModel_AdditionalSkus const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15136 };
@@ -204,7 +204,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductCollectionModel_LevelProductData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusLevelProductCollectionModel_LevelProductData(OculusLevelProductCollectionModel_LevelProductDataconst&) = delete;
+  OculusLevelProductCollectionModel_LevelProductData(OculusLevelProductCollectionModel_LevelProductData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15137 };
@@ -322,7 +322,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductCollectionModel_LevelPackProductData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusLevelProductCollectionModel_LevelPackProductData(OculusLevelProductCollectionModel_LevelPackProductDataconst&) = delete;
+  OculusLevelProductCollectionModel_LevelPackProductData(OculusLevelProductCollectionModel_LevelPackProductData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15138 };
@@ -437,7 +437,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductCollectionModel_LevelPackRedirectionData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusLevelProductCollectionModel_LevelPackRedirectionData(OculusLevelProductCollectionModel_LevelPackRedirectionDataconst&) = delete;
+  OculusLevelProductCollectionModel_LevelPackRedirectionData(OculusLevelProductCollectionModel_LevelPackRedirectionData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15139 };
@@ -564,7 +564,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductCollectionModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusLevelProductCollectionModel(OculusLevelProductCollectionModelconst&) = delete;
+  OculusLevelProductCollectionModel(OculusLevelProductCollectionModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15140 };

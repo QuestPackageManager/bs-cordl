@@ -298,7 +298,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameLiftConnectionManager_GameLiftConnectionManagerParamsBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameLiftConnectionManager_GameLiftConnectionManagerParamsBase(GameLiftConnectionManager_GameLiftConnectionManagerParamsBaseconst&) = delete;
+  GameLiftConnectionManager_GameLiftConnectionManagerParamsBase(GameLiftConnectionManager_GameLiftConnectionManagerParamsBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18856 };
@@ -371,7 +371,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameLiftConnectionManager_ConnectToServerParams", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameLiftConnectionManager_ConnectToServerParams(GameLiftConnectionManager_ConnectToServerParamsconst&) = delete;
+  GameLiftConnectionManager_ConnectToServerParams(GameLiftConnectionManager_ConnectToServerParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18857 };
@@ -416,7 +416,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameLiftConnectionManager_StartClientParams", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameLiftConnectionManager_StartClientParams(GameLiftConnectionManager_StartClientParamsconst&) = delete;
+  GameLiftConnectionManager_StartClientParams(GameLiftConnectionManager_StartClientParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18858 };
@@ -1047,7 +1047,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameLiftConnectionManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameLiftConnectionManager(GameLiftConnectionManagerconst&) = delete;
+  GameLiftConnectionManager(GameLiftConnectionManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18861 };

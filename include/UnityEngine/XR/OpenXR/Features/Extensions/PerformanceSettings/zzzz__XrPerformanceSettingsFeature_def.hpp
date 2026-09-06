@@ -94,7 +94,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate(NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegateconst&) = delete;
+  NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate(NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18598 };
@@ -134,7 +134,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XrPerformanceSettingsFeature_NativeApi", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XrPerformanceSettingsFeature_NativeApi(XrPerformanceSettingsFeature_NativeApiconst&) = delete;
+  XrPerformanceSettingsFeature_NativeApi(XrPerformanceSettingsFeature_NativeApi const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18599 };
@@ -202,7 +202,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XrPerformanceSettingsFeature", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XrPerformanceSettingsFeature(XrPerformanceSettingsFeatureconst&) = delete;
+  XrPerformanceSettingsFeature(XrPerformanceSettingsFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18600 };

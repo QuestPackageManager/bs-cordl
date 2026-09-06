@@ -59,7 +59,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SecureStringHasher_HashCodeOfStringDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecureStringHasher_HashCodeOfStringDelegate(SecureStringHasher_HashCodeOfStringDelegateconst&) = delete;
+  SecureStringHasher_HashCodeOfStringDelegate(SecureStringHasher_HashCodeOfStringDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9295 };
@@ -130,7 +130,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SecureStringHasher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecureStringHasher(SecureStringHasherconst&) = delete;
+  SecureStringHasher(SecureStringHasher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9296 };

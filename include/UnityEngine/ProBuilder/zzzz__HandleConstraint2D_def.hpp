@@ -93,7 +93,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HandleConstraint2D", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HandleConstraint2D(HandleConstraint2Dconst&) = delete;
+  HandleConstraint2D(HandleConstraint2D const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16737 };

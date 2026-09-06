@@ -135,7 +135,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Queue_QueueEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Queue_QueueEnumerator(Queue_QueueEnumeratorconst&) = delete;
+  Queue_QueueEnumerator(Queue_QueueEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3706 };
@@ -185,7 +185,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Queue_QueueDebugView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Queue_QueueDebugView(Queue_QueueDebugViewconst&) = delete;
+  Queue_QueueDebugView(Queue_QueueDebugView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3707 };
@@ -361,7 +361,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Queue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Queue(Queueconst&) = delete;
+  Queue(Queue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3708 };

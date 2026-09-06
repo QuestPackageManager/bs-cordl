@@ -142,7 +142,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionMapAnimationController___c(MissionMapAnimationController___cconst&) = delete;
+  MissionMapAnimationController___c(MissionMapAnimationController___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6865 };
@@ -257,7 +257,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13(MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13const&) = delete;
+  MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13(MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6866 };
@@ -401,7 +401,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController__UpdateMissionMapCoroutine_d__12", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionMapAnimationController__UpdateMissionMapCoroutine_d__12(MissionMapAnimationController__UpdateMissionMapCoroutine_d__12const&) = delete;
+  MissionMapAnimationController__UpdateMissionMapCoroutine_d__12(MissionMapAnimationController__UpdateMissionMapCoroutine_d__12 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6867 };
@@ -560,7 +560,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15(MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15const&) = delete;
+  MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15(MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6868 };
@@ -696,7 +696,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController__UpdateStageCoroutine_d__14", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionMapAnimationController__UpdateStageCoroutine_d__14(MissionMapAnimationController__UpdateStageCoroutine_d__14const&) = delete;
+  MissionMapAnimationController__UpdateStageCoroutine_d__14(MissionMapAnimationController__UpdateStageCoroutine_d__14 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6869 };
@@ -857,7 +857,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionMapAnimationController(MissionMapAnimationControllerconst&) = delete;
+  MissionMapAnimationController(MissionMapAnimationController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6870 };

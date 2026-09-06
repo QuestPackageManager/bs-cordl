@@ -88,7 +88,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRDriverManager__GetDriverCount", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRDriverManager__GetDriverCount(IVRDriverManager__GetDriverCountconst&) = delete;
+  IVRDriverManager__GetDriverCount(IVRDriverManager__GetDriverCount const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8336 };
@@ -133,7 +133,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRDriverManager__GetDriverName", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRDriverManager__GetDriverName(IVRDriverManager__GetDriverNameconst&) = delete;
+  IVRDriverManager__GetDriverName(IVRDriverManager__GetDriverName const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8337 };
@@ -178,7 +178,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRDriverManager__GetDriverHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRDriverManager__GetDriverHandle(IVRDriverManager__GetDriverHandleconst&) = delete;
+  IVRDriverManager__GetDriverHandle(IVRDriverManager__GetDriverHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8338 };

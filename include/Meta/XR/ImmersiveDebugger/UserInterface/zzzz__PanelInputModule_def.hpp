@@ -88,7 +88,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PanelInputModule_RaycastComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PanelInputModule_RaycastComparer(PanelInputModule_RaycastComparerconst&) = delete;
+  PanelInputModule_RaycastComparer(PanelInputModule_RaycastComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18379 };
@@ -212,7 +212,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PanelInputModule", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PanelInputModule(PanelInputModuleconst&) = delete;
+  PanelInputModule(PanelInputModule const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18380 };

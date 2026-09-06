@@ -560,7 +560,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_ShaderIDs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume_ShaderIDs(ProbeReferenceVolume_ShaderIDsconst&) = delete;
+  ProbeReferenceVolume_ShaderIDs(ProbeReferenceVolume_ShaderIDs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12088 };
@@ -731,7 +731,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellDesc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume_CellDesc(ProbeReferenceVolume_CellDescconst&) = delete;
+  ProbeReferenceVolume_CellDesc(ProbeReferenceVolume_CellDesc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12090 };
@@ -1071,7 +1071,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume_CellData(ProbeReferenceVolume_CellDataconst&) = delete;
+  ProbeReferenceVolume_CellData(ProbeReferenceVolume_CellData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12092 };
@@ -1186,7 +1186,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellPoolInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume_CellPoolInfo(ProbeReferenceVolume_CellPoolInfoconst&) = delete;
+  ProbeReferenceVolume_CellPoolInfo(ProbeReferenceVolume_CellPoolInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12093 };
@@ -1280,7 +1280,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellIndexInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume_CellIndexInfo(ProbeReferenceVolume_CellIndexInfoconst&) = delete;
+  ProbeReferenceVolume_CellIndexInfo(ProbeReferenceVolume_CellIndexInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12094 };
@@ -1398,7 +1398,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellBlendingInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume_CellBlendingInfo(ProbeReferenceVolume_CellBlendingInfoconst&) = delete;
+  ProbeReferenceVolume_CellBlendingInfo(ProbeReferenceVolume_CellBlendingInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12095 };
@@ -1498,7 +1498,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellStreamingInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume_CellStreamingInfo(ProbeReferenceVolume_CellStreamingInfoconst&) = delete;
+  ProbeReferenceVolume_CellStreamingInfo(ProbeReferenceVolume_CellStreamingInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12096 };
@@ -1677,7 +1677,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_Cell", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume_Cell(ProbeReferenceVolume_Cellconst&) = delete;
+  ProbeReferenceVolume_Cell(ProbeReferenceVolume_Cell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12097 };
@@ -2078,7 +2078,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellInstancedDebugProbes", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume_CellInstancedDebugProbes(ProbeReferenceVolume_CellInstancedDebugProbesconst&) = delete;
+  ProbeReferenceVolume_CellInstancedDebugProbes(ProbeReferenceVolume_CellInstancedDebugProbes const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12102 };
@@ -2182,7 +2182,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_RenderFragmentationOverlayPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume_RenderFragmentationOverlayPassData(ProbeReferenceVolume_RenderFragmentationOverlayPassDataconst&) = delete;
+  ProbeReferenceVolume_RenderFragmentationOverlayPassData(ProbeReferenceVolume_RenderFragmentationOverlayPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12103 };
@@ -2305,7 +2305,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_DiskStreamingRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume_DiskStreamingRequest(ProbeReferenceVolume_DiskStreamingRequestconst&) = delete;
+  ProbeReferenceVolume_DiskStreamingRequest(ProbeReferenceVolume_DiskStreamingRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12104 };
@@ -2617,7 +2617,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellStreamingScratchBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume_CellStreamingScratchBuffer(ProbeReferenceVolume_CellStreamingScratchBufferconst&) = delete;
+  ProbeReferenceVolume_CellStreamingScratchBuffer(ProbeReferenceVolume_CellStreamingScratchBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12106 };
@@ -2756,7 +2756,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegate(CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegateconst&) = delete;
+  CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegate(CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12108 };
@@ -3037,7 +3037,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellStreamingRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume_CellStreamingRequest(ProbeReferenceVolume_CellStreamingRequestconst&) = delete;
+  ProbeReferenceVolume_CellStreamingRequest(ProbeReferenceVolume_CellStreamingRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12109 };
@@ -3508,7 +3508,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume___c(ProbeReferenceVolume___cconst&) = delete;
+  ProbeReferenceVolume___c(ProbeReferenceVolume___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12110 };
@@ -3556,7 +3556,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume___c__DisplayClass314_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume___c__DisplayClass314_0(ProbeReferenceVolume___c__DisplayClass314_0const&) = delete;
+  ProbeReferenceVolume___c__DisplayClass314_0(ProbeReferenceVolume___c__DisplayClass314_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12111 };
@@ -5389,7 +5389,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume(ProbeReferenceVolumeconst&) = delete;
+  ProbeReferenceVolume(ProbeReferenceVolume const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12112 };

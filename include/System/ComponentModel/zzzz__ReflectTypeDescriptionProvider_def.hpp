@@ -214,7 +214,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectTypeDescriptionProvider_ReflectedTypeData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectTypeDescriptionProvider_ReflectedTypeData(ReflectTypeDescriptionProvider_ReflectedTypeDataconst&) = delete;
+  ReflectTypeDescriptionProvider_ReflectedTypeData(ReflectTypeDescriptionProvider_ReflectedTypeData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11325 };
@@ -526,7 +526,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectTypeDescriptionProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectTypeDescriptionProvider(ReflectTypeDescriptionProviderconst&) = delete;
+  ReflectTypeDescriptionProvider(ReflectTypeDescriptionProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11326 };

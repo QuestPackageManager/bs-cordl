@@ -687,7 +687,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RebindingOperation_InputActionRebindingExtensions___c__DisplayClass32_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RebindingOperation_InputActionRebindingExtensions___c__DisplayClass32_0(RebindingOperation_InputActionRebindingExtensions___c__DisplayClass32_0const&) = delete;
+  RebindingOperation_InputActionRebindingExtensions___c__DisplayClass32_0(RebindingOperation_InputActionRebindingExtensions___c__DisplayClass32_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8640 };
@@ -1231,7 +1231,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputActionRebindingExtensions_RebindingOperation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputActionRebindingExtensions_RebindingOperation(InputActionRebindingExtensions_RebindingOperationconst&) = delete;
+  InputActionRebindingExtensions_RebindingOperation(InputActionRebindingExtensions_RebindingOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8641 };
@@ -1436,7 +1436,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputActionRebindingExtensions_DeferBindingResolutionWrapper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputActionRebindingExtensions_DeferBindingResolutionWrapper(InputActionRebindingExtensions_DeferBindingResolutionWrapperconst&) = delete;
+  InputActionRebindingExtensions_DeferBindingResolutionWrapper(InputActionRebindingExtensions_DeferBindingResolutionWrapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8642 };
@@ -1512,7 +1512,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputActionRebindingExtensions___c__DisplayClass25_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputActionRebindingExtensions___c__DisplayClass25_0(InputActionRebindingExtensions___c__DisplayClass25_0const&) = delete;
+  InputActionRebindingExtensions___c__DisplayClass25_0(InputActionRebindingExtensions___c__DisplayClass25_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8643 };
@@ -1788,7 +1788,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputActionRebindingExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputActionRebindingExtensions(InputActionRebindingExtensionsconst&) = delete;
+  InputActionRebindingExtensions(InputActionRebindingExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8644 };

@@ -153,7 +153,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "URPDefaultVolumeProfileSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  URPDefaultVolumeProfileSettings(URPDefaultVolumeProfileSettingsconst&) = delete;
+  URPDefaultVolumeProfileSettings(URPDefaultVolumeProfileSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12952 };

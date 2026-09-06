@@ -74,7 +74,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SynchronizationContextAwaitTaskContinuation___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SynchronizationContextAwaitTaskContinuation___c(SynchronizationContextAwaitTaskContinuation___cconst&) = delete;
+  SynchronizationContextAwaitTaskContinuation___c(SynchronizationContextAwaitTaskContinuation___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2819 };
@@ -144,7 +144,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SynchronizationContextAwaitTaskContinuation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SynchronizationContextAwaitTaskContinuation(SynchronizationContextAwaitTaskContinuationconst&) = delete;
+  SynchronizationContextAwaitTaskContinuation(SynchronizationContextAwaitTaskContinuation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2820 };

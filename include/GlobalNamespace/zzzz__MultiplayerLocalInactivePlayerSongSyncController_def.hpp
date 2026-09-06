@@ -111,7 +111,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalInactivePlayerSongSyncController_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLocalInactivePlayerSongSyncController_InitData(MultiplayerLocalInactivePlayerSongSyncController_InitDataconst&) = delete;
+  MultiplayerLocalInactivePlayerSongSyncController_InitData(MultiplayerLocalInactivePlayerSongSyncController_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6103 };
@@ -350,7 +350,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalInactivePlayerSongSyncController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLocalInactivePlayerSongSyncController(MultiplayerLocalInactivePlayerSongSyncControllerconst&) = delete;
+  MultiplayerLocalInactivePlayerSongSyncController(MultiplayerLocalInactivePlayerSongSyncController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6104 };

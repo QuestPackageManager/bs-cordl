@@ -91,7 +91,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaBuilder___c__DisplayClass23_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSchemaBuilder___c__DisplayClass23_0(JsonSchemaBuilder___c__DisplayClass23_0const&) = delete;
+  JsonSchemaBuilder___c__DisplayClass23_0(JsonSchemaBuilder___c__DisplayClass23_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13543 };
@@ -233,7 +233,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaBuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSchemaBuilder(JsonSchemaBuilderconst&) = delete;
+  JsonSchemaBuilder(JsonSchemaBuilder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13544 };

@@ -52,7 +52,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MissScoringElement_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissScoringElement_Pool(MissScoringElement_Poolconst&) = delete;
+  MissScoringElement_Pool(MissScoringElement_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6270 };
@@ -133,7 +133,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MissScoringElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissScoringElement(MissScoringElementconst&) = delete;
+  MissScoringElement(MissScoringElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6271 };

@@ -556,7 +556,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_MaterialLibrary", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_MaterialLibrary(PostProcessPass_MaterialLibraryconst&) = delete;
+  PostProcessPass_MaterialLibrary(PostProcessPass_MaterialLibrary const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12848 };
@@ -1021,7 +1021,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_ShaderConstants", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_ShaderConstants(PostProcessPass_ShaderConstantsconst&) = delete;
+  PostProcessPass_ShaderConstants(PostProcessPass_ShaderConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12849 };
@@ -1065,7 +1065,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_UpdateCameraResolutionPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_UpdateCameraResolutionPassData(PostProcessPass_UpdateCameraResolutionPassDataconst&) = delete;
+  PostProcessPass_UpdateCameraResolutionPassData(PostProcessPass_UpdateCameraResolutionPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12850 };
@@ -1132,7 +1132,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_StopNaNsPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_StopNaNsPassData(PostProcessPass_StopNaNsPassDataconst&) = delete;
+  PostProcessPass_StopNaNsPassData(PostProcessPass_StopNaNsPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12851 };
@@ -1245,7 +1245,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_SMAASetupPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_SMAASetupPassData(PostProcessPass_SMAASetupPassDataconst&) = delete;
+  PostProcessPass_SMAASetupPassData(PostProcessPass_SMAASetupPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12852 };
@@ -1360,7 +1360,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_SMAAPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_SMAAPassData(PostProcessPass_SMAAPassDataconst&) = delete;
+  PostProcessPass_SMAAPassData(PostProcessPass_SMAAPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12853 };
@@ -1483,7 +1483,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_UberSetupBloomPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_UberSetupBloomPassData(PostProcessPass_UberSetupBloomPassDataconst&) = delete;
+  PostProcessPass_UberSetupBloomPassData(PostProcessPass_UberSetupBloomPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12854 };
@@ -1607,7 +1607,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_BloomPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_BloomPassData(PostProcessPass_BloomPassDataconst&) = delete;
+  PostProcessPass_BloomPassData(PostProcessPass_BloomPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12855 };
@@ -1844,7 +1844,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_DoFGaussianPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_DoFGaussianPassData(PostProcessPass_DoFGaussianPassDataconst&) = delete;
+  PostProcessPass_DoFGaussianPassData(PostProcessPass_DoFGaussianPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12857 };
@@ -2075,7 +2075,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_DoFBokehPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_DoFBokehPassData(PostProcessPass_DoFBokehPassDataconst&) = delete;
+  PostProcessPass_DoFBokehPassData(PostProcessPass_DoFBokehPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12858 };
@@ -2234,7 +2234,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_PaniniProjectionPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_PaniniProjectionPassData(PostProcessPass_PaniniProjectionPassDataconst&) = delete;
+  PostProcessPass_PaniniProjectionPassData(PostProcessPass_PaniniProjectionPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12859 };
@@ -2389,7 +2389,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_MotionBlurPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_MotionBlurPassData(PostProcessPass_MotionBlurPassDataconst&) = delete;
+  PostProcessPass_MotionBlurPassData(PostProcessPass_MotionBlurPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12860 };
@@ -2564,7 +2564,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_LensFlarePassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_LensFlarePassData(PostProcessPass_LensFlarePassDataconst&) = delete;
+  PostProcessPass_LensFlarePassData(PostProcessPass_LensFlarePassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12861 };
@@ -2751,7 +2751,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_LensFlareScreenSpacePassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_LensFlareScreenSpacePassData(PostProcessPass_LensFlareScreenSpacePassDataconst&) = delete;
+  PostProcessPass_LensFlareScreenSpacePassData(PostProcessPass_LensFlareScreenSpacePassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12862 };
@@ -2877,7 +2877,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_PostProcessingFinalSetupPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_PostProcessingFinalSetupPassData(PostProcessPass_PostProcessingFinalSetupPassDataconst&) = delete;
+  PostProcessPass_PostProcessingFinalSetupPassData(PostProcessPass_PostProcessingFinalSetupPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12863 };
@@ -2968,7 +2968,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_PostProcessingFinalFSRScalePassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_PostProcessingFinalFSRScalePassData(PostProcessPass_PostProcessingFinalFSRScalePassDataconst&) = delete;
+  PostProcessPass_PostProcessingFinalFSRScalePassData(PostProcessPass_PostProcessingFinalFSRScalePassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12864 };
@@ -3136,7 +3136,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_PostProcessingFinalBlitPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_PostProcessingFinalBlitPassData(PostProcessPass_PostProcessingFinalBlitPassDataconst&) = delete;
+  PostProcessPass_PostProcessingFinalBlitPassData(PostProcessPass_PostProcessingFinalBlitPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12865 };
@@ -3313,7 +3313,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_UberPostPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_UberPostPassData(PostProcessPass_UberPostPassDataconst&) = delete;
+  PostProcessPass_UberPostPassData(PostProcessPass_UberPostPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12867 };
@@ -3413,7 +3413,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_PostFXSetupPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_PostFXSetupPassData(PostProcessPass_PostFXSetupPassDataconst&) = delete;
+  PostProcessPass_PostFXSetupPassData(PostProcessPass_PostFXSetupPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12868 };
@@ -3807,7 +3807,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass___c(PostProcessPass___cconst&) = delete;
+  PostProcessPass___c(PostProcessPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12869 };
@@ -4800,7 +4800,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass(PostProcessPassconst&) = delete;
+  PostProcessPass(PostProcessPass const&) = delete;
 
   /// @brief Field _TemporalAATargetName offset 0xffffffff size 0x8
   static constexpr ::ConstString _TemporalAATargetName{ u"_TemporalAATarget" };

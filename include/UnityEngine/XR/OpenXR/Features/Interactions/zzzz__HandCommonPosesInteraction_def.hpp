@@ -183,7 +183,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HandCommonPosesInteraction_HandInteractionPoses", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HandCommonPosesInteraction_HandInteractionPoses(HandCommonPosesInteraction_HandInteractionPosesconst&) = delete;
+  HandCommonPosesInteraction_HandInteractionPoses(HandCommonPosesInteraction_HandInteractionPoses const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18571 };
@@ -280,7 +280,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HandCommonPosesInteraction___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HandCommonPosesInteraction___c(HandCommonPosesInteraction___cconst&) = delete;
+  HandCommonPosesInteraction___c(HandCommonPosesInteraction___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18572 };
@@ -338,7 +338,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HandCommonPosesInteraction___c__DisplayClass17_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HandCommonPosesInteraction___c__DisplayClass17_0(HandCommonPosesInteraction___c__DisplayClass17_0const&) = delete;
+  HandCommonPosesInteraction___c__DisplayClass17_0(HandCommonPosesInteraction___c__DisplayClass17_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18573 };
@@ -416,7 +416,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HandCommonPosesInteraction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HandCommonPosesInteraction(HandCommonPosesInteractionconst&) = delete;
+  HandCommonPosesInteraction(HandCommonPosesInteraction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18574 };

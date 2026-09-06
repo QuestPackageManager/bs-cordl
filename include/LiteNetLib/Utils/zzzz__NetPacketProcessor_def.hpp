@@ -208,7 +208,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor_HashCache_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetPacketProcessor_HashCache_1(NetPacketProcessor_HashCache_1const&) = delete;
+  NetPacketProcessor_HashCache_1(NetPacketProcessor_HashCache_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20095 };
@@ -250,7 +250,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor_SubscribeDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetPacketProcessor_SubscribeDelegate(NetPacketProcessor_SubscribeDelegateconst&) = delete;
+  NetPacketProcessor_SubscribeDelegate(NetPacketProcessor_SubscribeDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20096 };
@@ -319,7 +319,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass25_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetPacketProcessor___c__DisplayClass25_0_1(NetPacketProcessor___c__DisplayClass25_0_1const&) = delete;
+  NetPacketProcessor___c__DisplayClass25_0_1(NetPacketProcessor___c__DisplayClass25_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20097 };
@@ -395,7 +395,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass26_0_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetPacketProcessor___c__DisplayClass26_0_2(NetPacketProcessor___c__DisplayClass26_0_2const&) = delete;
+  NetPacketProcessor___c__DisplayClass26_0_2(NetPacketProcessor___c__DisplayClass26_0_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20098 };
@@ -471,7 +471,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass27_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetPacketProcessor___c__DisplayClass27_0_1(NetPacketProcessor___c__DisplayClass27_0_1const&) = delete;
+  NetPacketProcessor___c__DisplayClass27_0_1(NetPacketProcessor___c__DisplayClass27_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20099 };
@@ -547,7 +547,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass28_0_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetPacketProcessor___c__DisplayClass28_0_2(NetPacketProcessor___c__DisplayClass28_0_2const&) = delete;
+  NetPacketProcessor___c__DisplayClass28_0_2(NetPacketProcessor___c__DisplayClass28_0_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20100 };
@@ -614,7 +614,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass29_0_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetPacketProcessor___c__DisplayClass29_0_2(NetPacketProcessor___c__DisplayClass29_0_2const&) = delete;
+  NetPacketProcessor___c__DisplayClass29_0_2(NetPacketProcessor___c__DisplayClass29_0_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20101 };
@@ -678,7 +678,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass30_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetPacketProcessor___c__DisplayClass30_0_1(NetPacketProcessor___c__DisplayClass30_0_1const&) = delete;
+  NetPacketProcessor___c__DisplayClass30_0_1(NetPacketProcessor___c__DisplayClass30_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20102 };
@@ -742,7 +742,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass31_0_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetPacketProcessor___c__DisplayClass31_0_2(NetPacketProcessor___c__DisplayClass31_0_2const&) = delete;
+  NetPacketProcessor___c__DisplayClass31_0_2(NetPacketProcessor___c__DisplayClass31_0_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20103 };
@@ -806,7 +806,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass32_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetPacketProcessor___c__DisplayClass32_0_1(NetPacketProcessor___c__DisplayClass32_0_1const&) = delete;
+  NetPacketProcessor___c__DisplayClass32_0_1(NetPacketProcessor___c__DisplayClass32_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20104 };
@@ -1032,7 +1032,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetPacketProcessor(NetPacketProcessorconst&) = delete;
+  NetPacketProcessor(NetPacketProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20105 };

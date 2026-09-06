@@ -141,7 +141,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InspectorPanel___c__DisplayClass40_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InspectorPanel___c__DisplayClass40_0(InspectorPanel___c__DisplayClass40_0const&) = delete;
+  InspectorPanel___c__DisplayClass40_0(InspectorPanel___c__DisplayClass40_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18372 };
@@ -211,7 +211,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InspectorPanel___c__DisplayClass42_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InspectorPanel___c__DisplayClass42_0(InspectorPanel___c__DisplayClass42_0const&) = delete;
+  InspectorPanel___c__DisplayClass42_0(InspectorPanel___c__DisplayClass42_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18373 };
@@ -577,7 +577,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InspectorPanel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InspectorPanel(InspectorPanelconst&) = delete;
+  InspectorPanel(InspectorPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18374 };

@@ -74,7 +74,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SerializationEventsCache___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SerializationEventsCache___c(SerializationEventsCache___cconst&) = delete;
+  SerializationEventsCache___c(SerializationEventsCache___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3225 };
@@ -117,7 +117,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SerializationEventsCache", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SerializationEventsCache(SerializationEventsCacheconst&) = delete;
+  SerializationEventsCache(SerializationEventsCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3226 };

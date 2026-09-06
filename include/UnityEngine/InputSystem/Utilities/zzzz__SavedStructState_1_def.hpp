@@ -81,7 +81,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SavedStructState_1_TypedRestore", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SavedStructState_1_TypedRestore(SavedStructState_1_TypedRestoreconst&) = delete;
+  SavedStructState_1_TypedRestore(SavedStructState_1_TypedRestore const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9198 };
@@ -160,7 +160,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SavedStructState_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SavedStructState_1(SavedStructState_1const&) = delete;
+  SavedStructState_1(SavedStructState_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9199 };

@@ -56,7 +56,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Poly1305KeyGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Poly1305KeyGenerator(Poly1305KeyGeneratorconst&) = delete;
+  Poly1305KeyGenerator(Poly1305KeyGenerator const&) = delete;
 
   /// @brief Field R_MASK_HIGH_4 offset 0xffffffff size 0x1
   static constexpr uint8_t R_MASK_HIGH_4{ static_cast<uint8_t>(0xfu) };

@@ -210,7 +210,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimelineAsset_TimelineAssetUpgrade", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelineAsset_TimelineAssetUpgrade(TimelineAsset_TimelineAssetUpgradeconst&) = delete;
+  TimelineAsset_TimelineAssetUpgrade(TimelineAsset_TimelineAssetUpgrade const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19174 };
@@ -443,7 +443,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimelineAsset_EditorSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelineAsset_EditorSettings(TimelineAsset_EditorSettingsconst&) = delete;
+  TimelineAsset_EditorSettings(TimelineAsset_EditorSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19177 };
@@ -622,7 +622,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimelineAsset__get_outputs_d__27", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelineAsset__get_outputs_d__27(TimelineAsset__get_outputs_d__27const&) = delete;
+  TimelineAsset__get_outputs_d__27(TimelineAsset__get_outputs_d__27 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19178 };
@@ -965,7 +965,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimelineAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelineAsset(TimelineAssetconst&) = delete;
+  TimelineAsset(TimelineAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19179 };

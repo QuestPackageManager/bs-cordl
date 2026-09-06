@@ -58,7 +58,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RecordingUIController_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RecordingUIController_InitData(RecordingUIController_InitDataconst&) = delete;
+  RecordingUIController_InitData(RecordingUIController_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6013 };
@@ -143,7 +143,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RecordingUIController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RecordingUIController(RecordingUIControllerconst&) = delete;
+  RecordingUIController(RecordingUIController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6014 };

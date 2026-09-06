@@ -38,7 +38,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Internal_SubsystemDescriptors", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Internal_SubsystemDescriptors(Internal_SubsystemDescriptorsconst&) = delete;
+  Internal_SubsystemDescriptors(Internal_SubsystemDescriptors const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22935 };

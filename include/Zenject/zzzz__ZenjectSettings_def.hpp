@@ -150,7 +150,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ZenjectSettings_SignalSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ZenjectSettings_SignalSettings(ZenjectSettings_SignalSettingsconst&) = delete;
+  ZenjectSettings_SignalSettings(ZenjectSettings_SignalSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14529 };
@@ -304,7 +304,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ZenjectSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ZenjectSettings(ZenjectSettingsconst&) = delete;
+  ZenjectSettings(ZenjectSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14530 };

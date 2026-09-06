@@ -134,7 +134,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Stack_StackEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Stack_StackEnumerator(Stack_StackEnumeratorconst&) = delete;
+  Stack_StackEnumerator(Stack_StackEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3716 };
@@ -184,7 +184,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Stack_StackDebugView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Stack_StackDebugView(Stack_StackDebugViewconst&) = delete;
+  Stack_StackDebugView(Stack_StackDebugView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3717 };
@@ -320,7 +320,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Stack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Stack(Stackconst&) = delete;
+  Stack(Stack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3718 };

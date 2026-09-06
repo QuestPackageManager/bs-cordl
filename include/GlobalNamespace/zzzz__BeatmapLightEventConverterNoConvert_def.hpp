@@ -297,7 +297,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLightEventConverterNoConvert__ConvertBasicBeatmapEvent_d__12", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLightEventConverterNoConvert__ConvertBasicBeatmapEvent_d__12(BeatmapLightEventConverterNoConvert__ConvertBasicBeatmapEvent_d__12const&) = delete;
+  BeatmapLightEventConverterNoConvert__ConvertBasicBeatmapEvent_d__12(BeatmapLightEventConverterNoConvert__ConvertBasicBeatmapEvent_d__12 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15038 };
@@ -673,7 +673,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLightEventConverterNoConvert__ConvertLightColorBeatmapEvent_d__13", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLightEventConverterNoConvert__ConvertLightColorBeatmapEvent_d__13(BeatmapLightEventConverterNoConvert__ConvertLightColorBeatmapEvent_d__13const&) = delete;
+  BeatmapLightEventConverterNoConvert__ConvertLightColorBeatmapEvent_d__13(BeatmapLightEventConverterNoConvert__ConvertLightColorBeatmapEvent_d__13 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15039 };
@@ -1091,7 +1091,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLightEventConverterNoConvert__ConvertLightRotationBeatmapEvent_d__14", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLightEventConverterNoConvert__ConvertLightRotationBeatmapEvent_d__14(BeatmapLightEventConverterNoConvert__ConvertLightRotationBeatmapEvent_d__14const&) = delete;
+  BeatmapLightEventConverterNoConvert__ConvertLightRotationBeatmapEvent_d__14(BeatmapLightEventConverterNoConvert__ConvertLightRotationBeatmapEvent_d__14 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15040 };
@@ -1472,7 +1472,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLightEventConverterNoConvert__ConvertLightTranslationBeatmapEvent_d__15", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLightEventConverterNoConvert__ConvertLightTranslationBeatmapEvent_d__15(BeatmapLightEventConverterNoConvert__ConvertLightTranslationBeatmapEvent_d__15const&) = delete;
+  BeatmapLightEventConverterNoConvert__ConvertLightTranslationBeatmapEvent_d__15(BeatmapLightEventConverterNoConvert__ConvertLightTranslationBeatmapEvent_d__15 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15041 };
@@ -1691,7 +1691,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLightEventConverterNoConvert", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLightEventConverterNoConvert(BeatmapLightEventConverterNoConvertconst&) = delete;
+  BeatmapLightEventConverterNoConvert(BeatmapLightEventConverterNoConvert const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15042 };

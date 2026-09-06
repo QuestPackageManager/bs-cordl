@@ -69,7 +69,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Ed448Signer_Buffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ed448Signer_Buffer(Ed448Signer_Bufferconst&) = delete;
+  Ed448Signer_Buffer(Ed448Signer_Buffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1137 };
@@ -180,7 +180,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Ed448Signer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ed448Signer(Ed448Signerconst&) = delete;
+  Ed448Signer(Ed448Signer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1138 };

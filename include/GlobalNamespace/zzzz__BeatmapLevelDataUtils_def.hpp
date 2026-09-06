@@ -117,7 +117,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils___c__DisplayClass7_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelDataUtils___c__DisplayClass7_0(BeatmapLevelDataUtils___c__DisplayClass7_0const&) = delete;
+  BeatmapLevelDataUtils___c__DisplayClass7_0(BeatmapLevelDataUtils___c__DisplayClass7_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14972 };
@@ -172,7 +172,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils___c__DisplayClass8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelDataUtils___c__DisplayClass8_0(BeatmapLevelDataUtils___c__DisplayClass8_0const&) = delete;
+  BeatmapLevelDataUtils___c__DisplayClass8_0(BeatmapLevelDataUtils___c__DisplayClass8_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14973 };
@@ -227,7 +227,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils___c__DisplayClass9_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelDataUtils___c__DisplayClass9_0(BeatmapLevelDataUtils___c__DisplayClass9_0const&) = delete;
+  BeatmapLevelDataUtils___c__DisplayClass9_0(BeatmapLevelDataUtils___c__DisplayClass9_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14974 };
@@ -431,7 +431,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelDataUtils(BeatmapLevelDataUtilsconst&) = delete;
+  BeatmapLevelDataUtils(BeatmapLevelDataUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14976 };

@@ -72,7 +72,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BillingPlan", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BillingPlan(BillingPlanconst&) = delete;
+  BillingPlan(BillingPlan const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18026 };

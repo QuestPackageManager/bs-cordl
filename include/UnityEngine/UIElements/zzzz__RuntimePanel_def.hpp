@@ -88,7 +88,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimePanel___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimePanel___c(RuntimePanel___cconst&) = delete;
+  RuntimePanel___c(RuntimePanel___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4595 };
@@ -173,7 +173,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimePanel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimePanel(RuntimePanelconst&) = delete;
+  RuntimePanel(RuntimePanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4596 };

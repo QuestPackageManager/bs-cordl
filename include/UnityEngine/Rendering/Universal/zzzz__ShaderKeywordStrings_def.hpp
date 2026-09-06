@@ -32,7 +32,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ShaderKeywordStrings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShaderKeywordStrings(ShaderKeywordStringsconst&) = delete;
+  ShaderKeywordStrings(ShaderKeywordStrings const&) = delete;
 
   /// @brief Field AdditionalLightShadows offset 0xffffffff size 0x8
   static constexpr ::ConstString AdditionalLightShadows{ u"_ADDITIONAL_LIGHT_SHADOWS" };

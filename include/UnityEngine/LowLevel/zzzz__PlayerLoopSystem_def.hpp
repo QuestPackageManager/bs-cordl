@@ -60,7 +60,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerLoopSystem_UpdateFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerLoopSystem_UpdateFunction(PlayerLoopSystem_UpdateFunctionconst&) = delete;
+  PlayerLoopSystem_UpdateFunction(PlayerLoopSystem_UpdateFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10494 };

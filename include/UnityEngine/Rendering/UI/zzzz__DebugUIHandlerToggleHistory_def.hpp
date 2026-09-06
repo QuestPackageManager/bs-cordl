@@ -136,7 +136,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerToggleHistory__RefreshAfterSanitization_d__4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerToggleHistory__RefreshAfterSanitization_d__4(DebugUIHandlerToggleHistory__RefreshAfterSanitization_d__4const&) = delete;
+  DebugUIHandlerToggleHistory__RefreshAfterSanitization_d__4(DebugUIHandlerToggleHistory__RefreshAfterSanitization_d__4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12538 };
@@ -207,7 +207,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerToggleHistory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerToggleHistory(DebugUIHandlerToggleHistoryconst&) = delete;
+  DebugUIHandlerToggleHistory(DebugUIHandlerToggleHistory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12539 };

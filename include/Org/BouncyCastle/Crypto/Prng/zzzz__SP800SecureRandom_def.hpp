@@ -115,7 +115,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SP800SecureRandom", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SP800SecureRandom(SP800SecureRandomconst&) = delete;
+  SP800SecureRandom(SP800SecureRandom const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1112 };

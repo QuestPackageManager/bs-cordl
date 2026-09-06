@@ -133,7 +133,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DateTimeParse_MatchNumberDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DateTimeParse_MatchNumberDelegate(DateTimeParse_MatchNumberDelegateconst&) = delete;
+  DateTimeParse_MatchNumberDelegate(DateTimeParse_MatchNumberDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2388 };
@@ -579,7 +579,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DateTimeParse___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DateTimeParse___c(DateTimeParse___cconst&) = delete;
+  DateTimeParse___c(DateTimeParse___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2392 };
@@ -898,7 +898,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DateTimeParse", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DateTimeParse(DateTimeParseconst&) = delete;
+  DateTimeParse(DateTimeParse const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2393 };

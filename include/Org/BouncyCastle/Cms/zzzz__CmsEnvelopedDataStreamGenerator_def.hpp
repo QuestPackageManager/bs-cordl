@@ -138,7 +138,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedDataStreamGenerator_CmsEnvelopedDataOutputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsEnvelopedDataStreamGenerator_CmsEnvelopedDataOutputStream(CmsEnvelopedDataStreamGenerator_CmsEnvelopedDataOutputStreamconst&) = delete;
+  CmsEnvelopedDataStreamGenerator_CmsEnvelopedDataOutputStream(CmsEnvelopedDataStreamGenerator_CmsEnvelopedDataOutputStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 636 };
@@ -265,7 +265,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedDataStreamGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsEnvelopedDataStreamGenerator(CmsEnvelopedDataStreamGeneratorconst&) = delete;
+  CmsEnvelopedDataStreamGenerator(CmsEnvelopedDataStreamGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 637 };

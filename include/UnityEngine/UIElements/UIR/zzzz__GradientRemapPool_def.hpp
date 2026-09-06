@@ -82,7 +82,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GradientRemapPool___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GradientRemapPool___c(GradientRemapPool___cconst&) = delete;
+  GradientRemapPool___c(GradientRemapPool___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5363 };
@@ -119,7 +119,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GradientRemapPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GradientRemapPool(GradientRemapPoolconst&) = delete;
+  GradientRemapPool(GradientRemapPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5364 };

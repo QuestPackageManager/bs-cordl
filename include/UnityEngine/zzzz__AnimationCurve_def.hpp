@@ -67,7 +67,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimationCurve_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimationCurve_BindingsMarshaller(AnimationCurve_BindingsMarshallerconst&) = delete;
+  AnimationCurve_BindingsMarshaller(AnimationCurve_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10056 };
@@ -294,7 +294,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimationCurve", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimationCurve(AnimationCurveconst&) = delete;
+  AnimationCurve(AnimationCurve const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10057 };

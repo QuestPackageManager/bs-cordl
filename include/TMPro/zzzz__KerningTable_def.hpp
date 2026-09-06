@@ -110,7 +110,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KerningTable___c(KerningTable___cconst&) = delete;
+  KerningTable___c(KerningTable___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15923 };
@@ -167,7 +167,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KerningTable___c__DisplayClass3_0(KerningTable___c__DisplayClass3_0const&) = delete;
+  KerningTable___c__DisplayClass3_0(KerningTable___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15924 };
@@ -234,7 +234,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KerningTable___c__DisplayClass4_0(KerningTable___c__DisplayClass4_0const&) = delete;
+  KerningTable___c__DisplayClass4_0(KerningTable___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15925 };
@@ -301,7 +301,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KerningTable___c__DisplayClass5_0(KerningTable___c__DisplayClass5_0const&) = delete;
+  KerningTable___c__DisplayClass5_0(KerningTable___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15926 };
@@ -381,7 +381,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "KerningTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KerningTable(KerningTableconst&) = delete;
+  KerningTable(KerningTable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15927 };

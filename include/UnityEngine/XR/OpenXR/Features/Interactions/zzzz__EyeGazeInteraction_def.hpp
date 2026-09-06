@@ -79,7 +79,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EyeGazeInteraction_EyeGazeDevice", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EyeGazeInteraction_EyeGazeDevice(EyeGazeInteraction_EyeGazeDeviceconst&) = delete;
+  EyeGazeInteraction_EyeGazeDevice(EyeGazeInteraction_EyeGazeDevice const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18568 };
@@ -140,7 +140,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EyeGazeInteraction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EyeGazeInteraction(EyeGazeInteractionconst&) = delete;
+  EyeGazeInteraction(EyeGazeInteraction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18569 };

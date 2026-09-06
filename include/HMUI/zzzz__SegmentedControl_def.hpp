@@ -79,7 +79,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SegmentedControl_IDataSource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SegmentedControl_IDataSource(SegmentedControl_IDataSourceconst&) = delete;
+  SegmentedControl_IDataSource(SegmentedControl_IDataSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23137 };
@@ -287,7 +287,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SegmentedControl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SegmentedControl(SegmentedControlconst&) = delete;
+  SegmentedControl(SegmentedControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23138 };

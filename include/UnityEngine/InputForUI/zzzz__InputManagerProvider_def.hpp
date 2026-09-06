@@ -328,7 +328,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputManagerProvider_IInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputManagerProvider_IInput(InputManagerProvider_IInputconst&) = delete;
+  InputManagerProvider_IInput(InputManagerProvider_IInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21829 };
@@ -421,7 +421,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputManagerProvider_Input", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputManagerProvider_Input(InputManagerProvider_Inputconst&) = delete;
+  InputManagerProvider_Input(InputManagerProvider_Input const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21830 };
@@ -446,7 +446,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputManagerProvider_ITime", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputManagerProvider_ITime(InputManagerProvider_ITimeconst&) = delete;
+  InputManagerProvider_ITime(InputManagerProvider_ITime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21831 };
@@ -490,7 +490,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputManagerProvider_Time", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputManagerProvider_Time(InputManagerProvider_Timeconst&) = delete;
+  InputManagerProvider_Time(InputManagerProvider_Time const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21832 };
@@ -771,7 +771,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputManagerProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputManagerProvider(InputManagerProviderconst&) = delete;
+  InputManagerProvider(InputManagerProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21833 };

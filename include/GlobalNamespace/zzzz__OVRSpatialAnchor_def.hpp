@@ -479,7 +479,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSpatialAnchor_Development", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSpatialAnchor_Development(OVRSpatialAnchor_Developmentconst&) = delete;
+  OVRSpatialAnchor_Development(OVRSpatialAnchor_Development const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7712 };
@@ -835,7 +835,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSpatialAnchor___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSpatialAnchor___c(OVRSpatialAnchor___cconst&) = delete;
+  OVRSpatialAnchor___c(OVRSpatialAnchor___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7718 };
@@ -895,7 +895,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSpatialAnchor___c__DisplayClass65_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSpatialAnchor___c__DisplayClass65_0(OVRSpatialAnchor___c__DisplayClass65_0const&) = delete;
+  OVRSpatialAnchor___c__DisplayClass65_0(OVRSpatialAnchor___c__DisplayClass65_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7719 };
@@ -1919,7 +1919,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSpatialAnchor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSpatialAnchor(OVRSpatialAnchorconst&) = delete;
+  OVRSpatialAnchor(OVRSpatialAnchor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7726 };

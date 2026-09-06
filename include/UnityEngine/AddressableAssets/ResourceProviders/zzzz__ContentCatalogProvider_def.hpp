@@ -311,7 +311,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InternalOp_ContentCatalogProvider_BundledCatalog", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InternalOp_ContentCatalogProvider_BundledCatalog(InternalOp_ContentCatalogProvider_BundledCatalogconst&) = delete;
+  InternalOp_ContentCatalogProvider_BundledCatalog(InternalOp_ContentCatalogProvider_BundledCatalog const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19839 };
@@ -529,7 +529,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogProvider_InternalOp", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContentCatalogProvider_InternalOp(ContentCatalogProvider_InternalOpconst&) = delete;
+  ContentCatalogProvider_InternalOp(ContentCatalogProvider_InternalOp const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19840 };
@@ -662,7 +662,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContentCatalogProvider(ContentCatalogProviderconst&) = delete;
+  ContentCatalogProvider(ContentCatalogProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19841 };

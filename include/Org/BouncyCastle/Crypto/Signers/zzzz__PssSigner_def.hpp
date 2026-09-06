@@ -270,7 +270,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PssSigner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PssSigner(PssSignerconst&) = delete;
+  PssSigner(PssSigner const&) = delete;
 
   /// @brief Field TrailerImplicit offset 0xffffffff size 0x1
   static constexpr uint8_t TrailerImplicit{ static_cast<uint8_t>(0xbcu) };

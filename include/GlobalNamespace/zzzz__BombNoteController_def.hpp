@@ -66,7 +66,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BombNoteController_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BombNoteController_Pool(BombNoteController_Poolconst&) = delete;
+  BombNoteController_Pool(BombNoteController_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5647 };
@@ -148,7 +148,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BombNoteController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BombNoteController(BombNoteControllerconst&) = delete;
+  BombNoteController(BombNoteController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5648 };

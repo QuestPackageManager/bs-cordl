@@ -46,7 +46,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SharedStatic_PreserveAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedStatic_PreserveAttribute(SharedStatic_PreserveAttributeconst&) = delete;
+  SharedStatic_PreserveAttribute(SharedStatic_PreserveAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17334 };
@@ -90,7 +90,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SharedStatic", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedStatic(SharedStaticconst&) = delete;
+  SharedStatic(SharedStatic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17335 };

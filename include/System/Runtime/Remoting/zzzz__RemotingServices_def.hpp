@@ -140,7 +140,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RemotingServices_CACD", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RemotingServices_CACD(RemotingServices_CACDconst&) = delete;
+  RemotingServices_CACD(RemotingServices_CACD const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3086 };
@@ -369,7 +369,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RemotingServices", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RemotingServices(RemotingServicesconst&) = delete;
+  RemotingServices(RemotingServices const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3087 };

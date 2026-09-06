@@ -80,7 +80,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HierarchyViewModel_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HierarchyViewModel_BindingsMarshaller(HierarchyViewModel_BindingsMarshallerconst&) = delete;
+  HierarchyViewModel_BindingsMarshaller(HierarchyViewModel_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21956 };
@@ -436,7 +436,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HierarchyViewModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HierarchyViewModel(HierarchyViewModelconst&) = delete;
+  HierarchyViewModel(HierarchyViewModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21958 };

@@ -189,7 +189,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionUtils___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionUtils___c(ReflectionUtils___cconst&) = delete;
+  ReflectionUtils___c(ReflectionUtils___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13453 };
@@ -238,7 +238,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionUtils___c__DisplayClass31_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionUtils___c__DisplayClass31_0(ReflectionUtils___c__DisplayClass31_0const&) = delete;
+  ReflectionUtils___c__DisplayClass31_0(ReflectionUtils___c__DisplayClass31_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13454 };
@@ -297,7 +297,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionUtils___c__DisplayClass44_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionUtils___c__DisplayClass44_0(ReflectionUtils___c__DisplayClass44_0const&) = delete;
+  ReflectionUtils___c__DisplayClass44_0(ReflectionUtils___c__DisplayClass44_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13455 };
@@ -361,7 +361,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionUtils___c__DisplayClass44_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionUtils___c__DisplayClass44_1(ReflectionUtils___c__DisplayClass44_1const&) = delete;
+  ReflectionUtils___c__DisplayClass44_1(ReflectionUtils___c__DisplayClass44_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13456 };
@@ -431,7 +431,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionUtils___c__DisplayClass45_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionUtils___c__DisplayClass45_0(ReflectionUtils___c__DisplayClass45_0const&) = delete;
+  ReflectionUtils___c__DisplayClass45_0(ReflectionUtils___c__DisplayClass45_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13457 };
@@ -642,7 +642,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionUtils(ReflectionUtilsconst&) = delete;
+  ReflectionUtils(ReflectionUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13458 };

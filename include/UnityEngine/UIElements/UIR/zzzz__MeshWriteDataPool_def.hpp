@@ -62,7 +62,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MeshWriteDataPool___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshWriteDataPool___c(MeshWriteDataPool___cconst&) = delete;
+  MeshWriteDataPool___c(MeshWriteDataPool___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5326 };
@@ -106,7 +106,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MeshWriteDataPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshWriteDataPool(MeshWriteDataPoolconst&) = delete;
+  MeshWriteDataPool(MeshWriteDataPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5327 };

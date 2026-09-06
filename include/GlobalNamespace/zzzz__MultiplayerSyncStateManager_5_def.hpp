@@ -168,7 +168,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSyncStateManager_5___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerSyncStateManager_5___c(MultiplayerSyncStateManager_5___cconst&) = delete;
+  MultiplayerSyncStateManager_5___c(MultiplayerSyncStateManager_5___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21588 };
@@ -364,7 +364,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSyncStateManager_5", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerSyncStateManager_5(MultiplayerSyncStateManager_5const&) = delete;
+  MultiplayerSyncStateManager_5(MultiplayerSyncStateManager_5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21589 };

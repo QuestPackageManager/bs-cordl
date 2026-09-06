@@ -145,7 +145,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PKCS8_PrivateKeyInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PKCS8_PrivateKeyInfo(PKCS8_PrivateKeyInfoconst&) = delete;
+  PKCS8_PrivateKeyInfo(PKCS8_PrivateKeyInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19332 };
@@ -264,7 +264,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PKCS8_EncryptedPrivateKeyInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PKCS8_EncryptedPrivateKeyInfo(PKCS8_EncryptedPrivateKeyInfoconst&) = delete;
+  PKCS8_EncryptedPrivateKeyInfo(PKCS8_EncryptedPrivateKeyInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19333 };
@@ -318,7 +318,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PKCS8", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PKCS8(PKCS8const&) = delete;
+  PKCS8(PKCS8 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19334 };

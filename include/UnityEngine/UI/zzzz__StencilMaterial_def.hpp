@@ -157,7 +157,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StencilMaterial_MatEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StencilMaterial_MatEntry(StencilMaterial_MatEntryconst&) = delete;
+  StencilMaterial_MatEntry(StencilMaterial_MatEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17496 };
@@ -269,7 +269,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StencilMaterial", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StencilMaterial(StencilMaterialconst&) = delete;
+  StencilMaterial(StencilMaterial const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17497 };

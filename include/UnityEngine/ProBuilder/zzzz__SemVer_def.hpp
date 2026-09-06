@@ -232,7 +232,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SemVer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SemVer(SemVerconst&) = delete;
+  SemVer(SemVer const&) = delete;
 
   /// @brief Field DefaultStringFormat offset 0xffffffff size 0x8
   static constexpr ::ConstString DefaultStringFormat{ u"M.m.p-t.b" };

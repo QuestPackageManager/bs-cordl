@@ -93,7 +93,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PingUtility___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PingUtility___c(PingUtility___cconst&) = delete;
+  PingUtility___c(PingUtility___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18252 };
@@ -224,7 +224,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PingUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PingUtility(PingUtilityconst&) = delete;
+  PingUtility(PingUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18254 };

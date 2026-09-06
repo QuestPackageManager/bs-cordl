@@ -304,7 +304,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RpcHandler_3___c__DisplayClass11_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RpcHandler_3___c__DisplayClass11_0_1(RpcHandler_3___c__DisplayClass11_0_1const&) = delete;
+  RpcHandler_3___c__DisplayClass11_0_1(RpcHandler_3___c__DisplayClass11_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18268 };
@@ -359,7 +359,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RpcHandler_3___c__DisplayClass12_0_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RpcHandler_3___c__DisplayClass12_0_2(RpcHandler_3___c__DisplayClass12_0_2const&) = delete;
+  RpcHandler_3___c__DisplayClass12_0_2(RpcHandler_3___c__DisplayClass12_0_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18269 };
@@ -414,7 +414,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RpcHandler_3___c__DisplayClass13_0_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RpcHandler_3___c__DisplayClass13_0_3(RpcHandler_3___c__DisplayClass13_0_3const&) = delete;
+  RpcHandler_3___c__DisplayClass13_0_3(RpcHandler_3___c__DisplayClass13_0_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18270 };
@@ -469,7 +469,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RpcHandler_3___c__DisplayClass14_0_4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RpcHandler_3___c__DisplayClass14_0_4(RpcHandler_3___c__DisplayClass14_0_4const&) = delete;
+  RpcHandler_3___c__DisplayClass14_0_4(RpcHandler_3___c__DisplayClass14_0_4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18271 };
@@ -524,7 +524,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RpcHandler_3___c__DisplayClass15_0_5", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RpcHandler_3___c__DisplayClass15_0_5(RpcHandler_3___c__DisplayClass15_0_5const&) = delete;
+  RpcHandler_3___c__DisplayClass15_0_5(RpcHandler_3___c__DisplayClass15_0_5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18272 };
@@ -579,7 +579,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RpcHandler_3___c__DisplayClass16_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RpcHandler_3___c__DisplayClass16_0_1(RpcHandler_3___c__DisplayClass16_0_1const&) = delete;
+  RpcHandler_3___c__DisplayClass16_0_1(RpcHandler_3___c__DisplayClass16_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18273 };
@@ -634,7 +634,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RpcHandler_3___c__DisplayClass17_0_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RpcHandler_3___c__DisplayClass17_0_2(RpcHandler_3___c__DisplayClass17_0_2const&) = delete;
+  RpcHandler_3___c__DisplayClass17_0_2(RpcHandler_3___c__DisplayClass17_0_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18274 };
@@ -689,7 +689,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RpcHandler_3___c__DisplayClass18_0_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RpcHandler_3___c__DisplayClass18_0_3(RpcHandler_3___c__DisplayClass18_0_3const&) = delete;
+  RpcHandler_3___c__DisplayClass18_0_3(RpcHandler_3___c__DisplayClass18_0_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18275 };
@@ -744,7 +744,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RpcHandler_3___c__DisplayClass19_0_4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RpcHandler_3___c__DisplayClass19_0_4(RpcHandler_3___c__DisplayClass19_0_4const&) = delete;
+  RpcHandler_3___c__DisplayClass19_0_4(RpcHandler_3___c__DisplayClass19_0_4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18276 };
@@ -799,7 +799,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RpcHandler_3___c__DisplayClass20_0_5", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RpcHandler_3___c__DisplayClass20_0_5(RpcHandler_3___c__DisplayClass20_0_5const&) = delete;
+  RpcHandler_3___c__DisplayClass20_0_5(RpcHandler_3___c__DisplayClass20_0_5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18277 };
@@ -854,7 +854,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RpcHandler_3___c__DisplayClass21_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RpcHandler_3___c__DisplayClass21_0_1(RpcHandler_3___c__DisplayClass21_0_1const&) = delete;
+  RpcHandler_3___c__DisplayClass21_0_1(RpcHandler_3___c__DisplayClass21_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18278 };
@@ -1065,7 +1065,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RpcHandler_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RpcHandler_3(RpcHandler_3const&) = delete;
+  RpcHandler_3(RpcHandler_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18279 };

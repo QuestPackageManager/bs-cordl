@@ -119,7 +119,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MainSettingsAsyncLoader_MainSettingsInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainSettingsAsyncLoader_MainSettingsInstaller(MainSettingsAsyncLoader_MainSettingsInstallerconst&) = delete;
+  MainSettingsAsyncLoader_MainSettingsInstaller(MainSettingsAsyncLoader_MainSettingsInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21025 };
@@ -379,7 +379,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MainSettingsAsyncLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainSettingsAsyncLoader(MainSettingsAsyncLoaderconst&) = delete;
+  MainSettingsAsyncLoader(MainSettingsAsyncLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21028 };

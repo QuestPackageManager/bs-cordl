@@ -74,7 +74,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CopyPosition_CopyPositionUpdater", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CopyPosition_CopyPositionUpdater(CopyPosition_CopyPositionUpdaterconst&) = delete;
+  CopyPosition_CopyPositionUpdater(CopyPosition_CopyPositionUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21401 };
@@ -132,7 +132,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CopyPosition", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CopyPosition(CopyPositionconst&) = delete;
+  CopyPosition(CopyPosition const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21402 };

@@ -97,7 +97,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SkeinEngine_Configuration", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SkeinEngine_Configuration(SkeinEngine_Configurationconst&) = delete;
+  SkeinEngine_Configuration(SkeinEngine_Configuration const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 777 };
@@ -165,7 +165,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SkeinEngine_Parameter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SkeinEngine_Parameter(SkeinEngine_Parameterconst&) = delete;
+  SkeinEngine_Parameter(SkeinEngine_Parameter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 778 };
@@ -267,7 +267,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SkeinEngine_UbiTweak", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SkeinEngine_UbiTweak(SkeinEngine_UbiTweakconst&) = delete;
+  SkeinEngine_UbiTweak(SkeinEngine_UbiTweak const&) = delete;
 
   /// @brief Field LOW_RANGE offset 0xffffffff size 0x8
   static constexpr uint64_t LOW_RANGE{ static_cast<uint64_t>(0xffffffff00000000u) };
@@ -381,7 +381,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SkeinEngine_UBI", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SkeinEngine_UBI(SkeinEngine_UBIconst&) = delete;
+  SkeinEngine_UBI(SkeinEngine_UBI const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 780 };
@@ -615,7 +615,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SkeinEngine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SkeinEngine(SkeinEngineconst&) = delete;
+  SkeinEngine(SkeinEngine const&) = delete;
 
   /// @brief Field PARAM_TYPE_CONFIG offset 0xffffffff size 0x4
   static constexpr int32_t PARAM_TYPE_CONFIG{ static_cast<int32_t>(0x4) };

@@ -45,7 +45,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadStaticPacketPool_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadStaticPacketPool_1(ThreadStaticPacketPool_1const&) = delete;
+  ThreadStaticPacketPool_1(ThreadStaticPacketPool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18196 };

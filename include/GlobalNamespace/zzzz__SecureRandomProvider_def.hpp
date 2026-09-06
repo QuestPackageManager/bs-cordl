@@ -94,7 +94,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SecureRandomProvider_SecureRandomState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecureRandomProvider_SecureRandomState(SecureRandomProvider_SecureRandomStateconst&) = delete;
+  SecureRandomProvider_SecureRandomState(SecureRandomProvider_SecureRandomState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18281 };
@@ -168,7 +168,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SecureRandomProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecureRandomProvider(SecureRandomProviderconst&) = delete;
+  SecureRandomProvider(SecureRandomProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18282 };

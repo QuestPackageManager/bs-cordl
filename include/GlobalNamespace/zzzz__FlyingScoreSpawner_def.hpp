@@ -155,7 +155,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreSpawner_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlyingScoreSpawner_InitData(FlyingScoreSpawner_InitDataconst&) = delete;
+  FlyingScoreSpawner_InitData(FlyingScoreSpawner_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5804 };
@@ -284,7 +284,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreSpawner__SpawnFlyingScoreNextFrameCoroutine_d__5", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlyingScoreSpawner__SpawnFlyingScoreNextFrameCoroutine_d__5(FlyingScoreSpawner__SpawnFlyingScoreNextFrameCoroutine_d__5const&) = delete;
+  FlyingScoreSpawner__SpawnFlyingScoreNextFrameCoroutine_d__5(FlyingScoreSpawner__SpawnFlyingScoreNextFrameCoroutine_d__5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5805 };
@@ -388,7 +388,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreSpawner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlyingScoreSpawner(FlyingScoreSpawnerconst&) = delete;
+  FlyingScoreSpawner(FlyingScoreSpawner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5806 };

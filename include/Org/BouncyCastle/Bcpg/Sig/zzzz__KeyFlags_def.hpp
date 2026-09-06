@@ -51,7 +51,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyFlags", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyFlags(KeyFlagsconst&) = delete;
+  KeyFlags(KeyFlags const&) = delete;
 
   /// @brief Field Authentication offset 0xffffffff size 0x4
   static constexpr int32_t Authentication{ static_cast<int32_t>(0x20) };

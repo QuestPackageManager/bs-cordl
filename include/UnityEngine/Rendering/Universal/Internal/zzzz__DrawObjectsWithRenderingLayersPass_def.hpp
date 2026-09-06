@@ -129,7 +129,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DrawObjectsWithRenderingLayersPass_RenderingLayersPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DrawObjectsWithRenderingLayersPass_RenderingLayersPassData(DrawObjectsWithRenderingLayersPass_RenderingLayersPassDataconst&) = delete;
+  DrawObjectsWithRenderingLayersPass_RenderingLayersPassData(DrawObjectsWithRenderingLayersPass_RenderingLayersPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13093 };
@@ -198,7 +198,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DrawObjectsWithRenderingLayersPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DrawObjectsWithRenderingLayersPass___c(DrawObjectsWithRenderingLayersPass___cconst&) = delete;
+  DrawObjectsWithRenderingLayersPass___c(DrawObjectsWithRenderingLayersPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13094 };
@@ -277,7 +277,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DrawObjectsWithRenderingLayersPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DrawObjectsWithRenderingLayersPass(DrawObjectsWithRenderingLayersPassconst&) = delete;
+  DrawObjectsWithRenderingLayersPass(DrawObjectsWithRenderingLayersPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13095 };

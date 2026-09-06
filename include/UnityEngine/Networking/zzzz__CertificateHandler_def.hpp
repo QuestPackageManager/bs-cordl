@@ -51,7 +51,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CertificateHandler_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CertificateHandler_BindingsMarshaller(CertificateHandler_BindingsMarshallerconst&) = delete;
+  CertificateHandler_BindingsMarshaller(CertificateHandler_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22293 };
@@ -127,7 +127,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CertificateHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CertificateHandler(CertificateHandlerconst&) = delete;
+  CertificateHandler(CertificateHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22294 };

@@ -135,7 +135,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TransientProvider___c__DisplayClass11_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TransientProvider___c__DisplayClass11_0(TransientProvider___c__DisplayClass11_0const&) = delete;
+  TransientProvider___c__DisplayClass11_0(TransientProvider___c__DisplayClass11_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14652 };
@@ -273,7 +273,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TransientProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TransientProvider(TransientProviderconst&) = delete;
+  TransientProvider(TransientProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14653 };

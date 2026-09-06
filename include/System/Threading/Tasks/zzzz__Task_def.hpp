@@ -272,7 +272,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Task_ContingentProperties", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Task_ContingentProperties(Task_ContingentPropertiesconst&) = delete;
+  Task_ContingentProperties(Task_ContingentProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2797 };
@@ -361,7 +361,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Task_SetOnInvokeMres", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Task_SetOnInvokeMres(Task_SetOnInvokeMresconst&) = delete;
+  Task_SetOnInvokeMres(Task_SetOnInvokeMres const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2798 };
@@ -433,7 +433,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Task___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Task___c(Task___cconst&) = delete;
+  Task___c(Task___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2802 };
@@ -1177,7 +1177,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Task", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Task(Taskconst&) = delete;
+  Task(Task const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2803 };

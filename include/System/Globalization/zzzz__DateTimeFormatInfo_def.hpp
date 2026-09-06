@@ -123,7 +123,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DateTimeFormatInfo_TokenHashValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DateTimeFormatInfo_TokenHashValue(DateTimeFormatInfo_TokenHashValueconst&) = delete;
+  DateTimeFormatInfo_TokenHashValue(DateTimeFormatInfo_TokenHashValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3590 };
@@ -994,7 +994,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DateTimeFormatInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DateTimeFormatInfo(DateTimeFormatInfoconst&) = delete;
+  DateTimeFormatInfo(DateTimeFormatInfo const&) = delete;
 
   /// @brief Field CJKDaySuff offset 0xffffffff size 0x8
   static constexpr ::ConstString CJKDaySuff{ u"\u{65e5}" };

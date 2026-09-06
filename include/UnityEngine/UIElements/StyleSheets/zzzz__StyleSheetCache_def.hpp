@@ -123,7 +123,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StyleSheetCache_SheetHandleKeyComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StyleSheetCache_SheetHandleKeyComparer(StyleSheetCache_SheetHandleKeyComparerconst&) = delete;
+  StyleSheetCache_SheetHandleKeyComparer(StyleSheetCache_SheetHandleKeyComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5464 };
@@ -185,7 +185,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StyleSheetCache", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StyleSheetCache(StyleSheetCacheconst&) = delete;
+  StyleSheetCache(StyleSheetCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5465 };

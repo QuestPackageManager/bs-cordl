@@ -126,7 +126,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BitArray_BitArrayEnumeratorSimple", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BitArray_BitArrayEnumeratorSimple(BitArray_BitArrayEnumeratorSimpleconst&) = delete;
+  BitArray_BitArrayEnumeratorSimple(BitArray_BitArrayEnumeratorSimple const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3719 };
@@ -303,7 +303,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BitArray", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BitArray(BitArrayconst&) = delete;
+  BitArray(BitArray const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3720 };

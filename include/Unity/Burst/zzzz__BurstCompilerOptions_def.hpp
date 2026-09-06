@@ -295,7 +295,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BurstCompilerOptions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstCompilerOptions(BurstCompilerOptionsconst&) = delete;
+  BurstCompilerOptions(BurstCompilerOptions const&) = delete;
 
   /// @brief Field BurstInitializeExternalsName offset 0xffffffff size 0x8
   static constexpr ::ConstString BurstInitializeExternalsName{ u"burst.initialize.externals" };

@@ -131,7 +131,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncMethodBuilderCore_MoveNextRunner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncMethodBuilderCore_MoveNextRunner(AsyncMethodBuilderCore_MoveNextRunnerconst&) = delete;
+  AsyncMethodBuilderCore_MoveNextRunner(AsyncMethodBuilderCore_MoveNextRunner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3419 };
@@ -207,7 +207,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncMethodBuilderCore_ContinuationWrapper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncMethodBuilderCore_ContinuationWrapper(AsyncMethodBuilderCore_ContinuationWrapperconst&) = delete;
+  AsyncMethodBuilderCore_ContinuationWrapper(AsyncMethodBuilderCore_ContinuationWrapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3420 };
@@ -279,7 +279,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncMethodBuilderCore___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncMethodBuilderCore___c__DisplayClass5_0(AsyncMethodBuilderCore___c__DisplayClass5_0const&) = delete;
+  AsyncMethodBuilderCore___c__DisplayClass5_0(AsyncMethodBuilderCore___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3421 };
@@ -352,7 +352,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncMethodBuilderCore___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncMethodBuilderCore___c(AsyncMethodBuilderCore___cconst&) = delete;
+  AsyncMethodBuilderCore___c(AsyncMethodBuilderCore___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3422 };

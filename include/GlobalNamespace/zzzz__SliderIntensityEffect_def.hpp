@@ -128,7 +128,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderIntensityEffect_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderIntensityEffect_InitData(SliderIntensityEffect_InitDataconst&) = delete;
+  SliderIntensityEffect_InitData(SliderIntensityEffect_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5726 };
@@ -218,7 +218,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderIntensityEffect_FadeElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderIntensityEffect_FadeElement(SliderIntensityEffect_FadeElementconst&) = delete;
+  SliderIntensityEffect_FadeElement(SliderIntensityEffect_FadeElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5727 };
@@ -287,7 +287,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderIntensityEffect_IntensityCalculationDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderIntensityEffect_IntensityCalculationDelegate(SliderIntensityEffect_IntensityCalculationDelegateconst&) = delete;
+  SliderIntensityEffect_IntensityCalculationDelegate(SliderIntensityEffect_IntensityCalculationDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5728 };
@@ -434,7 +434,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderIntensityEffect__ProcessEffectCoroutine_d__27", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderIntensityEffect__ProcessEffectCoroutine_d__27(SliderIntensityEffect__ProcessEffectCoroutine_d__27const&) = delete;
+  SliderIntensityEffect__ProcessEffectCoroutine_d__27(SliderIntensityEffect__ProcessEffectCoroutine_d__27 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5729 };
@@ -697,7 +697,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderIntensityEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderIntensityEffect(SliderIntensityEffectconst&) = delete;
+  SliderIntensityEffect(SliderIntensityEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5730 };

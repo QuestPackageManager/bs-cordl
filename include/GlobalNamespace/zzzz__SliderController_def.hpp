@@ -248,7 +248,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Pool_SliderController_Short", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pool_SliderController_Short(Pool_SliderController_Shortconst&) = delete;
+  Pool_SliderController_Short(Pool_SliderController_Short const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5718 };
@@ -283,7 +283,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Pool_SliderController_Medium", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pool_SliderController_Medium(Pool_SliderController_Mediumconst&) = delete;
+  Pool_SliderController_Medium(Pool_SliderController_Medium const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5719 };
@@ -318,7 +318,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Pool_SliderController_Long", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pool_SliderController_Long(Pool_SliderController_Longconst&) = delete;
+  Pool_SliderController_Long(Pool_SliderController_Long const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5720 };
@@ -405,7 +405,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderController_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderController_Pool(SliderController_Poolconst&) = delete;
+  SliderController_Pool(SliderController_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5721 };
@@ -546,7 +546,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderController__DissolveCoroutine_d__72", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderController__DissolveCoroutine_d__72(SliderController__DissolveCoroutine_d__72const&) = delete;
+  SliderController__DissolveCoroutine_d__72(SliderController__DissolveCoroutine_d__72 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5722 };
@@ -1011,7 +1011,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderController(SliderControllerconst&) = delete;
+  SliderController(SliderController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5723 };

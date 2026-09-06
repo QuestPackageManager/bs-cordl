@@ -84,7 +84,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ForJobStruct_1_IJobForExtensions_ExecuteJobFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ForJobStruct_1_IJobForExtensions_ExecuteJobFunction(ForJobStruct_1_IJobForExtensions_ExecuteJobFunctionconst&) = delete;
+  ForJobStruct_1_IJobForExtensions_ExecuteJobFunction(ForJobStruct_1_IJobForExtensions_ExecuteJobFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9920 };
@@ -175,7 +175,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IJobForExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IJobForExtensions(IJobForExtensionsconst&) = delete;
+  IJobForExtensions(IJobForExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9922 };

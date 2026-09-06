@@ -102,7 +102,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_SpriteAsset___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_SpriteAsset___c(TMP_SpriteAsset___cconst&) = delete;
+  TMP_SpriteAsset___c(TMP_SpriteAsset___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15980 };
@@ -318,7 +318,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_SpriteAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_SpriteAsset(TMP_SpriteAssetconst&) = delete;
+  TMP_SpriteAsset(TMP_SpriteAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15981 };

@@ -69,7 +69,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ContextContainer_TypeId_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContextContainer_TypeId_1(ContextContainer_TypeId_1const&) = delete;
+  ContextContainer_TypeId_1(ContextContainer_TypeId_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11887 };
@@ -205,7 +205,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ContextContainer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContextContainer(ContextContainerconst&) = delete;
+  ContextContainer(ContextContainer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11889 };

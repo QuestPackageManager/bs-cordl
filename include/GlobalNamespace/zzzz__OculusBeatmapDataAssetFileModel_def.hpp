@@ -274,7 +274,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData(OculusBeatmapDataAssetFileModel_AssetBundleDownloadingDataconst&) = delete;
+  OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData(OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15129 };
@@ -387,7 +387,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusBeatmapDataAssetFileModel___c__DisplayClass18_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusBeatmapDataAssetFileModel___c__DisplayClass18_0(OculusBeatmapDataAssetFileModel___c__DisplayClass18_0const&) = delete;
+  OculusBeatmapDataAssetFileModel___c__DisplayClass18_0(OculusBeatmapDataAssetFileModel___c__DisplayClass18_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15130 };
@@ -978,7 +978,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusBeatmapDataAssetFileModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusBeatmapDataAssetFileModel(OculusBeatmapDataAssetFileModelconst&) = delete;
+  OculusBeatmapDataAssetFileModel(OculusBeatmapDataAssetFileModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15135 };

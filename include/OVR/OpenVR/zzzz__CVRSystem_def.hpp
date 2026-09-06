@@ -191,7 +191,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CVRSystem__PollNextEventPacked", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CVRSystem__PollNextEventPacked(CVRSystem__PollNextEventPackedconst&) = delete;
+  CVRSystem__PollNextEventPacked(CVRSystem__PollNextEventPacked const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8370 };
@@ -316,7 +316,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CVRSystem__GetControllerStatePacked", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CVRSystem__GetControllerStatePacked(CVRSystem__GetControllerStatePackedconst&) = delete;
+  CVRSystem__GetControllerStatePacked(CVRSystem__GetControllerStatePacked const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8372 };
@@ -445,7 +445,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CVRSystem__GetControllerStateWithPosePacked", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CVRSystem__GetControllerStateWithPosePacked(CVRSystem__GetControllerStateWithPosePackedconst&) = delete;
+  CVRSystem__GetControllerStateWithPosePacked(CVRSystem__GetControllerStateWithPosePacked const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8374 };
@@ -730,7 +730,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CVRSystem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CVRSystem(CVRSystemconst&) = delete;
+  CVRSystem(CVRSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8376 };

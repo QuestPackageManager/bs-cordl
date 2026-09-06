@@ -214,7 +214,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineAsset_Strings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipelineAsset_Strings(UniversalRenderPipelineAsset_Stringsconst&) = delete;
+  UniversalRenderPipelineAsset_Strings(UniversalRenderPipelineAsset_Strings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12598 };
@@ -272,7 +272,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineAsset_TextureResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipelineAsset_TextureResources(UniversalRenderPipelineAsset_TextureResourcesconst&) = delete;
+  UniversalRenderPipelineAsset_TextureResources(UniversalRenderPipelineAsset_TextureResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12599 };
@@ -1917,7 +1917,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipelineAsset(UniversalRenderPipelineAssetconst&) = delete;
+  UniversalRenderPipelineAsset(UniversalRenderPipelineAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12600 };

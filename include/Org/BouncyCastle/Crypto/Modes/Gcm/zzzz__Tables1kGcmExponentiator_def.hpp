@@ -68,7 +68,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Tables1kGcmExponentiator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Tables1kGcmExponentiator(Tables1kGcmExponentiatorconst&) = delete;
+  Tables1kGcmExponentiator(Tables1kGcmExponentiator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 954 };

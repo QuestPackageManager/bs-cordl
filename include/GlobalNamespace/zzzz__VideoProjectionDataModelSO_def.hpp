@@ -78,7 +78,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionDataModelSO_VideoClipWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VideoProjectionDataModelSO_VideoClipWithId(VideoProjectionDataModelSO_VideoClipWithIdconst&) = delete;
+  VideoProjectionDataModelSO_VideoClipWithId(VideoProjectionDataModelSO_VideoClipWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5955 };
@@ -142,7 +142,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionDataModelSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VideoProjectionDataModelSO(VideoProjectionDataModelSOconst&) = delete;
+  VideoProjectionDataModelSO(VideoProjectionDataModelSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5956 };

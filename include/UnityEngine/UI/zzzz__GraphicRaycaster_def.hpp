@@ -167,7 +167,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphicRaycaster___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphicRaycaster___c(GraphicRaycaster___cconst&) = delete;
+  GraphicRaycaster___c(GraphicRaycaster___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17414 };
@@ -313,7 +313,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphicRaycaster", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphicRaycaster(GraphicRaycasterconst&) = delete;
+  GraphicRaycaster(GraphicRaycaster const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17415 };

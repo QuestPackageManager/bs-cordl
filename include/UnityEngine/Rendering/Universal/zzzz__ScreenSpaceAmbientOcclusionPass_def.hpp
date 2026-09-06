@@ -461,7 +461,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceAmbientOcclusionPass_SSAOPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenSpaceAmbientOcclusionPass_SSAOPassData(ScreenSpaceAmbientOcclusionPass_SSAOPassDataconst&) = delete;
+  ScreenSpaceAmbientOcclusionPass_SSAOPassData(ScreenSpaceAmbientOcclusionPass_SSAOPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12881 };
@@ -565,7 +565,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceAmbientOcclusionPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenSpaceAmbientOcclusionPass___c(ScreenSpaceAmbientOcclusionPass___cconst&) = delete;
+  ScreenSpaceAmbientOcclusionPass___c(ScreenSpaceAmbientOcclusionPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12882 };
@@ -981,7 +981,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceAmbientOcclusionPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenSpaceAmbientOcclusionPass(ScreenSpaceAmbientOcclusionPassconst&) = delete;
+  ScreenSpaceAmbientOcclusionPass(ScreenSpaceAmbientOcclusionPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12883 };

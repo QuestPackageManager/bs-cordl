@@ -226,7 +226,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelDetailView___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelDetailView___c(StandardLevelDetailView___cconst&) = delete;
+  StandardLevelDetailView___c(StandardLevelDetailView___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7020 };
@@ -275,7 +275,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelDetailView___c__DisplayClass47_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelDetailView___c__DisplayClass47_0(StandardLevelDetailView___c__DisplayClass47_0const&) = delete;
+  StandardLevelDetailView___c__DisplayClass47_0(StandardLevelDetailView___c__DisplayClass47_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7021 };
@@ -1072,7 +1072,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelDetailView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelDetailView(StandardLevelDetailViewconst&) = delete;
+  StandardLevelDetailView(StandardLevelDetailView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7026 };

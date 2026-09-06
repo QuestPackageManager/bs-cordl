@@ -82,7 +82,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveDataHelpers_VersionSerializedData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapSaveDataHelpers_VersionSerializedData(BeatmapSaveDataHelpers_VersionSerializedDataconst&) = delete;
+  BeatmapSaveDataHelpers_VersionSerializedData(BeatmapSaveDataHelpers_VersionSerializedData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15204 };
@@ -142,7 +142,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveDataHelpers___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapSaveDataHelpers___c__DisplayClass6_0(BeatmapSaveDataHelpers___c__DisplayClass6_0const&) = delete;
+  BeatmapSaveDataHelpers___c__DisplayClass6_0(BeatmapSaveDataHelpers___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15205 };
@@ -215,7 +215,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveDataHelpers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapSaveDataHelpers(BeatmapSaveDataHelpersconst&) = delete;
+  BeatmapSaveDataHelpers(BeatmapSaveDataHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15206 };

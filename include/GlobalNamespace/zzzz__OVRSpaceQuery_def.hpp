@@ -420,7 +420,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSpaceQuery", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSpaceQuery(OVRSpaceQueryconst&) = delete;
+  OVRSpaceQuery(OVRSpaceQuery const&) = delete;
 
   /// @brief Field DefaultStorageLocation value: I32(2)
   static ::GlobalNamespace::OVRPlugin_SpaceStorageLocation const DefaultStorageLocation;

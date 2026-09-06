@@ -69,7 +69,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerObstacleController_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerConnectedPlayerObstacleController_Pool(MultiplayerConnectedPlayerObstacleController_Poolconst&) = delete;
+  MultiplayerConnectedPlayerObstacleController_Pool(MultiplayerConnectedPlayerObstacleController_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6074 };
@@ -126,7 +126,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerObstacleController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerConnectedPlayerObstacleController(MultiplayerConnectedPlayerObstacleControllerconst&) = delete;
+  MultiplayerConnectedPlayerObstacleController(MultiplayerConnectedPlayerObstacleController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6075 };

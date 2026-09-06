@@ -99,7 +99,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SkeinParameters_Builder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SkeinParameters_Builder(SkeinParameters_Builderconst&) = delete;
+  SkeinParameters_Builder(SkeinParameters_Builder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1082 };
@@ -179,7 +179,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SkeinParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SkeinParameters(SkeinParametersconst&) = delete;
+  SkeinParameters(SkeinParameters const&) = delete;
 
   /// @brief Field PARAM_TYPE_CONFIG offset 0xffffffff size 0x4
   static constexpr int32_t PARAM_TYPE_CONFIG{ static_cast<int32_t>(0x4) };

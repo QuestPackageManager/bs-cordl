@@ -113,7 +113,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MainThreadDispatcher___c__DisplayClass2_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainThreadDispatcher___c__DisplayClass2_0_1(MainThreadDispatcher___c__DisplayClass2_0_1const&) = delete;
+  MainThreadDispatcher___c__DisplayClass2_0_1(MainThreadDispatcher___c__DisplayClass2_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22765 };
@@ -185,7 +185,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MainThreadDispatcher___c__DisplayClass3_0_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainThreadDispatcher___c__DisplayClass3_0_2(MainThreadDispatcher___c__DisplayClass3_0_2const&) = delete;
+  MainThreadDispatcher___c__DisplayClass3_0_2(MainThreadDispatcher___c__DisplayClass3_0_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22766 };
@@ -269,7 +269,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MainThreadDispatcher___c__DisplayClass4_0_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainThreadDispatcher___c__DisplayClass4_0_3(MainThreadDispatcher___c__DisplayClass4_0_3const&) = delete;
+  MainThreadDispatcher___c__DisplayClass4_0_3(MainThreadDispatcher___c__DisplayClass4_0_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22767 };
@@ -365,7 +365,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MainThreadDispatcher___c__DisplayClass5_0_4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainThreadDispatcher___c__DisplayClass5_0_4(MainThreadDispatcher___c__DisplayClass5_0_4const&) = delete;
+  MainThreadDispatcher___c__DisplayClass5_0_4(MainThreadDispatcher___c__DisplayClass5_0_4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22768 };
@@ -455,7 +455,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MainThreadDispatcher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainThreadDispatcher(MainThreadDispatcherconst&) = delete;
+  MainThreadDispatcher(MainThreadDispatcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22769 };

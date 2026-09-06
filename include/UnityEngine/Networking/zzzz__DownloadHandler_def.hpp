@@ -72,7 +72,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DownloadHandler_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DownloadHandler_BindingsMarshaller(DownloadHandler_BindingsMarshallerconst&) = delete;
+  DownloadHandler_BindingsMarshaller(DownloadHandler_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22295 };
@@ -229,7 +229,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DownloadHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DownloadHandler(DownloadHandlerconst&) = delete;
+  DownloadHandler(DownloadHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22296 };

@@ -208,7 +208,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AwaitableAsyncMethodBuilder_Awaitable_IStateMachineBox", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AwaitableAsyncMethodBuilder_Awaitable_IStateMachineBox(AwaitableAsyncMethodBuilder_Awaitable_IStateMachineBoxconst&) = delete;
+  AwaitableAsyncMethodBuilder_Awaitable_IStateMachineBox(AwaitableAsyncMethodBuilder_Awaitable_IStateMachineBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10315 };
@@ -274,7 +274,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AwaitableAsyncMethodBuilder_1_Awaitable_IStateMachineBox", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AwaitableAsyncMethodBuilder_1_Awaitable_IStateMachineBox(AwaitableAsyncMethodBuilder_1_Awaitable_IStateMachineBoxconst&) = delete;
+  AwaitableAsyncMethodBuilder_1_Awaitable_IStateMachineBox(AwaitableAsyncMethodBuilder_1_Awaitable_IStateMachineBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10317 };
@@ -424,7 +424,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Awaitable_DoubleBufferedAwaitableList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Awaitable_DoubleBufferedAwaitableList(Awaitable_DoubleBufferedAwaitableListconst&) = delete;
+  Awaitable_DoubleBufferedAwaitableList(Awaitable_DoubleBufferedAwaitableList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10320 };
@@ -552,7 +552,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Awaitable___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Awaitable___c(Awaitable___cconst&) = delete;
+  Awaitable___c(Awaitable___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10322 };
@@ -819,7 +819,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Awaitable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Awaitable(Awaitableconst&) = delete;
+  Awaitable(Awaitable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10323 };

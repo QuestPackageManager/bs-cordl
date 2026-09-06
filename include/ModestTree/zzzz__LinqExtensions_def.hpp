@@ -128,7 +128,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LinqExtensions___c__8_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LinqExtensions___c__8_1(LinqExtensions___c__8_1const&) = delete;
+  LinqExtensions___c__8_1(LinqExtensions___c__8_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13963 };
@@ -176,7 +176,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LinqExtensions___c__DisplayClass10_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LinqExtensions___c__DisplayClass10_0_1(LinqExtensions___c__DisplayClass10_0_1const&) = delete;
+  LinqExtensions___c__DisplayClass10_0_1(LinqExtensions___c__DisplayClass10_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13964 };
@@ -323,7 +323,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LinqExtensions__Yield_d__0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LinqExtensions__Yield_d__0_1(LinqExtensions__Yield_d__0_1const&) = delete;
+  LinqExtensions__Yield_d__0_1(LinqExtensions__Yield_d__0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13965 };
@@ -418,7 +418,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LinqExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LinqExtensions(LinqExtensionsconst&) = delete;
+  LinqExtensions(LinqExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13966 };

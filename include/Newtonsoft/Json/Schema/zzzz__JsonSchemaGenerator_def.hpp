@@ -122,7 +122,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaGenerator_TypeSchema", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSchemaGenerator_TypeSchema(JsonSchemaGenerator_TypeSchemaconst&) = delete;
+  JsonSchemaGenerator_TypeSchema(JsonSchemaGenerator_TypeSchema const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13547 };
@@ -182,7 +182,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaGenerator___c__DisplayClass23_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSchemaGenerator___c__DisplayClass23_0(JsonSchemaGenerator___c__DisplayClass23_0const&) = delete;
+  JsonSchemaGenerator___c__DisplayClass23_0(JsonSchemaGenerator___c__DisplayClass23_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13548 };
@@ -345,7 +345,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSchemaGenerator(JsonSchemaGeneratorconst&) = delete;
+  JsonSchemaGenerator(JsonSchemaGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13549 };

@@ -34,7 +34,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SpaceshipLoggerNames", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpaceshipLoggerNames(SpaceshipLoggerNamesconst&) = delete;
+  SpaceshipLoggerNames(SpaceshipLoggerNames const&) = delete;
 
   /// @brief Field Custom offset 0xffffffff size 0x8
   static constexpr ::ConstString Custom{ u"OCSpaceshipFirstPartyCustomEventsFunctionalLogger" };

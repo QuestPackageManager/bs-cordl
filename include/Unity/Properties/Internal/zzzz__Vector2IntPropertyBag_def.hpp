@@ -75,7 +75,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Vector2IntPropertyBag_XProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector2IntPropertyBag_XProperty(Vector2IntPropertyBag_XPropertyconst&) = delete;
+  Vector2IntPropertyBag_XProperty(Vector2IntPropertyBag_XProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19730 };
@@ -126,7 +126,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Vector2IntPropertyBag_YProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector2IntPropertyBag_YProperty(Vector2IntPropertyBag_YPropertyconst&) = delete;
+  Vector2IntPropertyBag_YProperty(Vector2IntPropertyBag_YProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19731 };
@@ -165,7 +165,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Vector2IntPropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector2IntPropertyBag(Vector2IntPropertyBagconst&) = delete;
+  Vector2IntPropertyBag(Vector2IntPropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19732 };

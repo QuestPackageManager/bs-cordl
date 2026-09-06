@@ -60,7 +60,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PointerMoveLinkTagEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointerMoveLinkTagEvent___c(PointerMoveLinkTagEvent___cconst&) = delete;
+  PointerMoveLinkTagEvent___c(PointerMoveLinkTagEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5491 };
@@ -137,7 +137,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PointerMoveLinkTagEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointerMoveLinkTagEvent(PointerMoveLinkTagEventconst&) = delete;
+  PointerMoveLinkTagEvent(PointerMoveLinkTagEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5492 };

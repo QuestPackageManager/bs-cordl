@@ -37,7 +37,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CompressionMethod", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CompressionMethod(CompressionMethodconst&) = delete;
+  CompressionMethod(CompressionMethod const&) = delete;
 
   /// @brief Field DEFLATE offset 0xffffffff size 0x1
   static constexpr uint8_t DEFLATE{ static_cast<uint8_t>(0x1u) };

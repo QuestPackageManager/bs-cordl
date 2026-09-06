@@ -217,7 +217,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_AttributeFilterCacheItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeDescriptor_AttributeFilterCacheItem(TypeDescriptor_AttributeFilterCacheItemconst&) = delete;
+  TypeDescriptor_AttributeFilterCacheItem(TypeDescriptor_AttributeFilterCacheItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11330 };
@@ -284,7 +284,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_FilterCacheItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeDescriptor_FilterCacheItem(TypeDescriptor_FilterCacheItemconst&) = delete;
+  TypeDescriptor_FilterCacheItem(TypeDescriptor_FilterCacheItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11331 };
@@ -314,7 +314,7 @@ public:
   // Declarations
   // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_IUnimplemented", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeDescriptor_IUnimplemented(TypeDescriptor_IUnimplementedconst&) = delete;
+  TypeDescriptor_IUnimplemented(TypeDescriptor_IUnimplemented const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11332 };
@@ -363,7 +363,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_MemberDescriptorComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeDescriptor_MemberDescriptorComparer(TypeDescriptor_MemberDescriptorComparerconst&) = delete;
+  TypeDescriptor_MemberDescriptorComparer(TypeDescriptor_MemberDescriptorComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11333 };
@@ -459,7 +459,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_MergedTypeDescriptor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeDescriptor_MergedTypeDescriptor(TypeDescriptor_MergedTypeDescriptorconst&) = delete;
+  TypeDescriptor_MergedTypeDescriptor(TypeDescriptor_MergedTypeDescriptor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11334 };
@@ -714,7 +714,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_TypeDescriptionNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeDescriptor_TypeDescriptionNode(TypeDescriptor_TypeDescriptionNodeconst&) = delete;
+  TypeDescriptor_TypeDescriptionNode(TypeDescriptor_TypeDescriptionNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11337 };
@@ -755,7 +755,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_TypeDescriptorComObject", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeDescriptor_TypeDescriptorComObject(TypeDescriptor_TypeDescriptorComObjectconst&) = delete;
+  TypeDescriptor_TypeDescriptorComObject(TypeDescriptor_TypeDescriptorComObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11338 };
@@ -785,7 +785,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor_TypeDescriptorInterface", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeDescriptor_TypeDescriptorInterface(TypeDescriptor_TypeDescriptorInterfaceconst&) = delete;
+  TypeDescriptor_TypeDescriptorInterface(TypeDescriptor_TypeDescriptorInterface const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11339 };
@@ -1055,7 +1055,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeDescriptor(TypeDescriptorconst&) = delete;
+  TypeDescriptor(TypeDescriptor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11340 };

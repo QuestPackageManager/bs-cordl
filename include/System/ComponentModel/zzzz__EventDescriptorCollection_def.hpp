@@ -116,7 +116,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EventDescriptorCollection_ArraySubsetEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventDescriptorCollection_ArraySubsetEnumerator(EventDescriptorCollection_ArraySubsetEnumeratorconst&) = delete;
+  EventDescriptorCollection_ArraySubsetEnumerator(EventDescriptorCollection_ArraySubsetEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11263 };
@@ -381,7 +381,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EventDescriptorCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventDescriptorCollection(EventDescriptorCollectionconst&) = delete;
+  EventDescriptorCollection(EventDescriptorCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11264 };

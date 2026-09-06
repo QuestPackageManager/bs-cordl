@@ -227,7 +227,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetDataWriter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetDataWriter(NetDataWriterconst&) = delete;
+  NetDataWriter(NetDataWriter const&) = delete;
 
   /// @brief Field InitialSize offset 0xffffffff size 0x4
   static constexpr int32_t InitialSize{ static_cast<int32_t>(0x40) };

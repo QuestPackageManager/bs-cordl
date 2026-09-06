@@ -28,7 +28,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IObjectPool_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IObjectPool_1(IObjectPool_1const&) = delete;
+  IObjectPool_1(IObjectPool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10643 };

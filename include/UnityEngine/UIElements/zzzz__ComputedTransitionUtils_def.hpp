@@ -309,7 +309,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ComputedTransitionUtils___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ComputedTransitionUtils___c(ComputedTransitionUtils___cconst&) = delete;
+  ComputedTransitionUtils___c(ComputedTransitionUtils___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4706 };
@@ -392,7 +392,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ComputedTransitionUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ComputedTransitionUtils(ComputedTransitionUtilsconst&) = delete;
+  ComputedTransitionUtils(ComputedTransitionUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4707 };

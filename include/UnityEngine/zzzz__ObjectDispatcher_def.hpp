@@ -245,7 +245,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectDispatcher___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectDispatcher___c(ObjectDispatcher___cconst&) = delete;
+  ObjectDispatcher___c(ObjectDispatcher___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10267 };
@@ -488,7 +488,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectDispatcher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectDispatcher(ObjectDispatcherconst&) = delete;
+  ObjectDispatcher(ObjectDispatcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10268 };

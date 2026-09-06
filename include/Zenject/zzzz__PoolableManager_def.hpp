@@ -182,7 +182,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PoolableManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PoolableManager___c(PoolableManager___cconst&) = delete;
+  PoolableManager___c(PoolableManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14682 };
@@ -247,7 +247,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PoolableManager___c__DisplayClass2_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PoolableManager___c__DisplayClass2_0(PoolableManager___c__DisplayClass2_0const&) = delete;
+  PoolableManager___c__DisplayClass2_0(PoolableManager___c__DisplayClass2_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14683 };
@@ -312,7 +312,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PoolableManager___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PoolableManager___c__DisplayClass3_0(PoolableManager___c__DisplayClass3_0const&) = delete;
+  PoolableManager___c__DisplayClass3_0(PoolableManager___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14684 };
@@ -398,7 +398,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PoolableManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PoolableManager(PoolableManagerconst&) = delete;
+  PoolableManager(PoolableManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14685 };

@@ -275,7 +275,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ElementSelection___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ElementSelection___c(ElementSelection___cconst&) = delete;
+  ElementSelection___c(ElementSelection___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16870 };
@@ -323,7 +323,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ElementSelection___c__DisplayClass25_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ElementSelection___c__DisplayClass25_0(ElementSelection___c__DisplayClass25_0const&) = delete;
+  ElementSelection___c__DisplayClass25_0(ElementSelection___c__DisplayClass25_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16871 };
@@ -397,7 +397,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ElementSelection___c__DisplayClass27_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ElementSelection___c__DisplayClass27_0(ElementSelection___c__DisplayClass27_0const&) = delete;
+  ElementSelection___c__DisplayClass27_0(ElementSelection___c__DisplayClass27_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16872 };
@@ -555,7 +555,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ElementSelection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ElementSelection(ElementSelectionconst&) = delete;
+  ElementSelection(ElementSelection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16873 };

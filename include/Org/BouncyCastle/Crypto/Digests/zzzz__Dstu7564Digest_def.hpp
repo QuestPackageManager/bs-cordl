@@ -236,7 +236,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Dstu7564Digest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Dstu7564Digest(Dstu7564Digestconst&) = delete;
+  Dstu7564Digest(Dstu7564Digest const&) = delete;
 
   /// @brief Field NB_1024 offset 0xffffffff size 0x4
   static constexpr int32_t NB_1024{ static_cast<int32_t>(0x10) };

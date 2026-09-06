@@ -186,7 +186,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Extensions___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Extensions___c(Extensions___cconst&) = delete;
+  Extensions___c(Extensions___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13565 };
@@ -243,7 +243,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Extensions___c__0_1(Extensions___c__0_1const&) = delete;
+  Extensions___c__0_1(Extensions___c__0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13566 };
@@ -298,7 +298,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__1_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Extensions___c__1_1(Extensions___c__1_1const&) = delete;
+  Extensions___c__1_1(Extensions___c__1_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13567 };
@@ -353,7 +353,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__13_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Extensions___c__13_2(Extensions___c__13_2const&) = delete;
+  Extensions___c__13_2(Extensions___c__13_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13568 };
@@ -408,7 +408,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__2_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Extensions___c__2_1(Extensions___c__2_1const&) = delete;
+  Extensions___c__2_1(Extensions___c__2_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13569 };
@@ -463,7 +463,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Extensions___c__3_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Extensions___c__3_1(Extensions___c__3_1const&) = delete;
+  Extensions___c__3_1(Extensions___c__3_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13570 };
@@ -620,7 +620,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Extensions__Convert_d__14_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Extensions__Convert_d__14_2(Extensions__Convert_d__14_2const&) = delete;
+  Extensions__Convert_d__14_2(Extensions__Convert_d__14_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13571 };
@@ -832,7 +832,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Extensions__Values_d__11_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Extensions__Values_d__11_2(Extensions__Values_d__11_2const&) = delete;
+  Extensions__Values_d__11_2(Extensions__Values_d__11_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13572 };
@@ -1027,7 +1027,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Extensions(Extensionsconst&) = delete;
+  Extensions(Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13573 };

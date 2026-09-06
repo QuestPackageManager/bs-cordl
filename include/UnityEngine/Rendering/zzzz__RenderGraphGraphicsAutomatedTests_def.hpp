@@ -66,7 +66,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderGraphGraphicsAutomatedTests___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphGraphicsAutomatedTests___c(RenderGraphGraphicsAutomatedTests___cconst&) = delete;
+  RenderGraphGraphicsAutomatedTests___c(RenderGraphGraphicsAutomatedTests___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12571 };
@@ -112,7 +112,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderGraphGraphicsAutomatedTests", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphGraphicsAutomatedTests(RenderGraphGraphicsAutomatedTestsconst&) = delete;
+  RenderGraphGraphicsAutomatedTests(RenderGraphGraphicsAutomatedTests const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12572 };

@@ -105,7 +105,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ResourceProviderBase_BaseInitAsyncOp", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceProviderBase_BaseInitAsyncOp(ResourceProviderBase_BaseInitAsyncOpconst&) = delete;
+  ResourceProviderBase_BaseInitAsyncOp(ResourceProviderBase_BaseInitAsyncOp const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18788 };
@@ -176,7 +176,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ResourceProviderBase___c__DisplayClass10_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceProviderBase___c__DisplayClass10_0(ResourceProviderBase___c__DisplayClass10_0const&) = delete;
+  ResourceProviderBase___c__DisplayClass10_0(ResourceProviderBase___c__DisplayClass10_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18789 };
@@ -293,7 +293,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ResourceProviderBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceProviderBase(ResourceProviderBaseconst&) = delete;
+  ResourceProviderBase(ResourceProviderBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18790 };

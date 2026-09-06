@@ -122,7 +122,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SemaphoreSlim_TaskNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SemaphoreSlim_TaskNode(SemaphoreSlim_TaskNodeconst&) = delete;
+  SemaphoreSlim_TaskNode(SemaphoreSlim_TaskNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2709 };
@@ -433,7 +433,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SemaphoreSlim", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SemaphoreSlim(SemaphoreSlimconst&) = delete;
+  SemaphoreSlim(SemaphoreSlim const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2711 };

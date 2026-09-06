@@ -170,7 +170,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_EasingFunction_ModeProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_EasingFunction_ModeProperty(PropertyBag_EasingFunction_ModePropertyconst&) = delete;
+  PropertyBag_EasingFunction_ModeProperty(PropertyBag_EasingFunction_ModeProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4710 };
@@ -221,7 +221,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EasingFunction_PropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EasingFunction_PropertyBag(EasingFunction_PropertyBagconst&) = delete;
+  EasingFunction_PropertyBag(EasingFunction_PropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4711 };

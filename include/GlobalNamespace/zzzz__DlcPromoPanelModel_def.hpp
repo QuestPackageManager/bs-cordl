@@ -433,7 +433,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DlcPromoPanelModel_PromoInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DlcPromoPanelModel_PromoInfo(DlcPromoPanelModel_PromoInfoconst&) = delete;
+  DlcPromoPanelModel_PromoInfo(DlcPromoPanelModel_PromoInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15185 };
@@ -532,7 +532,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DlcPromoPanelModel___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DlcPromoPanelModel___c(DlcPromoPanelModel___cconst&) = delete;
+  DlcPromoPanelModel___c(DlcPromoPanelModel___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15186 };
@@ -581,7 +581,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DlcPromoPanelModel___c__DisplayClass30_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DlcPromoPanelModel___c__DisplayClass30_0(DlcPromoPanelModel___c__DisplayClass30_0const&) = delete;
+  DlcPromoPanelModel___c__DisplayClass30_0(DlcPromoPanelModel___c__DisplayClass30_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15187 };
@@ -640,7 +640,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DlcPromoPanelModel___c__DisplayClass33_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DlcPromoPanelModel___c__DisplayClass33_0(DlcPromoPanelModel___c__DisplayClass33_0const&) = delete;
+  DlcPromoPanelModel___c__DisplayClass33_0(DlcPromoPanelModel___c__DisplayClass33_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15188 };
@@ -694,7 +694,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DlcPromoPanelModel___c__DisplayClass33_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DlcPromoPanelModel___c__DisplayClass33_1(DlcPromoPanelModel___c__DisplayClass33_1const&) = delete;
+  DlcPromoPanelModel___c__DisplayClass33_1(DlcPromoPanelModel___c__DisplayClass33_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15189 };
@@ -1492,7 +1492,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DlcPromoPanelModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DlcPromoPanelModel(DlcPromoPanelModelconst&) = delete;
+  DlcPromoPanelModel(DlcPromoPanelModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15196 };

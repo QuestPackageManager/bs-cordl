@@ -52,7 +52,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MemoryManager_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MemoryManager_1(MemoryManager_1const&) = delete;
+  MemoryManager_1(MemoryManager_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3826 };

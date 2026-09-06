@@ -183,7 +183,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CoreUtils_Sections", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CoreUtils_Sections(CoreUtils_Sectionsconst&) = delete;
+  CoreUtils_Sections(CoreUtils_Sections const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12274 };
@@ -237,7 +237,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CoreUtils_Priorities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CoreUtils_Priorities(CoreUtils_Prioritiesconst&) = delete;
+  CoreUtils_Priorities(CoreUtils_Priorities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12275 };
@@ -306,7 +306,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CoreUtils___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CoreUtils___c(CoreUtils___cconst&) = delete;
+  CoreUtils___c(CoreUtils___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12276 };
@@ -361,7 +361,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CoreUtils___c__98_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CoreUtils___c__98_1(CoreUtils___c__98_1const&) = delete;
+  CoreUtils___c__98_1(CoreUtils___c__98_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12277 };
@@ -798,7 +798,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CoreUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CoreUtils(CoreUtilsconst&) = delete;
+  CoreUtils(CoreUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12278 };

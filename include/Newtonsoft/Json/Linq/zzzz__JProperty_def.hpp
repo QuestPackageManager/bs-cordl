@@ -211,7 +211,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JPropertyList_JProperty__GetEnumerator_d__1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JPropertyList_JProperty__GetEnumerator_d__1(JPropertyList_JProperty__GetEnumerator_d__1const&) = delete;
+  JPropertyList_JProperty__GetEnumerator_d__1(JPropertyList_JProperty__GetEnumerator_d__1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13593 };
@@ -348,7 +348,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JProperty_JPropertyList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JProperty_JPropertyList(JProperty_JPropertyListconst&) = delete;
+  JProperty_JPropertyList(JProperty_JPropertyList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13594 };
@@ -719,7 +719,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JProperty(JPropertyconst&) = delete;
+  JProperty(JProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13597 };

@@ -88,7 +88,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FormatterServices___c__DisplayClass9_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FormatterServices___c__DisplayClass9_0(FormatterServices___c__DisplayClass9_0const&) = delete;
+  FormatterServices___c__DisplayClass9_0(FormatterServices___c__DisplayClass9_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3229 };
@@ -221,7 +221,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FormatterServices", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FormatterServices(FormatterServicesconst&) = delete;
+  FormatterServices(FormatterServices const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3230 };

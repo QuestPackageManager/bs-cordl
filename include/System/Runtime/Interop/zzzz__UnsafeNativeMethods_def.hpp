@@ -186,7 +186,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnsafeNativeMethods_EtwEnableCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsafeNativeMethods_EtwEnableCallback(UnsafeNativeMethods_EtwEnableCallbackconst&) = delete;
+  UnsafeNativeMethods_EtwEnableCallback(UnsafeNativeMethods_EtwEnableCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21317 };
@@ -244,7 +244,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnsafeNativeMethods", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsafeNativeMethods(UnsafeNativeMethodsconst&) = delete;
+  UnsafeNativeMethods(UnsafeNativeMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21318 };

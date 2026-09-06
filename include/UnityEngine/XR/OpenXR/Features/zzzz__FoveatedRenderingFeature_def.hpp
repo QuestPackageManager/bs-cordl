@@ -56,7 +56,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FoveatedRenderingFeature", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FoveatedRenderingFeature(FoveatedRenderingFeatureconst&) = delete;
+  FoveatedRenderingFeature(FoveatedRenderingFeature const&) = delete;
 
   /// @brief Field Library offset 0xffffffff size 0x8
   static constexpr ::ConstString Library{ u"UnityOpenXR" };

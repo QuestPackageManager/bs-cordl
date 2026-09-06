@@ -65,7 +65,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolTaskScheduler___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadPoolTaskScheduler___c(ThreadPoolTaskScheduler___cconst&) = delete;
+  ThreadPoolTaskScheduler___c(ThreadPoolTaskScheduler___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2830 };
@@ -126,7 +126,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolTaskScheduler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadPoolTaskScheduler(ThreadPoolTaskSchedulerconst&) = delete;
+  ThreadPoolTaskScheduler(ThreadPoolTaskScheduler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2831 };

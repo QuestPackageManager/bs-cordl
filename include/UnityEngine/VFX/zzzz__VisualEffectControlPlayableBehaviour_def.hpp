@@ -257,7 +257,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlPlayableBehaviour", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualEffectControlPlayableBehaviour(VisualEffectControlPlayableBehaviourconst&) = delete;
+  VisualEffectControlPlayableBehaviour(VisualEffectControlPlayableBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19958 };

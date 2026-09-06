@@ -81,7 +81,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UniversalCameraHistory_TypeId_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalCameraHistory_TypeId_1(UniversalCameraHistory_TypeId_1const&) = delete;
+  UniversalCameraHistory_TypeId_1(UniversalCameraHistory_TypeId_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12997 };
@@ -282,7 +282,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UniversalCameraHistory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalCameraHistory(UniversalCameraHistoryconst&) = delete;
+  UniversalCameraHistory(UniversalCameraHistory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12999 };

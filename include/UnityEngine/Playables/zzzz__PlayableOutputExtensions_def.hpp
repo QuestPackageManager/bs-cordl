@@ -106,7 +106,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayableOutputExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayableOutputExtensions(PlayableOutputExtensionsconst&) = delete;
+  PlayableOutputExtensions(PlayableOutputExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10684 };

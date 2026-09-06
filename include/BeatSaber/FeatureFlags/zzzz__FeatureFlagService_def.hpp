@@ -220,7 +220,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FeatureFlagService___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FeatureFlagService___c(FeatureFlagService___cconst&) = delete;
+  FeatureFlagService___c(FeatureFlagService___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22910 };
@@ -657,7 +657,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FeatureFlagService", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FeatureFlagService(FeatureFlagServiceconst&) = delete;
+  FeatureFlagService(FeatureFlagService const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22915 };

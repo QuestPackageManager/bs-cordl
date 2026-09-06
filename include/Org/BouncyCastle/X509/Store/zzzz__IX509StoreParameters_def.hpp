@@ -20,7 +20,7 @@ public:
   // Declarations
   // Ctor Parameters [CppParam { name: "", ty: "IX509StoreParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IX509StoreParameters(IX509StoreParametersconst&) = delete;
+  IX509StoreParameters(IX509StoreParameters const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1843 };

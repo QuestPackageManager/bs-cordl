@@ -29,7 +29,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "INamedProperties_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  INamedProperties_1(INamedProperties_1const&) = delete;
+  INamedProperties_1(INamedProperties_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19643 };

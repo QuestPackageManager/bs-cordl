@@ -262,7 +262,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlNodeConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlNodeConverter(XmlNodeConverterconst&) = delete;
+  XmlNodeConverter(XmlNodeConverter const&) = delete;
 
   /// @brief Field CDataName offset 0xffffffff size 0x8
   static constexpr ::ConstString CDataName{ u"#cdata-section" };

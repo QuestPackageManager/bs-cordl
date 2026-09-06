@@ -226,7 +226,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "__c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d(__c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_dconst&) = delete;
+  __c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d(__c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20758 };
@@ -301,7 +301,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityAsyncHelper___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityAsyncHelper___c__DisplayClass5_0(UnityAsyncHelper___c__DisplayClass5_0const&) = delete;
+  UnityAsyncHelper___c__DisplayClass5_0(UnityAsyncHelper___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20759 };
@@ -416,7 +416,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "__c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d(__c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_dconst&) = delete;
+  __c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d(__c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20760 };
@@ -491,7 +491,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityAsyncHelper___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityAsyncHelper___c__DisplayClass6_0(UnityAsyncHelper___c__DisplayClass6_0const&) = delete;
+  UnityAsyncHelper___c__DisplayClass6_0(UnityAsyncHelper___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20761 };
@@ -898,7 +898,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityAsyncHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityAsyncHelper(UnityAsyncHelperconst&) = delete;
+  UnityAsyncHelper(UnityAsyncHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20767 };

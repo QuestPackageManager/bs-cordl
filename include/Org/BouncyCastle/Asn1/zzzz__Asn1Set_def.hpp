@@ -132,7 +132,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1Set_Asn1SetParserImpl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Asn1Set_Asn1SetParserImpl(Asn1Set_Asn1SetParserImplconst&) = delete;
+  Asn1Set_Asn1SetParserImpl(Asn1Set_Asn1SetParserImpl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 463 };
@@ -191,7 +191,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1Set_DerComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Asn1Set_DerComparer(Asn1Set_DerComparerconst&) = delete;
+  Asn1Set_DerComparer(Asn1Set_DerComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 464 };
@@ -300,7 +300,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1Set", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Asn1Set(Asn1Setconst&) = delete;
+  Asn1Set(Asn1Set const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 465 };

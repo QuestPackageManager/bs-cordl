@@ -106,7 +106,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController_FinishDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnterPlayerGuestNameViewController_FinishDelegate(EnterPlayerGuestNameViewController_FinishDelegateconst&) = delete;
+  EnterPlayerGuestNameViewController_FinishDelegate(EnterPlayerGuestNameViewController_FinishDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6429 };
@@ -163,7 +163,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController___c__DisplayClass11_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnterPlayerGuestNameViewController___c__DisplayClass11_0(EnterPlayerGuestNameViewController___c__DisplayClass11_0const&) = delete;
+  EnterPlayerGuestNameViewController___c__DisplayClass11_0(EnterPlayerGuestNameViewController___c__DisplayClass11_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6430 };
@@ -231,7 +231,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController___c__DisplayClass11_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnterPlayerGuestNameViewController___c__DisplayClass11_1(EnterPlayerGuestNameViewController___c__DisplayClass11_1const&) = delete;
+  EnterPlayerGuestNameViewController___c__DisplayClass11_1(EnterPlayerGuestNameViewController___c__DisplayClass11_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6431 };
@@ -351,7 +351,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnterPlayerGuestNameViewController(EnterPlayerGuestNameViewControllerconst&) = delete;
+  EnterPlayerGuestNameViewController(EnterPlayerGuestNameViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6432 };

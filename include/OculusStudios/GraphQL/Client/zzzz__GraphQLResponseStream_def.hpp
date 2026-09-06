@@ -81,7 +81,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphQLResponseStream___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLResponseStream___c(GraphQLResponseStream___cconst&) = delete;
+  GraphQLResponseStream___c(GraphQLResponseStream___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20443 };
@@ -219,7 +219,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphQLResponseStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLResponseStream(GraphQLResponseStreamconst&) = delete;
+  GraphQLResponseStream(GraphQLResponseStream const&) = delete;
 
   /// @brief Field INITIAL offset 0xffffffff size 0x8
   static constexpr ::ConstString INITIAL{ u"Initial" };

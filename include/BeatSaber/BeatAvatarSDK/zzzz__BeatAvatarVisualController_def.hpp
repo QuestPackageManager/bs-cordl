@@ -95,7 +95,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarVisualController_HighlighterDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatAvatarVisualController_HighlighterDelegate(BeatAvatarVisualController_HighlighterDelegateconst&) = delete;
+  BeatAvatarVisualController_HighlighterDelegate(BeatAvatarVisualController_HighlighterDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22343 };
@@ -352,7 +352,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarVisualController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatAvatarVisualController(BeatAvatarVisualControllerconst&) = delete;
+  BeatAvatarVisualController(BeatAvatarVisualController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22344 };

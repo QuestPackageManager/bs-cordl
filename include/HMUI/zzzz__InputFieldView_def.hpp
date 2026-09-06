@@ -179,7 +179,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputFieldView_InputFieldChanged", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputFieldView_InputFieldChanged(InputFieldView_InputFieldChangedconst&) = delete;
+  InputFieldView_InputFieldChanged(InputFieldView_InputFieldChanged const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19088 };
@@ -285,7 +285,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputFieldView__BlinkingCaretCoroutine_d__46", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputFieldView__BlinkingCaretCoroutine_d__46(InputFieldView__BlinkingCaretCoroutine_d__46const&) = delete;
+  InputFieldView__BlinkingCaretCoroutine_d__46(InputFieldView__BlinkingCaretCoroutine_d__46 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19089 };
@@ -592,7 +592,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputFieldView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputFieldView(InputFieldViewconst&) = delete;
+  InputFieldView(InputFieldView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19090 };

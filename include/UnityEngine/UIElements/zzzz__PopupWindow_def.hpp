@@ -58,7 +58,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PopupWindow_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PopupWindow_UxmlFactory(PopupWindow_UxmlFactoryconst&) = delete;
+  PopupWindow_UxmlFactory(PopupWindow_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4286 };
@@ -94,7 +94,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PopupWindow_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PopupWindow_UxmlTraits(PopupWindow_UxmlTraitsconst&) = delete;
+  PopupWindow_UxmlTraits(PopupWindow_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4287 };
@@ -161,7 +161,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PopupWindow", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PopupWindow(PopupWindowconst&) = delete;
+  PopupWindow(PopupWindow const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4288 };

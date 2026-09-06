@@ -158,7 +158,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightLambda_DebugViewPrinter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightLambda_DebugViewPrinter(LightLambda_DebugViewPrinterconst&) = delete;
+  LightLambda_DebugViewPrinter(LightLambda_DebugViewPrinter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16451 };
@@ -240,7 +240,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightLambda___c__DisplayClass74_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightLambda___c__DisplayClass74_0(LightLambda___c__DisplayClass74_0const&) = delete;
+  LightLambda___c__DisplayClass74_0(LightLambda___c__DisplayClass74_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16452 };
@@ -589,7 +589,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightLambda", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightLambda(LightLambdaconst&) = delete;
+  LightLambda(LightLambda const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16453 };

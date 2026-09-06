@@ -209,7 +209,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputEventTrace_Enumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputEventTrace_Enumerator(InputEventTrace_Enumeratorconst&) = delete;
+  InputEventTrace_Enumerator(InputEventTrace_Enumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9032 };
@@ -329,7 +329,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReplayController_InputEventTrace___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReplayController_InputEventTrace___c(ReplayController_InputEventTrace___cconst&) = delete;
+  ReplayController_InputEventTrace___c(ReplayController_InputEventTrace___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9034 };
@@ -377,7 +377,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReplayController_InputEventTrace___c__DisplayClass43_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReplayController_InputEventTrace___c__DisplayClass43_0(ReplayController_InputEventTrace___c__DisplayClass43_0const&) = delete;
+  ReplayController_InputEventTrace___c__DisplayClass43_0(ReplayController_InputEventTrace___c__DisplayClass43_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9035 };
@@ -647,7 +647,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputEventTrace_ReplayController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputEventTrace_ReplayController(InputEventTrace_ReplayControllerconst&) = delete;
+  InputEventTrace_ReplayController(InputEventTrace_ReplayController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9036 };
@@ -1189,7 +1189,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputEventTrace", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputEventTrace(InputEventTraceconst&) = delete;
+  InputEventTrace(InputEventTrace const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9038 };

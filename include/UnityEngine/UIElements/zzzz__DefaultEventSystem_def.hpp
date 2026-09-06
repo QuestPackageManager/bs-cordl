@@ -416,7 +416,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputForUIProcessor_DefaultEventSystem___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputForUIProcessor_DefaultEventSystem___c(InputForUIProcessor_DefaultEventSystem___cconst&) = delete;
+  InputForUIProcessor_DefaultEventSystem___c(InputForUIProcessor_DefaultEventSystem___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4376 };
@@ -516,7 +516,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultEventSystem_InputForUIProcessor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultEventSystem_InputForUIProcessor(DefaultEventSystem_InputForUIProcessorconst&) = delete;
+  DefaultEventSystem_InputForUIProcessor(DefaultEventSystem_InputForUIProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4377 };
@@ -612,7 +612,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LegacyInputProcessor_DefaultEventSystem_IInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LegacyInputProcessor_DefaultEventSystem_IInput(LegacyInputProcessor_DefaultEventSystem_IInputconst&) = delete;
+  LegacyInputProcessor_DefaultEventSystem_IInput(LegacyInputProcessor_DefaultEventSystem_IInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4378 };
@@ -707,7 +707,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LegacyInputProcessor_DefaultEventSystem_Input", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LegacyInputProcessor_DefaultEventSystem_Input(LegacyInputProcessor_DefaultEventSystem_Inputconst&) = delete;
+  LegacyInputProcessor_DefaultEventSystem_Input(LegacyInputProcessor_DefaultEventSystem_Input const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4379 };
@@ -804,7 +804,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LegacyInputProcessor_DefaultEventSystem_NoInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LegacyInputProcessor_DefaultEventSystem_NoInput(LegacyInputProcessor_DefaultEventSystem_NoInputconst&) = delete;
+  LegacyInputProcessor_DefaultEventSystem_NoInput(LegacyInputProcessor_DefaultEventSystem_NoInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4380 };
@@ -1016,7 +1016,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LegacyInputProcessor_DefaultEventSystem___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LegacyInputProcessor_DefaultEventSystem___c(LegacyInputProcessor_DefaultEventSystem___cconst&) = delete;
+  LegacyInputProcessor_DefaultEventSystem___c(LegacyInputProcessor_DefaultEventSystem___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4381 };
@@ -1234,7 +1234,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultEventSystem_LegacyInputProcessor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultEventSystem_LegacyInputProcessor(DefaultEventSystem_LegacyInputProcessorconst&) = delete;
+  DefaultEventSystem_LegacyInputProcessor(DefaultEventSystem_LegacyInputProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4382 };
@@ -1453,7 +1453,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultEventSystem___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultEventSystem___c(DefaultEventSystem___cconst&) = delete;
+  DefaultEventSystem___c(DefaultEventSystem___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4385 };
@@ -1687,7 +1687,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultEventSystem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultEventSystem(DefaultEventSystemconst&) = delete;
+  DefaultEventSystem(DefaultEventSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4386 };

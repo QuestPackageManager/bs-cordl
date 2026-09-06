@@ -56,7 +56,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ExecuteCommandEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExecuteCommandEvent___c(ExecuteCommandEvent___cconst&) = delete;
+  ExecuteCommandEvent___c(ExecuteCommandEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4443 };
@@ -93,7 +93,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ExecuteCommandEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExecuteCommandEvent(ExecuteCommandEventconst&) = delete;
+  ExecuteCommandEvent(ExecuteCommandEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4444 };

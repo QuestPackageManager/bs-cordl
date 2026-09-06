@@ -207,7 +207,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Timer_Scheduler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Timer_Scheduler(Timer_Schedulerconst&) = delete;
+  Timer_Scheduler(Timer_Scheduler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2763 };
@@ -383,7 +383,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Timer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Timer(Timerconst&) = delete;
+  Timer(Timer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2764 };

@@ -74,7 +74,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WindowsPlatform_UnityLogDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WindowsPlatform_UnityLogDelegate(WindowsPlatform_UnityLogDelegateconst&) = delete;
+  WindowsPlatform_UnityLogDelegate(WindowsPlatform_UnityLogDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18002 };
@@ -123,7 +123,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WindowsPlatform", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WindowsPlatform(WindowsPlatformconst&) = delete;
+  WindowsPlatform(WindowsPlatform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18003 };

@@ -40,7 +40,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ILevelPackProductData_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ILevelPackProductData_1(ILevelPackProductData_1const&) = delete;
+  ILevelPackProductData_1(ILevelPackProductData_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15127 };

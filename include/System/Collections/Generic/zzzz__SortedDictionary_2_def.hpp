@@ -399,7 +399,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyCollection_SortedDictionary_2___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyCollection_SortedDictionary_2___c__DisplayClass5_0(KeyCollection_SortedDictionary_2___c__DisplayClass5_0const&) = delete;
+  KeyCollection_SortedDictionary_2___c__DisplayClass5_0(KeyCollection_SortedDictionary_2___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11402 };
@@ -462,7 +462,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyCollection_SortedDictionary_2___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyCollection_SortedDictionary_2___c__DisplayClass6_0(KeyCollection_SortedDictionary_2___c__DisplayClass6_0const&) = delete;
+  KeyCollection_SortedDictionary_2___c__DisplayClass6_0(KeyCollection_SortedDictionary_2___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11403 };
@@ -594,7 +594,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2_KeyCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedDictionary_2_KeyCollection(SortedDictionary_2_KeyCollectionconst&) = delete;
+  SortedDictionary_2_KeyCollection(SortedDictionary_2_KeyCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11404 };
@@ -723,7 +723,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ValueCollection_SortedDictionary_2___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ValueCollection_SortedDictionary_2___c__DisplayClass5_0(ValueCollection_SortedDictionary_2___c__DisplayClass5_0const&) = delete;
+  ValueCollection_SortedDictionary_2___c__DisplayClass5_0(ValueCollection_SortedDictionary_2___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11406 };
@@ -786,7 +786,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ValueCollection_SortedDictionary_2___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ValueCollection_SortedDictionary_2___c__DisplayClass6_0(ValueCollection_SortedDictionary_2___c__DisplayClass6_0const&) = delete;
+  ValueCollection_SortedDictionary_2___c__DisplayClass6_0(ValueCollection_SortedDictionary_2___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11407 };
@@ -918,7 +918,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2_ValueCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedDictionary_2_ValueCollection(SortedDictionary_2_ValueCollectionconst&) = delete;
+  SortedDictionary_2_ValueCollection(SortedDictionary_2_ValueCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11408 };
@@ -968,7 +968,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2_KeyValuePairComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedDictionary_2_KeyValuePairComparer(SortedDictionary_2_KeyValuePairComparerconst&) = delete;
+  SortedDictionary_2_KeyValuePairComparer(SortedDictionary_2_KeyValuePairComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11409 };
@@ -1028,7 +1028,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2___c__DisplayClass34_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedDictionary_2___c__DisplayClass34_0(SortedDictionary_2___c__DisplayClass34_0const&) = delete;
+  SortedDictionary_2___c__DisplayClass34_0(SortedDictionary_2___c__DisplayClass34_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11410 };
@@ -1092,7 +1092,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2___c__DisplayClass34_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedDictionary_2___c__DisplayClass34_1(SortedDictionary_2___c__DisplayClass34_1const&) = delete;
+  SortedDictionary_2___c__DisplayClass34_1(SortedDictionary_2___c__DisplayClass34_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11411 };
@@ -1383,7 +1383,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedDictionary_2(SortedDictionary_2const&) = delete;
+  SortedDictionary_2(SortedDictionary_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11412 };

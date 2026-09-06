@@ -43,7 +43,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NegateInstruction_NegateDouble", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NegateInstruction_NegateDouble(NegateInstruction_NegateDoubleconst&) = delete;
+  NegateInstruction_NegateDouble(NegateInstruction_NegateDouble const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16509 };

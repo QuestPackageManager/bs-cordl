@@ -46,7 +46,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GreaterThanInstruction_GreaterThanDouble", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GreaterThanInstruction_GreaterThanDouble(GreaterThanInstruction_GreaterThanDoubleconst&) = delete;
+  GreaterThanInstruction_GreaterThanDouble(GreaterThanInstruction_GreaterThanDouble const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16364 };

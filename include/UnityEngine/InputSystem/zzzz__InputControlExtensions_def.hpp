@@ -802,7 +802,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputControlExtensions__GetAllButtonPresses_d__43", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputControlExtensions__GetAllButtonPresses_d__43(InputControlExtensions__GetAllButtonPresses_d__43const&) = delete;
+  InputControlExtensions__GetAllButtonPresses_d__43(InputControlExtensions__GetAllButtonPresses_d__43 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8704 };
@@ -1113,7 +1113,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputControlExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputControlExtensions(InputControlExtensionsconst&) = delete;
+  InputControlExtensions(InputControlExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8705 };

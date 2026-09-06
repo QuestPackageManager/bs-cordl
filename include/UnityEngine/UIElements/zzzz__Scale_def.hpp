@@ -183,7 +183,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Scale_ValueProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_Scale_ValueProperty(PropertyBag_Scale_ValuePropertyconst&) = delete;
+  PropertyBag_Scale_ValueProperty(PropertyBag_Scale_ValueProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4959 };
@@ -234,7 +234,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Scale_PropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Scale_PropertyBag(Scale_PropertyBagconst&) = delete;
+  Scale_PropertyBag(Scale_PropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4960 };

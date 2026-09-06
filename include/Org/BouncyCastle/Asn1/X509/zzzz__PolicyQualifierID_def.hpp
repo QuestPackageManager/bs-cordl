@@ -51,7 +51,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PolicyQualifierID", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PolicyQualifierID(PolicyQualifierIDconst&) = delete;
+  PolicyQualifierID(PolicyQualifierID const&) = delete;
 
   /// @brief Field IdQt offset 0xffffffff size 0x8
   static constexpr ::ConstString IdQt{ u"1.3.6.1.5.5.7.2" };

@@ -159,7 +159,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ZInflaterInputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ZInflaterInputStream(ZInflaterInputStreamconst&) = delete;
+  ZInflaterInputStream(ZInflaterInputStream const&) = delete;
 
   /// @brief Field BUFSIZE offset 0xffffffff size 0x4
   static constexpr int32_t BUFSIZE{ static_cast<int32_t>(0x1060) };

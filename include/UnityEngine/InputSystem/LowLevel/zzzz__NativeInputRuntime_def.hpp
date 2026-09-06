@@ -115,7 +115,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeInputRuntime___c__DisplayClass10_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeInputRuntime___c__DisplayClass10_0(NativeInputRuntime___c__DisplayClass10_0const&) = delete;
+  NativeInputRuntime___c__DisplayClass10_0(NativeInputRuntime___c__DisplayClass10_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9051 };
@@ -168,7 +168,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeInputRuntime___c__DisplayClass13_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeInputRuntime___c__DisplayClass13_0(NativeInputRuntime___c__DisplayClass13_0const&) = delete;
+  NativeInputRuntime___c__DisplayClass13_0(NativeInputRuntime___c__DisplayClass13_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9052 };
@@ -221,7 +221,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeInputRuntime___c__DisplayClass7_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeInputRuntime___c__DisplayClass7_0(NativeInputRuntime___c__DisplayClass7_0const&) = delete;
+  NativeInputRuntime___c__DisplayClass7_0(NativeInputRuntime___c__DisplayClass7_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9053 };
@@ -492,7 +492,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeInputRuntime", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeInputRuntime(NativeInputRuntimeconst&) = delete;
+  NativeInputRuntime(NativeInputRuntime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9054 };

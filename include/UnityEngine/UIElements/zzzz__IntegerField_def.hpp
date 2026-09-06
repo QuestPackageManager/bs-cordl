@@ -74,7 +74,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IntegerField_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntegerField_UxmlFactory(IntegerField_UxmlFactoryconst&) = delete;
+  IntegerField_UxmlFactory(IntegerField_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4232 };
@@ -110,7 +110,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IntegerField_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntegerField_UxmlTraits(IntegerField_UxmlTraitsconst&) = delete;
+  IntegerField_UxmlTraits(IntegerField_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4233 };
@@ -164,7 +164,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IntegerField_IntegerInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntegerField_IntegerInput(IntegerField_IntegerInputconst&) = delete;
+  IntegerField_IntegerInput(IntegerField_IntegerInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4234 };
@@ -249,7 +249,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IntegerField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntegerField(IntegerFieldconst&) = delete;
+  IntegerField(IntegerField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4235 };

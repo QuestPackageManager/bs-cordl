@@ -80,7 +80,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BoundsField_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BoundsField_UxmlFactory(BoundsField_UxmlFactoryconst&) = delete;
+  BoundsField_UxmlFactory(BoundsField_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4135 };
@@ -173,7 +173,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BoundsField_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BoundsField_UxmlTraits(BoundsField_UxmlTraitsconst&) = delete;
+  BoundsField_UxmlTraits(BoundsField_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4136 };
@@ -315,7 +315,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BoundsField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BoundsField(BoundsFieldconst&) = delete;
+  BoundsField(BoundsField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4137 };

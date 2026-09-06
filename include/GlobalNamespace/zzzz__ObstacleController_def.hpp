@@ -134,7 +134,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ObstacleController_Layers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObstacleController_Layers(ObstacleController_Layersconst&) = delete;
+  ObstacleController_Layers(ObstacleController_Layers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5700 };
@@ -181,7 +181,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ObstacleController_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObstacleController_Pool(ObstacleController_Poolconst&) = delete;
+  ObstacleController_Pool(ObstacleController_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5701 };
@@ -302,7 +302,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ObstacleController__DissolveCoroutine_d__66", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObstacleController__DissolveCoroutine_d__66(ObstacleController__DissolveCoroutine_d__66const&) = delete;
+  ObstacleController__DissolveCoroutine_d__66(ObstacleController__DissolveCoroutine_d__66 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5702 };
@@ -766,7 +766,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ObstacleController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObstacleController(ObstacleControllerconst&) = delete;
+  ObstacleController(ObstacleController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5703 };

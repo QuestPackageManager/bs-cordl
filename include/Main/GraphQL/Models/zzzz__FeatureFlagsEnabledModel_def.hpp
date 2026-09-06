@@ -100,7 +100,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel(FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModelconst&) = delete;
+  FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel(FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22900 };
@@ -178,7 +178,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FeatureFlagsEnabledModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FeatureFlagsEnabledModel(FeatureFlagsEnabledModelconst&) = delete;
+  FeatureFlagsEnabledModel(FeatureFlagsEnabledModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22901 };

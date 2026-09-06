@@ -172,7 +172,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusRing_FocusRingRecord", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElementFocusRing_FocusRingRecord(VisualElementFocusRing_FocusRingRecordconst&) = delete;
+  VisualElementFocusRing_FocusRingRecord(VisualElementFocusRing_FocusRingRecord const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5244 };
@@ -312,7 +312,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusRing", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElementFocusRing(VisualElementFocusRingconst&) = delete;
+  VisualElementFocusRing(VisualElementFocusRing const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5245 };

@@ -107,7 +107,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpRequestHeaders___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpRequestHeaders___c(HttpRequestHeaders___cconst&) = delete;
+  HttpRequestHeaders___c(HttpRequestHeaders___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20313 };
@@ -196,7 +196,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpRequestHeaders", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpRequestHeaders(HttpRequestHeadersconst&) = delete;
+  HttpRequestHeaders(HttpRequestHeaders const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20314 };

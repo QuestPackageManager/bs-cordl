@@ -246,7 +246,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeBakingSet_PerScenarioDataInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumeBakingSet_PerScenarioDataInfo(ProbeVolumeBakingSet_PerScenarioDataInfoconst&) = delete;
+  ProbeVolumeBakingSet_PerScenarioDataInfo(ProbeVolumeBakingSet_PerScenarioDataInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12134 };
@@ -1247,7 +1247,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeBakingSet", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumeBakingSet(ProbeVolumeBakingSetconst&) = delete;
+  ProbeVolumeBakingSet(ProbeVolumeBakingSet const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12138 };

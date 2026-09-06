@@ -148,7 +148,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CaptureCollection_Enumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CaptureCollection_Enumerator(CaptureCollection_Enumeratorconst&) = delete;
+  CaptureCollection_Enumerator(CaptureCollection_Enumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11094 };
@@ -385,7 +385,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CaptureCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CaptureCollection(CaptureCollectionconst&) = delete;
+  CaptureCollection(CaptureCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11095 };

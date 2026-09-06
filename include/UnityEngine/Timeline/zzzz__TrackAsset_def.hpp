@@ -246,7 +246,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TrackAsset_TrackAssetUpgrade", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrackAsset_TrackAssetUpgrade(TrackAsset_TrackAssetUpgradeconst&) = delete;
+  TrackAsset_TrackAssetUpgrade(TrackAsset_TrackAssetUpgrade const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19181 };
@@ -350,7 +350,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TrackAsset___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrackAsset___c(TrackAsset___cconst&) = delete;
+  TrackAsset___c(TrackAsset___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19183 };
@@ -488,7 +488,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TrackAsset__get_outputs_d__65", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrackAsset__get_outputs_d__65(TrackAsset__get_outputs_d__65const&) = delete;
+  TrackAsset__get_outputs_d__65(TrackAsset__get_outputs_d__65 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19184 };
@@ -1135,7 +1135,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TrackAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrackAsset(TrackAssetconst&) = delete;
+  TrackAsset(TrackAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19185 };

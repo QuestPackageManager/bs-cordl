@@ -244,7 +244,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards_FetchLeaderboardTypeFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatLeaderboards_FetchLeaderboardTypeFunction(BeatLeaderboards_FetchLeaderboardTypeFunctionconst&) = delete;
+  BeatLeaderboards_FetchLeaderboardTypeFunction(BeatLeaderboards_FetchLeaderboardTypeFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20591 };
@@ -392,7 +392,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass12_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatLeaderboards___c__DisplayClass12_0(BeatLeaderboards___c__DisplayClass12_0const&) = delete;
+  BeatLeaderboards___c__DisplayClass12_0(BeatLeaderboards___c__DisplayClass12_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20593 };
@@ -459,7 +459,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass12_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatLeaderboards___c__DisplayClass12_1(BeatLeaderboards___c__DisplayClass12_1const&) = delete;
+  BeatLeaderboards___c__DisplayClass12_1(BeatLeaderboards___c__DisplayClass12_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20594 };
@@ -610,7 +610,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass13_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatLeaderboards___c__DisplayClass13_0(BeatLeaderboards___c__DisplayClass13_0const&) = delete;
+  BeatLeaderboards___c__DisplayClass13_0(BeatLeaderboards___c__DisplayClass13_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20596 };
@@ -677,7 +677,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass13_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatLeaderboards___c__DisplayClass13_1(BeatLeaderboards___c__DisplayClass13_1const&) = delete;
+  BeatLeaderboards___c__DisplayClass13_1(BeatLeaderboards___c__DisplayClass13_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20597 };
@@ -825,7 +825,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass14_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatLeaderboards___c__DisplayClass14_0(BeatLeaderboards___c__DisplayClass14_0const&) = delete;
+  BeatLeaderboards___c__DisplayClass14_0(BeatLeaderboards___c__DisplayClass14_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20599 };
@@ -891,7 +891,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards___c__DisplayClass14_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatLeaderboards___c__DisplayClass14_1(BeatLeaderboards___c__DisplayClass14_1const&) = delete;
+  BeatLeaderboards___c__DisplayClass14_1(BeatLeaderboards___c__DisplayClass14_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20600 };
@@ -1303,7 +1303,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatLeaderboards", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatLeaderboards(BeatLeaderboardsconst&) = delete;
+  BeatLeaderboards(BeatLeaderboards const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20604 };

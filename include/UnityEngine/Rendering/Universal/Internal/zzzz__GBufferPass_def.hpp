@@ -185,7 +185,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GBufferPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GBufferPass_PassData(GBufferPass_PassDataconst&) = delete;
+  GBufferPass_PassData(GBufferPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13102 };
@@ -278,7 +278,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GBufferPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GBufferPass___c(GBufferPass___cconst&) = delete;
+  GBufferPass___c(GBufferPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13103 };
@@ -451,7 +451,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GBufferPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GBufferPass(GBufferPassconst&) = delete;
+  GBufferPass(GBufferPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13104 };

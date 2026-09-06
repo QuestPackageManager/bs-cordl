@@ -146,7 +146,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Physics_ContactEventDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Physics_ContactEventDelegate(Physics_ContactEventDelegateconst&) = delete;
+  Physics_ContactEventDelegate(Physics_ContactEventDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18643 };
@@ -1297,7 +1297,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Physics", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Physics(Physicsconst&) = delete;
+  Physics(Physics const&) = delete;
 
   /// @brief Field AllLayers offset 0xffffffff size 0x4
   static constexpr int32_t AllLayers{ static_cast<int32_t>(0xffffffff) };

@@ -96,7 +96,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BufferedAudioStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BufferedAudioStream(BufferedAudioStreamconst&) = delete;
+  BufferedAudioStream(BufferedAudioStream const&) = delete;
 
   /// @brief Field VerboseLogging offset 0xffffffff size 0x1
   static constexpr bool VerboseLogging{ false };

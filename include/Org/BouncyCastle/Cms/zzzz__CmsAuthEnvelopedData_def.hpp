@@ -104,7 +104,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsAuthEnvelopedData_AuthEnvelopedSecureReadable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsAuthEnvelopedData_AuthEnvelopedSecureReadable(CmsAuthEnvelopedData_AuthEnvelopedSecureReadableconst&) = delete;
+  CmsAuthEnvelopedData_AuthEnvelopedSecureReadable(CmsAuthEnvelopedData_AuthEnvelopedSecureReadable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 624 };
@@ -219,7 +219,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsAuthEnvelopedData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsAuthEnvelopedData(CmsAuthEnvelopedDataconst&) = delete;
+  CmsAuthEnvelopedData(CmsAuthEnvelopedData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 625 };

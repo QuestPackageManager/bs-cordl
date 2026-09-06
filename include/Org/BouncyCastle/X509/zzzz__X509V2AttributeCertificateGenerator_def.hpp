@@ -179,7 +179,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "X509V2AttributeCertificateGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509V2AttributeCertificateGenerator(X509V2AttributeCertificateGeneratorconst&) = delete;
+  X509V2AttributeCertificateGenerator(X509V2AttributeCertificateGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1872 };

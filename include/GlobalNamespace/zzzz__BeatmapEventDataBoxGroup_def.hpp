@@ -193,7 +193,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataBoxGroup_ElementData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapEventDataBoxGroup_ElementData(BeatmapEventDataBoxGroup_ElementDataconst&) = delete;
+  BeatmapEventDataBoxGroup_ElementData(BeatmapEventDataBoxGroup_ElementData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14913 };
@@ -356,7 +356,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataBoxGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapEventDataBoxGroup(BeatmapEventDataBoxGroupconst&) = delete;
+  BeatmapEventDataBoxGroup(BeatmapEventDataBoxGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14914 };

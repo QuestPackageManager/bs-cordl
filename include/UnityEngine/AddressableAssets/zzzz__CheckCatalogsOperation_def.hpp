@@ -89,7 +89,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CheckCatalogsOperation___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CheckCatalogsOperation___c(CheckCatalogsOperation___cconst&) = delete;
+  CheckCatalogsOperation___c(CheckCatalogsOperation___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19826 };
@@ -193,7 +193,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CheckCatalogsOperation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CheckCatalogsOperation(CheckCatalogsOperationconst&) = delete;
+  CheckCatalogsOperation(CheckCatalogsOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19827 };

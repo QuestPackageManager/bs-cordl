@@ -65,7 +65,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectListPool_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectListPool_1___c(ObjectListPool_1___cconst&) = delete;
+  ObjectListPool_1___c(ObjectListPool_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5225 };
@@ -111,7 +111,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectListPool_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectListPool_1(ObjectListPool_1const&) = delete;
+  ObjectListPool_1(ObjectListPool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5226 };

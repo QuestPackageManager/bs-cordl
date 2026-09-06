@@ -110,7 +110,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SignalReceiver_EventKeyValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignalReceiver_EventKeyValue(SignalReceiver_EventKeyValueconst&) = delete;
+  SignalReceiver_EventKeyValue(SignalReceiver_EventKeyValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19217 };
@@ -214,7 +214,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SignalReceiver", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignalReceiver(SignalReceiverconst&) = delete;
+  SignalReceiver(SignalReceiver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19218 };

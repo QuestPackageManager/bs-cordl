@@ -85,7 +85,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DisconnectPromptView___c__DisplayClass12_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DisconnectPromptView___c__DisplayClass12_0(DisconnectPromptView___c__DisplayClass12_0const&) = delete;
+  DisconnectPromptView___c__DisplayClass12_0(DisconnectPromptView___c__DisplayClass12_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6481 };
@@ -223,7 +223,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DisconnectPromptView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DisconnectPromptView(DisconnectPromptViewconst&) = delete;
+  DisconnectPromptView(DisconnectPromptView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6482 };

@@ -126,7 +126,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Gost3410ParamSetParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Gost3410ParamSetParameters(Gost3410ParamSetParametersconst&) = delete;
+  Gost3410ParamSetParameters(Gost3410ParamSetParameters const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 130 };

@@ -101,7 +101,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpClientHandler___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpClientHandler___c(HttpClientHandler___cconst&) = delete;
+  HttpClientHandler___c(HttpClientHandler___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20261 };
@@ -207,7 +207,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpClientHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpClientHandler(HttpClientHandlerconst&) = delete;
+  HttpClientHandler(HttpClientHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20262 };

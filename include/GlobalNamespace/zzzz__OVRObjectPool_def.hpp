@@ -148,7 +148,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRObjectPool_IPoolObject", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRObjectPool_IPoolObject(OVRObjectPool_IPoolObjectconst&) = delete;
+  OVRObjectPool_IPoolObject(OVRObjectPool_IPoolObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7953 };
@@ -195,7 +195,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Storage_1_OVRObjectPool___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Storage_1_OVRObjectPool___c(Storage_1_OVRObjectPool___cconst&) = delete;
+  Storage_1_OVRObjectPool___c(Storage_1_OVRObjectPool___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7954 };
@@ -251,7 +251,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRObjectPool_Storage_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRObjectPool_Storage_1(OVRObjectPool_Storage_1const&) = delete;
+  OVRObjectPool_Storage_1(OVRObjectPool_Storage_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7955 };
@@ -638,7 +638,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRObjectPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRObjectPool(OVRObjectPoolconst&) = delete;
+  OVRObjectPool(OVRObjectPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7963 };

@@ -216,7 +216,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Rotate_AngleProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_Rotate_AngleProperty(PropertyBag_Rotate_AnglePropertyconst&) = delete;
+  PropertyBag_Rotate_AngleProperty(PropertyBag_Rotate_AngleProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4955 };
@@ -301,7 +301,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Rotate_AxisProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_Rotate_AxisProperty(PropertyBag_Rotate_AxisPropertyconst&) = delete;
+  PropertyBag_Rotate_AxisProperty(PropertyBag_Rotate_AxisProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4956 };
@@ -354,7 +354,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Rotate_PropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Rotate_PropertyBag(Rotate_PropertyBagconst&) = delete;
+  Rotate_PropertyBag(Rotate_PropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4957 };

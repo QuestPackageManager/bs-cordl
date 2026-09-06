@@ -202,7 +202,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CryptoProObjectIdentifiers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CryptoProObjectIdentifiers(CryptoProObjectIdentifiersconst&) = delete;
+  CryptoProObjectIdentifiers(CryptoProObjectIdentifiers const&) = delete;
 
   /// @brief Field GostID offset 0xffffffff size 0x8
   static constexpr ::ConstString GostID{ u"1.2.643.2.2" };

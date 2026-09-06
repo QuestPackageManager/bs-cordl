@@ -111,7 +111,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Tab_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Tab_UxmlFactory(Tab_UxmlFactoryconst&) = delete;
+  Tab_UxmlFactory(Tab_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4321 };
@@ -177,7 +177,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Tab_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Tab_UxmlTraits(Tab_UxmlTraitsconst&) = delete;
+  Tab_UxmlTraits(Tab_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4322 };
@@ -245,7 +245,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Tab___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Tab___c(Tab___cconst&) = delete;
+  Tab___c(Tab___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4323 };
@@ -620,7 +620,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Tab", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Tab(Tabconst&) = delete;
+  Tab(Tab const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4324 };

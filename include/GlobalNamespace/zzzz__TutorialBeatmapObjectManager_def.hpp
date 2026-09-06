@@ -109,7 +109,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TutorialBeatmapObjectManager_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialBeatmapObjectManager_InitData(TutorialBeatmapObjectManager_InitDataconst&) = delete;
+  TutorialBeatmapObjectManager_InitData(TutorialBeatmapObjectManager_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5742 };
@@ -238,7 +238,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TutorialBeatmapObjectManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialBeatmapObjectManager(TutorialBeatmapObjectManagerconst&) = delete;
+  TutorialBeatmapObjectManager(TutorialBeatmapObjectManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5743 };

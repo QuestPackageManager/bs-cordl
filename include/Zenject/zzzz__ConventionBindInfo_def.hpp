@@ -97,7 +97,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConventionBindInfo___c__DisplayClass7_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConventionBindInfo___c__DisplayClass7_0(ConventionBindInfo___c__DisplayClass7_0const&) = delete;
+  ConventionBindInfo___c__DisplayClass7_0(ConventionBindInfo___c__DisplayClass7_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14038 };
@@ -157,7 +157,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConventionBindInfo___c__DisplayClass8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConventionBindInfo___c__DisplayClass8_0(ConventionBindInfo___c__DisplayClass8_0const&) = delete;
+  ConventionBindInfo___c__DisplayClass8_0(ConventionBindInfo___c__DisplayClass8_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14039 };
@@ -258,7 +258,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConventionBindInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConventionBindInfo(ConventionBindInfoconst&) = delete;
+  ConventionBindInfo(ConventionBindInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14040 };

@@ -120,7 +120,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenCaptureAfterDelay_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenCaptureAfterDelay_InitData(ScreenCaptureAfterDelay_InitDataconst&) = delete;
+  ScreenCaptureAfterDelay_InitData(ScreenCaptureAfterDelay_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20671 };
@@ -246,7 +246,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenCaptureAfterDelay__Start_d__6", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenCaptureAfterDelay__Start_d__6(ScreenCaptureAfterDelay__Start_d__6const&) = delete;
+  ScreenCaptureAfterDelay__Start_d__6(ScreenCaptureAfterDelay__Start_d__6 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20672 };
@@ -355,7 +355,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenCaptureAfterDelay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenCaptureAfterDelay(ScreenCaptureAfterDelayconst&) = delete;
+  ScreenCaptureAfterDelay(ScreenCaptureAfterDelay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20673 };

@@ -87,7 +87,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OSSpecificSynchronizationContext_InvocationEntryDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OSSpecificSynchronizationContext_InvocationEntryDelegate(OSSpecificSynchronizationContext_InvocationEntryDelegateconst&) = delete;
+  OSSpecificSynchronizationContext_InvocationEntryDelegate(OSSpecificSynchronizationContext_InvocationEntryDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2731 };
@@ -143,7 +143,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OSSpecificSynchronizationContext_InvocationContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OSSpecificSynchronizationContext_InvocationContext(OSSpecificSynchronizationContext_InvocationContextconst&) = delete;
+  OSSpecificSynchronizationContext_InvocationContext(OSSpecificSynchronizationContext_InvocationContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2732 };
@@ -209,7 +209,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OSSpecificSynchronizationContext___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OSSpecificSynchronizationContext___c(OSSpecificSynchronizationContext___cconst&) = delete;
+  OSSpecificSynchronizationContext___c(OSSpecificSynchronizationContext___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2733 };
@@ -290,7 +290,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OSSpecificSynchronizationContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OSSpecificSynchronizationContext(OSSpecificSynchronizationContextconst&) = delete;
+  OSSpecificSynchronizationContext(OSSpecificSynchronizationContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2734 };

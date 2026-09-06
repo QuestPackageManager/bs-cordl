@@ -64,7 +64,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Group", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Group(Groupconst&) = delete;
+  Group(Group const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9869 };

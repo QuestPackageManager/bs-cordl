@@ -164,7 +164,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VolumeManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VolumeManager___c(VolumeManager___cconst&) = delete;
+  VolumeManager___c(VolumeManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12064 };
@@ -245,7 +245,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VolumeManager___c__DisplayClass58_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VolumeManager___c__DisplayClass58_1(VolumeManager___c__DisplayClass58_1const&) = delete;
+  VolumeManager___c__DisplayClass58_1(VolumeManager___c__DisplayClass58_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12066 };
@@ -632,7 +632,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VolumeManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VolumeManager(VolumeManagerconst&) = delete;
+  VolumeManager(VolumeManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12067 };

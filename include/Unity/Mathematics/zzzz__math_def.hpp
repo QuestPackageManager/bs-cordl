@@ -6474,7 +6474,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "math", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  math(mathconst&) = delete;
+  math(math const&) = delete;
 
   /// @brief Field DBL_MIN_NORMAL offset 0xffffffff size 0x8
   static constexpr double_t DBL_MIN_NORMAL{ static_cast<double_t>(2.2250738585072014e-308) };

@@ -50,7 +50,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PoolableStaticMemoryPool_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PoolableStaticMemoryPool_3(PoolableStaticMemoryPool_3const&) = delete;
+  PoolableStaticMemoryPool_3(PoolableStaticMemoryPool_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14432 };

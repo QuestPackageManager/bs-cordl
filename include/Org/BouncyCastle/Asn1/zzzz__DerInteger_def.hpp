@@ -153,7 +153,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DerInteger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DerInteger(DerIntegerconst&) = delete;
+  DerInteger(DerInteger const&) = delete;
 
   /// @brief Field AllowUnsafeProperty offset 0xffffffff size 0x8
   static constexpr ::ConstString AllowUnsafeProperty{ u"Org.BouncyCastle.Asn1.AllowUnsafeInteger" };

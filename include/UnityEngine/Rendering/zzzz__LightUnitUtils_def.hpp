@@ -117,7 +117,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightUnitUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightUnitUtils(LightUnitUtilsconst&) = delete;
+  LightUnitUtils(LightUnitUtils const&) = delete;
 
   /// @brief Field SphereSolidAngle offset 0xffffffff size 0x4
   static constexpr float_t SphereSolidAngle{ static_cast<float_t>(12.566371f) };

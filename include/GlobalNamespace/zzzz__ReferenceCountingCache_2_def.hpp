@@ -97,7 +97,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReferenceCountingCache_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReferenceCountingCache_2(ReferenceCountingCache_2const&) = delete;
+  ReferenceCountingCache_2(ReferenceCountingCache_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22854 };

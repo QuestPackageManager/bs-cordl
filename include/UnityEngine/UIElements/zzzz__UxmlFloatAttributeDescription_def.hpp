@@ -74,7 +74,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlFloatAttributeDescription___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlFloatAttributeDescription___c(UxmlFloatAttributeDescription___cconst&) = delete;
+  UxmlFloatAttributeDescription___c(UxmlFloatAttributeDescription___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5152 };
@@ -117,7 +117,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlFloatAttributeDescription", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlFloatAttributeDescription(UxmlFloatAttributeDescriptionconst&) = delete;
+  UxmlFloatAttributeDescription(UxmlFloatAttributeDescription const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5153 };

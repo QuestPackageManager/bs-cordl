@@ -1236,7 +1236,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRManager_EventListener", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRManager_EventListener(OVRManager_EventListenerconst&) = delete;
+  OVRManager_EventListener(OVRManager_EventListener const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7239 };
@@ -1628,7 +1628,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRManager_InstantiateMrcCameraDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRManager_InstantiateMrcCameraDelegate(OVRManager_InstantiateMrcCameraDelegateconst&) = delete;
+  OVRManager_InstantiateMrcCameraDelegate(OVRManager_InstantiateMrcCameraDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7246 };
@@ -1773,7 +1773,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRManager_PassthroughCapabilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRManager_PassthroughCapabilities(OVRManager_PassthroughCapabilitiesconst&) = delete;
+  OVRManager_PassthroughCapabilities(OVRManager_PassthroughCapabilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7248 };
@@ -1864,7 +1864,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRManager_Observable_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRManager_Observable_1(OVRManager_Observable_1const&) = delete;
+  OVRManager_Observable_1(OVRManager_Observable_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7249 };
@@ -1934,7 +1934,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRManager___c(OVRManager___cconst&) = delete;
+  OVRManager___c(OVRManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7250 };
@@ -4214,7 +4214,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRManager(OVRManagerconst&) = delete;
+  OVRManager(OVRManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7251 };

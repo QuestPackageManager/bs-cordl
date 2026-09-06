@@ -100,7 +100,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AutoFreeAllocator_Try_000000E3$PostfixBurstDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AutoFreeAllocator_Try_000000E3$PostfixBurstDelegate(AutoFreeAllocator_Try_000000E3$PostfixBurstDelegateconst&) = delete;
+  AutoFreeAllocator_Try_000000E3$PostfixBurstDelegate(AutoFreeAllocator_Try_000000E3$PostfixBurstDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15548 };
@@ -147,7 +147,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AutoFreeAllocator_Try_000000E3$BurstDirectCall", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AutoFreeAllocator_Try_000000E3$BurstDirectCall(AutoFreeAllocator_Try_000000E3$BurstDirectCallconst&) = delete;
+  AutoFreeAllocator_Try_000000E3$BurstDirectCall(AutoFreeAllocator_Try_000000E3$BurstDirectCall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15549 };

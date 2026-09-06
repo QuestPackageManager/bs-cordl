@@ -261,7 +261,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DynamicArray_1_SortComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicArray_1_SortComparer(DynamicArray_1_SortComparerconst&) = delete;
+  DynamicArray_1_SortComparer(DynamicArray_1_SortComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11904 };
@@ -423,7 +423,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DynamicArray_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicArray_1(DynamicArray_1const&) = delete;
+  DynamicArray_1(DynamicArray_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11905 };

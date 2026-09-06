@@ -242,7 +242,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ControllerButtonsMapper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ControllerButtonsMapper(ControllerButtonsMapperconst&) = delete;
+  ControllerButtonsMapper(ControllerButtonsMapper const&) = delete;
 
   /// @brief Field UseLegacyInputSystem offset 0xffffffff size 0x1
   static constexpr bool UseLegacyInputSystem{ true };

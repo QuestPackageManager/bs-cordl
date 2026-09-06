@@ -48,7 +48,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithLaunchInvitePanelFlowResult", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MessageWithLaunchInvitePanelFlowResult(MessageWithLaunchInvitePanelFlowResultconst&) = delete;
+  MessageWithLaunchInvitePanelFlowResult(MessageWithLaunchInvitePanelFlowResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17889 };

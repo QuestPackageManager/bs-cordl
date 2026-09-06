@@ -63,7 +63,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BigIntegers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BigIntegers(BigIntegersconst&) = delete;
+  BigIntegers(BigIntegers const&) = delete;
 
   /// @brief Field MaxIterations offset 0xffffffff size 0x4
   static constexpr int32_t MaxIterations{ static_cast<int32_t>(0x3e8) };

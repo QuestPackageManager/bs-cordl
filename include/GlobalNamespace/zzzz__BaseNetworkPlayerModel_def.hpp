@@ -149,7 +149,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseNetworkPlayerModel_PartyConfig", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseNetworkPlayerModel_PartyConfig(BaseNetworkPlayerModel_PartyConfigconst&) = delete;
+  BaseNetworkPlayerModel_PartyConfig(BaseNetworkPlayerModel_PartyConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21573 };
@@ -290,7 +290,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseNetworkPlayerModel__GetOtherPlayers_d__56", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseNetworkPlayerModel__GetOtherPlayers_d__56(BaseNetworkPlayerModel__GetOtherPlayers_d__56const&) = delete;
+  BaseNetworkPlayerModel__GetOtherPlayers_d__56(BaseNetworkPlayerModel__GetOtherPlayers_d__56 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21574 };
@@ -431,7 +431,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseNetworkPlayerModel__GetPartyPlayers_d__55", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseNetworkPlayerModel__GetPartyPlayers_d__55(BaseNetworkPlayerModel__GetPartyPlayers_d__55const&) = delete;
+  BaseNetworkPlayerModel__GetPartyPlayers_d__55(BaseNetworkPlayerModel__GetPartyPlayers_d__55 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21575 };
@@ -735,7 +735,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseNetworkPlayerModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseNetworkPlayerModel(BaseNetworkPlayerModelconst&) = delete;
+  BaseNetworkPlayerModel(BaseNetworkPlayerModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21576 };

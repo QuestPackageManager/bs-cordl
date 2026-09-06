@@ -87,7 +87,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CullingGroup_StateChanged", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CullingGroup_StateChanged(CullingGroup_StateChangedconst&) = delete;
+  CullingGroup_StateChanged(CullingGroup_StateChanged const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10095 };
@@ -120,7 +120,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CullingGroup_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CullingGroup_BindingsMarshaller(CullingGroup_BindingsMarshallerconst&) = delete;
+  CullingGroup_BindingsMarshaller(CullingGroup_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10096 };
@@ -261,7 +261,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CullingGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CullingGroup(CullingGroupconst&) = delete;
+  CullingGroup(CullingGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10097 };

@@ -93,7 +93,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypedObject_DecimalStruct", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypedObject_DecimalStruct(TypedObject_DecimalStructconst&) = delete;
+  TypedObject_DecimalStruct(TypedObject_DecimalStruct const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9582 };
@@ -236,7 +236,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypedObject", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypedObject(TypedObjectconst&) = delete;
+  TypedObject(TypedObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9583 };

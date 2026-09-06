@@ -234,7 +234,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SortedList_SortedListEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedList_SortedListEnumerator(SortedList_SortedListEnumeratorconst&) = delete;
+  SortedList_SortedListEnumerator(SortedList_SortedListEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3711 };
@@ -403,7 +403,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SortedList_KeyList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedList_KeyList(SortedList_KeyListconst&) = delete;
+  SortedList_KeyList(SortedList_KeyList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3712 };
@@ -532,7 +532,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SortedList_ValueList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedList_ValueList(SortedList_ValueListconst&) = delete;
+  SortedList_ValueList(SortedList_ValueList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3713 };
@@ -567,7 +567,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SortedList_SortedListDebugView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedList_SortedListDebugView(SortedList_SortedListDebugViewconst&) = delete;
+  SortedList_SortedListDebugView(SortedList_SortedListDebugView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3714 };
@@ -832,7 +832,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SortedList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedList(SortedListconst&) = delete;
+  SortedList(SortedList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3715 };

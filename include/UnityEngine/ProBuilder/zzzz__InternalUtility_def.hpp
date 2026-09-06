@@ -82,7 +82,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InternalUtility___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InternalUtility___c__DisplayClass6_0(InternalUtility___c__DisplayClass6_0const&) = delete;
+  InternalUtility___c__DisplayClass6_0(InternalUtility___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16741 };
@@ -162,7 +162,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InternalUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InternalUtility(InternalUtilityconst&) = delete;
+  InternalUtility(InternalUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16742 };

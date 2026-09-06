@@ -106,7 +106,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TabView_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TabView_UxmlFactory(TabView_UxmlFactoryconst&) = delete;
+  TabView_UxmlFactory(TabView_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4329 };
@@ -154,7 +154,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TabView_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TabView_UxmlTraits(TabView_UxmlTraitsconst&) = delete;
+  TabView_UxmlTraits(TabView_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4330 };
@@ -239,7 +239,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TabView_ViewState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TabView_ViewState(TabView_ViewStateconst&) = delete;
+  TabView_ViewState(TabView_ViewState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4331 };
@@ -313,7 +313,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TabView___c__DisplayClass48_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TabView___c__DisplayClass48_0(TabView___c__DisplayClass48_0const&) = delete;
+  TabView___c__DisplayClass48_0(TabView___c__DisplayClass48_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4332 };
@@ -371,7 +371,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TabView___c__DisplayClass55_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TabView___c__DisplayClass55_0(TabView___c__DisplayClass55_0const&) = delete;
+  TabView___c__DisplayClass55_0(TabView___c__DisplayClass55_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4333 };
@@ -634,7 +634,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TabView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TabView(TabViewconst&) = delete;
+  TabView(TabView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4334 };

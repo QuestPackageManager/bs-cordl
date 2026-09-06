@@ -179,7 +179,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundRepeat_XProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_BackgroundRepeat_XProperty(PropertyBag_BackgroundRepeat_XPropertyconst&) = delete;
+  PropertyBag_BackgroundRepeat_XProperty(PropertyBag_BackgroundRepeat_XProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4008 };
@@ -264,7 +264,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundRepeat_YProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_BackgroundRepeat_YProperty(PropertyBag_BackgroundRepeat_YPropertyconst&) = delete;
+  PropertyBag_BackgroundRepeat_YProperty(PropertyBag_BackgroundRepeat_YProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4009 };
@@ -317,7 +317,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BackgroundRepeat_PropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BackgroundRepeat_PropertyBag(BackgroundRepeat_PropertyBagconst&) = delete;
+  BackgroundRepeat_PropertyBag(BackgroundRepeat_PropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4010 };

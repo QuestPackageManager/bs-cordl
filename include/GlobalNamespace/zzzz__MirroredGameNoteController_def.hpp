@@ -73,7 +73,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MirroredGameNoteController_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MirroredGameNoteController_Pool(MirroredGameNoteController_Poolconst&) = delete;
+  MirroredGameNoteController_Pool(MirroredGameNoteController_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5666 };
@@ -187,7 +187,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MirroredGameNoteController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MirroredGameNoteController(MirroredGameNoteControllerconst&) = delete;
+  MirroredGameNoteController(MirroredGameNoteController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5667 };

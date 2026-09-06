@@ -77,7 +77,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NamedIntListController_TextValuePair", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NamedIntListController_TextValuePair(NamedIntListController_TextValuePairconst&) = delete;
+  NamedIntListController_TextValuePair(NamedIntListController_TextValuePair const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23344 };
@@ -180,7 +180,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NamedIntListController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NamedIntListController(NamedIntListControllerconst&) = delete;
+  NamedIntListController(NamedIntListController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23345 };

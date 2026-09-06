@@ -120,7 +120,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DecalForwardEmissivePass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalForwardEmissivePass_PassData(DecalForwardEmissivePass_PassDataconst&) = delete;
+  DecalForwardEmissivePass_PassData(DecalForwardEmissivePass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12678 };
@@ -188,7 +188,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DecalForwardEmissivePass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalForwardEmissivePass___c(DecalForwardEmissivePass___cconst&) = delete;
+  DecalForwardEmissivePass___c(DecalForwardEmissivePass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12679 };
@@ -283,7 +283,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DecalForwardEmissivePass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalForwardEmissivePass(DecalForwardEmissivePassconst&) = delete;
+  DecalForwardEmissivePass(DecalForwardEmissivePass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12680 };

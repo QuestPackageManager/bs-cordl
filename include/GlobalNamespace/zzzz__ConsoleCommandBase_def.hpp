@@ -104,7 +104,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConsoleCommandBase___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConsoleCommandBase___c(ConsoleCommandBase___cconst&) = delete;
+  ConsoleCommandBase___c(ConsoleCommandBase___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19374 };
@@ -153,7 +153,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConsoleCommandBase___c__DisplayClass23_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConsoleCommandBase___c__DisplayClass23_0(ConsoleCommandBase___c__DisplayClass23_0const&) = delete;
+  ConsoleCommandBase___c__DisplayClass23_0(ConsoleCommandBase___c__DisplayClass23_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19375 };
@@ -318,7 +318,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConsoleCommandBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConsoleCommandBase(ConsoleCommandBaseconst&) = delete;
+  ConsoleCommandBase(ConsoleCommandBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19376 };

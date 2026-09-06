@@ -289,7 +289,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Message_Callback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Message_Callback(Message_Callbackconst&) = delete;
+  Message_Callback(Message_Callback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17856 };
@@ -980,7 +980,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Message_ExtraMessageTypesHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Message_ExtraMessageTypesHandler(Message_ExtraMessageTypesHandlerconst&) = delete;
+  Message_ExtraMessageTypesHandler(Message_ExtraMessageTypesHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17858 };
@@ -1298,7 +1298,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Message", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Message(Messageconst&) = delete;
+  Message(Message const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17859 };

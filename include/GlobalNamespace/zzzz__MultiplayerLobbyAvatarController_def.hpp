@@ -102,7 +102,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarController_Factory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLobbyAvatarController_Factory(MultiplayerLobbyAvatarController_Factoryconst&) = delete;
+  MultiplayerLobbyAvatarController_Factory(MultiplayerLobbyAvatarController_Factory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6152 };
@@ -208,7 +208,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarController__DespawnAnimationCoroutine_d__12", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLobbyAvatarController__DespawnAnimationCoroutine_d__12(MultiplayerLobbyAvatarController__DespawnAnimationCoroutine_d__12const&) = delete;
+  MultiplayerLobbyAvatarController__DespawnAnimationCoroutine_d__12(MultiplayerLobbyAvatarController__DespawnAnimationCoroutine_d__12 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6153 };
@@ -329,7 +329,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarController__ShowDespawnAnimationAndDestroy_d__10", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLobbyAvatarController__ShowDespawnAnimationAndDestroy_d__10(MultiplayerLobbyAvatarController__ShowDespawnAnimationAndDestroy_d__10const&) = delete;
+  MultiplayerLobbyAvatarController__ShowDespawnAnimationAndDestroy_d__10(MultiplayerLobbyAvatarController__ShowDespawnAnimationAndDestroy_d__10 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6154 };
@@ -450,7 +450,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarController__SpawnAnimationCoroutine_d__8", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLobbyAvatarController__SpawnAnimationCoroutine_d__8(MultiplayerLobbyAvatarController__SpawnAnimationCoroutine_d__8const&) = delete;
+  MultiplayerLobbyAvatarController__SpawnAnimationCoroutine_d__8(MultiplayerLobbyAvatarController__SpawnAnimationCoroutine_d__8 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6155 };
@@ -583,7 +583,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLobbyAvatarController(MultiplayerLobbyAvatarControllerconst&) = delete;
+  MultiplayerLobbyAvatarController(MultiplayerLobbyAvatarController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6156 };

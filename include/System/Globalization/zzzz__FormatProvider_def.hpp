@@ -234,7 +234,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FormatProvider_Number", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FormatProvider_Number(FormatProvider_Numberconst&) = delete;
+  FormatProvider_Number(FormatProvider_Number const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21850 };
@@ -274,7 +274,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FormatProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FormatProvider(FormatProviderconst&) = delete;
+  FormatProvider(FormatProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21851 };

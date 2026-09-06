@@ -111,7 +111,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DynamicUtils_BinderWrapper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicUtils_BinderWrapper(DynamicUtils_BinderWrapperconst&) = delete;
+  DynamicUtils_BinderWrapper(DynamicUtils_BinderWrapper const&) = delete;
 
   /// @brief Field BinderTypeName offset 0xffffffff size 0x8
   static constexpr ::ConstString BinderTypeName{ u"Microsoft.CSharp.RuntimeBinder.Binder, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" };
@@ -169,7 +169,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DynamicUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicUtils(DynamicUtilsconst&) = delete;
+  DynamicUtils(DynamicUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13411 };

@@ -200,7 +200,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TextMeshProUGUI__DelayedGraphicRebuild_d__18", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextMeshProUGUI__DelayedGraphicRebuild_d__18(TextMeshProUGUI__DelayedGraphicRebuild_d__18const&) = delete;
+  TextMeshProUGUI__DelayedGraphicRebuild_d__18(TextMeshProUGUI__DelayedGraphicRebuild_d__18 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15864 };
@@ -321,7 +321,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TextMeshProUGUI__DelayedMaterialRebuild_d__19", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextMeshProUGUI__DelayedMaterialRebuild_d__19(TextMeshProUGUI__DelayedMaterialRebuild_d__19const&) = delete;
+  TextMeshProUGUI__DelayedMaterialRebuild_d__19(TextMeshProUGUI__DelayedMaterialRebuild_d__19 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15865 };
@@ -963,7 +963,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TextMeshProUGUI", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextMeshProUGUI(TextMeshProUGUIconst&) = delete;
+  TextMeshProUGUI(TextMeshProUGUI const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15866 };

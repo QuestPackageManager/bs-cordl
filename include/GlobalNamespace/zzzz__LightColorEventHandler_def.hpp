@@ -101,7 +101,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightColorEventHandler_GetColorDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightColorEventHandler_GetColorDelegate(LightColorEventHandler_GetColorDelegateconst&) = delete;
+  LightColorEventHandler_GetColorDelegate(LightColorEventHandler_GetColorDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5837 };
@@ -219,7 +219,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightColorEventHandler_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightColorEventHandler_InitData(LightColorEventHandler_InitDataconst&) = delete;
+  LightColorEventHandler_InitData(LightColorEventHandler_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5838 };
@@ -485,7 +485,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightColorEventHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightColorEventHandler(LightColorEventHandlerconst&) = delete;
+  LightColorEventHandler(LightColorEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5839 };

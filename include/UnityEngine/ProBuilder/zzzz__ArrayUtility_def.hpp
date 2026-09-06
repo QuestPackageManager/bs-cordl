@@ -151,7 +151,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ArrayUtility___c__23_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayUtility___c__23_1(ArrayUtility___c__23_1const&) = delete;
+  ArrayUtility___c__23_1(ArrayUtility___c__23_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16706 };
@@ -208,7 +208,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ArrayUtility___c__DisplayClass21_0_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayUtility___c__DisplayClass21_0_2(ArrayUtility___c__DisplayClass21_0_2const&) = delete;
+  ArrayUtility___c__DisplayClass21_0_2(ArrayUtility___c__DisplayClass21_0_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16707 };
@@ -342,7 +342,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ArrayUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayUtility(ArrayUtilityconst&) = delete;
+  ArrayUtility(ArrayUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16708 };

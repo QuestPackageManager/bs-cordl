@@ -228,7 +228,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__LoadRenderModel_Async", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__LoadRenderModel_Async(IVRRenderModels__LoadRenderModel_Asyncconst&) = delete;
+  IVRRenderModels__LoadRenderModel_Async(IVRRenderModels__LoadRenderModel_Async const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8289 };
@@ -273,7 +273,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__FreeRenderModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__FreeRenderModel(IVRRenderModels__FreeRenderModelconst&) = delete;
+  IVRRenderModels__FreeRenderModel(IVRRenderModels__FreeRenderModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8290 };
@@ -318,7 +318,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__LoadTexture_Async", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__LoadTexture_Async(IVRRenderModels__LoadTexture_Asyncconst&) = delete;
+  IVRRenderModels__LoadTexture_Async(IVRRenderModels__LoadTexture_Async const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8291 };
@@ -363,7 +363,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__FreeTexture", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__FreeTexture(IVRRenderModels__FreeTextureconst&) = delete;
+  IVRRenderModels__FreeTexture(IVRRenderModels__FreeTexture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8292 };
@@ -409,7 +409,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__LoadTextureD3D11_Async", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__LoadTextureD3D11_Async(IVRRenderModels__LoadTextureD3D11_Asyncconst&) = delete;
+  IVRRenderModels__LoadTextureD3D11_Async(IVRRenderModels__LoadTextureD3D11_Async const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8293 };
@@ -454,7 +454,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__LoadIntoTextureD3D11_Async", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__LoadIntoTextureD3D11_Async(IVRRenderModels__LoadIntoTextureD3D11_Asyncconst&) = delete;
+  IVRRenderModels__LoadIntoTextureD3D11_Async(IVRRenderModels__LoadIntoTextureD3D11_Async const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8294 };
@@ -499,7 +499,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__FreeTextureD3D11", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__FreeTextureD3D11(IVRRenderModels__FreeTextureD3D11const&) = delete;
+  IVRRenderModels__FreeTextureD3D11(IVRRenderModels__FreeTextureD3D11 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8295 };
@@ -545,7 +545,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetRenderModelName", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__GetRenderModelName(IVRRenderModels__GetRenderModelNameconst&) = delete;
+  IVRRenderModels__GetRenderModelName(IVRRenderModels__GetRenderModelName const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8296 };
@@ -590,7 +590,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetRenderModelCount", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__GetRenderModelCount(IVRRenderModels__GetRenderModelCountconst&) = delete;
+  IVRRenderModels__GetRenderModelCount(IVRRenderModels__GetRenderModelCount const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8297 };
@@ -635,7 +635,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentCount", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__GetComponentCount(IVRRenderModels__GetComponentCountconst&) = delete;
+  IVRRenderModels__GetComponentCount(IVRRenderModels__GetComponentCount const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8298 };
@@ -681,7 +681,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentName", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__GetComponentName(IVRRenderModels__GetComponentNameconst&) = delete;
+  IVRRenderModels__GetComponentName(IVRRenderModels__GetComponentName const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8299 };
@@ -726,7 +726,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentButtonMask", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__GetComponentButtonMask(IVRRenderModels__GetComponentButtonMaskconst&) = delete;
+  IVRRenderModels__GetComponentButtonMask(IVRRenderModels__GetComponentButtonMask const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8300 };
@@ -772,7 +772,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentRenderModelName", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__GetComponentRenderModelName(IVRRenderModels__GetComponentRenderModelNameconst&) = delete;
+  IVRRenderModels__GetComponentRenderModelName(IVRRenderModels__GetComponentRenderModelName const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8301 };
@@ -819,7 +819,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentStateForDevicePath", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__GetComponentStateForDevicePath(IVRRenderModels__GetComponentStateForDevicePathconst&) = delete;
+  IVRRenderModels__GetComponentStateForDevicePath(IVRRenderModels__GetComponentStateForDevicePath const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8302 };
@@ -868,7 +868,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetComponentState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__GetComponentState(IVRRenderModels__GetComponentStateconst&) = delete;
+  IVRRenderModels__GetComponentState(IVRRenderModels__GetComponentState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8303 };
@@ -913,7 +913,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__RenderModelHasComponent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__RenderModelHasComponent(IVRRenderModels__RenderModelHasComponentconst&) = delete;
+  IVRRenderModels__RenderModelHasComponent(IVRRenderModels__RenderModelHasComponent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8304 };
@@ -959,7 +959,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetRenderModelThumbnailURL", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__GetRenderModelThumbnailURL(IVRRenderModels__GetRenderModelThumbnailURLconst&) = delete;
+  IVRRenderModels__GetRenderModelThumbnailURL(IVRRenderModels__GetRenderModelThumbnailURL const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8305 };
@@ -1005,7 +1005,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetRenderModelOriginalPath", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__GetRenderModelOriginalPath(IVRRenderModels__GetRenderModelOriginalPathconst&) = delete;
+  IVRRenderModels__GetRenderModelOriginalPath(IVRRenderModels__GetRenderModelOriginalPath const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8306 };
@@ -1050,7 +1050,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRRenderModels__GetRenderModelErrorNameFromEnum", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRRenderModels__GetRenderModelErrorNameFromEnum(IVRRenderModels__GetRenderModelErrorNameFromEnumconst&) = delete;
+  IVRRenderModels__GetRenderModelErrorNameFromEnum(IVRRenderModels__GetRenderModelErrorNameFromEnum const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8307 };

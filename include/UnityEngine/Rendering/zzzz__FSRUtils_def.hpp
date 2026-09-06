@@ -88,7 +88,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FSRUtils_ShaderConstants", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FSRUtils_ShaderConstants(FSRUtils_ShaderConstantsconst&) = delete;
+  FSRUtils_ShaderConstants(FSRUtils_ShaderConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12280 };
@@ -140,7 +140,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FSRUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FSRUtils(FSRUtilsconst&) = delete;
+  FSRUtils(FSRUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12281 };

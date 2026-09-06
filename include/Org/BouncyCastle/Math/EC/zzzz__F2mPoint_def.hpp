@@ -89,7 +89,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "F2mPoint", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  F2mPoint(F2mPointconst&) = delete;
+  F2mPoint(F2mPoint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1572 };

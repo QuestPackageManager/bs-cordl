@@ -170,7 +170,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DatatypeImplementation_SchemaDatatypeMap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DatatypeImplementation_SchemaDatatypeMap(DatatypeImplementation_SchemaDatatypeMapconst&) = delete;
+  DatatypeImplementation_SchemaDatatypeMap(DatatypeImplementation_SchemaDatatypeMap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9612 };
@@ -1023,7 +1023,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DatatypeImplementation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DatatypeImplementation(DatatypeImplementationconst&) = delete;
+  DatatypeImplementation(DatatypeImplementation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9613 };

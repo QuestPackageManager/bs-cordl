@@ -80,7 +80,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BasicEventTypesWithKeywords_BasicEventTypesForKeyword", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BasicEventTypesWithKeywords_BasicEventTypesForKeyword(BasicEventTypesWithKeywords_BasicEventTypesForKeywordconst&) = delete;
+  BasicEventTypesWithKeywords_BasicEventTypesForKeyword(BasicEventTypesWithKeywords_BasicEventTypesForKeyword const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15397 };
@@ -145,7 +145,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BasicEventTypesWithKeywords", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BasicEventTypesWithKeywords(BasicEventTypesWithKeywordsconst&) = delete;
+  BasicEventTypesWithKeywords(BasicEventTypesWithKeywords const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15398 };

@@ -43,7 +43,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EqualInstruction_EqualChar", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EqualInstruction_EqualChar(EqualInstruction_EqualCharconst&) = delete;
+  EqualInstruction_EqualChar(EqualInstruction_EqualChar const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16316 };

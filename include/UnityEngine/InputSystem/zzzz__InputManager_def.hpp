@@ -574,7 +574,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputManager___c(InputManager___cconst&) = delete;
+  InputManager___c(InputManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8782 };
@@ -630,7 +630,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputManager___c__82_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputManager___c__82_1(InputManager___c__82_1const&) = delete;
+  InputManager___c__82_1(InputManager___c__82_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8783 };
@@ -847,7 +847,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputManager__ListControlLayouts_d__97", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputManager__ListControlLayouts_d__97(InputManager__ListControlLayouts_d__97const&) = delete;
+  InputManager__ListControlLayouts_d__97(InputManager__ListControlLayouts_d__97 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8784 };
@@ -1976,7 +1976,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputManager(InputManagerconst&) = delete;
+  InputManager(InputManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8785 };

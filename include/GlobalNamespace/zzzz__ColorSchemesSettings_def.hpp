@@ -146,7 +146,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorSchemesSettings___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorSchemesSettings___c(ColorSchemesSettings___cconst&) = delete;
+  ColorSchemesSettings___c(ColorSchemesSettings___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15150 };
@@ -288,7 +288,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorSchemesSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorSchemesSettings(ColorSchemesSettingsconst&) = delete;
+  ColorSchemesSettings(ColorSchemesSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15151 };

@@ -112,7 +112,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RsaKeyPairGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RsaKeyPairGenerator(RsaKeyPairGeneratorconst&) = delete;
+  RsaKeyPairGenerator(RsaKeyPairGenerator const&) = delete;
 
   /// @brief Field DefaultTests offset 0xffffffff size 0x4
   static constexpr int32_t DefaultTests{ static_cast<int32_t>(0x64) };

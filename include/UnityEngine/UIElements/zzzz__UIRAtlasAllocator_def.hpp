@@ -94,7 +94,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Row_UIRAtlasAllocator___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Row_UIRAtlasAllocator___c(Row_UIRAtlasAllocator___cconst&) = delete;
+  Row_UIRAtlasAllocator___c(Row_UIRAtlasAllocator___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4659 };
@@ -225,7 +225,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UIRAtlasAllocator_Row", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIRAtlasAllocator_Row(UIRAtlasAllocator_Rowconst&) = delete;
+  UIRAtlasAllocator_Row(UIRAtlasAllocator_Row const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4660 };
@@ -304,7 +304,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AreaNode_UIRAtlasAllocator___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AreaNode_UIRAtlasAllocator___c(AreaNode_UIRAtlasAllocator___cconst&) = delete;
+  AreaNode_UIRAtlasAllocator___c(AreaNode_UIRAtlasAllocator___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4661 };
@@ -387,7 +387,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UIRAtlasAllocator_AreaNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIRAtlasAllocator_AreaNode(UIRAtlasAllocator_AreaNodeconst&) = delete;
+  UIRAtlasAllocator_AreaNode(UIRAtlasAllocator_AreaNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4662 };
@@ -649,7 +649,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UIRAtlasAllocator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIRAtlasAllocator(UIRAtlasAllocatorconst&) = delete;
+  UIRAtlasAllocator(UIRAtlasAllocator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4663 };

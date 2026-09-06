@@ -134,7 +134,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FinalBlitPass_BlitPassNames", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FinalBlitPass_BlitPassNames(FinalBlitPass_BlitPassNamesconst&) = delete;
+  FinalBlitPass_BlitPassNames(FinalBlitPass_BlitPassNames const&) = delete;
 
   /// @brief Field BilinearSampler offset 0xffffffff size 0x8
   static constexpr ::ConstString BilinearSampler{ u"BilinearDebugDraw" };
@@ -349,7 +349,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FinalBlitPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FinalBlitPass_PassData(FinalBlitPass_PassDataconst&) = delete;
+  FinalBlitPass_PassData(FinalBlitPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13099 };
@@ -447,7 +447,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FinalBlitPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FinalBlitPass___c(FinalBlitPass___cconst&) = delete;
+  FinalBlitPass___c(FinalBlitPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13100 };
@@ -564,7 +564,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FinalBlitPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FinalBlitPass(FinalBlitPassconst&) = delete;
+  FinalBlitPass(FinalBlitPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13101 };

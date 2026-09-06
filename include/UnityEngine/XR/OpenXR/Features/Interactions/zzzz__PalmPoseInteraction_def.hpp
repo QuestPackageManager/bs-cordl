@@ -248,7 +248,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PalmPoseInteraction_PalmPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PalmPoseInteraction_PalmPose(PalmPoseInteraction_PalmPoseconst&) = delete;
+  PalmPoseInteraction_PalmPose(PalmPoseInteraction_PalmPose const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18593 };
@@ -353,7 +353,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PalmPoseInteraction___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PalmPoseInteraction___c(PalmPoseInteraction___cconst&) = delete;
+  PalmPoseInteraction___c(PalmPoseInteraction___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18594 };
@@ -419,7 +419,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PalmPoseInteraction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PalmPoseInteraction(PalmPoseInteractionconst&) = delete;
+  PalmPoseInteraction(PalmPoseInteraction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18595 };

@@ -148,7 +148,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SafeHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SafeHandle(SafeHandleconst&) = delete;
+  SafeHandle(SafeHandle const&) = delete;
 
   /// @brief Field RefCount_Mask offset 0xffffffff size 0x4
   static constexpr int32_t RefCount_Mask{ static_cast<int32_t>(0x7ffffffc) };

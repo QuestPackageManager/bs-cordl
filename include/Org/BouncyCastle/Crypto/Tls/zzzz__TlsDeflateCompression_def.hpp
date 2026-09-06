@@ -58,7 +58,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsDeflateCompression_DeflateOutputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TlsDeflateCompression_DeflateOutputStream(TlsDeflateCompression_DeflateOutputStreamconst&) = delete;
+  TlsDeflateCompression_DeflateOutputStream(TlsDeflateCompression_DeflateOutputStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1295 };
@@ -130,7 +130,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsDeflateCompression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TlsDeflateCompression(TlsDeflateCompressionconst&) = delete;
+  TlsDeflateCompression(TlsDeflateCompression const&) = delete;
 
   /// @brief Field LEVEL_DEFAULT offset 0xffffffff size 0x4
   static constexpr int32_t LEVEL_DEFAULT{ static_cast<int32_t>(0xffffffff) };

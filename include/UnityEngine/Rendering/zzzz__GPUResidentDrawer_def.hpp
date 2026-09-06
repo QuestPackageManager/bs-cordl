@@ -512,7 +512,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GPUResidentDrawer_Strings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GPUResidentDrawer_Strings(GPUResidentDrawer_Stringsconst&) = delete;
+  GPUResidentDrawer_Strings(GPUResidentDrawer_Strings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17620 };
@@ -792,7 +792,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GPUResidentDrawer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GPUResidentDrawer(GPUResidentDrawerconst&) = delete;
+  GPUResidentDrawer(GPUResidentDrawer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17621 };

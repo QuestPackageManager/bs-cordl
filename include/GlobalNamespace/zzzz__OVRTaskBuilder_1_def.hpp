@@ -109,7 +109,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTaskBuilder_1_PooledStateMachine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTaskBuilder_1_PooledStateMachine(OVRTaskBuilder_1_PooledStateMachineconst&) = delete;
+  OVRTaskBuilder_1_PooledStateMachine(OVRTaskBuilder_1_PooledStateMachine const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7862 };
@@ -181,7 +181,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTaskBuilder_1_PooledStateMachine_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTaskBuilder_1_PooledStateMachine_1(OVRTaskBuilder_1_PooledStateMachine_1const&) = delete;
+  OVRTaskBuilder_1_PooledStateMachine_1(OVRTaskBuilder_1_PooledStateMachine_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7863 };

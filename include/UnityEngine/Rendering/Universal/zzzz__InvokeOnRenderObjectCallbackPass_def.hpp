@@ -95,7 +95,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InvokeOnRenderObjectCallbackPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InvokeOnRenderObjectCallbackPass_PassData(InvokeOnRenderObjectCallbackPass_PassDataconst&) = delete;
+  InvokeOnRenderObjectCallbackPass_PassData(InvokeOnRenderObjectCallbackPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12841 };
@@ -163,7 +163,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InvokeOnRenderObjectCallbackPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InvokeOnRenderObjectCallbackPass___c(InvokeOnRenderObjectCallbackPass___cconst&) = delete;
+  InvokeOnRenderObjectCallbackPass___c(InvokeOnRenderObjectCallbackPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12842 };
@@ -210,7 +210,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InvokeOnRenderObjectCallbackPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InvokeOnRenderObjectCallbackPass(InvokeOnRenderObjectCallbackPassconst&) = delete;
+  InvokeOnRenderObjectCallbackPass(InvokeOnRenderObjectCallbackPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12843 };

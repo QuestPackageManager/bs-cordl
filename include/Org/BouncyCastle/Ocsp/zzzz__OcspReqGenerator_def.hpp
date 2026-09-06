@@ -103,7 +103,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OcspReqGenerator_RequestObject", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OcspReqGenerator_RequestObject(OcspReqGenerator_RequestObjectconst&) = delete;
+  OcspReqGenerator_RequestObject(OcspReqGenerator_RequestObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1614 };
@@ -212,7 +212,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OcspReqGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OcspReqGenerator(OcspReqGeneratorconst&) = delete;
+  OcspReqGenerator(OcspReqGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1615 };

@@ -68,7 +68,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FlyingSpriteEffect_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlyingSpriteEffect_Pool(FlyingSpriteEffect_Poolconst&) = delete;
+  FlyingSpriteEffect_Pool(FlyingSpriteEffect_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5775 };
@@ -139,7 +139,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FlyingSpriteEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlyingSpriteEffect(FlyingSpriteEffectconst&) = delete;
+  FlyingSpriteEffect(FlyingSpriteEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5776 };

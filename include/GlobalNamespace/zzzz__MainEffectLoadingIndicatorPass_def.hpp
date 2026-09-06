@@ -127,7 +127,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MainEffectLoadingIndicatorPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainEffectLoadingIndicatorPass_PassData(MainEffectLoadingIndicatorPass_PassDataconst&) = delete;
+  MainEffectLoadingIndicatorPass_PassData(MainEffectLoadingIndicatorPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20643 };
@@ -210,7 +210,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MainEffectLoadingIndicatorPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainEffectLoadingIndicatorPass___c(MainEffectLoadingIndicatorPass___cconst&) = delete;
+  MainEffectLoadingIndicatorPass___c(MainEffectLoadingIndicatorPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20644 };
@@ -319,7 +319,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MainEffectLoadingIndicatorPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainEffectLoadingIndicatorPass(MainEffectLoadingIndicatorPassconst&) = delete;
+  MainEffectLoadingIndicatorPass(MainEffectLoadingIndicatorPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20645 };

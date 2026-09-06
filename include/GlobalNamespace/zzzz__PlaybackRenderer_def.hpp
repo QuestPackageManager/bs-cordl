@@ -238,7 +238,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlaybackRenderer_PlaybackScreenshot", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlaybackRenderer_PlaybackScreenshot(PlaybackRenderer_PlaybackScreenshotconst&) = delete;
+  PlaybackRenderer_PlaybackScreenshot(PlaybackRenderer_PlaybackScreenshot const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6571 };
@@ -432,7 +432,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlaybackRenderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlaybackRenderer(PlaybackRendererconst&) = delete;
+  PlaybackRenderer(PlaybackRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6572 };

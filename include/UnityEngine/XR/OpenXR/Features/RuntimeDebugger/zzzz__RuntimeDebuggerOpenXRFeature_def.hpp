@@ -107,7 +107,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeDebuggerOpenXRFeature", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeDebuggerOpenXRFeature(RuntimeDebuggerOpenXRFeatureconst&) = delete;
+  RuntimeDebuggerOpenXRFeature(RuntimeDebuggerOpenXRFeature const&) = delete;
 
   /// @brief Field Library offset 0xffffffff size 0x8
   static constexpr ::ConstString Library{ u"openxr_runtime_debugger" };

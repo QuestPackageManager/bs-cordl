@@ -115,7 +115,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Projection___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Projection___c(Projection___cconst&) = delete;
+  Projection___c(Projection___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16790 };
@@ -186,7 +186,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Projection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Projection(Projectionconst&) = delete;
+  Projection(Projection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16791 };

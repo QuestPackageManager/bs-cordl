@@ -189,7 +189,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsManager_AddResourceLocatorInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MetaRemoteAssetsManager_AddResourceLocatorInput(MetaRemoteAssetsManager_AddResourceLocatorInputconst&) = delete;
+  MetaRemoteAssetsManager_AddResourceLocatorInput(MetaRemoteAssetsManager_AddResourceLocatorInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22487 };
@@ -279,7 +279,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MetaRemoteAssetsManager___c(MetaRemoteAssetsManager___cconst&) = delete;
+  MetaRemoteAssetsManager___c(MetaRemoteAssetsManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22488 };
@@ -865,7 +865,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MetaRemoteAssetsManager(MetaRemoteAssetsManagerconst&) = delete;
+  MetaRemoteAssetsManager(MetaRemoteAssetsManager const&) = delete;
 
   /// @brief Field MetaServerHost offset 0xffffffff size 0x8
   static constexpr ::ConstString MetaServerHost{ u"https://www.oculus.com" };

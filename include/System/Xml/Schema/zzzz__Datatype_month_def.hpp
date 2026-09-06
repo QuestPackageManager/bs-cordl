@@ -44,7 +44,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_month", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Datatype_month(Datatype_monthconst&) = delete;
+  Datatype_month(Datatype_month const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9639 };

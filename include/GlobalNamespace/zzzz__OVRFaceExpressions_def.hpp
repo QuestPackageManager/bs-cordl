@@ -106,7 +106,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRFaceExpressions_WeightProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRFaceExpressions_WeightProvider(OVRFaceExpressions_WeightProviderconst&) = delete;
+  OVRFaceExpressions_WeightProvider(OVRFaceExpressions_WeightProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7142 };
@@ -1001,7 +1001,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRFaceExpressions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRFaceExpressions(OVRFaceExpressionsconst&) = delete;
+  OVRFaceExpressions(OVRFaceExpressions const&) = delete;
 
   /// @brief Field FaceTrackingPermission value: I32(0)
   static ::GlobalNamespace::OVRPermissionsRequester_Permission const FaceTrackingPermission;

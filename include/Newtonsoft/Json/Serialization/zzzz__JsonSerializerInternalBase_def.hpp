@@ -101,7 +101,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonSerializerInternalBase_ReferenceEqualsEqualityComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSerializerInternalBase_ReferenceEqualsEqualityComparer(JsonSerializerInternalBase_ReferenceEqualsEqualityComparerconst&) = delete;
+  JsonSerializerInternalBase_ReferenceEqualsEqualityComparer(JsonSerializerInternalBase_ReferenceEqualsEqualityComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13515 };
@@ -206,7 +206,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonSerializerInternalBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSerializerInternalBase(JsonSerializerInternalBaseconst&) = delete;
+  JsonSerializerInternalBase(JsonSerializerInternalBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13516 };

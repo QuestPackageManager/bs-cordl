@@ -75,7 +75,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveCheckersManager_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionObjectiveCheckersManager_InitData(MissionObjectiveCheckersManager_InitDataconst&) = delete;
+  MissionObjectiveCheckersManager_InitData(MissionObjectiveCheckersManager_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6796 };
@@ -237,7 +237,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveCheckersManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionObjectiveCheckersManager(MissionObjectiveCheckersManagerconst&) = delete;
+  MissionObjectiveCheckersManager(MissionObjectiveCheckersManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6797 };

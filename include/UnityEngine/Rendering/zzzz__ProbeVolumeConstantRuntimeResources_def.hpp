@@ -86,7 +86,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeConstantRuntimeResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumeConstantRuntimeResources(ProbeVolumeConstantRuntimeResourcesconst&) = delete;
+  ProbeVolumeConstantRuntimeResources(ProbeVolumeConstantRuntimeResources const&) = delete;
 
   /// @brief Field NB_SKY_PRECOMPUTED_DIRECTIONS offset 0xffffffff size 0x4
   static constexpr int32_t NB_SKY_PRECOMPUTED_DIRECTIONS{ static_cast<int32_t>(0xff) };

@@ -591,7 +591,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CryptoStream___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CryptoStream___c(CryptoStream___cconst&) = delete;
+  CryptoStream___c(CryptoStream___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2928 };
@@ -889,7 +889,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CryptoStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CryptoStream(CryptoStreamconst&) = delete;
+  CryptoStream(CryptoStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2929 };

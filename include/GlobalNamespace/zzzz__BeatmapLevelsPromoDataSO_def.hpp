@@ -110,7 +110,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelsPromoDataSO_BeatmapLevelsPromo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelsPromoDataSO_BeatmapLevelsPromo(BeatmapLevelsPromoDataSO_BeatmapLevelsPromoconst&) = delete;
+  BeatmapLevelsPromoDataSO_BeatmapLevelsPromo(BeatmapLevelsPromoDataSO_BeatmapLevelsPromo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15178 };
@@ -193,7 +193,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelsPromoDataSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelsPromoDataSO(BeatmapLevelsPromoDataSOconst&) = delete;
+  BeatmapLevelsPromoDataSO(BeatmapLevelsPromoDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15179 };

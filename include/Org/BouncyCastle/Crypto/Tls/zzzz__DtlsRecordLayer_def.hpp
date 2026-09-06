@@ -320,7 +320,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DtlsRecordLayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DtlsRecordLayer(DtlsRecordLayerconst&) = delete;
+  DtlsRecordLayer(DtlsRecordLayer const&) = delete;
 
   /// @brief Field MAX_FRAGMENT_LENGTH offset 0xffffffff size 0x4
   static constexpr int32_t MAX_FRAGMENT_LENGTH{ static_cast<int32_t>(0x4000) };

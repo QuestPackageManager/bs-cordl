@@ -93,7 +93,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DecalProjector_DecalProjectorAction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalProjector_DecalProjectorAction(DecalProjector_DecalProjectorActionconst&) = delete;
+  DecalProjector_DecalProjectorAction(DecalProjector_DecalProjectorAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12686 };
@@ -496,7 +496,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DecalProjector", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalProjector(DecalProjectorconst&) = delete;
+  DecalProjector(DecalProjector const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12687 };

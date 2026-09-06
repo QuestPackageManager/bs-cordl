@@ -88,7 +88,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalInactivePlayerInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLocalInactivePlayerInstaller(MultiplayerLocalInactivePlayerInstallerconst&) = delete;
+  MultiplayerLocalInactivePlayerInstaller(MultiplayerLocalInactivePlayerInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6100 };

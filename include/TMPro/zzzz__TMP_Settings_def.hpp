@@ -98,7 +98,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_Settings_LineBreakingTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_Settings_LineBreakingTable(TMP_Settings_LineBreakingTableconst&) = delete;
+  TMP_Settings_LineBreakingTable(TMP_Settings_LineBreakingTable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15974 };
@@ -658,7 +658,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_Settings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_Settings(TMP_Settingsconst&) = delete;
+  TMP_Settings(TMP_Settings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15975 };

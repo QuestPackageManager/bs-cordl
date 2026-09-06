@@ -194,7 +194,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TextShadow_OffsetProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_TextShadow_OffsetProperty(PropertyBag_TextShadow_OffsetPropertyconst&) = delete;
+  PropertyBag_TextShadow_OffsetProperty(PropertyBag_TextShadow_OffsetProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5105 };
@@ -279,7 +279,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TextShadow_BlurRadiusProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_TextShadow_BlurRadiusProperty(PropertyBag_TextShadow_BlurRadiusPropertyconst&) = delete;
+  PropertyBag_TextShadow_BlurRadiusProperty(PropertyBag_TextShadow_BlurRadiusProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5106 };
@@ -364,7 +364,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TextShadow_ColorProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_TextShadow_ColorProperty(PropertyBag_TextShadow_ColorPropertyconst&) = delete;
+  PropertyBag_TextShadow_ColorProperty(PropertyBag_TextShadow_ColorProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5107 };
@@ -419,7 +419,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TextShadow_PropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextShadow_PropertyBag(TextShadow_PropertyBagconst&) = delete;
+  TextShadow_PropertyBag(TextShadow_PropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5108 };

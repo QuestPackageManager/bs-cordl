@@ -153,7 +153,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelSelectionFlowCoordinator_State", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelSelectionFlowCoordinator_State(LevelSelectionFlowCoordinator_Stateconst&) = delete;
+  LevelSelectionFlowCoordinator_State(LevelSelectionFlowCoordinator_State const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6833 };
@@ -407,7 +407,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelSelectionFlowCoordinator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelSelectionFlowCoordinator(LevelSelectionFlowCoordinatorconst&) = delete;
+  LevelSelectionFlowCoordinator(LevelSelectionFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6834 };

@@ -99,7 +99,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MockedEntitlements___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockedEntitlements___c__DisplayClass5_0(MockedEntitlements___c__DisplayClass5_0const&) = delete;
+  MockedEntitlements___c__DisplayClass5_0(MockedEntitlements___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22467 };
@@ -244,7 +244,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MockedEntitlements", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockedEntitlements(MockedEntitlementsconst&) = delete;
+  MockedEntitlements(MockedEntitlements const&) = delete;
 
   /// @brief Field VENDOR value: U8(2)
   static ::OculusStudios::Platform::Core::Vendor const VENDOR;

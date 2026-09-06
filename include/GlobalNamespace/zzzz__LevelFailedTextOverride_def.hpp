@@ -113,7 +113,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelFailedTextOverride_LanguageOverride", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelFailedTextOverride_LanguageOverride(LevelFailedTextOverride_LanguageOverrideconst&) = delete;
+  LevelFailedTextOverride_LanguageOverride(LevelFailedTextOverride_LanguageOverride const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23489 };
@@ -174,7 +174,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelFailedTextOverride___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelFailedTextOverride___c__DisplayClass6_0(LevelFailedTextOverride___c__DisplayClass6_0const&) = delete;
+  LevelFailedTextOverride___c__DisplayClass6_0(LevelFailedTextOverride___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23490 };
@@ -358,7 +358,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelFailedTextOverride", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelFailedTextOverride(LevelFailedTextOverrideconst&) = delete;
+  LevelFailedTextOverride(LevelFailedTextOverride const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23492 };

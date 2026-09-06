@@ -87,7 +87,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradient_Element", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassBackgroundColorsGradient_Element(BloomPrePassBackgroundColorsGradient_Elementconst&) = delete;
+  BloomPrePassBackgroundColorsGradient_Element(BloomPrePassBackgroundColorsGradient_Element const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19448 };
@@ -159,7 +159,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradient", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassBackgroundColorsGradient(BloomPrePassBackgroundColorsGradientconst&) = delete;
+  BloomPrePassBackgroundColorsGradient(BloomPrePassBackgroundColorsGradient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19449 };

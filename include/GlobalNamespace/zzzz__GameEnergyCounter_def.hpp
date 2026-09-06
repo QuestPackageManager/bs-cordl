@@ -126,7 +126,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameEnergyCounter_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameEnergyCounter_InitData(GameEnergyCounter_InitDataconst&) = delete;
+  GameEnergyCounter_InitData(GameEnergyCounter_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6201 };
@@ -488,7 +488,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameEnergyCounter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameEnergyCounter(GameEnergyCounterconst&) = delete;
+  GameEnergyCounter(GameEnergyCounter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6202 };

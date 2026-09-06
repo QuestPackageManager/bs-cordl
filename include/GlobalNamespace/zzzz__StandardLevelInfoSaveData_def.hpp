@@ -160,7 +160,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelInfoSaveData_DifficultyBeatmap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelInfoSaveData_DifficultyBeatmap(StandardLevelInfoSaveData_DifficultyBeatmapconst&) = delete;
+  StandardLevelInfoSaveData_DifficultyBeatmap(StandardLevelInfoSaveData_DifficultyBeatmap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15200 };
@@ -267,7 +267,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelInfoSaveData_DifficultyBeatmapSet", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelInfoSaveData_DifficultyBeatmapSet(StandardLevelInfoSaveData_DifficultyBeatmapSetconst&) = delete;
+  StandardLevelInfoSaveData_DifficultyBeatmapSet(StandardLevelInfoSaveData_DifficultyBeatmapSet const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15199 };
@@ -587,7 +587,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelInfoSaveData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelInfoSaveData(StandardLevelInfoSaveDataconst&) = delete;
+  StandardLevelInfoSaveData(StandardLevelInfoSaveData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15201 };

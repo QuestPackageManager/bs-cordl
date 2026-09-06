@@ -337,7 +337,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseVerticalCollectionView_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseVerticalCollectionView_UxmlTraits(BaseVerticalCollectionView_UxmlTraitsconst&) = delete;
+  BaseVerticalCollectionView_UxmlTraits(BaseVerticalCollectionView_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4125 };
@@ -545,7 +545,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseVerticalCollectionView_Selection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseVerticalCollectionView_Selection(BaseVerticalCollectionView_Selectionconst&) = delete;
+  BaseVerticalCollectionView_Selection(BaseVerticalCollectionView_Selection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4126 };
@@ -635,7 +635,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseVerticalCollectionView___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseVerticalCollectionView___c(BaseVerticalCollectionView___cconst&) = delete;
+  BaseVerticalCollectionView___c(BaseVerticalCollectionView___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4127 };
@@ -683,7 +683,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseVerticalCollectionView___c__DisplayClass180_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseVerticalCollectionView___c__DisplayClass180_0(BaseVerticalCollectionView___c__DisplayClass180_0const&) = delete;
+  BaseVerticalCollectionView___c__DisplayClass180_0(BaseVerticalCollectionView___c__DisplayClass180_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4128 };
@@ -935,7 +935,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseVerticalCollectionView__get_selectedItems_d__88", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseVerticalCollectionView__get_selectedItems_d__88(BaseVerticalCollectionView__get_selectedItems_d__88const&) = delete;
+  BaseVerticalCollectionView__get_selectedItems_d__88(BaseVerticalCollectionView__get_selectedItems_d__88 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4131 };
@@ -1872,7 +1872,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseVerticalCollectionView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseVerticalCollectionView(BaseVerticalCollectionViewconst&) = delete;
+  BaseVerticalCollectionView(BaseVerticalCollectionView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4132 };

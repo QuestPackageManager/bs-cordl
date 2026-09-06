@@ -64,7 +64,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DesEdeParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DesEdeParameters(DesEdeParametersconst&) = delete;
+  DesEdeParameters(DesEdeParameters const&) = delete;
 
   /// @brief Field DesEdeKeyLength offset 0xffffffff size 0x4
   static constexpr int32_t DesEdeKeyLength{ static_cast<int32_t>(0x18) };

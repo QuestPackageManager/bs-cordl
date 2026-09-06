@@ -104,7 +104,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RestartGameCommand___c__DisplayClass7_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RestartGameCommand___c__DisplayClass7_0(RestartGameCommand___c__DisplayClass7_0const&) = delete;
+  RestartGameCommand___c__DisplayClass7_0(RestartGameCommand___c__DisplayClass7_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19409 };
@@ -261,7 +261,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RestartGameCommand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RestartGameCommand(RestartGameCommandconst&) = delete;
+  RestartGameCommand(RestartGameCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19411 };

@@ -633,7 +633,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter___c__DisplayClass46_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenshotLevelStarter___c__DisplayClass46_0(ScreenshotLevelStarter___c__DisplayClass46_0const&) = delete;
+  ScreenshotLevelStarter___c__DisplayClass46_0(ScreenshotLevelStarter___c__DisplayClass46_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6766 };
@@ -716,7 +716,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter___c__DisplayClass46_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenshotLevelStarter___c__DisplayClass46_1(ScreenshotLevelStarter___c__DisplayClass46_1const&) = delete;
+  ScreenshotLevelStarter___c__DisplayClass46_1(ScreenshotLevelStarter___c__DisplayClass46_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6767 };
@@ -958,7 +958,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter__RunScreenshotLevel_d__46", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenshotLevelStarter__RunScreenshotLevel_d__46(ScreenshotLevelStarter__RunScreenshotLevel_d__46const&) = delete;
+  ScreenshotLevelStarter__RunScreenshotLevel_d__46(ScreenshotLevelStarter__RunScreenshotLevel_d__46 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6768 };
@@ -1149,7 +1149,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45(ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45const&) = delete;
+  ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45(ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6769 };
@@ -1378,7 +1378,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenshotLevelStarter(ScreenshotLevelStarterconst&) = delete;
+  ScreenshotLevelStarter(ScreenshotLevelStarter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6770 };

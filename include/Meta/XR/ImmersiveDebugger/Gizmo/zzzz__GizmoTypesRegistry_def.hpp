@@ -173,7 +173,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GizmoTypesRegistry___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GizmoTypesRegistry___c(GizmoTypesRegistry___cconst&) = delete;
+  GizmoTypesRegistry___c(GizmoTypesRegistry___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18480 };
@@ -233,7 +233,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GizmoTypesRegistry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GizmoTypesRegistry(GizmoTypesRegistryconst&) = delete;
+  GizmoTypesRegistry(GizmoTypesRegistry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18481 };

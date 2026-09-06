@@ -211,7 +211,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncSceneContext___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncSceneContext___c(AsyncSceneContext___cconst&) = delete;
+  AsyncSceneContext___c(AsyncSceneContext___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21554 };
@@ -285,7 +285,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncSceneContext___c__DisplayClass15_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncSceneContext___c__DisplayClass15_0(AsyncSceneContext___c__DisplayClass15_0const&) = delete;
+  AsyncSceneContext___c__DisplayClass15_0(AsyncSceneContext___c__DisplayClass15_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21555 };
@@ -352,7 +352,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncSceneContext___c__DisplayClass15_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncSceneContext___c__DisplayClass15_1(AsyncSceneContext___c__DisplayClass15_1const&) = delete;
+  AsyncSceneContext___c__DisplayClass15_1(AsyncSceneContext___c__DisplayClass15_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21556 };
@@ -669,7 +669,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncSceneContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncSceneContext(AsyncSceneContextconst&) = delete;
+  AsyncSceneContext(AsyncSceneContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21559 };

@@ -73,7 +73,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Event_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Event_BindingsMarshaller(Event_BindingsMarshallerconst&) = delete;
+  Event_BindingsMarshaller(Event_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19864 };
@@ -483,7 +483,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Event", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Event(Eventconst&) = delete;
+  Event(Event const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19865 };

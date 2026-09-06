@@ -251,7 +251,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IPAddress", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IPAddress(IPAddressconst&) = delete;
+  IPAddress(IPAddress const&) = delete;
 
   /// @brief Field LoopbackMask offset 0xffffffff size 0x8
   static constexpr int64_t LoopbackMask{ static_cast<int64_t>(0xff) };

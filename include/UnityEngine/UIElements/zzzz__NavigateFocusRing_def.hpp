@@ -80,7 +80,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NavigateFocusRing_ChangeDirection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NavigateFocusRing_ChangeDirection(NavigateFocusRing_ChangeDirectionconst&) = delete;
+  NavigateFocusRing_ChangeDirection(NavigateFocusRing_ChangeDirection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4585 };
@@ -275,7 +275,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NavigateFocusRing", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NavigateFocusRing(NavigateFocusRingconst&) = delete;
+  NavigateFocusRing(NavigateFocusRing const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4587 };

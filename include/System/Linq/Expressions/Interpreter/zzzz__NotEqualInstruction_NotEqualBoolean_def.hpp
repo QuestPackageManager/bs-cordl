@@ -43,7 +43,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NotEqualInstruction_NotEqualBoolean", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NotEqualInstruction_NotEqualBoolean(NotEqualInstruction_NotEqualBooleanconst&) = delete;
+  NotEqualInstruction_NotEqualBoolean(NotEqualInstruction_NotEqualBoolean const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16517 };

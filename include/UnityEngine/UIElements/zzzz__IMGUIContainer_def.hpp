@@ -111,7 +111,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IMGUIContainer_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IMGUIContainer_UxmlFactory(IMGUIContainer_UxmlFactoryconst&) = delete;
+  IMGUIContainer_UxmlFactory(IMGUIContainer_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4607 };
@@ -147,7 +147,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IMGUIContainer_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IMGUIContainer_UxmlTraits(IMGUIContainer_UxmlTraitsconst&) = delete;
+  IMGUIContainer_UxmlTraits(IMGUIContainer_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4608 };
@@ -657,7 +657,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IMGUIContainer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IMGUIContainer(IMGUIContainerconst&) = delete;
+  IMGUIContainer(IMGUIContainer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4610 };

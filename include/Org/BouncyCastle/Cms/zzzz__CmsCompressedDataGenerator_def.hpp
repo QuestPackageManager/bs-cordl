@@ -46,7 +46,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsCompressedDataGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsCompressedDataGenerator(CmsCompressedDataGeneratorconst&) = delete;
+  CmsCompressedDataGenerator(CmsCompressedDataGenerator const&) = delete;
 
   /// @brief Field ZLib offset 0xffffffff size 0x8
   static constexpr ::ConstString ZLib{ u"1.2.840.113549.1.9.16.3.8" };

@@ -144,7 +144,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ZenUtilInternal___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ZenUtilInternal___c(ZenUtilInternal___cconst&) = delete;
+  ZenUtilInternal___c(ZenUtilInternal___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14749 };
@@ -192,7 +192,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ZenUtilInternal___c__DisplayClass10_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ZenUtilInternal___c__DisplayClass10_0(ZenUtilInternal___c__DisplayClass10_0const&) = delete;
+  ZenUtilInternal___c__DisplayClass10_0(ZenUtilInternal___c__DisplayClass10_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14750 };
@@ -336,7 +336,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ZenUtilInternal__GetAllSceneContexts_d__3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ZenUtilInternal__GetAllSceneContexts_d__3(ZenUtilInternal__GetAllSceneContexts_d__3const&) = delete;
+  ZenUtilInternal__GetAllSceneContexts_d__3(ZenUtilInternal__GetAllSceneContexts_d__3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14751 };
@@ -428,7 +428,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ZenUtilInternal", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ZenUtilInternal(ZenUtilInternalconst&) = delete;
+  ZenUtilInternal(ZenUtilInternal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14752 };

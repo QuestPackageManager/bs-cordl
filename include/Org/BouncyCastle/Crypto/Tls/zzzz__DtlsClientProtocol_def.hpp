@@ -264,7 +264,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DtlsClientProtocol_ClientHandshakeState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DtlsClientProtocol_ClientHandshakeState(DtlsClientProtocol_ClientHandshakeStateconst&) = delete;
+  DtlsClientProtocol_ClientHandshakeState(DtlsClientProtocol_ClientHandshakeState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1223 };
@@ -445,7 +445,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DtlsClientProtocol", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DtlsClientProtocol(DtlsClientProtocolconst&) = delete;
+  DtlsClientProtocol(DtlsClientProtocol const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1224 };

@@ -99,7 +99,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RectField_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RectField_UxmlFactory(RectField_UxmlFactoryconst&) = delete;
+  RectField_UxmlFactory(RectField_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4149 };
@@ -174,7 +174,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RectField_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RectField_UxmlTraits(RectField_UxmlTraitsconst&) = delete;
+  RectField_UxmlTraits(RectField_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4150 };
@@ -325,7 +325,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RectField___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RectField___c(RectField___cconst&) = delete;
+  RectField___c(RectField___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4151 };
@@ -396,7 +396,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RectField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RectField(RectFieldconst&) = delete;
+  RectField(RectField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4152 };

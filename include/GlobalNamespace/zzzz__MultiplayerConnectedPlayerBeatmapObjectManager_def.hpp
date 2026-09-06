@@ -173,7 +173,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerBeatmapObjectManager_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerConnectedPlayerBeatmapObjectManager_InitData(MultiplayerConnectedPlayerBeatmapObjectManager_InitDataconst&) = delete;
+  MultiplayerConnectedPlayerBeatmapObjectManager_InitData(MultiplayerConnectedPlayerBeatmapObjectManager_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6052 };
@@ -388,7 +388,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerBeatmapObjectManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerConnectedPlayerBeatmapObjectManager(MultiplayerConnectedPlayerBeatmapObjectManagerconst&) = delete;
+  MultiplayerConnectedPlayerBeatmapObjectManager(MultiplayerConnectedPlayerBeatmapObjectManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6053 };

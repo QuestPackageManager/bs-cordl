@@ -50,7 +50,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SampleTelemetryEvents_EventTypes", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SampleTelemetryEvents_EventTypes(SampleTelemetryEvents_EventTypesconst&) = delete;
+  SampleTelemetryEvents_EventTypes(SampleTelemetryEvents_EventTypes const&) = delete;
 
   /// @brief Field Close offset 0xffffffff size 0x4
   static constexpr int32_t Close{ static_cast<int32_t>(0x9b80cf0) };
@@ -89,7 +89,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SampleTelemetryEvents_AnnotationTypes", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SampleTelemetryEvents_AnnotationTypes(SampleTelemetryEvents_AnnotationTypesconst&) = delete;
+  SampleTelemetryEvents_AnnotationTypes(SampleTelemetryEvents_AnnotationTypes const&) = delete;
 
   /// @brief Field BuildTarget offset 0xffffffff size 0x8
   static constexpr ::ConstString BuildTarget{ u"BuildTarget" };
@@ -141,7 +141,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SampleTelemetryEvents", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SampleTelemetryEvents(SampleTelemetryEventsconst&) = delete;
+  SampleTelemetryEvents(SampleTelemetryEvents const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8570 };

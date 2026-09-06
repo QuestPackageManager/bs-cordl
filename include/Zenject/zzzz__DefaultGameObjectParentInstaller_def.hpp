@@ -84,7 +84,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultGameObjectParentInstaller_DefaultParentObjectDestroyer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultGameObjectParentInstaller_DefaultParentObjectDestroyer(DefaultGameObjectParentInstaller_DefaultParentObjectDestroyerconst&) = delete;
+  DefaultGameObjectParentInstaller_DefaultParentObjectDestroyer(DefaultGameObjectParentInstaller_DefaultParentObjectDestroyer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14701 };
@@ -145,7 +145,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultGameObjectParentInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultGameObjectParentInstaller(DefaultGameObjectParentInstallerconst&) = delete;
+  DefaultGameObjectParentInstaller(DefaultGameObjectParentInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14702 };

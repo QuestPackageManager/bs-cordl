@@ -501,7 +501,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConfigurableJoint", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConfigurableJoint(ConfigurableJointconst&) = delete;
+  ConfigurableJoint(ConfigurableJoint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18641 };

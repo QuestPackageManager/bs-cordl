@@ -164,7 +164,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData(ScreenSpaceShadowsPass_ScreenSpaceShadows_PassDataconst&) = delete;
+  ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData(ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12928 };
@@ -237,7 +237,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadowsPass_ScreenSpaceShadows___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenSpaceShadowsPass_ScreenSpaceShadows___c(ScreenSpaceShadowsPass_ScreenSpaceShadows___cconst&) = delete;
+  ScreenSpaceShadowsPass_ScreenSpaceShadows___c(ScreenSpaceShadowsPass_ScreenSpaceShadows___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12929 };
@@ -346,7 +346,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadows_ScreenSpaceShadowsPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenSpaceShadows_ScreenSpaceShadowsPass(ScreenSpaceShadows_ScreenSpaceShadowsPassconst&) = delete;
+  ScreenSpaceShadows_ScreenSpaceShadowsPass(ScreenSpaceShadows_ScreenSpaceShadowsPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12930 };
@@ -424,7 +424,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData(ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassDataconst&) = delete;
+  ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData(ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12931 };
@@ -492,7 +492,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c(ScreenSpaceShadowsPostPass_ScreenSpaceShadows___cconst&) = delete;
+  ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c(ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12932 };
@@ -552,7 +552,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadows_ScreenSpaceShadowsPostPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenSpaceShadows_ScreenSpaceShadowsPostPass(ScreenSpaceShadows_ScreenSpaceShadowsPostPassconst&) = delete;
+  ScreenSpaceShadows_ScreenSpaceShadowsPostPass(ScreenSpaceShadows_ScreenSpaceShadowsPostPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12933 };
@@ -653,7 +653,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceShadows", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenSpaceShadows(ScreenSpaceShadowsconst&) = delete;
+  ScreenSpaceShadows(ScreenSpaceShadows const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12934 };

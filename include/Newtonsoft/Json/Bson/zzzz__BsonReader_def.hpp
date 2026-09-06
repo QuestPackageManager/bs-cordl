@@ -188,7 +188,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BsonReader_ContainerContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BsonReader_ContainerContext(BsonReader_ContainerContextconst&) = delete;
+  BsonReader_ContainerContext(BsonReader_ContainerContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13694 };
@@ -470,7 +470,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BsonReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BsonReader(BsonReaderconst&) = delete;
+  BsonReader(BsonReader const&) = delete;
 
   /// @brief Field MaxCharBytesSize offset 0xffffffff size 0x4
   static constexpr int32_t MaxCharBytesSize{ static_cast<int32_t>(0x80) };

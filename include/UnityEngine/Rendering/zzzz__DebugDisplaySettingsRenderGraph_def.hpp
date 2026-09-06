@@ -61,7 +61,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRenderGraph_SettingsPanel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsRenderGraph_SettingsPanel(DebugDisplaySettingsRenderGraph_SettingsPanelconst&) = delete;
+  DebugDisplaySettingsRenderGraph_SettingsPanel(DebugDisplaySettingsRenderGraph_SettingsPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12181 };
@@ -118,7 +118,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRenderGraph", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsRenderGraph(DebugDisplaySettingsRenderGraphconst&) = delete;
+  DebugDisplaySettingsRenderGraph(DebugDisplaySettingsRenderGraph const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12182 };

@@ -516,7 +516,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualElement_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElement_UxmlFactory(VisualElement_UxmlFactoryconst&) = delete;
+  VisualElement_UxmlFactory(VisualElement_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4832 };
@@ -698,7 +698,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualElement_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElement_UxmlTraits(VisualElement_UxmlTraitsconst&) = delete;
+  VisualElement_UxmlTraits(VisualElement_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4833 };
@@ -1185,7 +1185,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualElement_BaseVisualElementScheduledItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElement_BaseVisualElementScheduledItem(VisualElement_BaseVisualElementScheduledItemconst&) = delete;
+  VisualElement_BaseVisualElementScheduledItem(VisualElement_BaseVisualElementScheduledItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4837 };
@@ -1267,7 +1267,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualElement_VisualElementScheduledItem_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElement_VisualElementScheduledItem_1(VisualElement_VisualElementScheduledItem_1const&) = delete;
+  VisualElement_VisualElementScheduledItem_1(VisualElement_VisualElementScheduledItem_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4838 };
@@ -1307,7 +1307,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualElement_TimerStateScheduledItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElement_TimerStateScheduledItem(VisualElement_TimerStateScheduledItemconst&) = delete;
+  VisualElement_TimerStateScheduledItem(VisualElement_TimerStateScheduledItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4839 };
@@ -1345,7 +1345,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualElement_SimpleScheduledItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElement_SimpleScheduledItem(VisualElement_SimpleScheduledItemconst&) = delete;
+  VisualElement_SimpleScheduledItem(VisualElement_SimpleScheduledItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4840 };
@@ -1436,7 +1436,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualElement_CustomStyleAccess", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElement_CustomStyleAccess(VisualElement_CustomStyleAccessconst&) = delete;
+  VisualElement_CustomStyleAccess(VisualElement_CustomStyleAccess const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4841 };
@@ -1524,7 +1524,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualElement_TypeData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElement_TypeData(VisualElement_TypeDataconst&) = delete;
+  VisualElement_TypeData(VisualElement_TypeData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4842 };
@@ -1598,7 +1598,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualElement___c__DisplayClass516_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElement___c__DisplayClass516_0(VisualElement___c__DisplayClass516_0const&) = delete;
+  VisualElement___c__DisplayClass516_0(VisualElement___c__DisplayClass516_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4843 };
@@ -4179,7 +4179,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElement(VisualElementconst&) = delete;
+  VisualElement(VisualElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4844 };

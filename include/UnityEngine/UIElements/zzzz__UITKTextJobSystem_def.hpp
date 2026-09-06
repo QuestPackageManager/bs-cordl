@@ -183,7 +183,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UITKTextJobSystem_ManagedJobData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UITKTextJobSystem_ManagedJobData(UITKTextJobSystem_ManagedJobDataconst&) = delete;
+  UITKTextJobSystem_ManagedJobData(UITKTextJobSystem_ManagedJobData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5095 };
@@ -378,7 +378,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UITKTextJobSystem___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UITKTextJobSystem___c(UITKTextJobSystem___cconst&) = delete;
+  UITKTextJobSystem___c(UITKTextJobSystem___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5098 };
@@ -570,7 +570,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UITKTextJobSystem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UITKTextJobSystem(UITKTextJobSystemconst&) = delete;
+  UITKTextJobSystem(UITKTextJobSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5099 };

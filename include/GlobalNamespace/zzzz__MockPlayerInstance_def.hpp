@@ -197,7 +197,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MockPlayerInstance_FsmTickRunnable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockPlayerInstance_FsmTickRunnable(MockPlayerInstance_FsmTickRunnableconst&) = delete;
+  MockPlayerInstance_FsmTickRunnable(MockPlayerInstance_FsmTickRunnable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22232 };
@@ -267,7 +267,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MockPlayerInstance___c__DisplayClass26_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockPlayerInstance___c__DisplayClass26_0_1(MockPlayerInstance___c__DisplayClass26_0_1const&) = delete;
+  MockPlayerInstance___c__DisplayClass26_0_1(MockPlayerInstance___c__DisplayClass26_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22233 };
@@ -722,7 +722,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MockPlayerInstance", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockPlayerInstance(MockPlayerInstanceconst&) = delete;
+  MockPlayerInstance(MockPlayerInstance const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22237 };

@@ -197,7 +197,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorBoostEventItemConverter__Convert_d__2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorBoostEventItemConverter__Convert_d__2(ColorBoostEventItemConverter__Convert_d__2const&) = delete;
+  ColorBoostEventItemConverter__Convert_d__2(ColorBoostEventItemConverter__Convert_d__2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15439 };
@@ -278,7 +278,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorBoostEventItemConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorBoostEventItemConverter(ColorBoostEventItemConverterconst&) = delete;
+  ColorBoostEventItemConverter(ColorBoostEventItemConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15440 };

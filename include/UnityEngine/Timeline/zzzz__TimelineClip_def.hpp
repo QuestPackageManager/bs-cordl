@@ -150,7 +150,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimelineClip_TimelineClipUpgrade", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelineClip_TimelineClipUpgrade(TimelineClip_TimelineClipUpgradeconst&) = delete;
+  TimelineClip_TimelineClipUpgrade(TimelineClip_TimelineClipUpgrade const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19169 };
@@ -936,7 +936,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimelineClip", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelineClip(TimelineClipconst&) = delete;
+  TimelineClip(TimelineClip const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19172 };

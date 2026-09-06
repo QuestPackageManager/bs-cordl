@@ -186,7 +186,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConsoleLine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConsoleLine(ConsoleLineconst&) = delete;
+  ConsoleLine(ConsoleLine const&) = delete;
 
   /// @brief Field DefaultCounterBackgroundWidth offset 0xffffffff size 0x4
   static constexpr int32_t DefaultCounterBackgroundWidth{ static_cast<int32_t>(0x10) };

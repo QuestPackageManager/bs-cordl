@@ -343,7 +343,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IndexFilter__GetEnumerator_d__23", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IndexFilter__GetEnumerator_d__23(IndexFilter__GetEnumerator_d__23const&) = delete;
+  IndexFilter__GetEnumerator_d__23(IndexFilter__GetEnumerator_d__23 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14927 };
@@ -537,7 +537,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IndexFilter__GetValues_d__24", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IndexFilter__GetValues_d__24(IndexFilter__GetValues_d__24const&) = delete;
+  IndexFilter__GetValues_d__24(IndexFilter__GetValues_d__24 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14928 };
@@ -757,7 +757,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IndexFilter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IndexFilter(IndexFilterconst&) = delete;
+  IndexFilter(IndexFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14929 };

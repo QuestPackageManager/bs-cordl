@@ -91,7 +91,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "X509CertificateCollection_X509CertificateEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509CertificateCollection_X509CertificateEnumerator(X509CertificateCollection_X509CertificateEnumeratorconst&) = delete;
+  X509CertificateCollection_X509CertificateEnumerator(X509CertificateCollection_X509CertificateEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11197 };
@@ -153,7 +153,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "X509CertificateCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509CertificateCollection(X509CertificateCollectionconst&) = delete;
+  X509CertificateCollection(X509CertificateCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11198 };

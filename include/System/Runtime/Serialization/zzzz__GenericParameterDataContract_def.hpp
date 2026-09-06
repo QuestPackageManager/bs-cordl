@@ -58,7 +58,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GenericParameterDataContract_GenericParameterDataContractCriticalHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GenericParameterDataContract_GenericParameterDataContractCriticalHelper(GenericParameterDataContract_GenericParameterDataContractCriticalHelperconst&) = delete;
+  GenericParameterDataContract_GenericParameterDataContractCriticalHelper(GenericParameterDataContract_GenericParameterDataContractCriticalHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17046 };
@@ -115,7 +115,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GenericParameterDataContract", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GenericParameterDataContract(GenericParameterDataContractconst&) = delete;
+  GenericParameterDataContract(GenericParameterDataContract const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17047 };

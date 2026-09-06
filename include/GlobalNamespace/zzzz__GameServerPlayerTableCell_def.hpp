@@ -140,7 +140,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameServerPlayerTableCell___c__DisplayClass30_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameServerPlayerTableCell___c__DisplayClass30_0(GameServerPlayerTableCell___c__DisplayClass30_0const&) = delete;
+  GameServerPlayerTableCell___c__DisplayClass30_0(GameServerPlayerTableCell___c__DisplayClass30_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6896 };
@@ -527,7 +527,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameServerPlayerTableCell", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameServerPlayerTableCell(GameServerPlayerTableCellconst&) = delete;
+  GameServerPlayerTableCell(GameServerPlayerTableCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6898 };

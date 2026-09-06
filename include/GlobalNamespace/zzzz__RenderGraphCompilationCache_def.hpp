@@ -135,7 +135,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderGraphCompilationCache___c__11_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphCompilationCache___c__11_1(RenderGraphCompilationCache___c__11_1const&) = delete;
+  RenderGraphCompilationCache___c__11_1(RenderGraphCompilationCache___c__11_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11845 };
@@ -266,7 +266,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderGraphCompilationCache", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphCompilationCache(RenderGraphCompilationCacheconst&) = delete;
+  RenderGraphCompilationCache(RenderGraphCompilationCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11846 };

@@ -88,7 +88,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DpadControl_DpadAxisControl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DpadControl_DpadAxisControl(DpadControl_DpadAxisControlconst&) = delete;
+  DpadControl_DpadAxisControl(DpadControl_DpadAxisControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9128 };
@@ -294,7 +294,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DpadControl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DpadControl(DpadControlconst&) = delete;
+  DpadControl(DpadControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9130 };

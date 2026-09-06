@@ -66,7 +66,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SafeAreaRectChecker_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SafeAreaRectChecker_InitData(SafeAreaRectChecker_InitDataconst&) = delete;
+  SafeAreaRectChecker_InitData(SafeAreaRectChecker_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6331 };
@@ -206,7 +206,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SafeAreaRectChecker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SafeAreaRectChecker(SafeAreaRectCheckerconst&) = delete;
+  SafeAreaRectChecker(SafeAreaRectChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6332 };

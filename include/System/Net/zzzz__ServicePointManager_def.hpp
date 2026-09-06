@@ -112,7 +112,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ServicePointManager_SPKey", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ServicePointManager_SPKey(ServicePointManager_SPKeyconst&) = delete;
+  ServicePointManager_SPKey(ServicePointManager_SPKey const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11625 };
@@ -298,7 +298,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ServicePointManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ServicePointManager(ServicePointManagerconst&) = delete;
+  ServicePointManager(ServicePointManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11626 };

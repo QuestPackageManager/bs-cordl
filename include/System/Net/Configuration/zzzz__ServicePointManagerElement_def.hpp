@@ -44,7 +44,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ServicePointManagerElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ServicePointManagerElement(ServicePointManagerElementconst&) = delete;
+  ServicePointManagerElement(ServicePointManagerElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11833 };

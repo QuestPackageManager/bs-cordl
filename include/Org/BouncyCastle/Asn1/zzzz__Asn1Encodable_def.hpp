@@ -72,7 +72,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1Encodable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Asn1Encodable(Asn1Encodableconst&) = delete;
+  Asn1Encodable(Asn1Encodable const&) = delete;
 
   /// @brief Field Ber offset 0xffffffff size 0x8
   static constexpr ::ConstString Ber{ u"BER" };

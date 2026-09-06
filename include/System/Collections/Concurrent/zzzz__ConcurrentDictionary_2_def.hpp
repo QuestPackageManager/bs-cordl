@@ -170,7 +170,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConcurrentDictionary_2_Node", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcurrentDictionary_2_Node(ConcurrentDictionary_2_Nodeconst&) = delete;
+  ConcurrentDictionary_2_Node(ConcurrentDictionary_2_Node const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3741 };
@@ -245,7 +245,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConcurrentDictionary_2_Tables", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcurrentDictionary_2_Tables(ConcurrentDictionary_2_Tablesconst&) = delete;
+  ConcurrentDictionary_2_Tables(ConcurrentDictionary_2_Tables const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3740 };
@@ -338,7 +338,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConcurrentDictionary_2_DictionaryEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcurrentDictionary_2_DictionaryEnumerator(ConcurrentDictionary_2_DictionaryEnumeratorconst&) = delete;
+  ConcurrentDictionary_2_DictionaryEnumerator(ConcurrentDictionary_2_DictionaryEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3742 };
@@ -478,7 +478,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConcurrentDictionary_2__GetEnumerator_d__35", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcurrentDictionary_2__GetEnumerator_d__35(ConcurrentDictionary_2__GetEnumerator_d__35const&) = delete;
+  ConcurrentDictionary_2__GetEnumerator_d__35(ConcurrentDictionary_2__GetEnumerator_d__35 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3743 };
@@ -893,7 +893,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConcurrentDictionary_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcurrentDictionary_2(ConcurrentDictionary_2const&) = delete;
+  ConcurrentDictionary_2(ConcurrentDictionary_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3744 };

@@ -67,7 +67,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerContainer___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerContainer___c__DisplayClass3_0(DebugUIHandlerContainer___c__DisplayClass3_0const&) = delete;
+  DebugUIHandlerContainer___c__DisplayClass3_0(DebugUIHandlerContainer___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12514 };
@@ -130,7 +130,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerContainer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerContainer(DebugUIHandlerContainerconst&) = delete;
+  DebugUIHandlerContainer(DebugUIHandlerContainer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12515 };

@@ -83,7 +83,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Task_WhenAllPromise", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Task_WhenAllPromise(Task_WhenAllPromiseconst&) = delete;
+  Task_WhenAllPromise(Task_WhenAllPromise const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2800 };

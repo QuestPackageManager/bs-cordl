@@ -66,7 +66,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimatorOverrideController_OnOverrideControllerDirtyCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimatorOverrideController_OnOverrideControllerDirtyCallback(AnimatorOverrideController_OnOverrideControllerDirtyCallbackconst&) = delete;
+  AnimatorOverrideController_OnOverrideControllerDirtyCallback(AnimatorOverrideController_OnOverrideControllerDirtyCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20228 };
@@ -145,7 +145,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimatorOverrideController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimatorOverrideController(AnimatorOverrideControllerconst&) = delete;
+  AnimatorOverrideController(AnimatorOverrideController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20229 };

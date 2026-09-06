@@ -71,7 +71,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HierarchyFlattened_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HierarchyFlattened_BindingsMarshaller(HierarchyFlattened_BindingsMarshallerconst&) = delete;
+  HierarchyFlattened_BindingsMarshaller(HierarchyFlattened_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21942 };
@@ -351,7 +351,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HierarchyFlattened", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HierarchyFlattened(HierarchyFlattenedconst&) = delete;
+  HierarchyFlattened(HierarchyFlattened const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21944 };

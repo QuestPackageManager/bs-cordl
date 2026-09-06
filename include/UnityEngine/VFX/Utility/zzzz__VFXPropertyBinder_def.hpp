@@ -199,7 +199,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VFXPropertyBinder__GetPropertyBinders_d__17_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXPropertyBinder__GetPropertyBinders_d__17_1(VFXPropertyBinder__GetPropertyBinders_d__17_1const&) = delete;
+  VFXPropertyBinder__GetPropertyBinders_d__17_1(VFXPropertyBinder__GetPropertyBinders_d__17_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20016 };
@@ -349,7 +349,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VFXPropertyBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXPropertyBinder(VFXPropertyBinderconst&) = delete;
+  VFXPropertyBinder(VFXPropertyBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20017 };

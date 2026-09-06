@@ -80,7 +80,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsStats_1_StatsPanel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsStats_1_StatsPanel(DebugDisplaySettingsStats_1_StatsPanelconst&) = delete;
+  DebugDisplaySettingsStats_1_StatsPanel(DebugDisplaySettingsStats_1_StatsPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11953 };
@@ -156,7 +156,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsStats_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsStats_1(DebugDisplaySettingsStats_1const&) = delete;
+  DebugDisplaySettingsStats_1(DebugDisplaySettingsStats_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11954 };

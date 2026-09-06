@@ -147,7 +147,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FileStorageExtensions___c__DisplayClass1_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileStorageExtensions___c__DisplayClass1_0(FileStorageExtensions___c__DisplayClass1_0const&) = delete;
+  FileStorageExtensions___c__DisplayClass1_0(FileStorageExtensions___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23259 };
@@ -236,7 +236,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FileStorageExtensions___c__DisplayClass2_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileStorageExtensions___c__DisplayClass2_0(FileStorageExtensions___c__DisplayClass2_0const&) = delete;
+  FileStorageExtensions___c__DisplayClass2_0(FileStorageExtensions___c__DisplayClass2_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23260 };
@@ -319,7 +319,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FileStorageExtensions___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileStorageExtensions___c__DisplayClass3_0(FileStorageExtensions___c__DisplayClass3_0const&) = delete;
+  FileStorageExtensions___c__DisplayClass3_0(FileStorageExtensions___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23261 };
@@ -402,7 +402,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FileStorageExtensions___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileStorageExtensions___c__DisplayClass4_0(FileStorageExtensions___c__DisplayClass4_0const&) = delete;
+  FileStorageExtensions___c__DisplayClass4_0(FileStorageExtensions___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23262 };
@@ -573,7 +573,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FileStorageExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileStorageExtensions(FileStorageExtensionsconst&) = delete;
+  FileStorageExtensions(FileStorageExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23264 };

@@ -52,7 +52,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper(SpecialTypeDataContract_SpecialTypeDataContractCriticalHelperconst&) = delete;
+  SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper(SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17113 };
@@ -103,7 +103,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SpecialTypeDataContract", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpecialTypeDataContract(SpecialTypeDataContractconst&) = delete;
+  SpecialTypeDataContract(SpecialTypeDataContract const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17114 };

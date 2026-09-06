@@ -73,7 +73,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EventInfo_AddEventAdapter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventInfo_AddEventAdapter(EventInfo_AddEventAdapterconst&) = delete;
+  EventInfo_AddEventAdapter(EventInfo_AddEventAdapter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3485 };
@@ -162,7 +162,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EventInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventInfo(EventInfoconst&) = delete;
+  EventInfo(EventInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3486 };

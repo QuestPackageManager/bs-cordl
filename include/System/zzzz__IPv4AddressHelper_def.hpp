@@ -57,7 +57,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IPv4AddressHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IPv4AddressHelper(IPv4AddressHelperconst&) = delete;
+  IPv4AddressHelper(IPv4AddressHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11052 };

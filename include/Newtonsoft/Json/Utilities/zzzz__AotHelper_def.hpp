@@ -88,7 +88,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AotHelper___c__1_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AotHelper___c__1_1(AotHelper___c__1_1const&) = delete;
+  AotHelper___c__1_1(AotHelper___c__1_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13365 };
@@ -141,7 +141,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AotHelper___c__2_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AotHelper___c__2_1(AotHelper___c__2_1const&) = delete;
+  AotHelper___c__2_1(AotHelper___c__2_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13366 };
@@ -194,7 +194,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AotHelper___c__3_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AotHelper___c__3_2(AotHelper___c__3_2const&) = delete;
+  AotHelper___c__3_2(AotHelper___c__3_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13367 };
@@ -257,7 +257,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AotHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AotHelper(AotHelperconst&) = delete;
+  AotHelper(AotHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13368 };

@@ -42,7 +42,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVREnumerable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVREnumerable(OVREnumerableconst&) = delete;
+  OVREnumerable(OVREnumerable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7911 };

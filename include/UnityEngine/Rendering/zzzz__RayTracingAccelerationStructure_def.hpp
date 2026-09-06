@@ -123,7 +123,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RayTracingAccelerationStructure_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RayTracingAccelerationStructure_BindingsMarshaller(RayTracingAccelerationStructure_BindingsMarshallerconst&) = delete;
+  RayTracingAccelerationStructure_BindingsMarshaller(RayTracingAccelerationStructure_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10772 };
@@ -186,7 +186,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RayTracingAccelerationStructure", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RayTracingAccelerationStructure(RayTracingAccelerationStructureconst&) = delete;
+  RayTracingAccelerationStructure(RayTracingAccelerationStructure const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10773 };

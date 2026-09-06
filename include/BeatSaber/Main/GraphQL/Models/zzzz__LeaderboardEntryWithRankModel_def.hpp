@@ -127,7 +127,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel(OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModelconst&) =
+  OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel(OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel const&) =
       delete;
 
   /// @brief IL2CPP Metadata Type Index
@@ -210,7 +210,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel(FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModelconst&) = delete;
+  FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel(FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20574 };
@@ -280,7 +280,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel(UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModelconst&) = delete;
+  UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel(UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20575 };
@@ -370,7 +370,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntryWithRankModel_UserModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeaderboardEntryWithRankModel_UserModel(LeaderboardEntryWithRankModel_UserModelconst&) = delete;
+  LeaderboardEntryWithRankModel_UserModel(LeaderboardEntryWithRankModel_UserModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20576 };
@@ -486,7 +486,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntryWithRankModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeaderboardEntryWithRankModel(LeaderboardEntryWithRankModelconst&) = delete;
+  LeaderboardEntryWithRankModel(LeaderboardEntryWithRankModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20577 };

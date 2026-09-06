@@ -60,7 +60,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PointerOutLinkTagEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointerOutLinkTagEvent___c(PointerOutLinkTagEvent___cconst&) = delete;
+  PointerOutLinkTagEvent___c(PointerOutLinkTagEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5493 };
@@ -107,7 +107,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PointerOutLinkTagEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointerOutLinkTagEvent(PointerOutLinkTagEventconst&) = delete;
+  PointerOutLinkTagEvent(PointerOutLinkTagEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5494 };

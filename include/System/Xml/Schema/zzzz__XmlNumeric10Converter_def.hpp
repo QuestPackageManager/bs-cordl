@@ -116,7 +116,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlNumeric10Converter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlNumeric10Converter(XmlNumeric10Converterconst&) = delete;
+  XmlNumeric10Converter(XmlNumeric10Converter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9834 };

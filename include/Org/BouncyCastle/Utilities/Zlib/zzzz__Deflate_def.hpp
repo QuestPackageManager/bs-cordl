@@ -98,7 +98,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Deflate_Config", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Deflate_Config(Deflate_Configconst&) = delete;
+  Deflate_Config(Deflate_Config const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1818 };
@@ -792,7 +792,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Deflate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Deflate(Deflateconst&) = delete;
+  Deflate(Deflate const&) = delete;
 
   /// @brief Field BL_CODES offset 0xffffffff size 0x4
   static constexpr int32_t BL_CODES{ static_cast<int32_t>(0x13) };

@@ -243,7 +243,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NavigationController___c__DisplayClass10_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NavigationController___c__DisplayClass10_0(NavigationController___c__DisplayClass10_0const&) = delete;
+  NavigationController___c__DisplayClass10_0(NavigationController___c__DisplayClass10_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20956 };
@@ -338,7 +338,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NavigationController___c__DisplayClass8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NavigationController___c__DisplayClass8_0(NavigationController___c__DisplayClass8_0const&) = delete;
+  NavigationController___c__DisplayClass8_0(NavigationController___c__DisplayClass8_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20957 };
@@ -468,7 +468,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NavigationController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NavigationController(NavigationControllerconst&) = delete;
+  NavigationController(NavigationController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20958 };

@@ -644,7 +644,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DtdParser_UndeclaredNotation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DtdParser_UndeclaredNotation(DtdParser_UndeclaredNotationconst&) = delete;
+  DtdParser_UndeclaredNotation(DtdParser_UndeclaredNotation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9426 };
@@ -717,7 +717,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DtdParser_ParseElementOnlyContent_LocalFrame", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DtdParser_ParseElementOnlyContent_LocalFrame(DtdParser_ParseElementOnlyContent_LocalFrameconst&) = delete;
+  DtdParser_ParseElementOnlyContent_LocalFrame(DtdParser_ParseElementOnlyContent_LocalFrame const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9427 };
@@ -1405,7 +1405,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DtdParser", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DtdParser(DtdParserconst&) = delete;
+  DtdParser(DtdParser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9428 };

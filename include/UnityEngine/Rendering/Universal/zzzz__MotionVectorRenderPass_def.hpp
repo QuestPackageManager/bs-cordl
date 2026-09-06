@@ -209,7 +209,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MotionVectorRenderPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MotionVectorRenderPass_PassData(MotionVectorRenderPass_PassDataconst&) = delete;
+  MotionVectorRenderPass_PassData(MotionVectorRenderPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12844 };
@@ -302,7 +302,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MotionVectorRenderPass_MotionMatrixPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MotionVectorRenderPass_MotionMatrixPassData(MotionVectorRenderPass_MotionMatrixPassDataconst&) = delete;
+  MotionVectorRenderPass_MotionMatrixPassData(MotionVectorRenderPass_MotionMatrixPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12845 };
@@ -386,7 +386,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MotionVectorRenderPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MotionVectorRenderPass___c(MotionVectorRenderPass___cconst&) = delete;
+  MotionVectorRenderPass___c(MotionVectorRenderPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12846 };
@@ -540,7 +540,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MotionVectorRenderPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MotionVectorRenderPass(MotionVectorRenderPassconst&) = delete;
+  MotionVectorRenderPass(MotionVectorRenderPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12847 };

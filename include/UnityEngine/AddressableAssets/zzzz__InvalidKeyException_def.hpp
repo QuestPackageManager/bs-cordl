@@ -324,7 +324,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InvalidKeyException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InvalidKeyException(InvalidKeyExceptionconst&) = delete;
+  InvalidKeyException(InvalidKeyException const&) = delete;
 
   /// @brief Field BaseInvalidKeyMessageFormat offset 0xffffffff size 0x8
   static constexpr ::ConstString BaseInvalidKeyMessageFormat{ u"{0}, Key={1}, Type={2}" };

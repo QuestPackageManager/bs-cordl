@@ -73,7 +73,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlDictionaryString_EmptyStringDictionary", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlDictionaryString_EmptyStringDictionary(XmlDictionaryString_EmptyStringDictionaryconst&) = delete;
+  XmlDictionaryString_EmptyStringDictionary(XmlDictionaryString_EmptyStringDictionary const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16986 };
@@ -185,7 +185,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlDictionaryString", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlDictionaryString(XmlDictionaryStringconst&) = delete;
+  XmlDictionaryString(XmlDictionaryString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16987 };

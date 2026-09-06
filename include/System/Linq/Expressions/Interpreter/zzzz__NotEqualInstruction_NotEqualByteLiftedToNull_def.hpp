@@ -43,7 +43,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NotEqualInstruction_NotEqualByteLiftedToNull", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NotEqualInstruction_NotEqualByteLiftedToNull(NotEqualInstruction_NotEqualByteLiftedToNullconst&) = delete;
+  NotEqualInstruction_NotEqualByteLiftedToNull(NotEqualInstruction_NotEqualByteLiftedToNull const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16535 };

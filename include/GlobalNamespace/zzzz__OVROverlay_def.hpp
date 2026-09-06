@@ -300,7 +300,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVROverlay_ExternalSurfaceObjectCreated", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVROverlay_ExternalSurfaceObjectCreated(OVROverlay_ExternalSurfaceObjectCreatedconst&) = delete;
+  OVROverlay_ExternalSurfaceObjectCreated(OVROverlay_ExternalSurfaceObjectCreated const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7260 };
@@ -1051,7 +1051,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVROverlay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVROverlay(OVROverlayconst&) = delete;
+  OVROverlay(OVROverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7262 };

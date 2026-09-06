@@ -87,7 +87,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicCollection___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapCharacteristicCollection___c(BeatmapCharacteristicCollection___cconst&) = delete;
+  BeatmapCharacteristicCollection___c(BeatmapCharacteristicCollection___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14876 };
@@ -165,7 +165,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapCharacteristicCollection(BeatmapCharacteristicCollectionconst&) = delete;
+  BeatmapCharacteristicCollection(BeatmapCharacteristicCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14877 };

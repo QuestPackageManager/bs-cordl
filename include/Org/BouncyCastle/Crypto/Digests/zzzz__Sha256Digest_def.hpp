@@ -191,7 +191,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Sha256Digest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Sha256Digest(Sha256Digestconst&) = delete;
+  Sha256Digest(Sha256Digest const&) = delete;
 
   /// @brief Field DigestLength offset 0xffffffff size 0x4
   static constexpr int32_t DigestLength{ static_cast<int32_t>(0x20) };

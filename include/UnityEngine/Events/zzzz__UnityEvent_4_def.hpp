@@ -70,7 +70,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityEvent_4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityEvent_4(UnityEvent_4const&) = delete;
+  UnityEvent_4(UnityEvent_4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10463 };

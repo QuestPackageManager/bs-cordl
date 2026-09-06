@@ -131,7 +131,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsAuthenticatedDataStreamGenerator_CmsAuthenticatedDataOutputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsAuthenticatedDataStreamGenerator_CmsAuthenticatedDataOutputStream(CmsAuthenticatedDataStreamGenerator_CmsAuthenticatedDataOutputStreamconst&) = delete;
+  CmsAuthenticatedDataStreamGenerator_CmsAuthenticatedDataOutputStream(CmsAuthenticatedDataStreamGenerator_CmsAuthenticatedDataOutputStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 622 };
@@ -235,7 +235,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsAuthenticatedDataStreamGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsAuthenticatedDataStreamGenerator(CmsAuthenticatedDataStreamGeneratorconst&) = delete;
+  CmsAuthenticatedDataStreamGenerator(CmsAuthenticatedDataStreamGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 623 };

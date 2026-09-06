@@ -1076,7 +1076,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_x509verify_callback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityTls_unitytls_x509verify_callback(UnityTls_unitytls_x509verify_callbackconst&) = delete;
+  UnityTls_unitytls_x509verify_callback(UnityTls_unitytls_x509verify_callback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10955 };
@@ -1322,7 +1322,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_tlsctx_write_callback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityTls_unitytls_tlsctx_write_callback(UnityTls_unitytls_tlsctx_write_callbackconst&) = delete;
+  UnityTls_unitytls_tlsctx_write_callback(UnityTls_unitytls_tlsctx_write_callback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10961 };
@@ -1361,7 +1361,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_tlsctx_read_callback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityTls_unitytls_tlsctx_read_callback(UnityTls_unitytls_tlsctx_read_callbackconst&) = delete;
+  UnityTls_unitytls_tlsctx_read_callback(UnityTls_unitytls_tlsctx_read_callback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10962 };
@@ -1400,7 +1400,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_tlsctx_trace_callback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityTls_unitytls_tlsctx_trace_callback(UnityTls_unitytls_tlsctx_trace_callbackconst&) = delete;
+  UnityTls_unitytls_tlsctx_trace_callback(UnityTls_unitytls_tlsctx_trace_callback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10963 };
@@ -1440,7 +1440,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_tlsctx_certificate_callback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityTls_unitytls_tlsctx_certificate_callback(UnityTls_unitytls_tlsctx_certificate_callbackconst&) = delete;
+  UnityTls_unitytls_tlsctx_certificate_callback(UnityTls_unitytls_tlsctx_certificate_callback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10964 };
@@ -1479,7 +1479,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_tlsctx_x509verify_callback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityTls_unitytls_tlsctx_x509verify_callback(UnityTls_unitytls_tlsctx_x509verify_callbackconst&) = delete;
+  UnityTls_unitytls_tlsctx_x509verify_callback(UnityTls_unitytls_tlsctx_x509verify_callback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10965 };
@@ -1560,7 +1560,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t(unitytls_interface_struct_UnityTls_unitytls_errorstate_create_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t(unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10967 };
@@ -1599,7 +1599,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t(unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t(unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10968 };
@@ -1638,7 +1638,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t(unitytls_interface_struct_UnityTls_unitytls_key_get_ref_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t(unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10969 };
@@ -1678,7 +1678,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t(unitytls_interface_struct_UnityTls_unitytls_key_parse_der_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t(unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10970 };
@@ -1718,7 +1718,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t(unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t(unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10971 };
@@ -1757,7 +1757,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_key_free_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_key_free_t(unitytls_interface_struct_UnityTls_unitytls_key_free_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_key_free_t(unitytls_interface_struct_UnityTls_unitytls_key_free_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10972 };
@@ -1796,7 +1796,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t(unitytls_interface_struct_UnityTls_unitytls_x509_export_der_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t(unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10973 };
@@ -1835,7 +1835,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t(unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t(unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10974 };
@@ -1874,7 +1874,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t(unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t(unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10975 };
@@ -1913,7 +1913,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_create_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_x509list_create_t(unitytls_interface_struct_UnityTls_unitytls_x509list_create_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_x509list_create_t(unitytls_interface_struct_UnityTls_unitytls_x509list_create_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10976 };
@@ -1952,7 +1952,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_append_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_x509list_append_t(unitytls_interface_struct_UnityTls_unitytls_x509list_append_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_x509list_append_t(unitytls_interface_struct_UnityTls_unitytls_x509list_append_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10977 };
@@ -1991,7 +1991,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t(unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t(unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10978 };
@@ -2030,7 +2030,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_free_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_x509list_free_t(unitytls_interface_struct_UnityTls_unitytls_x509list_free_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_x509list_free_t(unitytls_interface_struct_UnityTls_unitytls_x509list_free_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10979 };
@@ -2070,7 +2070,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t(unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t(unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10980 };
@@ -2111,7 +2111,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t(unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t(unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10981 };
@@ -2151,7 +2151,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10982 };
@@ -2191,7 +2191,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10983 };
@@ -2230,7 +2230,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10984 };
@@ -2270,7 +2270,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10985 };
@@ -2309,7 +2309,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10986 };
@@ -2349,7 +2349,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10987 };
@@ -2389,7 +2389,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10988 };
@@ -2428,7 +2428,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10989 };
@@ -2467,7 +2467,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10990 };
@@ -2506,7 +2506,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10991 };
@@ -2545,7 +2545,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10992 };
@@ -2584,7 +2584,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10993 };
@@ -2623,7 +2623,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10994 };
@@ -2662,7 +2662,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10995 };
@@ -2701,7 +2701,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t(unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t(unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10996 };
@@ -2740,7 +2740,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509verify_result_to_string_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_x509verify_result_to_string_t(unitytls_interface_struct_UnityTls_unitytls_x509verify_result_to_string_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_x509verify_result_to_string_t(unitytls_interface_struct_UnityTls_unitytls_x509verify_result_to_string_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10997 };
@@ -2779,7 +2779,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_level_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_level_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_level_tconst&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_level_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_level_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10998 };
@@ -3237,7 +3237,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_interface_struct", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityTls_unitytls_interface_struct(UnityTls_unitytls_interface_structconst&) = delete;
+  UnityTls_unitytls_interface_struct(UnityTls_unitytls_interface_struct const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10999 };
@@ -3502,7 +3502,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityTls", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityTls(UnityTlsconst&) = delete;
+  UnityTls(UnityTls const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11000 };

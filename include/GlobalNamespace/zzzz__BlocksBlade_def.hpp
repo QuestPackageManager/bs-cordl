@@ -87,7 +87,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BlocksBlade_Element", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BlocksBlade_Element(BlocksBlade_Elementconst&) = delete;
+  BlocksBlade_Element(BlocksBlade_Element const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6217 };
@@ -347,7 +347,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BlocksBlade", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BlocksBlade(BlocksBladeconst&) = delete;
+  BlocksBlade(BlocksBlade const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6218 };

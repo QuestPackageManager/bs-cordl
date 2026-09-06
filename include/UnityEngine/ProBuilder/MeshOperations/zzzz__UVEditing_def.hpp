@@ -158,7 +158,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UVEditing___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UVEditing___c(UVEditing___cconst&) = delete;
+  UVEditing___c(UVEditing___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16897 };
@@ -215,7 +215,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UVEditing___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UVEditing___c__DisplayClass0_0(UVEditing___c__DisplayClass0_0const&) = delete;
+  UVEditing___c__DisplayClass0_0(UVEditing___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16898 };
@@ -273,7 +273,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UVEditing___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UVEditing___c__DisplayClass4_0(UVEditing___c__DisplayClass4_0const&) = delete;
+  UVEditing___c__DisplayClass4_0(UVEditing___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16899 };
@@ -361,7 +361,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UVEditing", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UVEditing(UVEditingconst&) = delete;
+  UVEditing(UVEditing const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16900 };

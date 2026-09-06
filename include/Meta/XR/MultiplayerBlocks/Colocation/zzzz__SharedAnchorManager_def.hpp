@@ -259,7 +259,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass21_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedAnchorManager___c__DisplayClass21_0(SharedAnchorManager___c__DisplayClass21_0const&) = delete;
+  SharedAnchorManager___c__DisplayClass21_0(SharedAnchorManager___c__DisplayClass21_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20904 };
@@ -330,7 +330,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass23_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedAnchorManager___c__DisplayClass23_0(SharedAnchorManager___c__DisplayClass23_0const&) = delete;
+  SharedAnchorManager___c__DisplayClass23_0(SharedAnchorManager___c__DisplayClass23_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20905 };
@@ -401,7 +401,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass24_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedAnchorManager___c__DisplayClass24_0(SharedAnchorManager___c__DisplayClass24_0const&) = delete;
+  SharedAnchorManager___c__DisplayClass24_0(SharedAnchorManager___c__DisplayClass24_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20906 };
@@ -469,7 +469,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass26_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedAnchorManager___c__DisplayClass26_0(SharedAnchorManager___c__DisplayClass26_0const&) = delete;
+  SharedAnchorManager___c__DisplayClass26_0(SharedAnchorManager___c__DisplayClass26_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20907 };
@@ -537,7 +537,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass27_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedAnchorManager___c__DisplayClass27_0(SharedAnchorManager___c__DisplayClass27_0const&) = delete;
+  SharedAnchorManager___c__DisplayClass27_0(SharedAnchorManager___c__DisplayClass27_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20908 };
@@ -595,7 +595,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager___c__DisplayClass29_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedAnchorManager___c__DisplayClass29_0(SharedAnchorManager___c__DisplayClass29_0const&) = delete;
+  SharedAnchorManager___c__DisplayClass29_0(SharedAnchorManager___c__DisplayClass29_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20909 };
@@ -1572,7 +1572,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SharedAnchorManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedAnchorManager(SharedAnchorManagerconst&) = delete;
+  SharedAnchorManager(SharedAnchorManager const&) = delete;
 
   /// @brief Field RetrieveAnchorWaitTimeThreshold offset 0xffffffff size 0x4
   static constexpr int32_t RetrieveAnchorWaitTimeThreshold{ static_cast<int32_t>(0x2710) };

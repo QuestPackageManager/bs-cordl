@@ -57,7 +57,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MainCameraCullingMask_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainCameraCullingMask_InitData(MainCameraCullingMask_InitDataconst&) = delete;
+  MainCameraCullingMask_InitData(MainCameraCullingMask_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20629 };
@@ -120,7 +120,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MainCameraCullingMask", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainCameraCullingMask(MainCameraCullingMaskconst&) = delete;
+  MainCameraCullingMask(MainCameraCullingMask const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20630 };

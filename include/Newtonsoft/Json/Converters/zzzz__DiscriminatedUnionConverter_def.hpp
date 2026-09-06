@@ -124,7 +124,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DiscriminatedUnionConverter_Union", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiscriminatedUnionConverter_Union(DiscriminatedUnionConverter_Unionconst&) = delete;
+  DiscriminatedUnionConverter_Union(DiscriminatedUnionConverter_Union const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13655 };
@@ -218,7 +218,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DiscriminatedUnionConverter_UnionCase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiscriminatedUnionConverter_UnionCase(DiscriminatedUnionConverter_UnionCaseconst&) = delete;
+  DiscriminatedUnionConverter_UnionCase(DiscriminatedUnionConverter_UnionCase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13656 };
@@ -292,7 +292,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DiscriminatedUnionConverter___c__DisplayClass8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiscriminatedUnionConverter___c__DisplayClass8_0(DiscriminatedUnionConverter___c__DisplayClass8_0const&) = delete;
+  DiscriminatedUnionConverter___c__DisplayClass8_0(DiscriminatedUnionConverter___c__DisplayClass8_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13657 };
@@ -355,7 +355,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DiscriminatedUnionConverter___c__DisplayClass9_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiscriminatedUnionConverter___c__DisplayClass9_0(DiscriminatedUnionConverter___c__DisplayClass9_0const&) = delete;
+  DiscriminatedUnionConverter___c__DisplayClass9_0(DiscriminatedUnionConverter___c__DisplayClass9_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13658 };
@@ -444,7 +444,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DiscriminatedUnionConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiscriminatedUnionConverter(DiscriminatedUnionConverterconst&) = delete;
+  DiscriminatedUnionConverter(DiscriminatedUnionConverter const&) = delete;
 
   /// @brief Field CasePropertyName offset 0xffffffff size 0x8
   static constexpr ::ConstString CasePropertyName{ u"Case" };

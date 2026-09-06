@@ -76,7 +76,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DTSweep___c__DisplayClass21_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DTSweep___c__DisplayClass21_0(DTSweep___c__DisplayClass21_0const&) = delete;
+  DTSweep___c__DisplayClass21_0(DTSweep___c__DisplayClass21_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21763 };
@@ -240,7 +240,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DTSweep", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DTSweep(DTSweepconst&) = delete;
+  DTSweep(DTSweep const&) = delete;
 
   /// @brief Field PI_3div4 offset 0xffffffff size 0x8
   static constexpr double_t PI_3div4{ static_cast<double_t>(2.356194490192345) };

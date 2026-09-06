@@ -102,7 +102,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionLevelFailedController_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionLevelFailedController_InitData(MissionLevelFailedController_InitDataconst&) = delete;
+  MissionLevelFailedController_InitData(MissionLevelFailedController_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6782 };
@@ -223,7 +223,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionLevelFailedController__LevelFailedCoroutine_d__13", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionLevelFailedController__LevelFailedCoroutine_d__13(MissionLevelFailedController__LevelFailedCoroutine_d__13const&) = delete;
+  MissionLevelFailedController__LevelFailedCoroutine_d__13(MissionLevelFailedController__LevelFailedCoroutine_d__13 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6783 };
@@ -381,7 +381,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionLevelFailedController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionLevelFailedController(MissionLevelFailedControllerconst&) = delete;
+  MissionLevelFailedController(MissionLevelFailedController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6784 };

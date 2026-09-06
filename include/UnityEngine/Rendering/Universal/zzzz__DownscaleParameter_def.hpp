@@ -40,7 +40,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DownscaleParameter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DownscaleParameter(DownscaleParameterconst&) = delete;
+  DownscaleParameter(DownscaleParameter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12787 };

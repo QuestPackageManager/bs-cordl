@@ -177,7 +177,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OrderedEnumerable_1__GetEnumerator_d__1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OrderedEnumerable_1__GetEnumerator_d__1(OrderedEnumerable_1__GetEnumerator_d__1const&) = delete;
+  OrderedEnumerable_1__GetEnumerator_d__1(OrderedEnumerable_1__GetEnumerator_d__1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16098 };
@@ -274,7 +274,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OrderedEnumerable_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OrderedEnumerable_1(OrderedEnumerable_1const&) = delete;
+  OrderedEnumerable_1(OrderedEnumerable_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16099 };

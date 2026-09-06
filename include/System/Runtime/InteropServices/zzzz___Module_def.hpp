@@ -24,7 +24,7 @@ public:
   // Declarations
   // Ctor Parameters [CppParam { name: "", ty: "_Module", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  _Module(_Moduleconst&) = delete;
+  _Module(_Module const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3358 };

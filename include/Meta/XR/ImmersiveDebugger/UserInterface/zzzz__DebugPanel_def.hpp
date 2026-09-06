@@ -98,7 +98,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugPanel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugPanel(DebugPanelconst&) = delete;
+  DebugPanel(DebugPanel const&) = delete;
 
   /// @brief Field DynamicPixelsPerUnit offset 0xffffffff size 0x4
   static constexpr float_t DynamicPixelsPerUnit{ static_cast<float_t>(10.0f) };

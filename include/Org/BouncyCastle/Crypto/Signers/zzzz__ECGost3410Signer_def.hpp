@@ -121,7 +121,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ECGost3410Signer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ECGost3410Signer(ECGost3410Signerconst&) = delete;
+  ECGost3410Signer(ECGost3410Signer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1129 };

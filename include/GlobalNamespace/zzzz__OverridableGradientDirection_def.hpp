@@ -37,7 +37,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OverridableGradientDirection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OverridableGradientDirection(OverridableGradientDirectionconst&) = delete;
+  OverridableGradientDirection(OverridableGradientDirection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23628 };

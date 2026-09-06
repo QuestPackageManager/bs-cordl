@@ -155,7 +155,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0(CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0const&) = delete;
+  CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0(CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20734 };
@@ -281,7 +281,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CoroutineHelpers__ExecuteAfterFrameEnd_d__1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CoroutineHelpers__ExecuteAfterFrameEnd_d__1(CoroutineHelpers__ExecuteAfterFrameEnd_d__1const&) = delete;
+  CoroutineHelpers__ExecuteAfterFrameEnd_d__1(CoroutineHelpers__ExecuteAfterFrameEnd_d__1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20735 };
@@ -347,7 +347,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CoroutineHelpers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CoroutineHelpers(CoroutineHelpersconst&) = delete;
+  CoroutineHelpers(CoroutineHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20736 };

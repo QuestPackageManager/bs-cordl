@@ -43,7 +43,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EqualInstruction_EqualUInt64LiftedToNull", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EqualInstruction_EqualUInt64LiftedToNull(EqualInstruction_EqualUInt64LiftedToNullconst&) = delete;
+  EqualInstruction_EqualUInt64LiftedToNull(EqualInstruction_EqualUInt64LiftedToNull const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16335 };

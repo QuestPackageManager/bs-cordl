@@ -113,7 +113,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseField_1_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseField_1_UxmlTraits(BaseField_1_UxmlTraitsconst&) = delete;
+  BaseField_1_UxmlTraits(BaseField_1_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4219 };
@@ -563,7 +563,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseField_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseField_1(BaseField_1const&) = delete;
+  BaseField_1(BaseField_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4220 };

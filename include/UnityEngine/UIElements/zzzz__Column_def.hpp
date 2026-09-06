@@ -766,7 +766,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Column", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Column(Columnconst&) = delete;
+  Column(Column const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4256 };
@@ -959,7 +959,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Column_UxmlObjectFactory_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Column_UxmlObjectFactory_1(Column_UxmlObjectFactory_1const&) = delete;
+  Column_UxmlObjectFactory_1(Column_UxmlObjectFactory_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4251 };
@@ -993,7 +993,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Column_UxmlObjectFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Column_UxmlObjectFactory(Column_UxmlObjectFactoryconst&) = delete;
+  Column_UxmlObjectFactory(Column_UxmlObjectFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4252 };
@@ -1044,7 +1044,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlObjectTraits_1_Column___c__DisplayClass14_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlObjectTraits_1_Column___c__DisplayClass14_0(UxmlObjectTraits_1_Column___c__DisplayClass14_0const&) = delete;
+  UxmlObjectTraits_1_Column___c__DisplayClass14_0(UxmlObjectTraits_1_Column___c__DisplayClass14_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4253 };
@@ -1096,7 +1096,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlObjectTraits_1_Column___c__DisplayClass14_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlObjectTraits_1_Column___c__DisplayClass14_1(UxmlObjectTraits_1_Column___c__DisplayClass14_1const&) = delete;
+  UxmlObjectTraits_1_Column___c__DisplayClass14_1(UxmlObjectTraits_1_Column___c__DisplayClass14_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4254 };
@@ -1263,7 +1263,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Column_UxmlObjectTraits_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Column_UxmlObjectTraits_1(Column_UxmlObjectTraits_1const&) = delete;
+  Column_UxmlObjectTraits_1(Column_UxmlObjectTraits_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4255 };

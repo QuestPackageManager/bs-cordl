@@ -233,7 +233,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DrawObjectsPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DrawObjectsPass_PassData(DrawObjectsPass_PassDataconst&) = delete;
+  DrawObjectsPass_PassData(DrawObjectsPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13090 };
@@ -351,7 +351,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DrawObjectsPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DrawObjectsPass___c(DrawObjectsPass___cconst&) = delete;
+  DrawObjectsPass___c(DrawObjectsPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13091 };
@@ -509,7 +509,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DrawObjectsPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DrawObjectsPass(DrawObjectsPassconst&) = delete;
+  DrawObjectsPass(DrawObjectsPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13092 };

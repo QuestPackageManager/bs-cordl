@@ -168,7 +168,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LobbyPlayersDataModel___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LobbyPlayersDataModel___c(LobbyPlayersDataModel___cconst&) = delete;
+  LobbyPlayersDataModel___c(LobbyPlayersDataModel___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15105 };
@@ -294,7 +294,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LobbyPlayersDataModel__GetEnumerator_d__58", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LobbyPlayersDataModel__GetEnumerator_d__58(LobbyPlayersDataModel__GetEnumerator_d__58const&) = delete;
+  LobbyPlayersDataModel__GetEnumerator_d__58(LobbyPlayersDataModel__GetEnumerator_d__58 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15106 };
@@ -744,7 +744,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LobbyPlayersDataModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LobbyPlayersDataModel(LobbyPlayersDataModelconst&) = delete;
+  LobbyPlayersDataModel(LobbyPlayersDataModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15108 };

@@ -91,7 +91,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Iso4217CurrencyCode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Iso4217CurrencyCode(Iso4217CurrencyCodeconst&) = delete;
+  Iso4217CurrencyCode(Iso4217CurrencyCode const&) = delete;
 
   /// @brief Field AlphabeticMaxSize offset 0xffffffff size 0x4
   static constexpr int32_t AlphabeticMaxSize{ static_cast<int32_t>(0x3) };

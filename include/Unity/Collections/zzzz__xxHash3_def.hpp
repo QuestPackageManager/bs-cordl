@@ -521,7 +521,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "xxHash3_Hash64Long_00000A73$PostfixBurstDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  xxHash3_Hash64Long_00000A73$PostfixBurstDelegate(xxHash3_Hash64Long_00000A73$PostfixBurstDelegateconst&) = delete;
+  xxHash3_Hash64Long_00000A73$PostfixBurstDelegate(xxHash3_Hash64Long_00000A73$PostfixBurstDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15745 };
@@ -568,7 +568,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "xxHash3_Hash64Long_00000A73$BurstDirectCall", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  xxHash3_Hash64Long_00000A73$BurstDirectCall(xxHash3_Hash64Long_00000A73$BurstDirectCallconst&) = delete;
+  xxHash3_Hash64Long_00000A73$BurstDirectCall(xxHash3_Hash64Long_00000A73$BurstDirectCall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15746 };
@@ -615,7 +615,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate(xxHash3_Hash128Long_00000A7A$PostfixBurstDelegateconst&) = delete;
+  xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate(xxHash3_Hash128Long_00000A7A$PostfixBurstDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15747 };
@@ -662,7 +662,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "xxHash3_Hash128Long_00000A7A$BurstDirectCall", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  xxHash3_Hash128Long_00000A7A$BurstDirectCall(xxHash3_Hash128Long_00000A7A$BurstDirectCallconst&) = delete;
+  xxHash3_Hash128Long_00000A7A$BurstDirectCall(xxHash3_Hash128Long_00000A7A$BurstDirectCall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15748 };
@@ -885,7 +885,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "xxHash3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  xxHash3(xxHash3const&) = delete;
+  xxHash3(xxHash3 const&) = delete;
 
   /// @brief Field ACC_NB offset 0xffffffff size 0x4
   static constexpr int32_t ACC_NB{ static_cast<int32_t>(0x8) };

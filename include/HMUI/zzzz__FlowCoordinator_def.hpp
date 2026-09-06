@@ -205,7 +205,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass39_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlowCoordinator___c__DisplayClass39_0(FlowCoordinator___c__DisplayClass39_0const&) = delete;
+  FlowCoordinator___c__DisplayClass39_0(FlowCoordinator___c__DisplayClass39_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20941 };
@@ -304,7 +304,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass40_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlowCoordinator___c__DisplayClass40_0(FlowCoordinator___c__DisplayClass40_0const&) = delete;
+  FlowCoordinator___c__DisplayClass40_0(FlowCoordinator___c__DisplayClass40_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20942 };
@@ -404,7 +404,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass43_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlowCoordinator___c__DisplayClass43_0(FlowCoordinator___c__DisplayClass43_0const&) = delete;
+  FlowCoordinator___c__DisplayClass43_0(FlowCoordinator___c__DisplayClass43_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20943 };
@@ -499,7 +499,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass44_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlowCoordinator___c__DisplayClass44_0(FlowCoordinator___c__DisplayClass44_0const&) = delete;
+  FlowCoordinator___c__DisplayClass44_0(FlowCoordinator___c__DisplayClass44_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20944 };
@@ -604,7 +604,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass45_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlowCoordinator___c__DisplayClass45_0(FlowCoordinator___c__DisplayClass45_0const&) = delete;
+  FlowCoordinator___c__DisplayClass45_0(FlowCoordinator___c__DisplayClass45_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20945 };
@@ -704,7 +704,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass47_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlowCoordinator___c__DisplayClass47_0(FlowCoordinator___c__DisplayClass47_0const&) = delete;
+  FlowCoordinator___c__DisplayClass47_0(FlowCoordinator___c__DisplayClass47_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20946 };
@@ -799,7 +799,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass48_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlowCoordinator___c__DisplayClass48_0(FlowCoordinator___c__DisplayClass48_0const&) = delete;
+  FlowCoordinator___c__DisplayClass48_0(FlowCoordinator___c__DisplayClass48_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20947 };
@@ -894,7 +894,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass51_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlowCoordinator___c__DisplayClass51_0(FlowCoordinator___c__DisplayClass51_0const&) = delete;
+  FlowCoordinator___c__DisplayClass51_0(FlowCoordinator___c__DisplayClass51_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20948 };
@@ -989,7 +989,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass52_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlowCoordinator___c__DisplayClass52_0(FlowCoordinator___c__DisplayClass52_0const&) = delete;
+  FlowCoordinator___c__DisplayClass52_0(FlowCoordinator___c__DisplayClass52_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20949 };
@@ -1573,7 +1573,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlowCoordinator(FlowCoordinatorconst&) = delete;
+  FlowCoordinator(FlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20952 };

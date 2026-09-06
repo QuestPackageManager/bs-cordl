@@ -391,7 +391,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ButtonsState_KeyEvent__GetAllPressed_d__8", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ButtonsState_KeyEvent__GetAllPressed_d__8(ButtonsState_KeyEvent__GetAllPressed_d__8const&) = delete;
+  ButtonsState_KeyEvent__GetAllPressed_d__8(ButtonsState_KeyEvent__GetAllPressed_d__8 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21808 };

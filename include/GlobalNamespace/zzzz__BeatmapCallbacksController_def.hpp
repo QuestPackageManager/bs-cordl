@@ -140,7 +140,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapCallbacksController_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapCallbacksController_InitData(BeatmapCallbacksController_InitDataconst&) = delete;
+  BeatmapCallbacksController_InitData(BeatmapCallbacksController_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5613 };
@@ -181,7 +181,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapCallbacksController_ICallCallbacksBehavior", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapCallbacksController_ICallCallbacksBehavior(BeatmapCallbacksController_ICallCallbacksBehaviorconst&) = delete;
+  BeatmapCallbacksController_ICallCallbacksBehavior(BeatmapCallbacksController_ICallCallbacksBehavior const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5614 };
@@ -226,7 +226,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapCallbacksController_CallCallbacksBehavior", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapCallbacksController_CallCallbacksBehavior(BeatmapCallbacksController_CallCallbacksBehaviorconst&) = delete;
+  BeatmapCallbacksController_CallCallbacksBehavior(BeatmapCallbacksController_CallCallbacksBehavior const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5615 };
@@ -284,7 +284,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapCallbacksController_CallCallbacksBehaviorWithLastState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapCallbacksController_CallCallbacksBehaviorWithLastState(BeatmapCallbacksController_CallCallbacksBehaviorWithLastStateconst&) = delete;
+  BeatmapCallbacksController_CallCallbacksBehaviorWithLastState(BeatmapCallbacksController_CallCallbacksBehaviorWithLastState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5616 };
@@ -510,7 +510,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapCallbacksController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapCallbacksController(BeatmapCallbacksControllerconst&) = delete;
+  BeatmapCallbacksController(BeatmapCallbacksController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5617 };

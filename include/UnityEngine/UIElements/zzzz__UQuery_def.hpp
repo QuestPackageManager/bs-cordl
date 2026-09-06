@@ -97,7 +97,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UQuery_IVisualPredicateWrapper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UQuery_IVisualPredicateWrapper(UQuery_IVisualPredicateWrapperconst&) = delete;
+  UQuery_IVisualPredicateWrapper(UQuery_IVisualPredicateWrapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5121 };
@@ -149,7 +149,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UQuery_IsOfType_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UQuery_IsOfType_1(UQuery_IsOfType_1const&) = delete;
+  UQuery_IsOfType_1(UQuery_IsOfType_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5122 };
@@ -201,7 +201,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UQueryMatcher_UQuery___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UQueryMatcher_UQuery___c(UQueryMatcher_UQuery___cconst&) = delete;
+  UQueryMatcher_UQuery___c(UQueryMatcher_UQuery___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5123 };
@@ -262,7 +262,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UQuery_UQueryMatcher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UQuery_UQueryMatcher(UQuery_UQueryMatcherconst&) = delete;
+  UQuery_UQueryMatcher(UQuery_UQueryMatcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5124 };
@@ -330,7 +330,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UQuery_SingleQueryMatcher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UQuery_SingleQueryMatcher(UQuery_SingleQueryMatcherconst&) = delete;
+  UQuery_SingleQueryMatcher(UQuery_SingleQueryMatcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5125 };
@@ -385,7 +385,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UQuery_FirstQueryMatcher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UQuery_FirstQueryMatcher(UQuery_FirstQueryMatcherconst&) = delete;
+  UQuery_FirstQueryMatcher(UQuery_FirstQueryMatcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5126 };
@@ -427,7 +427,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UQuery", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UQuery(UQueryconst&) = delete;
+  UQuery(UQuery const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5127 };

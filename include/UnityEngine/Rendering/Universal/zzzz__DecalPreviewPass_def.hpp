@@ -99,7 +99,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DecalPreviewPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalPreviewPass_PassData(DecalPreviewPass_PassDataconst&) = delete;
+  DecalPreviewPass_PassData(DecalPreviewPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12682 };
@@ -162,7 +162,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DecalPreviewPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalPreviewPass___c(DecalPreviewPass___cconst&) = delete;
+  DecalPreviewPass___c(DecalPreviewPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12683 };
@@ -249,7 +249,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DecalPreviewPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalPreviewPass(DecalPreviewPassconst&) = delete;
+  DecalPreviewPass(DecalPreviewPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12684 };

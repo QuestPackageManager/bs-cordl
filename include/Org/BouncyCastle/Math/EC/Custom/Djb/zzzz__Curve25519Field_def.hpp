@@ -127,7 +127,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Curve25519Field", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Curve25519Field(Curve25519Fieldconst&) = delete;
+  Curve25519Field(Curve25519Field const&) = delete;
 
   /// @brief Field P7 offset 0xffffffff size 0x4
   static constexpr uint32_t P7{ static_cast<uint32_t>(0x7fffffffu) };

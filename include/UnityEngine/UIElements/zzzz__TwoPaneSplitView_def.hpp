@@ -85,7 +85,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TwoPaneSplitView_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TwoPaneSplitView_UxmlFactory(TwoPaneSplitView_UxmlFactoryconst&) = delete;
+  TwoPaneSplitView_UxmlFactory(TwoPaneSplitView_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4351 };
@@ -153,7 +153,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TwoPaneSplitView_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TwoPaneSplitView_UxmlTraits(TwoPaneSplitView_UxmlTraitsconst&) = delete;
+  TwoPaneSplitView_UxmlTraits(TwoPaneSplitView_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4352 };
@@ -525,7 +525,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TwoPaneSplitView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TwoPaneSplitView(TwoPaneSplitViewconst&) = delete;
+  TwoPaneSplitView(TwoPaneSplitView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4353 };

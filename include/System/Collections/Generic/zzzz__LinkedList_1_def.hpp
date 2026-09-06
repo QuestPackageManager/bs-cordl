@@ -407,7 +407,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LinkedList_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LinkedList_1(LinkedList_1const&) = delete;
+  LinkedList_1(LinkedList_1 const&) = delete;
 
   /// @brief Field CountName offset 0xffffffff size 0x8
   static constexpr ::ConstString CountName{ u"Count" };

@@ -325,7 +325,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__AddApplicationManifest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__AddApplicationManifest(IVRApplications__AddApplicationManifestconst&) = delete;
+  IVRApplications__AddApplicationManifest(IVRApplications__AddApplicationManifest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8100 };
@@ -370,7 +370,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__RemoveApplicationManifest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__RemoveApplicationManifest(IVRApplications__RemoveApplicationManifestconst&) = delete;
+  IVRApplications__RemoveApplicationManifest(IVRApplications__RemoveApplicationManifest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8101 };
@@ -415,7 +415,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__IsApplicationInstalled", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__IsApplicationInstalled(IVRApplications__IsApplicationInstalledconst&) = delete;
+  IVRApplications__IsApplicationInstalled(IVRApplications__IsApplicationInstalled const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8102 };
@@ -460,7 +460,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__GetApplicationCount", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__GetApplicationCount(IVRApplications__GetApplicationCountconst&) = delete;
+  IVRApplications__GetApplicationCount(IVRApplications__GetApplicationCount const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8103 };
@@ -506,7 +506,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__GetApplicationKeyByIndex", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__GetApplicationKeyByIndex(IVRApplications__GetApplicationKeyByIndexconst&) = delete;
+  IVRApplications__GetApplicationKeyByIndex(IVRApplications__GetApplicationKeyByIndex const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8104 };
@@ -552,7 +552,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__GetApplicationKeyByProcessId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__GetApplicationKeyByProcessId(IVRApplications__GetApplicationKeyByProcessIdconst&) = delete;
+  IVRApplications__GetApplicationKeyByProcessId(IVRApplications__GetApplicationKeyByProcessId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8105 };
@@ -597,7 +597,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__LaunchApplication", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__LaunchApplication(IVRApplications__LaunchApplicationconst&) = delete;
+  IVRApplications__LaunchApplication(IVRApplications__LaunchApplication const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8106 };
@@ -643,7 +643,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__LaunchTemplateApplication", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__LaunchTemplateApplication(IVRApplications__LaunchTemplateApplicationconst&) = delete;
+  IVRApplications__LaunchTemplateApplication(IVRApplications__LaunchTemplateApplication const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8107 };
@@ -688,7 +688,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__LaunchApplicationFromMimeType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__LaunchApplicationFromMimeType(IVRApplications__LaunchApplicationFromMimeTypeconst&) = delete;
+  IVRApplications__LaunchApplicationFromMimeType(IVRApplications__LaunchApplicationFromMimeType const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8108 };
@@ -733,7 +733,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__LaunchDashboardOverlay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__LaunchDashboardOverlay(IVRApplications__LaunchDashboardOverlayconst&) = delete;
+  IVRApplications__LaunchDashboardOverlay(IVRApplications__LaunchDashboardOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8109 };
@@ -778,7 +778,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__CancelApplicationLaunch", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__CancelApplicationLaunch(IVRApplications__CancelApplicationLaunchconst&) = delete;
+  IVRApplications__CancelApplicationLaunch(IVRApplications__CancelApplicationLaunch const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8110 };
@@ -823,7 +823,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__IdentifyApplication", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__IdentifyApplication(IVRApplications__IdentifyApplicationconst&) = delete;
+  IVRApplications__IdentifyApplication(IVRApplications__IdentifyApplication const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8111 };
@@ -868,7 +868,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__GetApplicationProcessId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__GetApplicationProcessId(IVRApplications__GetApplicationProcessIdconst&) = delete;
+  IVRApplications__GetApplicationProcessId(IVRApplications__GetApplicationProcessId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8112 };
@@ -913,7 +913,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__GetApplicationsErrorNameFromEnum", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__GetApplicationsErrorNameFromEnum(IVRApplications__GetApplicationsErrorNameFromEnumconst&) = delete;
+  IVRApplications__GetApplicationsErrorNameFromEnum(IVRApplications__GetApplicationsErrorNameFromEnum const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8113 };
@@ -960,7 +960,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__GetApplicationPropertyString", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__GetApplicationPropertyString(IVRApplications__GetApplicationPropertyStringconst&) = delete;
+  IVRApplications__GetApplicationPropertyString(IVRApplications__GetApplicationPropertyString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8114 };
@@ -1006,7 +1006,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__GetApplicationPropertyBool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__GetApplicationPropertyBool(IVRApplications__GetApplicationPropertyBoolconst&) = delete;
+  IVRApplications__GetApplicationPropertyBool(IVRApplications__GetApplicationPropertyBool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8115 };
@@ -1052,7 +1052,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__GetApplicationPropertyUint64", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__GetApplicationPropertyUint64(IVRApplications__GetApplicationPropertyUint64const&) = delete;
+  IVRApplications__GetApplicationPropertyUint64(IVRApplications__GetApplicationPropertyUint64 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8116 };
@@ -1097,7 +1097,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__SetApplicationAutoLaunch", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__SetApplicationAutoLaunch(IVRApplications__SetApplicationAutoLaunchconst&) = delete;
+  IVRApplications__SetApplicationAutoLaunch(IVRApplications__SetApplicationAutoLaunch const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8117 };
@@ -1142,7 +1142,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__GetApplicationAutoLaunch", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__GetApplicationAutoLaunch(IVRApplications__GetApplicationAutoLaunchconst&) = delete;
+  IVRApplications__GetApplicationAutoLaunch(IVRApplications__GetApplicationAutoLaunch const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8118 };
@@ -1187,7 +1187,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__SetDefaultApplicationForMimeType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__SetDefaultApplicationForMimeType(IVRApplications__SetDefaultApplicationForMimeTypeconst&) = delete;
+  IVRApplications__SetDefaultApplicationForMimeType(IVRApplications__SetDefaultApplicationForMimeType const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8119 };
@@ -1233,7 +1233,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__GetDefaultApplicationForMimeType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__GetDefaultApplicationForMimeType(IVRApplications__GetDefaultApplicationForMimeTypeconst&) = delete;
+  IVRApplications__GetDefaultApplicationForMimeType(IVRApplications__GetDefaultApplicationForMimeType const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8120 };
@@ -1279,7 +1279,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__GetApplicationSupportedMimeTypes", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__GetApplicationSupportedMimeTypes(IVRApplications__GetApplicationSupportedMimeTypesconst&) = delete;
+  IVRApplications__GetApplicationSupportedMimeTypes(IVRApplications__GetApplicationSupportedMimeTypes const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8121 };
@@ -1325,7 +1325,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__GetApplicationsThatSupportMimeType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__GetApplicationsThatSupportMimeType(IVRApplications__GetApplicationsThatSupportMimeTypeconst&) = delete;
+  IVRApplications__GetApplicationsThatSupportMimeType(IVRApplications__GetApplicationsThatSupportMimeType const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8122 };
@@ -1370,7 +1370,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__GetApplicationLaunchArguments", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__GetApplicationLaunchArguments(IVRApplications__GetApplicationLaunchArgumentsconst&) = delete;
+  IVRApplications__GetApplicationLaunchArguments(IVRApplications__GetApplicationLaunchArguments const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8123 };
@@ -1415,7 +1415,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__GetStartingApplication", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__GetStartingApplication(IVRApplications__GetStartingApplicationconst&) = delete;
+  IVRApplications__GetStartingApplication(IVRApplications__GetStartingApplication const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8124 };
@@ -1460,7 +1460,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__GetTransitionState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__GetTransitionState(IVRApplications__GetTransitionStateconst&) = delete;
+  IVRApplications__GetTransitionState(IVRApplications__GetTransitionState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8125 };
@@ -1505,7 +1505,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__PerformApplicationPrelaunchCheck", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__PerformApplicationPrelaunchCheck(IVRApplications__PerformApplicationPrelaunchCheckconst&) = delete;
+  IVRApplications__PerformApplicationPrelaunchCheck(IVRApplications__PerformApplicationPrelaunchCheck const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8126 };
@@ -1550,7 +1550,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__GetApplicationsTransitionStateNameFromEnum", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__GetApplicationsTransitionStateNameFromEnum(IVRApplications__GetApplicationsTransitionStateNameFromEnumconst&) = delete;
+  IVRApplications__GetApplicationsTransitionStateNameFromEnum(IVRApplications__GetApplicationsTransitionStateNameFromEnum const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8127 };
@@ -1595,7 +1595,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__IsQuitUserPromptRequested", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__IsQuitUserPromptRequested(IVRApplications__IsQuitUserPromptRequestedconst&) = delete;
+  IVRApplications__IsQuitUserPromptRequested(IVRApplications__IsQuitUserPromptRequested const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8128 };
@@ -1640,7 +1640,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__LaunchInternalProcess", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__LaunchInternalProcess(IVRApplications__LaunchInternalProcessconst&) = delete;
+  IVRApplications__LaunchInternalProcess(IVRApplications__LaunchInternalProcess const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8129 };
@@ -1685,7 +1685,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRApplications__GetCurrentSceneProcessId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRApplications__GetCurrentSceneProcessId(IVRApplications__GetCurrentSceneProcessIdconst&) = delete;
+  IVRApplications__GetCurrentSceneProcessId(IVRApplications__GetCurrentSceneProcessId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8130 };

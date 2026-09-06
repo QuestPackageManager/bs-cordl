@@ -91,7 +91,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaNode___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSchemaNode___c(JsonSchemaNode___cconst&) = delete;
+  JsonSchemaNode___c(JsonSchemaNode___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13552 };
@@ -261,7 +261,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSchemaNode(JsonSchemaNodeconst&) = delete;
+  JsonSchemaNode(JsonSchemaNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13553 };

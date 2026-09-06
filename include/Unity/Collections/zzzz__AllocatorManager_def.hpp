@@ -294,7 +294,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager_TryFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AllocatorManager_TryFunction(AllocatorManager_TryFunctionconst&) = delete;
+  AllocatorManager_TryFunction(AllocatorManager_TryFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15522 };
@@ -717,7 +717,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager_IAllocator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AllocatorManager_IAllocator(AllocatorManager_IAllocatorconst&) = delete;
+  AllocatorManager_IAllocator(AllocatorManager_IAllocator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15527 };
@@ -762,7 +762,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StackAllocator_AllocatorManager_Try_000000AB$PostfixBurstDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StackAllocator_AllocatorManager_Try_000000AB$PostfixBurstDelegate(StackAllocator_AllocatorManager_Try_000000AB$PostfixBurstDelegateconst&) = delete;
+  StackAllocator_AllocatorManager_Try_000000AB$PostfixBurstDelegate(StackAllocator_AllocatorManager_Try_000000AB$PostfixBurstDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15528 };
@@ -809,7 +809,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StackAllocator_AllocatorManager_Try_000000AB$BurstDirectCall", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StackAllocator_AllocatorManager_Try_000000AB$BurstDirectCall(StackAllocator_AllocatorManager_Try_000000AB$BurstDirectCallconst&) = delete;
+  StackAllocator_AllocatorManager_Try_000000AB$BurstDirectCall(StackAllocator_AllocatorManager_Try_000000AB$BurstDirectCall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15529 };
@@ -957,7 +957,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SlabAllocator_AllocatorManager_Try_000000B9$PostfixBurstDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SlabAllocator_AllocatorManager_Try_000000B9$PostfixBurstDelegate(SlabAllocator_AllocatorManager_Try_000000B9$PostfixBurstDelegateconst&) = delete;
+  SlabAllocator_AllocatorManager_Try_000000B9$PostfixBurstDelegate(SlabAllocator_AllocatorManager_Try_000000B9$PostfixBurstDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15531 };
@@ -1004,7 +1004,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SlabAllocator_AllocatorManager_Try_000000B9$BurstDirectCall", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SlabAllocator_AllocatorManager_Try_000000B9$BurstDirectCall(SlabAllocator_AllocatorManager_Try_000000B9$BurstDirectCallconst&) = delete;
+  SlabAllocator_AllocatorManager_Try_000000B9$BurstDirectCall(SlabAllocator_AllocatorManager_Try_000000B9$BurstDirectCall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15532 };
@@ -1568,7 +1568,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SharedStatics_AllocatorManager_IsInstalled", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedStatics_AllocatorManager_IsInstalled(SharedStatics_AllocatorManager_IsInstalledconst&) = delete;
+  SharedStatics_AllocatorManager_IsInstalled(SharedStatics_AllocatorManager_IsInstalled const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15539 };
@@ -1612,7 +1612,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SharedStatics_AllocatorManager_TableEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedStatics_AllocatorManager_TableEntry(SharedStatics_AllocatorManager_TableEntryconst&) = delete;
+  SharedStatics_AllocatorManager_TableEntry(SharedStatics_AllocatorManager_TableEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15540 };
@@ -1654,7 +1654,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SharedStatics_AllocatorManager_IsAutoDispose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedStatics_AllocatorManager_IsAutoDispose(SharedStatics_AllocatorManager_IsAutoDisposeconst&) = delete;
+  SharedStatics_AllocatorManager_IsAutoDispose(SharedStatics_AllocatorManager_IsAutoDispose const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15541 };
@@ -1695,7 +1695,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager_SharedStatics", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AllocatorManager_SharedStatics(AllocatorManager_SharedStaticsconst&) = delete;
+  AllocatorManager_SharedStatics(AllocatorManager_SharedStatics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15542 };
@@ -1740,7 +1740,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager_Managed", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AllocatorManager_Managed(AllocatorManager_Managedconst&) = delete;
+  AllocatorManager_Managed(AllocatorManager_Managed const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15543 };
@@ -1788,7 +1788,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager_AllocatorCache_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AllocatorManager_AllocatorCache_1(AllocatorManager_AllocatorCache_1const&) = delete;
+  AllocatorManager_AllocatorCache_1(AllocatorManager_AllocatorCache_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15544 };
@@ -2106,7 +2106,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AllocatorManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AllocatorManager(AllocatorManagerconst&) = delete;
+  AllocatorManager(AllocatorManager const&) = delete;
 
   /// @brief Field FirstUserIndex offset 0xffffffff size 0x2
   static constexpr uint16_t FirstUserIndex{ static_cast<uint16_t>(0x40u) };

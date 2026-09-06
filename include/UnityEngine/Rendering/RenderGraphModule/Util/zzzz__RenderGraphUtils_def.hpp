@@ -135,7 +135,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils_CopyPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphUtils_CopyPassData(RenderGraphUtils_CopyPassDataconst&) = delete;
+  RenderGraphUtils_CopyPassData(RenderGraphUtils_CopyPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12468 };
@@ -329,7 +329,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils_BlitPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphUtils_BlitPassData(RenderGraphUtils_BlitPassDataconst&) = delete;
+  RenderGraphUtils_BlitPassData(RenderGraphUtils_BlitPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12470 };
@@ -829,7 +829,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils_BlitMaterialPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphUtils_BlitMaterialPassData(RenderGraphUtils_BlitMaterialPassDataconst&) = delete;
+  RenderGraphUtils_BlitMaterialPassData(RenderGraphUtils_BlitMaterialPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12473 };
@@ -1007,7 +1007,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphUtils___c(RenderGraphUtils___cconst&) = delete;
+  RenderGraphUtils___c(RenderGraphUtils___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12474 };
@@ -1099,7 +1099,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphUtils(RenderGraphUtilsconst&) = delete;
+  RenderGraphUtils(RenderGraphUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12475 };

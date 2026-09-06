@@ -79,7 +79,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskAwaiter___c__DisplayClass11_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskAwaiter___c__DisplayClass11_0(TaskAwaiter___c__DisplayClass11_0const&) = delete;
+  TaskAwaiter___c__DisplayClass11_0(TaskAwaiter___c__DisplayClass11_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3407 };

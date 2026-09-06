@@ -122,7 +122,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DigestRandomGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DigestRandomGenerator(DigestRandomGeneratorconst&) = delete;
+  DigestRandomGenerator(DigestRandomGenerator const&) = delete;
 
   /// @brief Field CYCLE_COUNT offset 0xffffffff size 0x8
   static constexpr int64_t CYCLE_COUNT{ static_cast<int64_t>(0xa) };

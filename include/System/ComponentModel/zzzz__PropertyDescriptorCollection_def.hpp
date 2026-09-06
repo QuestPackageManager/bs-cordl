@@ -137,7 +137,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyDescriptorCollection_PropertyDescriptorEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyDescriptorCollection_PropertyDescriptorEnumerator(PropertyDescriptorCollection_PropertyDescriptorEnumeratorconst&) = delete;
+  PropertyDescriptorCollection_PropertyDescriptorEnumerator(PropertyDescriptorCollection_PropertyDescriptorEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11287 };
@@ -482,7 +482,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyDescriptorCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyDescriptorCollection(PropertyDescriptorCollectionconst&) = delete;
+  PropertyDescriptorCollection(PropertyDescriptorCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11288 };

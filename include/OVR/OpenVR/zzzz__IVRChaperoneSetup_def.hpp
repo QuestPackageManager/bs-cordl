@@ -235,7 +235,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__CommitWorkingCopy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__CommitWorkingCopy(IVRChaperoneSetup__CommitWorkingCopyconst&) = delete;
+  IVRChaperoneSetup__CommitWorkingCopy(IVRChaperoneSetup__CommitWorkingCopy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8141 };
@@ -280,7 +280,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__RevertWorkingCopy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__RevertWorkingCopy(IVRChaperoneSetup__RevertWorkingCopyconst&) = delete;
+  IVRChaperoneSetup__RevertWorkingCopy(IVRChaperoneSetup__RevertWorkingCopy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8142 };
@@ -325,7 +325,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingPlayAreaSize", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__GetWorkingPlayAreaSize(IVRChaperoneSetup__GetWorkingPlayAreaSizeconst&) = delete;
+  IVRChaperoneSetup__GetWorkingPlayAreaSize(IVRChaperoneSetup__GetWorkingPlayAreaSize const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8143 };
@@ -370,7 +370,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingPlayAreaRect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__GetWorkingPlayAreaRect(IVRChaperoneSetup__GetWorkingPlayAreaRectconst&) = delete;
+  IVRChaperoneSetup__GetWorkingPlayAreaRect(IVRChaperoneSetup__GetWorkingPlayAreaRect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8144 };
@@ -415,7 +415,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingCollisionBoundsInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__GetWorkingCollisionBoundsInfo(IVRChaperoneSetup__GetWorkingCollisionBoundsInfoconst&) = delete;
+  IVRChaperoneSetup__GetWorkingCollisionBoundsInfo(IVRChaperoneSetup__GetWorkingCollisionBoundsInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8145 };
@@ -460,7 +460,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLiveCollisionBoundsInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__GetLiveCollisionBoundsInfo(IVRChaperoneSetup__GetLiveCollisionBoundsInfoconst&) = delete;
+  IVRChaperoneSetup__GetLiveCollisionBoundsInfo(IVRChaperoneSetup__GetLiveCollisionBoundsInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8146 };
@@ -505,7 +505,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose(IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPoseconst&) = delete;
+  IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose(IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8147 };
@@ -550,7 +550,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose(IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPoseconst&) = delete;
+  IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose(IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8148 };
@@ -595,7 +595,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingPlayAreaSize", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__SetWorkingPlayAreaSize(IVRChaperoneSetup__SetWorkingPlayAreaSizeconst&) = delete;
+  IVRChaperoneSetup__SetWorkingPlayAreaSize(IVRChaperoneSetup__SetWorkingPlayAreaSize const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8149 };
@@ -640,7 +640,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingCollisionBoundsInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__SetWorkingCollisionBoundsInfo(IVRChaperoneSetup__SetWorkingCollisionBoundsInfoconst&) = delete;
+  IVRChaperoneSetup__SetWorkingCollisionBoundsInfo(IVRChaperoneSetup__SetWorkingCollisionBoundsInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8150 };
@@ -685,7 +685,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose(IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPoseconst&) = delete;
+  IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose(IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8151 };
@@ -730,7 +730,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose(IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPoseconst&) = delete;
+  IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose(IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8152 };
@@ -775,7 +775,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__ReloadFromDisk", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__ReloadFromDisk(IVRChaperoneSetup__ReloadFromDiskconst&) = delete;
+  IVRChaperoneSetup__ReloadFromDisk(IVRChaperoneSetup__ReloadFromDisk const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8153 };
@@ -820,7 +820,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose(IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPoseconst&) = delete;
+  IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose(IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8154 };
@@ -865,7 +865,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo(IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfoconst&) = delete;
+  IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo(IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8155 };
@@ -910,7 +910,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo(IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfoconst&) = delete;
+  IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo(IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8156 };
@@ -955,7 +955,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo(IVRChaperoneSetup__SetWorkingPhysicalBoundsInfoconst&) = delete;
+  IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo(IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8157 };
@@ -1000,7 +1000,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLivePhysicalBoundsInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__GetLivePhysicalBoundsInfo(IVRChaperoneSetup__GetLivePhysicalBoundsInfoconst&) = delete;
+  IVRChaperoneSetup__GetLivePhysicalBoundsInfo(IVRChaperoneSetup__GetLivePhysicalBoundsInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8158 };
@@ -1045,7 +1045,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__ExportLiveToBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__ExportLiveToBuffer(IVRChaperoneSetup__ExportLiveToBufferconst&) = delete;
+  IVRChaperoneSetup__ExportLiveToBuffer(IVRChaperoneSetup__ExportLiveToBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8159 };
@@ -1090,7 +1090,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__ImportFromBufferToWorking", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__ImportFromBufferToWorking(IVRChaperoneSetup__ImportFromBufferToWorkingconst&) = delete;
+  IVRChaperoneSetup__ImportFromBufferToWorking(IVRChaperoneSetup__ImportFromBufferToWorking const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8160 };

@@ -55,7 +55,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphQLModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLModel(GraphQLModelconst&) = delete;
+  GraphQLModel(GraphQLModel const&) = delete;
 
   /// @brief Field UNKNOWN_ENUM_VALUE offset 0xffffffff size 0x8
   static constexpr ::ConstString UNKNOWN_ENUM_VALUE{ u"__UnknownValue" };

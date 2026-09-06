@@ -565,7 +565,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MainFlowCoordinator__ProcessMenuDestinationRequestAfterFrameCoroutine_d__53", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainFlowCoordinator__ProcessMenuDestinationRequestAfterFrameCoroutine_d__53(MainFlowCoordinator__ProcessMenuDestinationRequestAfterFrameCoroutine_d__53const&) = delete;
+  MainFlowCoordinator__ProcessMenuDestinationRequestAfterFrameCoroutine_d__53(MainFlowCoordinator__ProcessMenuDestinationRequestAfterFrameCoroutine_d__53 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6839 };
@@ -941,7 +941,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MainFlowCoordinator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainFlowCoordinator(MainFlowCoordinatorconst&) = delete;
+  MainFlowCoordinator(MainFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6840 };

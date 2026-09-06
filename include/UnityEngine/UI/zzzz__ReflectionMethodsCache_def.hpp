@@ -121,7 +121,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_Raycast3DCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionMethodsCache_Raycast3DCallback(ReflectionMethodsCache_Raycast3DCallbackconst&) = delete;
+  ReflectionMethodsCache_Raycast3DCallback(ReflectionMethodsCache_Raycast3DCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17504 };
@@ -165,7 +165,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_RaycastAllCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionMethodsCache_RaycastAllCallback(ReflectionMethodsCache_RaycastAllCallbackconst&) = delete;
+  ReflectionMethodsCache_RaycastAllCallback(ReflectionMethodsCache_RaycastAllCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17505 };
@@ -209,7 +209,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_GetRaycastNonAllocCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionMethodsCache_GetRaycastNonAllocCallback(ReflectionMethodsCache_GetRaycastNonAllocCallbackconst&) = delete;
+  ReflectionMethodsCache_GetRaycastNonAllocCallback(ReflectionMethodsCache_GetRaycastNonAllocCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17506 };
@@ -253,7 +253,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_Raycast2DCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionMethodsCache_Raycast2DCallback(ReflectionMethodsCache_Raycast2DCallbackconst&) = delete;
+  ReflectionMethodsCache_Raycast2DCallback(ReflectionMethodsCache_Raycast2DCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17507 };
@@ -297,7 +297,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_GetRayIntersectionAllCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionMethodsCache_GetRayIntersectionAllCallback(ReflectionMethodsCache_GetRayIntersectionAllCallbackconst&) = delete;
+  ReflectionMethodsCache_GetRayIntersectionAllCallback(ReflectionMethodsCache_GetRayIntersectionAllCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17508 };
@@ -341,7 +341,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback(ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallbackconst&) = delete;
+  ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback(ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17509 };
@@ -455,7 +455,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionMethodsCache(ReflectionMethodsCacheconst&) = delete;
+  ReflectionMethodsCache(ReflectionMethodsCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17510 };

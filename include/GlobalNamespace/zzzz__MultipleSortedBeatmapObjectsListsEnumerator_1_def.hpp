@@ -136,7 +136,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultipleSortedBeatmapObjectsListsEnumerator_1_BeatmapObjectListNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultipleSortedBeatmapObjectsListsEnumerator_1_BeatmapObjectListNode(MultipleSortedBeatmapObjectsListsEnumerator_1_BeatmapObjectListNodeconst&) = delete;
+  MultipleSortedBeatmapObjectsListsEnumerator_1_BeatmapObjectListNode(MultipleSortedBeatmapObjectsListsEnumerator_1_BeatmapObjectListNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14905 };
@@ -263,7 +263,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultipleSortedBeatmapObjectsListsEnumerator_1__GetEnumerator_d__4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultipleSortedBeatmapObjectsListsEnumerator_1__GetEnumerator_d__4(MultipleSortedBeatmapObjectsListsEnumerator_1__GetEnumerator_d__4const&) = delete;
+  MultipleSortedBeatmapObjectsListsEnumerator_1__GetEnumerator_d__4(MultipleSortedBeatmapObjectsListsEnumerator_1__GetEnumerator_d__4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14906 };
@@ -341,7 +341,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultipleSortedBeatmapObjectsListsEnumerator_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultipleSortedBeatmapObjectsListsEnumerator_1(MultipleSortedBeatmapObjectsListsEnumerator_1const&) = delete;
+  MultipleSortedBeatmapObjectsListsEnumerator_1(MultipleSortedBeatmapObjectsListsEnumerator_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14907 };

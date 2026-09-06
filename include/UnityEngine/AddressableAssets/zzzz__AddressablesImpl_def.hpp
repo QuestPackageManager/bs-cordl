@@ -463,7 +463,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl_LoadResourceLocationKeyOp", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl_LoadResourceLocationKeyOp(AddressablesImpl_LoadResourceLocationKeyOpconst&) = delete;
+  AddressablesImpl_LoadResourceLocationKeyOp(AddressablesImpl_LoadResourceLocationKeyOp const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19783 };
@@ -580,7 +580,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl_LoadResourceLocationKeysOp", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl_LoadResourceLocationKeysOp(AddressablesImpl_LoadResourceLocationKeysOpconst&) = delete;
+  AddressablesImpl_LoadResourceLocationKeysOp(AddressablesImpl_LoadResourceLocationKeysOp const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19784 };
@@ -690,7 +690,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c(AddressablesImpl___cconst&) = delete;
+  AddressablesImpl___c(AddressablesImpl___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19785 };
@@ -745,7 +745,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__115_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__115_1(AddressablesImpl___c__115_1const&) = delete;
+  AddressablesImpl___c__115_1(AddressablesImpl___c__115_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19786 };
@@ -801,7 +801,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass100_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass100_0(AddressablesImpl___c__DisplayClass100_0const&) = delete;
+  AddressablesImpl___c__DisplayClass100_0(AddressablesImpl___c__DisplayClass100_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19787 };
@@ -869,7 +869,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass103_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass103_0(AddressablesImpl___c__DisplayClass103_0const&) = delete;
+  AddressablesImpl___c__DisplayClass103_0(AddressablesImpl___c__DisplayClass103_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19788 };
@@ -938,7 +938,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass106_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass106_0(AddressablesImpl___c__DisplayClass106_0const&) = delete;
+  AddressablesImpl___c__DisplayClass106_0(AddressablesImpl___c__DisplayClass106_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19789 };
@@ -1008,7 +1008,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass110_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass110_0(AddressablesImpl___c__DisplayClass110_0const&) = delete;
+  AddressablesImpl___c__DisplayClass110_0(AddressablesImpl___c__DisplayClass110_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19790 };
@@ -1086,7 +1086,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass112_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass112_0(AddressablesImpl___c__DisplayClass112_0const&) = delete;
+  AddressablesImpl___c__DisplayClass112_0(AddressablesImpl___c__DisplayClass112_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19791 };
@@ -1167,7 +1167,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass116_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass116_0(AddressablesImpl___c__DisplayClass116_0const&) = delete;
+  AddressablesImpl___c__DisplayClass116_0(AddressablesImpl___c__DisplayClass116_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19792 };
@@ -1249,7 +1249,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass117_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass117_0(AddressablesImpl___c__DisplayClass117_0const&) = delete;
+  AddressablesImpl___c__DisplayClass117_0(AddressablesImpl___c__DisplayClass117_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19793 };
@@ -1330,7 +1330,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass118_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass118_0(AddressablesImpl___c__DisplayClass118_0const&) = delete;
+  AddressablesImpl___c__DisplayClass118_0(AddressablesImpl___c__DisplayClass118_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19794 };
@@ -1413,7 +1413,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass123_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass123_0(AddressablesImpl___c__DisplayClass123_0const&) = delete;
+  AddressablesImpl___c__DisplayClass123_0(AddressablesImpl___c__DisplayClass123_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19795 };
@@ -1496,7 +1496,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass125_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass125_0(AddressablesImpl___c__DisplayClass125_0const&) = delete;
+  AddressablesImpl___c__DisplayClass125_0(AddressablesImpl___c__DisplayClass125_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19796 };
@@ -1605,7 +1605,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass128_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass128_0(AddressablesImpl___c__DisplayClass128_0const&) = delete;
+  AddressablesImpl___c__DisplayClass128_0(AddressablesImpl___c__DisplayClass128_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19797 };
@@ -1729,7 +1729,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass129_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass129_0(AddressablesImpl___c__DisplayClass129_0const&) = delete;
+  AddressablesImpl___c__DisplayClass129_0(AddressablesImpl___c__DisplayClass129_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19798 };
@@ -1826,7 +1826,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass135_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass135_0(AddressablesImpl___c__DisplayClass135_0const&) = delete;
+  AddressablesImpl___c__DisplayClass135_0(AddressablesImpl___c__DisplayClass135_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19799 };
@@ -1908,7 +1908,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass136_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass136_0(AddressablesImpl___c__DisplayClass136_0const&) = delete;
+  AddressablesImpl___c__DisplayClass136_0(AddressablesImpl___c__DisplayClass136_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19800 };
@@ -1981,7 +1981,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass140_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass140_0(AddressablesImpl___c__DisplayClass140_0const&) = delete;
+  AddressablesImpl___c__DisplayClass140_0(AddressablesImpl___c__DisplayClass140_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19801 };
@@ -2058,7 +2058,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass144_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass144_0(AddressablesImpl___c__DisplayClass144_0const&) = delete;
+  AddressablesImpl___c__DisplayClass144_0(AddressablesImpl___c__DisplayClass144_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19802 };
@@ -2147,7 +2147,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass149_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass149_0(AddressablesImpl___c__DisplayClass149_0const&) = delete;
+  AddressablesImpl___c__DisplayClass149_0(AddressablesImpl___c__DisplayClass149_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19803 };
@@ -2229,7 +2229,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass150_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass150_0(AddressablesImpl___c__DisplayClass150_0const&) = delete;
+  AddressablesImpl___c__DisplayClass150_0(AddressablesImpl___c__DisplayClass150_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19804 };
@@ -2292,7 +2292,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass61_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass61_0(AddressablesImpl___c__DisplayClass61_0const&) = delete;
+  AddressablesImpl___c__DisplayClass61_0(AddressablesImpl___c__DisplayClass61_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19805 };
@@ -2373,7 +2373,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass72_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass72_0(AddressablesImpl___c__DisplayClass72_0const&) = delete;
+  AddressablesImpl___c__DisplayClass72_0(AddressablesImpl___c__DisplayClass72_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19806 };
@@ -2452,7 +2452,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass78_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass78_0_1(AddressablesImpl___c__DisplayClass78_0_1const&) = delete;
+  AddressablesImpl___c__DisplayClass78_0_1(AddressablesImpl___c__DisplayClass78_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19807 };
@@ -2515,7 +2515,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass79_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass79_0_1(AddressablesImpl___c__DisplayClass79_0_1const&) = delete;
+  AddressablesImpl___c__DisplayClass79_0_1(AddressablesImpl___c__DisplayClass79_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19808 };
@@ -2595,7 +2595,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass83_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass83_0(AddressablesImpl___c__DisplayClass83_0const&) = delete;
+  AddressablesImpl___c__DisplayClass83_0(AddressablesImpl___c__DisplayClass83_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19809 };
@@ -2682,7 +2682,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass85_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass85_0(AddressablesImpl___c__DisplayClass85_0const&) = delete;
+  AddressablesImpl___c__DisplayClass85_0(AddressablesImpl___c__DisplayClass85_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19810 };
@@ -2776,7 +2776,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass88_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass88_0_1(AddressablesImpl___c__DisplayClass88_0_1const&) = delete;
+  AddressablesImpl___c__DisplayClass88_0_1(AddressablesImpl___c__DisplayClass88_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19811 };
@@ -2873,7 +2873,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass89_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass89_0_1(AddressablesImpl___c__DisplayClass89_0_1const&) = delete;
+  AddressablesImpl___c__DisplayClass89_0_1(AddressablesImpl___c__DisplayClass89_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19812 };
@@ -2964,7 +2964,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass91_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass91_0_1(AddressablesImpl___c__DisplayClass91_0_1const&) = delete;
+  AddressablesImpl___c__DisplayClass91_0_1(AddressablesImpl___c__DisplayClass91_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19813 };
@@ -3032,7 +3032,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass99_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass99_0(AddressablesImpl___c__DisplayClass99_0const&) = delete;
+  AddressablesImpl___c__DisplayClass99_0(AddressablesImpl___c__DisplayClass99_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19814 };
@@ -3797,7 +3797,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl(AddressablesImplconst&) = delete;
+  AddressablesImpl(AddressablesImpl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19815 };

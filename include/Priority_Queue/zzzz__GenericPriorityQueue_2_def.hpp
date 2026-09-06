@@ -171,7 +171,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GenericPriorityQueue_2__GetEnumerator_d__25", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GenericPriorityQueue_2__GetEnumerator_d__25(GenericPriorityQueue_2__GetEnumerator_d__25const&) = delete;
+  GenericPriorityQueue_2__GetEnumerator_d__25(GenericPriorityQueue_2__GetEnumerator_d__25 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20488 };
@@ -355,7 +355,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GenericPriorityQueue_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GenericPriorityQueue_2(GenericPriorityQueue_2const&) = delete;
+  GenericPriorityQueue_2(GenericPriorityQueue_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20489 };

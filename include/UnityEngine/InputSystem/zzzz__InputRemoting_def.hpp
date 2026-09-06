@@ -542,7 +542,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_Subscriber", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputRemoting_Subscriber(InputRemoting_Subscriberconst&) = delete;
+  InputRemoting_Subscriber(InputRemoting_Subscriber const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8740 };
@@ -585,7 +585,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_ConnectMsg", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputRemoting_ConnectMsg(InputRemoting_ConnectMsgconst&) = delete;
+  InputRemoting_ConnectMsg(InputRemoting_ConnectMsg const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8741 };
@@ -618,7 +618,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_StartSendingMsg", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputRemoting_StartSendingMsg(InputRemoting_StartSendingMsgconst&) = delete;
+  InputRemoting_StartSendingMsg(InputRemoting_StartSendingMsg const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8742 };
@@ -651,7 +651,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_StopSendingMsg", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputRemoting_StopSendingMsg(InputRemoting_StopSendingMsgconst&) = delete;
+  InputRemoting_StopSendingMsg(InputRemoting_StopSendingMsg const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8743 };
@@ -684,7 +684,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_DisconnectMsg", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputRemoting_DisconnectMsg(InputRemoting_DisconnectMsgconst&) = delete;
+  InputRemoting_DisconnectMsg(InputRemoting_DisconnectMsg const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8744 };
@@ -764,7 +764,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_NewLayoutMsg", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputRemoting_NewLayoutMsg(InputRemoting_NewLayoutMsgconst&) = delete;
+  InputRemoting_NewLayoutMsg(InputRemoting_NewLayoutMsg const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8746 };
@@ -871,7 +871,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NewDeviceMsg_InputRemoting___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NewDeviceMsg_InputRemoting___c(NewDeviceMsg_InputRemoting___cconst&) = delete;
+  NewDeviceMsg_InputRemoting___c(NewDeviceMsg_InputRemoting___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8748 };
@@ -911,7 +911,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_NewDeviceMsg", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputRemoting_NewDeviceMsg(InputRemoting_NewDeviceMsgconst&) = delete;
+  InputRemoting_NewDeviceMsg(InputRemoting_NewDeviceMsg const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8749 };
@@ -953,7 +953,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_NewEventsMsg", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputRemoting_NewEventsMsg(InputRemoting_NewEventsMsgconst&) = delete;
+  InputRemoting_NewEventsMsg(InputRemoting_NewEventsMsg const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8750 };
@@ -1043,7 +1043,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ChangeUsageMsg_InputRemoting___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ChangeUsageMsg_InputRemoting___c(ChangeUsageMsg_InputRemoting___cconst&) = delete;
+  ChangeUsageMsg_InputRemoting___c(ChangeUsageMsg_InputRemoting___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8752 };
@@ -1083,7 +1083,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_ChangeUsageMsg", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputRemoting_ChangeUsageMsg(InputRemoting_ChangeUsageMsgconst&) = delete;
+  InputRemoting_ChangeUsageMsg(InputRemoting_ChangeUsageMsg const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8753 };
@@ -1119,7 +1119,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_RemoveDeviceMsg", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputRemoting_RemoveDeviceMsg(InputRemoting_RemoveDeviceMsgconst&) = delete;
+  InputRemoting_RemoveDeviceMsg(InputRemoting_RemoveDeviceMsg const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8754 };
@@ -1311,7 +1311,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputRemoting", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputRemoting(InputRemotingconst&) = delete;
+  InputRemoting(InputRemoting const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8755 };

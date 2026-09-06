@@ -113,7 +113,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightmapLightWithIdsGroupEntry_GroupLightData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightmapLightWithIdsGroupEntry_GroupLightData(LightmapLightWithIdsGroupEntry_GroupLightDataconst&) = delete;
+  LightmapLightWithIdsGroupEntry_GroupLightData(LightmapLightWithIdsGroupEntry_GroupLightData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19537 };
@@ -208,7 +208,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightmapLightWithIdsGroupEntry_LightIntensitiesWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightmapLightWithIdsGroupEntry_LightIntensitiesWithId(LightmapLightWithIdsGroupEntry_LightIntensitiesWithIdconst&) = delete;
+  LightmapLightWithIdsGroupEntry_LightIntensitiesWithId(LightmapLightWithIdsGroupEntry_LightIntensitiesWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19538 };
@@ -333,7 +333,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightmapLightWithIdsGroupEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightmapLightWithIdsGroupEntry(LightmapLightWithIdsGroupEntryconst&) = delete;
+  LightmapLightWithIdsGroupEntry(LightmapLightWithIdsGroupEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19539 };

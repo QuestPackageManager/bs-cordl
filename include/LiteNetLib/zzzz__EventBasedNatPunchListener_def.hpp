@@ -85,7 +85,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EventBasedNatPunchListener_OnNatIntroductionRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventBasedNatPunchListener_OnNatIntroductionRequest(EventBasedNatPunchListener_OnNatIntroductionRequestconst&) = delete;
+  EventBasedNatPunchListener_OnNatIntroductionRequest(EventBasedNatPunchListener_OnNatIntroductionRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20044 };
@@ -130,7 +130,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EventBasedNatPunchListener_OnNatIntroductionSuccess", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventBasedNatPunchListener_OnNatIntroductionSuccess(EventBasedNatPunchListener_OnNatIntroductionSuccessconst&) = delete;
+  EventBasedNatPunchListener_OnNatIntroductionSuccess(EventBasedNatPunchListener_OnNatIntroductionSuccess const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20045 };
@@ -217,7 +217,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EventBasedNatPunchListener", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventBasedNatPunchListener(EventBasedNatPunchListenerconst&) = delete;
+  EventBasedNatPunchListener(EventBasedNatPunchListener const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20046 };

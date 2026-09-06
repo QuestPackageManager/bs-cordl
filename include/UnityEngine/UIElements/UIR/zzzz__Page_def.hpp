@@ -221,7 +221,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Page_DataSet_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Page_DataSet_1(Page_DataSet_1const&) = delete;
+  Page_DataSet_1(Page_DataSet_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5380 };
@@ -368,7 +368,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Page", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Page(Pageconst&) = delete;
+  Page(Page const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5381 };

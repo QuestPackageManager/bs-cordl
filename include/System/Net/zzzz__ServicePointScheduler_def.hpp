@@ -213,7 +213,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ServicePointScheduler_ConnectionGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ServicePointScheduler_ConnectionGroup(ServicePointScheduler_ConnectionGroupconst&) = delete;
+  ServicePointScheduler_ConnectionGroup(ServicePointScheduler_ConnectionGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11627 };
@@ -293,7 +293,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncManualResetEvent_ServicePointScheduler___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncManualResetEvent_ServicePointScheduler___c(AsyncManualResetEvent_ServicePointScheduler___cconst&) = delete;
+  AsyncManualResetEvent_ServicePointScheduler___c(AsyncManualResetEvent_ServicePointScheduler___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11628 };
@@ -348,7 +348,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ServicePointScheduler_AsyncManualResetEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ServicePointScheduler_AsyncManualResetEvent(ServicePointScheduler_AsyncManualResetEventconst&) = delete;
+  ServicePointScheduler_AsyncManualResetEvent(ServicePointScheduler_AsyncManualResetEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11629 };
@@ -774,7 +774,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ServicePointScheduler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ServicePointScheduler(ServicePointSchedulerconst&) = delete;
+  ServicePointScheduler(ServicePointScheduler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11632 };

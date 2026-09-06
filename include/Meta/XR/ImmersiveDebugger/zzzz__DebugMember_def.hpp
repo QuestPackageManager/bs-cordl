@@ -144,7 +144,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugMember", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugMember(DebugMemberconst&) = delete;
+  DebugMember(DebugMember const&) = delete;
 
   /// @brief Field DisplayNameTooltip offset 0xffffffff size 0x8
   static constexpr ::ConstString DisplayNameTooltip{ u"Optional name override to be used in the Inspector Panel" };

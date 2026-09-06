@@ -155,7 +155,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SessionParameters_Builder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SessionParameters_Builder(SessionParameters_Builderconst&) = delete;
+  SessionParameters_Builder(SessionParameters_Builder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1272 };
@@ -351,7 +351,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SessionParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SessionParameters(SessionParametersconst&) = delete;
+  SessionParameters(SessionParameters const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1273 };

@@ -156,7 +156,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GenericDropdownMenu_MenuItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GenericDropdownMenu_MenuItem(GenericDropdownMenu_MenuItemconst&) = delete;
+  GenericDropdownMenu_MenuItem(GenericDropdownMenu_MenuItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4197 };
@@ -262,7 +262,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GenericDropdownMenu___c__DisplayClass63_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GenericDropdownMenu___c__DisplayClass63_0(GenericDropdownMenu___c__DisplayClass63_0const&) = delete;
+  GenericDropdownMenu___c__DisplayClass63_0(GenericDropdownMenu___c__DisplayClass63_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4199 };
@@ -633,7 +633,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GenericDropdownMenu", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GenericDropdownMenu(GenericDropdownMenuconst&) = delete;
+  GenericDropdownMenu(GenericDropdownMenu const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4200 };

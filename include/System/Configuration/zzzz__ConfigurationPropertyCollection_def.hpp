@@ -32,7 +32,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConfigurationPropertyCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConfigurationPropertyCollection(ConfigurationPropertyCollectionconst&) = delete;
+  ConfigurationPropertyCollection(ConfigurationPropertyCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23774 };

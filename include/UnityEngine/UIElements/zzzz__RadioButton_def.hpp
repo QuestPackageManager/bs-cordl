@@ -80,7 +80,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RadioButton_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RadioButton_UxmlFactory(RadioButton_UxmlFactoryconst&) = delete;
+  RadioButton_UxmlFactory(RadioButton_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4293 };
@@ -128,7 +128,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RadioButton_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RadioButton_UxmlTraits(RadioButton_UxmlTraitsconst&) = delete;
+  RadioButton_UxmlTraits(RadioButton_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4294 };
@@ -266,7 +266,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RadioButton", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RadioButton(RadioButtonconst&) = delete;
+  RadioButton(RadioButton const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4295 };

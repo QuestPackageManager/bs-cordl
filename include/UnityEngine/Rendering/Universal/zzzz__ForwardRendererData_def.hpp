@@ -180,7 +180,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ForwardRendererData_ShaderResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ForwardRendererData_ShaderResources(ForwardRendererData_ShaderResourcesconst&) = delete;
+  ForwardRendererData_ShaderResources(ForwardRendererData_ShaderResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12751 };
@@ -455,7 +455,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ForwardRendererData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ForwardRendererData(ForwardRendererDataconst&) = delete;
+  ForwardRendererData(ForwardRendererData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12752 };

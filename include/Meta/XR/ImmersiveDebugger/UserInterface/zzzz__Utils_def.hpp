@@ -48,7 +48,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Utils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Utils(Utilsconst&) = delete;
+  Utils(Utils const&) = delete;
 
   /// @brief Field CursorSortOrder offset 0xffffffff size 0x4
   static constexpr int32_t CursorSortOrder{ static_cast<int32_t>(0x7918) };

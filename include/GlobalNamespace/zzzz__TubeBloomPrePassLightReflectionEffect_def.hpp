@@ -147,7 +147,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint(TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPointconst&) = delete;
+  TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint(TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5942 };
@@ -288,7 +288,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLightReflectionEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TubeBloomPrePassLightReflectionEffect(TubeBloomPrePassLightReflectionEffectconst&) = delete;
+  TubeBloomPrePassLightReflectionEffect(TubeBloomPrePassLightReflectionEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5943 };

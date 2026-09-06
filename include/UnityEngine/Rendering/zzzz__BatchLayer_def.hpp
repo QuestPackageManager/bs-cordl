@@ -37,7 +37,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BatchLayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BatchLayer(BatchLayerconst&) = delete;
+  BatchLayer(BatchLayer const&) = delete;
 
   /// @brief Field InstanceCullingDirect offset 0xffffffff size 0x1
   static constexpr uint8_t InstanceCullingDirect{ static_cast<uint8_t>(0x1du) };

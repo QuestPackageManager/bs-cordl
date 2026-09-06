@@ -141,7 +141,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Index_IndexTree", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Index_IndexTree(Index_IndexTreeconst&) = delete;
+  Index_IndexTree(Index_IndexTree const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13854 };
@@ -213,7 +213,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Index___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Index___c(Index___cconst&) = delete;
+  Index___c(Index___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13855 };
@@ -261,7 +261,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Index___c__DisplayClass86_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Index___c__DisplayClass86_0(Index___c__DisplayClass86_0const&) = delete;
+  Index___c__DisplayClass86_0(Index___c__DisplayClass86_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13856 };
@@ -646,7 +646,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Index", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Index(Indexconst&) = delete;
+  Index(Index const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13857 };

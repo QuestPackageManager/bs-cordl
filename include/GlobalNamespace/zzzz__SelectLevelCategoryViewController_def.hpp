@@ -188,7 +188,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SelectLevelCategoryViewController_LevelCategoryInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SelectLevelCategoryViewController_LevelCategoryInfo(SelectLevelCategoryViewController_LevelCategoryInfoconst&) = delete;
+  SelectLevelCategoryViewController_LevelCategoryInfo(SelectLevelCategoryViewController_LevelCategoryInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6944 };
@@ -269,7 +269,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SelectLevelCategoryViewController___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SelectLevelCategoryViewController___c(SelectLevelCategoryViewController___cconst&) = delete;
+  SelectLevelCategoryViewController___c(SelectLevelCategoryViewController___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6945 };
@@ -319,7 +319,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SelectLevelCategoryViewController___c__DisplayClass12_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SelectLevelCategoryViewController___c__DisplayClass12_0(SelectLevelCategoryViewController___c__DisplayClass12_0const&) = delete;
+  SelectLevelCategoryViewController___c__DisplayClass12_0(SelectLevelCategoryViewController___c__DisplayClass12_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6946 };
@@ -459,7 +459,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SelectLevelCategoryViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SelectLevelCategoryViewController(SelectLevelCategoryViewControllerconst&) = delete;
+  SelectLevelCategoryViewController(SelectLevelCategoryViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6947 };

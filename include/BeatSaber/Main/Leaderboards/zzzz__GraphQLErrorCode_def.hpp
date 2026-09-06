@@ -39,7 +39,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphQLErrorCode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLErrorCode(GraphQLErrorCodeconst&) = delete;
+  GraphQLErrorCode(GraphQLErrorCode const&) = delete;
 
   /// @brief Field BEAT_GAMES__CLIENT_VERSION_DEPRECATED offset 0xffffffff size 0x4
   static constexpr int32_t BEAT_GAMES__CLIENT_VERSION_DEPRECATED{ static_cast<int32_t>(0x39d0e0) };

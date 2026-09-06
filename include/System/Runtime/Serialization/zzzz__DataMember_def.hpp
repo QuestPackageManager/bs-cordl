@@ -233,7 +233,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DataMember_CriticalHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataMember_CriticalHelper(DataMember_CriticalHelperconst&) = delete;
+  DataMember_CriticalHelper(DataMember_CriticalHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17025 };
@@ -414,7 +414,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DataMember", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataMember(DataMemberconst&) = delete;
+  DataMember(DataMember const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17026 };

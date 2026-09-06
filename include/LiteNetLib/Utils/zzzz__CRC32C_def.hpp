@@ -43,7 +43,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CRC32C", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CRC32C(CRC32Cconst&) = delete;
+  CRC32C(CRC32C const&) = delete;
 
   /// @brief Field ChecksumSize offset 0xffffffff size 0x4
   static constexpr int32_t ChecksumSize{ static_cast<int32_t>(0x4) };

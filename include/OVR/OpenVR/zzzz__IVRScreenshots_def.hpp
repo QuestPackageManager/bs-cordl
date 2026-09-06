@@ -132,7 +132,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__RequestScreenshot", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRScreenshots__RequestScreenshot(IVRScreenshots__RequestScreenshotconst&) = delete;
+  IVRScreenshots__RequestScreenshot(IVRScreenshots__RequestScreenshot const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8325 };
@@ -177,7 +177,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__HookScreenshot", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRScreenshots__HookScreenshot(IVRScreenshots__HookScreenshotconst&) = delete;
+  IVRScreenshots__HookScreenshot(IVRScreenshots__HookScreenshot const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8326 };
@@ -222,7 +222,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__GetScreenshotPropertyType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRScreenshots__GetScreenshotPropertyType(IVRScreenshots__GetScreenshotPropertyTypeconst&) = delete;
+  IVRScreenshots__GetScreenshotPropertyType(IVRScreenshots__GetScreenshotPropertyType const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8327 };
@@ -269,7 +269,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__GetScreenshotPropertyFilename", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRScreenshots__GetScreenshotPropertyFilename(IVRScreenshots__GetScreenshotPropertyFilenameconst&) = delete;
+  IVRScreenshots__GetScreenshotPropertyFilename(IVRScreenshots__GetScreenshotPropertyFilename const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8328 };
@@ -314,7 +314,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__UpdateScreenshotProgress", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRScreenshots__UpdateScreenshotProgress(IVRScreenshots__UpdateScreenshotProgressconst&) = delete;
+  IVRScreenshots__UpdateScreenshotProgress(IVRScreenshots__UpdateScreenshotProgress const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8329 };
@@ -360,7 +360,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__TakeStereoScreenshot", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRScreenshots__TakeStereoScreenshot(IVRScreenshots__TakeStereoScreenshotconst&) = delete;
+  IVRScreenshots__TakeStereoScreenshot(IVRScreenshots__TakeStereoScreenshot const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8330 };
@@ -406,7 +406,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRScreenshots__SubmitScreenshot", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRScreenshots__SubmitScreenshot(IVRScreenshots__SubmitScreenshotconst&) = delete;
+  IVRScreenshots__SubmitScreenshot(IVRScreenshots__SubmitScreenshot const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8331 };

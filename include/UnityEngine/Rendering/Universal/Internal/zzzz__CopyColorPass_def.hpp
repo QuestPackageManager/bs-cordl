@@ -173,7 +173,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CopyColorPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CopyColorPass_PassData(CopyColorPass_PassDataconst&) = delete;
+  CopyColorPass_PassData(CopyColorPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13074 };
@@ -266,7 +266,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CopyColorPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CopyColorPass___c(CopyColorPass___cconst&) = delete;
+  CopyColorPass___c(CopyColorPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13075 };
@@ -429,7 +429,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CopyColorPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CopyColorPass(CopyColorPassconst&) = delete;
+  CopyColorPass(CopyColorPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13076 };

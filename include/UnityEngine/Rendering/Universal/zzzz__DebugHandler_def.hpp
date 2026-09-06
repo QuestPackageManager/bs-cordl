@@ -257,7 +257,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugHandler_DebugFinalValidationPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugHandler_DebugFinalValidationPassData(DebugHandler_DebugFinalValidationPassDataconst&) = delete;
+  DebugHandler_DebugFinalValidationPassData(DebugHandler_DebugFinalValidationPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12663 };
@@ -384,7 +384,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugHandler_DebugSetupPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugHandler_DebugSetupPassData(DebugHandler_DebugSetupPassDataconst&) = delete;
+  DebugHandler_DebugSetupPassData(DebugHandler_DebugSetupPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12664 };
@@ -478,7 +478,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugHandler___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugHandler___c(DebugHandler___cconst&) = delete;
+  DebugHandler___c(DebugHandler___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12665 };
@@ -1115,7 +1115,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugHandler(DebugHandlerconst&) = delete;
+  DebugHandler(DebugHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12666 };

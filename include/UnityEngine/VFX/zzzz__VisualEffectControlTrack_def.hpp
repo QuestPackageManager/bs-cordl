@@ -157,7 +157,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrack___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualEffectControlTrack___c(VisualEffectControlTrack___cconst&) = delete;
+  VisualEffectControlTrack___c(VisualEffectControlTrack___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19960 };
@@ -229,7 +229,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualEffectControlTrack(VisualEffectControlTrackconst&) = delete;
+  VisualEffectControlTrack(VisualEffectControlTrack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19961 };

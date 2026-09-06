@@ -46,7 +46,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LessThanOrEqualInstruction_LessThanOrEqualUInt64", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LessThanOrEqualInstruction_LessThanOrEqualUInt64(LessThanOrEqualInstruction_LessThanOrEqualUInt64const&) = delete;
+  LessThanOrEqualInstruction_LessThanOrEqualUInt64(LessThanOrEqualInstruction_LessThanOrEqualUInt64 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16429 };

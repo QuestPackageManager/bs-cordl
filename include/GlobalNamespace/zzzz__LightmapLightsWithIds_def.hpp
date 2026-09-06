@@ -138,7 +138,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightmapLightsWithIds_LightIntensitiesWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightmapLightsWithIds_LightIntensitiesWithId(LightmapLightsWithIds_LightIntensitiesWithIdconst&) = delete;
+  LightmapLightsWithIds_LightIntensitiesWithId(LightmapLightsWithIds_LightIntensitiesWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19533 };
@@ -241,7 +241,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightmapLightsWithIds", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightmapLightsWithIds(LightmapLightsWithIdsconst&) = delete;
+  LightmapLightsWithIds(LightmapLightsWithIds const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19534 };

@@ -85,7 +85,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VFXInputTouchBinder___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXInputTouchBinder___c(VFXInputTouchBinder___cconst&) = delete;
+  VFXInputTouchBinder___c(VFXInputTouchBinder___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19996 };
@@ -244,7 +244,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VFXInputTouchBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXInputTouchBinder(VFXInputTouchBinderconst&) = delete;
+  VFXInputTouchBinder(VFXInputTouchBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19997 };

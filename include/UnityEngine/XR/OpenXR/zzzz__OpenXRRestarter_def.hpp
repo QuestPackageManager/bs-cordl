@@ -167,7 +167,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35(OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35const&) = delete;
+  OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35(OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18510 };
@@ -305,7 +305,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34(OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34const&) = delete;
+  OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34(OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18511 };
@@ -452,7 +452,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenXRRestarter__RestartCoroutine_d__36", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRRestarter__RestartCoroutine_d__36(OpenXRRestarter__RestartCoroutine_d__36const&) = delete;
+  OpenXRRestarter__RestartCoroutine_d__36(OpenXRRestarter__RestartCoroutine_d__36 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18512 };
@@ -680,7 +680,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenXRRestarter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRRestarter(OpenXRRestarterconst&) = delete;
+  OpenXRRestarter(OpenXRRestarter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18513 };

@@ -114,7 +114,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FSharpUtils___c__55_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FSharpUtils___c__55_2(FSharpUtils___c__55_2const&) = delete;
+  FSharpUtils___c__55_2(FSharpUtils___c__55_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13420 };
@@ -169,7 +169,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FSharpUtils___c__DisplayClass52_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FSharpUtils___c__DisplayClass52_0(FSharpUtils___c__DisplayClass52_0const&) = delete;
+  FSharpUtils___c__DisplayClass52_0(FSharpUtils___c__DisplayClass52_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13421 };
@@ -231,7 +231,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FSharpUtils___c__DisplayClass55_0_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FSharpUtils___c__DisplayClass55_0_2(FSharpUtils___c__DisplayClass55_0_2const&) = delete;
+  FSharpUtils___c__DisplayClass55_0_2(FSharpUtils___c__DisplayClass55_0_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13422 };
@@ -544,7 +544,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FSharpUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FSharpUtils(FSharpUtilsconst&) = delete;
+  FSharpUtils(FSharpUtils const&) = delete;
 
   /// @brief Field FSharpListTypeName offset 0xffffffff size 0x8
   static constexpr ::ConstString FSharpListTypeName{ u"FSharpList`1" };

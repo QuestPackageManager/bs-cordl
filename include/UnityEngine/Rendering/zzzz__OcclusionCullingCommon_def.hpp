@@ -267,7 +267,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon_ShaderIDs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OcclusionCullingCommon_ShaderIDs(OcclusionCullingCommon_ShaderIDsconst&) = delete;
+  OcclusionCullingCommon_ShaderIDs(OcclusionCullingCommon_ShaderIDs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17775 };
@@ -311,7 +311,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon_OcclusionTestOverlaySetupPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OcclusionCullingCommon_OcclusionTestOverlaySetupPassData(OcclusionCullingCommon_OcclusionTestOverlaySetupPassDataconst&) = delete;
+  OcclusionCullingCommon_OcclusionTestOverlaySetupPassData(OcclusionCullingCommon_OcclusionTestOverlaySetupPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17776 };
@@ -360,7 +360,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon_OcclusionTestOverlayPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OcclusionCullingCommon_OcclusionTestOverlayPassData(OcclusionCullingCommon_OcclusionTestOverlayPassDataconst&) = delete;
+  OcclusionCullingCommon_OcclusionTestOverlayPassData(OcclusionCullingCommon_OcclusionTestOverlayPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17777 };
@@ -487,7 +487,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon_OccluderOverlayPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OcclusionCullingCommon_OccluderOverlayPassData(OcclusionCullingCommon_OccluderOverlayPassDataconst&) = delete;
+  OcclusionCullingCommon_OccluderOverlayPassData(OcclusionCullingCommon_OccluderOverlayPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17779 };
@@ -575,7 +575,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon_UpdateOccludersPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OcclusionCullingCommon_UpdateOccludersPassData(OcclusionCullingCommon_UpdateOccludersPassDataconst&) = delete;
+  OcclusionCullingCommon_UpdateOccludersPassData(OcclusionCullingCommon_UpdateOccludersPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17780 };
@@ -680,7 +680,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OcclusionCullingCommon___c(OcclusionCullingCommon___cconst&) = delete;
+  OcclusionCullingCommon___c(OcclusionCullingCommon___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17781 };
@@ -1003,7 +1003,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OcclusionCullingCommon(OcclusionCullingCommonconst&) = delete;
+  OcclusionCullingCommon(OcclusionCullingCommon const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17782 };

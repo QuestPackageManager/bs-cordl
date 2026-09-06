@@ -231,7 +231,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ZStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ZStream(ZStreamconst&) = delete;
+  ZStream(ZStream const&) = delete;
 
   /// @brief Field DEF_WBITS offset 0xffffffff size 0x4
   static constexpr int32_t DEF_WBITS{ static_cast<int32_t>(0xf) };

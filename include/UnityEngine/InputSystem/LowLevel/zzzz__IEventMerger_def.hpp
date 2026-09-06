@@ -26,7 +26,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IEventMerger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IEventMerger(IEventMergerconst&) = delete;
+  IEventMerger(IEventMerger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8990 };

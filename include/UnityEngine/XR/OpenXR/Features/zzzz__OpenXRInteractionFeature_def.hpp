@@ -201,7 +201,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenXRInteractionFeature_ActionBinding", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRInteractionFeature_ActionBinding(OpenXRInteractionFeature_ActionBindingconst&) = delete;
+  OpenXRInteractionFeature_ActionBinding(OpenXRInteractionFeature_ActionBinding const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18558 };
@@ -306,7 +306,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenXRInteractionFeature_ActionConfig", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRInteractionFeature_ActionConfig(OpenXRInteractionFeature_ActionConfigconst&) = delete;
+  OpenXRInteractionFeature_ActionConfig(OpenXRInteractionFeature_ActionConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18559 };
@@ -389,7 +389,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenXRInteractionFeature_DeviceConfig", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRInteractionFeature_DeviceConfig(OpenXRInteractionFeature_DeviceConfigconst&) = delete;
+  OpenXRInteractionFeature_DeviceConfig(OpenXRInteractionFeature_DeviceConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18560 };
@@ -499,7 +499,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenXRInteractionFeature_ActionMapConfig", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRInteractionFeature_ActionMapConfig(OpenXRInteractionFeature_ActionMapConfigconst&) = delete;
+  OpenXRInteractionFeature_ActionMapConfig(OpenXRInteractionFeature_ActionMapConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18561 };
@@ -564,7 +564,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenXRInteractionFeature_UserPaths", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRInteractionFeature_UserPaths(OpenXRInteractionFeature_UserPathsconst&) = delete;
+  OpenXRInteractionFeature_UserPaths(OpenXRInteractionFeature_UserPaths const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18562 };
@@ -742,7 +742,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenXRInteractionFeature", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRInteractionFeature(OpenXRInteractionFeatureconst&) = delete;
+  OpenXRInteractionFeature(OpenXRInteractionFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18564 };

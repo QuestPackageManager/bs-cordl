@@ -227,7 +227,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XElement__GetAttributes_d__116", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XElement__GetAttributes_d__116(XElement__GetAttributes_d__116const&) = delete;
+  XElement__GetAttributes_d__116(XElement__GetAttributes_d__116 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21975 };
@@ -418,7 +418,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XElement(XElementconst&) = delete;
+  XElement(XElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21976 };

@@ -258,7 +258,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7(TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7const&) = delete;
+  TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7(TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15978 };
@@ -413,7 +413,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_SpriteAnimator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_SpriteAnimator(TMP_SpriteAnimatorconst&) = delete;
+  TMP_SpriteAnimator(TMP_SpriteAnimator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15979 };

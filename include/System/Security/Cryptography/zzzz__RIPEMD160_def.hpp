@@ -40,7 +40,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RIPEMD160", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RIPEMD160(RIPEMD160const&) = delete;
+  RIPEMD160(RIPEMD160 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2969 };

@@ -195,7 +195,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CookieCollection_CookieCollectionEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CookieCollection_CookieCollectionEnumerator(CookieCollection_CookieCollectionEnumeratorconst&) = delete;
+  CookieCollection_CookieCollectionEnumerator(CookieCollection_CookieCollectionEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11551 };
@@ -361,7 +361,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CookieCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CookieCollection(CookieCollectionconst&) = delete;
+  CookieCollection(CookieCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11552 };

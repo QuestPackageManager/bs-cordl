@@ -237,7 +237,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FieldFilter__ExecuteFilter_d__2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FieldFilter__ExecuteFilter_d__2(FieldFilter__ExecuteFilter_d__2const&) = delete;
+  FieldFilter__ExecuteFilter_d__2(FieldFilter__ExecuteFilter_d__2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13629 };
@@ -350,7 +350,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FieldFilter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FieldFilter(FieldFilterconst&) = delete;
+  FieldFilter(FieldFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13630 };

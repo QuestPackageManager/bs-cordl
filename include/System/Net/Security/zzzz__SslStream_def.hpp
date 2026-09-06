@@ -124,7 +124,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SslStream___c__DisplayClass21_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SslStream___c__DisplayClass21_0(SslStream___c__DisplayClass21_0const&) = delete;
+  SslStream___c__DisplayClass21_0(SslStream___c__DisplayClass21_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11808 };
@@ -380,7 +380,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SslStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SslStream(SslStreamconst&) = delete;
+  SslStream(SslStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11809 };

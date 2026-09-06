@@ -254,7 +254,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InstanceCuller_ShaderIDs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InstanceCuller_ShaderIDs(InstanceCuller_ShaderIDsconst&) = delete;
+  InstanceCuller_ShaderIDs(InstanceCuller_ShaderIDs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17658 };
@@ -403,7 +403,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InstanceCuller_InstanceOcclusionTestPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InstanceCuller_InstanceOcclusionTestPassData(InstanceCuller_InstanceOcclusionTestPassDataconst&) = delete;
+  InstanceCuller_InstanceOcclusionTestPassData(InstanceCuller_InstanceOcclusionTestPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17660 };
@@ -481,7 +481,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InstanceCuller___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InstanceCuller___c(InstanceCuller___cconst&) = delete;
+  InstanceCuller___c(InstanceCuller___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17661 };

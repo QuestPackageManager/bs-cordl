@@ -33,7 +33,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IProducerConsumerCollectionDebugView_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IProducerConsumerCollectionDebugView_1(IProducerConsumerCollectionDebugView_1const&) = delete;
+  IProducerConsumerCollectionDebugView_1(IProducerConsumerCollectionDebugView_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3747 };

@@ -140,7 +140,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TextGenerator_MissingCharacterEventCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextGenerator_MissingCharacterEventCallback(TextGenerator_MissingCharacterEventCallbackconst&) = delete;
+  TextGenerator_MissingCharacterEventCallback(TextGenerator_MissingCharacterEventCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17248 };
@@ -1438,7 +1438,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TextGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextGenerator(TextGeneratorconst&) = delete;
+  TextGenerator(TextGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17250 };

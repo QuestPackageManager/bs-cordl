@@ -85,7 +85,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinatorAvatarsHelper___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlowCoordinatorAvatarsHelper___c__DisplayClass0_0(FlowCoordinatorAvatarsHelper___c__DisplayClass0_0const&) = delete;
+  FlowCoordinatorAvatarsHelper___c__DisplayClass0_0(FlowCoordinatorAvatarsHelper___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6349 };
@@ -205,7 +205,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinatorAvatarsHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlowCoordinatorAvatarsHelper(FlowCoordinatorAvatarsHelperconst&) = delete;
+  FlowCoordinatorAvatarsHelper(FlowCoordinatorAvatarsHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6351 };

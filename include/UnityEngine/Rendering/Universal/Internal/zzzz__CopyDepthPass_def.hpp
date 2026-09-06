@@ -127,7 +127,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CopyDepthPass_ShaderConstants", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CopyDepthPass_ShaderConstants(CopyDepthPass_ShaderConstantsconst&) = delete;
+  CopyDepthPass_ShaderConstants(CopyDepthPass_ShaderConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13077 };
@@ -225,7 +225,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CopyDepthPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CopyDepthPass_PassData(CopyDepthPass_PassDataconst&) = delete;
+  CopyDepthPass_PassData(CopyDepthPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13078 };
@@ -318,7 +318,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CopyDepthPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CopyDepthPass___c(CopyDepthPass___cconst&) = delete;
+  CopyDepthPass___c(CopyDepthPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13079 };
@@ -543,7 +543,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CopyDepthPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CopyDepthPass(CopyDepthPassconst&) = delete;
+  CopyDepthPass(CopyDepthPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13080 };

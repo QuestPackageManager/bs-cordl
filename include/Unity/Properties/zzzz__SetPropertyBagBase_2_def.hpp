@@ -164,7 +164,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SetPropertyBagBase_2_SetElementProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetPropertyBagBase_2_SetElementProperty(SetPropertyBagBase_2_SetElementPropertyconst&) = delete;
+  SetPropertyBagBase_2_SetElementProperty(SetPropertyBagBase_2_SetElementProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19670 };
@@ -343,7 +343,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SetPropertyBagBase_2__GetPropertiesEnumerable_d__4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetPropertyBagBase_2__GetPropertiesEnumerable_d__4(SetPropertyBagBase_2__GetPropertiesEnumerable_d__4const&) = delete;
+  SetPropertyBagBase_2__GetPropertiesEnumerable_d__4(SetPropertyBagBase_2__GetPropertiesEnumerable_d__4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19671 };
@@ -477,7 +477,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SetPropertyBagBase_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetPropertyBagBase_2(SetPropertyBagBase_2const&) = delete;
+  SetPropertyBagBase_2(SetPropertyBagBase_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19672 };

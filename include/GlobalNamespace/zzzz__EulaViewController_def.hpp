@@ -240,7 +240,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EulaViewController__EnableButtonsCoroutine_d__17", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EulaViewController__EnableButtonsCoroutine_d__17(EulaViewController__EnableButtonsCoroutine_d__17const&) = delete;
+  EulaViewController__EnableButtonsCoroutine_d__17(EulaViewController__EnableButtonsCoroutine_d__17 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6436 };
@@ -445,7 +445,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EulaViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EulaViewController(EulaViewControllerconst&) = delete;
+  EulaViewController(EulaViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6437 };

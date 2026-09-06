@@ -156,7 +156,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HoverHintController__HideHintAfterDelay_d__12", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HoverHintController__HideHintAfterDelay_d__12(HoverHintController__HideHintAfterDelay_d__12const&) = delete;
+  HoverHintController__HideHintAfterDelay_d__12(HoverHintController__HideHintAfterDelay_d__12 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19043 };
@@ -300,7 +300,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HoverHintController__ShowHintAfterDelay_d__11", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HoverHintController__ShowHintAfterDelay_d__11(HoverHintController__ShowHintAfterDelay_d__11const&) = delete;
+  HoverHintController__ShowHintAfterDelay_d__11(HoverHintController__ShowHintAfterDelay_d__11 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19044 };
@@ -423,7 +423,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HoverHintController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HoverHintController(HoverHintControllerconst&) = delete;
+  HoverHintController(HoverHintController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19045 };

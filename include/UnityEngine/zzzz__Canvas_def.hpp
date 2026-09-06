@@ -87,7 +87,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Canvas_WillRenderCanvases", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Canvas_WillRenderCanvases(Canvas_WillRenderCanvasesconst&) = delete;
+  Canvas_WillRenderCanvases(Canvas_WillRenderCanvases const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22118 };
@@ -556,7 +556,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Canvas", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Canvas(Canvasconst&) = delete;
+  Canvas(Canvas const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22119 };

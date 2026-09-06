@@ -74,7 +74,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Streams", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Streams(Streamsconst&) = delete;
+  Streams(Streams const&) = delete;
 
   /// @brief Field BufferSize offset 0xffffffff size 0x4
   static constexpr int32_t BufferSize{ static_cast<int32_t>(0x200) };

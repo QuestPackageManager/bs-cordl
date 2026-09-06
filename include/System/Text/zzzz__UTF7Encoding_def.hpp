@@ -128,7 +128,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UTF7Encoding_Decoder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UTF7Encoding_Decoder(UTF7Encoding_Decoderconst&) = delete;
+  UTF7Encoding_Decoder(UTF7Encoding_Decoder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2876 };
@@ -204,7 +204,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UTF7Encoding_Encoder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UTF7Encoding_Encoder(UTF7Encoding_Encoderconst&) = delete;
+  UTF7Encoding_Encoder(UTF7Encoding_Encoder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2877 };
@@ -263,7 +263,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UTF7Encoding_DecoderUTF7Fallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UTF7Encoding_DecoderUTF7Fallback(UTF7Encoding_DecoderUTF7Fallbackconst&) = delete;
+  UTF7Encoding_DecoderUTF7Fallback(UTF7Encoding_DecoderUTF7Fallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2878 };
@@ -342,7 +342,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UTF7Encoding_DecoderUTF7FallbackBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UTF7Encoding_DecoderUTF7FallbackBuffer(UTF7Encoding_DecoderUTF7FallbackBufferconst&) = delete;
+  UTF7Encoding_DecoderUTF7FallbackBuffer(UTF7Encoding_DecoderUTF7FallbackBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2879 };
@@ -521,7 +521,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UTF7Encoding", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UTF7Encoding(UTF7Encodingconst&) = delete;
+  UTF7Encoding(UTF7Encoding const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2880 };

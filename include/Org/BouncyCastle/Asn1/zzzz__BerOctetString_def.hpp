@@ -122,7 +122,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BerOctetString_ChunkEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BerOctetString_ChunkEnumerator(BerOctetString_ChunkEnumeratorconst&) = delete;
+  BerOctetString_ChunkEnumerator(BerOctetString_ChunkEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 480 };
@@ -256,7 +256,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BerOctetString", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BerOctetString(BerOctetStringconst&) = delete;
+  BerOctetString(BerOctetString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 481 };

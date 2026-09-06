@@ -210,7 +210,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer_Strings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplayGPUResidentDrawer_Strings(DebugDisplayGPUResidentDrawer_Stringsconst&) = delete;
+  DebugDisplayGPUResidentDrawer_Strings(DebugDisplayGPUResidentDrawer_Strings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17598 };
@@ -339,7 +339,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplayGPUResidentDrawer___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SettingsPanel_DebugDisplayGPUResidentDrawer___c(SettingsPanel_DebugDisplayGPUResidentDrawer___cconst&) = delete;
+  SettingsPanel_DebugDisplayGPUResidentDrawer___c(SettingsPanel_DebugDisplayGPUResidentDrawer___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17599 };
@@ -447,7 +447,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0(SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0const&) = delete;
+  SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0(SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17600 };
@@ -506,7 +506,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0(SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0const&) = delete;
+  SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0(SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17601 };
@@ -559,7 +559,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0(SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0const&) = delete;
+  SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0(SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17602 };
@@ -624,7 +624,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer_SettingsPanel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplayGPUResidentDrawer_SettingsPanel(DebugDisplayGPUResidentDrawer_SettingsPanelconst&) = delete;
+  DebugDisplayGPUResidentDrawer_SettingsPanel(DebugDisplayGPUResidentDrawer_SettingsPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17603 };
@@ -687,7 +687,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer___c__DisplayClass29_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplayGPUResidentDrawer___c__DisplayClass29_0(DebugDisplayGPUResidentDrawer___c__DisplayClass29_0const&) = delete;
+  DebugDisplayGPUResidentDrawer___c__DisplayClass29_0(DebugDisplayGPUResidentDrawer___c__DisplayClass29_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17604 };
@@ -761,7 +761,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer___c__DisplayClass34_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplayGPUResidentDrawer___c__DisplayClass34_0(DebugDisplayGPUResidentDrawer___c__DisplayClass34_0const&) = delete;
+  DebugDisplayGPUResidentDrawer___c__DisplayClass34_0(DebugDisplayGPUResidentDrawer___c__DisplayClass34_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17605 };
@@ -823,7 +823,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer___c__DisplayClass35_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplayGPUResidentDrawer___c__DisplayClass35_0(DebugDisplayGPUResidentDrawer___c__DisplayClass35_0const&) = delete;
+  DebugDisplayGPUResidentDrawer___c__DisplayClass35_0(DebugDisplayGPUResidentDrawer___c__DisplayClass35_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17606 };
@@ -1016,7 +1016,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayGPUResidentDrawer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplayGPUResidentDrawer(DebugDisplayGPUResidentDrawerconst&) = delete;
+  DebugDisplayGPUResidentDrawer(DebugDisplayGPUResidentDrawer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17607 };

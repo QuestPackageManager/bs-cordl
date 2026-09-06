@@ -89,7 +89,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalizationAsyncInstaller___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalizationAsyncInstaller___c(LocalizationAsyncInstaller___cconst&) = delete;
+  LocalizationAsyncInstaller___c(LocalizationAsyncInstaller___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22207 };
@@ -164,7 +164,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalizationAsyncInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalizationAsyncInstaller(LocalizationAsyncInstallerconst&) = delete;
+  LocalizationAsyncInstaller(LocalizationAsyncInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22208 };

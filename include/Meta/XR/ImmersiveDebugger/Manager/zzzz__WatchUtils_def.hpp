@@ -98,7 +98,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WatchUtils___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WatchUtils___c(WatchUtils___cconst&) = delete;
+  WatchUtils___c(WatchUtils___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18445 };
@@ -153,7 +153,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WatchUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WatchUtils(WatchUtilsconst&) = delete;
+  WatchUtils(WatchUtils const&) = delete;
 
   /// @brief Field MaxLetterCount offset 0xffffffff size 0x4
   static constexpr int32_t MaxLetterCount{ static_cast<int32_t>(0x40) };

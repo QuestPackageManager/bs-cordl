@@ -64,7 +64,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnsafeRenderGraphPass_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsafeRenderGraphPass_1(UnsafeRenderGraphPass_1const&) = delete;
+  UnsafeRenderGraphPass_1(UnsafeRenderGraphPass_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12433 };

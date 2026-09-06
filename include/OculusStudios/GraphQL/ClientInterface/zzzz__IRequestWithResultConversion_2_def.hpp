@@ -34,7 +34,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IRequestWithResultConversion_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IRequestWithResultConversion_2(IRequestWithResultConversion_2const&) = delete;
+  IRequestWithResultConversion_2(IRequestWithResultConversion_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22885 };

@@ -258,7 +258,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualTreeAsset_UsingEntryComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualTreeAsset_UsingEntryComparer(VisualTreeAsset_UsingEntryComparerconst&) = delete;
+  VisualTreeAsset_UsingEntryComparer(VisualTreeAsset_UsingEntryComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5200 };
@@ -510,7 +510,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualTreeAsset___c__DisplayClass76_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualTreeAsset___c__DisplayClass76_0(VisualTreeAsset___c__DisplayClass76_0const&) = delete;
+  VisualTreeAsset___c__DisplayClass76_0(VisualTreeAsset___c__DisplayClass76_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5205 };
@@ -767,7 +767,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualTreeAsset__get_stylesheets_d__31", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualTreeAsset__get_stylesheets_d__31(VisualTreeAsset__get_stylesheets_d__31const&) = delete;
+  VisualTreeAsset__get_stylesheets_d__31(VisualTreeAsset__get_stylesheets_d__31 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5207 };
@@ -1007,7 +1007,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualTreeAsset__get_templateDependencies_d__27", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualTreeAsset__get_templateDependencies_d__27(VisualTreeAsset__get_templateDependencies_d__27const&) = delete;
+  VisualTreeAsset__get_templateDependencies_d__27(VisualTreeAsset__get_templateDependencies_d__27 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5208 };
@@ -1472,7 +1472,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualTreeAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualTreeAsset(VisualTreeAssetconst&) = delete;
+  VisualTreeAsset(VisualTreeAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5209 };

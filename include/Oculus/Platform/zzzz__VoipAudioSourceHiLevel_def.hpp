@@ -80,7 +80,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VoipAudioSourceHiLevel_FilterReadDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VoipAudioSourceHiLevel_FilterReadDelegate(VoipAudioSourceHiLevel_FilterReadDelegateconst&) = delete;
+  VoipAudioSourceHiLevel_FilterReadDelegate(VoipAudioSourceHiLevel_FilterReadDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17994 };
@@ -203,7 +203,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VoipAudioSourceHiLevel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VoipAudioSourceHiLevel(VoipAudioSourceHiLevelconst&) = delete;
+  VoipAudioSourceHiLevel(VoipAudioSourceHiLevel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17995 };

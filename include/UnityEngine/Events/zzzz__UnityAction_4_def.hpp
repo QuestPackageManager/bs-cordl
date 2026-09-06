@@ -47,7 +47,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityAction_4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityAction_4(UnityAction_4const&) = delete;
+  UnityAction_4(UnityAction_4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10462 };

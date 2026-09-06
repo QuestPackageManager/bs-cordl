@@ -87,7 +87,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HierarchySearchQueryDescriptor___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HierarchySearchQueryDescriptor___c(HierarchySearchQueryDescriptor___cconst&) = delete;
+  HierarchySearchQueryDescriptor___c(HierarchySearchQueryDescriptor___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21954 };
@@ -256,7 +256,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HierarchySearchQueryDescriptor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HierarchySearchQueryDescriptor(HierarchySearchQueryDescriptorconst&) = delete;
+  HierarchySearchQueryDescriptor(HierarchySearchQueryDescriptor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21955 };

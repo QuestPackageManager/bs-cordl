@@ -111,7 +111,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ServerCertValidationCallback_CallbackContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ServerCertValidationCallback_CallbackContext(ServerCertValidationCallback_CallbackContextconst&) = delete;
+  ServerCertValidationCallback_CallbackContext(ServerCertValidationCallback_CallbackContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11570 };
@@ -204,7 +204,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ServerCertValidationCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ServerCertValidationCallback(ServerCertValidationCallbackconst&) = delete;
+  ServerCertValidationCallback(ServerCertValidationCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11571 };

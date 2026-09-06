@@ -184,7 +184,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs1Encoding", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pkcs1Encoding(Pkcs1Encodingconst&) = delete;
+  Pkcs1Encoding(Pkcs1Encoding const&) = delete;
 
   /// @brief Field HeaderLength offset 0xffffffff size 0x4
   static constexpr int32_t HeaderLength{ static_cast<int32_t>(0xa) };

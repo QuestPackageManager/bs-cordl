@@ -113,7 +113,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlCanonicalWriter_AttributeSorter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlCanonicalWriter_AttributeSorter(XmlCanonicalWriter_AttributeSorterconst&) = delete;
+  XmlCanonicalWriter_AttributeSorter(XmlCanonicalWriter_AttributeSorter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16973 };
@@ -642,7 +642,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlCanonicalWriter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlCanonicalWriter(XmlCanonicalWriterconst&) = delete;
+  XmlCanonicalWriter(XmlCanonicalWriter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16978 };

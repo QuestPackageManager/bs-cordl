@@ -245,7 +245,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetOculusLevelProductPacks_d__3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackDefinitionExtensions__GetOculusLevelProductPacks_d__3(PackDefinitionExtensions__GetOculusLevelProductPacks_d__3const&) = delete;
+  PackDefinitionExtensions__GetOculusLevelProductPacks_d__3(PackDefinitionExtensions__GetOculusLevelProductPacks_d__3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15011 };
@@ -437,7 +437,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5(PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5const&) = delete;
+  PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5(PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15012 };
@@ -629,7 +629,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetQuestLeaderboardIds_d__0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackDefinitionExtensions__GetQuestLeaderboardIds_d__0(PackDefinitionExtensions__GetQuestLeaderboardIds_d__0const&) = delete;
+  PackDefinitionExtensions__GetQuestLeaderboardIds_d__0(PackDefinitionExtensions__GetQuestLeaderboardIds_d__0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15013 };
@@ -821,7 +821,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetRiftLeaderboardIds_d__1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackDefinitionExtensions__GetRiftLeaderboardIds_d__1(PackDefinitionExtensions__GetRiftLeaderboardIds_d__1const&) = delete;
+  PackDefinitionExtensions__GetRiftLeaderboardIds_d__1(PackDefinitionExtensions__GetRiftLeaderboardIds_d__1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15014 };
@@ -1013,7 +1013,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetSteamLeaderboardIds_d__2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackDefinitionExtensions__GetSteamLeaderboardIds_d__2(PackDefinitionExtensions__GetSteamLeaderboardIds_d__2const&) = delete;
+  PackDefinitionExtensions__GetSteamLeaderboardIds_d__2(PackDefinitionExtensions__GetSteamLeaderboardIds_d__2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15015 };
@@ -1205,7 +1205,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions__GetSteamLevelProductPacks_d__4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackDefinitionExtensions__GetSteamLevelProductPacks_d__4(PackDefinitionExtensions__GetSteamLevelProductPacks_d__4const&) = delete;
+  PackDefinitionExtensions__GetSteamLevelProductPacks_d__4(PackDefinitionExtensions__GetSteamLevelProductPacks_d__4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15016 };
@@ -1314,7 +1314,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackDefinitionExtensions(PackDefinitionExtensionsconst&) = delete;
+  PackDefinitionExtensions(PackDefinitionExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15017 };

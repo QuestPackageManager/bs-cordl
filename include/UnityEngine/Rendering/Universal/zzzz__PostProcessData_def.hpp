@@ -207,7 +207,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PostProcessData_ShaderResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessData_ShaderResources(PostProcessData_ShaderResourcesconst&) = delete;
+  PostProcessData_ShaderResources(PostProcessData_ShaderResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12575 };
@@ -375,7 +375,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PostProcessData_TextureResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessData_TextureResources(PostProcessData_TextureResourcesconst&) = delete;
+  PostProcessData_TextureResources(PostProcessData_TextureResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12576 };
@@ -458,7 +458,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PostProcessData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessData(PostProcessDataconst&) = delete;
+  PostProcessData(PostProcessData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12577 };

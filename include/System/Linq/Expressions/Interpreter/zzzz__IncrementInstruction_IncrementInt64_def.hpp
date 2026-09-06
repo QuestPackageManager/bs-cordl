@@ -43,7 +43,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IncrementInstruction_IncrementInt64", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IncrementInstruction_IncrementInt64(IncrementInstruction_IncrementInt64const&) = delete;
+  IncrementInstruction_IncrementInt64(IncrementInstruction_IncrementInt64 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16380 };

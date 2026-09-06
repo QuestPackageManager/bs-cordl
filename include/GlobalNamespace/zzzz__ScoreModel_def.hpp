@@ -140,7 +140,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScoreModel_NoteScoreDefinition", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScoreModel_NoteScoreDefinition(ScoreModel_NoteScoreDefinitionconst&) = delete;
+  ScoreModel_NoteScoreDefinition(ScoreModel_NoteScoreDefinition const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15247 };
@@ -232,7 +232,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScoreModel_MaxScoreCounterElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScoreModel_MaxScoreCounterElement(ScoreModel_MaxScoreCounterElementconst&) = delete;
+  ScoreModel_MaxScoreCounterElement(ScoreModel_MaxScoreCounterElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15248 };
@@ -317,7 +317,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScoreModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScoreModel(ScoreModelconst&) = delete;
+  ScoreModel(ScoreModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15249 };

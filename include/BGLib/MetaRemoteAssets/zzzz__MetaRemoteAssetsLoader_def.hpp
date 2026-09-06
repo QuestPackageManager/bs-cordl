@@ -105,7 +105,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsLoader___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MetaRemoteAssetsLoader___c(MetaRemoteAssetsLoader___cconst&) = delete;
+  MetaRemoteAssetsLoader___c(MetaRemoteAssetsLoader___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21047 };
@@ -247,7 +247,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MetaRemoteAssetsLoader(MetaRemoteAssetsLoaderconst&) = delete;
+  MetaRemoteAssetsLoader(MetaRemoteAssetsLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21049 };

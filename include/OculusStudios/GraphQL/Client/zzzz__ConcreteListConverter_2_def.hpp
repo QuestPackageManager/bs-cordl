@@ -90,7 +90,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConcreteListConverter_2___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcreteListConverter_2___c(ConcreteListConverter_2___cconst&) = delete;
+  ConcreteListConverter_2___c(ConcreteListConverter_2___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20392 };
@@ -137,7 +137,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConcreteListConverter_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcreteListConverter_2(ConcreteListConverter_2const&) = delete;
+  ConcreteListConverter_2(ConcreteListConverter_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20393 };

@@ -289,7 +289,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderer_Profiling", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderer_Profiling(UniversalRenderer_Profilingconst&) = delete;
+  UniversalRenderer_Profiling(UniversalRenderer_Profiling const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13002 };
@@ -418,7 +418,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderer_CopyToDebugTexturePassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderer_CopyToDebugTexturePassData(UniversalRenderer_CopyToDebugTexturePassDataconst&) = delete;
+  UniversalRenderer_CopyToDebugTexturePassData(UniversalRenderer_CopyToDebugTexturePassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13004 };
@@ -685,7 +685,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderer___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderer___c(UniversalRenderer___cconst&) = delete;
+  UniversalRenderer___c(UniversalRenderer___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13008 };
@@ -1806,7 +1806,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderer(UniversalRendererconst&) = delete;
+  UniversalRenderer(UniversalRenderer const&) = delete;
 
   /// @brief Field _CameraTargetAttachmentAName offset 0xffffffff size 0x8
   static constexpr ::ConstString _CameraTargetAttachmentAName{ u"_CameraTargetAttachmentA" };

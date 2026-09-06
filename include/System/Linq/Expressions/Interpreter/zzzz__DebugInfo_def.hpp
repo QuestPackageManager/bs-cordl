@@ -61,7 +61,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugInfo_DebugInfoComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugInfo_DebugInfoComparer(DebugInfo_DebugInfoComparerconst&) = delete;
+  DebugInfo_DebugInfoComparer(DebugInfo_DebugInfoComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16438 };
@@ -156,7 +156,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugInfo(DebugInfoconst&) = delete;
+  DebugInfo(DebugInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16439 };

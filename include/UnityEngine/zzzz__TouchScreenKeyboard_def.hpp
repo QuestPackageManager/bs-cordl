@@ -199,7 +199,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TouchScreenKeyboard_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TouchScreenKeyboard_BindingsMarshaller(TouchScreenKeyboard_BindingsMarshallerconst&) = delete;
+  TouchScreenKeyboard_BindingsMarshaller(TouchScreenKeyboard_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10411 };
@@ -398,7 +398,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TouchScreenKeyboard", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TouchScreenKeyboard(TouchScreenKeyboardconst&) = delete;
+  TouchScreenKeyboard(TouchScreenKeyboard const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10412 };

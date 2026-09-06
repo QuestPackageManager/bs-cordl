@@ -203,7 +203,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SerpentEngineBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SerpentEngineBase(SerpentEngineBaseconst&) = delete;
+  SerpentEngineBase(SerpentEngineBase const&) = delete;
 
   /// @brief Field PHI offset 0xffffffff size 0x4
   static constexpr int32_t PHI{ static_cast<int32_t>(0x9e3779b9) };

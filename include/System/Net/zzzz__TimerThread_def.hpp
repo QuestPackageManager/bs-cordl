@@ -150,7 +150,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimerThread_Queue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimerThread_Queue(TimerThread_Queueconst&) = delete;
+  TimerThread_Queue(TimerThread_Queue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11534 };
@@ -235,7 +235,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimerThread_Timer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimerThread_Timer(TimerThread_Timerconst&) = delete;
+  TimerThread_Timer(TimerThread_Timer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11535 };
@@ -283,7 +283,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimerThread_Callback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimerThread_Callback(TimerThread_Callbackconst&) = delete;
+  TimerThread_Callback(TimerThread_Callback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11536 };
@@ -342,7 +342,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimerThread_TimerQueue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimerThread_TimerQueue(TimerThread_TimerQueueconst&) = delete;
+  TimerThread_TimerQueue(TimerThread_TimerQueue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11537 };
@@ -390,7 +390,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimerThread_InfiniteTimerQueue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimerThread_InfiniteTimerQueue(TimerThread_InfiniteTimerQueueconst&) = delete;
+  TimerThread_InfiniteTimerQueue(TimerThread_InfiniteTimerQueue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11538 };
@@ -576,7 +576,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimerThread_TimerNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimerThread_TimerNode(TimerThread_TimerNodeconst&) = delete;
+  TimerThread_TimerNode(TimerThread_TimerNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11540 };
@@ -658,7 +658,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimerThread_InfiniteTimer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimerThread_InfiniteTimer(TimerThread_InfiniteTimerconst&) = delete;
+  TimerThread_InfiniteTimer(TimerThread_InfiniteTimer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11541 };
@@ -784,7 +784,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimerThread", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimerThread(TimerThreadconst&) = delete;
+  TimerThread(TimerThread const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11542 };

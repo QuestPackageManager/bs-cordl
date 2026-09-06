@@ -146,7 +146,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1_AccumulatedTiming", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplayStats_1_AccumulatedTiming(DebugDisplayStats_1_AccumulatedTimingconst&) = delete;
+  DebugDisplayStats_1_AccumulatedTiming(DebugDisplayStats_1_AccumulatedTiming const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11969 };
@@ -284,7 +284,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1___c__DisplayClass19_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplayStats_1___c__DisplayClass19_0(DebugDisplayStats_1___c__DisplayClass19_0const&) = delete;
+  DebugDisplayStats_1___c__DisplayClass19_0(DebugDisplayStats_1___c__DisplayClass19_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11971 };
@@ -353,7 +353,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1___c__DisplayClass19_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplayStats_1___c__DisplayClass19_1(DebugDisplayStats_1___c__DisplayClass19_1const&) = delete;
+  DebugDisplayStats_1___c__DisplayClass19_1(DebugDisplayStats_1___c__DisplayClass19_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11972 };
@@ -417,7 +417,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1___c__DisplayClass19_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplayStats_1___c__DisplayClass19_2(DebugDisplayStats_1___c__DisplayClass19_2const&) = delete;
+  DebugDisplayStats_1___c__DisplayClass19_2(DebugDisplayStats_1___c__DisplayClass19_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11973 };
@@ -480,7 +480,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplayStats_1___c__DisplayClass6_0(DebugDisplayStats_1___c__DisplayClass6_0const&) = delete;
+  DebugDisplayStats_1___c__DisplayClass6_0(DebugDisplayStats_1___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11974 };
@@ -635,7 +635,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplayStats_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplayStats_1(DebugDisplayStats_1const&) = delete;
+  DebugDisplayStats_1(DebugDisplayStats_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11975 };

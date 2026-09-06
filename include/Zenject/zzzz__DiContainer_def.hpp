@@ -344,7 +344,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DiContainer_ProviderInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiContainer_ProviderInfo(DiContainer_ProviderInfoconst&) = delete;
+  DiContainer_ProviderInfo(DiContainer_ProviderInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14514 };
@@ -488,7 +488,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiContainer___c(DiContainer___cconst&) = delete;
+  DiContainer___c(DiContainer___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14515 };
@@ -563,7 +563,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c__DisplayClass178_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiContainer___c__DisplayClass178_0(DiContainer___c__DisplayClass178_0const&) = delete;
+  DiContainer___c__DisplayClass178_0(DiContainer___c__DisplayClass178_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14516 };
@@ -633,7 +633,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c__DisplayClass203_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiContainer___c__DisplayClass203_0_1(DiContainer___c__DisplayClass203_0_1const&) = delete;
+  DiContainer___c__DisplayClass203_0_1(DiContainer___c__DisplayClass203_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14517 };
@@ -693,7 +693,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c__DisplayClass244_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiContainer___c__DisplayClass244_0_1(DiContainer___c__DisplayClass244_0_1const&) = delete;
+  DiContainer___c__DisplayClass244_0_1(DiContainer___c__DisplayClass244_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14518 };
@@ -756,7 +756,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c__DisplayClass246_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiContainer___c__DisplayClass246_0_1(DiContainer___c__DisplayClass246_0_1const&) = delete;
+  DiContainer___c__DisplayClass246_0_1(DiContainer___c__DisplayClass246_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14519 };
@@ -808,7 +808,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DiContainer___c__DisplayClass86_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiContainer___c__DisplayClass86_0(DiContainer___c__DisplayClass86_0const&) = delete;
+  DiContainer___c__DisplayClass86_0(DiContainer___c__DisplayClass86_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14520 };
@@ -978,7 +978,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DiContainer__GetDependencyContracts_d__96", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiContainer__GetDependencyContracts_d__96(DiContainer__GetDependencyContracts_d__96const&) = delete;
+  DiContainer__GetDependencyContracts_d__96(DiContainer__GetDependencyContracts_d__96 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14521 };
@@ -2192,7 +2192,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DiContainer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiContainer(DiContainerconst&) = delete;
+  DiContainer(DiContainer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14522 };

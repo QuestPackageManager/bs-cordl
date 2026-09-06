@@ -164,7 +164,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetSettingsErrorNameFromEnum", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSettings__GetSettingsErrorNameFromEnum(IVRSettings__GetSettingsErrorNameFromEnumconst&) = delete;
+  IVRSettings__GetSettingsErrorNameFromEnum(IVRSettings__GetSettingsErrorNameFromEnum const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8312 };
@@ -209,7 +209,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__Sync", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSettings__Sync(IVRSettings__Syncconst&) = delete;
+  IVRSettings__Sync(IVRSettings__Sync const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8313 };
@@ -255,7 +255,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetBool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSettings__SetBool(IVRSettings__SetBoolconst&) = delete;
+  IVRSettings__SetBool(IVRSettings__SetBool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8314 };
@@ -301,7 +301,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetInt32", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSettings__SetInt32(IVRSettings__SetInt32const&) = delete;
+  IVRSettings__SetInt32(IVRSettings__SetInt32 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8315 };
@@ -347,7 +347,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetFloat", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSettings__SetFloat(IVRSettings__SetFloatconst&) = delete;
+  IVRSettings__SetFloat(IVRSettings__SetFloat const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8316 };
@@ -393,7 +393,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__SetString", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSettings__SetString(IVRSettings__SetStringconst&) = delete;
+  IVRSettings__SetString(IVRSettings__SetString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8317 };
@@ -439,7 +439,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetBool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSettings__GetBool(IVRSettings__GetBoolconst&) = delete;
+  IVRSettings__GetBool(IVRSettings__GetBool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8318 };
@@ -485,7 +485,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetInt32", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSettings__GetInt32(IVRSettings__GetInt32const&) = delete;
+  IVRSettings__GetInt32(IVRSettings__GetInt32 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8319 };
@@ -531,7 +531,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetFloat", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSettings__GetFloat(IVRSettings__GetFloatconst&) = delete;
+  IVRSettings__GetFloat(IVRSettings__GetFloat const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8320 };
@@ -577,7 +577,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__GetString", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSettings__GetString(IVRSettings__GetStringconst&) = delete;
+  IVRSettings__GetString(IVRSettings__GetString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8321 };
@@ -622,7 +622,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__RemoveSection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSettings__RemoveSection(IVRSettings__RemoveSectionconst&) = delete;
+  IVRSettings__RemoveSection(IVRSettings__RemoveSection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8322 };
@@ -668,7 +668,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSettings__RemoveKeyInSection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSettings__RemoveKeyInSection(IVRSettings__RemoveKeyInSectionconst&) = delete;
+  IVRSettings__RemoveKeyInSection(IVRSettings__RemoveKeyInSection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8323 };

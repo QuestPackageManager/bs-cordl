@@ -68,7 +68,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DataRowCollection_DataRowTree", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataRowCollection_DataRowTree(DataRowCollection_DataRowTreeconst&) = delete;
+  DataRowCollection_DataRowTree(DataRowCollection_DataRowTree const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13782 };
@@ -176,7 +176,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DataRowCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataRowCollection(DataRowCollectionconst&) = delete;
+  DataRowCollection(DataRowCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13783 };

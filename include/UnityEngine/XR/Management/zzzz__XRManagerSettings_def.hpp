@@ -157,7 +157,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XRManagerSettings__InitializeLoader_d__24", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRManagerSettings__InitializeLoader_d__24(XRManagerSettings__InitializeLoader_d__24const&) = delete;
+  XRManagerSettings__InitializeLoader_d__24(XRManagerSettings__InitializeLoader_d__24 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23045 };
@@ -380,7 +380,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XRManagerSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRManagerSettings(XRManagerSettingsconst&) = delete;
+  XRManagerSettings(XRManagerSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23046 };

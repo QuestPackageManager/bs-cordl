@@ -80,7 +80,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EntityKeyMemberConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EntityKeyMemberConverter(EntityKeyMemberConverterconst&) = delete;
+  EntityKeyMemberConverter(EntityKeyMemberConverter const&) = delete;
 
   /// @brief Field EntityKeyMemberFullTypeName offset 0xffffffff size 0x8
   static constexpr ::ConstString EntityKeyMemberFullTypeName{ u"System.Data.EntityKeyMember" };

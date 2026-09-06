@@ -90,7 +90,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ValueTaskSourceAsTask_ValueTask_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ValueTaskSourceAsTask_ValueTask_1___c(ValueTaskSourceAsTask_ValueTask_1___cconst&) = delete;
+  ValueTaskSourceAsTask_ValueTask_1___c(ValueTaskSourceAsTask_ValueTask_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2779 };
@@ -152,7 +152,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ValueTask_1_ValueTaskSourceAsTask", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ValueTask_1_ValueTaskSourceAsTask(ValueTask_1_ValueTaskSourceAsTaskconst&) = delete;
+  ValueTask_1_ValueTaskSourceAsTask(ValueTask_1_ValueTaskSourceAsTask const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2780 };

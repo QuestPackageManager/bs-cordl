@@ -81,7 +81,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassLight_LightsDataItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassLight_LightsDataItem(BloomPrePassLight_LightsDataItemconst&) = delete;
+  BloomPrePassLight_LightsDataItem(BloomPrePassLight_LightsDataItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19462 };
@@ -217,7 +217,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassLight", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassLight(BloomPrePassLightconst&) = delete;
+  BloomPrePassLight(BloomPrePassLight const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19463 };

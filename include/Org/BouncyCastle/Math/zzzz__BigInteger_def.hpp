@@ -610,7 +610,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BigInteger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BigInteger(BigIntegerconst&) = delete;
+  BigInteger(BigInteger const&) = delete;
 
   /// @brief Field BitsPerByte offset 0xffffffff size 0x4
   static constexpr int32_t BitsPerByte{ static_cast<int32_t>(0x8) };

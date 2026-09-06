@@ -98,7 +98,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpLiteralDataGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PgpLiteralDataGenerator(PgpLiteralDataGeneratorconst&) = delete;
+  PgpLiteralDataGenerator(PgpLiteralDataGenerator const&) = delete;
 
   /// @brief Field Binary offset 0xffffffff size 0x2
   static constexpr char16_t Binary{ u'b' };

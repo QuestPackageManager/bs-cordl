@@ -68,7 +68,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DSAManaged_KeyGeneratedEventHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DSAManaged_KeyGeneratedEventHandler(DSAManaged_KeyGeneratedEventHandlerconst&) = delete;
+  DSAManaged_KeyGeneratedEventHandler(DSAManaged_KeyGeneratedEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2285 };
@@ -275,7 +275,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DSAManaged", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DSAManaged(DSAManagedconst&) = delete;
+  DSAManaged(DSAManaged const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2286 };

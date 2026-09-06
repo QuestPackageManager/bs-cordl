@@ -122,7 +122,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplaySetupViewController_Panel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplaySetupViewController_Panel(GameplaySetupViewController_Panelconst&) = delete;
+  GameplaySetupViewController_Panel(GameplaySetupViewController_Panel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6909 };
@@ -372,7 +372,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplaySetupViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplaySetupViewController(GameplaySetupViewControllerconst&) = delete;
+  GameplaySetupViewController(GameplaySetupViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6910 };

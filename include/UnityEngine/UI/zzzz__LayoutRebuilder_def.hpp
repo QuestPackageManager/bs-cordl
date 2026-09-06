@@ -142,7 +142,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LayoutRebuilder___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LayoutRebuilder___c(LayoutRebuilder___cconst&) = delete;
+  LayoutRebuilder___c(LayoutRebuilder___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17462 };
@@ -266,7 +266,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LayoutRebuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LayoutRebuilder(LayoutRebuilderconst&) = delete;
+  LayoutRebuilder(LayoutRebuilder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17463 };

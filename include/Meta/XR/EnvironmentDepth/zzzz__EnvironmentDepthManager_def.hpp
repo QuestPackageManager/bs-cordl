@@ -144,7 +144,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentDepthManager_Mask", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentDepthManager_Mask(EnvironmentDepthManager_Maskconst&) = delete;
+  EnvironmentDepthManager_Mask(EnvironmentDepthManager_Mask const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23026 };
@@ -507,7 +507,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentDepthManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentDepthManager(EnvironmentDepthManagerconst&) = delete;
+  EnvironmentDepthManager(EnvironmentDepthManager const&) = delete;
 
   /// @brief Field HardOcclusionKeyword offset 0xffffffff size 0x8
   static constexpr ::ConstString HardOcclusionKeyword{ u"HARD_OCCLUSION" };

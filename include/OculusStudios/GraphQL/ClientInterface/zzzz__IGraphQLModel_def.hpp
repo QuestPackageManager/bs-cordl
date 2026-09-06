@@ -20,7 +20,7 @@ public:
   // Declarations
   // Ctor Parameters [CppParam { name: "", ty: "IGraphQLModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IGraphQLModel(IGraphQLModelconst&) = delete;
+  IGraphQLModel(IGraphQLModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22880 };

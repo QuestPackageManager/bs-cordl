@@ -121,7 +121,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SecP256R1Field", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecP256R1Field(SecP256R1Fieldconst&) = delete;
+  SecP256R1Field(SecP256R1Field const&) = delete;
 
   /// @brief Field P7 offset 0xffffffff size 0x4
   static constexpr uint32_t P7{ static_cast<uint32_t>(0xffffffffu) };

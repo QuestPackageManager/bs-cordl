@@ -75,7 +75,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SetSaberBladeParams_PropertyTintColorPair", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetSaberBladeParams_PropertyTintColorPair(SetSaberBladeParams_PropertyTintColorPairconst&) = delete;
+  SetSaberBladeParams_PropertyTintColorPair(SetSaberBladeParams_PropertyTintColorPair const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6239 };
@@ -163,7 +163,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SetSaberBladeParams", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetSaberBladeParams(SetSaberBladeParamsconst&) = delete;
+  SetSaberBladeParams(SetSaberBladeParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6240 };

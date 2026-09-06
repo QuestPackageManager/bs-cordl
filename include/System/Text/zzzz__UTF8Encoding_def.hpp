@@ -98,7 +98,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UTF8Encoding_UTF8Encoder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UTF8Encoding_UTF8Encoder(UTF8Encoding_UTF8Encoderconst&) = delete;
+  UTF8Encoding_UTF8Encoder(UTF8Encoding_UTF8Encoder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2882 };
@@ -155,7 +155,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UTF8Encoding_UTF8Decoder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UTF8Encoding_UTF8Decoder(UTF8Encoding_UTF8Decoderconst&) = delete;
+  UTF8Encoding_UTF8Decoder(UTF8Encoding_UTF8Decoder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2883 };
@@ -339,7 +339,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UTF8Encoding", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UTF8Encoding(UTF8Encodingconst&) = delete;
+  UTF8Encoding(UTF8Encoding const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2884 };

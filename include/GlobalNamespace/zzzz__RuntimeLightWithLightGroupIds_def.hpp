@@ -74,7 +74,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeLightWithLightGroupIds_LightIntensitiesWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeLightWithLightGroupIds_LightIntensitiesWithId(RuntimeLightWithLightGroupIds_LightIntensitiesWithIdconst&) = delete;
+  RuntimeLightWithLightGroupIds_LightIntensitiesWithId(RuntimeLightWithLightGroupIds_LightIntensitiesWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19554 };
@@ -179,7 +179,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeLightWithLightGroupIds", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeLightWithLightGroupIds(RuntimeLightWithLightGroupIdsconst&) = delete;
+  RuntimeLightWithLightGroupIds(RuntimeLightWithLightGroupIds const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19555 };

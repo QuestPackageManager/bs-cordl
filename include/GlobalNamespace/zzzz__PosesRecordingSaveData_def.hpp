@@ -126,7 +126,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingSaveData_PoseSaveData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PosesRecordingSaveData_PoseSaveData(PosesRecordingSaveData_PoseSaveDataconst&) = delete;
+  PosesRecordingSaveData_PoseSaveData(PosesRecordingSaveData_PoseSaveData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6582 };
@@ -214,7 +214,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingSaveData_TransformsSaveKeyframe", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PosesRecordingSaveData_TransformsSaveKeyframe(PosesRecordingSaveData_TransformsSaveKeyframeconst&) = delete;
+  PosesRecordingSaveData_TransformsSaveKeyframe(PosesRecordingSaveData_TransformsSaveKeyframe const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6583 };
@@ -304,7 +304,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingSaveData_ExternalCameraCalibrationSaveData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PosesRecordingSaveData_ExternalCameraCalibrationSaveData(PosesRecordingSaveData_ExternalCameraCalibrationSaveDataconst&) = delete;
+  PosesRecordingSaveData_ExternalCameraCalibrationSaveData(PosesRecordingSaveData_ExternalCameraCalibrationSaveData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6584 };
@@ -400,7 +400,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PosesRecordingSaveData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PosesRecordingSaveData(PosesRecordingSaveDataconst&) = delete;
+  PosesRecordingSaveData(PosesRecordingSaveData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6585 };

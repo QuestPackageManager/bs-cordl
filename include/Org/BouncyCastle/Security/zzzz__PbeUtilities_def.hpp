@@ -163,7 +163,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PbeUtilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PbeUtilities(PbeUtilitiesconst&) = delete;
+  PbeUtilities(PbeUtilities const&) = delete;
 
   /// @brief Field OpenSsl offset 0xffffffff size 0x8
   static constexpr ::ConstString OpenSsl{ u"OpenSsl" };

@@ -160,7 +160,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LensFlareCommonSRP_LensFlareCompInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LensFlareCommonSRP_LensFlareCompInfo(LensFlareCommonSRP_LensFlareCompInfoconst&) = delete;
+  LensFlareCommonSRP_LensFlareCompInfo(LensFlareCommonSRP_LensFlareCompInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12167 };
@@ -218,7 +218,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LensFlareCommonSRP___c__DisplayClass50_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LensFlareCommonSRP___c__DisplayClass50_0(LensFlareCommonSRP___c__DisplayClass50_0const&) = delete;
+  LensFlareCommonSRP___c__DisplayClass50_0(LensFlareCommonSRP___c__DisplayClass50_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12168 };
@@ -271,7 +271,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LensFlareCommonSRP___c__DisplayClass51_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LensFlareCommonSRP___c__DisplayClass51_0(LensFlareCommonSRP___c__DisplayClass51_0const&) = delete;
+  LensFlareCommonSRP___c__DisplayClass51_0(LensFlareCommonSRP___c__DisplayClass51_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12169 };
@@ -892,7 +892,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LensFlareCommonSRP", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LensFlareCommonSRP(LensFlareCommonSRPconst&) = delete;
+  LensFlareCommonSRP(LensFlareCommonSRP const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12171 };

@@ -99,7 +99,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RemoteInputPlayerConnection_Subscriber", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RemoteInputPlayerConnection_Subscriber(RemoteInputPlayerConnection_Subscriberconst&) = delete;
+  RemoteInputPlayerConnection_Subscriber(RemoteInputPlayerConnection_Subscriber const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8756 };
@@ -279,7 +279,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RemoteInputPlayerConnection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RemoteInputPlayerConnection(RemoteInputPlayerConnectionconst&) = delete;
+  RemoteInputPlayerConnection(RemoteInputPlayerConnection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8757 };

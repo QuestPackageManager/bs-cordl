@@ -121,7 +121,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InitializationOperation___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InitializationOperation___c(InitializationOperation___cconst&) = delete;
+  InitializationOperation___c(InitializationOperation___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19855 };
@@ -189,7 +189,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InitializationOperation___c__DisplayClass15_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InitializationOperation___c__DisplayClass15_0(InitializationOperation___c__DisplayClass15_0const&) = delete;
+  InitializationOperation___c__DisplayClass15_0(InitializationOperation___c__DisplayClass15_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19856 };
@@ -290,7 +290,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InitializationOperation___c__DisplayClass17_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InitializationOperation___c__DisplayClass17_0(InitializationOperation___c__DisplayClass17_0const&) = delete;
+  InitializationOperation___c__DisplayClass17_0(InitializationOperation___c__DisplayClass17_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19857 };
@@ -464,7 +464,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InitializationOperation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InitializationOperation(InitializationOperationconst&) = delete;
+  InitializationOperation(InitializationOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19858 };

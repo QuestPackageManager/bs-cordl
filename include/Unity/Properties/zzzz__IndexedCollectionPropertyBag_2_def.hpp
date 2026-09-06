@@ -163,7 +163,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IndexedCollectionPropertyBag_2_ListElementProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IndexedCollectionPropertyBag_2_ListElementProperty(IndexedCollectionPropertyBag_2_ListElementPropertyconst&) = delete;
+  IndexedCollectionPropertyBag_2_ListElementProperty(IndexedCollectionPropertyBag_2_ListElementProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19655 };
@@ -321,7 +321,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IndexedCollectionPropertyBag_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IndexedCollectionPropertyBag_2(IndexedCollectionPropertyBag_2const&) = delete;
+  IndexedCollectionPropertyBag_2(IndexedCollectionPropertyBag_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19656 };

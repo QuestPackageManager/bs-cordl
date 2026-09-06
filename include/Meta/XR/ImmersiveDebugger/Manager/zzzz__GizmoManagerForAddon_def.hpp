@@ -99,7 +99,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GizmoManagerForAddon___c__DisplayClass1_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GizmoManagerForAddon___c__DisplayClass1_0(GizmoManagerForAddon___c__DisplayClass1_0const&) = delete;
+  GizmoManagerForAddon___c__DisplayClass1_0(GizmoManagerForAddon___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18460 };
@@ -173,7 +173,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GizmoManagerForAddon", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GizmoManagerForAddon(GizmoManagerForAddonconst&) = delete;
+  GizmoManagerForAddon(GizmoManagerForAddon const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18461 };

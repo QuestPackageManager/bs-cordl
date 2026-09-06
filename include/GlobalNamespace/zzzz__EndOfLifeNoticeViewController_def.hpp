@@ -143,7 +143,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EndOfLifeNoticeViewController__EnableOkButton_d__7", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EndOfLifeNoticeViewController__EnableOkButton_d__7(EndOfLifeNoticeViewController__EnableOkButton_d__7const&) = delete;
+  EndOfLifeNoticeViewController__EnableOkButton_d__7(EndOfLifeNoticeViewController__EnableOkButton_d__7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6427 };
@@ -256,7 +256,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EndOfLifeNoticeViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EndOfLifeNoticeViewController(EndOfLifeNoticeViewControllerconst&) = delete;
+  EndOfLifeNoticeViewController(EndOfLifeNoticeViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6428 };

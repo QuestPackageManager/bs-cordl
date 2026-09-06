@@ -115,7 +115,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionLevelGameplayManager_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionLevelGameplayManager_InitData(MissionLevelGameplayManager_InitDataconst&) = delete;
+  MissionLevelGameplayManager_InitData(MissionLevelGameplayManager_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6776 };
@@ -297,7 +297,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionLevelGameplayManager__Start_d__23", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionLevelGameplayManager__Start_d__23(MissionLevelGameplayManager__Start_d__23const&) = delete;
+  MissionLevelGameplayManager__Start_d__23(MissionLevelGameplayManager__Start_d__23 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6778 };
@@ -539,7 +539,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionLevelGameplayManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionLevelGameplayManager(MissionLevelGameplayManagerconst&) = delete;
+  MissionLevelGameplayManager(MissionLevelGameplayManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6779 };

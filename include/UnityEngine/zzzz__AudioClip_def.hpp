@@ -81,7 +81,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioClip_PCMReaderCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioClip_PCMReaderCallback(AudioClip_PCMReaderCallbackconst&) = delete;
+  AudioClip_PCMReaderCallback(AudioClip_PCMReaderCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21068 };
@@ -119,7 +119,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioClip_PCMSetPositionCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioClip_PCMSetPositionCallback(AudioClip_PCMSetPositionCallbackconst&) = delete;
+  AudioClip_PCMSetPositionCallback(AudioClip_PCMSetPositionCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21069 };
@@ -369,7 +369,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioClip", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioClip(AudioClipconst&) = delete;
+  AudioClip(AudioClip const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21070 };

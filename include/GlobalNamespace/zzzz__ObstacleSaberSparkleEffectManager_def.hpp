@@ -134,7 +134,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ObstacleSaberSparkleEffectManager_BoxSideRotations", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObstacleSaberSparkleEffectManager_BoxSideRotations(ObstacleSaberSparkleEffectManager_BoxSideRotationsconst&) = delete;
+  ObstacleSaberSparkleEffectManager_BoxSideRotations(ObstacleSaberSparkleEffectManager_BoxSideRotations const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5813 };
@@ -315,7 +315,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ObstacleSaberSparkleEffectManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObstacleSaberSparkleEffectManager(ObstacleSaberSparkleEffectManagerconst&) = delete;
+  ObstacleSaberSparkleEffectManager(ObstacleSaberSparkleEffectManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5814 };

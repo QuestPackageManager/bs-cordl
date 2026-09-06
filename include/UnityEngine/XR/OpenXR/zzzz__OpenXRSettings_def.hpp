@@ -187,7 +187,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenXRSettings_ColorSubmissionModeList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRSettings_ColorSubmissionModeList(OpenXRSettings_ColorSubmissionModeListconst&) = delete;
+  OpenXRSettings_ColorSubmissionModeList(OpenXRSettings_ColorSubmissionModeList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18491 };
@@ -489,7 +489,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenXRSettings___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRSettings___c(OpenXRSettings___cconst&) = delete;
+  OpenXRSettings___c(OpenXRSettings___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18496 };
@@ -847,7 +847,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenXRSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRSettings(OpenXRSettingsconst&) = delete;
+  OpenXRSettings(OpenXRSettings const&) = delete;
 
   /// @brief Field LibraryName offset 0xffffffff size 0x8
   static constexpr ::ConstString LibraryName{ u"UnityOpenXR" };

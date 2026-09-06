@@ -146,7 +146,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRRuntimeController__UpdateControllerModel_d__16", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRRuntimeController__UpdateControllerModel_d__16(OVRRuntimeController__UpdateControllerModel_d__16const&) = delete;
+  OVRRuntimeController__UpdateControllerModel_d__16(OVRRuntimeController__UpdateControllerModel_d__16 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7976 };
@@ -330,7 +330,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRRuntimeController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRRuntimeController(OVRRuntimeControllerconst&) = delete;
+  OVRRuntimeController(OVRRuntimeController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7977 };

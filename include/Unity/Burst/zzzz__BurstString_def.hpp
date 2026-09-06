@@ -130,7 +130,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BurstString_PreserveAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstString_PreserveAttribute(BurstString_PreserveAttributeconst&) = delete;
+  BurstString_PreserveAttribute(BurstString_PreserveAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17316 };
@@ -1020,7 +1020,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BurstString", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstString(BurstStringconst&) = delete;
+  BurstString(BurstString const&) = delete;
 
   /// @brief Field DoubleNumberBufferLength offset 0xffffffff size 0x4
   static constexpr int32_t DoubleNumberBufferLength{ static_cast<int32_t>(0x12) };

@@ -119,7 +119,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ExpressionEvaluator_Expression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpressionEvaluator_Expression(ExpressionEvaluator_Expressionconst&) = delete;
+  ExpressionEvaluator_Expression(ExpressionEvaluator_Expression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10106 };
@@ -419,7 +419,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ExpressionEvaluator_Operator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpressionEvaluator_Operator(ExpressionEvaluator_Operatorconst&) = delete;
+  ExpressionEvaluator_Operator(ExpressionEvaluator_Operator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10110 };
@@ -492,7 +492,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ExpressionEvaluator___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpressionEvaluator___c(ExpressionEvaluator___cconst&) = delete;
+  ExpressionEvaluator___c(ExpressionEvaluator___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10111 };
@@ -594,7 +594,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ExpressionEvaluator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpressionEvaluator(ExpressionEvaluatorconst&) = delete;
+  ExpressionEvaluator(ExpressionEvaluator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10112 };

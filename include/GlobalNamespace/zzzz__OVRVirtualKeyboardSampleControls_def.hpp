@@ -302,7 +302,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardSampleControls__CreateKeyboard_d__19", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRVirtualKeyboardSampleControls__CreateKeyboard_d__19(OVRVirtualKeyboardSampleControls__CreateKeyboard_d__19const&) = delete;
+  OVRVirtualKeyboardSampleControls__CreateKeyboard_d__19(OVRVirtualKeyboardSampleControls__CreateKeyboard_d__19 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7819 };
@@ -528,7 +528,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardSampleControls", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRVirtualKeyboardSampleControls(OVRVirtualKeyboardSampleControlsconst&) = delete;
+  OVRVirtualKeyboardSampleControls(OVRVirtualKeyboardSampleControls const&) = delete;
 
   /// @brief Field THUMBSTICK_DEADZONE offset 0xffffffff size 0x4
   static constexpr float_t THUMBSTICK_DEADZONE{ static_cast<float_t>(0.2f) };

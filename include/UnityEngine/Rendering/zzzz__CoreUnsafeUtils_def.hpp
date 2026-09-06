@@ -168,7 +168,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CoreUnsafeUtils_IKeyGetter_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CoreUnsafeUtils_IKeyGetter_2(CoreUnsafeUtils_IKeyGetter_2const&) = delete;
+  CoreUnsafeUtils_IKeyGetter_2(CoreUnsafeUtils_IKeyGetter_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11896 };
@@ -432,7 +432,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CoreUnsafeUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CoreUnsafeUtils(CoreUnsafeUtilsconst&) = delete;
+  CoreUnsafeUtils(CoreUnsafeUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11900 };

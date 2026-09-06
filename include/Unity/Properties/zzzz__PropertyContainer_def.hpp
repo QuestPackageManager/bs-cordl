@@ -107,7 +107,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GetPropertyVisitor_PropertyContainer___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GetPropertyVisitor_PropertyContainer___c(GetPropertyVisitor_PropertyContainer___cconst&) = delete;
+  GetPropertyVisitor_PropertyContainer___c(GetPropertyVisitor_PropertyContainer___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19605 };
@@ -166,7 +166,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyContainer_GetPropertyVisitor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyContainer_GetPropertyVisitor(PropertyContainer_GetPropertyVisitorconst&) = delete;
+  PropertyContainer_GetPropertyVisitor(PropertyContainer_GetPropertyVisitor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19606 };
@@ -222,7 +222,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GetValueVisitor_1_PropertyContainer___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GetValueVisitor_1_PropertyContainer___c(GetValueVisitor_1_PropertyContainer___cconst&) = delete;
+  GetValueVisitor_1_PropertyContainer___c(GetValueVisitor_1_PropertyContainer___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19607 };
@@ -281,7 +281,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyContainer_GetValueVisitor_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyContainer_GetValueVisitor_1(PropertyContainer_GetValueVisitor_1const&) = delete;
+  PropertyContainer_GetValueVisitor_1(PropertyContainer_GetValueVisitor_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19608 };
@@ -344,7 +344,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyContainer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyContainer(PropertyContainerconst&) = delete;
+  PropertyContainer(PropertyContainer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19609 };

@@ -135,7 +135,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEvents_BasicBeatmapEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultEnvironmentEvents_BasicBeatmapEvent(DefaultEnvironmentEvents_BasicBeatmapEventconst&) = delete;
+  DefaultEnvironmentEvents_BasicBeatmapEvent(DefaultEnvironmentEvents_BasicBeatmapEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14831 };
@@ -232,7 +232,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEvents_LightGroupDistribution", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultEnvironmentEvents_LightGroupDistribution(DefaultEnvironmentEvents_LightGroupDistributionconst&) = delete;
+  DefaultEnvironmentEvents_LightGroupDistribution(DefaultEnvironmentEvents_LightGroupDistribution const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14832 };
@@ -369,7 +369,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEvents_LightGroupFiltering", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultEnvironmentEvents_LightGroupFiltering(DefaultEnvironmentEvents_LightGroupFilteringconst&) = delete;
+  DefaultEnvironmentEvents_LightGroupFiltering(DefaultEnvironmentEvents_LightGroupFiltering const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14833 };
@@ -759,7 +759,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEvents_LightGroupEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultEnvironmentEvents_LightGroupEvent(DefaultEnvironmentEvents_LightGroupEventconst&) = delete;
+  DefaultEnvironmentEvents_LightGroupEvent(DefaultEnvironmentEvents_LightGroupEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14834 };
@@ -973,7 +973,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultEnvironmentEvents", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultEnvironmentEvents(DefaultEnvironmentEventsconst&) = delete;
+  DefaultEnvironmentEvents(DefaultEnvironmentEvents const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14835 };

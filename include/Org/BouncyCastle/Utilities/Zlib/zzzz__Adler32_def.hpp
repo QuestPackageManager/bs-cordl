@@ -41,7 +41,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Adler32", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Adler32(Adler32const&) = delete;
+  Adler32(Adler32 const&) = delete;
 
   /// @brief Field BASE offset 0xffffffff size 0x4
   static constexpr int32_t BASE{ static_cast<int32_t>(0xfff1) };

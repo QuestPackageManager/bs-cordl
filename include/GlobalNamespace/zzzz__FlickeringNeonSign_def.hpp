@@ -149,7 +149,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FlickeringNeonSign__FlickeringCoroutine_d__16", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlickeringNeonSign__FlickeringCoroutine_d__16(FlickeringNeonSign__FlickeringCoroutine_d__16const&) = delete;
+  FlickeringNeonSign__FlickeringCoroutine_d__16(FlickeringNeonSign__FlickeringCoroutine_d__16 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5967 };
@@ -336,7 +336,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FlickeringNeonSign", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlickeringNeonSign(FlickeringNeonSignconst&) = delete;
+  FlickeringNeonSign(FlickeringNeonSign const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5968 };

@@ -111,7 +111,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DropdownDialogPromptViewController_ButtonAndLabel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DropdownDialogPromptViewController_ButtonAndLabel(DropdownDialogPromptViewController_ButtonAndLabelconst&) = delete;
+  DropdownDialogPromptViewController_ButtonAndLabel(DropdownDialogPromptViewController_ButtonAndLabel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6423 };
@@ -176,7 +176,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DropdownDialogPromptViewController___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DropdownDialogPromptViewController___c(DropdownDialogPromptViewController___cconst&) = delete;
+  DropdownDialogPromptViewController___c(DropdownDialogPromptViewController___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6424 };
@@ -233,7 +233,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DropdownDialogPromptViewController___c__DisplayClass13_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DropdownDialogPromptViewController___c__DisplayClass13_0(DropdownDialogPromptViewController___c__DisplayClass13_0const&) = delete;
+  DropdownDialogPromptViewController___c__DisplayClass13_0(DropdownDialogPromptViewController___c__DisplayClass13_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6425 };
@@ -375,7 +375,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DropdownDialogPromptViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DropdownDialogPromptViewController(DropdownDialogPromptViewControllerconst&) = delete;
+  DropdownDialogPromptViewController(DropdownDialogPromptViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6426 };

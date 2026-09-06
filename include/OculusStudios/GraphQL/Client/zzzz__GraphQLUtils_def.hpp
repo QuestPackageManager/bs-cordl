@@ -87,7 +87,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphQLUtils___c__DisplayClass6_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLUtils___c__DisplayClass6_0_1(GraphQLUtils___c__DisplayClass6_0_1const&) = delete;
+  GraphQLUtils___c__DisplayClass6_0_1(GraphQLUtils___c__DisplayClass6_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20398 };
@@ -196,7 +196,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphQLUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLUtils(GraphQLUtilsconst&) = delete;
+  GraphQLUtils(GraphQLUtils const&) = delete;
 
   /// @brief Field UNKNOWN_ENUM_VALUE offset 0xffffffff size 0x8
   static constexpr ::ConstString UNKNOWN_ENUM_VALUE{ u"__UnknownValue" };

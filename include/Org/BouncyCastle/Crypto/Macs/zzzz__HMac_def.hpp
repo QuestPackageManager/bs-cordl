@@ -149,7 +149,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HMac", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HMac(HMacconst&) = delete;
+  HMac(HMac const&) = delete;
 
   /// @brief Field IPAD offset 0xffffffff size 0x1
   static constexpr uint8_t IPAD{ static_cast<uint8_t>(0x36u) };

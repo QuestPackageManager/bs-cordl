@@ -127,7 +127,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererFeature_ShaderStatics", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MirrorRendererFeature_ShaderStatics(MirrorRendererFeature_ShaderStaticsconst&) = delete;
+  MirrorRendererFeature_ShaderStatics(MirrorRendererFeature_ShaderStatics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20652 };
@@ -171,7 +171,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererFeature_IterationHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MirrorRendererFeature_IterationHandle(MirrorRendererFeature_IterationHandleconst&) = delete;
+  MirrorRendererFeature_IterationHandle(MirrorRendererFeature_IterationHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20653 };
@@ -236,7 +236,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererFeature___c__DisplayClass17_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MirrorRendererFeature___c__DisplayClass17_0(MirrorRendererFeature___c__DisplayClass17_0const&) = delete;
+  MirrorRendererFeature___c__DisplayClass17_0(MirrorRendererFeature___c__DisplayClass17_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20654 };
@@ -297,7 +297,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererFeature___c__DisplayClass21_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MirrorRendererFeature___c__DisplayClass21_0_1(MirrorRendererFeature___c__DisplayClass21_0_1const&) = delete;
+  MirrorRendererFeature___c__DisplayClass21_0_1(MirrorRendererFeature___c__DisplayClass21_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20655 };
@@ -516,7 +516,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererFeature", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MirrorRendererFeature(MirrorRendererFeatureconst&) = delete;
+  MirrorRendererFeature(MirrorRendererFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20656 };

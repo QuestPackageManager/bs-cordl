@@ -252,7 +252,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableAsset_AnimationPlayableAssetUpgrade", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimationPlayableAsset_AnimationPlayableAssetUpgrade(AnimationPlayableAsset_AnimationPlayableAssetUpgradeconst&) = delete;
+  AnimationPlayableAsset_AnimationPlayableAssetUpgrade(AnimationPlayableAsset_AnimationPlayableAssetUpgrade const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19156 };
@@ -390,7 +390,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableAsset__get_outputs_d__45", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimationPlayableAsset__get_outputs_d__45(AnimationPlayableAsset__get_outputs_d__45const&) = delete;
+  AnimationPlayableAsset__get_outputs_d__45(AnimationPlayableAsset__get_outputs_d__45 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19157 };
@@ -715,7 +715,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimationPlayableAsset(AnimationPlayableAssetconst&) = delete;
+  AnimationPlayableAsset(AnimationPlayableAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19158 };

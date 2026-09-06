@@ -94,7 +94,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RecordStream_HandshakeHashUpdateStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RecordStream_HandshakeHashUpdateStream(RecordStream_HandshakeHashUpdateStreamconst&) = delete;
+  RecordStream_HandshakeHashUpdateStream(RecordStream_HandshakeHashUpdateStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1263 };
@@ -155,7 +155,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RecordStream_SequenceNumber", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RecordStream_SequenceNumber(RecordStream_SequenceNumberconst&) = delete;
+  RecordStream_SequenceNumber(RecordStream_SequenceNumber const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1264 };
@@ -462,7 +462,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RecordStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RecordStream(RecordStreamconst&) = delete;
+  RecordStream(RecordStream const&) = delete;
 
   /// @brief Field DEFAULT_PLAINTEXT_LIMIT offset 0xffffffff size 0x4
   static constexpr int32_t DEFAULT_PLAINTEXT_LIMIT{ static_cast<int32_t>(0x4000) };

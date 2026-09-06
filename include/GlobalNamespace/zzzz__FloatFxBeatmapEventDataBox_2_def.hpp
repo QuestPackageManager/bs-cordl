@@ -354,7 +354,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FloatFxBeatmapEventDataBox_2__Unpack_d__3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatFxBeatmapEventDataBox_2__Unpack_d__3(FloatFxBeatmapEventDataBox_2__Unpack_d__3const&) = delete;
+  FloatFxBeatmapEventDataBox_2__Unpack_d__3(FloatFxBeatmapEventDataBox_2__Unpack_d__3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14918 };
@@ -488,7 +488,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FloatFxBeatmapEventDataBox_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatFxBeatmapEventDataBox_2(FloatFxBeatmapEventDataBox_2const&) = delete;
+  FloatFxBeatmapEventDataBox_2(FloatFxBeatmapEventDataBox_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14919 };

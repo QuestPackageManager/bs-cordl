@@ -183,7 +183,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WebConnection___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WebConnection___c(WebConnection___cconst&) = delete;
+  WebConnection___c(WebConnection___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11639 };
@@ -704,7 +704,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WebConnection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WebConnection(WebConnectionconst&) = delete;
+  WebConnection(WebConnection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11643 };

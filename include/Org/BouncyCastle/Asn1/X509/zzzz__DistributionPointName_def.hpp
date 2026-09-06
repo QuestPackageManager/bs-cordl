@@ -118,7 +118,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DistributionPointName", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DistributionPointName(DistributionPointNameconst&) = delete;
+  DistributionPointName(DistributionPointName const&) = delete;
 
   /// @brief Field FullName offset 0xffffffff size 0x4
   static constexpr int32_t FullName{ static_cast<int32_t>(0x0) };

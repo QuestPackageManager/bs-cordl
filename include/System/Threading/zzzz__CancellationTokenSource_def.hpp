@@ -103,7 +103,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LinkedNCancellationTokenSource_CancellationTokenSource___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LinkedNCancellationTokenSource_CancellationTokenSource___c(LinkedNCancellationTokenSource_CancellationTokenSource___cconst&) = delete;
+  LinkedNCancellationTokenSource_CancellationTokenSource___c(LinkedNCancellationTokenSource_CancellationTokenSource___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2698 };
@@ -339,7 +339,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CancellationTokenSource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CancellationTokenSource(CancellationTokenSourceconst&) = delete;
+  CancellationTokenSource(CancellationTokenSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2700 };

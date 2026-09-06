@@ -99,7 +99,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AtlasAllocator_AtlasNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AtlasAllocator_AtlasNode(AtlasAllocator_AtlasNodeconst&) = delete;
+  AtlasAllocator_AtlasNode(AtlasAllocator_AtlasNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12248 };
@@ -177,7 +177,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AtlasAllocator___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AtlasAllocator___c(AtlasAllocator___cconst&) = delete;
+  AtlasAllocator___c(AtlasAllocator___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12249 };
@@ -268,7 +268,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AtlasAllocator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AtlasAllocator(AtlasAllocatorconst&) = delete;
+  AtlasAllocator(AtlasAllocator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12250 };

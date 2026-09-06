@@ -162,7 +162,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardSampleInputHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRVirtualKeyboardSampleInputHandler(OVRVirtualKeyboardSampleInputHandlerconst&) = delete;
+  OVRVirtualKeyboardSampleInputHandler(OVRVirtualKeyboardSampleInputHandler const&) = delete;
 
   /// @brief Field COLLISION_BOUNDS_ADDED_BLEED_PERCENT offset 0xffffffff size 0x4
   static constexpr float_t COLLISION_BOUNDS_ADDED_BLEED_PERCENT{ static_cast<float_t>(0.1f) };

@@ -333,7 +333,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MicrosoftHandInteraction_HoloLensHand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MicrosoftHandInteraction_HoloLensHand(MicrosoftHandInteraction_HoloLensHandconst&) = delete;
+  MicrosoftHandInteraction_HoloLensHand(MicrosoftHandInteraction_HoloLensHand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18587 };
@@ -454,7 +454,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MicrosoftHandInteraction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MicrosoftHandInteraction(MicrosoftHandInteractionconst&) = delete;
+  MicrosoftHandInteraction(MicrosoftHandInteraction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18588 };

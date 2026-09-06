@@ -154,7 +154,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightsAnimator__DisableDirectionalLightsCoroutine_d__11", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightsAnimator__DisableDirectionalLightsCoroutine_d__11(LightsAnimator__DisableDirectionalLightsCoroutine_d__11const&) = delete;
+  LightsAnimator__DisableDirectionalLightsCoroutine_d__11(LightsAnimator__DisableDirectionalLightsCoroutine_d__11 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6078 };
@@ -273,7 +273,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightsAnimator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightsAnimator(LightsAnimatorconst&) = delete;
+  LightsAnimator(LightsAnimator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6079 };

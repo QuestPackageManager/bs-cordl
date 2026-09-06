@@ -385,7 +385,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Exception", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Exception(Exceptionconst&) = delete;
+  Exception(Exception const&) = delete;
 
   /// @brief Field _COMPlusExceptionCode offset 0xffffffff size 0x4
   static constexpr int32_t _COMPlusExceptionCode{ static_cast<int32_t>(0xe0434352) };

@@ -61,7 +61,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassGraphicsSettingsPresetsSO_Preset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassGraphicsSettingsPresetsSO_Preset(BloomPrePassGraphicsSettingsPresetsSO_Presetconst&) = delete;
+  BloomPrePassGraphicsSettingsPresetsSO_Preset(BloomPrePassGraphicsSettingsPresetsSO_Preset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15051 };
@@ -122,7 +122,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassGraphicsSettingsPresetsSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassGraphicsSettingsPresetsSO(BloomPrePassGraphicsSettingsPresetsSOconst&) = delete;
+  BloomPrePassGraphicsSettingsPresetsSO(BloomPrePassGraphicsSettingsPresetsSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15052 };

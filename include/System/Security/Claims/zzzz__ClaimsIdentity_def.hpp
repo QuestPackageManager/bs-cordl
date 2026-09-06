@@ -205,7 +205,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ClaimsIdentity__get_Claims_d__51", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ClaimsIdentity__get_Claims_d__51(ClaimsIdentity__get_Claims_d__51const&) = delete;
+  ClaimsIdentity__get_Claims_d__51(ClaimsIdentity__get_Claims_d__51 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3025 };
@@ -500,7 +500,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ClaimsIdentity", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ClaimsIdentity(ClaimsIdentityconst&) = delete;
+  ClaimsIdentity(ClaimsIdentity const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3026 };

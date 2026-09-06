@@ -240,7 +240,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerModeSelectionFlowCoordinator___c__DisplayClass57_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerModeSelectionFlowCoordinator___c__DisplayClass57_0(MultiplayerModeSelectionFlowCoordinator___c__DisplayClass57_0const&) = delete;
+  MultiplayerModeSelectionFlowCoordinator___c__DisplayClass57_0(MultiplayerModeSelectionFlowCoordinator___c__DisplayClass57_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6845 };
@@ -307,7 +307,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerModeSelectionFlowCoordinator___c__DisplayClass58_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerModeSelectionFlowCoordinator___c__DisplayClass58_0(MultiplayerModeSelectionFlowCoordinator___c__DisplayClass58_0const&) = delete;
+  MultiplayerModeSelectionFlowCoordinator___c__DisplayClass58_0(MultiplayerModeSelectionFlowCoordinator___c__DisplayClass58_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6846 };
@@ -374,7 +374,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerModeSelectionFlowCoordinator___c__DisplayClass66_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerModeSelectionFlowCoordinator___c__DisplayClass66_0(MultiplayerModeSelectionFlowCoordinator___c__DisplayClass66_0const&) = delete;
+  MultiplayerModeSelectionFlowCoordinator___c__DisplayClass66_0(MultiplayerModeSelectionFlowCoordinator___c__DisplayClass66_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6847 };
@@ -1065,7 +1065,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerModeSelectionFlowCoordinator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerModeSelectionFlowCoordinator(MultiplayerModeSelectionFlowCoordinatorconst&) = delete;
+  MultiplayerModeSelectionFlowCoordinator(MultiplayerModeSelectionFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6851 };

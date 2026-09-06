@@ -75,7 +75,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PureCSharpPool_1_DebugTrace", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PureCSharpPool_1_DebugTrace(PureCSharpPool_1_DebugTraceconst&) = delete;
+  PureCSharpPool_1_DebugTrace(PureCSharpPool_1_DebugTrace const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21898 };
@@ -160,7 +160,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PureCSharpPool_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PureCSharpPool_1(PureCSharpPool_1const&) = delete;
+  PureCSharpPool_1(PureCSharpPool_1 const&) = delete;
 
   /// @brief Field GROWTH_RATE offset 0xffffffff size 0x4
   static constexpr int32_t GROWTH_RATE{ static_cast<int32_t>(0x2) };

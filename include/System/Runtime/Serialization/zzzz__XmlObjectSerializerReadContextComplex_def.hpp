@@ -122,7 +122,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializerReadContextComplex_TopLevelAssemblyTypeResolver", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlObjectSerializerReadContextComplex_TopLevelAssemblyTypeResolver(XmlObjectSerializerReadContextComplex_TopLevelAssemblyTypeResolverconst&) = delete;
+  XmlObjectSerializerReadContextComplex_TopLevelAssemblyTypeResolver(XmlObjectSerializerReadContextComplex_TopLevelAssemblyTypeResolver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17139 };
@@ -190,7 +190,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeInfo(XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeInfoconst&) = delete;
+  XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeInfo(XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17140 };
@@ -259,7 +259,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeKey", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeKey(XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeKeyconst&) = delete;
+  XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeKey(XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeKey const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17141 };
@@ -445,7 +445,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializerReadContextComplex", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlObjectSerializerReadContextComplex(XmlObjectSerializerReadContextComplexconst&) = delete;
+  XmlObjectSerializerReadContextComplex(XmlObjectSerializerReadContextComplex const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17142 };

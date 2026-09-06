@@ -223,7 +223,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HDROutputUtils_ShaderKeywords", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HDROutputUtils_ShaderKeywords(HDROutputUtils_ShaderKeywordsconst&) = delete;
+  HDROutputUtils_ShaderKeywords(HDROutputUtils_ShaderKeywords const&) = delete;
 
   /// @brief Field HDR_COLORSPACE_CONVERSION offset 0xffffffff size 0x8
   static constexpr ::ConstString HDR_COLORSPACE_CONVERSION{ u"HDR_COLORSPACE_CONVERSION" };
@@ -279,7 +279,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HDROutputUtils_ShaderPropertyId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HDROutputUtils_ShaderPropertyId(HDROutputUtils_ShaderPropertyIdconst&) = delete;
+  HDROutputUtils_ShaderPropertyId(HDROutputUtils_ShaderPropertyId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12306 };
@@ -338,7 +338,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HDROutputUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HDROutputUtils(HDROutputUtilsconst&) = delete;
+  HDROutputUtils(HDROutputUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12307 };

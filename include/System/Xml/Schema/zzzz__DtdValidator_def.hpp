@@ -85,7 +85,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DtdValidator_NamespaceManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DtdValidator_NamespaceManager(DtdValidator_NamespaceManagerconst&) = delete;
+  DtdValidator_NamespaceManager(DtdValidator_NamespaceManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9676 };
@@ -255,7 +255,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DtdValidator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DtdValidator(DtdValidatorconst&) = delete;
+  DtdValidator(DtdValidator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9677 };

@@ -183,7 +183,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SimpleLevelStarter__StartLevel_d__15", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SimpleLevelStarter__StartLevel_d__15(SimpleLevelStarter__StartLevel_d__15const&) = delete;
+  SimpleLevelStarter__StartLevel_d__15(SimpleLevelStarter__StartLevel_d__15 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6771 };
@@ -382,7 +382,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SimpleLevelStarter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SimpleLevelStarter(SimpleLevelStarterconst&) = delete;
+  SimpleLevelStarter(SimpleLevelStarter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6772 };

@@ -356,7 +356,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScrollView___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScrollView___c(ScrollView___cconst&) = delete;
+  ScrollView___c(ScrollView___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19101 };
@@ -404,7 +404,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScrollView___c__DisplayClass63_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScrollView___c__DisplayClass63_0(ScrollView___c__DisplayClass63_0const&) = delete;
+  ScrollView___c__DisplayClass63_0(ScrollView___c__DisplayClass63_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19102 };
@@ -457,7 +457,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScrollView___c__DisplayClass64_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScrollView___c__DisplayClass64_0(ScrollView___c__DisplayClass64_0const&) = delete;
+  ScrollView___c__DisplayClass64_0(ScrollView___c__DisplayClass64_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19103 };
@@ -510,7 +510,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScrollView___c__DisplayClass69_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScrollView___c__DisplayClass69_0(ScrollView___c__DisplayClass69_0const&) = delete;
+  ScrollView___c__DisplayClass69_0(ScrollView___c__DisplayClass69_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19104 };
@@ -563,7 +563,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScrollView___c__DisplayClass69_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScrollView___c__DisplayClass69_1(ScrollView___c__DisplayClass69_1const&) = delete;
+  ScrollView___c__DisplayClass69_1(ScrollView___c__DisplayClass69_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19105 };
@@ -986,7 +986,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScrollView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScrollView(ScrollViewconst&) = delete;
+  ScrollView(ScrollView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19106 };

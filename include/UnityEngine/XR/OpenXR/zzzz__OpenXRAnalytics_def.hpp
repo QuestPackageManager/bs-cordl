@@ -206,7 +206,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenXRAnalytics___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRAnalytics___c(OpenXRAnalytics___cconst&) = delete;
+  OpenXRAnalytics___c(OpenXRAnalytics___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18499 };
@@ -249,7 +249,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenXRAnalytics", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRAnalytics(OpenXRAnalyticsconst&) = delete;
+  OpenXRAnalytics(OpenXRAnalytics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18500 };

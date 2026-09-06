@@ -43,7 +43,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MulInstruction_MulUInt32", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MulInstruction_MulUInt32(MulInstruction_MulUInt32const&) = delete;
+  MulInstruction_MulUInt32(MulInstruction_MulUInt32 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16493 };

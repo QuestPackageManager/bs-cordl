@@ -133,7 +133,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeDebugPass_WriteApvData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumeDebugPass_WriteApvData(ProbeVolumeDebugPass_WriteApvDataconst&) = delete;
+  ProbeVolumeDebugPass_WriteApvData(ProbeVolumeDebugPass_WriteApvData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12872 };
@@ -216,7 +216,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeDebugPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumeDebugPass___c(ProbeVolumeDebugPass___cconst&) = delete;
+  ProbeVolumeDebugPass___c(ProbeVolumeDebugPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12873 };
@@ -293,7 +293,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeDebugPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumeDebugPass(ProbeVolumeDebugPassconst&) = delete;
+  ProbeVolumeDebugPass(ProbeVolumeDebugPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12874 };

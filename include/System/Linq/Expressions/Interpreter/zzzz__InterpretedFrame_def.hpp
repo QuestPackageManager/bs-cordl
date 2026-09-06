@@ -196,7 +196,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InterpretedFrame__GetStackTraceDebugInfo_d__29", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InterpretedFrame__GetStackTraceDebugInfo_d__29(InterpretedFrame__GetStackTraceDebugInfo_d__29const&) = delete;
+  InterpretedFrame__GetStackTraceDebugInfo_d__29(InterpretedFrame__GetStackTraceDebugInfo_d__29 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16393 };
@@ -439,7 +439,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InterpretedFrame", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InterpretedFrame(InterpretedFrameconst&) = delete;
+  InterpretedFrame(InterpretedFrame const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16394 };

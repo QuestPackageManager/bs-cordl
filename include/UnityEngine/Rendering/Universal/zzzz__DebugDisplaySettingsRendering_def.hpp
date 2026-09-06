@@ -562,7 +562,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering_Strings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsRendering_Strings(DebugDisplaySettingsRendering_Stringsconst&) = delete;
+  DebugDisplaySettingsRendering_Strings(DebugDisplaySettingsRendering_Strings const&) = delete;
 
   /// @brief Field RangeValidationSettingsContainerName offset 0xffffffff size 0x8
   static constexpr ::ConstString RangeValidationSettingsContainerName{ u"Pixel Range Settings" };
@@ -748,7 +748,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c(WidgetFactory_DebugDisplaySettingsRendering___cconst&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c(WidgetFactory_DebugDisplaySettingsRendering___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12638 };
@@ -805,7 +805,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12639 };
@@ -867,7 +867,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12640 };
@@ -926,7 +926,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12641 };
@@ -985,7 +985,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12642 };
@@ -1047,7 +1047,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12643 };
@@ -1103,7 +1103,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12644 };
@@ -1159,7 +1159,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12645 };
@@ -1221,7 +1221,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12646 };
@@ -1283,7 +1283,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12647 };
@@ -1345,7 +1345,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12648 };
@@ -1401,7 +1401,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12649 };
@@ -1466,7 +1466,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12650 };
@@ -1522,7 +1522,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12651 };
@@ -1578,7 +1578,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12652 };
@@ -1640,7 +1640,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12653 };
@@ -1693,7 +1693,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12654 };
@@ -1755,7 +1755,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12655 };
@@ -1814,7 +1814,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12656 };
@@ -1876,7 +1876,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12657 };
@@ -1962,7 +1962,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0const&) = delete;
+  WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0(WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12658 };
@@ -2104,7 +2104,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering_WidgetFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsRendering_WidgetFactory(DebugDisplaySettingsRendering_WidgetFactoryconst&) = delete;
+  DebugDisplaySettingsRendering_WidgetFactory(DebugDisplaySettingsRendering_WidgetFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12659 };
@@ -2152,7 +2152,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0(SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0const&) = delete;
+  SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0(SettingsPanel_DebugDisplaySettingsRendering___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12660 };
@@ -2195,7 +2195,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering_SettingsPanel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsRendering_SettingsPanel(DebugDisplaySettingsRendering_SettingsPanelconst&) = delete;
+  DebugDisplaySettingsRendering_SettingsPanel(DebugDisplaySettingsRendering_SettingsPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12661 };
@@ -2746,7 +2746,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRendering", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsRendering(DebugDisplaySettingsRenderingconst&) = delete;
+  DebugDisplaySettingsRendering(DebugDisplaySettingsRendering const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12662 };

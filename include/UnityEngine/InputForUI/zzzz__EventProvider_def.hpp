@@ -158,7 +158,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EventProvider___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventProvider___c(EventProvider___cconst&) = delete;
+  EventProvider___c(EventProvider___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21821 };
@@ -206,7 +206,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EventProvider___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventProvider___c__DisplayClass6_0(EventProvider___c__DisplayClass6_0const&) = delete;
+  EventProvider___c__DisplayClass6_0(EventProvider___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21822 };
@@ -329,7 +329,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EventProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventProvider(EventProviderconst&) = delete;
+  EventProvider(EventProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21823 };

@@ -62,7 +62,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnsafePtrListDebugView_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsafePtrListDebugView_1(UnsafePtrListDebugView_1const&) = delete;
+  UnsafePtrListDebugView_1(UnsafePtrListDebugView_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15787 };

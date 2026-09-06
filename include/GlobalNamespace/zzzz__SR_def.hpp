@@ -4,8 +4,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(SR)
+namespace System::Globalization {
+class CultureInfo;
+}
 namespace System {
 class Object;
 }
@@ -23,11 +27,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE SR : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Format, addr 0x61a306c, size 0xa4, virtual false, abstract: false, final false
-  static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1);
+  /// @brief Method GetString, addr 0x6191c78, size 0x8, virtual false, abstract: false, final false
+  static inline ::StringW GetString(::System::Globalization::CultureInfo* culture, ::StringW name, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
-  /// @brief Method Format, addr 0x61a3110, size 0xac, virtual false, abstract: false, final false
-  static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1, ::System::Object* p2);
+  /// @brief Method GetString, addr 0x6191c04, size 0x74, virtual false, abstract: false, final false
+  static inline ::StringW GetString(::StringW name, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
 protected:
   // Ctor Parameters []
@@ -41,10 +45,10 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SR", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SR(SRconst&) = delete;
+  SR(SR const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21962 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9236 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

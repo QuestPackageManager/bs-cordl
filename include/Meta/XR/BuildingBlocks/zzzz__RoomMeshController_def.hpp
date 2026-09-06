@@ -231,7 +231,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RoomMeshController__LoadRoomMesh_d__6", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RoomMeshController__LoadRoomMesh_d__6(RoomMeshController__LoadRoomMesh_d__6const&) = delete;
+  RoomMeshController__LoadRoomMesh_d__6(RoomMeshController__LoadRoomMesh_d__6 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21358 };
@@ -400,7 +400,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RoomMeshController__Start_d__4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RoomMeshController__Start_d__4(RoomMeshController__Start_d__4const&) = delete;
+  RoomMeshController__Start_d__4(RoomMeshController__Start_d__4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21359 };
@@ -531,7 +531,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RoomMeshController__UpdateVolume_d__5", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RoomMeshController__UpdateVolume_d__5(RoomMeshController__UpdateVolume_d__5const&) = delete;
+  RoomMeshController__UpdateVolume_d__5(RoomMeshController__UpdateVolume_d__5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21360 };
@@ -632,7 +632,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RoomMeshController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RoomMeshController(RoomMeshControllerconst&) = delete;
+  RoomMeshController(RoomMeshController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21361 };

@@ -51,7 +51,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerBombNoteController_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerConnectedPlayerBombNoteController_Pool(MultiplayerConnectedPlayerBombNoteController_Poolconst&) = delete;
+  MultiplayerConnectedPlayerBombNoteController_Pool(MultiplayerConnectedPlayerBombNoteController_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6067 };
@@ -91,7 +91,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerBombNoteController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerConnectedPlayerBombNoteController(MultiplayerConnectedPlayerBombNoteControllerconst&) = delete;
+  MultiplayerConnectedPlayerBombNoteController(MultiplayerConnectedPlayerBombNoteController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6068 };

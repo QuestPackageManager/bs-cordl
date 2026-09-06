@@ -205,7 +205,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlDataContract_XmlDataContractCriticalHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlDataContract_XmlDataContractCriticalHelper(XmlDataContract_XmlDataContractCriticalHelperconst&) = delete;
+  XmlDataContract_XmlDataContractCriticalHelper(XmlDataContract_XmlDataContractCriticalHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17119 };
@@ -351,7 +351,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlDataContract", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlDataContract(XmlDataContractconst&) = delete;
+  XmlDataContract(XmlDataContract const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17120 };

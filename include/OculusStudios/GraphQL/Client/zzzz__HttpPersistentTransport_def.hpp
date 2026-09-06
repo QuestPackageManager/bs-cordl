@@ -169,7 +169,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpPersistentTransport___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpPersistentTransport___c(HttpPersistentTransport___cconst&) = delete;
+  HttpPersistentTransport___c(HttpPersistentTransport___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20411 };
@@ -214,7 +214,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpPersistentTransport___c__DisplayClass17_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpPersistentTransport___c__DisplayClass17_0(HttpPersistentTransport___c__DisplayClass17_0const&) = delete;
+  HttpPersistentTransport___c__DisplayClass17_0(HttpPersistentTransport___c__DisplayClass17_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20412 };
@@ -277,7 +277,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpPersistentTransport___c__DisplayClass17_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpPersistentTransport___c__DisplayClass17_1(HttpPersistentTransport___c__DisplayClass17_1const&) = delete;
+  HttpPersistentTransport___c__DisplayClass17_1(HttpPersistentTransport___c__DisplayClass17_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20413 };
@@ -345,7 +345,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpPersistentTransport___c__DisplayClass17_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpPersistentTransport___c__DisplayClass17_2(HttpPersistentTransport___c__DisplayClass17_2const&) = delete;
+  HttpPersistentTransport___c__DisplayClass17_2(HttpPersistentTransport___c__DisplayClass17_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20414 };
@@ -764,7 +764,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpPersistentTransport", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpPersistentTransport(HttpPersistentTransportconst&) = delete;
+  HttpPersistentTransport(HttpPersistentTransport const&) = delete;
 
   /// @brief Field BUFF_SIZE offset 0xffffffff size 0x4
   static constexpr int32_t BUFF_SIZE{ static_cast<int32_t>(0x400) };

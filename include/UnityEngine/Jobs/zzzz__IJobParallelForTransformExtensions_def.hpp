@@ -136,7 +136,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction(TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunctionconst&) = delete;
+  TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction(TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10434 };
@@ -234,7 +234,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IJobParallelForTransformExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IJobParallelForTransformExtensions(IJobParallelForTransformExtensionsconst&) = delete;
+  IJobParallelForTransformExtensions(IJobParallelForTransformExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10436 };

@@ -84,7 +84,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerGameplayManager_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLocalActivePlayerGameplayManager_InitData(MultiplayerLocalActivePlayerGameplayManager_InitDataconst&) = delete;
+  MultiplayerLocalActivePlayerGameplayManager_InitData(MultiplayerLocalActivePlayerGameplayManager_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6091 };
@@ -260,7 +260,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerGameplayManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLocalActivePlayerGameplayManager(MultiplayerLocalActivePlayerGameplayManagerconst&) = delete;
+  MultiplayerLocalActivePlayerGameplayManager(MultiplayerLocalActivePlayerGameplayManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6092 };

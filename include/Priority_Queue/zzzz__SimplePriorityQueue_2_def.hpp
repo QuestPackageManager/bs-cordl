@@ -113,7 +113,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SimplePriorityQueue_2_SimpleNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SimplePriorityQueue_2_SimpleNode(SimplePriorityQueue_2_SimpleNodeconst&) = delete;
+  SimplePriorityQueue_2_SimpleNode(SimplePriorityQueue_2_SimpleNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20493 };
@@ -305,7 +305,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SimplePriorityQueue_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SimplePriorityQueue_2(SimplePriorityQueue_2const&) = delete;
+  SimplePriorityQueue_2(SimplePriorityQueue_2 const&) = delete;
 
   /// @brief Field INITIAL_QUEUE_SIZE offset 0xffffffff size 0x4
   static constexpr int32_t INITIAL_QUEUE_SIZE{ static_cast<int32_t>(0xa) };

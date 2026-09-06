@@ -154,7 +154,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer_AudioSourceParams", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongPreviewPlayer_AudioSourceParams(SongPreviewPlayer_AudioSourceParamsconst&) = delete;
+  SongPreviewPlayer_AudioSourceParams(SongPreviewPlayer_AudioSourceParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5582 };
@@ -261,7 +261,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer_AudioSourceVolumeController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongPreviewPlayer_AudioSourceVolumeController(SongPreviewPlayer_AudioSourceVolumeControllerconst&) = delete;
+  SongPreviewPlayer_AudioSourceVolumeController(SongPreviewPlayer_AudioSourceVolumeController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5583 };
@@ -392,7 +392,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27(SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27const&) = delete;
+  SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27(SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5584 };
@@ -682,7 +682,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongPreviewPlayer(SongPreviewPlayerconst&) = delete;
+  SongPreviewPlayer(SongPreviewPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5585 };

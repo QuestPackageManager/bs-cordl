@@ -175,7 +175,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorGradingLutPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorGradingLutPass_PassData(ColorGradingLutPass_PassDataconst&) = delete;
+  ColorGradingLutPass_PassData(ColorGradingLutPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13070 };
@@ -403,7 +403,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorGradingLutPass_ShaderConstants", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorGradingLutPass_ShaderConstants(ColorGradingLutPass_ShaderConstantsconst&) = delete;
+  ColorGradingLutPass_ShaderConstants(ColorGradingLutPass_ShaderConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13071 };
@@ -461,7 +461,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorGradingLutPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorGradingLutPass___c(ColorGradingLutPass___cconst&) = delete;
+  ColorGradingLutPass___c(ColorGradingLutPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13072 };
@@ -596,7 +596,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorGradingLutPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorGradingLutPass(ColorGradingLutPassconst&) = delete;
+  ColorGradingLutPass(ColorGradingLutPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13073 };

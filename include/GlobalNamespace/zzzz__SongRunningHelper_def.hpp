@@ -151,7 +151,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SongRunningHelper_MessageStrings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongRunningHelper_MessageStrings(SongRunningHelper_MessageStringsconst&) = delete;
+  SongRunningHelper_MessageStrings(SongRunningHelper_MessageStrings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5591 };
@@ -414,7 +414,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d(__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_dconst&) = delete;
+  __c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d(__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5593 };
@@ -559,7 +559,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SongRunningHelper___c__DisplayClass13_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongRunningHelper___c__DisplayClass13_0(SongRunningHelper___c__DisplayClass13_0const&) = delete;
+  SongRunningHelper___c__DisplayClass13_0(SongRunningHelper___c__DisplayClass13_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5594 };
@@ -723,7 +723,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SongRunningHelper__StartLevel_d__13", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongRunningHelper__StartLevel_d__13(SongRunningHelper__StartLevel_d__13const&) = delete;
+  SongRunningHelper__StartLevel_d__13(SongRunningHelper__StartLevel_d__13 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5595 };
@@ -880,7 +880,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SongRunningHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongRunningHelper(SongRunningHelperconst&) = delete;
+  SongRunningHelper(SongRunningHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5596 };

@@ -91,7 +91,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Vector4PropertyBag_XProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector4PropertyBag_XProperty(Vector4PropertyBag_XPropertyconst&) = delete;
+  Vector4PropertyBag_XProperty(Vector4PropertyBag_XProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19725 };
@@ -142,7 +142,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Vector4PropertyBag_YProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector4PropertyBag_YProperty(Vector4PropertyBag_YPropertyconst&) = delete;
+  Vector4PropertyBag_YProperty(Vector4PropertyBag_YProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19726 };
@@ -193,7 +193,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Vector4PropertyBag_ZProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector4PropertyBag_ZProperty(Vector4PropertyBag_ZPropertyconst&) = delete;
+  Vector4PropertyBag_ZProperty(Vector4PropertyBag_ZProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19727 };
@@ -244,7 +244,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Vector4PropertyBag_WProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector4PropertyBag_WProperty(Vector4PropertyBag_WPropertyconst&) = delete;
+  Vector4PropertyBag_WProperty(Vector4PropertyBag_WProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19728 };
@@ -287,7 +287,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Vector4PropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector4PropertyBag(Vector4PropertyBagconst&) = delete;
+  Vector4PropertyBag(Vector4PropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19729 };

@@ -57,7 +57,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IJEnumerable_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IJEnumerable_1(IJEnumerable_1const&) = delete;
+  IJEnumerable_1(IJEnumerable_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13574 };

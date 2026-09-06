@@ -158,7 +158,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyCollectionBuilder_1_Enumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReadOnlyCollectionBuilder_1_Enumerator(ReadOnlyCollectionBuilder_1_Enumeratorconst&) = delete;
+  ReadOnlyCollectionBuilder_1_Enumerator(ReadOnlyCollectionBuilder_1_Enumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16632 };
@@ -390,7 +390,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyCollectionBuilder_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReadOnlyCollectionBuilder_1(ReadOnlyCollectionBuilder_1const&) = delete;
+  ReadOnlyCollectionBuilder_1(ReadOnlyCollectionBuilder_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16633 };

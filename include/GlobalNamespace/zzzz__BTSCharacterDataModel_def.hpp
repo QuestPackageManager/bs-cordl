@@ -86,7 +86,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterDataModel_PrefabWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BTSCharacterDataModel_PrefabWithId(BTSCharacterDataModel_PrefabWithIdconst&) = delete;
+  BTSCharacterDataModel_PrefabWithId(BTSCharacterDataModel_PrefabWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22006 };
@@ -162,7 +162,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterDataModel_AnimationClipWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BTSCharacterDataModel_AnimationClipWithId(BTSCharacterDataModel_AnimationClipWithIdconst&) = delete;
+  BTSCharacterDataModel_AnimationClipWithId(BTSCharacterDataModel_AnimationClipWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22007 };
@@ -242,7 +242,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterDataModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BTSCharacterDataModel(BTSCharacterDataModelconst&) = delete;
+  BTSCharacterDataModel(BTSCharacterDataModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22008 };

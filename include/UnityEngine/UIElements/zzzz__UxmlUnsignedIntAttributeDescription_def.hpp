@@ -74,7 +74,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlUnsignedIntAttributeDescription___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlUnsignedIntAttributeDescription___c(UxmlUnsignedIntAttributeDescription___cconst&) = delete;
+  UxmlUnsignedIntAttributeDescription___c(UxmlUnsignedIntAttributeDescription___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5158 };
@@ -117,7 +117,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlUnsignedIntAttributeDescription", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlUnsignedIntAttributeDescription(UxmlUnsignedIntAttributeDescriptionconst&) = delete;
+  UxmlUnsignedIntAttributeDescription(UxmlUnsignedIntAttributeDescription const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5159 };

@@ -103,7 +103,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Telemetry_MarkerId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Telemetry_MarkerId(Telemetry_MarkerIdconst&) = delete;
+  Telemetry_MarkerId(Telemetry_MarkerId const&) = delete;
 
   /// @brief Field ComponentTracked offset 0xffffffff size 0x4
   static constexpr int32_t ComponentTracked{ static_cast<int32_t>(0x9b81762) };
@@ -269,7 +269,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Telemetry_AnnotationType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Telemetry_AnnotationType(Telemetry_AnnotationTypeconst&) = delete;
+  Telemetry_AnnotationType(Telemetry_AnnotationType const&) = delete;
 
   /// @brief Field Action offset 0xffffffff size 0x8
   static constexpr ::ConstString Action{ u"action" };
@@ -407,7 +407,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Telemetry_TelemetryTracker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Telemetry_TelemetryTracker(Telemetry_TelemetryTrackerconst&) = delete;
+  Telemetry_TelemetryTracker(Telemetry_TelemetryTracker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18341 };
@@ -492,7 +492,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Telemetry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Telemetry(Telemetryconst&) = delete;
+  Telemetry(Telemetry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18342 };

@@ -84,7 +84,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InstanceCache___c__DisplayClass12_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InstanceCache___c__DisplayClass12_0(InstanceCache___c__DisplayClass12_0const&) = delete;
+  InstanceCache___c__DisplayClass12_0(InstanceCache___c__DisplayClass12_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18349 };
@@ -224,7 +224,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InstanceCache", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InstanceCache(InstanceCacheconst&) = delete;
+  InstanceCache(InstanceCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18350 };

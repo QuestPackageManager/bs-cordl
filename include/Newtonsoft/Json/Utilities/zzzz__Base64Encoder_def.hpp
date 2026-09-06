@@ -230,7 +230,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Base64Encoder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Base64Encoder(Base64Encoderconst&) = delete;
+  Base64Encoder(Base64Encoder const&) = delete;
 
   /// @brief Field Base64LineSize offset 0xffffffff size 0x4
   static constexpr int32_t Base64LineSize{ static_cast<int32_t>(0x4c) };

@@ -711,7 +711,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputAction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputAction(InputActionconst&) = delete;
+  InputAction(InputAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8615 };

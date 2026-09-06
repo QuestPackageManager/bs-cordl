@@ -83,7 +83,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreEffect_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlyingScoreEffect_Pool(FlyingScoreEffect_Poolconst&) = delete;
+  FlyingScoreEffect_Pool(FlyingScoreEffect_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5773 };
@@ -239,7 +239,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlyingScoreEffect(FlyingScoreEffectconst&) = delete;
+  FlyingScoreEffect(FlyingScoreEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5774 };

@@ -113,7 +113,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationWriterInterpreter_CallbackInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSerializationWriterInterpreter_CallbackInfo(XmlSerializationWriterInterpreter_CallbackInfoconst&) = delete;
+  XmlSerializationWriterInterpreter_CallbackInfo(XmlSerializationWriterInterpreter_CallbackInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9538 };
@@ -253,7 +253,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationWriterInterpreter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSerializationWriterInterpreter(XmlSerializationWriterInterpreterconst&) = delete;
+  XmlSerializationWriterInterpreter(XmlSerializationWriterInterpreter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9539 };

@@ -51,7 +51,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightGroupEditorPrefabContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightGroupEditorPrefabContext(LightGroupEditorPrefabContextconst&) = delete;
+  LightGroupEditorPrefabContext(LightGroupEditorPrefabContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19505 };

@@ -202,7 +202,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlDictionaryWriter_XmlWrappedWriter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlDictionaryWriter_XmlWrappedWriter(XmlDictionaryWriter_XmlWrappedWriterconst&) = delete;
+  XmlDictionaryWriter_XmlWrappedWriter(XmlDictionaryWriter_XmlWrappedWriter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16988 };

@@ -176,7 +176,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VolumeDebugSettings_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VolumeDebugSettings_1___c(VolumeDebugSettings_1___cconst&) = delete;
+  VolumeDebugSettings_1___c(VolumeDebugSettings_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12059 };
@@ -225,7 +225,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VolumeDebugSettings_1___c__DisplayClass22_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VolumeDebugSettings_1___c__DisplayClass22_0(VolumeDebugSettings_1___c__DisplayClass22_0const&) = delete;
+  VolumeDebugSettings_1___c__DisplayClass22_0(VolumeDebugSettings_1___c__DisplayClass22_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12060 };
@@ -479,7 +479,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VolumeDebugSettings_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VolumeDebugSettings_1(VolumeDebugSettings_1const&) = delete;
+  VolumeDebugSettings_1(VolumeDebugSettings_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12061 };

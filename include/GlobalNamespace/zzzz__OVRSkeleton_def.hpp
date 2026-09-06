@@ -101,7 +101,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSkeleton_IOVRSkeletonDataProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSkeleton_IOVRSkeletonDataProvider(OVRSkeleton_IOVRSkeletonDataProviderconst&) = delete;
+  OVRSkeleton_IOVRSkeletonDataProvider(OVRSkeleton_IOVRSkeletonDataProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7981 };
@@ -1615,7 +1615,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSkeleton", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSkeleton(OVRSkeletonconst&) = delete;
+  OVRSkeleton(OVRSkeleton const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7985 };

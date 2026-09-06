@@ -234,7 +234,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRBody", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRBody(OVRBodyconst&) = delete;
+  OVRBody(OVRBody const&) = delete;
 
   /// @brief Field BodyTrackingPermission value: I32(1)
   static ::GlobalNamespace::OVRPermissionsRequester_Permission const BodyTrackingPermission;

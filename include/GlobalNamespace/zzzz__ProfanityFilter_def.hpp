@@ -100,7 +100,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProfanityFilter_TrieNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProfanityFilter_TrieNode(ProfanityFilter_TrieNodeconst&) = delete;
+  ProfanityFilter_TrieNode(ProfanityFilter_TrieNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18258 };
@@ -254,7 +254,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProfanityFilter__GetLookalikeLetters_d__4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProfanityFilter__GetLookalikeLetters_d__4(ProfanityFilter__GetLookalikeLetters_d__4const&) = delete;
+  ProfanityFilter__GetLookalikeLetters_d__4(ProfanityFilter__GetLookalikeLetters_d__4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18259 };
@@ -337,7 +337,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProfanityFilter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProfanityFilter(ProfanityFilterconst&) = delete;
+  ProfanityFilter(ProfanityFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18260 };

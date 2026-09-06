@@ -116,7 +116,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskUpdater_1_TaskInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskUpdater_1_TaskInfo(TaskUpdater_1_TaskInfoconst&) = delete;
+  TaskUpdater_1_TaskInfo(TaskUpdater_1_TaskInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14688 };
@@ -185,7 +185,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskUpdater_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskUpdater_1___c(TaskUpdater_1___cconst&) = delete;
+  TaskUpdater_1___c(TaskUpdater_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14689 };
@@ -240,7 +240,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskUpdater_1___c__DisplayClass8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskUpdater_1___c__DisplayClass8_0(TaskUpdater_1___c__DisplayClass8_0const&) = delete;
+  TaskUpdater_1___c__DisplayClass8_0(TaskUpdater_1___c__DisplayClass8_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14690 };
@@ -348,7 +348,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskUpdater_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskUpdater_1(TaskUpdater_1const&) = delete;
+  TaskUpdater_1(TaskUpdater_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14691 };

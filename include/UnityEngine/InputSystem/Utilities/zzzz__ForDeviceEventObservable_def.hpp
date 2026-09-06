@@ -108,7 +108,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ForDeviceEventObservable_ForDevice", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ForDeviceEventObservable_ForDevice(ForDeviceEventObservable_ForDeviceconst&) = delete;
+  ForDeviceEventObservable_ForDevice(ForDeviceEventObservable_ForDevice const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9179 };
@@ -197,7 +197,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ForDeviceEventObservable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ForDeviceEventObservable(ForDeviceEventObservableconst&) = delete;
+  ForDeviceEventObservable(ForDeviceEventObservable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9180 };

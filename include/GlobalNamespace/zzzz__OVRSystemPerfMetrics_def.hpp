@@ -347,7 +347,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSystemPerfMetrics_PerfMetrics", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSystemPerfMetrics_PerfMetrics(OVRSystemPerfMetrics_PerfMetricsconst&) = delete;
+  OVRSystemPerfMetrics_PerfMetrics(OVRSystemPerfMetrics_PerfMetrics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7997 };
@@ -574,7 +574,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer(OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServerconst&) = delete;
+  OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer(OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7998 };
@@ -623,7 +623,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSystemPerfMetrics", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSystemPerfMetrics(OVRSystemPerfMetricsconst&) = delete;
+  OVRSystemPerfMetrics(OVRSystemPerfMetrics const&) = delete;
 
   /// @brief Field MaxBufferLength offset 0xffffffff size 0x4
   static constexpr int32_t MaxBufferLength{ static_cast<int32_t>(0x10000) };

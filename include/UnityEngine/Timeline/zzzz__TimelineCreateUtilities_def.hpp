@@ -84,7 +84,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimelineCreateUtilities___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelineCreateUtilities___c__DisplayClass0_0(TimelineCreateUtilities___c__DisplayClass0_0const&) = delete;
+  TimelineCreateUtilities___c__DisplayClass0_0(TimelineCreateUtilities___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19261 };
@@ -137,7 +137,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimelineCreateUtilities___c__DisplayClass0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelineCreateUtilities___c__DisplayClass0_1(TimelineCreateUtilities___c__DisplayClass0_1const&) = delete;
+  TimelineCreateUtilities___c__DisplayClass0_1(TimelineCreateUtilities___c__DisplayClass0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19262 };
@@ -191,7 +191,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimelineCreateUtilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelineCreateUtilities(TimelineCreateUtilitiesconst&) = delete;
+  TimelineCreateUtilities(TimelineCreateUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19263 };

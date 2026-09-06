@@ -148,7 +148,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadLocal_1_LinkedSlot", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadLocal_1_LinkedSlot(ThreadLocal_1_LinkedSlotconst&) = delete;
+  ThreadLocal_1_LinkedSlot(ThreadLocal_1_LinkedSlot const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2715 };
@@ -219,7 +219,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadLocal_1_IdManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadLocal_1_IdManager(ThreadLocal_1_IdManagerconst&) = delete;
+  ThreadLocal_1_IdManager(ThreadLocal_1_IdManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2716 };
@@ -281,7 +281,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadLocal_1_FinalizationHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadLocal_1_FinalizationHelper(ThreadLocal_1_FinalizationHelperconst&) = delete;
+  ThreadLocal_1_FinalizationHelper(ThreadLocal_1_FinalizationHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2717 };
@@ -453,7 +453,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadLocal_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadLocal_1(ThreadLocal_1const&) = delete;
+  ThreadLocal_1(ThreadLocal_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2718 };

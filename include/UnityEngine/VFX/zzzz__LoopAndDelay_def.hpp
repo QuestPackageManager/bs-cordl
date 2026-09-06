@@ -83,7 +83,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LoopAndDelay_InputProperties", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LoopAndDelay_InputProperties(LoopAndDelay_InputPropertiesconst&) = delete;
+  LoopAndDelay_InputProperties(LoopAndDelay_InputProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19923 };
@@ -195,7 +195,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LoopAndDelay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LoopAndDelay(LoopAndDelayconst&) = delete;
+  LoopAndDelay(LoopAndDelay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19924 };

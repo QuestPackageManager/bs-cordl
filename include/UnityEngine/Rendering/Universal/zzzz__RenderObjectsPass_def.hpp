@@ -195,7 +195,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderObjectsPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderObjectsPass_PassData(RenderObjectsPass_PassDataconst&) = delete;
+  RenderObjectsPass_PassData(RenderObjectsPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12875 };
@@ -288,7 +288,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderObjectsPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderObjectsPass___c(RenderObjectsPass___cconst&) = delete;
+  RenderObjectsPass___c(RenderObjectsPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12876 };
@@ -510,7 +510,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderObjectsPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderObjectsPass(RenderObjectsPassconst&) = delete;
+  RenderObjectsPass(RenderObjectsPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12877 };

@@ -538,7 +538,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CollectionDataContract_CollectionDataContractCriticalHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CollectionDataContract_CollectionDataContractCriticalHelper(CollectionDataContract_CollectionDataContractCriticalHelperconst&) = delete;
+  CollectionDataContract_CollectionDataContractCriticalHelper(CollectionDataContract_CollectionDataContractCriticalHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17008 };
@@ -735,7 +735,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CollectionDataContract_DictionaryEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CollectionDataContract_DictionaryEnumerator(CollectionDataContract_DictionaryEnumeratorconst&) = delete;
+  CollectionDataContract_DictionaryEnumerator(CollectionDataContract_DictionaryEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17009 };
@@ -820,7 +820,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CollectionDataContract_GenericDictionaryEnumerator_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CollectionDataContract_GenericDictionaryEnumerator_2(CollectionDataContract_GenericDictionaryEnumerator_2const&) = delete;
+  CollectionDataContract_GenericDictionaryEnumerator_2(CollectionDataContract_GenericDictionaryEnumerator_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17010 };
@@ -1138,7 +1138,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CollectionDataContract", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CollectionDataContract(CollectionDataContractconst&) = delete;
+  CollectionDataContract(CollectionDataContract const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17011 };

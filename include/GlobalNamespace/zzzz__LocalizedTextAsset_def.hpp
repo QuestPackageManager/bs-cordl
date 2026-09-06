@@ -88,7 +88,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextAsset_TextInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalizedTextAsset_TextInfo(LocalizedTextAsset_TextInfoconst&) = delete;
+  LocalizedTextAsset_TextInfo(LocalizedTextAsset_TextInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6548 };
@@ -151,7 +151,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextAsset___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalizedTextAsset___c(LocalizedTextAsset___cconst&) = delete;
+  LocalizedTextAsset___c(LocalizedTextAsset___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6549 };
@@ -199,7 +199,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextAsset___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalizedTextAsset___c__DisplayClass6_0(LocalizedTextAsset___c__DisplayClass6_0const&) = delete;
+  LocalizedTextAsset___c__DisplayClass6_0(LocalizedTextAsset___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6550 };
@@ -273,7 +273,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalizedTextAsset(LocalizedTextAssetconst&) = delete;
+  LocalizedTextAsset(LocalizedTextAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6551 };

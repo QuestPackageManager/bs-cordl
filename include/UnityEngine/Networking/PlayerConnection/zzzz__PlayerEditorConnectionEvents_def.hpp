@@ -87,7 +87,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents_MessageEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerEditorConnectionEvents_MessageEvent(PlayerEditorConnectionEvents_MessageEventconst&) = delete;
+  PlayerEditorConnectionEvents_MessageEvent(PlayerEditorConnectionEvents_MessageEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10654 };
@@ -122,7 +122,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents_ConnectionChangeEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerEditorConnectionEvents_ConnectionChangeEvent(PlayerEditorConnectionEvents_ConnectionChangeEventconst&) = delete;
+  PlayerEditorConnectionEvents_ConnectionChangeEvent(PlayerEditorConnectionEvents_ConnectionChangeEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10655 };
@@ -193,7 +193,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents_MessageTypeSubscribers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerEditorConnectionEvents_MessageTypeSubscribers(PlayerEditorConnectionEvents_MessageTypeSubscribersconst&) = delete;
+  PlayerEditorConnectionEvents_MessageTypeSubscribers(PlayerEditorConnectionEvents_MessageTypeSubscribers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10656 };
@@ -314,7 +314,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerEditorConnectionEvents", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerEditorConnectionEvents(PlayerEditorConnectionEventsconst&) = delete;
+  PlayerEditorConnectionEvents(PlayerEditorConnectionEvents const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10657 };

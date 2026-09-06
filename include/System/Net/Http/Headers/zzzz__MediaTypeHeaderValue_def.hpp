@@ -93,7 +93,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MediaTypeHeaderValue___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MediaTypeHeaderValue___c(MediaTypeHeaderValue___cconst&) = delete;
+  MediaTypeHeaderValue___c(MediaTypeHeaderValue___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20319 };
@@ -204,7 +204,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MediaTypeHeaderValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MediaTypeHeaderValue(MediaTypeHeaderValueconst&) = delete;
+  MediaTypeHeaderValue(MediaTypeHeaderValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20320 };

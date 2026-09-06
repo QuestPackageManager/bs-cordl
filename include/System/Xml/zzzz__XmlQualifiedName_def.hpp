@@ -62,7 +62,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlQualifiedName_HashCodeOfStringDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlQualifiedName_HashCodeOfStringDelegate(XmlQualifiedName_HashCodeOfStringDelegateconst&) = delete;
+  XmlQualifiedName_HashCodeOfStringDelegate(XmlQualifiedName_HashCodeOfStringDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9460 };
@@ -210,7 +210,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlQualifiedName", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlQualifiedName(XmlQualifiedNameconst&) = delete;
+  XmlQualifiedName(XmlQualifiedName const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9461 };

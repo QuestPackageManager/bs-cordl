@@ -43,7 +43,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MulOvfInstruction_MulOvfUInt32", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MulOvfInstruction_MulOvfUInt32(MulOvfInstruction_MulOvfUInt32const&) = delete;
+  MulOvfInstruction_MulOvfUInt32(MulOvfInstruction_MulOvfUInt32 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16502 };

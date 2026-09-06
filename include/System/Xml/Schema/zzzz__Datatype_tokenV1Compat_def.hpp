@@ -44,7 +44,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_tokenV1Compat", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Datatype_tokenV1Compat(Datatype_tokenV1Compatconst&) = delete;
+  Datatype_tokenV1Compat(Datatype_tokenV1Compat const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9647 };

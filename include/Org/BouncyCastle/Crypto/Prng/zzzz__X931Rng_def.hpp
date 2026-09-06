@@ -128,7 +128,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "X931Rng", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X931Rng(X931Rngconst&) = delete;
+  X931Rng(X931Rng const&) = delete;
 
   /// @brief Field BLOCK128_MAX_BITS_REQUEST offset 0xffffffff size 0x4
   static constexpr int32_t BLOCK128_MAX_BITS_REQUEST{ static_cast<int32_t>(0x40000) };

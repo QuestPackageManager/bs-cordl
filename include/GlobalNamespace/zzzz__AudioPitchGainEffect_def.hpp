@@ -178,7 +178,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioPitchGainEffect__StartEffectCoroutine_d__8", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioPitchGainEffect__StartEffectCoroutine_d__8(AudioPitchGainEffect__StartEffectCoroutine_d__8const&) = delete;
+  AudioPitchGainEffect__StartEffectCoroutine_d__8(AudioPitchGainEffect__StartEffectCoroutine_d__8 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5553 };
@@ -329,7 +329,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioPitchGainEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioPitchGainEffect(AudioPitchGainEffectconst&) = delete;
+  AudioPitchGainEffect(AudioPitchGainEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5554 };

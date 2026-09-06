@@ -552,7 +552,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Object", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Object(Objectconst&) = delete;
+  Object(Object const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10379 };
@@ -610,7 +610,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Object_MarshalledUnityObject", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Object_MarshalledUnityObject(Object_MarshalledUnityObjectconst&) = delete;
+  Object_MarshalledUnityObject(Object_MarshalledUnityObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10378 };

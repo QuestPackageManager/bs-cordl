@@ -80,7 +80,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRResources__LoadSharedResource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRResources__LoadSharedResource(IVRResources__LoadSharedResourceconst&) = delete;
+  IVRResources__LoadSharedResource(IVRResources__LoadSharedResource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8333 };
@@ -126,7 +126,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRResources__GetResourceFullPath", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRResources__GetResourceFullPath(IVRResources__GetResourceFullPathconst&) = delete;
+  IVRResources__GetResourceFullPath(IVRResources__GetResourceFullPath const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8334 };

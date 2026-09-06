@@ -1096,7 +1096,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRUnityHumanoidSkeletonRetargeter_OVRHumanBodyBonesMappings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRUnityHumanoidSkeletonRetargeter_OVRHumanBodyBonesMappings(OVRUnityHumanoidSkeletonRetargeter_OVRHumanBodyBonesMappingsconst&) = delete;
+  OVRUnityHumanoidSkeletonRetargeter_OVRHumanBodyBonesMappings(OVRUnityHumanoidSkeletonRetargeter_OVRHumanBodyBonesMappings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7060 };
@@ -1218,7 +1218,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSkeletonMetadata_OVRUnityHumanoidSkeletonRetargeter_BoneData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSkeletonMetadata_OVRUnityHumanoidSkeletonRetargeter_BoneData(OVRSkeletonMetadata_OVRUnityHumanoidSkeletonRetargeter_BoneDataconst&) = delete;
+  OVRSkeletonMetadata_OVRUnityHumanoidSkeletonRetargeter_BoneData(OVRSkeletonMetadata_OVRUnityHumanoidSkeletonRetargeter_BoneData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7061 };
@@ -1391,7 +1391,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata(OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadataconst&) = delete;
+  OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata(OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7062 };
@@ -1536,7 +1536,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRUnityHumanoidSkeletonRetargeter_JointAdjustment", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRUnityHumanoidSkeletonRetargeter_JointAdjustment(OVRUnityHumanoidSkeletonRetargeter_JointAdjustmentconst&) = delete;
+  OVRUnityHumanoidSkeletonRetargeter_JointAdjustment(OVRUnityHumanoidSkeletonRetargeter_JointAdjustment const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7063 };
@@ -1972,7 +1972,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRUnityHumanoidSkeletonRetargeter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRUnityHumanoidSkeletonRetargeter(OVRUnityHumanoidSkeletonRetargeterconst&) = delete;
+  OVRUnityHumanoidSkeletonRetargeter(OVRUnityHumanoidSkeletonRetargeter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7065 };

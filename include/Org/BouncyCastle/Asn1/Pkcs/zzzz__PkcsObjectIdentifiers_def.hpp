@@ -951,7 +951,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PkcsObjectIdentifiers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PkcsObjectIdentifiers(PkcsObjectIdentifiersconst&) = delete;
+  PkcsObjectIdentifiers(PkcsObjectIdentifiers const&) = delete;
 
   /// @brief Field BagTypes offset 0xffffffff size 0x8
   static constexpr ::ConstString BagTypes{ u"1.2.840.113549.1.12.10.1" };

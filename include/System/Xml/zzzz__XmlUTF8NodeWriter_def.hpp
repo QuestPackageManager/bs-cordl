@@ -339,7 +339,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlUTF8NodeWriter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlUTF8NodeWriter(XmlUTF8NodeWriterconst&) = delete;
+  XmlUTF8NodeWriter(XmlUTF8NodeWriter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16995 };

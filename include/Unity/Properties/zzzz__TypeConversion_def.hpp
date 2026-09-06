@@ -1906,7 +1906,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PrimitiveConverters_TypeConversion___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PrimitiveConverters_TypeConversion___c(PrimitiveConverters_TypeConversion___cconst&) = delete;
+  PrimitiveConverters_TypeConversion___c(PrimitiveConverters_TypeConversion___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19694 };
@@ -1983,7 +1983,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeConversion_PrimitiveConverters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeConversion_PrimitiveConverters(TypeConversion_PrimitiveConvertersconst&) = delete;
+  TypeConversion_PrimitiveConverters(TypeConversion_PrimitiveConverters const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19695 };
@@ -2037,7 +2037,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeConversion", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeConversion(TypeConversionconst&) = delete;
+  TypeConversion(TypeConversion const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19696 };

@@ -151,7 +151,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator___c__DisplayClass19_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SoloFreePlayFlowCoordinator___c__DisplayClass19_0(SoloFreePlayFlowCoordinator___c__DisplayClass19_0const&) = delete;
+  SoloFreePlayFlowCoordinator___c__DisplayClass19_0(SoloFreePlayFlowCoordinator___c__DisplayClass19_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6858 };
@@ -237,7 +237,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator___c__DisplayClass22_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SoloFreePlayFlowCoordinator___c__DisplayClass22_0(SoloFreePlayFlowCoordinator___c__DisplayClass22_0const&) = delete;
+  SoloFreePlayFlowCoordinator___c__DisplayClass22_0(SoloFreePlayFlowCoordinator___c__DisplayClass22_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6859 };
@@ -309,7 +309,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator___c__DisplayClass24_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SoloFreePlayFlowCoordinator___c__DisplayClass24_0(SoloFreePlayFlowCoordinator___c__DisplayClass24_0const&) = delete;
+  SoloFreePlayFlowCoordinator___c__DisplayClass24_0(SoloFreePlayFlowCoordinator___c__DisplayClass24_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6860 };
@@ -486,7 +486,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SoloFreePlayFlowCoordinator(SoloFreePlayFlowCoordinatorconst&) = delete;
+  SoloFreePlayFlowCoordinator(SoloFreePlayFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6861 };

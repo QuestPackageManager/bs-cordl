@@ -190,7 +190,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OrderedSet_1_Node", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OrderedSet_1_Node(OrderedSet_1_Nodeconst&) = delete;
+  OrderedSet_1_Node(OrderedSet_1_Node const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18240 };
@@ -320,7 +320,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OrderedSet_1__GetEnumerator_d__23", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OrderedSet_1__GetEnumerator_d__23(OrderedSet_1__GetEnumerator_d__23const&) = delete;
+  OrderedSet_1__GetEnumerator_d__23(OrderedSet_1__GetEnumerator_d__23 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18241 };
@@ -494,7 +494,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OrderedSet_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OrderedSet_1(OrderedSet_1const&) = delete;
+  OrderedSet_1(OrderedSet_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18242 };

@@ -184,7 +184,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialSongController_InitData(TutorialSongController_InitDataconst&) = delete;
+  TutorialSongController_InitData(TutorialSongController_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6286 };
@@ -383,7 +383,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_SequenceCutInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialSongController_SequenceCutInfo(TutorialSongController_SequenceCutInfoconst&) = delete;
+  TutorialSongController_SequenceCutInfo(TutorialSongController_SequenceCutInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6288 };
@@ -494,7 +494,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialObjectSpawnData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialSongController_TutorialObjectSpawnData(TutorialSongController_TutorialObjectSpawnDataconst&) = delete;
+  TutorialSongController_TutorialObjectSpawnData(TutorialSongController_TutorialObjectSpawnData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6289 };
@@ -559,7 +559,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialJumpingNoteSpawnData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialSongController_TutorialJumpingNoteSpawnData(TutorialSongController_TutorialJumpingNoteSpawnDataconst&) = delete;
+  TutorialSongController_TutorialJumpingNoteSpawnData(TutorialSongController_TutorialJumpingNoteSpawnData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6290 };
@@ -620,7 +620,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialBasicNoteSpawnData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialSongController_TutorialBasicNoteSpawnData(TutorialSongController_TutorialBasicNoteSpawnDataconst&) = delete;
+  TutorialSongController_TutorialBasicNoteSpawnData(TutorialSongController_TutorialBasicNoteSpawnData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6291 };
@@ -748,7 +748,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialChainSpawnData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialSongController_TutorialChainSpawnData(TutorialSongController_TutorialChainSpawnDataconst&) = delete;
+  TutorialSongController_TutorialChainSpawnData(TutorialSongController_TutorialChainSpawnData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6292 };
@@ -844,7 +844,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialArcSpawnData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialSongController_TutorialArcSpawnData(TutorialSongController_TutorialArcSpawnDataconst&) = delete;
+  TutorialSongController_TutorialArcSpawnData(TutorialSongController_TutorialArcSpawnData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6293 };
@@ -890,7 +890,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialBombNoteSpawnData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialSongController_TutorialBombNoteSpawnData(TutorialSongController_TutorialBombNoteSpawnDataconst&) = delete;
+  TutorialSongController_TutorialBombNoteSpawnData(TutorialSongController_TutorialBombNoteSpawnData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6294 };
@@ -954,7 +954,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController_TutorialObstacleSpawnData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialSongController_TutorialObstacleSpawnData(TutorialSongController_TutorialObstacleSpawnDataconst&) = delete;
+  TutorialSongController_TutorialObstacleSpawnData(TutorialSongController_TutorialObstacleSpawnData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6295 };
@@ -1357,7 +1357,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TutorialSongController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialSongController(TutorialSongControllerconst&) = delete;
+  TutorialSongController(TutorialSongController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6296 };

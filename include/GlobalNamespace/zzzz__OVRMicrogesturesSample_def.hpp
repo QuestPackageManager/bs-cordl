@@ -191,7 +191,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRMicrogesturesSample__HighlightIconCoroutine_d__22", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRMicrogesturesSample__HighlightIconCoroutine_d__22(OVRMicrogesturesSample__HighlightIconCoroutine_d__22const&) = delete;
+  OVRMicrogesturesSample__HighlightIconCoroutine_d__22(OVRMicrogesturesSample__HighlightIconCoroutine_d__22 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7253 };
@@ -345,7 +345,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRMicrogesturesSample__ShowGestureLabel_d__26", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRMicrogesturesSample__ShowGestureLabel_d__26(OVRMicrogesturesSample__ShowGestureLabel_d__26const&) = delete;
+  OVRMicrogesturesSample__ShowGestureLabel_d__26(OVRMicrogesturesSample__ShowGestureLabel_d__26 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7254 };
@@ -616,7 +616,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRMicrogesturesSample", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRMicrogesturesSample(OVRMicrogesturesSampleconst&) = delete;
+  OVRMicrogesturesSample(OVRMicrogesturesSample const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7255 };

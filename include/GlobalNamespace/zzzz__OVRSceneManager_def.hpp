@@ -290,7 +290,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSceneManager_Classification", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSceneManager_Classification(OVRSceneManager_Classificationconst&) = delete;
+  OVRSceneManager_Classification(OVRSceneManager_Classification const&) = delete;
 
   /// @brief Field Bed offset 0xffffffff size 0x8
   static constexpr ::ConstString Bed{ u"BED" };
@@ -404,7 +404,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSceneManager_RoomLayoutInformation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSceneManager_RoomLayoutInformation(OVRSceneManager_RoomLayoutInformationconst&) = delete;
+  OVRSceneManager_RoomLayoutInformation(OVRSceneManager_RoomLayoutInformation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7661 };
@@ -501,7 +501,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSceneManager_Development", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSceneManager_Development(OVRSceneManager_Developmentconst&) = delete;
+  OVRSceneManager_Development(OVRSceneManager_Development const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7663 };
@@ -798,7 +798,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSceneManager___c__DisplayClass45_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSceneManager___c__DisplayClass45_0(OVRSceneManager___c__DisplayClass45_0const&) = delete;
+  OVRSceneManager___c__DisplayClass45_0(OVRSceneManager___c__DisplayClass45_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7668 };
@@ -866,7 +866,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSceneManager___c__DisplayClass51_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSceneManager___c__DisplayClass51_0(OVRSceneManager___c__DisplayClass51_0const&) = delete;
+  OVRSceneManager___c__DisplayClass51_0(OVRSceneManager___c__DisplayClass51_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7669 };
@@ -943,7 +943,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSceneManager___c__DisplayClass54_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSceneManager___c__DisplayClass54_0(OVRSceneManager___c__DisplayClass54_0const&) = delete;
+  OVRSceneManager___c__DisplayClass54_0(OVRSceneManager___c__DisplayClass54_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7670 };
@@ -2021,7 +2021,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSceneManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSceneManager(OVRSceneManagerconst&) = delete;
+  OVRSceneManager(OVRSceneManager const&) = delete;
 
   /// @brief Field DeprecationMessage offset 0xffffffff size 0x8
   static constexpr ::ConstString DeprecationMessage{

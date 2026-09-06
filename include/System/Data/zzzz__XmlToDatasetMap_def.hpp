@@ -111,7 +111,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlToDatasetMap_XmlNodeIdentety", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlToDatasetMap_XmlNodeIdentety(XmlToDatasetMap_XmlNodeIdentetyconst&) = delete;
+  XmlToDatasetMap_XmlNodeIdentety(XmlToDatasetMap_XmlNodeIdentety const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13873 };
@@ -186,7 +186,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlToDatasetMap_XmlNodeIdHashtable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlToDatasetMap_XmlNodeIdHashtable(XmlToDatasetMap_XmlNodeIdHashtableconst&) = delete;
+  XmlToDatasetMap_XmlNodeIdHashtable(XmlToDatasetMap_XmlNodeIdHashtable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13874 };
@@ -244,7 +244,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlToDatasetMap_TableSchemaInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlToDatasetMap_TableSchemaInfo(XmlToDatasetMap_TableSchemaInfoconst&) = delete;
+  XmlToDatasetMap_TableSchemaInfo(XmlToDatasetMap_TableSchemaInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13875 };
@@ -373,7 +373,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlToDatasetMap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlToDatasetMap(XmlToDatasetMapconst&) = delete;
+  XmlToDatasetMap(XmlToDatasetMap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13876 };

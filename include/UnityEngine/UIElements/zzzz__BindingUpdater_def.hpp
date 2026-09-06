@@ -158,7 +158,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BindingUpdater_CastDataSourceVisitor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BindingUpdater_CastDataSourceVisitor(BindingUpdater_CastDataSourceVisitorconst&) = delete;
+  BindingUpdater_CastDataSourceVisitor(BindingUpdater_CastDataSourceVisitor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4027 };
@@ -298,7 +298,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BindingUpdater_UIPathVisitor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BindingUpdater_UIPathVisitor(BindingUpdater_UIPathVisitorconst&) = delete;
+  BindingUpdater_UIPathVisitor(BindingUpdater_UIPathVisitor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4028 };
@@ -432,7 +432,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BindingUpdater", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BindingUpdater(BindingUpdaterconst&) = delete;
+  BindingUpdater(BindingUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4029 };

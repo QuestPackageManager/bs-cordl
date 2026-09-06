@@ -371,7 +371,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass25_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLClient___c__DisplayClass25_0_1(GraphQLClient___c__DisplayClass25_0_1const&) = delete;
+  GraphQLClient___c__DisplayClass25_0_1(GraphQLClient___c__DisplayClass25_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20363 };
@@ -432,7 +432,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass27_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLClient___c__DisplayClass27_0_1(GraphQLClient___c__DisplayClass27_0_1const&) = delete;
+  GraphQLClient___c__DisplayClass27_0_1(GraphQLClient___c__DisplayClass27_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20364 };
@@ -497,7 +497,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass27_1_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLClient___c__DisplayClass27_1_1(GraphQLClient___c__DisplayClass27_1_1const&) = delete;
+  GraphQLClient___c__DisplayClass27_1_1(GraphQLClient___c__DisplayClass27_1_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20365 };
@@ -562,7 +562,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass27_2_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLClient___c__DisplayClass27_2_1(GraphQLClient___c__DisplayClass27_2_1const&) = delete;
+  GraphQLClient___c__DisplayClass27_2_1(GraphQLClient___c__DisplayClass27_2_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20366 };
@@ -626,7 +626,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass28_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLClient___c__DisplayClass28_0_1(GraphQLClient___c__DisplayClass28_0_1const&) = delete;
+  GraphQLClient___c__DisplayClass28_0_1(GraphQLClient___c__DisplayClass28_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20367 };
@@ -699,7 +699,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass30_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLClient___c__DisplayClass30_0_1(GraphQLClient___c__DisplayClass30_0_1const&) = delete;
+  GraphQLClient___c__DisplayClass30_0_1(GraphQLClient___c__DisplayClass30_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20368 };
@@ -775,7 +775,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass32_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLClient___c__DisplayClass32_0_1(GraphQLClient___c__DisplayClass32_0_1const&) = delete;
+  GraphQLClient___c__DisplayClass32_0_1(GraphQLClient___c__DisplayClass32_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20369 };
@@ -839,7 +839,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient___c__DisplayClass33_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLClient___c__DisplayClass33_0(GraphQLClient___c__DisplayClass33_0const&) = delete;
+  GraphQLClient___c__DisplayClass33_0(GraphQLClient___c__DisplayClass33_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20370 };
@@ -2130,7 +2130,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphQLClient", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLClient(GraphQLClientconst&) = delete;
+  GraphQLClient(GraphQLClient const&) = delete;
 
   /// @brief Field AccessViolationRetryDelayMs offset 0xffffffff size 0x4
   static constexpr int32_t AccessViolationRetryDelayMs{ static_cast<int32_t>(0x64) };

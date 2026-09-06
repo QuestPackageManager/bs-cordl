@@ -125,7 +125,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Animation_Enumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Animation_Enumerator(Animation_Enumeratorconst&) = delete;
+  Animation_Enumerator(Animation_Enumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20206 };
@@ -529,7 +529,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Animation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Animation(Animationconst&) = delete;
+  Animation(Animation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20207 };

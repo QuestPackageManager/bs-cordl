@@ -43,7 +43,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ModuloInstruction_ModuloSingle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ModuloInstruction_ModuloSingle(ModuloInstruction_ModuloSingleconst&) = delete;
+  ModuloInstruction_ModuloSingle(ModuloInstruction_ModuloSingle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16486 };

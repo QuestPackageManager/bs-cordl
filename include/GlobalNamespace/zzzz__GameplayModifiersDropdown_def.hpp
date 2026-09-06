@@ -89,7 +89,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersDropdown___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifiersDropdown___c(GameplayModifiersDropdown___cconst&) = delete;
+  GameplayModifiersDropdown___c(GameplayModifiersDropdown___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6891 };
@@ -201,7 +201,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersDropdown", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifiersDropdown(GameplayModifiersDropdownconst&) = delete;
+  GameplayModifiersDropdown(GameplayModifiersDropdown const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6892 };

@@ -71,7 +71,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRMeshRenderer_IOVRMeshRendererDataProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRMeshRenderer_IOVRMeshRendererDataProvider(OVRMeshRenderer_IOVRMeshRendererDataProviderconst&) = delete;
+  OVRMeshRenderer_IOVRMeshRendererDataProvider(OVRMeshRenderer_IOVRMeshRendererDataProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7933 };
@@ -475,7 +475,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRMeshRenderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRMeshRenderer(OVRMeshRendererconst&) = delete;
+  OVRMeshRenderer(OVRMeshRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7937 };

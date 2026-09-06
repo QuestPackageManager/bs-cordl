@@ -93,7 +93,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs12ParametersGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pkcs12ParametersGenerator(Pkcs12ParametersGeneratorconst&) = delete;
+  Pkcs12ParametersGenerator(Pkcs12ParametersGenerator const&) = delete;
 
   /// @brief Field IVMaterial offset 0xffffffff size 0x4
   static constexpr int32_t IVMaterial{ static_cast<int32_t>(0x2) };

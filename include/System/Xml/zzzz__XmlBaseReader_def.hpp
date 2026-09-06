@@ -733,7 +733,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlBaseReader_XmlNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlBaseReader_XmlNode(XmlBaseReader_XmlNodeconst&) = delete;
+  XmlBaseReader_XmlNode(XmlBaseReader_XmlNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16943 };
@@ -912,7 +912,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlBaseReader_XmlElementNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlBaseReader_XmlElementNode(XmlBaseReader_XmlElementNodeconst&) = delete;
+  XmlBaseReader_XmlElementNode(XmlBaseReader_XmlElementNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16944 };
@@ -972,7 +972,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlBaseReader_XmlAttributeNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlBaseReader_XmlAttributeNode(XmlBaseReader_XmlAttributeNodeconst&) = delete;
+  XmlBaseReader_XmlAttributeNode(XmlBaseReader_XmlAttributeNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16945 };
@@ -1007,7 +1007,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlBaseReader_XmlEndElementNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlBaseReader_XmlEndElementNode(XmlBaseReader_XmlEndElementNodeconst&) = delete;
+  XmlBaseReader_XmlEndElementNode(XmlBaseReader_XmlEndElementNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16946 };
@@ -1046,7 +1046,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlBaseReader_XmlTextNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlBaseReader_XmlTextNode(XmlBaseReader_XmlTextNodeconst&) = delete;
+  XmlBaseReader_XmlTextNode(XmlBaseReader_XmlTextNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16947 };
@@ -1081,7 +1081,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlBaseReader_XmlAtomicTextNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlBaseReader_XmlAtomicTextNode(XmlBaseReader_XmlAtomicTextNodeconst&) = delete;
+  XmlBaseReader_XmlAtomicTextNode(XmlBaseReader_XmlAtomicTextNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16948 };
@@ -1116,7 +1116,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlBaseReader_XmlComplexTextNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlBaseReader_XmlComplexTextNode(XmlBaseReader_XmlComplexTextNodeconst&) = delete;
+  XmlBaseReader_XmlComplexTextNode(XmlBaseReader_XmlComplexTextNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16949 };
@@ -1151,7 +1151,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlBaseReader_XmlWhitespaceTextNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlBaseReader_XmlWhitespaceTextNode(XmlBaseReader_XmlWhitespaceTextNodeconst&) = delete;
+  XmlBaseReader_XmlWhitespaceTextNode(XmlBaseReader_XmlWhitespaceTextNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16950 };
@@ -1186,7 +1186,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlBaseReader_XmlCDataNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlBaseReader_XmlCDataNode(XmlBaseReader_XmlCDataNodeconst&) = delete;
+  XmlBaseReader_XmlCDataNode(XmlBaseReader_XmlCDataNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16951 };
@@ -1221,7 +1221,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlBaseReader_XmlAttributeTextNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlBaseReader_XmlAttributeTextNode(XmlBaseReader_XmlAttributeTextNodeconst&) = delete;
+  XmlBaseReader_XmlAttributeTextNode(XmlBaseReader_XmlAttributeTextNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16952 };
@@ -1256,7 +1256,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlBaseReader_XmlInitialNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlBaseReader_XmlInitialNode(XmlBaseReader_XmlInitialNodeconst&) = delete;
+  XmlBaseReader_XmlInitialNode(XmlBaseReader_XmlInitialNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16953 };
@@ -1291,7 +1291,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlBaseReader_XmlDeclarationNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlBaseReader_XmlDeclarationNode(XmlBaseReader_XmlDeclarationNodeconst&) = delete;
+  XmlBaseReader_XmlDeclarationNode(XmlBaseReader_XmlDeclarationNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16954 };
@@ -1326,7 +1326,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlBaseReader_XmlCommentNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlBaseReader_XmlCommentNode(XmlBaseReader_XmlCommentNodeconst&) = delete;
+  XmlBaseReader_XmlCommentNode(XmlBaseReader_XmlCommentNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16955 };
@@ -1361,7 +1361,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlBaseReader_XmlEndOfFileNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlBaseReader_XmlEndOfFileNode(XmlBaseReader_XmlEndOfFileNodeconst&) = delete;
+  XmlBaseReader_XmlEndOfFileNode(XmlBaseReader_XmlEndOfFileNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16956 };
@@ -1396,7 +1396,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlBaseReader_XmlClosedNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlBaseReader_XmlClosedNode(XmlBaseReader_XmlClosedNodeconst&) = delete;
+  XmlBaseReader_XmlClosedNode(XmlBaseReader_XmlClosedNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16957 };
@@ -1503,7 +1503,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlBaseReader_AttributeSorter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlBaseReader_AttributeSorter(XmlBaseReader_AttributeSorterconst&) = delete;
+  XmlBaseReader_AttributeSorter(XmlBaseReader_AttributeSorter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16958 };
@@ -1614,7 +1614,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NamespaceManager_XmlBaseReader_XmlAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NamespaceManager_XmlBaseReader_XmlAttribute(NamespaceManager_XmlBaseReader_XmlAttributeconst&) = delete;
+  NamespaceManager_XmlBaseReader_XmlAttribute(NamespaceManager_XmlBaseReader_XmlAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16959 };
@@ -1744,7 +1744,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlBaseReader_Namespace", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlBaseReader_Namespace(XmlBaseReader_Namespaceconst&) = delete;
+  XmlBaseReader_Namespace(XmlBaseReader_Namespace const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16961 };
@@ -1956,7 +1956,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlBaseReader_NamespaceManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlBaseReader_NamespaceManager(XmlBaseReader_NamespaceManagerconst&) = delete;
+  XmlBaseReader_NamespaceManager(XmlBaseReader_NamespaceManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16960 };
@@ -2087,7 +2087,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlBaseReader_QuotaNameTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlBaseReader_QuotaNameTable(XmlBaseReader_QuotaNameTableconst&) = delete;
+  XmlBaseReader_QuotaNameTable(XmlBaseReader_QuotaNameTable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16962 };
@@ -2885,7 +2885,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlBaseReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlBaseReader(XmlBaseReaderconst&) = delete;
+  XmlBaseReader(XmlBaseReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16963 };

@@ -140,7 +140,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeConverter_SimplePropertyDescriptor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeConverter_SimplePropertyDescriptor(TypeConverter_SimplePropertyDescriptorconst&) = delete;
+  TypeConverter_SimplePropertyDescriptor(TypeConverter_SimplePropertyDescriptor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11327 };
@@ -253,7 +253,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeConverter_StandardValuesCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeConverter_StandardValuesCollection(TypeConverter_StandardValuesCollectionconst&) = delete;
+  TypeConverter_StandardValuesCollection(TypeConverter_StandardValuesCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11328 };
@@ -429,7 +429,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeConverter(TypeConverterconst&) = delete;
+  TypeConverter(TypeConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11329 };

@@ -47,7 +47,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Action_6", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Action_6(Action_6const&) = delete;
+  Action_6(Action_6 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2329 };

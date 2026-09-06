@@ -209,7 +209,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConcurrentQueue_1_Segment", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcurrentQueue_1_Segment(ConcurrentQueue_1_Segmentconst&) = delete;
+  ConcurrentQueue_1_Segment(ConcurrentQueue_1_Segment const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3735 };
@@ -405,7 +405,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConcurrentQueue_1__Enumerate_d__28", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcurrentQueue_1__Enumerate_d__28(ConcurrentQueue_1__Enumerate_d__28const&) = delete;
+  ConcurrentQueue_1__Enumerate_d__28(ConcurrentQueue_1__Enumerate_d__28 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3736 };
@@ -611,7 +611,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConcurrentQueue_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcurrentQueue_1(ConcurrentQueue_1const&) = delete;
+  ConcurrentQueue_1(ConcurrentQueue_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3737 };

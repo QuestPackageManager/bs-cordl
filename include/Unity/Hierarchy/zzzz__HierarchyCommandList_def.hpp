@@ -49,7 +49,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HierarchyCommandList_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HierarchyCommandList_BindingsMarshaller(HierarchyCommandList_BindingsMarshallerconst&) = delete;
+  HierarchyCommandList_BindingsMarshaller(HierarchyCommandList_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21940 };
@@ -133,7 +133,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HierarchyCommandList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HierarchyCommandList(HierarchyCommandListconst&) = delete;
+  HierarchyCommandList(HierarchyCommandList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21941 };

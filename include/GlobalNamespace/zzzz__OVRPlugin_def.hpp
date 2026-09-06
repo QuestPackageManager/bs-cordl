@@ -3057,7 +3057,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_GUID", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_GUID(OVRPlugin_GUIDconst&) = delete;
+  OVRPlugin_GUID(OVRPlugin_GUID const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7293 };
@@ -3541,7 +3541,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_LogCallback2DelegateType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_LogCallback2DelegateType(OVRPlugin_LogCallback2DelegateTypeconst&) = delete;
+  OVRPlugin_LogCallback2DelegateType(OVRPlugin_LogCallback2DelegateType const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7298 };
@@ -12914,7 +12914,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_Mesh", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_Mesh(OVRPlugin_Meshconst&) = delete;
+  OVRPlugin_Mesh(OVRPlugin_Mesh const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7400 };
@@ -19935,7 +19935,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_Media", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_Media(OVRPlugin_Mediaconst&) = delete;
+  OVRPlugin_Media(OVRPlugin_Media const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7484 };
@@ -19979,7 +19979,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_GetBoneSkeleton2Delegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_GetBoneSkeleton2Delegate(OVRPlugin_GetBoneSkeleton2Delegateconst&) = delete;
+  OVRPlugin_GetBoneSkeleton2Delegate(OVRPlugin_GetBoneSkeleton2Delegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7485 };
@@ -20023,7 +20023,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_GetBoneSkeleton3Delegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_GetBoneSkeleton3Delegate(OVRPlugin_GetBoneSkeleton3Delegateconst&) = delete;
+  OVRPlugin_GetBoneSkeleton3Delegate(OVRPlugin_GetBoneSkeleton3Delegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7486 };
@@ -20067,7 +20067,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_VirtualKeyboardModelAnimationStateBufferProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_VirtualKeyboardModelAnimationStateBufferProvider(OVRPlugin_VirtualKeyboardModelAnimationStateBufferProviderconst&) = delete;
+  OVRPlugin_VirtualKeyboardModelAnimationStateBufferProvider(OVRPlugin_VirtualKeyboardModelAnimationStateBufferProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7487 };
@@ -20111,7 +20111,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_VirtualKeyboardModelAnimationStateHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_VirtualKeyboardModelAnimationStateHandler(OVRPlugin_VirtualKeyboardModelAnimationStateHandlerconst&) = delete;
+  OVRPlugin_VirtualKeyboardModelAnimationStateHandler(OVRPlugin_VirtualKeyboardModelAnimationStateHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7488 };
@@ -20897,7 +20897,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_Ktx", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_Ktx(OVRPlugin_Ktxconst&) = delete;
+  OVRPlugin_Ktx(OVRPlugin_Ktx const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7506 };
@@ -21153,7 +21153,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_UnityOpenXR", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_UnityOpenXR(OVRPlugin_UnityOpenXRconst&) = delete;
+  OVRPlugin_UnityOpenXR(OVRPlugin_UnityOpenXR const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7511 };
@@ -21893,7 +21893,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_Qpl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_Qpl(OVRPlugin_Qplconst&) = delete;
+  OVRPlugin_Qpl(OVRPlugin_Qpl const&) = delete;
 
   /// @brief Field AutoSetTimeoutMs offset 0xffffffff size 0x4
   static constexpr int32_t AutoSetTimeoutMs{ static_cast<int32_t>(0x0) };
@@ -21965,7 +21965,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_UnifiedConsent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_UnifiedConsent(OVRPlugin_UnifiedConsentconst&) = delete;
+  OVRPlugin_UnifiedConsent(OVRPlugin_UnifiedConsent const&) = delete;
 
   /// @brief Field ToolId offset 0xffffffff size 0x4
   static constexpr int32_t ToolId{ static_cast<int32_t>(0x1) };
@@ -22008,7 +22008,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_0_1_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_0_1_0(OVRPlugin_OVRP_0_1_0const&) = delete;
+  OVRPlugin_OVRP_0_1_0(OVRPlugin_OVRP_0_1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7521 };
@@ -22049,7 +22049,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_0_1_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_0_1_1(OVRPlugin_OVRP_0_1_1const&) = delete;
+  OVRPlugin_OVRP_0_1_1(OVRPlugin_OVRP_0_1_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7522 };
@@ -22092,7 +22092,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_0_1_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_0_1_2(OVRPlugin_OVRP_0_1_2const&) = delete;
+  OVRPlugin_OVRP_0_1_2(OVRPlugin_OVRP_0_1_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7523 };
@@ -22136,7 +22136,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_0_1_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_0_1_3(OVRPlugin_OVRP_0_1_3const&) = delete;
+  OVRPlugin_OVRP_0_1_3(OVRPlugin_OVRP_0_1_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7524 };
@@ -22173,7 +22173,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_0_5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_0_5_0(OVRPlugin_OVRP_0_5_0const&) = delete;
+  OVRPlugin_OVRP_0_5_0(OVRPlugin_OVRP_0_5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7525 };
@@ -22222,7 +22222,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_0_0(OVRPlugin_OVRP_1_0_0const&) = delete;
+  OVRPlugin_OVRP_1_0_0(OVRPlugin_OVRP_1_0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7526 };
@@ -22407,7 +22407,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_1_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_1_0(OVRPlugin_OVRP_1_1_0const&) = delete;
+  OVRPlugin_OVRP_1_1_0(OVRPlugin_OVRP_1_1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7527 };
@@ -22450,7 +22450,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_2_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_2_0(OVRPlugin_OVRP_1_2_0const&) = delete;
+  OVRPlugin_OVRP_1_2_0(OVRPlugin_OVRP_1_2_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7528 };
@@ -22496,7 +22496,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_3_0(OVRPlugin_OVRP_1_3_0const&) = delete;
+  OVRPlugin_OVRP_1_3_0(OVRPlugin_OVRP_1_3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7529 };
@@ -22536,7 +22536,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_5_0(OVRPlugin_OVRP_1_5_0const&) = delete;
+  OVRPlugin_OVRP_1_5_0(OVRPlugin_OVRP_1_5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7530 };
@@ -22601,7 +22601,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_6_0(OVRPlugin_OVRP_1_6_0const&) = delete;
+  OVRPlugin_OVRP_1_6_0(OVRPlugin_OVRP_1_6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7531 };
@@ -22644,7 +22644,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_7_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_7_0(OVRPlugin_OVRP_1_7_0const&) = delete;
+  OVRPlugin_OVRP_1_7_0(OVRPlugin_OVRP_1_7_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7532 };
@@ -22719,7 +22719,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_8_0(OVRPlugin_OVRP_1_8_0const&) = delete;
+  OVRPlugin_OVRP_1_8_0(OVRPlugin_OVRP_1_8_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7533 };
@@ -22774,7 +22774,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_9_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_9_0(OVRPlugin_OVRP_1_9_0const&) = delete;
+  OVRPlugin_OVRP_1_9_0(OVRPlugin_OVRP_1_9_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7534 };
@@ -22811,7 +22811,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_10_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_10_0(OVRPlugin_OVRP_1_10_0const&) = delete;
+  OVRPlugin_OVRP_1_10_0(OVRPlugin_OVRP_1_10_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7535 };
@@ -22854,7 +22854,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_11_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_11_0(OVRPlugin_OVRP_1_11_0const&) = delete;
+  OVRPlugin_OVRP_1_11_0(OVRPlugin_OVRP_1_11_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7536 };
@@ -22900,7 +22900,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_12_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_12_0(OVRPlugin_OVRP_1_12_0const&) = delete;
+  OVRPlugin_OVRP_1_12_0(OVRPlugin_OVRP_1_12_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7537 };
@@ -22990,7 +22990,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_15_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_15_0(OVRPlugin_OVRP_1_15_0const&) = delete;
+  OVRPlugin_OVRP_1_15_0(OVRPlugin_OVRP_1_15_0 const&) = delete;
 
   /// @brief Field OVRP_EXTERNAL_CAMERA_NAME_SIZE offset 0xffffffff size 0x4
   static constexpr int32_t OVRP_EXTERNAL_CAMERA_NAME_SIZE{ static_cast<int32_t>(0x20) };
@@ -23063,7 +23063,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_16_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_16_0(OVRPlugin_OVRP_1_16_0const&) = delete;
+  OVRPlugin_OVRP_1_16_0(OVRPlugin_OVRP_1_16_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7539 };
@@ -23100,7 +23100,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_17_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_17_0(OVRPlugin_OVRP_1_17_0const&) = delete;
+  OVRPlugin_OVRP_1_17_0(OVRPlugin_OVRP_1_17_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7540 };
@@ -23146,7 +23146,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_18_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_18_0(OVRPlugin_OVRP_1_18_0const&) = delete;
+  OVRPlugin_OVRP_1_18_0(OVRPlugin_OVRP_1_18_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7541 };
@@ -23183,7 +23183,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_19_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_19_0(OVRPlugin_OVRP_1_19_0const&) = delete;
+  OVRPlugin_OVRP_1_19_0(OVRPlugin_OVRP_1_19_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7542 };
@@ -23247,7 +23247,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_21_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_21_0(OVRPlugin_OVRP_1_21_0const&) = delete;
+  OVRPlugin_OVRP_1_21_0(OVRPlugin_OVRP_1_21_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7543 };
@@ -23293,7 +23293,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_28_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_28_0(OVRPlugin_OVRP_1_28_0const&) = delete;
+  OVRPlugin_OVRP_1_28_0(OVRPlugin_OVRP_1_28_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7544 };
@@ -23345,7 +23345,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_29_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_29_0(OVRPlugin_OVRP_1_29_0const&) = delete;
+  OVRPlugin_OVRP_1_29_0(OVRPlugin_OVRP_1_29_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7545 };
@@ -23400,7 +23400,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_30_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_30_0(OVRPlugin_OVRP_1_30_0const&) = delete;
+  OVRPlugin_OVRP_1_30_0(OVRPlugin_OVRP_1_30_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7546 };
@@ -23444,7 +23444,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_31_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_31_0(OVRPlugin_OVRP_1_31_0const&) = delete;
+  OVRPlugin_OVRP_1_31_0(OVRPlugin_OVRP_1_31_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7547 };
@@ -23484,7 +23484,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_32_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_32_0(OVRPlugin_OVRP_1_32_0const&) = delete;
+  OVRPlugin_OVRP_1_32_0(OVRPlugin_OVRP_1_32_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7548 };
@@ -23529,7 +23529,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_34_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_34_0(OVRPlugin_OVRP_1_34_0const&) = delete;
+  OVRPlugin_OVRP_1_34_0(OVRPlugin_OVRP_1_34_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7549 };
@@ -23566,7 +23566,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_35_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_35_0(OVRPlugin_OVRP_1_35_0const&) = delete;
+  OVRPlugin_OVRP_1_35_0(OVRPlugin_OVRP_1_35_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7550 };
@@ -23603,7 +23603,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_36_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_36_0(OVRPlugin_OVRP_1_36_0const&) = delete;
+  OVRPlugin_OVRP_1_36_0(OVRPlugin_OVRP_1_36_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7551 };
@@ -23640,7 +23640,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_37_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_37_0(OVRPlugin_OVRP_1_37_0const&) = delete;
+  OVRPlugin_OVRP_1_37_0(OVRPlugin_OVRP_1_37_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7552 };
@@ -23753,7 +23753,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_38_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_38_0(OVRPlugin_OVRP_1_38_0const&) = delete;
+  OVRPlugin_OVRP_1_38_0(OVRPlugin_OVRP_1_38_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7553 };
@@ -23790,7 +23790,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_39_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_39_0(OVRPlugin_OVRP_1_39_0const&) = delete;
+  OVRPlugin_OVRP_1_39_0(OVRPlugin_OVRP_1_39_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7554 };
@@ -23827,7 +23827,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_40_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_40_0(OVRPlugin_OVRP_1_40_0const&) = delete;
+  OVRPlugin_OVRP_1_40_0(OVRPlugin_OVRP_1_40_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7555 };
@@ -23864,7 +23864,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_41_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_41_0(OVRPlugin_OVRP_1_41_0const&) = delete;
+  OVRPlugin_OVRP_1_41_0(OVRPlugin_OVRP_1_41_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7556 };
@@ -23904,7 +23904,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_42_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_42_0(OVRPlugin_OVRP_1_42_0const&) = delete;
+  OVRPlugin_OVRP_1_42_0(OVRPlugin_OVRP_1_42_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7557 };
@@ -23941,7 +23941,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_43_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_43_0(OVRPlugin_OVRP_1_43_0const&) = delete;
+  OVRPlugin_OVRP_1_43_0(OVRPlugin_OVRP_1_43_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7558 };
@@ -24015,7 +24015,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_44_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_44_0(OVRPlugin_OVRP_1_44_0const&) = delete;
+  OVRPlugin_OVRP_1_44_0(OVRPlugin_OVRP_1_44_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7559 };
@@ -24058,7 +24058,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_45_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_45_0(OVRPlugin_OVRP_1_45_0const&) = delete;
+  OVRPlugin_OVRP_1_45_0(OVRPlugin_OVRP_1_45_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7560 };
@@ -24101,7 +24101,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_46_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_46_0(OVRPlugin_OVRP_1_46_0const&) = delete;
+  OVRPlugin_OVRP_1_46_0(OVRPlugin_OVRP_1_46_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7561 };
@@ -24138,7 +24138,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_47_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_47_0(OVRPlugin_OVRP_1_47_0const&) = delete;
+  OVRPlugin_OVRP_1_47_0(OVRPlugin_OVRP_1_47_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7562 };
@@ -24179,7 +24179,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_48_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_48_0(OVRPlugin_OVRP_1_48_0const&) = delete;
+  OVRPlugin_OVRP_1_48_0(OVRPlugin_OVRP_1_48_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7563 };
@@ -24268,7 +24268,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_49_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_49_0(OVRPlugin_OVRP_1_49_0const&) = delete;
+  OVRPlugin_OVRP_1_49_0(OVRPlugin_OVRP_1_49_0 const&) = delete;
 
   /// @brief Field OVRP_ANCHOR_NAME_SIZE offset 0xffffffff size 0x4
   static constexpr int32_t OVRP_ANCHOR_NAME_SIZE{ static_cast<int32_t>(0x20) };
@@ -24308,7 +24308,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_50_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_50_0(OVRPlugin_OVRP_1_50_0const&) = delete;
+  OVRPlugin_OVRP_1_50_0(OVRPlugin_OVRP_1_50_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7565 };
@@ -24345,7 +24345,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_51_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_51_0(OVRPlugin_OVRP_1_51_0const&) = delete;
+  OVRPlugin_OVRP_1_51_0(OVRPlugin_OVRP_1_51_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7566 };
@@ -24382,7 +24382,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_52_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_52_0(OVRPlugin_OVRP_1_52_0const&) = delete;
+  OVRPlugin_OVRP_1_52_0(OVRPlugin_OVRP_1_52_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7567 };
@@ -24419,7 +24419,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_53_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_53_0(OVRPlugin_OVRP_1_53_0const&) = delete;
+  OVRPlugin_OVRP_1_53_0(OVRPlugin_OVRP_1_53_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7568 };
@@ -24459,7 +24459,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_54_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_54_0(OVRPlugin_OVRP_1_54_0const&) = delete;
+  OVRPlugin_OVRP_1_54_0(OVRPlugin_OVRP_1_54_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7569 };
@@ -24508,7 +24508,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_55_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_55_0(OVRPlugin_OVRP_1_55_0const&) = delete;
+  OVRPlugin_OVRP_1_55_0(OVRPlugin_OVRP_1_55_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7570 };
@@ -24548,7 +24548,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_55_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_55_1(OVRPlugin_OVRP_1_55_1const&) = delete;
+  OVRPlugin_OVRP_1_55_1(OVRPlugin_OVRP_1_55_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7571 };
@@ -24585,7 +24585,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_56_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_56_0(OVRPlugin_OVRP_1_56_0const&) = delete;
+  OVRPlugin_OVRP_1_56_0(OVRPlugin_OVRP_1_56_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7572 };
@@ -24637,7 +24637,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_57_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_57_0(OVRPlugin_OVRP_1_57_0const&) = delete;
+  OVRPlugin_OVRP_1_57_0(OVRPlugin_OVRP_1_57_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7573 };
@@ -24674,7 +24674,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_58_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_58_0(OVRPlugin_OVRP_1_58_0const&) = delete;
+  OVRPlugin_OVRP_1_58_0(OVRPlugin_OVRP_1_58_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7574 };
@@ -24711,7 +24711,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_59_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_59_0(OVRPlugin_OVRP_1_59_0const&) = delete;
+  OVRPlugin_OVRP_1_59_0(OVRPlugin_OVRP_1_59_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7575 };
@@ -24748,7 +24748,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_60_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_60_0(OVRPlugin_OVRP_1_60_0const&) = delete;
+  OVRPlugin_OVRP_1_60_0(OVRPlugin_OVRP_1_60_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7576 };
@@ -24785,7 +24785,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_61_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_61_0(OVRPlugin_OVRP_1_61_0const&) = delete;
+  OVRPlugin_OVRP_1_61_0(OVRPlugin_OVRP_1_61_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7577 };
@@ -24822,7 +24822,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_62_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_62_0(OVRPlugin_OVRP_1_62_0const&) = delete;
+  OVRPlugin_OVRP_1_62_0(OVRPlugin_OVRP_1_62_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7578 };
@@ -24888,7 +24888,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_63_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_63_0(OVRPlugin_OVRP_1_63_0const&) = delete;
+  OVRPlugin_OVRP_1_63_0(OVRPlugin_OVRP_1_63_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7579 };
@@ -24929,7 +24929,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_64_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_64_0(OVRPlugin_OVRP_1_64_0const&) = delete;
+  OVRPlugin_OVRP_1_64_0(OVRPlugin_OVRP_1_64_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7580 };
@@ -24990,7 +24990,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_65_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_65_0(OVRPlugin_OVRP_1_65_0const&) = delete;
+  OVRPlugin_OVRP_1_65_0(OVRPlugin_OVRP_1_65_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7581 };
@@ -25033,7 +25033,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_66_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_66_0(OVRPlugin_OVRP_1_66_0const&) = delete;
+  OVRPlugin_OVRP_1_66_0(OVRPlugin_OVRP_1_66_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7582 };
@@ -25070,7 +25070,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_67_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_67_0(OVRPlugin_OVRP_1_67_0const&) = delete;
+  OVRPlugin_OVRP_1_67_0(OVRPlugin_OVRP_1_67_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7583 };
@@ -25133,7 +25133,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_68_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_68_0(OVRPlugin_OVRP_1_68_0const&) = delete;
+  OVRPlugin_OVRP_1_68_0(OVRPlugin_OVRP_1_68_0 const&) = delete;
 
   /// @brief Field OVRP_RENDER_MODEL_MAX_NAME_LENGTH offset 0xffffffff size 0x4
   static constexpr int32_t OVRP_RENDER_MODEL_MAX_NAME_LENGTH{ static_cast<int32_t>(0x40) };
@@ -25179,7 +25179,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_69_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_69_0(OVRPlugin_OVRP_1_69_0const&) = delete;
+  OVRPlugin_OVRP_1_69_0(OVRPlugin_OVRP_1_69_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7585 };
@@ -25219,7 +25219,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_70_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_70_0(OVRPlugin_OVRP_1_70_0const&) = delete;
+  OVRPlugin_OVRP_1_70_0(OVRPlugin_OVRP_1_70_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7586 };
@@ -25304,7 +25304,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_71_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_71_0(OVRPlugin_OVRP_1_71_0const&) = delete;
+  OVRPlugin_OVRP_1_71_0(OVRPlugin_OVRP_1_71_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7587 };
@@ -25395,7 +25395,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_72_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_72_0(OVRPlugin_OVRP_1_72_0const&) = delete;
+  OVRPlugin_OVRP_1_72_0(OVRPlugin_OVRP_1_72_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7588 };
@@ -25432,7 +25432,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_73_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_73_0(OVRPlugin_OVRP_1_73_0const&) = delete;
+  OVRPlugin_OVRP_1_73_0(OVRPlugin_OVRP_1_73_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7589 };
@@ -25498,7 +25498,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_74_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_74_0(OVRPlugin_OVRP_1_74_0const&) = delete;
+  OVRPlugin_OVRP_1_74_0(OVRPlugin_OVRP_1_74_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7590 };
@@ -25535,7 +25535,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_75_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_75_0(OVRPlugin_OVRP_1_75_0const&) = delete;
+  OVRPlugin_OVRP_1_75_0(OVRPlugin_OVRP_1_75_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7591 };
@@ -25576,7 +25576,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_76_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_76_0(OVRPlugin_OVRP_1_76_0const&) = delete;
+  OVRPlugin_OVRP_1_76_0(OVRPlugin_OVRP_1_76_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7592 };
@@ -25702,7 +25702,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_78_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_78_0(OVRPlugin_OVRP_1_78_0const&) = delete;
+  OVRPlugin_OVRP_1_78_0(OVRPlugin_OVRP_1_78_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7593 };
@@ -25761,7 +25761,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_79_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_79_0(OVRPlugin_OVRP_1_79_0const&) = delete;
+  OVRPlugin_OVRP_1_79_0(OVRPlugin_OVRP_1_79_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7594 };
@@ -25798,7 +25798,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_81_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_81_0(OVRPlugin_OVRP_1_81_0const&) = delete;
+  OVRPlugin_OVRP_1_81_0(OVRPlugin_OVRP_1_81_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7595 };
@@ -25838,7 +25838,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_82_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_82_0(OVRPlugin_OVRP_1_82_0const&) = delete;
+  OVRPlugin_OVRP_1_82_0(OVRPlugin_OVRP_1_82_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7596 };
@@ -25890,7 +25890,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_83_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_83_0(OVRPlugin_OVRP_1_83_0const&) = delete;
+  OVRPlugin_OVRP_1_83_0(OVRPlugin_OVRP_1_83_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7597 };
@@ -25967,7 +25967,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_84_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_84_0(OVRPlugin_OVRP_1_84_0const&) = delete;
+  OVRPlugin_OVRP_1_84_0(OVRPlugin_OVRP_1_84_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7598 };
@@ -26010,7 +26010,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_85_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_85_0(OVRPlugin_OVRP_1_85_0const&) = delete;
+  OVRPlugin_OVRP_1_85_0(OVRPlugin_OVRP_1_85_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7599 };
@@ -26071,7 +26071,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_86_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_86_0(OVRPlugin_OVRP_1_86_0const&) = delete;
+  OVRPlugin_OVRP_1_86_0(OVRPlugin_OVRP_1_86_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7600 };
@@ -26120,7 +26120,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_87_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_87_0(OVRPlugin_OVRP_1_87_0const&) = delete;
+  OVRPlugin_OVRP_1_87_0(OVRPlugin_OVRP_1_87_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7601 };
@@ -26160,7 +26160,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_88_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_88_0(OVRPlugin_OVRP_1_88_0const&) = delete;
+  OVRPlugin_OVRP_1_88_0(OVRPlugin_OVRP_1_88_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7602 };
@@ -26197,7 +26197,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_89_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_89_0(OVRPlugin_OVRP_1_89_0const&) = delete;
+  OVRPlugin_OVRP_1_89_0(OVRPlugin_OVRP_1_89_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7603 };
@@ -26234,7 +26234,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_90_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_90_0(OVRPlugin_OVRP_1_90_0const&) = delete;
+  OVRPlugin_OVRP_1_90_0(OVRPlugin_OVRP_1_90_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7604 };
@@ -26271,7 +26271,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_91_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_91_0(OVRPlugin_OVRP_1_91_0const&) = delete;
+  OVRPlugin_OVRP_1_91_0(OVRPlugin_OVRP_1_91_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7605 };
@@ -26346,7 +26346,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_92_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_92_0(OVRPlugin_OVRP_1_92_0const&) = delete;
+  OVRPlugin_OVRP_1_92_0(OVRPlugin_OVRP_1_92_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7606 };
@@ -26389,7 +26389,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_93_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_93_0(OVRPlugin_OVRP_1_93_0const&) = delete;
+  OVRPlugin_OVRP_1_93_0(OVRPlugin_OVRP_1_93_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7607 };
@@ -26426,7 +26426,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_94_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_94_0(OVRPlugin_OVRP_1_94_0const&) = delete;
+  OVRPlugin_OVRP_1_94_0(OVRPlugin_OVRP_1_94_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7608 };
@@ -26475,7 +26475,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_95_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_95_0(OVRPlugin_OVRP_1_95_0const&) = delete;
+  OVRPlugin_OVRP_1_95_0(OVRPlugin_OVRP_1_95_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7609 };
@@ -26520,7 +26520,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_96_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_96_0(OVRPlugin_OVRP_1_96_0const&) = delete;
+  OVRPlugin_OVRP_1_96_0(OVRPlugin_OVRP_1_96_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7610 };
@@ -26569,7 +26569,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_97_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_97_0(OVRPlugin_OVRP_1_97_0const&) = delete;
+  OVRPlugin_OVRP_1_97_0(OVRPlugin_OVRP_1_97_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7611 };
@@ -26612,7 +26612,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_98_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_98_0(OVRPlugin_OVRP_1_98_0const&) = delete;
+  OVRPlugin_OVRP_1_98_0(OVRPlugin_OVRP_1_98_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7612 };
@@ -26655,7 +26655,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_99_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_99_0(OVRPlugin_OVRP_1_99_0const&) = delete;
+  OVRPlugin_OVRP_1_99_0(OVRPlugin_OVRP_1_99_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7613 };
@@ -26701,7 +26701,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_100_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_100_0(OVRPlugin_OVRP_1_100_0const&) = delete;
+  OVRPlugin_OVRP_1_100_0(OVRPlugin_OVRP_1_100_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7614 };
@@ -26738,7 +26738,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_101_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_101_0(OVRPlugin_OVRP_1_101_0const&) = delete;
+  OVRPlugin_OVRP_1_101_0(OVRPlugin_OVRP_1_101_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7615 };
@@ -26775,7 +26775,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_102_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_102_0(OVRPlugin_OVRP_1_102_0const&) = delete;
+  OVRPlugin_OVRP_1_102_0(OVRPlugin_OVRP_1_102_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7616 };
@@ -26844,7 +26844,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_103_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_103_0(OVRPlugin_OVRP_1_103_0const&) = delete;
+  OVRPlugin_OVRP_1_103_0(OVRPlugin_OVRP_1_103_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7617 };
@@ -26913,7 +26913,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_104_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_104_0(OVRPlugin_OVRP_1_104_0const&) = delete;
+  OVRPlugin_OVRP_1_104_0(OVRPlugin_OVRP_1_104_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7618 };
@@ -26954,7 +26954,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_105_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_105_0(OVRPlugin_OVRP_1_105_0const&) = delete;
+  OVRPlugin_OVRP_1_105_0(OVRPlugin_OVRP_1_105_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7619 };
@@ -27034,7 +27034,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_106_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_106_0(OVRPlugin_OVRP_1_106_0const&) = delete;
+  OVRPlugin_OVRP_1_106_0(OVRPlugin_OVRP_1_106_0 const&) = delete;
 
   /// @brief Field OVRP_CONSENT_NOTIFICATION_MAX_LENGTH offset 0xffffffff size 0x4
   static constexpr int32_t OVRP_CONSENT_NOTIFICATION_MAX_LENGTH{ static_cast<int32_t>(0x400) };
@@ -27083,7 +27083,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_107_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_107_0(OVRPlugin_OVRP_1_107_0const&) = delete;
+  OVRPlugin_OVRP_1_107_0(OVRPlugin_OVRP_1_107_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7621 };
@@ -27120,7 +27120,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_108_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_108_0(OVRPlugin_OVRP_1_108_0const&) = delete;
+  OVRPlugin_OVRP_1_108_0(OVRPlugin_OVRP_1_108_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7622 };
@@ -27157,7 +27157,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_109_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_109_0(OVRPlugin_OVRP_1_109_0const&) = delete;
+  OVRPlugin_OVRP_1_109_0(OVRPlugin_OVRP_1_109_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7623 };
@@ -27194,7 +27194,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_110_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_110_0(OVRPlugin_OVRP_1_110_0const&) = delete;
+  OVRPlugin_OVRP_1_110_0(OVRPlugin_OVRP_1_110_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7624 };
@@ -27231,7 +27231,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_111_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_111_0(OVRPlugin_OVRP_1_111_0const&) = delete;
+  OVRPlugin_OVRP_1_111_0(OVRPlugin_OVRP_1_111_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7625 };
@@ -27268,7 +27268,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_112_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_112_0(OVRPlugin_OVRP_1_112_0const&) = delete;
+  OVRPlugin_OVRP_1_112_0(OVRPlugin_OVRP_1_112_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7626 };
@@ -27305,7 +27305,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_113_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_113_0(OVRPlugin_OVRP_1_113_0const&) = delete;
+  OVRPlugin_OVRP_1_113_0(OVRPlugin_OVRP_1_113_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7627 };
@@ -27342,7 +27342,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_114_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_114_0(OVRPlugin_OVRP_1_114_0const&) = delete;
+  OVRPlugin_OVRP_1_114_0(OVRPlugin_OVRP_1_114_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7628 };
@@ -27379,7 +27379,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_115_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_115_0(OVRPlugin_OVRP_1_115_0const&) = delete;
+  OVRPlugin_OVRP_1_115_0(OVRPlugin_OVRP_1_115_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7629 };
@@ -27416,7 +27416,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_116_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_116_0(OVRPlugin_OVRP_1_116_0const&) = delete;
+  OVRPlugin_OVRP_1_116_0(OVRPlugin_OVRP_1_116_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7630 };
@@ -27453,7 +27453,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_117_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_117_0(OVRPlugin_OVRP_1_117_0const&) = delete;
+  OVRPlugin_OVRP_1_117_0(OVRPlugin_OVRP_1_117_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7631 };
@@ -27490,7 +27490,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_118_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_118_0(OVRPlugin_OVRP_1_118_0const&) = delete;
+  OVRPlugin_OVRP_1_118_0(OVRPlugin_OVRP_1_118_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7632 };
@@ -27527,7 +27527,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_119_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_119_0(OVRPlugin_OVRP_1_119_0const&) = delete;
+  OVRPlugin_OVRP_1_119_0(OVRPlugin_OVRP_1_119_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7633 };
@@ -27564,7 +27564,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_120_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_120_0(OVRPlugin_OVRP_1_120_0const&) = delete;
+  OVRPlugin_OVRP_1_120_0(OVRPlugin_OVRP_1_120_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7634 };
@@ -27601,7 +27601,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_121_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_121_0(OVRPlugin_OVRP_1_121_0const&) = delete;
+  OVRPlugin_OVRP_1_121_0(OVRPlugin_OVRP_1_121_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7635 };
@@ -27638,7 +27638,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_122_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_122_0(OVRPlugin_OVRP_1_122_0const&) = delete;
+  OVRPlugin_OVRP_1_122_0(OVRPlugin_OVRP_1_122_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7636 };
@@ -27675,7 +27675,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_123_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_123_0(OVRPlugin_OVRP_1_123_0const&) = delete;
+  OVRPlugin_OVRP_1_123_0(OVRPlugin_OVRP_1_123_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7637 };
@@ -27712,7 +27712,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_124_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_124_0(OVRPlugin_OVRP_1_124_0const&) = delete;
+  OVRPlugin_OVRP_1_124_0(OVRPlugin_OVRP_1_124_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7638 };
@@ -27749,7 +27749,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_125_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_125_0(OVRPlugin_OVRP_1_125_0const&) = delete;
+  OVRPlugin_OVRP_1_125_0(OVRPlugin_OVRP_1_125_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7639 };
@@ -27786,7 +27786,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_126_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_126_0(OVRPlugin_OVRP_1_126_0const&) = delete;
+  OVRPlugin_OVRP_1_126_0(OVRPlugin_OVRP_1_126_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7640 };
@@ -27823,7 +27823,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_127_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_127_0(OVRPlugin_OVRP_1_127_0const&) = delete;
+  OVRPlugin_OVRP_1_127_0(OVRPlugin_OVRP_1_127_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7641 };
@@ -27860,7 +27860,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_128_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_128_0(OVRPlugin_OVRP_1_128_0const&) = delete;
+  OVRPlugin_OVRP_1_128_0(OVRPlugin_OVRP_1_128_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7642 };
@@ -27897,7 +27897,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin_OVRP_1_129_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin_OVRP_1_129_0(OVRPlugin_OVRP_1_129_0const&) = delete;
+  OVRPlugin_OVRP_1_129_0(OVRPlugin_OVRP_1_129_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7643 };
@@ -28402,7 +28402,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin___c(OVRPlugin___cconst&) = delete;
+  OVRPlugin___c(OVRPlugin___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7644 };
@@ -28471,7 +28471,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin___c__DisplayClass537_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin___c__DisplayClass537_0(OVRPlugin___c__DisplayClass537_0const&) = delete;
+  OVRPlugin___c__DisplayClass537_0(OVRPlugin___c__DisplayClass537_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7645 };
@@ -30544,7 +30544,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlugin", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlugin(OVRPluginconst&) = delete;
+  OVRPlugin(OVRPlugin const&) = delete;
 
   /// @brief Field AppPerfFrameStatsMaxCount offset 0xffffffff size 0x4
   static constexpr int32_t AppPerfFrameStatsMaxCount{ static_cast<int32_t>(0x5) };

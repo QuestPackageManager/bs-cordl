@@ -9724,7 +9724,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Arm_Neon", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Arm_Neon(Arm_Neonconst&) = delete;
+  Arm_Neon(Arm_Neon const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17336 };
@@ -9756,7 +9756,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Arm", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Arm(Armconst&) = delete;
+  Arm(Arm const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17337 };

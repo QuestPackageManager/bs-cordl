@@ -254,7 +254,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioManager__FadeMainVolume_d__46", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioManager__FadeMainVolume_d__46(AudioManager__FadeMainVolume_d__46const&) = delete;
+  AudioManager__FadeMainVolume_d__46(AudioManager__FadeMainVolume_d__46 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22626 };
@@ -534,7 +534,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioManager(AudioManagerconst&) = delete;
+  AudioManager(AudioManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22627 };

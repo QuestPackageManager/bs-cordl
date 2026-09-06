@@ -201,7 +201,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnumDataContract_EnumDataContractCriticalHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumDataContract_EnumDataContractCriticalHelper(EnumDataContract_EnumDataContractCriticalHelperconst&) = delete;
+  EnumDataContract_EnumDataContractCriticalHelper(EnumDataContract_EnumDataContractCriticalHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17030 };
@@ -333,7 +333,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnumDataContract", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumDataContract(EnumDataContractconst&) = delete;
+  EnumDataContract(EnumDataContract const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17031 };

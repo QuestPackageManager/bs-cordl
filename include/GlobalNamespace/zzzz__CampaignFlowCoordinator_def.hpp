@@ -130,7 +130,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CampaignFlowCoordinator___c__DisplayClass23_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CampaignFlowCoordinator___c__DisplayClass23_0(CampaignFlowCoordinator___c__DisplayClass23_0const&) = delete;
+  CampaignFlowCoordinator___c__DisplayClass23_0(CampaignFlowCoordinator___c__DisplayClass23_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6830 };
@@ -197,7 +197,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CampaignFlowCoordinator___c__DisplayClass25_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CampaignFlowCoordinator___c__DisplayClass25_0(CampaignFlowCoordinator___c__DisplayClass25_0const&) = delete;
+  CampaignFlowCoordinator___c__DisplayClass25_0(CampaignFlowCoordinator___c__DisplayClass25_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6831 };
@@ -452,7 +452,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CampaignFlowCoordinator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CampaignFlowCoordinator(CampaignFlowCoordinatorconst&) = delete;
+  CampaignFlowCoordinator(CampaignFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6832 };

@@ -77,7 +77,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CuttableBySaber_WasCutBySaberDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CuttableBySaber_WasCutBySaberDelegate(CuttableBySaber_WasCutBySaberDelegateconst&) = delete;
+  CuttableBySaber_WasCutBySaberDelegate(CuttableBySaber_WasCutBySaberDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6220 };
@@ -150,7 +150,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CuttableBySaber", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CuttableBySaber(CuttableBySaberconst&) = delete;
+  CuttableBySaber(CuttableBySaber const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6221 };

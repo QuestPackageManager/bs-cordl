@@ -121,7 +121,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyPurposeID", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyPurposeID(KeyPurposeIDconst&) = delete;
+  KeyPurposeID(KeyPurposeID const&) = delete;
 
   /// @brief Field IdKP offset 0xffffffff size 0x8
   static constexpr ::ConstString IdKP{ u"1.3.6.1.5.5.7.3" };

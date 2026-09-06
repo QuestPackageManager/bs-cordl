@@ -353,7 +353,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnumerableDictionaryWrapper_2_DefaultContractResolver__GetEnumerator_d__2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumerableDictionaryWrapper_2_DefaultContractResolver__GetEnumerator_d__2(EnumerableDictionaryWrapper_2_DefaultContractResolver__GetEnumerator_d__2const&) = delete;
+  EnumerableDictionaryWrapper_2_DefaultContractResolver__GetEnumerator_d__2(EnumerableDictionaryWrapper_2_DefaultContractResolver__GetEnumerator_d__2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13472 };
@@ -437,7 +437,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver_EnumerableDictionaryWrapper_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultContractResolver_EnumerableDictionaryWrapper_2(DefaultContractResolver_EnumerableDictionaryWrapper_2const&) = delete;
+  DefaultContractResolver_EnumerableDictionaryWrapper_2(DefaultContractResolver_EnumerableDictionaryWrapper_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13473 };
@@ -549,7 +549,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultContractResolver___c(DefaultContractResolver___cconst&) = delete;
+  DefaultContractResolver___c(DefaultContractResolver___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13474 };
@@ -597,7 +597,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass42_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultContractResolver___c__DisplayClass42_0(DefaultContractResolver___c__DisplayClass42_0const&) = delete;
+  DefaultContractResolver___c__DisplayClass42_0(DefaultContractResolver___c__DisplayClass42_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13475 };
@@ -658,7 +658,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass45_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultContractResolver___c__DisplayClass45_0(DefaultContractResolver___c__DisplayClass45_0const&) = delete;
+  DefaultContractResolver___c__DisplayClass45_0(DefaultContractResolver___c__DisplayClass45_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13476 };
@@ -749,7 +749,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass45_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultContractResolver___c__DisplayClass45_1(DefaultContractResolver___c__DisplayClass45_1const&) = delete;
+  DefaultContractResolver___c__DisplayClass45_1(DefaultContractResolver___c__DisplayClass45_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13477 };
@@ -832,7 +832,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass45_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultContractResolver___c__DisplayClass45_2(DefaultContractResolver___c__DisplayClass45_2const&) = delete;
+  DefaultContractResolver___c__DisplayClass45_2(DefaultContractResolver___c__DisplayClass45_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13478 };
@@ -892,7 +892,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass62_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultContractResolver___c__DisplayClass62_0(DefaultContractResolver___c__DisplayClass62_0const&) = delete;
+  DefaultContractResolver___c__DisplayClass62_0(DefaultContractResolver___c__DisplayClass62_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13479 };
@@ -946,7 +946,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass67_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultContractResolver___c__DisplayClass67_0(DefaultContractResolver___c__DisplayClass67_0const&) = delete;
+  DefaultContractResolver___c__DisplayClass67_0(DefaultContractResolver___c__DisplayClass67_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13480 };
@@ -1001,7 +1001,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass80_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultContractResolver___c__DisplayClass80_0(DefaultContractResolver___c__DisplayClass80_0const&) = delete;
+  DefaultContractResolver___c__DisplayClass80_0(DefaultContractResolver___c__DisplayClass80_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13481 };
@@ -1055,7 +1055,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver___c__DisplayClass81_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultContractResolver___c__DisplayClass81_0(DefaultContractResolver___c__DisplayClass81_0const&) = delete;
+  DefaultContractResolver___c__DisplayClass81_0(DefaultContractResolver___c__DisplayClass81_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13482 };
@@ -1467,7 +1467,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolver", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultContractResolver(DefaultContractResolverconst&) = delete;
+  DefaultContractResolver(DefaultContractResolver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13483 };

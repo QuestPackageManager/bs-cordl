@@ -96,7 +96,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XDRSchema_NameType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XDRSchema_NameType(XDRSchema_NameTypeconst&) = delete;
+  XDRSchema_NameType(XDRSchema_NameType const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13863 };
@@ -242,7 +242,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XDRSchema", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XDRSchema(XDRSchemaconst&) = delete;
+  XDRSchema(XDRSchema const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13864 };

@@ -212,7 +212,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionSO_LeaderboardIds", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackDefinitionSO_LeaderboardIds(PackDefinitionSO_LeaderboardIdsconst&) = delete;
+  PackDefinitionSO_LeaderboardIds(PackDefinitionSO_LeaderboardIds const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15019 };
@@ -304,7 +304,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionSO_LevelProductPacks", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackDefinitionSO_LevelProductPacks(PackDefinitionSO_LevelProductPacksconst&) = delete;
+  PackDefinitionSO_LevelProductPacks(PackDefinitionSO_LevelProductPacks const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15020 };
@@ -371,7 +371,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionSO_Credits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackDefinitionSO_Credits(PackDefinitionSO_Creditsconst&) = delete;
+  PackDefinitionSO_Credits(PackDefinitionSO_Credits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15021 };
@@ -619,7 +619,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackDefinitionSO(PackDefinitionSOconst&) = delete;
+  PackDefinitionSO(PackDefinitionSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15022 };

@@ -370,7 +370,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression_BinaryExpressionProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_BinaryExpressionProxy(Expression_BinaryExpressionProxyconst&) = delete;
+  Expression_BinaryExpressionProxy(Expression_BinaryExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16112 };
@@ -400,7 +400,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression_BlockExpressionProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_BlockExpressionProxy(Expression_BlockExpressionProxyconst&) = delete;
+  Expression_BlockExpressionProxy(Expression_BlockExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16113 };
@@ -430,7 +430,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression_CatchBlockProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_CatchBlockProxy(Expression_CatchBlockProxyconst&) = delete;
+  Expression_CatchBlockProxy(Expression_CatchBlockProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16114 };
@@ -460,7 +460,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression_ConditionalExpressionProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_ConditionalExpressionProxy(Expression_ConditionalExpressionProxyconst&) = delete;
+  Expression_ConditionalExpressionProxy(Expression_ConditionalExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16115 };
@@ -490,7 +490,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression_ConstantExpressionProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_ConstantExpressionProxy(Expression_ConstantExpressionProxyconst&) = delete;
+  Expression_ConstantExpressionProxy(Expression_ConstantExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16116 };
@@ -520,7 +520,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression_DebugInfoExpressionProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_DebugInfoExpressionProxy(Expression_DebugInfoExpressionProxyconst&) = delete;
+  Expression_DebugInfoExpressionProxy(Expression_DebugInfoExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16117 };
@@ -550,7 +550,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression_DefaultExpressionProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_DefaultExpressionProxy(Expression_DefaultExpressionProxyconst&) = delete;
+  Expression_DefaultExpressionProxy(Expression_DefaultExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16118 };
@@ -580,7 +580,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression_GotoExpressionProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_GotoExpressionProxy(Expression_GotoExpressionProxyconst&) = delete;
+  Expression_GotoExpressionProxy(Expression_GotoExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16119 };
@@ -610,7 +610,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression_IndexExpressionProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_IndexExpressionProxy(Expression_IndexExpressionProxyconst&) = delete;
+  Expression_IndexExpressionProxy(Expression_IndexExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16120 };
@@ -640,7 +640,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression_InvocationExpressionProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_InvocationExpressionProxy(Expression_InvocationExpressionProxyconst&) = delete;
+  Expression_InvocationExpressionProxy(Expression_InvocationExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16121 };
@@ -670,7 +670,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression_LabelExpressionProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_LabelExpressionProxy(Expression_LabelExpressionProxyconst&) = delete;
+  Expression_LabelExpressionProxy(Expression_LabelExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16122 };
@@ -700,7 +700,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression_LambdaExpressionProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_LambdaExpressionProxy(Expression_LambdaExpressionProxyconst&) = delete;
+  Expression_LambdaExpressionProxy(Expression_LambdaExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16123 };
@@ -730,7 +730,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression_ListInitExpressionProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_ListInitExpressionProxy(Expression_ListInitExpressionProxyconst&) = delete;
+  Expression_ListInitExpressionProxy(Expression_ListInitExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16124 };
@@ -760,7 +760,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression_LoopExpressionProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_LoopExpressionProxy(Expression_LoopExpressionProxyconst&) = delete;
+  Expression_LoopExpressionProxy(Expression_LoopExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16125 };
@@ -790,7 +790,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression_MemberExpressionProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_MemberExpressionProxy(Expression_MemberExpressionProxyconst&) = delete;
+  Expression_MemberExpressionProxy(Expression_MemberExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16126 };
@@ -820,7 +820,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression_MemberInitExpressionProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_MemberInitExpressionProxy(Expression_MemberInitExpressionProxyconst&) = delete;
+  Expression_MemberInitExpressionProxy(Expression_MemberInitExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16127 };
@@ -850,7 +850,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression_MethodCallExpressionProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_MethodCallExpressionProxy(Expression_MethodCallExpressionProxyconst&) = delete;
+  Expression_MethodCallExpressionProxy(Expression_MethodCallExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16128 };
@@ -880,7 +880,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression_NewArrayExpressionProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_NewArrayExpressionProxy(Expression_NewArrayExpressionProxyconst&) = delete;
+  Expression_NewArrayExpressionProxy(Expression_NewArrayExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16129 };
@@ -910,7 +910,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression_NewExpressionProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_NewExpressionProxy(Expression_NewExpressionProxyconst&) = delete;
+  Expression_NewExpressionProxy(Expression_NewExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16130 };
@@ -940,7 +940,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression_ParameterExpressionProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_ParameterExpressionProxy(Expression_ParameterExpressionProxyconst&) = delete;
+  Expression_ParameterExpressionProxy(Expression_ParameterExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16131 };
@@ -970,7 +970,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression_RuntimeVariablesExpressionProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_RuntimeVariablesExpressionProxy(Expression_RuntimeVariablesExpressionProxyconst&) = delete;
+  Expression_RuntimeVariablesExpressionProxy(Expression_RuntimeVariablesExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16132 };
@@ -1000,7 +1000,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression_SwitchCaseProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_SwitchCaseProxy(Expression_SwitchCaseProxyconst&) = delete;
+  Expression_SwitchCaseProxy(Expression_SwitchCaseProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16133 };
@@ -1030,7 +1030,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression_SwitchExpressionProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_SwitchExpressionProxy(Expression_SwitchExpressionProxyconst&) = delete;
+  Expression_SwitchExpressionProxy(Expression_SwitchExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16134 };
@@ -1060,7 +1060,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression_TryExpressionProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_TryExpressionProxy(Expression_TryExpressionProxyconst&) = delete;
+  Expression_TryExpressionProxy(Expression_TryExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16135 };
@@ -1090,7 +1090,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression_TypeBinaryExpressionProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_TypeBinaryExpressionProxy(Expression_TypeBinaryExpressionProxyconst&) = delete;
+  Expression_TypeBinaryExpressionProxy(Expression_TypeBinaryExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16136 };
@@ -1120,7 +1120,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression_UnaryExpressionProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_UnaryExpressionProxy(Expression_UnaryExpressionProxyconst&) = delete;
+  Expression_UnaryExpressionProxy(Expression_UnaryExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16137 };
@@ -1168,7 +1168,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression_ExtensionInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression_ExtensionInfo(Expression_ExtensionInfoconst&) = delete;
+  Expression_ExtensionInfo(Expression_ExtensionInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16138 };
@@ -2075,7 +2075,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression(Expressionconst&) = delete;
+  Expression(Expression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16139 };

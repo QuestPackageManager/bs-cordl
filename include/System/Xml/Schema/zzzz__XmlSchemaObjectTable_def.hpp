@@ -263,7 +263,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaObjectTable_ValuesCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaObjectTable_ValuesCollection(XmlSchemaObjectTable_ValuesCollectionconst&) = delete;
+  XmlSchemaObjectTable_ValuesCollection(XmlSchemaObjectTable_ValuesCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9801 };
@@ -382,7 +382,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaObjectTable_XSOEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaObjectTable_XSOEnumerator(XmlSchemaObjectTable_XSOEnumeratorconst&) = delete;
+  XmlSchemaObjectTable_XSOEnumerator(XmlSchemaObjectTable_XSOEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9802 };
@@ -477,7 +477,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaObjectTable_XSODictionaryEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaObjectTable_XSODictionaryEnumerator(XmlSchemaObjectTable_XSODictionaryEnumeratorconst&) = delete;
+  XmlSchemaObjectTable_XSODictionaryEnumerator(XmlSchemaObjectTable_XSODictionaryEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9803 };
@@ -582,7 +582,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaObjectTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaObjectTable(XmlSchemaObjectTableconst&) = delete;
+  XmlSchemaObjectTable(XmlSchemaObjectTable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9804 };

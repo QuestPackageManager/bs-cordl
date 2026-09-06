@@ -163,7 +163,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19(OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19const&) = delete;
+  OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19(OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7791 };
@@ -376,7 +376,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboardSampleControls", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTrackedKeyboardSampleControls(OVRTrackedKeyboardSampleControlsconst&) = delete;
+  OVRTrackedKeyboardSampleControls(OVRTrackedKeyboardSampleControls const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7792 };

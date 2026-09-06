@@ -156,7 +156,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ViewControllerTransitionHelpers___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ViewControllerTransitionHelpers___c__DisplayClass5_0(ViewControllerTransitionHelpers___c__DisplayClass5_0const&) = delete;
+  ViewControllerTransitionHelpers___c__DisplayClass5_0(ViewControllerTransitionHelpers___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20974 };
@@ -251,7 +251,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ViewControllerTransitionHelpers___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ViewControllerTransitionHelpers___c__DisplayClass6_0(ViewControllerTransitionHelpers___c__DisplayClass6_0const&) = delete;
+  ViewControllerTransitionHelpers___c__DisplayClass6_0(ViewControllerTransitionHelpers___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20975 };
@@ -386,7 +386,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ViewControllerTransitionHelpers__AnimationCoroutine_d__8", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ViewControllerTransitionHelpers__AnimationCoroutine_d__8(ViewControllerTransitionHelpers__AnimationCoroutine_d__8const&) = delete;
+  ViewControllerTransitionHelpers__AnimationCoroutine_d__8(ViewControllerTransitionHelpers__AnimationCoroutine_d__8 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20976 };
@@ -539,7 +539,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ViewControllerTransitionHelpers__DoDismissTransition_d__4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ViewControllerTransitionHelpers__DoDismissTransition_d__4(ViewControllerTransitionHelpers__DoDismissTransition_d__4const&) = delete;
+  ViewControllerTransitionHelpers__DoDismissTransition_d__4(ViewControllerTransitionHelpers__DoDismissTransition_d__4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20977 };
@@ -702,7 +702,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ViewControllerTransitionHelpers__DoHorizontalTransition_d__5", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ViewControllerTransitionHelpers__DoHorizontalTransition_d__5(ViewControllerTransitionHelpers__DoHorizontalTransition_d__5const&) = delete;
+  ViewControllerTransitionHelpers__DoHorizontalTransition_d__5(ViewControllerTransitionHelpers__DoHorizontalTransition_d__5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20978 };
@@ -865,7 +865,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ViewControllerTransitionHelpers__DoPresentTransition_d__3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ViewControllerTransitionHelpers__DoPresentTransition_d__3(ViewControllerTransitionHelpers__DoPresentTransition_d__3const&) = delete;
+  ViewControllerTransitionHelpers__DoPresentTransition_d__3(ViewControllerTransitionHelpers__DoPresentTransition_d__3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20979 };
@@ -1028,7 +1028,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ViewControllerTransitionHelpers__DoVerticalTransition_d__6", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ViewControllerTransitionHelpers__DoVerticalTransition_d__6(ViewControllerTransitionHelpers__DoVerticalTransition_d__6const&) = delete;
+  ViewControllerTransitionHelpers__DoVerticalTransition_d__6(ViewControllerTransitionHelpers__DoVerticalTransition_d__6 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20980 };
@@ -1134,7 +1134,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ViewControllerTransitionHelpers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ViewControllerTransitionHelpers(ViewControllerTransitionHelpersconst&) = delete;
+  ViewControllerTransitionHelpers(ViewControllerTransitionHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20981 };

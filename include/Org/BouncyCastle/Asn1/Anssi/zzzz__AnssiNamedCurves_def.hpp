@@ -80,7 +80,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AnssiNamedCurves_Frp256v1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnssiNamedCurves_Frp256v1Holder(AnssiNamedCurves_Frp256v1Holderconst&) = delete;
+  AnssiNamedCurves_Frp256v1Holder(AnssiNamedCurves_Frp256v1Holder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1 };
@@ -165,7 +165,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AnssiNamedCurves", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnssiNamedCurves(AnssiNamedCurvesconst&) = delete;
+  AnssiNamedCurves(AnssiNamedCurves const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2 };

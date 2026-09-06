@@ -1148,7 +1148,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleProperty_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_InlineStyleProperty_2(InlineStyleAccessPropertyBag_InlineStyleProperty_2const&) = delete;
+  InlineStyleAccessPropertyBag_InlineStyleProperty_2(InlineStyleAccessPropertyBag_InlineStyleProperty_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4806 };
@@ -1185,7 +1185,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1(InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1const&) = delete;
+  InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1(InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4807 };
@@ -1239,7 +1239,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_AlignContentProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_AlignContentProperty(InlineStyleAccessPropertyBag_AlignContentPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_AlignContentProperty(InlineStyleAccessPropertyBag_AlignContentProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4722 };
@@ -1295,7 +1295,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_AlignItemsProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_AlignItemsProperty(InlineStyleAccessPropertyBag_AlignItemsPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_AlignItemsProperty(InlineStyleAccessPropertyBag_AlignItemsProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4723 };
@@ -1351,7 +1351,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_AlignSelfProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_AlignSelfProperty(InlineStyleAccessPropertyBag_AlignSelfPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_AlignSelfProperty(InlineStyleAccessPropertyBag_AlignSelfProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4724 };
@@ -1389,7 +1389,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleColorProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_InlineStyleColorProperty(InlineStyleAccessPropertyBag_InlineStyleColorPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_InlineStyleColorProperty(InlineStyleAccessPropertyBag_InlineStyleColorProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4809 };
@@ -1445,7 +1445,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundColorProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_BackgroundColorProperty(InlineStyleAccessPropertyBag_BackgroundColorPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_BackgroundColorProperty(InlineStyleAccessPropertyBag_BackgroundColorProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4725 };
@@ -1483,7 +1483,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty(InlineStyleAccessPropertyBag_InlineStyleBackgroundPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty(InlineStyleAccessPropertyBag_InlineStyleBackgroundProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4811 };
@@ -1539,7 +1539,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundImageProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_BackgroundImageProperty(InlineStyleAccessPropertyBag_BackgroundImagePropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_BackgroundImageProperty(InlineStyleAccessPropertyBag_BackgroundImageProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4726 };
@@ -1576,7 +1576,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty(InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty(InlineStyleAccessPropertyBag_InlineStyleBackgroundPositionProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4827 };
@@ -1632,7 +1632,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundPositionXProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_BackgroundPositionXProperty(InlineStyleAccessPropertyBag_BackgroundPositionXPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_BackgroundPositionXProperty(InlineStyleAccessPropertyBag_BackgroundPositionXProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4727 };
@@ -1688,7 +1688,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundPositionYProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_BackgroundPositionYProperty(InlineStyleAccessPropertyBag_BackgroundPositionYPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_BackgroundPositionYProperty(InlineStyleAccessPropertyBag_BackgroundPositionYProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4728 };
@@ -1724,7 +1724,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty(InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty(InlineStyleAccessPropertyBag_InlineStyleBackgroundRepeatProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4828 };
@@ -1780,7 +1780,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundRepeatProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_BackgroundRepeatProperty(InlineStyleAccessPropertyBag_BackgroundRepeatPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_BackgroundRepeatProperty(InlineStyleAccessPropertyBag_BackgroundRepeatProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4729 };
@@ -1816,7 +1816,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty(InlineStyleAccessPropertyBag_InlineStyleBackgroundSizePropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty(InlineStyleAccessPropertyBag_InlineStyleBackgroundSizeProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4829 };
@@ -1872,7 +1872,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BackgroundSizeProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_BackgroundSizeProperty(InlineStyleAccessPropertyBag_BackgroundSizePropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_BackgroundSizeProperty(InlineStyleAccessPropertyBag_BackgroundSizeProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4730 };
@@ -1928,7 +1928,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderBottomColorProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_BorderBottomColorProperty(InlineStyleAccessPropertyBag_BorderBottomColorPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_BorderBottomColorProperty(InlineStyleAccessPropertyBag_BorderBottomColorProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4731 };
@@ -1966,7 +1966,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleLengthProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_InlineStyleLengthProperty(InlineStyleAccessPropertyBag_InlineStyleLengthPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_InlineStyleLengthProperty(InlineStyleAccessPropertyBag_InlineStyleLengthProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4813 };
@@ -2022,7 +2022,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty(InlineStyleAccessPropertyBag_BorderBottomLeftRadiusPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty(InlineStyleAccessPropertyBag_BorderBottomLeftRadiusProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4732 };
@@ -2078,7 +2078,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty(InlineStyleAccessPropertyBag_BorderBottomRightRadiusPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty(InlineStyleAccessPropertyBag_BorderBottomRightRadiusProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4733 };
@@ -2116,7 +2116,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleFloatProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_InlineStyleFloatProperty(InlineStyleAccessPropertyBag_InlineStyleFloatPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_InlineStyleFloatProperty(InlineStyleAccessPropertyBag_InlineStyleFloatProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4815 };
@@ -2172,7 +2172,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderBottomWidthProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_BorderBottomWidthProperty(InlineStyleAccessPropertyBag_BorderBottomWidthPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_BorderBottomWidthProperty(InlineStyleAccessPropertyBag_BorderBottomWidthProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4734 };
@@ -2228,7 +2228,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderLeftColorProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_BorderLeftColorProperty(InlineStyleAccessPropertyBag_BorderLeftColorPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_BorderLeftColorProperty(InlineStyleAccessPropertyBag_BorderLeftColorProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4735 };
@@ -2284,7 +2284,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderLeftWidthProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_BorderLeftWidthProperty(InlineStyleAccessPropertyBag_BorderLeftWidthPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_BorderLeftWidthProperty(InlineStyleAccessPropertyBag_BorderLeftWidthProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4736 };
@@ -2340,7 +2340,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderRightColorProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_BorderRightColorProperty(InlineStyleAccessPropertyBag_BorderRightColorPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_BorderRightColorProperty(InlineStyleAccessPropertyBag_BorderRightColorProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4737 };
@@ -2396,7 +2396,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderRightWidthProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_BorderRightWidthProperty(InlineStyleAccessPropertyBag_BorderRightWidthPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_BorderRightWidthProperty(InlineStyleAccessPropertyBag_BorderRightWidthProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4738 };
@@ -2452,7 +2452,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderTopColorProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_BorderTopColorProperty(InlineStyleAccessPropertyBag_BorderTopColorPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_BorderTopColorProperty(InlineStyleAccessPropertyBag_BorderTopColorProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4739 };
@@ -2508,7 +2508,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderTopLeftRadiusProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_BorderTopLeftRadiusProperty(InlineStyleAccessPropertyBag_BorderTopLeftRadiusPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_BorderTopLeftRadiusProperty(InlineStyleAccessPropertyBag_BorderTopLeftRadiusProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4740 };
@@ -2564,7 +2564,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderTopRightRadiusProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_BorderTopRightRadiusProperty(InlineStyleAccessPropertyBag_BorderTopRightRadiusPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_BorderTopRightRadiusProperty(InlineStyleAccessPropertyBag_BorderTopRightRadiusProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4741 };
@@ -2620,7 +2620,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BorderTopWidthProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_BorderTopWidthProperty(InlineStyleAccessPropertyBag_BorderTopWidthPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_BorderTopWidthProperty(InlineStyleAccessPropertyBag_BorderTopWidthProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4742 };
@@ -2676,7 +2676,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_BottomProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_BottomProperty(InlineStyleAccessPropertyBag_BottomPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_BottomProperty(InlineStyleAccessPropertyBag_BottomProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4743 };
@@ -2732,7 +2732,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_ColorProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_ColorProperty(InlineStyleAccessPropertyBag_ColorPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_ColorProperty(InlineStyleAccessPropertyBag_ColorProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4744 };
@@ -2768,7 +2768,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleCursorProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_InlineStyleCursorProperty(InlineStyleAccessPropertyBag_InlineStyleCursorPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_InlineStyleCursorProperty(InlineStyleAccessPropertyBag_InlineStyleCursorProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4823 };
@@ -2824,7 +2824,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_CursorProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_CursorProperty(InlineStyleAccessPropertyBag_CursorPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_CursorProperty(InlineStyleAccessPropertyBag_CursorProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4745 };
@@ -2880,7 +2880,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_DisplayProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_DisplayProperty(InlineStyleAccessPropertyBag_DisplayPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_DisplayProperty(InlineStyleAccessPropertyBag_DisplayProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4746 };
@@ -2936,7 +2936,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FlexBasisProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_FlexBasisProperty(InlineStyleAccessPropertyBag_FlexBasisPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_FlexBasisProperty(InlineStyleAccessPropertyBag_FlexBasisProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4747 };
@@ -2993,7 +2993,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FlexDirectionProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_FlexDirectionProperty(InlineStyleAccessPropertyBag_FlexDirectionPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_FlexDirectionProperty(InlineStyleAccessPropertyBag_FlexDirectionProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4748 };
@@ -3049,7 +3049,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FlexGrowProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_FlexGrowProperty(InlineStyleAccessPropertyBag_FlexGrowPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_FlexGrowProperty(InlineStyleAccessPropertyBag_FlexGrowProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4749 };
@@ -3105,7 +3105,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FlexShrinkProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_FlexShrinkProperty(InlineStyleAccessPropertyBag_FlexShrinkPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_FlexShrinkProperty(InlineStyleAccessPropertyBag_FlexShrinkProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4750 };
@@ -3161,7 +3161,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FlexWrapProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_FlexWrapProperty(InlineStyleAccessPropertyBag_FlexWrapPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_FlexWrapProperty(InlineStyleAccessPropertyBag_FlexWrapProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4751 };
@@ -3217,7 +3217,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_FontSizeProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_FontSizeProperty(InlineStyleAccessPropertyBag_FontSizePropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_FontSizeProperty(InlineStyleAccessPropertyBag_FontSizeProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4752 };
@@ -3273,7 +3273,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_HeightProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_HeightProperty(InlineStyleAccessPropertyBag_HeightPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_HeightProperty(InlineStyleAccessPropertyBag_HeightProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4753 };
@@ -3329,7 +3329,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_JustifyContentProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_JustifyContentProperty(InlineStyleAccessPropertyBag_JustifyContentPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_JustifyContentProperty(InlineStyleAccessPropertyBag_JustifyContentProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4754 };
@@ -3385,7 +3385,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_LeftProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_LeftProperty(InlineStyleAccessPropertyBag_LeftPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_LeftProperty(InlineStyleAccessPropertyBag_LeftProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4755 };
@@ -3441,7 +3441,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_LetterSpacingProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_LetterSpacingProperty(InlineStyleAccessPropertyBag_LetterSpacingPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_LetterSpacingProperty(InlineStyleAccessPropertyBag_LetterSpacingProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4756 };
@@ -3497,7 +3497,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MarginBottomProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_MarginBottomProperty(InlineStyleAccessPropertyBag_MarginBottomPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_MarginBottomProperty(InlineStyleAccessPropertyBag_MarginBottomProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4757 };
@@ -3553,7 +3553,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MarginLeftProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_MarginLeftProperty(InlineStyleAccessPropertyBag_MarginLeftPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_MarginLeftProperty(InlineStyleAccessPropertyBag_MarginLeftProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4758 };
@@ -3609,7 +3609,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MarginRightProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_MarginRightProperty(InlineStyleAccessPropertyBag_MarginRightPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_MarginRightProperty(InlineStyleAccessPropertyBag_MarginRightProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4759 };
@@ -3665,7 +3665,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MarginTopProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_MarginTopProperty(InlineStyleAccessPropertyBag_MarginTopPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_MarginTopProperty(InlineStyleAccessPropertyBag_MarginTopProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4760 };
@@ -3721,7 +3721,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MaxHeightProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_MaxHeightProperty(InlineStyleAccessPropertyBag_MaxHeightPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_MaxHeightProperty(InlineStyleAccessPropertyBag_MaxHeightProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4761 };
@@ -3777,7 +3777,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MaxWidthProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_MaxWidthProperty(InlineStyleAccessPropertyBag_MaxWidthPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_MaxWidthProperty(InlineStyleAccessPropertyBag_MaxWidthProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4762 };
@@ -3833,7 +3833,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MinHeightProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_MinHeightProperty(InlineStyleAccessPropertyBag_MinHeightPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_MinHeightProperty(InlineStyleAccessPropertyBag_MinHeightProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4763 };
@@ -3889,7 +3889,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_MinWidthProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_MinWidthProperty(InlineStyleAccessPropertyBag_MinWidthPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_MinWidthProperty(InlineStyleAccessPropertyBag_MinWidthProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4764 };
@@ -3945,7 +3945,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_OpacityProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_OpacityProperty(InlineStyleAccessPropertyBag_OpacityPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_OpacityProperty(InlineStyleAccessPropertyBag_OpacityProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4765 };
@@ -4001,7 +4001,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_OverflowProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_OverflowProperty(InlineStyleAccessPropertyBag_OverflowPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_OverflowProperty(InlineStyleAccessPropertyBag_OverflowProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4766 };
@@ -4057,7 +4057,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_PaddingBottomProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_PaddingBottomProperty(InlineStyleAccessPropertyBag_PaddingBottomPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_PaddingBottomProperty(InlineStyleAccessPropertyBag_PaddingBottomProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4767 };
@@ -4113,7 +4113,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_PaddingLeftProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_PaddingLeftProperty(InlineStyleAccessPropertyBag_PaddingLeftPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_PaddingLeftProperty(InlineStyleAccessPropertyBag_PaddingLeftProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4768 };
@@ -4169,7 +4169,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_PaddingRightProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_PaddingRightProperty(InlineStyleAccessPropertyBag_PaddingRightPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_PaddingRightProperty(InlineStyleAccessPropertyBag_PaddingRightProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4769 };
@@ -4225,7 +4225,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_PaddingTopProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_PaddingTopProperty(InlineStyleAccessPropertyBag_PaddingTopPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_PaddingTopProperty(InlineStyleAccessPropertyBag_PaddingTopProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4770 };
@@ -4281,7 +4281,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_PositionProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_PositionProperty(InlineStyleAccessPropertyBag_PositionPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_PositionProperty(InlineStyleAccessPropertyBag_PositionProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4771 };
@@ -4337,7 +4337,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_RightProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_RightProperty(InlineStyleAccessPropertyBag_RightPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_RightProperty(InlineStyleAccessPropertyBag_RightProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4772 };
@@ -4373,7 +4373,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleRotateProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_InlineStyleRotateProperty(InlineStyleAccessPropertyBag_InlineStyleRotatePropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_InlineStyleRotateProperty(InlineStyleAccessPropertyBag_InlineStyleRotateProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4821 };
@@ -4429,7 +4429,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_RotateProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_RotateProperty(InlineStyleAccessPropertyBag_RotatePropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_RotateProperty(InlineStyleAccessPropertyBag_RotateProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4773 };
@@ -4465,7 +4465,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleScaleProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_InlineStyleScaleProperty(InlineStyleAccessPropertyBag_InlineStyleScalePropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_InlineStyleScaleProperty(InlineStyleAccessPropertyBag_InlineStyleScaleProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4822 };
@@ -4521,7 +4521,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_ScaleProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_ScaleProperty(InlineStyleAccessPropertyBag_ScalePropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_ScaleProperty(InlineStyleAccessPropertyBag_ScaleProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4774 };
@@ -4577,7 +4577,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TextOverflowProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_TextOverflowProperty(InlineStyleAccessPropertyBag_TextOverflowPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_TextOverflowProperty(InlineStyleAccessPropertyBag_TextOverflowProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4775 };
@@ -4613,7 +4613,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty(InlineStyleAccessPropertyBag_InlineStyleTextShadowPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty(InlineStyleAccessPropertyBag_InlineStyleTextShadowProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4824 };
@@ -4669,7 +4669,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TextShadowProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_TextShadowProperty(InlineStyleAccessPropertyBag_TextShadowPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_TextShadowProperty(InlineStyleAccessPropertyBag_TextShadowProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4776 };
@@ -4725,7 +4725,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TopProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_TopProperty(InlineStyleAccessPropertyBag_TopPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_TopProperty(InlineStyleAccessPropertyBag_TopProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4777 };
@@ -4761,7 +4761,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty(InlineStyleAccessPropertyBag_InlineStyleTransformOriginPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty(InlineStyleAccessPropertyBag_InlineStyleTransformOriginProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4825 };
@@ -4817,7 +4817,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TransformOriginProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_TransformOriginProperty(InlineStyleAccessPropertyBag_TransformOriginPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_TransformOriginProperty(InlineStyleAccessPropertyBag_TransformOriginProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4778 };
@@ -4855,7 +4855,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleListProperty_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_InlineStyleListProperty_1(InlineStyleAccessPropertyBag_InlineStyleListProperty_1const&) = delete;
+  InlineStyleAccessPropertyBag_InlineStyleListProperty_1(InlineStyleAccessPropertyBag_InlineStyleListProperty_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4816 };
@@ -4909,7 +4909,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TransitionDelayProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_TransitionDelayProperty(InlineStyleAccessPropertyBag_TransitionDelayPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_TransitionDelayProperty(InlineStyleAccessPropertyBag_TransitionDelayProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4779 };
@@ -4966,7 +4966,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TransitionDurationProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_TransitionDurationProperty(InlineStyleAccessPropertyBag_TransitionDurationPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_TransitionDurationProperty(InlineStyleAccessPropertyBag_TransitionDurationProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4780 };
@@ -5023,7 +5023,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TransitionPropertyProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_TransitionPropertyProperty(InlineStyleAccessPropertyBag_TransitionPropertyPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_TransitionPropertyProperty(InlineStyleAccessPropertyBag_TransitionPropertyProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4781 };
@@ -5080,7 +5080,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty(InlineStyleAccessPropertyBag_TransitionTimingFunctionPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty(InlineStyleAccessPropertyBag_TransitionTimingFunctionProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4782 };
@@ -5116,7 +5116,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleTranslateProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_InlineStyleTranslateProperty(InlineStyleAccessPropertyBag_InlineStyleTranslatePropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_InlineStyleTranslateProperty(InlineStyleAccessPropertyBag_InlineStyleTranslateProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4826 };
@@ -5172,7 +5172,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_TranslateProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_TranslateProperty(InlineStyleAccessPropertyBag_TranslatePropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_TranslateProperty(InlineStyleAccessPropertyBag_TranslateProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4783 };
@@ -5228,7 +5228,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty(InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty(InlineStyleAccessPropertyBag_UnityBackgroundImageTintColorProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4784 };
@@ -5285,7 +5285,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty(InlineStyleAccessPropertyBag_UnityEditorTextRenderingModePropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty(InlineStyleAccessPropertyBag_UnityEditorTextRenderingModeProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4785 };
@@ -5321,7 +5321,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleFontProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_InlineStyleFontProperty(InlineStyleAccessPropertyBag_InlineStyleFontPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_InlineStyleFontProperty(InlineStyleAccessPropertyBag_InlineStyleFontProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4817 };
@@ -5377,7 +5377,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityFontProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_UnityFontProperty(InlineStyleAccessPropertyBag_UnityFontPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_UnityFontProperty(InlineStyleAccessPropertyBag_UnityFontProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4786 };
@@ -5415,7 +5415,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty(InlineStyleAccessPropertyBag_InlineStyleFontDefinitionPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty(InlineStyleAccessPropertyBag_InlineStyleFontDefinitionProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4819 };
@@ -5471,7 +5471,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityFontDefinitionProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_UnityFontDefinitionProperty(InlineStyleAccessPropertyBag_UnityFontDefinitionPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_UnityFontDefinitionProperty(InlineStyleAccessPropertyBag_UnityFontDefinitionProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4787 };
@@ -5527,7 +5527,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty(InlineStyleAccessPropertyBag_UnityFontStyleAndWeightPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty(InlineStyleAccessPropertyBag_UnityFontStyleAndWeightProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4788 };
@@ -5584,7 +5584,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty(InlineStyleAccessPropertyBag_UnityOverflowClipBoxPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty(InlineStyleAccessPropertyBag_UnityOverflowClipBoxProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4789 };
@@ -5640,7 +5640,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityParagraphSpacingProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_UnityParagraphSpacingProperty(InlineStyleAccessPropertyBag_UnityParagraphSpacingPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_UnityParagraphSpacingProperty(InlineStyleAccessPropertyBag_UnityParagraphSpacingProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4790 };
@@ -5676,7 +5676,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_InlineStyleIntProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_InlineStyleIntProperty(InlineStyleAccessPropertyBag_InlineStyleIntPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_InlineStyleIntProperty(InlineStyleAccessPropertyBag_InlineStyleIntProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4820 };
@@ -5732,7 +5732,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnitySliceBottomProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_UnitySliceBottomProperty(InlineStyleAccessPropertyBag_UnitySliceBottomPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_UnitySliceBottomProperty(InlineStyleAccessPropertyBag_UnitySliceBottomProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4791 };
@@ -5788,7 +5788,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnitySliceLeftProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_UnitySliceLeftProperty(InlineStyleAccessPropertyBag_UnitySliceLeftPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_UnitySliceLeftProperty(InlineStyleAccessPropertyBag_UnitySliceLeftProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4792 };
@@ -5844,7 +5844,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnitySliceRightProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_UnitySliceRightProperty(InlineStyleAccessPropertyBag_UnitySliceRightPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_UnitySliceRightProperty(InlineStyleAccessPropertyBag_UnitySliceRightProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4793 };
@@ -5900,7 +5900,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnitySliceScaleProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_UnitySliceScaleProperty(InlineStyleAccessPropertyBag_UnitySliceScalePropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_UnitySliceScaleProperty(InlineStyleAccessPropertyBag_UnitySliceScaleProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4794 };
@@ -5956,7 +5956,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnitySliceTopProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_UnitySliceTopProperty(InlineStyleAccessPropertyBag_UnitySliceTopPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_UnitySliceTopProperty(InlineStyleAccessPropertyBag_UnitySliceTopProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4795 };
@@ -6012,7 +6012,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityTextAlignProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_UnityTextAlignProperty(InlineStyleAccessPropertyBag_UnityTextAlignPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_UnityTextAlignProperty(InlineStyleAccessPropertyBag_UnityTextAlignProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4796 };
@@ -6068,7 +6068,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityTextGeneratorProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_UnityTextGeneratorProperty(InlineStyleAccessPropertyBag_UnityTextGeneratorPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_UnityTextGeneratorProperty(InlineStyleAccessPropertyBag_UnityTextGeneratorProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4797 };
@@ -6124,7 +6124,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityTextOutlineColorProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_UnityTextOutlineColorProperty(InlineStyleAccessPropertyBag_UnityTextOutlineColorPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_UnityTextOutlineColorProperty(InlineStyleAccessPropertyBag_UnityTextOutlineColorProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4798 };
@@ -6180,7 +6180,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityTextOutlineWidthProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_UnityTextOutlineWidthProperty(InlineStyleAccessPropertyBag_UnityTextOutlineWidthPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_UnityTextOutlineWidthProperty(InlineStyleAccessPropertyBag_UnityTextOutlineWidthProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4799 };
@@ -6237,7 +6237,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty(InlineStyleAccessPropertyBag_UnityTextOverflowPositionPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty(InlineStyleAccessPropertyBag_UnityTextOverflowPositionProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4800 };
@@ -6293,7 +6293,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_VisibilityProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_VisibilityProperty(InlineStyleAccessPropertyBag_VisibilityPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_VisibilityProperty(InlineStyleAccessPropertyBag_VisibilityProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4801 };
@@ -6349,7 +6349,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_WhiteSpaceProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_WhiteSpaceProperty(InlineStyleAccessPropertyBag_WhiteSpacePropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_WhiteSpaceProperty(InlineStyleAccessPropertyBag_WhiteSpaceProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4802 };
@@ -6405,7 +6405,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_WidthProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_WidthProperty(InlineStyleAccessPropertyBag_WidthPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_WidthProperty(InlineStyleAccessPropertyBag_WidthProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4803 };
@@ -6461,7 +6461,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag_WordSpacingProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag_WordSpacingProperty(InlineStyleAccessPropertyBag_WordSpacingPropertyconst&) = delete;
+  InlineStyleAccessPropertyBag_WordSpacingProperty(InlineStyleAccessPropertyBag_WordSpacingProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4804 };
@@ -6547,7 +6547,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleProperty_2_InlineStyleAccessPropertyBag___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleProperty_2_InlineStyleAccessPropertyBag___c(InlineStyleProperty_2_InlineStyleAccessPropertyBag___cconst&) = delete;
+  InlineStyleProperty_2_InlineStyleAccessPropertyBag___c(InlineStyleProperty_2_InlineStyleAccessPropertyBag___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4805 };
@@ -6608,7 +6608,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleColorProperty_InlineStyleAccessPropertyBag___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleColorProperty_InlineStyleAccessPropertyBag___c(InlineStyleColorProperty_InlineStyleAccessPropertyBag___cconst&) = delete;
+  InlineStyleColorProperty_InlineStyleAccessPropertyBag___c(InlineStyleColorProperty_InlineStyleAccessPropertyBag___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4808 };
@@ -6728,7 +6728,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c(InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___cconst&) = delete;
+  InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c(InlineStyleBackgroundProperty_InlineStyleAccessPropertyBag___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4810 };
@@ -6811,7 +6811,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c(InlineStyleLengthProperty_InlineStyleAccessPropertyBag___cconst&) = delete;
+  InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c(InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4812 };
@@ -6874,7 +6874,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c(InlineStyleFloatProperty_InlineStyleAccessPropertyBag___cconst&) = delete;
+  InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c(InlineStyleFloatProperty_InlineStyleAccessPropertyBag___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4814 };
@@ -6961,7 +6961,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c(InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___cconst&) = delete;
+  InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c(InlineStyleFontDefinitionProperty_InlineStyleAccessPropertyBag___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4818 };
@@ -7248,7 +7248,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InlineStyleAccessPropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InlineStyleAccessPropertyBag(InlineStyleAccessPropertyBagconst&) = delete;
+  InlineStyleAccessPropertyBag(InlineStyleAccessPropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4830 };

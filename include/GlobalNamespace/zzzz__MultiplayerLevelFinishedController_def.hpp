@@ -188,7 +188,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelFinishedController__StartLevelFinished_d__20", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLevelFinishedController__StartLevelFinished_d__20(MultiplayerLevelFinishedController__StartLevelFinished_d__20const&) = delete;
+  MultiplayerLevelFinishedController__StartLevelFinished_d__20(MultiplayerLevelFinishedController__StartLevelFinished_d__20 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6038 };
@@ -397,7 +397,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelFinishedController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLevelFinishedController(MultiplayerLevelFinishedControllerconst&) = delete;
+  MultiplayerLevelFinishedController(MultiplayerLevelFinishedController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6039 };

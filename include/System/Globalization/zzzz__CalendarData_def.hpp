@@ -263,7 +263,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CalendarData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CalendarData(CalendarDataconst&) = delete;
+  CalendarData(CalendarData const&) = delete;
 
   /// @brief Field MAX_CALENDARS offset 0xffffffff size 0x4
   static constexpr int32_t MAX_CALENDARS{ static_cast<int32_t>(0x17) };

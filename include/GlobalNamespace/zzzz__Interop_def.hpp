@@ -1050,7 +1050,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Interop_Sys", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Interop_Sys(Interop_Sysconst&) = delete;
+  Interop_Sys(Interop_Sys const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2218 };
@@ -1105,7 +1105,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Interop", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Interop(Interopconst&) = delete;
+  Interop(Interop const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2219 };

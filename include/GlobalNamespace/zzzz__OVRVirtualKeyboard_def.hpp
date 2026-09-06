@@ -396,7 +396,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboard_ITextHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRVirtualKeyboard_ITextHandler(OVRVirtualKeyboard_ITextHandlerconst&) = delete;
+  OVRVirtualKeyboard_ITextHandler(OVRVirtualKeyboard_ITextHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7796 };
@@ -470,7 +470,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboard_AbstractTextHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRVirtualKeyboard_AbstractTextHandler(OVRVirtualKeyboard_AbstractTextHandlerconst&) = delete;
+  OVRVirtualKeyboard_AbstractTextHandler(OVRVirtualKeyboard_AbstractTextHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7797 };
@@ -573,7 +573,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboard_TextHandlerScope", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRVirtualKeyboard_TextHandlerScope(OVRVirtualKeyboard_TextHandlerScopeconst&) = delete;
+  OVRVirtualKeyboard_TextHandlerScope(OVRVirtualKeyboard_TextHandlerScope const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7798 };
@@ -632,7 +632,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboard_WaitUntilKeyboardVisible", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRVirtualKeyboard_WaitUntilKeyboardVisible(OVRVirtualKeyboard_WaitUntilKeyboardVisibleconst&) = delete;
+  OVRVirtualKeyboard_WaitUntilKeyboardVisible(OVRVirtualKeyboard_WaitUntilKeyboardVisible const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7799 };
@@ -786,7 +786,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InteractorRootTransformOverride_OVRVirtualKeyboard__RevertInteractorOverrides_d__6", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InteractorRootTransformOverride_OVRVirtualKeyboard__RevertInteractorOverrides_d__6(InteractorRootTransformOverride_OVRVirtualKeyboard__RevertInteractorOverrides_d__6const&) = delete;
+  InteractorRootTransformOverride_OVRVirtualKeyboard__RevertInteractorOverrides_d__6(InteractorRootTransformOverride_OVRVirtualKeyboard__RevertInteractorOverrides_d__6 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7801 };
@@ -878,7 +878,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboard_InteractorRootTransformOverride", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRVirtualKeyboard_InteractorRootTransformOverride(OVRVirtualKeyboard_InteractorRootTransformOverrideconst&) = delete;
+  OVRVirtualKeyboard_InteractorRootTransformOverride(OVRVirtualKeyboard_InteractorRootTransformOverride const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7802 };
@@ -980,7 +980,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboard_IInputSource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRVirtualKeyboard_IInputSource(OVRVirtualKeyboard_IInputSourceconst&) = delete;
+  OVRVirtualKeyboard_IInputSource(OVRVirtualKeyboard_IInputSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7804 };
@@ -1064,7 +1064,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboard_BaseInputSource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRVirtualKeyboard_BaseInputSource(OVRVirtualKeyboard_BaseInputSourceconst&) = delete;
+  OVRVirtualKeyboard_BaseInputSource(OVRVirtualKeyboard_BaseInputSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7805 };
@@ -1179,7 +1179,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboard_ControllerInputSource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRVirtualKeyboard_ControllerInputSource(OVRVirtualKeyboard_ControllerInputSourceconst&) = delete;
+  OVRVirtualKeyboard_ControllerInputSource(OVRVirtualKeyboard_ControllerInputSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7806 };
@@ -1269,7 +1269,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HandInputSource_OVRVirtualKeyboard___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HandInputSource_OVRVirtualKeyboard___c__DisplayClass6_0(HandInputSource_OVRVirtualKeyboard___c__DisplayClass6_0const&) = delete;
+  HandInputSource_OVRVirtualKeyboard___c__DisplayClass6_0(HandInputSource_OVRVirtualKeyboard___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7807 };
@@ -1365,7 +1365,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboard_HandInputSource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRVirtualKeyboard_HandInputSource(OVRVirtualKeyboard_HandInputSourceconst&) = delete;
+  OVRVirtualKeyboard_HandInputSource(OVRVirtualKeyboard_HandInputSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7808 };
@@ -1443,7 +1443,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboard_KeyboardEventListener", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRVirtualKeyboard_KeyboardEventListener(OVRVirtualKeyboard_KeyboardEventListenerconst&) = delete;
+  OVRVirtualKeyboard_KeyboardEventListener(OVRVirtualKeyboard_KeyboardEventListener const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7809 };
@@ -1538,7 +1538,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboard_CommitTextUnityEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRVirtualKeyboard_CommitTextUnityEvent(OVRVirtualKeyboard_CommitTextUnityEventconst&) = delete;
+  OVRVirtualKeyboard_CommitTextUnityEvent(OVRVirtualKeyboard_CommitTextUnityEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7811 };
@@ -1601,7 +1601,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboard___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRVirtualKeyboard___c(OVRVirtualKeyboard___cconst&) = delete;
+  OVRVirtualKeyboard___c(OVRVirtualKeyboard___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7812 };
@@ -1716,7 +1716,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboard__InitializeGlTFModel_d__92", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRVirtualKeyboard__InitializeGlTFModel_d__92(OVRVirtualKeyboard__InitializeGlTFModel_d__92const&) = delete;
+  OVRVirtualKeyboard__InitializeGlTFModel_d__92(OVRVirtualKeyboard__InitializeGlTFModel_d__92 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7813 };
@@ -2443,7 +2443,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboard", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRVirtualKeyboard(OVRVirtualKeyboardconst&) = delete;
+  OVRVirtualKeyboard(OVRVirtualKeyboard const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7814 };

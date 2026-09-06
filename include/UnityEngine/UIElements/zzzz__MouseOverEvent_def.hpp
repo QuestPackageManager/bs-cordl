@@ -62,7 +62,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MouseOverEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MouseOverEvent___c(MouseOverEvent___cconst&) = delete;
+  MouseOverEvent___c(MouseOverEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4503 };
@@ -106,7 +106,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MouseOverEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MouseOverEvent(MouseOverEventconst&) = delete;
+  MouseOverEvent(MouseOverEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4504 };

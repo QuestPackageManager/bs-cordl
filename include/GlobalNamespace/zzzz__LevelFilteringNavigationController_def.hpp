@@ -146,7 +146,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelFilteringNavigationController___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelFilteringNavigationController___c(LevelFilteringNavigationController___cconst&) = delete;
+  LevelFilteringNavigationController___c(LevelFilteringNavigationController___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6931 };
@@ -194,7 +194,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelFilteringNavigationController___c__DisplayClass53_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelFilteringNavigationController___c__DisplayClass53_0(LevelFilteringNavigationController___c__DisplayClass53_0const&) = delete;
+  LevelFilteringNavigationController___c__DisplayClass53_0(LevelFilteringNavigationController___c__DisplayClass53_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6932 };
@@ -667,7 +667,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelFilteringNavigationController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelFilteringNavigationController(LevelFilteringNavigationControllerconst&) = delete;
+  LevelFilteringNavigationController(LevelFilteringNavigationController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6934 };

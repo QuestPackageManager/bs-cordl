@@ -80,7 +80,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FloatFxGroupEffectManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatFxGroupEffectManager___c(FloatFxGroupEffectManager___cconst&) = delete;
+  FloatFxGroupEffectManager___c(FloatFxGroupEffectManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5857 };
@@ -151,7 +151,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FloatFxGroupEffectManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatFxGroupEffectManager(FloatFxGroupEffectManagerconst&) = delete;
+  FloatFxGroupEffectManager(FloatFxGroupEffectManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5858 };

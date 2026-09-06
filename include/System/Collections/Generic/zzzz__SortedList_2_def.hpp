@@ -318,7 +318,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SortedList_2_SortedListKeyEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedList_2_SortedListKeyEnumerator(SortedList_2_SortedListKeyEnumeratorconst&) = delete;
+  SortedList_2_SortedListKeyEnumerator(SortedList_2_SortedListKeyEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11415 };
@@ -438,7 +438,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SortedList_2_SortedListValueEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedList_2_SortedListValueEnumerator(SortedList_2_SortedListValueEnumeratorconst&) = delete;
+  SortedList_2_SortedListValueEnumerator(SortedList_2_SortedListValueEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11416 };
@@ -588,7 +588,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SortedList_2_KeyList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedList_2_KeyList(SortedList_2_KeyListconst&) = delete;
+  SortedList_2_KeyList(SortedList_2_KeyList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11417 };
@@ -729,7 +729,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SortedList_2_ValueList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedList_2_ValueList(SortedList_2_ValueListconst&) = delete;
+  SortedList_2_ValueList(SortedList_2_ValueList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11418 };
@@ -1093,7 +1093,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SortedList_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedList_2(SortedList_2const&) = delete;
+  SortedList_2(SortedList_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11419 };

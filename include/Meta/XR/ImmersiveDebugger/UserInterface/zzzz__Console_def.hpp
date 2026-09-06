@@ -124,7 +124,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Console___c__DisplayClass47_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Console___c__DisplayClass47_0(Console___c__DisplayClass47_0const&) = delete;
+  Console___c__DisplayClass47_0(Console___c__DisplayClass47_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18360 };
@@ -505,7 +505,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Console", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Console(Consoleconst&) = delete;
+  Console(Console const&) = delete;
 
   /// @brief Field ContractedLogPanelBottomMargin offset 0xffffffff size 0x4
   static constexpr int32_t ContractedLogPanelBottomMargin{ static_cast<int32_t>(0x8c) };

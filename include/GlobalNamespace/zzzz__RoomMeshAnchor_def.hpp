@@ -531,7 +531,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RoomMeshAnchor__GenerateRoomMesh_d__15", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RoomMeshAnchor__GenerateRoomMesh_d__15(RoomMeshAnchor__GenerateRoomMesh_d__15const&) = delete;
+  RoomMeshAnchor__GenerateRoomMesh_d__15(RoomMeshAnchor__GenerateRoomMesh_d__15 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21346 };
@@ -805,7 +805,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RoomMeshAnchor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RoomMeshAnchor(RoomMeshAnchorconst&) = delete;
+  RoomMeshAnchor(RoomMeshAnchor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21348 };

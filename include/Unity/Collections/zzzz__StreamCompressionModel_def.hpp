@@ -395,7 +395,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StreamCompressionModel_SharedStaticCompressionModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StreamCompressionModel_SharedStaticCompressionModel(StreamCompressionModel_SharedStaticCompressionModelconst&) = delete;
+  StreamCompressionModel_SharedStaticCompressionModel(StreamCompressionModel_SharedStaticCompressionModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15717 };

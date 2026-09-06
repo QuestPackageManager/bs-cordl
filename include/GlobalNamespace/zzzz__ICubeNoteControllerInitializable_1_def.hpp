@@ -33,7 +33,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ICubeNoteControllerInitializable_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ICubeNoteControllerInitializable_1(ICubeNoteControllerInitializable_1const&) = delete;
+  ICubeNoteControllerInitializable_1(ICubeNoteControllerInitializable_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5657 };

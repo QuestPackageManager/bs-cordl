@@ -47,7 +47,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomSampler_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomSampler_BindingsMarshaller(CustomSampler_BindingsMarshallerconst&) = delete;
+  CustomSampler_BindingsMarshaller(CustomSampler_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10430 };
@@ -102,7 +102,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomSampler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomSampler(CustomSamplerconst&) = delete;
+  CustomSampler(CustomSampler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10431 };

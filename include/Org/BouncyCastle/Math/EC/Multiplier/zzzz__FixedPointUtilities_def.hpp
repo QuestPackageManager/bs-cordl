@@ -88,7 +88,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FixedPointUtilities_FixedPointCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FixedPointUtilities_FixedPointCallback(FixedPointUtilities_FixedPointCallbackconst&) = delete;
+  FixedPointUtilities_FixedPointCallback(FixedPointUtilities_FixedPointCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1531 };
@@ -146,7 +146,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FixedPointUtilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FixedPointUtilities(FixedPointUtilitiesconst&) = delete;
+  FixedPointUtilities(FixedPointUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1532 };

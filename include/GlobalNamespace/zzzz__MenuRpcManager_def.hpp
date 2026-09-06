@@ -642,7 +642,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetPlayersPermissionConfigurationRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_GetPlayersPermissionConfigurationRpc(MenuRpcManager_GetPlayersPermissionConfigurationRpcconst&) = delete;
+  MenuRpcManager_GetPlayersPermissionConfigurationRpc(MenuRpcManager_GetPlayersPermissionConfigurationRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18910 };
@@ -677,7 +677,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetPlayersPermissionConfigurationRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_SetPlayersPermissionConfigurationRpc(MenuRpcManager_SetPlayersPermissionConfigurationRpcconst&) = delete;
+  MenuRpcManager_SetPlayersPermissionConfigurationRpc(MenuRpcManager_SetPlayersPermissionConfigurationRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18911 };
@@ -712,7 +712,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetPlayersMissingEntitlementsToLevelRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_SetPlayersMissingEntitlementsToLevelRpc(MenuRpcManager_SetPlayersMissingEntitlementsToLevelRpcconst&) = delete;
+  MenuRpcManager_SetPlayersMissingEntitlementsToLevelRpc(MenuRpcManager_SetPlayersMissingEntitlementsToLevelRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18912 };
@@ -747,7 +747,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetIsEntitledToLevelRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_GetIsEntitledToLevelRpc(MenuRpcManager_GetIsEntitledToLevelRpcconst&) = delete;
+  MenuRpcManager_GetIsEntitledToLevelRpc(MenuRpcManager_GetIsEntitledToLevelRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18913 };
@@ -782,7 +782,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetIsEntitledToLevelRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_SetIsEntitledToLevelRpc(MenuRpcManager_SetIsEntitledToLevelRpcconst&) = delete;
+  MenuRpcManager_SetIsEntitledToLevelRpc(MenuRpcManager_SetIsEntitledToLevelRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18914 };
@@ -817,7 +817,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_InvalidateLevelEntitlementStatusesRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_InvalidateLevelEntitlementStatusesRpc(MenuRpcManager_InvalidateLevelEntitlementStatusesRpcconst&) = delete;
+  MenuRpcManager_InvalidateLevelEntitlementStatusesRpc(MenuRpcManager_InvalidateLevelEntitlementStatusesRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18915 };
@@ -852,7 +852,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SelectLevelPackRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_SelectLevelPackRpc(MenuRpcManager_SelectLevelPackRpcconst&) = delete;
+  MenuRpcManager_SelectLevelPackRpc(MenuRpcManager_SelectLevelPackRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18916 };
@@ -887,7 +887,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetSelectedBeatmapRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_SetSelectedBeatmapRpc(MenuRpcManager_SetSelectedBeatmapRpcconst&) = delete;
+  MenuRpcManager_SetSelectedBeatmapRpc(MenuRpcManager_SetSelectedBeatmapRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18917 };
@@ -922,7 +922,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_ClearSelectedBeatmapRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_ClearSelectedBeatmapRpc(MenuRpcManager_ClearSelectedBeatmapRpcconst&) = delete;
+  MenuRpcManager_ClearSelectedBeatmapRpc(MenuRpcManager_ClearSelectedBeatmapRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18918 };
@@ -957,7 +957,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetSelectedBeatmapRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_GetSelectedBeatmapRpc(MenuRpcManager_GetSelectedBeatmapRpcconst&) = delete;
+  MenuRpcManager_GetSelectedBeatmapRpc(MenuRpcManager_GetSelectedBeatmapRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18919 };
@@ -992,7 +992,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_RecommendBeatmapRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_RecommendBeatmapRpc(MenuRpcManager_RecommendBeatmapRpcconst&) = delete;
+  MenuRpcManager_RecommendBeatmapRpc(MenuRpcManager_RecommendBeatmapRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18920 };
@@ -1027,7 +1027,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_ClearRecommendedBeatmapRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_ClearRecommendedBeatmapRpc(MenuRpcManager_ClearRecommendedBeatmapRpcconst&) = delete;
+  MenuRpcManager_ClearRecommendedBeatmapRpc(MenuRpcManager_ClearRecommendedBeatmapRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18921 };
@@ -1062,7 +1062,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetRecommendedBeatmapRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_GetRecommendedBeatmapRpc(MenuRpcManager_GetRecommendedBeatmapRpcconst&) = delete;
+  MenuRpcManager_GetRecommendedBeatmapRpc(MenuRpcManager_GetRecommendedBeatmapRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18922 };
@@ -1097,7 +1097,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetSelectedGameplayModifiersRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_SetSelectedGameplayModifiersRpc(MenuRpcManager_SetSelectedGameplayModifiersRpcconst&) = delete;
+  MenuRpcManager_SetSelectedGameplayModifiersRpc(MenuRpcManager_SetSelectedGameplayModifiersRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18923 };
@@ -1132,7 +1132,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_ClearSelectedGameplayModifiersRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_ClearSelectedGameplayModifiersRpc(MenuRpcManager_ClearSelectedGameplayModifiersRpcconst&) = delete;
+  MenuRpcManager_ClearSelectedGameplayModifiersRpc(MenuRpcManager_ClearSelectedGameplayModifiersRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18924 };
@@ -1167,7 +1167,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetSelectedGameplayModifiersRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_GetSelectedGameplayModifiersRpc(MenuRpcManager_GetSelectedGameplayModifiersRpcconst&) = delete;
+  MenuRpcManager_GetSelectedGameplayModifiersRpc(MenuRpcManager_GetSelectedGameplayModifiersRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18925 };
@@ -1202,7 +1202,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_RecommendGameplayModifiersRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_RecommendGameplayModifiersRpc(MenuRpcManager_RecommendGameplayModifiersRpcconst&) = delete;
+  MenuRpcManager_RecommendGameplayModifiersRpc(MenuRpcManager_RecommendGameplayModifiersRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18926 };
@@ -1237,7 +1237,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_ClearRecommendedGameplayModifiersRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_ClearRecommendedGameplayModifiersRpc(MenuRpcManager_ClearRecommendedGameplayModifiersRpcconst&) = delete;
+  MenuRpcManager_ClearRecommendedGameplayModifiersRpc(MenuRpcManager_ClearRecommendedGameplayModifiersRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18927 };
@@ -1272,7 +1272,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetRecommendedGameplayModifiersRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_GetRecommendedGameplayModifiersRpc(MenuRpcManager_GetRecommendedGameplayModifiersRpcconst&) = delete;
+  MenuRpcManager_GetRecommendedGameplayModifiersRpc(MenuRpcManager_GetRecommendedGameplayModifiersRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18928 };
@@ -1307,7 +1307,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetIsStartButtonEnabledRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_GetIsStartButtonEnabledRpc(MenuRpcManager_GetIsStartButtonEnabledRpcconst&) = delete;
+  MenuRpcManager_GetIsStartButtonEnabledRpc(MenuRpcManager_GetIsStartButtonEnabledRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18929 };
@@ -1342,7 +1342,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetIsStartButtonEnabledRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_SetIsStartButtonEnabledRpc(MenuRpcManager_SetIsStartButtonEnabledRpcconst&) = delete;
+  MenuRpcManager_SetIsStartButtonEnabledRpc(MenuRpcManager_SetIsStartButtonEnabledRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18930 };
@@ -1377,7 +1377,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_LevelLoadErrorRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_LevelLoadErrorRpc(MenuRpcManager_LevelLoadErrorRpcconst&) = delete;
+  MenuRpcManager_LevelLoadErrorRpc(MenuRpcManager_LevelLoadErrorRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18931 };
@@ -1412,7 +1412,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_LevelLoadSuccessRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_LevelLoadSuccessRpc(MenuRpcManager_LevelLoadSuccessRpcconst&) = delete;
+  MenuRpcManager_LevelLoadSuccessRpc(MenuRpcManager_LevelLoadSuccessRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18932 };
@@ -1447,7 +1447,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_StartLevelRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_StartLevelRpc(MenuRpcManager_StartLevelRpcconst&) = delete;
+  MenuRpcManager_StartLevelRpc(MenuRpcManager_StartLevelRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18933 };
@@ -1482,7 +1482,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetStartedLevelRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_GetStartedLevelRpc(MenuRpcManager_GetStartedLevelRpcconst&) = delete;
+  MenuRpcManager_GetStartedLevelRpc(MenuRpcManager_GetStartedLevelRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18934 };
@@ -1517,7 +1517,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetMultiplayerGameStateRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_GetMultiplayerGameStateRpc(MenuRpcManager_GetMultiplayerGameStateRpcconst&) = delete;
+  MenuRpcManager_GetMultiplayerGameStateRpc(MenuRpcManager_GetMultiplayerGameStateRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18935 };
@@ -1552,7 +1552,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetMultiplayerGameStateRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_SetMultiplayerGameStateRpc(MenuRpcManager_SetMultiplayerGameStateRpcconst&) = delete;
+  MenuRpcManager_SetMultiplayerGameStateRpc(MenuRpcManager_SetMultiplayerGameStateRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18936 };
@@ -1587,7 +1587,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_CancelCountdownRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_CancelCountdownRpc(MenuRpcManager_CancelCountdownRpcconst&) = delete;
+  MenuRpcManager_CancelCountdownRpc(MenuRpcManager_CancelCountdownRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18937 };
@@ -1622,7 +1622,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetCountdownEndTimeRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_SetCountdownEndTimeRpc(MenuRpcManager_SetCountdownEndTimeRpcconst&) = delete;
+  MenuRpcManager_SetCountdownEndTimeRpc(MenuRpcManager_SetCountdownEndTimeRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18938 };
@@ -1657,7 +1657,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetCountdownEndTimeRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_GetCountdownEndTimeRpc(MenuRpcManager_GetCountdownEndTimeRpcconst&) = delete;
+  MenuRpcManager_GetCountdownEndTimeRpc(MenuRpcManager_GetCountdownEndTimeRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18939 };
@@ -1692,7 +1692,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_CancelLevelStartRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_CancelLevelStartRpc(MenuRpcManager_CancelLevelStartRpcconst&) = delete;
+  MenuRpcManager_CancelLevelStartRpc(MenuRpcManager_CancelLevelStartRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18940 };
@@ -1727,7 +1727,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetIsReadyRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_GetIsReadyRpc(MenuRpcManager_GetIsReadyRpcconst&) = delete;
+  MenuRpcManager_GetIsReadyRpc(MenuRpcManager_GetIsReadyRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18941 };
@@ -1762,7 +1762,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetIsReadyRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_SetIsReadyRpc(MenuRpcManager_SetIsReadyRpcconst&) = delete;
+  MenuRpcManager_SetIsReadyRpc(MenuRpcManager_SetIsReadyRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18942 };
@@ -1797,7 +1797,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetStartGameTimeRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_SetStartGameTimeRpc(MenuRpcManager_SetStartGameTimeRpcconst&) = delete;
+  MenuRpcManager_SetStartGameTimeRpc(MenuRpcManager_SetStartGameTimeRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18943 };
@@ -1832,7 +1832,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_CancelStartGameTimeRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_CancelStartGameTimeRpc(MenuRpcManager_CancelStartGameTimeRpcconst&) = delete;
+  MenuRpcManager_CancelStartGameTimeRpc(MenuRpcManager_CancelStartGameTimeRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18944 };
@@ -1867,7 +1867,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetIsInLobbyRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_GetIsInLobbyRpc(MenuRpcManager_GetIsInLobbyRpcconst&) = delete;
+  MenuRpcManager_GetIsInLobbyRpc(MenuRpcManager_GetIsInLobbyRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18945 };
@@ -1902,7 +1902,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetIsInLobbyRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_SetIsInLobbyRpc(MenuRpcManager_SetIsInLobbyRpcconst&) = delete;
+  MenuRpcManager_SetIsInLobbyRpc(MenuRpcManager_SetIsInLobbyRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18946 };
@@ -1937,7 +1937,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_GetOwnedSongPacksRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_GetOwnedSongPacksRpc(MenuRpcManager_GetOwnedSongPacksRpcconst&) = delete;
+  MenuRpcManager_GetOwnedSongPacksRpc(MenuRpcManager_GetOwnedSongPacksRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18947 };
@@ -1972,7 +1972,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_SetOwnedSongPacksRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_SetOwnedSongPacksRpc(MenuRpcManager_SetOwnedSongPacksRpcconst&) = delete;
+  MenuRpcManager_SetOwnedSongPacksRpc(MenuRpcManager_SetOwnedSongPacksRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18948 };
@@ -2007,7 +2007,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager_RequestKickPlayerRpc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager_RequestKickPlayerRpc(MenuRpcManager_RequestKickPlayerRpcconst&) = delete;
+  MenuRpcManager_RequestKickPlayerRpc(MenuRpcManager_RequestKickPlayerRpc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18949 };
@@ -3129,7 +3129,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuRpcManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuRpcManager(MenuRpcManagerconst&) = delete;
+  MenuRpcManager(MenuRpcManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18950 };

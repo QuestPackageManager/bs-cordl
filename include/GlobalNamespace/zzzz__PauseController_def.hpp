@@ -166,7 +166,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PauseController_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PauseController_InitData(PauseController_InitDataconst&) = delete;
+  PauseController_InitData(PauseController_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6033 };
@@ -219,7 +219,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PauseController___c__DisplayClass30_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PauseController___c__DisplayClass30_0(PauseController___c__DisplayClass30_0const&) = delete;
+  PauseController___c__DisplayClass30_0(PauseController___c__DisplayClass30_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6034 };
@@ -535,7 +535,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PauseController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PauseController(PauseControllerconst&) = delete;
+  PauseController(PauseController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6035 };

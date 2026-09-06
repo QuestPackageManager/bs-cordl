@@ -121,7 +121,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ArcAndObstacleHapticEffectManager_EffectState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArcAndObstacleHapticEffectManager_EffectState(ArcAndObstacleHapticEffectManager_EffectStateconst&) = delete;
+  ArcAndObstacleHapticEffectManager_EffectState(ArcAndObstacleHapticEffectManager_EffectState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5752 };
@@ -280,7 +280,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ArcAndObstacleHapticEffectManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArcAndObstacleHapticEffectManager(ArcAndObstacleHapticEffectManagerconst&) = delete;
+  ArcAndObstacleHapticEffectManager(ArcAndObstacleHapticEffectManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5753 };

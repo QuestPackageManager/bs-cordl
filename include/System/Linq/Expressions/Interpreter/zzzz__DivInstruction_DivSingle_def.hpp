@@ -43,7 +43,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DivInstruction_DivSingle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DivInstruction_DivSingle(DivInstruction_DivSingleconst&) = delete;
+  DivInstruction_DivSingle(DivInstruction_DivSingle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16310 };

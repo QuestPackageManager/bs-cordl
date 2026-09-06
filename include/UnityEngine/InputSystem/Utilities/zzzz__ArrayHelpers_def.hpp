@@ -108,7 +108,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ArrayHelpers___c__DisplayClass33_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayHelpers___c__DisplayClass33_0_1(ArrayHelpers___c__DisplayClass33_0_1const&) = delete;
+  ArrayHelpers___c__DisplayClass33_0_1(ArrayHelpers___c__DisplayClass33_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9150 };
@@ -156,7 +156,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ArrayHelpers___c__DisplayClass34_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayHelpers___c__DisplayClass34_0_1(ArrayHelpers___c__DisplayClass34_0_1const&) = delete;
+  ArrayHelpers___c__DisplayClass34_0_1(ArrayHelpers___c__DisplayClass34_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9151 };
@@ -217,7 +217,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ArrayHelpers___c__DisplayClass34_1_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayHelpers___c__DisplayClass34_1_1(ArrayHelpers___c__DisplayClass34_1_1const&) = delete;
+  ArrayHelpers___c__DisplayClass34_1_1(ArrayHelpers___c__DisplayClass34_1_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9152 };
@@ -453,7 +453,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ArrayHelpers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayHelpers(ArrayHelpersconst&) = delete;
+  ArrayHelpers(ArrayHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9153 };

@@ -73,7 +73,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioClipQueue_AudioClipWithDelay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioClipQueue_AudioClipWithDelay(AudioClipQueue_AudioClipWithDelayconst&) = delete;
+  AudioClipQueue_AudioClipWithDelay(AudioClipQueue_AudioClipWithDelay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5549 };
@@ -147,7 +147,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioClipQueue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioClipQueue(AudioClipQueueconst&) = delete;
+  AudioClipQueue(AudioClipQueue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5550 };

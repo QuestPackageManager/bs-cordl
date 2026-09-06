@@ -44,7 +44,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Ipv6Element", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ipv6Element(Ipv6Elementconst&) = delete;
+  Ipv6Element(Ipv6Element const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11829 };

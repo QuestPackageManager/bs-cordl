@@ -302,7 +302,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntry(CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntryconst&) = delete;
+  CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntry(CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13021 };
@@ -365,7 +365,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipeline_CameraMetadataCache", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipeline_CameraMetadataCache(UniversalRenderPipeline_CameraMetadataCacheconst&) = delete;
+  UniversalRenderPipeline_CameraMetadataCache(UniversalRenderPipeline_CameraMetadataCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13022 };
@@ -409,7 +409,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Pipeline_Profiling_UniversalRenderPipeline_Renderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pipeline_Profiling_UniversalRenderPipeline_Renderer(Pipeline_Profiling_UniversalRenderPipeline_Rendererconst&) = delete;
+  Pipeline_Profiling_UniversalRenderPipeline_Renderer(Pipeline_Profiling_UniversalRenderPipeline_Renderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13023 };
@@ -449,7 +449,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Pipeline_Profiling_UniversalRenderPipeline_Context", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pipeline_Profiling_UniversalRenderPipeline_Context(Pipeline_Profiling_UniversalRenderPipeline_Contextconst&) = delete;
+  Pipeline_Profiling_UniversalRenderPipeline_Context(Pipeline_Profiling_UniversalRenderPipeline_Context const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13024 };
@@ -564,7 +564,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Profiling_UniversalRenderPipeline_Pipeline", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Profiling_UniversalRenderPipeline_Pipeline(Profiling_UniversalRenderPipeline_Pipelineconst&) = delete;
+  Profiling_UniversalRenderPipeline_Pipeline(Profiling_UniversalRenderPipeline_Pipeline const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13025 };
@@ -599,7 +599,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipeline_Profiling", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipeline_Profiling(UniversalRenderPipeline_Profilingconst&) = delete;
+  UniversalRenderPipeline_Profiling(UniversalRenderPipeline_Profiling const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13026 };
@@ -799,7 +799,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipeline_SingleCameraRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipeline_SingleCameraRequest(UniversalRenderPipeline_SingleCameraRequestconst&) = delete;
+  UniversalRenderPipeline_SingleCameraRequest(UniversalRenderPipeline_SingleCameraRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13029 };
@@ -875,7 +875,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipeline___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipeline___c(UniversalRenderPipeline___cconst&) = delete;
+  UniversalRenderPipeline___c(UniversalRenderPipeline___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13030 };
@@ -1364,7 +1364,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipeline", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipeline(UniversalRenderPipelineconst&) = delete;
+  UniversalRenderPipeline(UniversalRenderPipeline const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13031 };

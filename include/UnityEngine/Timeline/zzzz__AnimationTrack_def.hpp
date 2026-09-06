@@ -159,7 +159,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimationTrack_AnimationTrackUpgrade", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimationTrack_AnimationTrackUpgrade(AnimationTrack_AnimationTrackUpgradeconst&) = delete;
+  AnimationTrack_AnimationTrackUpgrade(AnimationTrack_AnimationTrackUpgrade const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19164 };
@@ -297,7 +297,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimationTrack__get_outputs_d__49", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimationTrack__get_outputs_d__49(AnimationTrack__get_outputs_d__49const&) = delete;
+  AnimationTrack__get_outputs_d__49(AnimationTrack__get_outputs_d__49 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19165 };
@@ -847,7 +847,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimationTrack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimationTrack(AnimationTrackconst&) = delete;
+  AnimationTrack(AnimationTrack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19166 };

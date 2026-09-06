@@ -118,7 +118,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyedFactoryBase_2___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyedFactoryBase_2___c(KeyedFactoryBase_2___cconst&) = delete;
+  KeyedFactoryBase_2___c(KeyedFactoryBase_2___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14348 };
@@ -252,7 +252,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyedFactoryBase_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyedFactoryBase_2(KeyedFactoryBase_2const&) = delete;
+  KeyedFactoryBase_2(KeyedFactoryBase_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14349 };

@@ -133,7 +133,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ExpiringDictionary_2_Entry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpiringDictionary_2_Entry(ExpiringDictionary_2_Entryconst&) = delete;
+  ExpiringDictionary_2_Entry(ExpiringDictionary_2_Entry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18154 };
@@ -262,7 +262,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ExpiringDictionary_2__Enumerate_d__14", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpiringDictionary_2__Enumerate_d__14(ExpiringDictionary_2__Enumerate_d__14const&) = delete;
+  ExpiringDictionary_2__Enumerate_d__14(ExpiringDictionary_2__Enumerate_d__14 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18155 };
@@ -446,7 +446,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ExpiringDictionary_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpiringDictionary_2(ExpiringDictionary_2const&) = delete;
+  ExpiringDictionary_2(ExpiringDictionary_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18156 };

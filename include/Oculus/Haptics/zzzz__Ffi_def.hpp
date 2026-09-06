@@ -402,7 +402,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Ffi_LogCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ffi_LogCallback(Ffi_LogCallbackconst&) = delete;
+  Ffi_LogCallback(Ffi_LogCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22798 };
@@ -447,7 +447,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Ffi_HapticsSdkPlayCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ffi_HapticsSdkPlayCallback(Ffi_HapticsSdkPlayCallbackconst&) = delete;
+  Ffi_HapticsSdkPlayCallback(Ffi_HapticsSdkPlayCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22799 };
@@ -641,7 +641,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Ffi", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ffi(Fficonst&) = delete;
+  Ffi(Ffi const&) = delete;
 
   /// @brief Field InvalidId offset 0xffffffff size 0x4
   static constexpr int32_t InvalidId{ static_cast<int32_t>(0xffffffff) };

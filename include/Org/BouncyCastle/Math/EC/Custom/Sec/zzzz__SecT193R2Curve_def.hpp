@@ -108,7 +108,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SecT193R2Curve_SecT193R2LookupTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecT193R2Curve_SecT193R2LookupTable(SecT193R2Curve_SecT193R2LookupTableconst&) = delete;
+  SecT193R2Curve_SecT193R2LookupTable(SecT193R2Curve_SecT193R2LookupTable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1475 };
@@ -235,7 +235,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SecT193R2Curve", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecT193R2Curve(SecT193R2Curveconst&) = delete;
+  SecT193R2Curve(SecT193R2Curve const&) = delete;
 
   /// @brief Field SECT193R2_DEFAULT_COORDS offset 0xffffffff size 0x4
   static constexpr int32_t SECT193R2_DEFAULT_COORDS{ static_cast<int32_t>(0x6) };

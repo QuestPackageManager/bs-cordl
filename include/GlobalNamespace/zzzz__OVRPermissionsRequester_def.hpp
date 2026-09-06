@@ -159,7 +159,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPermissionsRequester___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPermissionsRequester___c(OVRPermissionsRequester___cconst&) = delete;
+  OVRPermissionsRequester___c(OVRPermissionsRequester___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7288 };
@@ -229,7 +229,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPermissionsRequester", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPermissionsRequester(OVRPermissionsRequesterconst&) = delete;
+  OVRPermissionsRequester(OVRPermissionsRequester const&) = delete;
 
   /// @brief Field BodyTrackingPermission offset 0xffffffff size 0x8
   static constexpr ::ConstString BodyTrackingPermission{ u"com.oculus.permission.BODY_TRACKING" };

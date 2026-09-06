@@ -163,7 +163,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PerformanceToolLauncher___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PerformanceToolLauncher___c__DisplayClass3_0(PerformanceToolLauncher___c__DisplayClass3_0const&) = delete;
+  PerformanceToolLauncher___c__DisplayClass3_0(PerformanceToolLauncher___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6624 };
@@ -232,7 +232,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PerformanceToolLauncher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PerformanceToolLauncher(PerformanceToolLauncherconst&) = delete;
+  PerformanceToolLauncher(PerformanceToolLauncher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6625 };

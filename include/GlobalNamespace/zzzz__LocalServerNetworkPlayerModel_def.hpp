@@ -94,7 +94,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalServerNetworkPlayerModel_LocalServerJoinMatchmakingPartyConfig", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalServerNetworkPlayerModel_LocalServerJoinMatchmakingPartyConfig(LocalServerNetworkPlayerModel_LocalServerJoinMatchmakingPartyConfigconst&) = delete;
+  LocalServerNetworkPlayerModel_LocalServerJoinMatchmakingPartyConfig(LocalServerNetworkPlayerModel_LocalServerJoinMatchmakingPartyConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21583 };
@@ -209,7 +209,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalServerNetworkPlayerModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalServerNetworkPlayerModel(LocalServerNetworkPlayerModelconst&) = delete;
+  LocalServerNetworkPlayerModel(LocalServerNetworkPlayerModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21584 };

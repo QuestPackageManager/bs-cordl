@@ -120,7 +120,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WNafUtilities_ConfigureBasepointCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WNafUtilities_ConfigureBasepointCallback(WNafUtilities_ConfigureBasepointCallbackconst&) = delete;
+  WNafUtilities_ConfigureBasepointCallback(WNafUtilities_ConfigureBasepointCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1542 };
@@ -202,7 +202,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WNafUtilities_MapPointCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WNafUtilities_MapPointCallback(WNafUtilities_MapPointCallbackconst&) = delete;
+  WNafUtilities_MapPointCallback(WNafUtilities_MapPointCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1543 };
@@ -294,7 +294,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WNafUtilities_PrecomputeCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WNafUtilities_PrecomputeCallback(WNafUtilities_PrecomputeCallbackconst&) = delete;
+  WNafUtilities_PrecomputeCallback(WNafUtilities_PrecomputeCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1544 };
@@ -399,7 +399,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WNafUtilities_PrecomputeWithPointMapCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WNafUtilities_PrecomputeWithPointMapCallback(WNafUtilities_PrecomputeWithPointMapCallbackconst&) = delete;
+  WNafUtilities_PrecomputeWithPointMapCallback(WNafUtilities_PrecomputeWithPointMapCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1545 };
@@ -550,7 +550,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WNafUtilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WNafUtilities(WNafUtilitiesconst&) = delete;
+  WNafUtilities(WNafUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1546 };

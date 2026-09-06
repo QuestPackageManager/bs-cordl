@@ -549,7 +549,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboardHands", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTrackedKeyboardHands(OVRTrackedKeyboardHandsconst&) = delete;
+  OVRTrackedKeyboardHands(OVRTrackedKeyboardHands const&) = delete;
 
   /// @brief Field FORWARD_OFFSET offset 0xffffffff size 0x4
   static constexpr float_t FORWARD_OFFSET{ static_cast<float_t>(-0.02f) };

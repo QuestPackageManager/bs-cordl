@@ -184,7 +184,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreProvider_RankedPlayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerScoreProvider_RankedPlayer(MultiplayerScoreProvider_RankedPlayerconst&) = delete;
+  MultiplayerScoreProvider_RankedPlayer(MultiplayerScoreProvider_RankedPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6183 };
@@ -247,7 +247,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreProvider___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerScoreProvider___c(MultiplayerScoreProvider___cconst&) = delete;
+  MultiplayerScoreProvider___c(MultiplayerScoreProvider___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6184 };
@@ -295,7 +295,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreProvider___c__DisplayClass18_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerScoreProvider___c__DisplayClass18_0(MultiplayerScoreProvider___c__DisplayClass18_0const&) = delete;
+  MultiplayerScoreProvider___c__DisplayClass18_0(MultiplayerScoreProvider___c__DisplayClass18_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6185 };
@@ -436,7 +436,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerScoreProvider(MultiplayerScoreProviderconst&) = delete;
+  MultiplayerScoreProvider(MultiplayerScoreProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6186 };

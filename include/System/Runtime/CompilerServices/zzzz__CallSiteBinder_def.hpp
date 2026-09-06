@@ -115,7 +115,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CallSiteBinder_LambdaSignature_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CallSiteBinder_LambdaSignature_1(CallSiteBinder_LambdaSignature_1const&) = delete;
+  CallSiteBinder_LambdaSignature_1(CallSiteBinder_LambdaSignature_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16628 };
@@ -209,7 +209,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CallSiteBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CallSiteBinder(CallSiteBinderconst&) = delete;
+  CallSiteBinder(CallSiteBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16629 };

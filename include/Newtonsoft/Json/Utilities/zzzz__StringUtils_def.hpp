@@ -164,7 +164,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StringUtils___c__DisplayClass14_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StringUtils___c__DisplayClass14_0_1(StringUtils___c__DisplayClass14_0_1const&) = delete;
+  StringUtils___c__DisplayClass14_0_1(StringUtils___c__DisplayClass14_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13463 };
@@ -287,7 +287,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StringUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StringUtils(StringUtilsconst&) = delete;
+  StringUtils(StringUtils const&) = delete;
 
   /// @brief Field CarriageReturn offset 0xffffffff size 0x2
   static constexpr char16_t CarriageReturn{ u'\r' };

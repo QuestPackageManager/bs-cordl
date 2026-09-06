@@ -70,7 +70,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InstanceMethodCallExpression0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InstanceMethodCallExpression0(InstanceMethodCallExpression0const&) = delete;
+  InstanceMethodCallExpression0(InstanceMethodCallExpression0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16213 };

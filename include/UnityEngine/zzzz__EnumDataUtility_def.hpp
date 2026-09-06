@@ -209,7 +209,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnumDataUtility___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumDataUtility___c(EnumDataUtility___cconst&) = delete;
+  EnumDataUtility___c(EnumDataUtility___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10339 };
@@ -257,7 +257,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnumDataUtility___c__DisplayClass2_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumDataUtility___c__DisplayClass2_0(EnumDataUtility___c__DisplayClass2_0const&) = delete;
+  EnumDataUtility___c__DisplayClass2_0(EnumDataUtility___c__DisplayClass2_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10340 };
@@ -369,7 +369,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnumDataUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumDataUtility(EnumDataUtilityconst&) = delete;
+  EnumDataUtility(EnumDataUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10342 };

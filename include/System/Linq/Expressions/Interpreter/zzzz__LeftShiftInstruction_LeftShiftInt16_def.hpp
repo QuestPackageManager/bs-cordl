@@ -43,7 +43,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LeftShiftInstruction_LeftShiftInt16", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeftShiftInstruction_LeftShiftInt16(LeftShiftInstruction_LeftShiftInt16const&) = delete;
+  LeftShiftInstruction_LeftShiftInt16(LeftShiftInstruction_LeftShiftInt16 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16401 };

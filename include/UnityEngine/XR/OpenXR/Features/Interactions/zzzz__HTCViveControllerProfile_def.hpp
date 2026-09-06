@@ -469,7 +469,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HTCViveControllerProfile_ViveController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HTCViveControllerProfile_ViveController(HTCViveControllerProfile_ViveControllerconst&) = delete;
+  HTCViveControllerProfile_ViveController(HTCViveControllerProfile_ViveController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18579 };
@@ -626,7 +626,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HTCViveControllerProfile", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HTCViveControllerProfile(HTCViveControllerProfileconst&) = delete;
+  HTCViveControllerProfile(HTCViveControllerProfile const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18580 };

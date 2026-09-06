@@ -184,7 +184,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerInput_ActionEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerInput_ActionEvent(PlayerInput_ActionEventconst&) = delete;
+  PlayerInput_ActionEvent(PlayerInput_ActionEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8798 };
@@ -231,7 +231,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerInput_DeviceLostEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerInput_DeviceLostEvent(PlayerInput_DeviceLostEventconst&) = delete;
+  PlayerInput_DeviceLostEvent(PlayerInput_DeviceLostEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8799 };
@@ -266,7 +266,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerInput_DeviceRegainedEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerInput_DeviceRegainedEvent(PlayerInput_DeviceRegainedEventconst&) = delete;
+  PlayerInput_DeviceRegainedEvent(PlayerInput_DeviceRegainedEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8800 };
@@ -301,7 +301,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerInput_ControlsChangedEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerInput_ControlsChangedEvent(PlayerInput_ControlsChangedEventconst&) = delete;
+  PlayerInput_ControlsChangedEvent(PlayerInput_ControlsChangedEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8801 };
@@ -1004,7 +1004,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerInput(PlayerInputconst&) = delete;
+  PlayerInput(PlayerInput const&) = delete;
 
   /// @brief Field ControlsChangedMessage offset 0xffffffff size 0x8
   static constexpr ::ConstString ControlsChangedMessage{ u"OnControlsChanged" };

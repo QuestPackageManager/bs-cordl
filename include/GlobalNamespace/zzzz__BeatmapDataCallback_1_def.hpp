@@ -63,7 +63,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataCallback_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataCallback_1(BeatmapDataCallback_1const&) = delete;
+  BeatmapDataCallback_1(BeatmapDataCallback_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5619 };

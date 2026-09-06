@@ -190,7 +190,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityUtil___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityUtil___c(UnityUtil___cconst&) = delete;
+  UnityUtil___c(UnityUtil___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13983 };
@@ -347,7 +347,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityUtil__GetDirectChildren_d__21", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityUtil__GetDirectChildren_d__21(UnityUtil__GetDirectChildren_d__21const&) = delete;
+  UnityUtil__GetDirectChildren_d__21(UnityUtil__GetDirectChildren_d__21 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13984 };
@@ -534,7 +534,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityUtil__GetDirectChildrenAndSelf_d__20", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityUtil__GetDirectChildrenAndSelf_d__20(UnityUtil__GetDirectChildrenAndSelf_d__20const&) = delete;
+  UnityUtil__GetDirectChildrenAndSelf_d__20(UnityUtil__GetDirectChildrenAndSelf_d__20 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13985 };
@@ -721,7 +721,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityUtil__GetParents_d__16", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityUtil__GetParents_d__16(UnityUtil__GetParents_d__16const&) = delete;
+  UnityUtil__GetParents_d__16(UnityUtil__GetParents_d__16 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13986 };
@@ -908,7 +908,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityUtil__GetParentsAndSelf_d__17", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityUtil__GetParentsAndSelf_d__17(UnityUtil__GetParentsAndSelf_d__17const&) = delete;
+  UnityUtil__GetParentsAndSelf_d__17(UnityUtil__GetParentsAndSelf_d__17 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13987 };
@@ -1074,7 +1074,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityUtil__get_AllScenes_d__1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityUtil__get_AllScenes_d__1(UnityUtil__get_AllScenes_d__1const&) = delete;
+  UnityUtil__get_AllScenes_d__1(UnityUtil__get_AllScenes_d__1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13988 };
@@ -1192,7 +1192,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityUtil", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityUtil(UnityUtilconst&) = delete;
+  UnityUtil(UnityUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13989 };

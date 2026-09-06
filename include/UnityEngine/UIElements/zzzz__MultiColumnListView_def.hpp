@@ -115,7 +115,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiColumnListView_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiColumnListView_UxmlFactory(MultiColumnListView_UxmlFactoryconst&) = delete;
+  MultiColumnListView_UxmlFactory(MultiColumnListView_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4269 };
@@ -185,7 +185,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiColumnListView_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiColumnListView_UxmlTraits(MultiColumnListView_UxmlTraitsconst&) = delete;
+  MultiColumnListView_UxmlTraits(MultiColumnListView_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4270 };
@@ -373,7 +373,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiColumnListView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiColumnListView(MultiColumnListViewconst&) = delete;
+  MultiColumnListView(MultiColumnListView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4271 };

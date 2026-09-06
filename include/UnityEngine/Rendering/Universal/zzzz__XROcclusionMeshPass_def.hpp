@@ -124,7 +124,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XROcclusionMeshPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XROcclusionMeshPass_PassData(XROcclusionMeshPass_PassDataconst&) = delete;
+  XROcclusionMeshPass_PassData(XROcclusionMeshPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12892 };
@@ -202,7 +202,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XROcclusionMeshPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XROcclusionMeshPass___c(XROcclusionMeshPass___cconst&) = delete;
+  XROcclusionMeshPass___c(XROcclusionMeshPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12893 };
@@ -271,7 +271,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XROcclusionMeshPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XROcclusionMeshPass(XROcclusionMeshPassconst&) = delete;
+  XROcclusionMeshPass(XROcclusionMeshPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12894 };

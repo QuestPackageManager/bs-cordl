@@ -226,7 +226,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Cursor_TextureProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_Cursor_TextureProperty(PropertyBag_Cursor_TexturePropertyconst&) = delete;
+  PropertyBag_Cursor_TextureProperty(PropertyBag_Cursor_TextureProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4369 };
@@ -311,7 +311,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Cursor_HotspotProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_Cursor_HotspotProperty(PropertyBag_Cursor_HotspotPropertyconst&) = delete;
+  PropertyBag_Cursor_HotspotProperty(PropertyBag_Cursor_HotspotProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4370 };
@@ -396,7 +396,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Cursor_DefaultCursorIdProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_Cursor_DefaultCursorIdProperty(PropertyBag_Cursor_DefaultCursorIdPropertyconst&) = delete;
+  PropertyBag_Cursor_DefaultCursorIdProperty(PropertyBag_Cursor_DefaultCursorIdProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4371 };
@@ -451,7 +451,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Cursor_PropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Cursor_PropertyBag(Cursor_PropertyBagconst&) = delete;
+  Cursor_PropertyBag(Cursor_PropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4372 };

@@ -116,7 +116,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayAudioOnGameEventController_EventAudioBinding", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayAudioOnGameEventController_EventAudioBinding(PlayAudioOnGameEventController_EventAudioBindingconst&) = delete;
+  PlayAudioOnGameEventController_EventAudioBinding(PlayAudioOnGameEventController_EventAudioBinding const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5577 };
@@ -207,7 +207,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayAudioOnGameEventController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayAudioOnGameEventController(PlayAudioOnGameEventControllerconst&) = delete;
+  PlayAudioOnGameEventController(PlayAudioOnGameEventController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5578 };

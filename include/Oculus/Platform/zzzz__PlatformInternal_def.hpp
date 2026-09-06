@@ -388,7 +388,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformInternal_HTTP", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformInternal_HTTP(PlatformInternal_HTTPconst&) = delete;
+  PlatformInternal_HTTP(PlatformInternal_HTTP const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17972 };
@@ -421,7 +421,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformInternal_Users", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformInternal_Users(PlatformInternal_Usersconst&) = delete;
+  PlatformInternal_Users(PlatformInternal_Users const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17973 };
@@ -466,7 +466,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformInternal", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformInternal(PlatformInternalconst&) = delete;
+  PlatformInternal(PlatformInternal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17974 };

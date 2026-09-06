@@ -254,7 +254,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiColumnCollectionHeader_ViewState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiColumnCollectionHeader_ViewState(MultiColumnCollectionHeader_ViewStateconst&) = delete;
+  MultiColumnCollectionHeader_ViewState(MultiColumnCollectionHeader_ViewState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5516 };
@@ -347,7 +347,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiColumnCollectionHeader_ColumnData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiColumnCollectionHeader_ColumnData(MultiColumnCollectionHeader_ColumnDataconst&) = delete;
+  MultiColumnCollectionHeader_ColumnData(MultiColumnCollectionHeader_ColumnData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5517 };
@@ -461,7 +461,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiColumnCollectionHeader___c__DisplayClass67_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiColumnCollectionHeader___c__DisplayClass67_0(MultiColumnCollectionHeader___c__DisplayClass67_0const&) = delete;
+  MultiColumnCollectionHeader___c__DisplayClass67_0(MultiColumnCollectionHeader___c__DisplayClass67_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5519 };
@@ -519,7 +519,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiColumnCollectionHeader___c__DisplayClass73_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiColumnCollectionHeader___c__DisplayClass73_0(MultiColumnCollectionHeader___c__DisplayClass73_0const&) = delete;
+  MultiColumnCollectionHeader___c__DisplayClass73_0(MultiColumnCollectionHeader___c__DisplayClass73_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5520 };
@@ -947,7 +947,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiColumnCollectionHeader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiColumnCollectionHeader(MultiColumnCollectionHeaderconst&) = delete;
+  MultiColumnCollectionHeader(MultiColumnCollectionHeader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5521 };

@@ -122,7 +122,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomMatchmaking_ICustomMatchmakingBehaviour", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomMatchmaking_ICustomMatchmakingBehaviour(CustomMatchmaking_ICustomMatchmakingBehaviourconst&) = delete;
+  CustomMatchmaking_ICustomMatchmakingBehaviour(CustomMatchmaking_ICustomMatchmakingBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20847 };
@@ -709,7 +709,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomMatchmaking", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomMatchmaking(CustomMatchmakingconst&) = delete;
+  CustomMatchmaking(CustomMatchmaking const&) = delete;
 
   /// @brief Field DebugCategory offset 0xffffffff size 0x8
   static constexpr ::ConstString DebugCategory{ u"Custom Matchmaking" };

@@ -217,7 +217,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InjectContext__get_AllObjectTypes_d__56", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InjectContext__get_AllObjectTypes_d__56(InjectContext__get_AllObjectTypes_d__56const&) = delete;
+  InjectContext__get_AllObjectTypes_d__56(InjectContext__get_AllObjectTypes_d__56 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14464 };
@@ -396,7 +396,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InjectContext__get_ParentContexts_d__52", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InjectContext__get_ParentContexts_d__52(InjectContext__get_ParentContexts_d__52const&) = delete;
+  InjectContext__get_ParentContexts_d__52(InjectContext__get_ParentContexts_d__52 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14465 };
@@ -575,7 +575,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InjectContext__get_ParentContextsAndSelf_d__54", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InjectContext__get_ParentContextsAndSelf_d__54(InjectContext__get_ParentContextsAndSelf_d__54const&) = delete;
+  InjectContext__get_ParentContextsAndSelf_d__54(InjectContext__get_ParentContextsAndSelf_d__54 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14466 };
@@ -882,7 +882,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InjectContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InjectContext(InjectContextconst&) = delete;
+  InjectContext(InjectContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14467 };

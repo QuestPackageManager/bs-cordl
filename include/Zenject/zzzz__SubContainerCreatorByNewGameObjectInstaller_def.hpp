@@ -99,7 +99,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewGameObjectInstaller___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SubContainerCreatorByNewGameObjectInstaller___c__DisplayClass3_0(SubContainerCreatorByNewGameObjectInstaller___c__DisplayClass3_0const&) = delete;
+  SubContainerCreatorByNewGameObjectInstaller___c__DisplayClass3_0(SubContainerCreatorByNewGameObjectInstaller___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14610 };
@@ -170,7 +170,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewGameObjectInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SubContainerCreatorByNewGameObjectInstaller(SubContainerCreatorByNewGameObjectInstallerconst&) = delete;
+  SubContainerCreatorByNewGameObjectInstaller(SubContainerCreatorByNewGameObjectInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14611 };

@@ -105,7 +105,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FieldDescription_BaseCompositeField_3_WriteDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FieldDescription_BaseCompositeField_3_WriteDelegate(FieldDescription_BaseCompositeField_3_WriteDelegateconst&) = delete;
+  FieldDescription_BaseCompositeField_3_WriteDelegate(FieldDescription_BaseCompositeField_3_WriteDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4104 };
@@ -223,7 +223,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseCompositeField_3___c__DisplayClass18_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseCompositeField_3___c__DisplayClass18_0(BaseCompositeField_3___c__DisplayClass18_0const&) = delete;
+  BaseCompositeField_3___c__DisplayClass18_0(BaseCompositeField_3___c__DisplayClass18_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4106 };
@@ -381,7 +381,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseCompositeField_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseCompositeField_3(BaseCompositeField_3const&) = delete;
+  BaseCompositeField_3(BaseCompositeField_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4107 };

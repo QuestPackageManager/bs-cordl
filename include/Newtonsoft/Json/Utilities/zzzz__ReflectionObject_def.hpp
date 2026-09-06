@@ -99,7 +99,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionObject___c__DisplayClass11_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionObject___c__DisplayClass11_0(ReflectionObject___c__DisplayClass11_0const&) = delete;
+  ReflectionObject___c__DisplayClass11_0(ReflectionObject___c__DisplayClass11_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13449 };
@@ -153,7 +153,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionObject___c__DisplayClass11_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionObject___c__DisplayClass11_1(ReflectionObject___c__DisplayClass11_1const&) = delete;
+  ReflectionObject___c__DisplayClass11_1(ReflectionObject___c__DisplayClass11_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13450 };
@@ -207,7 +207,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionObject___c__DisplayClass11_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionObject___c__DisplayClass11_2(ReflectionObject___c__DisplayClass11_2const&) = delete;
+  ReflectionObject___c__DisplayClass11_2(ReflectionObject___c__DisplayClass11_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13451 };
@@ -306,7 +306,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionObject", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionObject(ReflectionObjectconst&) = delete;
+  ReflectionObject(ReflectionObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13452 };

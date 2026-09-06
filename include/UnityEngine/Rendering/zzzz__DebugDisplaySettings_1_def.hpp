@@ -102,7 +102,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer(DebugDisplaySettings_1_IDebugDisplaySettingsDataComparerconst&) = delete;
+  DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer(DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11945 };
@@ -149,7 +149,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettings_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettings_1___c(DebugDisplaySettings_1___cconst&) = delete;
+  DebugDisplaySettings_1___c(DebugDisplaySettings_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11946 };
@@ -247,7 +247,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettings_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettings_1(DebugDisplaySettings_1const&) = delete;
+  DebugDisplaySettings_1(DebugDisplaySettings_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11947 };

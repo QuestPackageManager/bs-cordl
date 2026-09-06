@@ -93,7 +93,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConcurrentMask", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcurrentMask(ConcurrentMaskconst&) = delete;
+  ConcurrentMask(ConcurrentMask const&) = delete;
 
   /// @brief Field EmptyAfterFree offset 0xffffffff size 0x4
   static constexpr int32_t EmptyAfterFree{ static_cast<int32_t>(0x0) };

@@ -201,7 +201,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderGraphResourceRegistry_ResourceCreateCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphResourceRegistry_ResourceCreateCallback(RenderGraphResourceRegistry_ResourceCreateCallbackconst&) = delete;
+  RenderGraphResourceRegistry_ResourceCreateCallback(RenderGraphResourceRegistry_ResourceCreateCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12449 };
@@ -246,7 +246,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderGraphResourceRegistry_ResourceCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphResourceRegistry_ResourceCallback(RenderGraphResourceRegistry_ResourceCallbackconst&) = delete;
+  RenderGraphResourceRegistry_ResourceCallback(RenderGraphResourceRegistry_ResourceCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12450 };
@@ -343,7 +343,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderGraphResourceRegistry_RenderGraphResourcesData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphResourceRegistry_RenderGraphResourcesData(RenderGraphResourceRegistry_RenderGraphResourcesDataconst&) = delete;
+  RenderGraphResourceRegistry_RenderGraphResourcesData(RenderGraphResourceRegistry_RenderGraphResourcesData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12451 };
@@ -857,7 +857,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderGraphResourceRegistry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphResourceRegistry(RenderGraphResourceRegistryconst&) = delete;
+  RenderGraphResourceRegistry(RenderGraphResourceRegistry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12452 };

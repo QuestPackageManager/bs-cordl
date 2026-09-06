@@ -108,7 +108,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRIOBuffer__Open", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRIOBuffer__Open(IVRIOBuffer__Openconst&) = delete;
+  IVRIOBuffer__Open(IVRIOBuffer__Open const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8359 };
@@ -153,7 +153,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRIOBuffer__Close", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRIOBuffer__Close(IVRIOBuffer__Closeconst&) = delete;
+  IVRIOBuffer__Close(IVRIOBuffer__Close const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8360 };
@@ -198,7 +198,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRIOBuffer__Read", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRIOBuffer__Read(IVRIOBuffer__Readconst&) = delete;
+  IVRIOBuffer__Read(IVRIOBuffer__Read const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8361 };
@@ -243,7 +243,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRIOBuffer__Write", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRIOBuffer__Write(IVRIOBuffer__Writeconst&) = delete;
+  IVRIOBuffer__Write(IVRIOBuffer__Write const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8362 };
@@ -288,7 +288,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRIOBuffer__PropertyContainer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRIOBuffer__PropertyContainer(IVRIOBuffer__PropertyContainerconst&) = delete;
+  IVRIOBuffer__PropertyContainer(IVRIOBuffer__PropertyContainer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8363 };

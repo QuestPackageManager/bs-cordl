@@ -163,7 +163,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomFogParamsAnimator__AnimationCoroutine_d__2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomFogParamsAnimator__AnimationCoroutine_d__2(BloomFogParamsAnimator__AnimationCoroutine_d__2const&) = delete;
+  BloomFogParamsAnimator__AnimationCoroutine_d__2(BloomFogParamsAnimator__AnimationCoroutine_d__2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19442 };
@@ -255,7 +255,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomFogParamsAnimator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomFogParamsAnimator(BloomFogParamsAnimatorconst&) = delete;
+  BloomFogParamsAnimator(BloomFogParamsAnimator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19443 };

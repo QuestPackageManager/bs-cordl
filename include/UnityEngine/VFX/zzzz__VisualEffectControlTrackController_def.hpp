@@ -404,7 +404,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrackController_VisualEffectControlPlayableBehaviourComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualEffectControlTrackController_VisualEffectControlPlayableBehaviourComparer(VisualEffectControlTrackController_VisualEffectControlPlayableBehaviourComparerconst&) = delete;
+  VisualEffectControlTrackController_VisualEffectControlPlayableBehaviourComparer(VisualEffectControlTrackController_VisualEffectControlPlayableBehaviourComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19966 };
@@ -469,7 +469,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrackController___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualEffectControlTrackController___c(VisualEffectControlTrackController___cconst&) = delete;
+  VisualEffectControlTrackController___c(VisualEffectControlTrackController___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19967 };
@@ -648,7 +648,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrackController__ComputeRuntimeEvent_d__21", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualEffectControlTrackController__ComputeRuntimeEvent_d__21(VisualEffectControlTrackController__ComputeRuntimeEvent_d__21const&) = delete;
+  VisualEffectControlTrackController__ComputeRuntimeEvent_d__21(VisualEffectControlTrackController__ComputeRuntimeEvent_d__21 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19968 };
@@ -853,7 +853,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrackController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualEffectControlTrackController(VisualEffectControlTrackControllerconst&) = delete;
+  VisualEffectControlTrackController(VisualEffectControlTrackController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19969 };

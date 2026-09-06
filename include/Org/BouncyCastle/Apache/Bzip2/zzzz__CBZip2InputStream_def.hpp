@@ -525,7 +525,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CBZip2InputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CBZip2InputStream(CBZip2InputStreamconst&) = delete;
+  CBZip2InputStream(CBZip2InputStream const&) = delete;
 
   /// @brief Field NO_RAND_PART_A_STATE offset 0xffffffff size 0x4
   static constexpr int32_t NO_RAND_PART_A_STATE{ static_cast<int32_t>(0x5) };

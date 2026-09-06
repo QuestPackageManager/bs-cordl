@@ -93,7 +93,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderPipeline_StandardRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderPipeline_StandardRequest(RenderPipeline_StandardRequestconst&) = delete;
+  RenderPipeline_StandardRequest(RenderPipeline_StandardRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10816 };
@@ -216,7 +216,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderPipeline", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderPipeline(RenderPipelineconst&) = delete;
+  RenderPipeline(RenderPipeline const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10817 };

@@ -108,7 +108,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ECPoint_ValidityCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ECPoint_ValidityCallback(ECPoint_ValidityCallbackconst&) = delete;
+  ECPoint_ValidityCallback(ECPoint_ValidityCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1371 };
@@ -395,7 +395,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ECPoint", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ECPoint(ECPointconst&) = delete;
+  ECPoint(ECPoint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1372 };

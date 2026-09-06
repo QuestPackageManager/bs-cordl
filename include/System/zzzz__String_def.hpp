@@ -964,7 +964,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "String", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  String(Stringconst&) = delete;
+  String(String const&) = delete;
 
   /// @brief Field PROBABILISTICMAP_BLOCK_INDEX_MASK offset 0xffffffff size 0x4
   static constexpr int32_t PROBABILISTICMAP_BLOCK_INDEX_MASK{ static_cast<int32_t>(0x7) };

@@ -302,7 +302,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ShuffleExtensions__PickRandomElementsWithTombstone_d__1_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShuffleExtensions__PickRandomElementsWithTombstone_d__1_1(ShuffleExtensions__PickRandomElementsWithTombstone_d__1_1const&) = delete;
+  ShuffleExtensions__PickRandomElementsWithTombstone_d__1_1(ShuffleExtensions__PickRandomElementsWithTombstone_d__1_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20468 };
@@ -559,7 +559,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ShuffleExtensions__TakeWithTombstone_d__2_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShuffleExtensions__TakeWithTombstone_d__2_1(ShuffleExtensions__TakeWithTombstone_d__2_1const&) = delete;
+  ShuffleExtensions__TakeWithTombstone_d__2_1(ShuffleExtensions__TakeWithTombstone_d__2_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20469 };
@@ -803,7 +803,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ShuffleExtensions__ZipSkipTombstone_d__3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShuffleExtensions__ZipSkipTombstone_d__3(ShuffleExtensions__ZipSkipTombstone_d__3const&) = delete;
+  ShuffleExtensions__ZipSkipTombstone_d__3(ShuffleExtensions__ZipSkipTombstone_d__3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20470 };
@@ -930,7 +930,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ShuffleExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShuffleExtensions(ShuffleExtensionsconst&) = delete;
+  ShuffleExtensions(ShuffleExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20471 };

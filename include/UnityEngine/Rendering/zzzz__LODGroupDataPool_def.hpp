@@ -125,7 +125,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LODGroupDataPool_LodGroupShaderIDs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LODGroupDataPool_LodGroupShaderIDs(LODGroupDataPool_LodGroupShaderIDsconst&) = delete;
+  LODGroupDataPool_LodGroupShaderIDs(LODGroupDataPool_LodGroupShaderIDs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17761 };
@@ -261,7 +261,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LODGroupDataPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LODGroupDataPool(LODGroupDataPoolconst&) = delete;
+  LODGroupDataPool(LODGroupDataPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17762 };

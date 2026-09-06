@@ -167,7 +167,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Bevel___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Bevel___c(Bevel___cconst&) = delete;
+  Bevel___c(Bevel___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16854 };
@@ -246,7 +246,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Bevel___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Bevel___c__DisplayClass0_0(Bevel___c__DisplayClass0_0const&) = delete;
+  Bevel___c__DisplayClass0_0(Bevel___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16855 };
@@ -314,7 +314,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Bevel___c__DisplayClass0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Bevel___c__DisplayClass0_1(Bevel___c__DisplayClass0_1const&) = delete;
+  Bevel___c__DisplayClass0_1(Bevel___c__DisplayClass0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16856 };
@@ -376,7 +376,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Bevel___c__DisplayClass0_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Bevel___c__DisplayClass0_2(Bevel___c__DisplayClass0_2const&) = delete;
+  Bevel___c__DisplayClass0_2(Bevel___c__DisplayClass0_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16857 };
@@ -448,7 +448,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Bevel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Bevel(Bevelconst&) = delete;
+  Bevel(Bevel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16858 };

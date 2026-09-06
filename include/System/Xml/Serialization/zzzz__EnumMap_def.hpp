@@ -93,7 +93,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnumMap_EnumMapMember", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumMap_EnumMapMember(EnumMap_EnumMapMemberconst&) = delete;
+  EnumMap_EnumMapMember(EnumMap_EnumMapMember const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9561 };
@@ -216,7 +216,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnumMap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumMap(EnumMapconst&) = delete;
+  EnumMap(EnumMap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9562 };

@@ -147,7 +147,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpHeaders_HeaderBucket", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpHeaders_HeaderBucket(HttpHeaders_HeaderBucketconst&) = delete;
+  HttpHeaders_HeaderBucket(HttpHeaders_HeaderBucket const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20310 };
@@ -289,7 +289,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpHeaders__GetEnumerator_d__19", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpHeaders__GetEnumerator_d__19(HttpHeaders__GetEnumerator_d__19const&) = delete;
+  HttpHeaders__GetEnumerator_d__19(HttpHeaders__GetEnumerator_d__19 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20311 };
@@ -480,7 +480,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpHeaders", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpHeaders(HttpHeadersconst&) = delete;
+  HttpHeaders(HttpHeaders const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20312 };

@@ -93,7 +93,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WTauNafMultiplier_WTauNafCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WTauNafMultiplier_WTauNafCallback(WTauNafMultiplier_WTauNafCallbackconst&) = delete;
+  WTauNafMultiplier_WTauNafCallback(WTauNafMultiplier_WTauNafCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1547 };
@@ -157,7 +157,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WTauNafMultiplier", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WTauNafMultiplier(WTauNafMultiplierconst&) = delete;
+  WTauNafMultiplier(WTauNafMultiplier const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1548 };

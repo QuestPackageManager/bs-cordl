@@ -324,7 +324,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TexturePacker_JsonArray_SpriteDataObject", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TexturePacker_JsonArray_SpriteDataObject(TexturePacker_JsonArray_SpriteDataObjectconst&) = delete;
+  TexturePacker_JsonArray_SpriteDataObject(TexturePacker_JsonArray_SpriteDataObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16032 };
@@ -379,7 +379,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TexturePacker_JsonArray", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TexturePacker_JsonArray(TexturePacker_JsonArrayconst&) = delete;
+  TexturePacker_JsonArray(TexturePacker_JsonArray const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16033 };

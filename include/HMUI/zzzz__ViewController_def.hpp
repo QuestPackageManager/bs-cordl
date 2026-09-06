@@ -335,7 +335,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ViewController__DismissViewControllerCoroutine_d__54", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ViewController__DismissViewControllerCoroutine_d__54(ViewController__DismissViewControllerCoroutine_d__54const&) = delete;
+  ViewController__DismissViewControllerCoroutine_d__54(ViewController__DismissViewControllerCoroutine_d__54 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20970 };
@@ -512,7 +512,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ViewController__PresentViewControllerCoroutine_d__50", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ViewController__PresentViewControllerCoroutine_d__50(ViewController__PresentViewControllerCoroutine_d__50const&) = delete;
+  ViewController__PresentViewControllerCoroutine_d__50(ViewController__PresentViewControllerCoroutine_d__50 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20971 };
@@ -689,7 +689,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ViewController__ReplaceViewControllerCoroutine_d__52", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ViewController__ReplaceViewControllerCoroutine_d__52(ViewController__ReplaceViewControllerCoroutine_d__52const&) = delete;
+  ViewController__ReplaceViewControllerCoroutine_d__52(ViewController__ReplaceViewControllerCoroutine_d__52 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20972 };
@@ -1002,7 +1002,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ViewController(ViewControllerconst&) = delete;
+  ViewController(ViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20973 };

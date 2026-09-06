@@ -903,7 +903,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_LaterInitParam", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlTextReaderImpl_LaterInitParam(XmlTextReaderImpl_LaterInitParamconst&) = delete;
+  XmlTextReaderImpl_LaterInitParam(XmlTextReaderImpl_LaterInitParam const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9326 };
@@ -1189,7 +1189,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_XmlContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlTextReaderImpl_XmlContext(XmlTextReaderImpl_XmlContextconst&) = delete;
+  XmlTextReaderImpl_XmlContext(XmlTextReaderImpl_XmlContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9329 };
@@ -1273,7 +1273,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_NoNamespaceManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlTextReaderImpl_NoNamespaceManager(XmlTextReaderImpl_NoNamespaceManagerconst&) = delete;
+  XmlTextReaderImpl_NoNamespaceManager(XmlTextReaderImpl_NoNamespaceManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9330 };
@@ -1458,7 +1458,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_DtdParserProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlTextReaderImpl_DtdParserProxy(XmlTextReaderImpl_DtdParserProxyconst&) = delete;
+  XmlTextReaderImpl_DtdParserProxy(XmlTextReaderImpl_DtdParserProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9331 };
@@ -1778,7 +1778,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_NodeData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlTextReaderImpl_NodeData(XmlTextReaderImpl_NodeDataconst&) = delete;
+  XmlTextReaderImpl_NodeData(XmlTextReaderImpl_NodeData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9332 };
@@ -1927,7 +1927,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer(XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparerconst&) = delete;
+  XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer(XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9333 };
@@ -1965,7 +1965,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_OnDefaultAttributeUseDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlTextReaderImpl_OnDefaultAttributeUseDelegate(XmlTextReaderImpl_OnDefaultAttributeUseDelegateconst&) = delete;
+  XmlTextReaderImpl_OnDefaultAttributeUseDelegate(XmlTextReaderImpl_OnDefaultAttributeUseDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9334 };
@@ -3746,7 +3746,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlTextReaderImpl(XmlTextReaderImplconst&) = delete;
+  XmlTextReaderImpl(XmlTextReaderImpl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9335 };

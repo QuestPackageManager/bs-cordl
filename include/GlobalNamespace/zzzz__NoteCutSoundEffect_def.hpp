@@ -81,7 +81,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteCutSoundEffect_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteCutSoundEffect_Pool(NoteCutSoundEffect_Poolconst&) = delete;
+  NoteCutSoundEffect_Pool(NoteCutSoundEffect_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5572 };
@@ -398,7 +398,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteCutSoundEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteCutSoundEffect(NoteCutSoundEffectconst&) = delete;
+  NoteCutSoundEffect(NoteCutSoundEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5573 };

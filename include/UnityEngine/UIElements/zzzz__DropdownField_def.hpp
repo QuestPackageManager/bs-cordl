@@ -71,7 +71,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DropdownField_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DropdownField_UxmlFactory(DropdownField_UxmlFactoryconst&) = delete;
+  DropdownField_UxmlFactory(DropdownField_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4181 };
@@ -128,7 +128,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DropdownField_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DropdownField_UxmlTraits(DropdownField_UxmlTraitsconst&) = delete;
+  DropdownField_UxmlTraits(DropdownField_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4182 };
@@ -182,7 +182,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DropdownField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DropdownField(DropdownFieldconst&) = delete;
+  DropdownField(DropdownField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4183 };

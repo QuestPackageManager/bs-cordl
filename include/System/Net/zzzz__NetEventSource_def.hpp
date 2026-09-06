@@ -49,7 +49,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetEventSource_Keywords", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetEventSource_Keywords(NetEventSource_Keywordsconst&) = delete;
+  NetEventSource_Keywords(NetEventSource_Keywords const&) = delete;
 
   /// @brief Field Debug value: I64(2)
   static ::System::Diagnostics::Tracing::EventKeywords const Debug;
@@ -189,7 +189,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetEventSource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetEventSource(NetEventSourceconst&) = delete;
+  NetEventSource(NetEventSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11448 };

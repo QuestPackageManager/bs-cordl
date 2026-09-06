@@ -99,7 +99,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GPUDrivenProcessor_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GPUDrivenProcessor_BindingsMarshaller(GPUDrivenProcessor_BindingsMarshallerconst&) = delete;
+  GPUDrivenProcessor_BindingsMarshaller(GPUDrivenProcessor_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10879 };
@@ -150,7 +150,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GPUDrivenProcessor___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GPUDrivenProcessor___c(GPUDrivenProcessor___cconst&) = delete;
+  GPUDrivenProcessor___c(GPUDrivenProcessor___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10880 };
@@ -332,7 +332,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GPUDrivenProcessor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GPUDrivenProcessor(GPUDrivenProcessorconst&) = delete;
+  GPUDrivenProcessor(GPUDrivenProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10881 };

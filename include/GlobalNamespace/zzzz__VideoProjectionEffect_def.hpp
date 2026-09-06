@@ -137,7 +137,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionEffect_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VideoProjectionEffect_InitData(VideoProjectionEffect_InitDataconst&) = delete;
+  VideoProjectionEffect_InitData(VideoProjectionEffect_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5957 };
@@ -190,7 +190,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionBehavior_VideoProjectionEffect___c__DisplayClass8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VideoProjectionBehavior_VideoProjectionEffect___c__DisplayClass8_0(VideoProjectionBehavior_VideoProjectionEffect___c__DisplayClass8_0const&) = delete;
+  VideoProjectionBehavior_VideoProjectionEffect___c__DisplayClass8_0(VideoProjectionBehavior_VideoProjectionEffect___c__DisplayClass8_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5958 };
@@ -369,7 +369,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionEffect_VideoProjectionBehavior", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VideoProjectionEffect_VideoProjectionBehavior(VideoProjectionEffect_VideoProjectionBehaviorconst&) = delete;
+  VideoProjectionEffect_VideoProjectionBehavior(VideoProjectionEffect_VideoProjectionBehavior const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5960 };
@@ -462,7 +462,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior(VideoProjectionEffect_BeatmapEditorVideoProjectionBehaviorconst&) = delete;
+  VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior(VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5961 };
@@ -510,7 +510,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionEffect_GameplayVideoProjectionBehavior", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VideoProjectionEffect_GameplayVideoProjectionBehavior(VideoProjectionEffect_GameplayVideoProjectionBehaviorconst&) = delete;
+  VideoProjectionEffect_GameplayVideoProjectionBehavior(VideoProjectionEffect_GameplayVideoProjectionBehavior const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5962 };
@@ -633,7 +633,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VideoProjectionEffect(VideoProjectionEffectconst&) = delete;
+  VideoProjectionEffect(VideoProjectionEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5963 };

@@ -54,7 +54,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NavMesh_OnNavMeshPreUpdate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NavMesh_OnNavMeshPreUpdate(NavMesh_OnNavMeshPreUpdateconst&) = delete;
+  NavMesh_OnNavMeshPreUpdate(NavMesh_OnNavMeshPreUpdate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23409 };
@@ -101,7 +101,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NavMesh", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NavMesh(NavMeshconst&) = delete;
+  NavMesh(NavMesh const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23410 };

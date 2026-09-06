@@ -53,7 +53,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Vector", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector(Vectorconst&) = delete;
+  Vector(Vector const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3581 };

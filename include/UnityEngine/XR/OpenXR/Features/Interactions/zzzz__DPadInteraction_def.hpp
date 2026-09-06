@@ -282,7 +282,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DPadInteraction_DPad", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DPadInteraction_DPad(DPadInteraction_DPadconst&) = delete;
+  DPadInteraction_DPad(DPadInteraction_DPad const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18565 };
@@ -419,7 +419,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DPadInteraction___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DPadInteraction___c(DPadInteraction___cconst&) = delete;
+  DPadInteraction___c(DPadInteraction___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18566 };
@@ -581,7 +581,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DPadInteraction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DPadInteraction(DPadInteractionconst&) = delete;
+  DPadInteraction(DPadInteraction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18567 };

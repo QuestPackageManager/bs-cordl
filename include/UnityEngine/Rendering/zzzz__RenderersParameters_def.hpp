@@ -197,7 +197,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderersParameters_ParamNames", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderersParameters_ParamNames(RenderersParameters_ParamNamesconst&) = delete;
+  RenderersParameters_ParamNames(RenderersParameters_ParamNames const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17795 };

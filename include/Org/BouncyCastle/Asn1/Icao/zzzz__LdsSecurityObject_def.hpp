@@ -141,7 +141,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LdsSecurityObject", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LdsSecurityObject(LdsSecurityObjectconst&) = delete;
+  LdsSecurityObject(LdsSecurityObject const&) = delete;
 
   /// @brief Field UBDataGroups offset 0xffffffff size 0x4
   static constexpr int32_t UBDataGroups{ static_cast<int32_t>(0x10) };

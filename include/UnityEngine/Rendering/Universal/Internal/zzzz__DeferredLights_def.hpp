@@ -446,7 +446,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DeferredLights_ShaderConstants", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeferredLights_ShaderConstants(DeferredLights_ShaderConstantsconst&) = delete;
+  DeferredLights_ShaderConstants(DeferredLights_ShaderConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13054 };
@@ -633,7 +633,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DeferredLights_SetupLightPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeferredLights_SetupLightPassData(DeferredLights_SetupLightPassDataconst&) = delete;
+  DeferredLights_SetupLightPassData(DeferredLights_SetupLightPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13057 };
@@ -712,7 +712,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DeferredLights___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeferredLights___c(DeferredLights___cconst&) = delete;
+  DeferredLights___c(DeferredLights___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13058 };
@@ -1574,7 +1574,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DeferredLights", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeferredLights(DeferredLightsconst&) = delete;
+  DeferredLights(DeferredLights const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13059 };

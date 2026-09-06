@@ -499,7 +499,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XsdBuilder_XsdBuildFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XsdBuilder_XsdBuildFunction(XsdBuilder_XsdBuildFunctionconst&) = delete;
+  XsdBuilder_XsdBuildFunction(XsdBuilder_XsdBuildFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9846 };
@@ -537,7 +537,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XsdBuilder_XsdInitFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XsdBuilder_XsdInitFunction(XsdBuilder_XsdInitFunctionconst&) = delete;
+  XsdBuilder_XsdInitFunction(XsdBuilder_XsdInitFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9847 };
@@ -575,7 +575,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XsdBuilder_XsdEndChildFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XsdBuilder_XsdEndChildFunction(XsdBuilder_XsdEndChildFunctionconst&) = delete;
+  XsdBuilder_XsdEndChildFunction(XsdBuilder_XsdEndChildFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9848 };
@@ -628,7 +628,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XsdBuilder_XsdAttributeEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XsdBuilder_XsdAttributeEntry(XsdBuilder_XsdAttributeEntryconst&) = delete;
+  XsdBuilder_XsdAttributeEntry(XsdBuilder_XsdAttributeEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9849 };
@@ -741,7 +741,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XsdBuilder_XsdEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XsdBuilder_XsdEntry(XsdBuilder_XsdEntryconst&) = delete;
+  XsdBuilder_XsdEntry(XsdBuilder_XsdEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9850 };
@@ -832,7 +832,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XsdBuilder_BuilderNamespaceManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XsdBuilder_BuilderNamespaceManager(XsdBuilder_BuilderNamespaceManagerconst&) = delete;
+  XsdBuilder_BuilderNamespaceManager(XsdBuilder_BuilderNamespaceManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9851 };
@@ -2201,7 +2201,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XsdBuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XsdBuilder(XsdBuilderconst&) = delete;
+  XsdBuilder(XsdBuilder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9852 };

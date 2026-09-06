@@ -93,7 +93,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorArrayLightWithIds_ColorArrayLightWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorArrayLightWithIds_ColorArrayLightWithId(ColorArrayLightWithIds_ColorArrayLightWithIdconst&) = delete;
+  ColorArrayLightWithIds_ColorArrayLightWithId(ColorArrayLightWithIds_ColorArrayLightWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19515 };
@@ -245,7 +245,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorArrayLightWithIds", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorArrayLightWithIds(ColorArrayLightWithIdsconst&) = delete;
+  ColorArrayLightWithIds(ColorArrayLightWithIds const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19516 };

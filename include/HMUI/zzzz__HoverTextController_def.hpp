@@ -142,7 +142,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HoverTextController__HideTextCoroutine_d__12", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HoverTextController__HideTextCoroutine_d__12(HoverTextController__HideTextCoroutine_d__12const&) = delete;
+  HoverTextController__HideTextCoroutine_d__12(HoverTextController__HideTextCoroutine_d__12 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19052 };
@@ -263,7 +263,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HoverTextController__ShowTextCoroutine_d__10", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HoverTextController__ShowTextCoroutine_d__10(HoverTextController__ShowTextCoroutine_d__10const&) = delete;
+  HoverTextController__ShowTextCoroutine_d__10(HoverTextController__ShowTextCoroutine_d__10 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19053 };
@@ -394,7 +394,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HoverTextController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HoverTextController(HoverTextControllerconst&) = delete;
+  HoverTextController(HoverTextController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19054 };

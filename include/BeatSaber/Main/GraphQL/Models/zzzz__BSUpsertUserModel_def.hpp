@@ -89,7 +89,7 @@ public:
   // }]
   // @brief delete copy ctor to prevent accidental deref copies
   BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel(
-      BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModelconst&) = delete;
+      BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20569 };
@@ -183,7 +183,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel(XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModelconst&) = delete;
+  XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel(XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20570 };
@@ -258,7 +258,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BSUpsertUserModel_XocBeatGamesUserUpsertModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BSUpsertUserModel_XocBeatGamesUserUpsertModel(BSUpsertUserModel_XocBeatGamesUserUpsertModelconst&) = delete;
+  BSUpsertUserModel_XocBeatGamesUserUpsertModel(BSUpsertUserModel_XocBeatGamesUserUpsertModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20571 };
@@ -327,7 +327,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BSUpsertUserModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BSUpsertUserModel(BSUpsertUserModelconst&) = delete;
+  BSUpsertUserModel(BSUpsertUserModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20572 };

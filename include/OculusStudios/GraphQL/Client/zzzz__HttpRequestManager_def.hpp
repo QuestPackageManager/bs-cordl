@@ -378,7 +378,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpRequestManager_ByteArrayResultCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpRequestManager_ByteArrayResultCallback(HttpRequestManager_ByteArrayResultCallbackconst&) = delete;
+  HttpRequestManager_ByteArrayResultCallback(HttpRequestManager_ByteArrayResultCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20426 };
@@ -426,7 +426,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpRequestManager___c__DisplayClass30_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpRequestManager___c__DisplayClass30_0(HttpRequestManager___c__DisplayClass30_0const&) = delete;
+  HttpRequestManager___c__DisplayClass30_0(HttpRequestManager___c__DisplayClass30_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20427 };
@@ -1022,7 +1022,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpRequestManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpRequestManager(HttpRequestManagerconst&) = delete;
+  HttpRequestManager(HttpRequestManager const&) = delete;
 
   /// @brief Field FAST_FALLBACK_TEST_HOST offset 0xffffffff size 0x8
   static constexpr ::ConstString FAST_FALLBACK_TEST_HOST{ u"graph.facebook.com" };

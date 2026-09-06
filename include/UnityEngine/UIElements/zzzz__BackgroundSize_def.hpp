@@ -224,7 +224,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundSize_SizeTypeProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_BackgroundSize_SizeTypeProperty(PropertyBag_BackgroundSize_SizeTypePropertyconst&) = delete;
+  PropertyBag_BackgroundSize_SizeTypeProperty(PropertyBag_BackgroundSize_SizeTypeProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4012 };
@@ -309,7 +309,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundSize_XProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_BackgroundSize_XProperty(PropertyBag_BackgroundSize_XPropertyconst&) = delete;
+  PropertyBag_BackgroundSize_XProperty(PropertyBag_BackgroundSize_XProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4013 };
@@ -394,7 +394,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundSize_YProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_BackgroundSize_YProperty(PropertyBag_BackgroundSize_YPropertyconst&) = delete;
+  PropertyBag_BackgroundSize_YProperty(PropertyBag_BackgroundSize_YProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4014 };
@@ -449,7 +449,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BackgroundSize_PropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BackgroundSize_PropertyBag(BackgroundSize_PropertyBagconst&) = delete;
+  BackgroundSize_PropertyBag(BackgroundSize_PropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4015 };

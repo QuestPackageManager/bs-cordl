@@ -86,7 +86,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LowLevelDictionary_2_Entry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LowLevelDictionary_2_Entry(LowLevelDictionary_2_Entryconst&) = delete;
+  LowLevelDictionary_2_Entry(LowLevelDictionary_2_Entry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3787 };
@@ -142,7 +142,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LowLevelDictionary_2_DefaultComparer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LowLevelDictionary_2_DefaultComparer_1(LowLevelDictionary_2_DefaultComparer_1const&) = delete;
+  LowLevelDictionary_2_DefaultComparer_1(LowLevelDictionary_2_DefaultComparer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3788 };
@@ -246,7 +246,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LowLevelDictionary_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LowLevelDictionary_2(LowLevelDictionary_2const&) = delete;
+  LowLevelDictionary_2(LowLevelDictionary_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3789 };

@@ -387,7 +387,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DataBindingManager_BindingData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataBindingManager_BindingData(DataBindingManager_BindingDataconst&) = delete;
+  DataBindingManager_BindingData(DataBindingManager_BindingData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4042 };
@@ -553,7 +553,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HierarchyBindingTracker_DataBindingManager_HierarchicalBindingsSorter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HierarchyBindingTracker_DataBindingManager_HierarchicalBindingsSorter(HierarchyBindingTracker_DataBindingManager_HierarchicalBindingsSorterconst&) = delete;
+  HierarchyBindingTracker_DataBindingManager_HierarchicalBindingsSorter(HierarchyBindingTracker_DataBindingManager_HierarchicalBindingsSorter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4044 };
@@ -726,7 +726,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DataBindingManager_HierarchyBindingTracker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataBindingManager_HierarchyBindingTracker(DataBindingManager_HierarchyBindingTrackerconst&) = delete;
+  DataBindingManager_HierarchyBindingTracker(DataBindingManager_HierarchyBindingTracker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4045 };
@@ -856,7 +856,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HierarchyDataSourceTracker_DataBindingManager_SourceInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HierarchyDataSourceTracker_DataBindingManager_SourceInfo(HierarchyDataSourceTracker_DataBindingManager_SourceInfoconst&) = delete;
+  HierarchyDataSourceTracker_DataBindingManager_SourceInfo(HierarchyDataSourceTracker_DataBindingManager_SourceInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4046 };
@@ -938,7 +938,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HierarchyDataSourceTracker_DataBindingManager_InvalidateDataSourcesTraversal", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HierarchyDataSourceTracker_DataBindingManager_InvalidateDataSourcesTraversal(HierarchyDataSourceTracker_DataBindingManager_InvalidateDataSourcesTraversalconst&) = delete;
+  HierarchyDataSourceTracker_DataBindingManager_InvalidateDataSourcesTraversal(HierarchyDataSourceTracker_DataBindingManager_InvalidateDataSourcesTraversal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4047 };
@@ -995,7 +995,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HierarchyDataSourceTracker_DataBindingManager_ObjectComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HierarchyDataSourceTracker_DataBindingManager_ObjectComparer(HierarchyDataSourceTracker_DataBindingManager_ObjectComparerconst&) = delete;
+  HierarchyDataSourceTracker_DataBindingManager_ObjectComparer(HierarchyDataSourceTracker_DataBindingManager_ObjectComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4048 };
@@ -1202,7 +1202,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DataBindingManager_HierarchyDataSourceTracker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataBindingManager_HierarchyDataSourceTracker(DataBindingManager_HierarchyDataSourceTrackerconst&) = delete;
+  DataBindingManager_HierarchyDataSourceTracker(DataBindingManager_HierarchyDataSourceTracker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4049 };
@@ -1493,7 +1493,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DataBindingManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataBindingManager(DataBindingManagerconst&) = delete;
+  DataBindingManager(DataBindingManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4050 };

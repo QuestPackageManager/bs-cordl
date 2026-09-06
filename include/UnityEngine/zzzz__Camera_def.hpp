@@ -808,7 +808,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Camera_CameraCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Camera_CameraCallback(Camera_CameraCallbackconst&) = delete;
+  Camera_CameraCallback(Camera_CameraCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10090 };
@@ -2348,7 +2348,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Camera", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Camera(Cameraconst&) = delete;
+  Camera(Camera const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10091 };

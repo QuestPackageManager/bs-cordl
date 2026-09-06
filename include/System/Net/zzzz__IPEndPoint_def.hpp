@@ -115,7 +115,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IPEndPoint", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IPEndPoint(IPEndPointconst&) = delete;
+  IPEndPoint(IPEndPoint const&) = delete;
 
   /// @brief Field AnyPort offset 0xffffffff size 0x4
   static constexpr int32_t AnyPort{ static_cast<int32_t>(0x0) };

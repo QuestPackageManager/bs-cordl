@@ -225,7 +225,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MainSystemInit___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainSystemInit___c(MainSystemInit___cconst&) = delete;
+  MainSystemInit___c(MainSystemInit___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21029 };
@@ -273,7 +273,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MainSystemInit___c__DisplayClass27_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainSystemInit___c__DisplayClass27_0(MainSystemInit___c__DisplayClass27_0const&) = delete;
+  MainSystemInit___c__DisplayClass27_0(MainSystemInit___c__DisplayClass27_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21030 };
@@ -588,7 +588,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MainSystemInit", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainSystemInit(MainSystemInitconst&) = delete;
+  MainSystemInit(MainSystemInit const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21031 };

@@ -153,7 +153,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentOverrideSettingsPanelController_Elements", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentOverrideSettingsPanelController_Elements(EnvironmentOverrideSettingsPanelController_Elementsconst&) = delete;
+  EnvironmentOverrideSettingsPanelController_Elements(EnvironmentOverrideSettingsPanelController_Elements const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6825 };
@@ -232,7 +232,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentOverrideSettingsPanelController___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentOverrideSettingsPanelController___c(EnvironmentOverrideSettingsPanelController___cconst&) = delete;
+  EnvironmentOverrideSettingsPanelController___c(EnvironmentOverrideSettingsPanelController___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6826 };
@@ -378,7 +378,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentOverrideSettingsPanelController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentOverrideSettingsPanelController(EnvironmentOverrideSettingsPanelControllerconst&) = delete;
+  EnvironmentOverrideSettingsPanelController(EnvironmentOverrideSettingsPanelController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6827 };

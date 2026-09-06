@@ -124,7 +124,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TreeViewReorderableDragAndDropController_DropData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TreeViewReorderableDragAndDropController_DropData(TreeViewReorderableDragAndDropController_DropDataconst&) = delete;
+  TreeViewReorderableDragAndDropController_DropData(TreeViewReorderableDragAndDropController_DropData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4411 };
@@ -250,7 +250,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TreeViewReorderableDragAndDropController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TreeViewReorderableDragAndDropController(TreeViewReorderableDragAndDropControllerconst&) = delete;
+  TreeViewReorderableDragAndDropController(TreeViewReorderableDragAndDropController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4412 };

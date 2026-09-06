@@ -55,7 +55,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioSampleProvider_SampleFramesHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioSampleProvider_SampleFramesHandler(AudioSampleProvider_SampleFramesHandlerconst&) = delete;
+  AudioSampleProvider_SampleFramesHandler(AudioSampleProvider_SampleFramesHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21076 };
@@ -117,7 +117,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioSampleProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioSampleProvider(AudioSampleProviderconst&) = delete;
+  AudioSampleProvider(AudioSampleProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21077 };

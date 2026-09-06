@@ -72,7 +72,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpCompressedDataGenerator_SafeCBZip2OutputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PgpCompressedDataGenerator_SafeCBZip2OutputStream(PgpCompressedDataGenerator_SafeCBZip2OutputStreamconst&) = delete;
+  PgpCompressedDataGenerator_SafeCBZip2OutputStream(PgpCompressedDataGenerator_SafeCBZip2OutputStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1630 };
@@ -110,7 +110,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpCompressedDataGenerator_SafeZOutputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PgpCompressedDataGenerator_SafeZOutputStream(PgpCompressedDataGenerator_SafeZOutputStreamconst&) = delete;
+  PgpCompressedDataGenerator_SafeZOutputStream(PgpCompressedDataGenerator_SafeZOutputStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1631 };
@@ -208,7 +208,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpCompressedDataGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PgpCompressedDataGenerator(PgpCompressedDataGeneratorconst&) = delete;
+  PgpCompressedDataGenerator(PgpCompressedDataGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1632 };

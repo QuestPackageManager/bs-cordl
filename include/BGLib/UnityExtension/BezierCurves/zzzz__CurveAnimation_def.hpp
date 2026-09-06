@@ -86,7 +86,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CurveAnimation_CurveEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CurveAnimation_CurveEvent(CurveAnimation_CurveEventconst&) = delete;
+  CurveAnimation_CurveEvent(CurveAnimation_CurveEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20825 };
@@ -123,7 +123,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CurveAnimation_CurveEvent_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CurveAnimation_CurveEvent_1(CurveAnimation_CurveEvent_1const&) = delete;
+  CurveAnimation_CurveEvent_1(CurveAnimation_CurveEvent_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20826 };
@@ -245,7 +245,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CurveAnimation__Animate_d__20", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CurveAnimation__Animate_d__20(CurveAnimation__Animate_d__20const&) = delete;
+  CurveAnimation__Animate_d__20(CurveAnimation__Animate_d__20 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20827 };
@@ -447,7 +447,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CurveAnimation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CurveAnimation(CurveAnimationconst&) = delete;
+  CurveAnimation(CurveAnimation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20828 };

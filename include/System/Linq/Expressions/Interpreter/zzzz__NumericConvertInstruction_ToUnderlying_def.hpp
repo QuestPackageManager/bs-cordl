@@ -51,7 +51,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NumericConvertInstruction_ToUnderlying", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NumericConvertInstruction_ToUnderlying(NumericConvertInstruction_ToUnderlyingconst&) = delete;
+  NumericConvertInstruction_ToUnderlying(NumericConvertInstruction_ToUnderlying const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16555 };

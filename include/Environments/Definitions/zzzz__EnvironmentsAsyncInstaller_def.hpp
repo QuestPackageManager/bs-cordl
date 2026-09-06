@@ -89,7 +89,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsAsyncInstaller___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentsAsyncInstaller___c(EnvironmentsAsyncInstaller___cconst&) = delete;
+  EnvironmentsAsyncInstaller___c(EnvironmentsAsyncInstaller___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15489 };
@@ -160,7 +160,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentsAsyncInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentsAsyncInstaller(EnvironmentsAsyncInstallerconst&) = delete;
+  EnvironmentsAsyncInstaller(EnvironmentsAsyncInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15490 };

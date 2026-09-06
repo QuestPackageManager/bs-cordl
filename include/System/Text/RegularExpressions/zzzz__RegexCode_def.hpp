@@ -145,7 +145,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RegexCode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RegexCode(RegexCodeconst&) = delete;
+  RegexCode(RegexCode const&) = delete;
 
   /// @brief Field Back offset 0xffffffff size 0x4
   static constexpr int32_t Back{ static_cast<int32_t>(0x80) };

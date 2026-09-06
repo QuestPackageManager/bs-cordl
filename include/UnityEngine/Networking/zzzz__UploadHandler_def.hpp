@@ -49,7 +49,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UploadHandler_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UploadHandler_BindingsMarshaller(UploadHandler_BindingsMarshallerconst&) = delete;
+  UploadHandler_BindingsMarshaller(UploadHandler_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22305 };
@@ -115,7 +115,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UploadHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UploadHandler(UploadHandlerconst&) = delete;
+  UploadHandler(UploadHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22306 };

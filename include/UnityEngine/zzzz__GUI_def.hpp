@@ -86,7 +86,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GUI_WindowFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GUI_WindowFunction(GUI_WindowFunctionconst&) = delete;
+  GUI_WindowFunction(GUI_WindowFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19870 };
@@ -311,7 +311,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GUI", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GUI(GUIconst&) = delete;
+  GUI(GUI const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19871 };

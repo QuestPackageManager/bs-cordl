@@ -92,7 +92,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPackName", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPackName(QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPackNameconst&) = delete;
+  QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPackName(QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPackName const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15063 };
@@ -175,7 +175,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPack(QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPackconst&) = delete;
+  QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPack(QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15064 };
@@ -248,7 +248,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPack(QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPackconst&) = delete;
+  QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPack(QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15065 };
@@ -321,7 +321,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySetupData_QuickPlaySongPacksOverride", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QuickPlaySetupData_QuickPlaySongPacksOverride(QuickPlaySetupData_QuickPlaySongPacksOverrideconst&) = delete;
+  QuickPlaySetupData_QuickPlaySongPacksOverride(QuickPlaySetupData_QuickPlaySongPacksOverride const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15066 };
@@ -384,7 +384,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySetupData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QuickPlaySetupData(QuickPlaySetupDataconst&) = delete;
+  QuickPlaySetupData(QuickPlaySetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15067 };

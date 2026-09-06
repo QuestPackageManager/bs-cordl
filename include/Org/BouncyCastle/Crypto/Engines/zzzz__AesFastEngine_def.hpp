@@ -244,7 +244,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AesFastEngine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AesFastEngine(AesFastEngineconst&) = delete;
+  AesFastEngine(AesFastEngine const&) = delete;
 
   /// @brief Field BLOCK_SIZE offset 0xffffffff size 0x4
   static constexpr int32_t BLOCK_SIZE{ static_cast<int32_t>(0x10) };

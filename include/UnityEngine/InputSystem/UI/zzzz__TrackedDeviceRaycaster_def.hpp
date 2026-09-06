@@ -201,7 +201,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TrackedDeviceRaycaster___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrackedDeviceRaycaster___c(TrackedDeviceRaycaster___cconst&) = delete;
+  TrackedDeviceRaycaster___c(TrackedDeviceRaycaster___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8873 };
@@ -393,7 +393,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TrackedDeviceRaycaster", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrackedDeviceRaycaster(TrackedDeviceRaycasterconst&) = delete;
+  TrackedDeviceRaycaster(TrackedDeviceRaycaster const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8874 };

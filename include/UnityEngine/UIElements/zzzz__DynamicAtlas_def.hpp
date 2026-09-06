@@ -143,7 +143,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DynamicAtlas_TextureInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicAtlas_TextureInfo(DynamicAtlas_TextureInfoconst&) = delete;
+  DynamicAtlas_TextureInfo(DynamicAtlas_TextureInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4001 };
@@ -359,7 +359,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DynamicAtlas", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicAtlas(DynamicAtlasconst&) = delete;
+  DynamicAtlas(DynamicAtlas const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4002 };

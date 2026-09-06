@@ -194,7 +194,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPacketSerializer_2___c__12_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPacketSerializer_2___c__12_1(NetworkPacketSerializer_2___c__12_1const&) = delete;
+  NetworkPacketSerializer_2___c__12_1(NetworkPacketSerializer_2___c__12_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18228 };
@@ -244,7 +244,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPacketSerializer_2___c__DisplayClass10_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPacketSerializer_2___c__DisplayClass10_0_1(NetworkPacketSerializer_2___c__DisplayClass10_0_1const&) = delete;
+  NetworkPacketSerializer_2___c__DisplayClass10_0_1(NetworkPacketSerializer_2___c__DisplayClass10_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18229 };
@@ -309,7 +309,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPacketSerializer_2___c__DisplayClass11_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPacketSerializer_2___c__DisplayClass11_0_1(NetworkPacketSerializer_2___c__DisplayClass11_0_1const&) = delete;
+  NetworkPacketSerializer_2___c__DisplayClass11_0_1(NetworkPacketSerializer_2___c__DisplayClass11_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18230 };
@@ -365,7 +365,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPacketSerializer_2___c__DisplayClass13_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPacketSerializer_2___c__DisplayClass13_0_1(NetworkPacketSerializer_2___c__DisplayClass13_0_1const&) = delete;
+  NetworkPacketSerializer_2___c__DisplayClass13_0_1(NetworkPacketSerializer_2___c__DisplayClass13_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18231 };
@@ -439,7 +439,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPacketSerializer_2___c__DisplayClass14_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPacketSerializer_2___c__DisplayClass14_0_1(NetworkPacketSerializer_2___c__DisplayClass14_0_1const&) = delete;
+  NetworkPacketSerializer_2___c__DisplayClass14_0_1(NetworkPacketSerializer_2___c__DisplayClass14_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18232 };
@@ -497,7 +497,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPacketSerializer_2___c__DisplayClass16_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPacketSerializer_2___c__DisplayClass16_0(NetworkPacketSerializer_2___c__DisplayClass16_0const&) = delete;
+  NetworkPacketSerializer_2___c__DisplayClass16_0(NetworkPacketSerializer_2___c__DisplayClass16_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18233 };
@@ -721,7 +721,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPacketSerializer_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPacketSerializer_2(NetworkPacketSerializer_2const&) = delete;
+  NetworkPacketSerializer_2(NetworkPacketSerializer_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18234 };

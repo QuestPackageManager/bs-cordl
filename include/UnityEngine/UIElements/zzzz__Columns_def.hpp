@@ -640,7 +640,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Columns", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Columns(Columnsconst&) = delete;
+  Columns(Columns const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4266 };
@@ -773,7 +773,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Columns_UxmlObjectFactory_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Columns_UxmlObjectFactory_1(Columns_UxmlObjectFactory_1const&) = delete;
+  Columns_UxmlObjectFactory_1(Columns_UxmlObjectFactory_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4262 };
@@ -807,7 +807,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Columns_UxmlObjectFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Columns_UxmlObjectFactory(Columns_UxmlObjectFactoryconst&) = delete;
+  Columns_UxmlObjectFactory(Columns_UxmlObjectFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4263 };
@@ -905,7 +905,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Columns_UxmlObjectTraits_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Columns_UxmlObjectTraits_1(Columns_UxmlObjectTraits_1const&) = delete;
+  Columns_UxmlObjectTraits_1(Columns_UxmlObjectTraits_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4264 };
@@ -974,7 +974,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Columns___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Columns___c(Columns___cconst&) = delete;
+  Columns___c(Columns___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4265 };

@@ -344,7 +344,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ResourceManager_CompletedOperation_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceManager_CompletedOperation_1(ResourceManager_CompletedOperation_1const&) = delete;
+  ResourceManager_CompletedOperation_1(ResourceManager_CompletedOperation_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18709 };
@@ -469,7 +469,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ResourceManager_InstanceOperation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceManager_InstanceOperation(ResourceManager_InstanceOperationconst&) = delete;
+  ResourceManager_InstanceOperation(ResourceManager_InstanceOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18710 };
@@ -566,7 +566,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ResourceManager___c__DisplayClass90_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceManager___c__DisplayClass90_0_1(ResourceManager___c__DisplayClass90_0_1const&) = delete;
+  ResourceManager___c__DisplayClass90_0_1(ResourceManager___c__DisplayClass90_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18711 };
@@ -1155,7 +1155,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ResourceManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceManager(ResourceManagerconst&) = delete;
+  ResourceManager(ResourceManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18712 };

@@ -203,7 +203,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AdditionalLightsShadowCasterPass_AdditionalShadowsConstantBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AdditionalLightsShadowCasterPass_AdditionalShadowsConstantBuffer(AdditionalLightsShadowCasterPass_AdditionalShadowsConstantBufferconst&) = delete;
+  AdditionalLightsShadowCasterPass_AdditionalShadowsConstantBuffer(AdditionalLightsShadowCasterPass_AdditionalShadowsConstantBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13060 };
@@ -348,7 +348,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AdditionalLightsShadowCasterPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AdditionalLightsShadowCasterPass_PassData(AdditionalLightsShadowCasterPass_PassDataconst&) = delete;
+  AdditionalLightsShadowCasterPass_PassData(AdditionalLightsShadowCasterPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13061 };
@@ -465,7 +465,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AdditionalLightsShadowCasterPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AdditionalLightsShadowCasterPass___c(AdditionalLightsShadowCasterPass___cconst&) = delete;
+  AdditionalLightsShadowCasterPass___c(AdditionalLightsShadowCasterPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13062 };
@@ -874,7 +874,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AdditionalLightsShadowCasterPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AdditionalLightsShadowCasterPass(AdditionalLightsShadowCasterPassconst&) = delete;
+  AdditionalLightsShadowCasterPass(AdditionalLightsShadowCasterPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13063 };

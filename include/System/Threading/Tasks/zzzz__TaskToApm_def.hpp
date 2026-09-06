@@ -120,7 +120,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskToApm_TaskWrapperAsyncResult", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskToApm_TaskWrapperAsyncResult(TaskToApm_TaskWrapperAsyncResultconst&) = delete;
+  TaskToApm_TaskWrapperAsyncResult(TaskToApm_TaskWrapperAsyncResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2773 };
@@ -192,7 +192,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskToApm___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskToApm___c__DisplayClass3_0(TaskToApm___c__DisplayClass3_0const&) = delete;
+  TaskToApm___c__DisplayClass3_0(TaskToApm___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2774 };
@@ -248,7 +248,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskToApm", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskToApm(TaskToApmconst&) = delete;
+  TaskToApm(TaskToApm const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2775 };

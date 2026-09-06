@@ -159,7 +159,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions_TestBuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BindingRestrictions_TestBuilder(BindingRestrictions_TestBuilderconst&) = delete;
+  BindingRestrictions_TestBuilder(BindingRestrictions_TestBuilder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16640 };
@@ -199,7 +199,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions_BindingRestrictionsProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BindingRestrictions_BindingRestrictionsProxy(BindingRestrictions_BindingRestrictionsProxyconst&) = delete;
+  BindingRestrictions_BindingRestrictionsProxy(BindingRestrictions_BindingRestrictionsProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16645 };
@@ -273,7 +273,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BindingRestrictions(BindingRestrictionsconst&) = delete;
+  BindingRestrictions(BindingRestrictions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16646 };

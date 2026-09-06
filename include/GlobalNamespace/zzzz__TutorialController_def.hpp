@@ -156,7 +156,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TutorialController__OutroCoroutine_d__15", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialController__OutroCoroutine_d__15(TutorialController__OutroCoroutine_d__15const&) = delete;
+  TutorialController__OutroCoroutine_d__15(TutorialController__OutroCoroutine_d__15 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6282 };
@@ -326,7 +326,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TutorialController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialController(TutorialControllerconst&) = delete;
+  TutorialController(TutorialController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6283 };

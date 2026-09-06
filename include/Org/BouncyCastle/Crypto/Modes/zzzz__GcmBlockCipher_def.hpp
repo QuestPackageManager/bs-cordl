@@ -361,7 +361,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GcmBlockCipher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GcmBlockCipher(GcmBlockCipherconst&) = delete;
+  GcmBlockCipher(GcmBlockCipher const&) = delete;
 
   /// @brief Field BlockSize offset 0xffffffff size 0x4
   static constexpr int32_t BlockSize{ static_cast<int32_t>(0x10) };

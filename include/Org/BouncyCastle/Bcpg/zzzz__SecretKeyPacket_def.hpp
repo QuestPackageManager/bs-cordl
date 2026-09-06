@@ -154,7 +154,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SecretKeyPacket", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecretKeyPacket(SecretKeyPacketconst&) = delete;
+  SecretKeyPacket(SecretKeyPacket const&) = delete;
 
   /// @brief Field UsageChecksum offset 0xffffffff size 0x4
   static constexpr int32_t UsageChecksum{ static_cast<int32_t>(0xff) };

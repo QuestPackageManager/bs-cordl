@@ -66,7 +66,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SHA1CryptoServiceProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SHA1CryptoServiceProvider(SHA1CryptoServiceProviderconst&) = delete;
+  SHA1CryptoServiceProvider(SHA1CryptoServiceProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3002 };

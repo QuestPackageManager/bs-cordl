@@ -187,7 +187,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LobbyGameStateController___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LobbyGameStateController___c(LobbyGameStateController___cconst&) = delete;
+  LobbyGameStateController___c(LobbyGameStateController___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6081 };
@@ -262,7 +262,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LobbyGameStateController___c__DisplayClass98_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LobbyGameStateController___c__DisplayClass98_0(LobbyGameStateController___c__DisplayClass98_0const&) = delete;
+  LobbyGameStateController___c__DisplayClass98_0(LobbyGameStateController___c__DisplayClass98_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6082 };
@@ -947,7 +947,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LobbyGameStateController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LobbyGameStateController(LobbyGameStateControllerconst&) = delete;
+  LobbyGameStateController(LobbyGameStateController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6083 };

@@ -4336,7 +4336,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonTextReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonTextReader(JsonTextReaderconst&) = delete;
+  JsonTextReader(JsonTextReader const&) = delete;
 
   /// @brief Field LargeBufferLength offset 0xffffffff size 0x4
   static constexpr int32_t LargeBufferLength{ static_cast<int32_t>(0x3fffffff) };

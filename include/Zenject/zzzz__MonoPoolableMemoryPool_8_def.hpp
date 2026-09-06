@@ -86,7 +86,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoPoolableMemoryPool_8", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MonoPoolableMemoryPool_8(MonoPoolableMemoryPool_8const&) = delete;
+  MonoPoolableMemoryPool_8(MonoPoolableMemoryPool_8 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14417 };

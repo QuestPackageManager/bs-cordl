@@ -482,7 +482,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "X9ObjectIdentifiers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X9ObjectIdentifiers(X9ObjectIdentifiersconst&) = delete;
+  X9ObjectIdentifiers(X9ObjectIdentifiers const&) = delete;
 
   /// @brief Field AnsiX962 offset 0xffffffff size 0x8
   static constexpr ::ConstString AnsiX962{ u"1.2.840.10045" };

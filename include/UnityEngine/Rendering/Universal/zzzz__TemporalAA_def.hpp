@@ -187,7 +187,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TemporalAA_ShaderConstants", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TemporalAA_ShaderConstants(TemporalAA_ShaderConstantsconst&) = delete;
+  TemporalAA_ShaderConstants(TemporalAA_ShaderConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12968 };
@@ -224,7 +224,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TemporalAA_ShaderKeywords", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TemporalAA_ShaderKeywords(TemporalAA_ShaderKeywordsconst&) = delete;
+  TemporalAA_ShaderKeywords(TemporalAA_ShaderKeywords const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12969 };
@@ -402,7 +402,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TemporalAA_JitterFunc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TemporalAA_JitterFunc(TemporalAA_JitterFuncconst&) = delete;
+  TemporalAA_JitterFunc(TemporalAA_JitterFunc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12971 };
@@ -545,7 +545,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TemporalAA_TaaPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TemporalAA_TaaPassData(TemporalAA_TaaPassDataconst&) = delete;
+  TemporalAA_TaaPassData(TemporalAA_TaaPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12972 };
@@ -678,7 +678,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TemporalAA___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TemporalAA___c(TemporalAA___cconst&) = delete;
+  TemporalAA___c(TemporalAA___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12973 };
@@ -784,7 +784,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TemporalAA", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TemporalAA(TemporalAAconst&) = delete;
+  TemporalAA(TemporalAA const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12974 };

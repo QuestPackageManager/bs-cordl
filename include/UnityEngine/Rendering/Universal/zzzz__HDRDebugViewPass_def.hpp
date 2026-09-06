@@ -229,7 +229,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HDRDebugViewPass_PassDataCIExy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HDRDebugViewPass_PassDataCIExy(HDRDebugViewPass_PassDataCIExyconst&) = delete;
+  HDRDebugViewPass_PassDataCIExy(HDRDebugViewPass_PassDataCIExy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12836 };
@@ -361,7 +361,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HDRDebugViewPass_PassDataDebugView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HDRDebugViewPass_PassDataDebugView(HDRDebugViewPass_PassDataDebugViewconst&) = delete;
+  HDRDebugViewPass_PassDataDebugView(HDRDebugViewPass_PassDataDebugView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12837 };
@@ -471,7 +471,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HDRDebugViewPass_ShaderConstants", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HDRDebugViewPass_ShaderConstants(HDRDebugViewPass_ShaderConstantsconst&) = delete;
+  HDRDebugViewPass_ShaderConstants(HDRDebugViewPass_ShaderConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12838 };
@@ -544,7 +544,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HDRDebugViewPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HDRDebugViewPass___c(HDRDebugViewPass___cconst&) = delete;
+  HDRDebugViewPass___c(HDRDebugViewPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12839 };
@@ -669,7 +669,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HDRDebugViewPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HDRDebugViewPass(HDRDebugViewPassconst&) = delete;
+  HDRDebugViewPass(HDRDebugViewPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12840 };

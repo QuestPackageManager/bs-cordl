@@ -198,7 +198,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FtpControlStream___c__DisplayClass31_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FtpControlStream___c__DisplayClass31_0(FtpControlStream___c__DisplayClass31_0const&) = delete;
+  FtpControlStream___c__DisplayClass31_0(FtpControlStream___c__DisplayClass31_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11465 };
@@ -545,7 +545,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FtpControlStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FtpControlStream(FtpControlStreamconst&) = delete;
+  FtpControlStream(FtpControlStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11466 };

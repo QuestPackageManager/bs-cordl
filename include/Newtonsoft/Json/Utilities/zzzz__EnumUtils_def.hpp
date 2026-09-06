@@ -116,7 +116,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnumUtils___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumUtils___c(EnumUtils___cconst&) = delete;
+  EnumUtils___c(EnumUtils___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13416 };
@@ -172,7 +172,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnumUtils___c__4_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumUtils___c__4_1(EnumUtils___c__4_1const&) = delete;
+  EnumUtils___c__4_1(EnumUtils___c__4_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13417 };
@@ -263,7 +263,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnumUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumUtils(EnumUtilsconst&) = delete;
+  EnumUtils(EnumUtils const&) = delete;
 
   /// @brief Field EnumSeparatorChar offset 0xffffffff size 0x2
   static constexpr char16_t EnumSeparatorChar{ u',' };

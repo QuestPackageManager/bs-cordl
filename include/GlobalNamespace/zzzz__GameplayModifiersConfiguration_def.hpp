@@ -56,7 +56,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersConfiguration_SongSpeed", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifiersConfiguration_SongSpeed(GameplayModifiersConfiguration_SongSpeedconst&) = delete;
+  GameplayModifiersConfiguration_SongSpeed(GameplayModifiersConfiguration_SongSpeed const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21175 };
@@ -98,7 +98,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersConfiguration_CutAngleTolerance", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifiersConfiguration_CutAngleTolerance(GameplayModifiersConfiguration_CutAngleToleranceconst&) = delete;
+  GameplayModifiersConfiguration_CutAngleTolerance(GameplayModifiersConfiguration_CutAngleTolerance const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21176 };
@@ -134,7 +134,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersConfiguration_NoteUniformScale", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifiersConfiguration_NoteUniformScale(GameplayModifiersConfiguration_NoteUniformScaleconst&) = delete;
+  GameplayModifiersConfiguration_NoteUniformScale(GameplayModifiersConfiguration_NoteUniformScale const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21177 };
@@ -176,7 +176,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersConfiguration", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifiersConfiguration(GameplayModifiersConfigurationconst&) = delete;
+  GameplayModifiersConfiguration(GameplayModifiersConfiguration const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21178 };

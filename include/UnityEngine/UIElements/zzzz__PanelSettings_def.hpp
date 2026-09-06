@@ -170,7 +170,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PanelSettings_RuntimePanelAccess", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PanelSettings_RuntimePanelAccess(PanelSettings_RuntimePanelAccessconst&) = delete;
+  PanelSettings_RuntimePanelAccess(PanelSettings_RuntimePanelAccess const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4591 };
@@ -794,7 +794,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PanelSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PanelSettings(PanelSettingsconst&) = delete;
+  PanelSettings(PanelSettings const&) = delete;
 
   /// @brief Field DefaultDpi offset 0xffffffff size 0x4
   static constexpr float_t DefaultDpi{ static_cast<float_t>(96.0f) };

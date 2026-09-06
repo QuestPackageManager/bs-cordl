@@ -83,7 +83,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CBZip2OutputStream_StackElem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CBZip2OutputStream_StackElem(CBZip2OutputStream_StackElemconst&) = delete;
+  CBZip2OutputStream_StackElem(CBZip2OutputStream_StackElem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1633 };
@@ -588,7 +588,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CBZip2OutputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CBZip2OutputStream(CBZip2OutputStreamconst&) = delete;
+  CBZip2OutputStream(CBZip2OutputStream const&) = delete;
 
   /// @brief Field CLEARMASK offset 0xffffffff size 0x4
   static constexpr int32_t CLEARMASK{ static_cast<int32_t>(0xffdfffff) };

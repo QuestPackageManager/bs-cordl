@@ -503,7 +503,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlWellFormedWriter_NamespaceResolverProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlWellFormedWriter_NamespaceResolverProxy(XmlWellFormedWriter_NamespaceResolverProxyconst&) = delete;
+  XmlWellFormedWriter_NamespaceResolverProxy(XmlWellFormedWriter_NamespaceResolverProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9352 };
@@ -953,7 +953,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AttributeValueCache_XmlWellFormedWriter_Item", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AttributeValueCache_XmlWellFormedWriter_Item(AttributeValueCache_XmlWellFormedWriter_Itemconst&) = delete;
+  AttributeValueCache_XmlWellFormedWriter_Item(AttributeValueCache_XmlWellFormedWriter_Item const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9359 };
@@ -1025,7 +1025,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AttributeValueCache_XmlWellFormedWriter_BufferChunk", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AttributeValueCache_XmlWellFormedWriter_BufferChunk(AttributeValueCache_XmlWellFormedWriter_BufferChunkconst&) = delete;
+  AttributeValueCache_XmlWellFormedWriter_BufferChunk(AttributeValueCache_XmlWellFormedWriter_BufferChunk const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9360 };
@@ -1173,7 +1173,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlWellFormedWriter_AttributeValueCache", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlWellFormedWriter_AttributeValueCache(XmlWellFormedWriter_AttributeValueCacheconst&) = delete;
+  XmlWellFormedWriter_AttributeValueCache(XmlWellFormedWriter_AttributeValueCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9361 };
@@ -1712,7 +1712,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlWellFormedWriter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlWellFormedWriter(XmlWellFormedWriterconst&) = delete;
+  XmlWellFormedWriter(XmlWellFormedWriter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9362 };

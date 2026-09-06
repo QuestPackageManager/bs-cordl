@@ -168,7 +168,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRHaptics_Config", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRHaptics_Config(OVRHaptics_Configconst&) = delete;
+  OVRHaptics_Config(OVRHaptics_Config const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7178 };
@@ -224,7 +224,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRHaptics_OVRHapticsChannel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRHaptics_OVRHapticsChannel(OVRHaptics_OVRHapticsChannelconst&) = delete;
+  OVRHaptics_OVRHapticsChannel(OVRHaptics_OVRHapticsChannel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7179 };
@@ -302,7 +302,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRHapticsOutput_OVRHaptics_ClipPlaybackTracker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRHapticsOutput_OVRHaptics_ClipPlaybackTracker(OVRHapticsOutput_OVRHaptics_ClipPlaybackTrackerconst&) = delete;
+  OVRHapticsOutput_OVRHaptics_ClipPlaybackTracker(OVRHapticsOutput_OVRHaptics_ClipPlaybackTracker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7180 };
@@ -457,7 +457,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRHaptics_OVRHapticsOutput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRHaptics_OVRHapticsOutput(OVRHaptics_OVRHapticsOutputconst&) = delete;
+  OVRHaptics_OVRHapticsOutput(OVRHaptics_OVRHapticsOutput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7181 };
@@ -575,7 +575,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRHaptics", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRHaptics(OVRHapticsconst&) = delete;
+  OVRHaptics(OVRHaptics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7182 };

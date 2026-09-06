@@ -269,7 +269,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogData_CompactLocation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContentCatalogData_CompactLocation(ContentCatalogData_CompactLocationconst&) = delete;
+  ContentCatalogData_CompactLocation(ContentCatalogData_CompactLocation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19844 };
@@ -367,7 +367,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogData___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContentCatalogData___c(ContentCatalogData___cconst&) = delete;
+  ContentCatalogData___c(ContentCatalogData___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19845 };
@@ -641,7 +641,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContentCatalogData(ContentCatalogDataconst&) = delete;
+  ContentCatalogData(ContentCatalogData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19846 };

@@ -103,7 +103,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JobParallelForDeferProducer_1_IJobParallelForDeferExtensions_ExecuteJobFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JobParallelForDeferProducer_1_IJobParallelForDeferExtensions_ExecuteJobFunction(JobParallelForDeferProducer_1_IJobParallelForDeferExtensions_ExecuteJobFunctionconst&) = delete;
+  JobParallelForDeferProducer_1_IJobParallelForDeferExtensions_ExecuteJobFunction(JobParallelForDeferProducer_1_IJobParallelForDeferExtensions_ExecuteJobFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15516 };
@@ -214,7 +214,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IJobParallelForDeferExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IJobParallelForDeferExtensions(IJobParallelForDeferExtensionsconst&) = delete;
+  IJobParallelForDeferExtensions(IJobParallelForDeferExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15518 };

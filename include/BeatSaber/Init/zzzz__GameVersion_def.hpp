@@ -306,7 +306,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PreReleaseLabel_GameVersion___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PreReleaseLabel_GameVersion___c(PreReleaseLabel_GameVersion___cconst&) = delete;
+  PreReleaseLabel_GameVersion___c(PreReleaseLabel_GameVersion___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22707 };
@@ -355,7 +355,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PreReleaseLabel_GameVersion___c__DisplayClass10_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PreReleaseLabel_GameVersion___c__DisplayClass10_0(PreReleaseLabel_GameVersion___c__DisplayClass10_0const&) = delete;
+  PreReleaseLabel_GameVersion___c__DisplayClass10_0(PreReleaseLabel_GameVersion___c__DisplayClass10_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22708 };
@@ -410,7 +410,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PreReleaseLabel_GameVersion___c__DisplayClass11_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PreReleaseLabel_GameVersion___c__DisplayClass11_0(PreReleaseLabel_GameVersion___c__DisplayClass11_0const&) = delete;
+  PreReleaseLabel_GameVersion___c__DisplayClass11_0(PreReleaseLabel_GameVersion___c__DisplayClass11_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22709 };
@@ -849,7 +849,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameVersion", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameVersion(GameVersionconst&) = delete;
+  GameVersion(GameVersion const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22713 };

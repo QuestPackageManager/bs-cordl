@@ -579,7 +579,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusTouchControllerProfile_OculusTouchController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusTouchControllerProfile_OculusTouchController(OculusTouchControllerProfile_OculusTouchControllerconst&) = delete;
+  OculusTouchControllerProfile_OculusTouchController(OculusTouchControllerProfile_OculusTouchController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18591 };
@@ -766,7 +766,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusTouchControllerProfile", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusTouchControllerProfile(OculusTouchControllerProfileconst&) = delete;
+  OculusTouchControllerProfile(OculusTouchControllerProfile const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18592 };

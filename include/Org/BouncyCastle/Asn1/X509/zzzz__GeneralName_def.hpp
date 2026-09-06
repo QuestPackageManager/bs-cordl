@@ -136,7 +136,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GeneralName", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GeneralName(GeneralNameconst&) = delete;
+  GeneralName(GeneralName const&) = delete;
 
   /// @brief Field DirectoryName offset 0xffffffff size 0x4
   static constexpr int32_t DirectoryName{ static_cast<int32_t>(0x4) };

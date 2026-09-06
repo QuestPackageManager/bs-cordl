@@ -525,7 +525,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JavaScriptUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JavaScriptUtils(JavaScriptUtilsconst&) = delete;
+  JavaScriptUtils(JavaScriptUtils const&) = delete;
 
   /// @brief Field EscapedUnicodeText offset 0xffffffff size 0x8
   static constexpr ::ConstString EscapedUnicodeText{ u"!" };

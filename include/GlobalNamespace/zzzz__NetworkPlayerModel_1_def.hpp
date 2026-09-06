@@ -364,7 +364,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1_NetworkPlayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPlayerModel_1_NetworkPlayer(NetworkPlayerModel_1_NetworkPlayerconst&) = delete;
+  NetworkPlayerModel_1_NetworkPlayer(NetworkPlayerModel_1_NetworkPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21591 };
@@ -430,7 +430,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1_JoinMatchmakingPartyConfig", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPlayerModel_1_JoinMatchmakingPartyConfig(NetworkPlayerModel_1_JoinMatchmakingPartyConfigconst&) = delete;
+  NetworkPlayerModel_1_JoinMatchmakingPartyConfig(NetworkPlayerModel_1_JoinMatchmakingPartyConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21592 };
@@ -478,7 +478,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1_StartClientPartyConfig", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPlayerModel_1_StartClientPartyConfig(NetworkPlayerModel_1_StartClientPartyConfigconst&) = delete;
+  NetworkPlayerModel_1_StartClientPartyConfig(NetworkPlayerModel_1_StartClientPartyConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21593 };
@@ -707,7 +707,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1_NetworkServer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPlayerModel_1_NetworkServer(NetworkPlayerModel_1_NetworkServerconst&) = delete;
+  NetworkPlayerModel_1_NetworkServer(NetworkPlayerModel_1_NetworkServer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21594 };
@@ -779,7 +779,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPlayerModel_1___c(NetworkPlayerModel_1___cconst&) = delete;
+  NetworkPlayerModel_1___c(NetworkPlayerModel_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21595 };
@@ -858,7 +858,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1___c__DisplayClass62_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPlayerModel_1___c__DisplayClass62_0(NetworkPlayerModel_1___c__DisplayClass62_0const&) = delete;
+  NetworkPlayerModel_1___c__DisplayClass62_0(NetworkPlayerModel_1___c__DisplayClass62_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21596 };
@@ -1020,7 +1020,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1__GetOtherPlayers_d__61", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPlayerModel_1__GetOtherPlayers_d__61(NetworkPlayerModel_1__GetOtherPlayers_d__61const&) = delete;
+  NetworkPlayerModel_1__GetOtherPlayers_d__61(NetworkPlayerModel_1__GetOtherPlayers_d__61 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21597 };
@@ -1180,7 +1180,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1__GetPartyPlayers_d__60", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPlayerModel_1__GetPartyPlayers_d__60(NetworkPlayerModel_1__GetPartyPlayers_d__60const&) = delete;
+  NetworkPlayerModel_1__GetPartyPlayers_d__60(NetworkPlayerModel_1__GetPartyPlayers_d__60 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21598 };
@@ -1565,7 +1565,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPlayerModel_1(NetworkPlayerModel_1const&) = delete;
+  NetworkPlayerModel_1(NetworkPlayerModel_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21599 };

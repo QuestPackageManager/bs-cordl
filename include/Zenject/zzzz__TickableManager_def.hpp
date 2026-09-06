@@ -184,7 +184,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TickableManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TickableManager___c(TickableManager___cconst&) = delete;
+  TickableManager___c(TickableManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14695 };
@@ -239,7 +239,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TickableManager___c__DisplayClass17_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TickableManager___c__DisplayClass17_0(TickableManager___c__DisplayClass17_0const&) = delete;
+  TickableManager___c__DisplayClass17_0(TickableManager___c__DisplayClass17_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14696 };
@@ -299,7 +299,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TickableManager___c__DisplayClass18_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TickableManager___c__DisplayClass18_0(TickableManager___c__DisplayClass18_0const&) = delete;
+  TickableManager___c__DisplayClass18_0(TickableManager___c__DisplayClass18_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14697 };
@@ -359,7 +359,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TickableManager___c__DisplayClass19_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TickableManager___c__DisplayClass19_0(TickableManager___c__DisplayClass19_0const&) = delete;
+  TickableManager___c__DisplayClass19_0(TickableManager___c__DisplayClass19_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14698 };
@@ -592,7 +592,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TickableManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TickableManager(TickableManagerconst&) = delete;
+  TickableManager(TickableManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14699 };

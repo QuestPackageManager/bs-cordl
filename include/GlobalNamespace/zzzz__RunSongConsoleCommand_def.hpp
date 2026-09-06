@@ -150,7 +150,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RunSongConsoleCommand___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RunSongConsoleCommand___c(RunSongConsoleCommand___cconst&) = delete;
+  RunSongConsoleCommand___c(RunSongConsoleCommand___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19412 };
@@ -372,7 +372,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29(RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29const&) = delete;
+  RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29(RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19414 };
@@ -635,7 +635,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RunSongConsoleCommand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RunSongConsoleCommand(RunSongConsoleCommandconst&) = delete;
+  RunSongConsoleCommand(RunSongConsoleCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19415 };

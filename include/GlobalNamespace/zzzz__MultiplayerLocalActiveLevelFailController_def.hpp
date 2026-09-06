@@ -150,7 +150,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8(MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8const&) = delete;
+  MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8(MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6086 };
@@ -272,7 +272,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActiveLevelFailController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLocalActiveLevelFailController(MultiplayerLocalActiveLevelFailControllerconst&) = delete;
+  MultiplayerLocalActiveLevelFailController(MultiplayerLocalActiveLevelFailController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6087 };

@@ -36,7 +36,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeArrayDebugView_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeArrayDebugView_1(NativeArrayDebugView_1const&) = delete;
+  NativeArrayDebugView_1(NativeArrayDebugView_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9999 };

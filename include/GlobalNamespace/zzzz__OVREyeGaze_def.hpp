@@ -339,7 +339,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVREyeGaze", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVREyeGaze(OVREyeGazeconst&) = delete;
+  OVREyeGaze(OVREyeGaze const&) = delete;
 
   /// @brief Field EyeTrackingPermission value: I32(2)
   static ::GlobalNamespace::OVRPermissionsRequester_Permission const EyeTrackingPermission;

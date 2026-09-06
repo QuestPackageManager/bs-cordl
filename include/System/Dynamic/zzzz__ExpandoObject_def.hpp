@@ -193,7 +193,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ExpandoObject_KeyCollectionDebugView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpandoObject_KeyCollectionDebugView(ExpandoObject_KeyCollectionDebugViewconst&) = delete;
+  ExpandoObject_KeyCollectionDebugView(ExpandoObject_KeyCollectionDebugView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16654 };
@@ -317,7 +317,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyCollection_ExpandoObject__GetEnumerator_d__15", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyCollection_ExpandoObject__GetEnumerator_d__15(KeyCollection_ExpandoObject__GetEnumerator_d__15const&) = delete;
+  KeyCollection_ExpandoObject__GetEnumerator_d__15(KeyCollection_ExpandoObject__GetEnumerator_d__15 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16655 };
@@ -470,7 +470,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ExpandoObject_KeyCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpandoObject_KeyCollection(ExpandoObject_KeyCollectionconst&) = delete;
+  ExpandoObject_KeyCollection(ExpandoObject_KeyCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16656 };
@@ -520,7 +520,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ExpandoObject_ValueCollectionDebugView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpandoObject_ValueCollectionDebugView(ExpandoObject_ValueCollectionDebugViewconst&) = delete;
+  ExpandoObject_ValueCollectionDebugView(ExpandoObject_ValueCollectionDebugView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16657 };
@@ -644,7 +644,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ValueCollection_ExpandoObject__GetEnumerator_d__15", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ValueCollection_ExpandoObject__GetEnumerator_d__15(ValueCollection_ExpandoObject__GetEnumerator_d__15const&) = delete;
+  ValueCollection_ExpandoObject__GetEnumerator_d__15(ValueCollection_ExpandoObject__GetEnumerator_d__15 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16658 };
@@ -797,7 +797,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ExpandoObject_ValueCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpandoObject_ValueCollection(ExpandoObject_ValueCollectionconst&) = delete;
+  ExpandoObject_ValueCollection(ExpandoObject_ValueCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16659 };
@@ -874,7 +874,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MetaExpando_ExpandoObject___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MetaExpando_ExpandoObject___c__DisplayClass3_0(MetaExpando_ExpandoObject___c__DisplayClass3_0const&) = delete;
+  MetaExpando_ExpandoObject___c__DisplayClass3_0(MetaExpando_ExpandoObject___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16660 };
@@ -1046,7 +1046,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6(MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6const&) = delete;
+  MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6(MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16661 };
@@ -1160,7 +1160,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ExpandoObject_MetaExpando", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpandoObject_MetaExpando(ExpandoObject_MetaExpandoconst&) = delete;
+  ExpandoObject_MetaExpando(ExpandoObject_MetaExpando const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16662 };
@@ -1259,7 +1259,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ExpandoObject_ExpandoData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpandoObject_ExpandoData(ExpandoObject_ExpandoDataconst&) = delete;
+  ExpandoObject_ExpandoData(ExpandoObject_ExpandoData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16663 };
@@ -1413,7 +1413,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ExpandoObject__GetExpandoEnumerator_d__51", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpandoObject__GetExpandoEnumerator_d__51(ExpandoObject__GetExpandoEnumerator_d__51const&) = delete;
+  ExpandoObject__GetExpandoEnumerator_d__51(ExpandoObject__GetExpandoEnumerator_d__51 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16664 };
@@ -1727,7 +1727,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ExpandoObject", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpandoObject(ExpandoObjectconst&) = delete;
+  ExpandoObject(ExpandoObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16665 };

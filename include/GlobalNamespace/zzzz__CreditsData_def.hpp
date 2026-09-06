@@ -164,7 +164,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CreditsData_Text", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CreditsData_Text(CreditsData_Textconst&) = delete;
+  CreditsData_Text(CreditsData_Text const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23226 };
@@ -238,7 +238,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CreditsData_ChildCreditsItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CreditsData_ChildCreditsItem(CreditsData_ChildCreditsItemconst&) = delete;
+  CreditsData_ChildCreditsItem(CreditsData_ChildCreditsItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23228 };
@@ -328,7 +328,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CreditsData_RootCreditsItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CreditsData_RootCreditsItem(CreditsData_RootCreditsItemconst&) = delete;
+  CreditsData_RootCreditsItem(CreditsData_RootCreditsItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23227 };
@@ -403,7 +403,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CreditsData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CreditsData(CreditsDataconst&) = delete;
+  CreditsData(CreditsData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23229 };

@@ -190,7 +190,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InfCodes", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InfCodes(InfCodesconst&) = delete;
+  InfCodes(InfCodes const&) = delete;
 
   /// @brief Field BADCODE offset 0xffffffff size 0x4
   static constexpr int32_t BADCODE{ static_cast<int32_t>(0x9) };

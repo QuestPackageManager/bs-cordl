@@ -167,7 +167,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PackPromoInfoSO_LevelPromoInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackPromoInfoSO_LevelPromoInfo(PackPromoInfoSO_LevelPromoInfoconst&) = delete;
+  PackPromoInfoSO_LevelPromoInfo(PackPromoInfoSO_LevelPromoInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15024 };
@@ -262,7 +262,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PackPromoInfoSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackPromoInfoSO(PackPromoInfoSOconst&) = delete;
+  PackPromoInfoSO(PackPromoInfoSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15025 };

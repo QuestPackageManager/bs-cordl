@@ -91,7 +91,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomFilterUtil___c__DisplayClass1_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomFilterUtil___c__DisplayClass1_0_1(BloomFilterUtil___c__DisplayClass1_0_1const&) = delete;
+  BloomFilterUtil___c__DisplayClass1_0_1(BloomFilterUtil___c__DisplayClass1_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21166 };
@@ -155,7 +155,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomFilterUtil___c__DisplayClass2_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomFilterUtil___c__DisplayClass2_0_1(BloomFilterUtil___c__DisplayClass2_0_1const&) = delete;
+  BloomFilterUtil___c__DisplayClass2_0_1(BloomFilterUtil___c__DisplayClass2_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21167 };
@@ -240,7 +240,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomFilterUtil", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomFilterUtil(BloomFilterUtilconst&) = delete;
+  BloomFilterUtil(BloomFilterUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21168 };

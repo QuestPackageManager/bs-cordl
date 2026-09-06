@@ -152,7 +152,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelChecksums___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelChecksums___c(BeatmapLevelChecksums___cconst&) = delete;
+  BeatmapLevelChecksums___c(BeatmapLevelChecksums___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14961 };
@@ -209,7 +209,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelChecksums___c__DisplayClass7_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelChecksums___c__DisplayClass7_0(BeatmapLevelChecksums___c__DisplayClass7_0const&) = delete;
+  BeatmapLevelChecksums___c__DisplayClass7_0(BeatmapLevelChecksums___c__DisplayClass7_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14962 };
@@ -276,7 +276,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelChecksums___c__DisplayClass8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelChecksums___c__DisplayClass8_0(BeatmapLevelChecksums___c__DisplayClass8_0const&) = delete;
+  BeatmapLevelChecksums___c__DisplayClass8_0(BeatmapLevelChecksums___c__DisplayClass8_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14963 };

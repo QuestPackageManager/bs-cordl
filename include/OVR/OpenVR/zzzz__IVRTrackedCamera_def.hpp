@@ -175,7 +175,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetCameraErrorNameFromEnum", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRTrackedCamera__GetCameraErrorNameFromEnum(IVRTrackedCamera__GetCameraErrorNameFromEnumconst&) = delete;
+  IVRTrackedCamera__GetCameraErrorNameFromEnum(IVRTrackedCamera__GetCameraErrorNameFromEnum const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8087 };
@@ -220,7 +220,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__HasCamera", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRTrackedCamera__HasCamera(IVRTrackedCamera__HasCameraconst&) = delete;
+  IVRTrackedCamera__HasCamera(IVRTrackedCamera__HasCamera const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8088 };
@@ -267,7 +267,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetCameraFrameSize", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRTrackedCamera__GetCameraFrameSize(IVRTrackedCamera__GetCameraFrameSizeconst&) = delete;
+  IVRTrackedCamera__GetCameraFrameSize(IVRTrackedCamera__GetCameraFrameSize const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8089 };
@@ -314,7 +314,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetCameraIntrinsics", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRTrackedCamera__GetCameraIntrinsics(IVRTrackedCamera__GetCameraIntrinsicsconst&) = delete;
+  IVRTrackedCamera__GetCameraIntrinsics(IVRTrackedCamera__GetCameraIntrinsics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8090 };
@@ -361,7 +361,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetCameraProjection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRTrackedCamera__GetCameraProjection(IVRTrackedCamera__GetCameraProjectionconst&) = delete;
+  IVRTrackedCamera__GetCameraProjection(IVRTrackedCamera__GetCameraProjection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8091 };
@@ -406,7 +406,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__AcquireVideoStreamingService", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRTrackedCamera__AcquireVideoStreamingService(IVRTrackedCamera__AcquireVideoStreamingServiceconst&) = delete;
+  IVRTrackedCamera__AcquireVideoStreamingService(IVRTrackedCamera__AcquireVideoStreamingService const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8092 };
@@ -451,7 +451,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__ReleaseVideoStreamingService", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRTrackedCamera__ReleaseVideoStreamingService(IVRTrackedCamera__ReleaseVideoStreamingServiceconst&) = delete;
+  IVRTrackedCamera__ReleaseVideoStreamingService(IVRTrackedCamera__ReleaseVideoStreamingService const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8093 };
@@ -499,7 +499,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetVideoStreamFrameBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRTrackedCamera__GetVideoStreamFrameBuffer(IVRTrackedCamera__GetVideoStreamFrameBufferconst&) = delete;
+  IVRTrackedCamera__GetVideoStreamFrameBuffer(IVRTrackedCamera__GetVideoStreamFrameBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8094 };
@@ -547,7 +547,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetVideoStreamTextureSize", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRTrackedCamera__GetVideoStreamTextureSize(IVRTrackedCamera__GetVideoStreamTextureSizeconst&) = delete;
+  IVRTrackedCamera__GetVideoStreamTextureSize(IVRTrackedCamera__GetVideoStreamTextureSize const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8095 };
@@ -597,7 +597,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetVideoStreamTextureD3D11", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRTrackedCamera__GetVideoStreamTextureD3D11(IVRTrackedCamera__GetVideoStreamTextureD3D11const&) = delete;
+  IVRTrackedCamera__GetVideoStreamTextureD3D11(IVRTrackedCamera__GetVideoStreamTextureD3D11 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8096 };
@@ -645,7 +645,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetVideoStreamTextureGL", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRTrackedCamera__GetVideoStreamTextureGL(IVRTrackedCamera__GetVideoStreamTextureGLconst&) = delete;
+  IVRTrackedCamera__GetVideoStreamTextureGL(IVRTrackedCamera__GetVideoStreamTextureGL const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8097 };
@@ -690,7 +690,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__ReleaseVideoStreamTextureGL", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRTrackedCamera__ReleaseVideoStreamTextureGL(IVRTrackedCamera__ReleaseVideoStreamTextureGLconst&) = delete;
+  IVRTrackedCamera__ReleaseVideoStreamTextureGL(IVRTrackedCamera__ReleaseVideoStreamTextureGL const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8098 };

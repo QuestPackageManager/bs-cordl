@@ -56,7 +56,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PreferenceKeys", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PreferenceKeys(PreferenceKeysconst&) = delete;
+  PreferenceKeys(PreferenceKeys const&) = delete;
 
   /// @brief Field CMD_ALT offset 0xffffffff size 0x2
   static constexpr char16_t CMD_ALT{ u'\u{2387}' };

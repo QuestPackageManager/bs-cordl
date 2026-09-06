@@ -103,7 +103,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPhysicsRaycaster___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPhysicsRaycaster___c(OVRPhysicsRaycaster___cconst&) = delete;
+  OVRPhysicsRaycaster___c(OVRPhysicsRaycaster___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8556 };
@@ -197,7 +197,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPhysicsRaycaster", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPhysicsRaycaster(OVRPhysicsRaycasterconst&) = delete;
+  OVRPhysicsRaycaster(OVRPhysicsRaycaster const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8557 };

@@ -43,7 +43,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IncrementInstruction_IncrementDouble", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IncrementInstruction_IncrementDouble(IncrementInstruction_IncrementDoubleconst&) = delete;
+  IncrementInstruction_IncrementDouble(IncrementInstruction_IncrementDouble const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16385 };

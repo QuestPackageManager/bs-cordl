@@ -93,7 +93,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomIntegrationConfig_GetCameraDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomIntegrationConfig_GetCameraDelegate(CustomIntegrationConfig_GetCameraDelegateconst&) = delete;
+  CustomIntegrationConfig_GetCameraDelegate(CustomIntegrationConfig_GetCameraDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23572 };
@@ -137,7 +137,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomIntegrationConfig_GetLeftControllerTransformDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomIntegrationConfig_GetLeftControllerTransformDelegate(CustomIntegrationConfig_GetLeftControllerTransformDelegateconst&) = delete;
+  CustomIntegrationConfig_GetLeftControllerTransformDelegate(CustomIntegrationConfig_GetLeftControllerTransformDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23573 };
@@ -181,7 +181,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomIntegrationConfig_GetRightControllerTransformDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomIntegrationConfig_GetRightControllerTransformDelegate(CustomIntegrationConfig_GetRightControllerTransformDelegateconst&) = delete;
+  CustomIntegrationConfig_GetRightControllerTransformDelegate(CustomIntegrationConfig_GetRightControllerTransformDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23574 };
@@ -241,7 +241,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomIntegrationConfig", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomIntegrationConfig(CustomIntegrationConfigconst&) = delete;
+  CustomIntegrationConfig(CustomIntegrationConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23575 };

@@ -337,7 +337,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Profiling_ScriptableRenderer_RenderBlock", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Profiling_ScriptableRenderer_RenderBlock(Profiling_ScriptableRenderer_RenderBlockconst&) = delete;
+  Profiling_ScriptableRenderer_RenderBlock(Profiling_ScriptableRenderer_RenderBlock const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12720 };
@@ -384,7 +384,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Profiling_ScriptableRenderer_RenderPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Profiling_ScriptableRenderer_RenderPass(Profiling_ScriptableRenderer_RenderPassconst&) = delete;
+  Profiling_ScriptableRenderer_RenderPass(Profiling_ScriptableRenderer_RenderPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12721 };
@@ -568,7 +568,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_Profiling", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRenderer_Profiling(ScriptableRenderer_Profilingconst&) = delete;
+  ScriptableRenderer_Profiling(ScriptableRenderer_Profiling const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12722 };
@@ -695,7 +695,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_RenderingFeatures", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRenderer_RenderingFeatures(ScriptableRenderer_RenderingFeaturesconst&) = delete;
+  ScriptableRenderer_RenderingFeatures(ScriptableRenderer_RenderingFeatures const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12724 };
@@ -765,7 +765,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_RenderPassBlock", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRenderer_RenderPassBlock(ScriptableRenderer_RenderPassBlockconst&) = delete;
+  ScriptableRenderer_RenderPassBlock(ScriptableRenderer_RenderPassBlock const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12725 };
@@ -836,7 +836,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_VFXProcessCameraPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRenderer_VFXProcessCameraPassData(ScriptableRenderer_VFXProcessCameraPassDataconst&) = delete;
+  ScriptableRenderer_VFXProcessCameraPassData(ScriptableRenderer_VFXProcessCameraPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12726 };
@@ -900,7 +900,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_DrawGizmosPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRenderer_DrawGizmosPassData(ScriptableRenderer_DrawGizmosPassDataconst&) = delete;
+  ScriptableRenderer_DrawGizmosPassData(ScriptableRenderer_DrawGizmosPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12727 };
@@ -949,7 +949,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_DrawWireOverlayPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRenderer_DrawWireOverlayPassData(ScriptableRenderer_DrawWireOverlayPassDataconst&) = delete;
+  ScriptableRenderer_DrawWireOverlayPassData(ScriptableRenderer_DrawWireOverlayPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12728 };
@@ -998,7 +998,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_BeginXRPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRenderer_BeginXRPassData(ScriptableRenderer_BeginXRPassDataconst&) = delete;
+  ScriptableRenderer_BeginXRPassData(ScriptableRenderer_BeginXRPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12729 };
@@ -1047,7 +1047,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_EndXRPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRenderer_EndXRPassData(ScriptableRenderer_EndXRPassDataconst&) = delete;
+  ScriptableRenderer_EndXRPassData(ScriptableRenderer_EndXRPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12730 };
@@ -1087,7 +1087,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_DummyData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRenderer_DummyData(ScriptableRenderer_DummyDataconst&) = delete;
+  ScriptableRenderer_DummyData(ScriptableRenderer_DummyData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12731 };
@@ -1158,7 +1158,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRenderer_PassData(ScriptableRenderer_PassDataconst&) = delete;
+  ScriptableRenderer_PassData(ScriptableRenderer_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12732 };
@@ -1441,7 +1441,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRenderer___c(ScriptableRenderer___cconst&) = delete;
+  ScriptableRenderer___c(ScriptableRenderer___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12735 };
@@ -2364,7 +2364,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRenderer(ScriptableRendererconst&) = delete;
+  ScriptableRenderer(ScriptableRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12736 };

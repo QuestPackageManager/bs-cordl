@@ -96,7 +96,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptableRendererData_DebugShaderResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRendererData_DebugShaderResources(ScriptableRendererData_DebugShaderResourcesconst&) = delete;
+  ScriptableRendererData_DebugShaderResources(ScriptableRendererData_DebugShaderResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12737 };
@@ -212,7 +212,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptableRendererData_ProbeVolumeResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRendererData_ProbeVolumeResources(ScriptableRendererData_ProbeVolumeResourcesconst&) = delete;
+  ScriptableRendererData_ProbeVolumeResources(ScriptableRendererData_ProbeVolumeResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12738 };
@@ -393,7 +393,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptableRendererData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRendererData(ScriptableRendererDataconst&) = delete;
+  ScriptableRendererData(ScriptableRendererData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12739 };

@@ -365,7 +365,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader_ScoreData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeaderboardScoreUploader_ScoreData(LeaderboardScoreUploader_ScoreDataconst&) = delete;
+  LeaderboardScoreUploader_ScoreData(LeaderboardScoreUploader_ScoreData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15278 };
@@ -479,7 +479,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader_ScoresToUploadData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeaderboardScoreUploader_ScoresToUploadData(LeaderboardScoreUploader_ScoresToUploadDataconst&) = delete;
+  LeaderboardScoreUploader_ScoresToUploadData(LeaderboardScoreUploader_ScoresToUploadData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15279 };
@@ -530,7 +530,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader_UploadScoreCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeaderboardScoreUploader_UploadScoreCallback(LeaderboardScoreUploader_UploadScoreCallbackconst&) = delete;
+  LeaderboardScoreUploader_UploadScoreCallback(LeaderboardScoreUploader_UploadScoreCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15280 };
@@ -587,7 +587,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader___c__DisplayClass16_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeaderboardScoreUploader___c__DisplayClass16_0(LeaderboardScoreUploader___c__DisplayClass16_0const&) = delete;
+  LeaderboardScoreUploader___c__DisplayClass16_0(LeaderboardScoreUploader___c__DisplayClass16_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15281 };
@@ -833,7 +833,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader__UploadScoresCoroutine_d__16", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeaderboardScoreUploader__UploadScoresCoroutine_d__16(LeaderboardScoreUploader__UploadScoresCoroutine_d__16const&) = delete;
+  LeaderboardScoreUploader__UploadScoresCoroutine_d__16(LeaderboardScoreUploader__UploadScoresCoroutine_d__16 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15284 };
@@ -1000,7 +1000,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeaderboardScoreUploader(LeaderboardScoreUploaderconst&) = delete;
+  LeaderboardScoreUploader(LeaderboardScoreUploader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15285 };

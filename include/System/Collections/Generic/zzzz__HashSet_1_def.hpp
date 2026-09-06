@@ -553,7 +553,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HashSet_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HashSet_1(HashSet_1const&) = delete;
+  HashSet_1(HashSet_1 const&) = delete;
 
   /// @brief Field CapacityName offset 0xffffffff size 0x8
   static constexpr ::ConstString CapacityName{ u"Capacity" };

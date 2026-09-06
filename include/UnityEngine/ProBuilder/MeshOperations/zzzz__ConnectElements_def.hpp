@@ -264,7 +264,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConnectElements___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConnectElements___c(ConnectElements___cconst&) = delete;
+  ConnectElements___c(ConnectElements___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16862 };
@@ -324,7 +324,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConnectElements___c__DisplayClass2_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConnectElements___c__DisplayClass2_0(ConnectElements___c__DisplayClass2_0const&) = delete;
+  ConnectElements___c__DisplayClass2_0(ConnectElements___c__DisplayClass2_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16863 };
@@ -382,7 +382,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConnectElements___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConnectElements___c__DisplayClass3_0(ConnectElements___c__DisplayClass3_0const&) = delete;
+  ConnectElements___c__DisplayClass3_0(ConnectElements___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16864 };
@@ -470,7 +470,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConnectElements", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConnectElements(ConnectElementsconst&) = delete;
+  ConnectElements(ConnectElements const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16865 };

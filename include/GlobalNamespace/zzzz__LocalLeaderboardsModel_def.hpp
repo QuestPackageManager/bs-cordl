@@ -247,7 +247,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsModel_ScoreData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalLeaderboardsModel_ScoreData(LocalLeaderboardsModel_ScoreDataconst&) = delete;
+  LocalLeaderboardsModel_ScoreData(LocalLeaderboardsModel_ScoreData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15287 };
@@ -320,7 +320,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsModel_LeaderboardData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalLeaderboardsModel_LeaderboardData(LocalLeaderboardsModel_LeaderboardDataconst&) = delete;
+  LocalLeaderboardsModel_LeaderboardData(LocalLeaderboardsModel_LeaderboardData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15288 };
@@ -375,7 +375,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsModel_SavedLeaderboardsData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalLeaderboardsModel_SavedLeaderboardsData(LocalLeaderboardsModel_SavedLeaderboardsDataconst&) = delete;
+  LocalLeaderboardsModel_SavedLeaderboardsData(LocalLeaderboardsModel_SavedLeaderboardsData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15289 };
@@ -453,7 +453,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsModel___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalLeaderboardsModel___c(LocalLeaderboardsModel___cconst&) = delete;
+  LocalLeaderboardsModel___c(LocalLeaderboardsModel___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15290 };
@@ -1023,7 +1023,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalLeaderboardsModel(LocalLeaderboardsModelconst&) = delete;
+  LocalLeaderboardsModel(LocalLeaderboardsModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15296 };

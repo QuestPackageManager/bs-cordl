@@ -253,7 +253,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JObjectDynamicProxy_JObject___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JObjectDynamicProxy_JObject___c(JObjectDynamicProxy_JObject___cconst&) = delete;
+  JObjectDynamicProxy_JObject___c(JObjectDynamicProxy_JObject___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13586 };
@@ -300,7 +300,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JObject_JObjectDynamicProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JObject_JObjectDynamicProxy(JObject_JObjectDynamicProxyconst&) = delete;
+  JObject_JObjectDynamicProxy(JObject_JObjectDynamicProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13587 };
@@ -453,7 +453,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JObject___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JObject___c(JObject___cconst&) = delete;
+  JObject___c(JObject___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13589 };
@@ -577,7 +577,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JObject__GetEnumerator_d__64", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JObject__GetEnumerator_d__64(JObject__GetEnumerator_d__64const&) = delete;
+  JObject__GetEnumerator_d__64(JObject__GetEnumerator_d__64 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13590 };
@@ -1088,7 +1088,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JObject", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JObject(JObjectconst&) = delete;
+  JObject(JObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13592 };

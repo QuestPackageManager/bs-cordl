@@ -110,7 +110,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabMethod_10___c__DisplayClass2_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SubContainerCreatorByNewPrefabMethod_10___c__DisplayClass2_0(SubContainerCreatorByNewPrefabMethod_10___c__DisplayClass2_0const&) = delete;
+  SubContainerCreatorByNewPrefabMethod_10___c__DisplayClass2_0(SubContainerCreatorByNewPrefabMethod_10___c__DisplayClass2_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14644 };
@@ -172,7 +172,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabMethod_10", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SubContainerCreatorByNewPrefabMethod_10(SubContainerCreatorByNewPrefabMethod_10const&) = delete;
+  SubContainerCreatorByNewPrefabMethod_10(SubContainerCreatorByNewPrefabMethod_10 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14645 };

@@ -153,7 +153,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EventBasedNetListener_OnPeerConnected", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventBasedNetListener_OnPeerConnected(EventBasedNetListener_OnPeerConnectedconst&) = delete;
+  EventBasedNetListener_OnPeerConnected(EventBasedNetListener_OnPeerConnected const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20033 };
@@ -197,7 +197,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EventBasedNetListener_OnPeerDisconnected", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventBasedNetListener_OnPeerDisconnected(EventBasedNetListener_OnPeerDisconnectedconst&) = delete;
+  EventBasedNetListener_OnPeerDisconnected(EventBasedNetListener_OnPeerDisconnected const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20034 };
@@ -241,7 +241,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EventBasedNetListener_OnNetworkError", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventBasedNetListener_OnNetworkError(EventBasedNetListener_OnNetworkErrorconst&) = delete;
+  EventBasedNetListener_OnNetworkError(EventBasedNetListener_OnNetworkError const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20035 };
@@ -286,7 +286,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EventBasedNetListener_OnNetworkReceive", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventBasedNetListener_OnNetworkReceive(EventBasedNetListener_OnNetworkReceiveconst&) = delete;
+  EventBasedNetListener_OnNetworkReceive(EventBasedNetListener_OnNetworkReceive const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20036 };
@@ -331,7 +331,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EventBasedNetListener_OnNetworkReceiveUnconnected", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventBasedNetListener_OnNetworkReceiveUnconnected(EventBasedNetListener_OnNetworkReceiveUnconnectedconst&) = delete;
+  EventBasedNetListener_OnNetworkReceiveUnconnected(EventBasedNetListener_OnNetworkReceiveUnconnected const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20037 };
@@ -375,7 +375,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EventBasedNetListener_OnNetworkLatencyUpdate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventBasedNetListener_OnNetworkLatencyUpdate(EventBasedNetListener_OnNetworkLatencyUpdateconst&) = delete;
+  EventBasedNetListener_OnNetworkLatencyUpdate(EventBasedNetListener_OnNetworkLatencyUpdate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20038 };
@@ -419,7 +419,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EventBasedNetListener_OnConnectionRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventBasedNetListener_OnConnectionRequest(EventBasedNetListener_OnConnectionRequestconst&) = delete;
+  EventBasedNetListener_OnConnectionRequest(EventBasedNetListener_OnConnectionRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20039 };
@@ -463,7 +463,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EventBasedNetListener_OnDeliveryEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventBasedNetListener_OnDeliveryEvent(EventBasedNetListener_OnDeliveryEventconst&) = delete;
+  EventBasedNetListener_OnDeliveryEvent(EventBasedNetListener_OnDeliveryEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20040 };
@@ -715,7 +715,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EventBasedNetListener", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventBasedNetListener(EventBasedNetListenerconst&) = delete;
+  EventBasedNetListener(EventBasedNetListener const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20041 };

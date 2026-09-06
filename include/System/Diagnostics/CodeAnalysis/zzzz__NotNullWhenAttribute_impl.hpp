@@ -7,11 +7,25 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute::*)(bool)>(&::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5be2fe8;
+  constexpr static std::size_t addrs = 0x5cd2a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute*>(), { ".ctor", {}, { ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute.get_ReturnValue
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute::*)()>(
+    &::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute::get_ReturnValue)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5cd2a4c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute*>(), { "get_ReturnValue", {}, {} })));
     return ___internal_method;
   }
 };
@@ -31,6 +45,11 @@ inline void System::Diagnostics::CodeAnalysis::NotNullWhenAttribute::_ctor(bool 
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute*>(), { ".ctor", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, returnValue);
+}
+inline bool System::Diagnostics::CodeAnalysis::NotNullWhenAttribute::get_ReturnValue() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute*>(), { "get_ReturnValue", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline ::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute* System::Diagnostics::CodeAnalysis::NotNullWhenAttribute::New_ctor(bool returnValue) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute*>(returnValue));

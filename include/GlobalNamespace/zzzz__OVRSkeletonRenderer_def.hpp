@@ -102,7 +102,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider(OVRSkeletonRenderer_IOVRSkeletonRendererDataProviderconst&) = delete;
+  OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider(OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7988 };
@@ -402,7 +402,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSkeletonRenderer_BoneVisualization", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSkeletonRenderer_BoneVisualization(OVRSkeletonRenderer_BoneVisualizationconst&) = delete;
+  OVRSkeletonRenderer_BoneVisualization(OVRSkeletonRenderer_BoneVisualization const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7992 };
@@ -526,7 +526,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSkeletonRenderer_CapsuleVisualization", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSkeletonRenderer_CapsuleVisualization(OVRSkeletonRenderer_CapsuleVisualizationconst&) = delete;
+  OVRSkeletonRenderer_CapsuleVisualization(OVRSkeletonRenderer_CapsuleVisualization const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7993 };
@@ -845,7 +845,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSkeletonRenderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSkeletonRenderer(OVRSkeletonRendererconst&) = delete;
+  OVRSkeletonRenderer(OVRSkeletonRenderer const&) = delete;
 
   /// @brief Field LINE_RENDERER_WIDTH offset 0xffffffff size 0x4
   static constexpr float_t LINE_RENDERER_WIDTH{ static_cast<float_t>(0.005f) };

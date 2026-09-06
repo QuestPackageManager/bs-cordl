@@ -64,7 +64,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IncrementStripIndexOnStart_InputProperties", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IncrementStripIndexOnStart_InputProperties(IncrementStripIndexOnStart_InputPropertiesconst&) = delete;
+  IncrementStripIndexOnStart_InputProperties(IncrementStripIndexOnStart_InputProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19921 };
@@ -139,7 +139,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IncrementStripIndexOnStart", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IncrementStripIndexOnStart(IncrementStripIndexOnStartconst&) = delete;
+  IncrementStripIndexOnStart(IncrementStripIndexOnStart const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19922 };

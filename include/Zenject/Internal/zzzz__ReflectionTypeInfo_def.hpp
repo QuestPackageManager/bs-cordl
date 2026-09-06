@@ -119,7 +119,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo_InjectFieldInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionTypeInfo_InjectFieldInfo(ReflectionTypeInfo_InjectFieldInfoconst&) = delete;
+  ReflectionTypeInfo_InjectFieldInfo(ReflectionTypeInfo_InjectFieldInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14732 };
@@ -183,7 +183,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo_InjectParameterInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionTypeInfo_InjectParameterInfo(ReflectionTypeInfo_InjectParameterInfoconst&) = delete;
+  ReflectionTypeInfo_InjectParameterInfo(ReflectionTypeInfo_InjectParameterInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14733 };
@@ -247,7 +247,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo_InjectPropertyInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionTypeInfo_InjectPropertyInfo(ReflectionTypeInfo_InjectPropertyInfoconst&) = delete;
+  ReflectionTypeInfo_InjectPropertyInfo(ReflectionTypeInfo_InjectPropertyInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14734 };
@@ -313,7 +313,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo_InjectMethodInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionTypeInfo_InjectMethodInfo(ReflectionTypeInfo_InjectMethodInfoconst&) = delete;
+  ReflectionTypeInfo_InjectMethodInfo(ReflectionTypeInfo_InjectMethodInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14735 };
@@ -379,7 +379,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo_InjectConstructorInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionTypeInfo_InjectConstructorInfo(ReflectionTypeInfo_InjectConstructorInfoconst&) = delete;
+  ReflectionTypeInfo_InjectConstructorInfo(ReflectionTypeInfo_InjectConstructorInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14736 };
@@ -498,7 +498,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionTypeInfo(ReflectionTypeInfoconst&) = delete;
+  ReflectionTypeInfo(ReflectionTypeInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14737 };

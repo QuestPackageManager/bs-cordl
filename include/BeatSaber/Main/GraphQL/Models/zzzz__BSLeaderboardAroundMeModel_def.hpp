@@ -253,7 +253,7 @@ public:
   // "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NodesModel_LeaderboardEntriesAroundPlayerPageModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardAroundMeModel__GetNestedFragments_d__5(
-      NodesModel_LeaderboardEntriesAroundPlayerPageModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardAroundMeModel__GetNestedFragments_d__5const&) =
+      NodesModel_LeaderboardEntriesAroundPlayerPageModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardAroundMeModel__GetNestedFragments_d__5 const&) =
       delete;
 
   /// @brief IL2CPP Metadata Type Index
@@ -381,7 +381,7 @@ public:
   // None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LeaderboardEntriesAroundPlayerPageModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardAroundMeModel_NodesModel(
-      LeaderboardEntriesAroundPlayerPageModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardAroundMeModel_NodesModelconst&) = delete;
+      LeaderboardEntriesAroundPlayerPageModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardAroundMeModel_NodesModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20545 };
@@ -479,7 +479,7 @@ public:
   // modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardAroundMeModel_LeaderboardEntriesAroundPlayerPageModel(
-      BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardAroundMeModel_LeaderboardEntriesAroundPlayerPageModelconst&) = delete;
+      BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardAroundMeModel_LeaderboardEntriesAroundPlayerPageModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20546 };
@@ -567,7 +567,7 @@ public:
   // comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardAroundMeModel_BeatmapModel(
-      DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardAroundMeModel_BeatmapModelconst&) = delete;
+      DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardAroundMeModel_BeatmapModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20547 };
@@ -644,7 +644,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardAroundMeModel_DataEnvironmentModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardAroundMeModel_DataEnvironmentModel(FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardAroundMeModel_DataEnvironmentModelconst&) =
+  FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardAroundMeModel_DataEnvironmentModel(FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardAroundMeModel_DataEnvironmentModel const&) =
       delete;
 
   /// @brief IL2CPP Metadata Type Index
@@ -718,7 +718,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardAroundMeModel_FetchXOCBeatGamesEnvironmentPlayerRootModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BSLeaderboardAroundMeModel_FetchXOCBeatGamesEnvironmentPlayerRootModel(BSLeaderboardAroundMeModel_FetchXOCBeatGamesEnvironmentPlayerRootModelconst&) = delete;
+  BSLeaderboardAroundMeModel_FetchXOCBeatGamesEnvironmentPlayerRootModel(BSLeaderboardAroundMeModel_FetchXOCBeatGamesEnvironmentPlayerRootModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20549 };
@@ -792,7 +792,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardAroundMeModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BSLeaderboardAroundMeModel(BSLeaderboardAroundMeModelconst&) = delete;
+  BSLeaderboardAroundMeModel(BSLeaderboardAroundMeModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20550 };

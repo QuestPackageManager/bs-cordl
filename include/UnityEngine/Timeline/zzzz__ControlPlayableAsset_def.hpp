@@ -246,7 +246,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ControlPlayableAsset__GetControlableScripts_d__40", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ControlPlayableAsset__GetControlableScripts_d__40(ControlPlayableAsset__GetControlableScripts_d__40const&) = delete;
+  ControlPlayableAsset__GetControlableScripts_d__40(ControlPlayableAsset__GetControlableScripts_d__40 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19196 };
@@ -606,7 +606,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ControlPlayableAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ControlPlayableAsset(ControlPlayableAssetconst&) = delete;
+  ControlPlayableAsset(ControlPlayableAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19197 };

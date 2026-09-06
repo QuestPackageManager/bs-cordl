@@ -127,7 +127,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConformanceAutomationFeature", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConformanceAutomationFeature(ConformanceAutomationFeatureconst&) = delete;
+  ConformanceAutomationFeature(ConformanceAutomationFeature const&) = delete;
 
   /// @brief Field ExtLib offset 0xffffffff size 0x8
   static constexpr ::ConstString ExtLib{ u"ConformanceAutomationExt" };

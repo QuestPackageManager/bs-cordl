@@ -455,7 +455,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LiteNetLibConnectionManager_LiteNetLibConnectionParamsBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LiteNetLibConnectionManager_LiteNetLibConnectionParamsBase(LiteNetLibConnectionManager_LiteNetLibConnectionParamsBaseconst&) = delete;
+  LiteNetLibConnectionManager_LiteNetLibConnectionParamsBase(LiteNetLibConnectionManager_LiteNetLibConnectionParamsBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18204 };
@@ -548,7 +548,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LiteNetLibConnectionManager_StartServerParams", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LiteNetLibConnectionManager_StartServerParams(LiteNetLibConnectionManager_StartServerParamsconst&) = delete;
+  LiteNetLibConnectionManager_StartServerParams(LiteNetLibConnectionManager_StartServerParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18205 };
@@ -593,7 +593,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LiteNetLibConnectionManager_StartClientParams", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LiteNetLibConnectionManager_StartClientParams(LiteNetLibConnectionManager_StartClientParamsconst&) = delete;
+  LiteNetLibConnectionManager_StartClientParams(LiteNetLibConnectionManager_StartClientParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18206 };
@@ -682,7 +682,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LiteNetLibConnectionManager_ConnectToServerParams", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LiteNetLibConnectionManager_ConnectToServerParams(LiteNetLibConnectionManager_ConnectToServerParamsconst&) = delete;
+  LiteNetLibConnectionManager_ConnectToServerParams(LiteNetLibConnectionManager_ConnectToServerParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18207 };
@@ -821,7 +821,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LiteNetLibConnectionManager_NetPeerConnectionRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LiteNetLibConnectionManager_NetPeerConnectionRequest(LiteNetLibConnectionManager_NetPeerConnectionRequestconst&) = delete;
+  LiteNetLibConnectionManager_NetPeerConnectionRequest(LiteNetLibConnectionManager_NetPeerConnectionRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18208 };
@@ -975,7 +975,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LiteNetLibConnectionManager_NetPeerConnection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LiteNetLibConnectionManager_NetPeerConnection(LiteNetLibConnectionManager_NetPeerConnectionconst&) = delete;
+  LiteNetLibConnectionManager_NetPeerConnection(LiteNetLibConnectionManager_NetPeerConnection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18209 };
@@ -1053,7 +1053,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LiteNetLibConnectionManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LiteNetLibConnectionManager___c(LiteNetLibConnectionManager___cconst&) = delete;
+  LiteNetLibConnectionManager___c(LiteNetLibConnectionManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18210 };
@@ -1856,7 +1856,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LiteNetLibConnectionManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LiteNetLibConnectionManager(LiteNetLibConnectionManagerconst&) = delete;
+  LiteNetLibConnectionManager(LiteNetLibConnectionManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18213 };

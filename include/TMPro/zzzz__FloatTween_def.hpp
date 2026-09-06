@@ -52,7 +52,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FloatTween_FloatTweenCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatTween_FloatTweenCallback(FloatTween_FloatTweenCallbackconst&) = delete;
+  FloatTween_FloatTweenCallback(FloatTween_FloatTweenCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15897 };

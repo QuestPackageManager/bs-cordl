@@ -141,7 +141,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass36_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeExtensions___c__DisplayClass36_0(TypeExtensions___c__DisplayClass36_0const&) = delete;
+  TypeExtensions___c__DisplayClass36_0(TypeExtensions___c__DisplayClass36_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13969 };
@@ -194,7 +194,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass36_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeExtensions___c__DisplayClass36_1(TypeExtensions___c__DisplayClass36_1const&) = delete;
+  TypeExtensions___c__DisplayClass36_1(TypeExtensions___c__DisplayClass36_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13970 };
@@ -247,7 +247,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass40_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeExtensions___c__DisplayClass40_0(TypeExtensions___c__DisplayClass40_0const&) = delete;
+  TypeExtensions___c__DisplayClass40_0(TypeExtensions___c__DisplayClass40_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13971 };
@@ -300,7 +300,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions___c__DisplayClass40_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeExtensions___c__DisplayClass40_1(TypeExtensions___c__DisplayClass40_1const&) = delete;
+  TypeExtensions___c__DisplayClass40_1(TypeExtensions___c__DisplayClass40_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13972 };
@@ -461,7 +461,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions__GetParentTypes_d__29", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeExtensions__GetParentTypes_d__29(TypeExtensions__GetParentTypes_d__29const&) = delete;
+  TypeExtensions__GetParentTypes_d__29(TypeExtensions__GetParentTypes_d__29 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13973 };
@@ -722,7 +722,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeExtensions(TypeExtensionsconst&) = delete;
+  TypeExtensions(TypeExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13974 };

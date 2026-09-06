@@ -37,7 +37,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1Tags", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Asn1Tags(Asn1Tagsconst&) = delete;
+  Asn1Tags(Asn1Tags const&) = delete;
 
   /// @brief Field Application offset 0xffffffff size 0x4
   static constexpr int32_t Application{ static_cast<int32_t>(0x40) };

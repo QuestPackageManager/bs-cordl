@@ -212,7 +212,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityPlayerLoopManager___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityPlayerLoopManager___c__DisplayClass3_0(UnityPlayerLoopManager___c__DisplayClass3_0const&) = delete;
+  UnityPlayerLoopManager___c__DisplayClass3_0(UnityPlayerLoopManager___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22774 };
@@ -273,7 +273,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityPlayerLoopManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityPlayerLoopManager(UnityPlayerLoopManagerconst&) = delete;
+  UnityPlayerLoopManager(UnityPlayerLoopManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22775 };

@@ -88,7 +88,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionAsyncInstaller___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackDefinitionAsyncInstaller___c(PackDefinitionAsyncInstaller___cconst&) = delete;
+  PackDefinitionAsyncInstaller___c(PackDefinitionAsyncInstaller___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15009 };
@@ -157,7 +157,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionAsyncInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackDefinitionAsyncInstaller(PackDefinitionAsyncInstallerconst&) = delete;
+  PackDefinitionAsyncInstaller(PackDefinitionAsyncInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15010 };

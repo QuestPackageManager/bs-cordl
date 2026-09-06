@@ -47,7 +47,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaConstants", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSchemaConstants(JsonSchemaConstantsconst&) = delete;
+  JsonSchemaConstants(JsonSchemaConstants const&) = delete;
 
   /// @brief Field AdditionalItemsPropertyName offset 0xffffffff size 0x8
   static constexpr ::ConstString AdditionalItemsPropertyName{ u"additionalItems" };

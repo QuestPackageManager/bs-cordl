@@ -268,7 +268,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_MainSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LegacySettingsV2_MainSettings(LegacySettingsV2_MainSettingsconst&) = delete;
+  LegacySettingsV2_MainSettings(LegacySettingsV2_MainSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22069 };
@@ -394,7 +394,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_AudioSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LegacySettingsV2_AudioSettings(LegacySettingsV2_AudioSettingsconst&) = delete;
+  LegacySettingsV2_AudioSettings(LegacySettingsV2_AudioSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22070 };
@@ -512,7 +512,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_SmoothCameraSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LegacySettingsV2_SmoothCameraSettings(LegacySettingsV2_SmoothCameraSettingsconst&) = delete;
+  LegacySettingsV2_SmoothCameraSettings(LegacySettingsV2_SmoothCameraSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22071 };
@@ -600,7 +600,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_ControllerSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LegacySettingsV2_ControllerSettings(LegacySettingsV2_ControllerSettingsconst&) = delete;
+  LegacySettingsV2_ControllerSettings(LegacySettingsV2_ControllerSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22072 };
@@ -672,7 +672,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_CustomServerSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LegacySettingsV2_CustomServerSettings(LegacySettingsV2_CustomServerSettingsconst&) = delete;
+  LegacySettingsV2_CustomServerSettings(LegacySettingsV2_CustomServerSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22073 };
@@ -750,7 +750,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_DebugSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LegacySettingsV2_DebugSettings(LegacySettingsV2_DebugSettingsconst&) = delete;
+  LegacySettingsV2_DebugSettings(LegacySettingsV2_DebugSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22074 };
@@ -893,7 +893,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_GraphicSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LegacySettingsV2_GraphicSettings(LegacySettingsV2_GraphicSettingsconst&) = delete;
+  LegacySettingsV2_GraphicSettings(LegacySettingsV2_GraphicSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22075 };
@@ -1486,7 +1486,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_PerformancePreset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LegacySettingsV2_PerformancePreset(LegacySettingsV2_PerformancePresetconst&) = delete;
+  LegacySettingsV2_PerformancePreset(LegacySettingsV2_PerformancePreset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22083 };
@@ -1663,7 +1663,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LegacySettingsV2(LegacySettingsV2const&) = delete;
+  LegacySettingsV2(LegacySettingsV2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22084 };

@@ -234,7 +234,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameLiftPlayerSessionProvider___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameLiftPlayerSessionProvider___c(GameLiftPlayerSessionProvider___cconst&) = delete;
+  GameLiftPlayerSessionProvider___c(GameLiftPlayerSessionProvider___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18987 };
@@ -994,7 +994,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameLiftPlayerSessionProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameLiftPlayerSessionProvider(GameLiftPlayerSessionProviderconst&) = delete;
+  GameLiftPlayerSessionProvider(GameLiftPlayerSessionProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18994 };

@@ -2603,7 +2603,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonTextWriter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonTextWriter(JsonTextWriterconst&) = delete;
+  JsonTextWriter(JsonTextWriter const&) = delete;
 
   /// @brief Field IndentCharBufferSize offset 0xffffffff size 0x4
   static constexpr int32_t IndentCharBufferSize{ static_cast<int32_t>(0xc) };

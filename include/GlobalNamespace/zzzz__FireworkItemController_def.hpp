@@ -158,7 +158,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FireworkItemController_FireworkItemParticleSystem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FireworkItemController_FireworkItemParticleSystem(FireworkItemController_FireworkItemParticleSystemconst&) = delete;
+  FireworkItemController_FireworkItemParticleSystem(FireworkItemController_FireworkItemParticleSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5763 };
@@ -225,7 +225,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FireworkItemController_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FireworkItemController_Pool(FireworkItemController_Poolconst&) = delete;
+  FireworkItemController_Pool(FireworkItemController_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5764 };
@@ -358,7 +358,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FireworkItemController__FireCoroutine_d__29", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FireworkItemController__FireCoroutine_d__29(FireworkItemController__FireCoroutine_d__29const&) = delete;
+  FireworkItemController__FireCoroutine_d__29(FireworkItemController__FireCoroutine_d__29 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5765 };
@@ -634,7 +634,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FireworkItemController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FireworkItemController(FireworkItemControllerconst&) = delete;
+  FireworkItemController(FireworkItemController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5766 };

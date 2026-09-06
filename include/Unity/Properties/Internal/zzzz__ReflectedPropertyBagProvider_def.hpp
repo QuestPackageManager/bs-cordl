@@ -145,7 +145,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBagProvider___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectedPropertyBagProvider___c(ReflectedPropertyBagProvider___cconst&) = delete;
+  ReflectedPropertyBagProvider___c(ReflectedPropertyBagProvider___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19763 };
@@ -374,7 +374,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBagProvider__GetPropertyMembers_d__22", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectedPropertyBagProvider__GetPropertyMembers_d__22(ReflectedPropertyBagProvider__GetPropertyMembers_d__22const&) = delete;
+  ReflectedPropertyBagProvider__GetPropertyMembers_d__22(ReflectedPropertyBagProvider__GetPropertyMembers_d__22 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19764 };
@@ -638,7 +638,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBagProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectedPropertyBagProvider(ReflectedPropertyBagProviderconst&) = delete;
+  ReflectedPropertyBagProvider(ReflectedPropertyBagProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19765 };

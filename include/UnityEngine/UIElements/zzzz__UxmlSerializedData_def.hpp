@@ -135,7 +135,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlSerializedData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlSerializedData(UxmlSerializedDataconst&) = delete;
+  UxmlSerializedData(UxmlSerializedData const&) = delete;
 
   /// @brief Field AttributeFlagSuffix offset 0xffffffff size 0x8
   static constexpr ::ConstString AttributeFlagSuffix{ u"_UxmlAttributeFlags" };

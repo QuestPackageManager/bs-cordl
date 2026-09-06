@@ -37,7 +37,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyExchangeAlgorithm", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyExchangeAlgorithm(KeyExchangeAlgorithmconst&) = delete;
+  KeyExchangeAlgorithm(KeyExchangeAlgorithm const&) = delete;
 
   /// @brief Field DHE_DSS offset 0xffffffff size 0x4
   static constexpr int32_t DHE_DSS{ static_cast<int32_t>(0x3) };

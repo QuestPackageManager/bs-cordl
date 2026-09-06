@@ -146,7 +146,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DataView_DataRowReferenceComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataView_DataRowReferenceComparer(DataView_DataRowReferenceComparerconst&) = delete;
+  DataView_DataRowReferenceComparer(DataView_DataRowReferenceComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13798 };
@@ -779,7 +779,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DataView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataView(DataViewconst&) = delete;
+  DataView(DataView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13799 };

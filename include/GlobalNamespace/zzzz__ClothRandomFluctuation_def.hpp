@@ -71,7 +71,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ClothRandomFluctuation_SineLayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ClothRandomFluctuation_SineLayer(ClothRandomFluctuation_SineLayerconst&) = delete;
+  ClothRandomFluctuation_SineLayer(ClothRandomFluctuation_SineLayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5537 };
@@ -200,7 +200,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ClothRandomFluctuation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ClothRandomFluctuation(ClothRandomFluctuationconst&) = delete;
+  ClothRandomFluctuation(ClothRandomFluctuation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5538 };

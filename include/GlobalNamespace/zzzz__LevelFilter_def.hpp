@@ -144,7 +144,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelFilter___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelFilter___c(LevelFilter___cconst&) = delete;
+  LevelFilter___c(LevelFilter___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15003 };
@@ -192,7 +192,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelFilter___c__DisplayClass14_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelFilter___c__DisplayClass14_0(LevelFilter___c__DisplayClass14_0const&) = delete;
+  LevelFilter___c__DisplayClass14_0(LevelFilter___c__DisplayClass14_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15004 };
@@ -255,7 +255,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelFilter___c__DisplayClass14_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelFilter___c__DisplayClass14_1(LevelFilter___c__DisplayClass14_1const&) = delete;
+  LevelFilter___c__DisplayClass14_1(LevelFilter___c__DisplayClass14_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15005 };

@@ -97,7 +97,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithIdsGroupEntry_GroupLightData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DirectionalLightWithIdsGroupEntry_GroupLightData(DirectionalLightWithIdsGroupEntry_GroupLightDataconst&) = delete;
+  DirectionalLightWithIdsGroupEntry_GroupLightData(DirectionalLightWithIdsGroupEntry_GroupLightData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19521 };
@@ -172,7 +172,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId(DirectionalLightWithIdsGroupEntry_LightIntensitiesWithIdconst&) = delete;
+  DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId(DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19522 };
@@ -287,7 +287,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithIdsGroupEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DirectionalLightWithIdsGroupEntry(DirectionalLightWithIdsGroupEntryconst&) = delete;
+  DirectionalLightWithIdsGroupEntry(DirectionalLightWithIdsGroupEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19523 };

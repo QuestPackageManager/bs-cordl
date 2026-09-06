@@ -213,7 +213,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataLoader_ColorNoteConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataLoader_ColorNoteConverter(BeatmapDataLoader_ColorNoteConverterconst&) = delete;
+  BeatmapDataLoader_ColorNoteConverter(BeatmapDataLoader_ColorNoteConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15477 };
@@ -259,7 +259,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataLoader_ObstacleConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataLoader_ObstacleConverter(BeatmapDataLoader_ObstacleConverterconst&) = delete;
+  BeatmapDataLoader_ObstacleConverter(BeatmapDataLoader_ObstacleConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15478 };
@@ -299,7 +299,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataLoader_WaypointConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataLoader_WaypointConverter(BeatmapDataLoader_WaypointConverterconst&) = delete;
+  BeatmapDataLoader_WaypointConverter(BeatmapDataLoader_WaypointConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15479 };
@@ -339,7 +339,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataLoader_SliderConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataLoader_SliderConverter(BeatmapDataLoader_SliderConverterconst&) = delete;
+  BeatmapDataLoader_SliderConverter(BeatmapDataLoader_SliderConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15480 };
@@ -401,7 +401,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataLoader_BasicEventConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataLoader_BasicEventConverter(BeatmapDataLoader_BasicEventConverterconst&) = delete;
+  BeatmapDataLoader_BasicEventConverter(BeatmapDataLoader_BasicEventConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15481 };
@@ -461,7 +461,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataLoader_SpecialEventsFilter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataLoader_SpecialEventsFilter(BeatmapDataLoader_SpecialEventsFilterconst&) = delete;
+  BeatmapDataLoader_SpecialEventsFilter(BeatmapDataLoader_SpecialEventsFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15482 };
@@ -520,7 +520,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataLoader___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataLoader___c(BeatmapDataLoader___cconst&) = delete;
+  BeatmapDataLoader___c(BeatmapDataLoader___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15483 };
@@ -641,7 +641,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataLoader___c__DisplayClass1_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataLoader___c__DisplayClass1_0(BeatmapDataLoader___c__DisplayClass1_0const&) = delete;
+  BeatmapDataLoader___c__DisplayClass1_0(BeatmapDataLoader___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15484 };
@@ -740,7 +740,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataLoader___c__DisplayClass2_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataLoader___c__DisplayClass2_0(BeatmapDataLoader___c__DisplayClass2_0const&) = delete;
+  BeatmapDataLoader___c__DisplayClass2_0(BeatmapDataLoader___c__DisplayClass2_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15485 };
@@ -836,7 +836,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataLoader(BeatmapDataLoaderconst&) = delete;
+  BeatmapDataLoader(BeatmapDataLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15486 };

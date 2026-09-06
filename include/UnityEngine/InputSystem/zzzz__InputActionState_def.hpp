@@ -2225,7 +2225,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputActionState___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputActionState___c(InputActionState___cconst&) = delete;
+  InputActionState___c(InputActionState___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8662 };
@@ -2837,7 +2837,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputActionState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputActionState(InputActionStateconst&) = delete;
+  InputActionState(InputActionState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8663 };

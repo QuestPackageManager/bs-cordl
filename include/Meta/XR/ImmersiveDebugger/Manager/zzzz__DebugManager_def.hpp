@@ -110,7 +110,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugManager_ShouldRetrieveInstanceDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugManager_ShouldRetrieveInstanceDelegate(DebugManager_ShouldRetrieveInstanceDelegateconst&) = delete;
+  DebugManager_ShouldRetrieveInstanceDelegate(DebugManager_ShouldRetrieveInstanceDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18428 };
@@ -163,7 +163,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugManager___c(DebugManager___cconst&) = delete;
+  DebugManager___c(DebugManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18429 };
@@ -410,7 +410,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugManager(DebugManagerconst&) = delete;
+  DebugManager(DebugManager const&) = delete;
 
   /// @brief Field RetrievalIntervalInSec offset 0xffffffff size 0x4
   static constexpr float_t RetrievalIntervalInSec{ static_cast<float_t>(1.0f) };

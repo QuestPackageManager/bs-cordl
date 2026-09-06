@@ -37,7 +37,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IgnoranceInternals", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IgnoranceInternals(IgnoranceInternalsconst&) = delete;
+  IgnoranceInternals(IgnoranceInternals const&) = delete;
 
   /// @brief Field BindAnyAddress offset 0xffffffff size 0x8
   static constexpr ::ConstString BindAnyAddress{ u"::0" };

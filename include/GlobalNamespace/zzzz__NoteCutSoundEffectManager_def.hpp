@@ -109,7 +109,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteCutSoundEffectManager_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteCutSoundEffectManager_InitData(NoteCutSoundEffectManager_InitDataconst&) = delete;
+  NoteCutSoundEffectManager_InitData(NoteCutSoundEffectManager_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5574 };
@@ -384,7 +384,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteCutSoundEffectManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteCutSoundEffectManager(NoteCutSoundEffectManagerconst&) = delete;
+  NoteCutSoundEffectManager(NoteCutSoundEffectManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5575 };

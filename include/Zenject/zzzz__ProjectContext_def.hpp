@@ -250,7 +250,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProjectContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProjectContext(ProjectContextconst&) = delete;
+  ProjectContext(ProjectContext const&) = delete;
 
   /// @brief Field ProjectContextResourcePath offset 0xffffffff size 0x8
   static constexpr ::ConstString ProjectContextResourcePath{ u"ProjectContext" };

@@ -2229,7 +2229,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRInput_HapticInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRInput_HapticInfo(OVRInput_HapticInfoconst&) = delete;
+  OVRInput_HapticInfo(OVRInput_HapticInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7208 };
@@ -2589,7 +2589,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRControllerBase_OVRInput_VirtualButtonMap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRControllerBase_OVRInput_VirtualButtonMap(OVRControllerBase_OVRInput_VirtualButtonMapconst&) = delete;
+  OVRControllerBase_OVRInput_VirtualButtonMap(OVRControllerBase_OVRInput_VirtualButtonMap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7209 };
@@ -2909,7 +2909,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRControllerBase_OVRInput_VirtualTouchMap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRControllerBase_OVRInput_VirtualTouchMap(OVRControllerBase_OVRInput_VirtualTouchMapconst&) = delete;
+  OVRControllerBase_OVRInput_VirtualTouchMap(OVRControllerBase_OVRInput_VirtualTouchMap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7210 };
@@ -3057,7 +3057,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRControllerBase_OVRInput_VirtualNearTouchMap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRControllerBase_OVRInput_VirtualNearTouchMap(OVRControllerBase_OVRInput_VirtualNearTouchMapconst&) = delete;
+  OVRControllerBase_OVRInput_VirtualNearTouchMap(OVRControllerBase_OVRInput_VirtualNearTouchMap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7211 };
@@ -3255,7 +3255,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRControllerBase_OVRInput_VirtualAxis1DMap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRControllerBase_OVRInput_VirtualAxis1DMap(OVRControllerBase_OVRInput_VirtualAxis1DMapconst&) = delete;
+  OVRControllerBase_OVRInput_VirtualAxis1DMap(OVRControllerBase_OVRInput_VirtualAxis1DMap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7212 };
@@ -3413,7 +3413,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRControllerBase_OVRInput_VirtualAxis2DMap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRControllerBase_OVRInput_VirtualAxis2DMap(OVRControllerBase_OVRInput_VirtualAxis2DMapconst&) = delete;
+  OVRControllerBase_OVRInput_VirtualAxis2DMap(OVRControllerBase_OVRInput_VirtualAxis2DMap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7213 };
@@ -3628,7 +3628,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRInput_OVRControllerBase(OVRInput_OVRControllerBaseconst&) = delete;
+  OVRInput_OVRControllerBase(OVRInput_OVRControllerBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7214 };
@@ -3732,7 +3732,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerTouch", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRInput_OVRControllerTouch(OVRInput_OVRControllerTouchconst&) = delete;
+  OVRInput_OVRControllerTouch(OVRInput_OVRControllerTouch const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7215 };
@@ -3786,7 +3786,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerLTouch", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRInput_OVRControllerLTouch(OVRInput_OVRControllerLTouchconst&) = delete;
+  OVRInput_OVRControllerLTouch(OVRInput_OVRControllerLTouch const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7216 };
@@ -3840,7 +3840,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerRTouch", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRInput_OVRControllerRTouch(OVRInput_OVRControllerRTouchconst&) = delete;
+  OVRInput_OVRControllerRTouch(OVRInput_OVRControllerRTouch const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7217 };
@@ -3894,7 +3894,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerHands", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRInput_OVRControllerHands(OVRInput_OVRControllerHandsconst&) = delete;
+  OVRInput_OVRControllerHands(OVRInput_OVRControllerHands const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7218 };
@@ -3948,7 +3948,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerLHand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRInput_OVRControllerLHand(OVRInput_OVRControllerLHandconst&) = delete;
+  OVRInput_OVRControllerLHand(OVRInput_OVRControllerLHand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7219 };
@@ -4002,7 +4002,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerRHand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRInput_OVRControllerRHand(OVRInput_OVRControllerRHandconst&) = delete;
+  OVRInput_OVRControllerRHand(OVRInput_OVRControllerRHand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7220 };
@@ -4052,7 +4052,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerRemote", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRInput_OVRControllerRemote(OVRInput_OVRControllerRemoteconst&) = delete;
+  OVRInput_OVRControllerRemote(OVRInput_OVRControllerRemote const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7221 };
@@ -4102,7 +4102,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerGamepadPC", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRInput_OVRControllerGamepadPC(OVRInput_OVRControllerGamepadPCconst&) = delete;
+  OVRInput_OVRControllerGamepadPC(OVRInput_OVRControllerGamepadPC const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7222 };
@@ -4152,7 +4152,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRInput_OVRControllerGamepadAndroid", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRInput_OVRControllerGamepadAndroid(OVRInput_OVRControllerGamepadAndroidconst&) = delete;
+  OVRInput_OVRControllerGamepadAndroid(OVRInput_OVRControllerGamepadAndroid const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7223 };
@@ -4612,7 +4612,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRInput(OVRInputconst&) = delete;
+  OVRInput(OVRInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7224 };

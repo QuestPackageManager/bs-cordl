@@ -63,7 +63,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FlyingTextEffect_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlyingTextEffect_Pool(FlyingTextEffect_Poolconst&) = delete;
+  FlyingTextEffect_Pool(FlyingTextEffect_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5777 };
@@ -133,7 +133,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FlyingTextEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlyingTextEffect(FlyingTextEffectconst&) = delete;
+  FlyingTextEffect(FlyingTextEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5778 };

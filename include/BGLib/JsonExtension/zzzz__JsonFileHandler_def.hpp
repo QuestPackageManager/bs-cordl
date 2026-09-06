@@ -76,7 +76,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonFileHandler___c__DisplayClass0_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonFileHandler___c__DisplayClass0_0_1(JsonFileHandler___c__DisplayClass0_0_1const&) = delete;
+  JsonFileHandler___c__DisplayClass0_0_1(JsonFileHandler___c__DisplayClass0_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23391 };
@@ -136,7 +136,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonFileHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonFileHandler(JsonFileHandlerconst&) = delete;
+  JsonFileHandler(JsonFileHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23392 };

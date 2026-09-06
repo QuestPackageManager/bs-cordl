@@ -134,7 +134,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetCalibrationState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperone__GetCalibrationState(IVRChaperone__GetCalibrationStateconst&) = delete;
+  IVRChaperone__GetCalibrationState(IVRChaperone__GetCalibrationState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8132 };
@@ -179,7 +179,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetPlayAreaSize", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperone__GetPlayAreaSize(IVRChaperone__GetPlayAreaSizeconst&) = delete;
+  IVRChaperone__GetPlayAreaSize(IVRChaperone__GetPlayAreaSize const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8133 };
@@ -224,7 +224,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetPlayAreaRect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperone__GetPlayAreaRect(IVRChaperone__GetPlayAreaRectconst&) = delete;
+  IVRChaperone__GetPlayAreaRect(IVRChaperone__GetPlayAreaRect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8134 };
@@ -269,7 +269,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__ReloadInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperone__ReloadInfo(IVRChaperone__ReloadInfoconst&) = delete;
+  IVRChaperone__ReloadInfo(IVRChaperone__ReloadInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8135 };
@@ -314,7 +314,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__SetSceneColor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperone__SetSceneColor(IVRChaperone__SetSceneColorconst&) = delete;
+  IVRChaperone__SetSceneColor(IVRChaperone__SetSceneColor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8136 };
@@ -360,7 +360,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetBoundsColor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperone__GetBoundsColor(IVRChaperone__GetBoundsColorconst&) = delete;
+  IVRChaperone__GetBoundsColor(IVRChaperone__GetBoundsColor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8137 };
@@ -405,7 +405,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__AreBoundsVisible", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperone__AreBoundsVisible(IVRChaperone__AreBoundsVisibleconst&) = delete;
+  IVRChaperone__AreBoundsVisible(IVRChaperone__AreBoundsVisible const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8138 };
@@ -450,7 +450,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__ForceBoundsVisible", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperone__ForceBoundsVisible(IVRChaperone__ForceBoundsVisibleconst&) = delete;
+  IVRChaperone__ForceBoundsVisible(IVRChaperone__ForceBoundsVisible const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8139 };

@@ -301,7 +301,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTracksDefinitionSO_BasicEventTrackInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentTracksDefinitionSO_BasicEventTrackInfo(EnvironmentTracksDefinitionSO_BasicEventTrackInfoconst&) = delete;
+  EnvironmentTracksDefinitionSO_BasicEventTrackInfo(EnvironmentTracksDefinitionSO_BasicEventTrackInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22950 };
@@ -397,7 +397,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTracksDefinitionSO_EventBoxGroupPageInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentTracksDefinitionSO_EventBoxGroupPageInfo(EnvironmentTracksDefinitionSO_EventBoxGroupPageInfoconst&) = delete;
+  EnvironmentTracksDefinitionSO_EventBoxGroupPageInfo(EnvironmentTracksDefinitionSO_EventBoxGroupPageInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22951 };
@@ -670,7 +670,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTracksDefinitionSO_EventBoxGroupTrackInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentTracksDefinitionSO_EventBoxGroupTrackInfo(EnvironmentTracksDefinitionSO_EventBoxGroupTrackInfoconst&) = delete;
+  EnvironmentTracksDefinitionSO_EventBoxGroupTrackInfo(EnvironmentTracksDefinitionSO_EventBoxGroupTrackInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22952 };
@@ -860,7 +860,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTracksDefinitionSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentTracksDefinitionSO(EnvironmentTracksDefinitionSOconst&) = delete;
+  EnvironmentTracksDefinitionSO(EnvironmentTracksDefinitionSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22953 };

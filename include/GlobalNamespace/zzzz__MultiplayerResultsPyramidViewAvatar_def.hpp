@@ -98,7 +98,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerResultsPyramidViewAvatar_Factory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerResultsPyramidViewAvatar_Factory(MultiplayerResultsPyramidViewAvatar_Factoryconst&) = delete;
+  MultiplayerResultsPyramidViewAvatar_Factory(MultiplayerResultsPyramidViewAvatar_Factory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6179 };
@@ -465,7 +465,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerResultsPyramidViewAvatar", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerResultsPyramidViewAvatar(MultiplayerResultsPyramidViewAvatarconst&) = delete;
+  MultiplayerResultsPyramidViewAvatar(MultiplayerResultsPyramidViewAvatar const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6180 };

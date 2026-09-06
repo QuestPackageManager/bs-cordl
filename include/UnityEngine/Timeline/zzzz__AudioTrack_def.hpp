@@ -200,7 +200,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioTrack__get_outputs_d__4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioTrack__get_outputs_d__4(AudioTrack__get_outputs_d__4const&) = delete;
+  AudioTrack__get_outputs_d__4(AudioTrack__get_outputs_d__4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19192 };
@@ -286,7 +286,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioTrack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioTrack(AudioTrackconst&) = delete;
+  AudioTrack(AudioTrack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19193 };

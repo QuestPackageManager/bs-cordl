@@ -69,7 +69,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ICameraHistoryReadAccess_HistoryRequestDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ICameraHistoryReadAccess_HistoryRequestDelegate(ICameraHistoryReadAccess_HistoryRequestDelegateconst&) = delete;
+  ICameraHistoryReadAccess_HistoryRequestDelegate(ICameraHistoryReadAccess_HistoryRequestDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11865 };
@@ -104,7 +104,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ICameraHistoryReadAccess", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ICameraHistoryReadAccess(ICameraHistoryReadAccessconst&) = delete;
+  ICameraHistoryReadAccess(ICameraHistoryReadAccess const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11866 };

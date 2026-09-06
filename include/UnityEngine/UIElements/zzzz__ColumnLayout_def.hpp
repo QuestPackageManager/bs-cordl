@@ -94,7 +94,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ColumnLayout___c__DisplayClass53_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColumnLayout___c__DisplayClass53_0(ColumnLayout___c__DisplayClass53_0const&) = delete;
+  ColumnLayout___c__DisplayClass53_0(ColumnLayout___c__DisplayClass53_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4257 };
@@ -161,7 +161,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ColumnLayout___c__DisplayClass54_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColumnLayout___c__DisplayClass54_0(ColumnLayout___c__DisplayClass54_0const&) = delete;
+  ColumnLayout___c__DisplayClass54_0(ColumnLayout___c__DisplayClass54_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4258 };
@@ -565,7 +565,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ColumnLayout", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColumnLayout(ColumnLayoutconst&) = delete;
+  ColumnLayout(ColumnLayout const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4259 };

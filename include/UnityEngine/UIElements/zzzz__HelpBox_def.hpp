@@ -80,7 +80,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HelpBox_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HelpBox_UxmlFactory(HelpBox_UxmlFactoryconst&) = delete;
+  HelpBox_UxmlFactory(HelpBox_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4209 };
@@ -138,7 +138,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HelpBox_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HelpBox_UxmlTraits(HelpBox_UxmlTraitsconst&) = delete;
+  HelpBox_UxmlTraits(HelpBox_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4210 };
@@ -308,7 +308,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HelpBox", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HelpBox(HelpBoxconst&) = delete;
+  HelpBox(HelpBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4211 };

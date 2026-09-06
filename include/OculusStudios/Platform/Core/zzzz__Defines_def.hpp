@@ -32,7 +32,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Defines", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Defines(Definesconst&) = delete;
+  Defines(Defines const&) = delete;
 
   /// @brief Field TIMEOUT_WEBREQUEST_SECONDS offset 0xffffffff size 0x4
   static constexpr uint32_t TIMEOUT_WEBREQUEST_SECONDS{ static_cast<uint32_t>(0x14u) };

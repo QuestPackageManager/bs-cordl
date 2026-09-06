@@ -201,7 +201,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputBindingComposite__GetPartNames_d__12", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputBindingComposite__GetPartNames_d__12(InputBindingComposite__GetPartNames_d__12const&) = delete;
+  InputBindingComposite__GetPartNames_d__12(InputBindingComposite__GetPartNames_d__12 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8670 };
@@ -318,7 +318,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputBindingComposite", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputBindingComposite(InputBindingCompositeconst&) = delete;
+  InputBindingComposite(InputBindingComposite const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8671 };

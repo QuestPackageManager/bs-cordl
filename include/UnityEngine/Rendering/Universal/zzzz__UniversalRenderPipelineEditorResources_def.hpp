@@ -137,7 +137,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineEditorResources_ShaderResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipelineEditorResources_ShaderResources(UniversalRenderPipelineEditorResources_ShaderResourcesconst&) = delete;
+  UniversalRenderPipelineEditorResources_ShaderResources(UniversalRenderPipelineEditorResources_ShaderResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12744 };
@@ -258,7 +258,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineEditorResources_MaterialResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipelineEditorResources_MaterialResources(UniversalRenderPipelineEditorResources_MaterialResourcesconst&) = delete;
+  UniversalRenderPipelineEditorResources_MaterialResources(UniversalRenderPipelineEditorResources_MaterialResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12745 };
@@ -341,7 +341,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineEditorResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipelineEditorResources(UniversalRenderPipelineEditorResourcesconst&) = delete;
+  UniversalRenderPipelineEditorResources(UniversalRenderPipelineEditorResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12746 };

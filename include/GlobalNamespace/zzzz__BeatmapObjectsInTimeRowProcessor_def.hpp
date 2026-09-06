@@ -231,7 +231,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1(BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1const&) = delete;
+  BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1(BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21280 };
@@ -299,7 +299,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInTimeRowProcessor_SliderTailData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapObjectsInTimeRowProcessor_SliderTailData(BeatmapObjectsInTimeRowProcessor_SliderTailDataconst&) = delete;
+  BeatmapObjectsInTimeRowProcessor_SliderTailData(BeatmapObjectsInTimeRowProcessor_SliderTailData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21281 };
@@ -357,7 +357,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInTimeRowProcessor___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapObjectsInTimeRowProcessor___c(BeatmapObjectsInTimeRowProcessor___cconst&) = delete;
+  BeatmapObjectsInTimeRowProcessor___c(BeatmapObjectsInTimeRowProcessor___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21282 };
@@ -405,7 +405,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInTimeRowProcessor___c__DisplayClass17_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapObjectsInTimeRowProcessor___c__DisplayClass17_0(BeatmapObjectsInTimeRowProcessor___c__DisplayClass17_0const&) = delete;
+  BeatmapObjectsInTimeRowProcessor___c__DisplayClass17_0(BeatmapObjectsInTimeRowProcessor___c__DisplayClass17_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21283 };
@@ -562,7 +562,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInTimeRowProcessor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapObjectsInTimeRowProcessor(BeatmapObjectsInTimeRowProcessorconst&) = delete;
+  BeatmapObjectsInTimeRowProcessor(BeatmapObjectsInTimeRowProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21284 };

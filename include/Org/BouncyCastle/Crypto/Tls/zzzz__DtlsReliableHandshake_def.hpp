@@ -126,7 +126,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DtlsReliableHandshake_Message", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DtlsReliableHandshake_Message(DtlsReliableHandshake_Messageconst&) = delete;
+  DtlsReliableHandshake_Message(DtlsReliableHandshake_Message const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1230 };
@@ -179,7 +179,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DtlsReliableHandshake_RecordLayerBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DtlsReliableHandshake_RecordLayerBuffer(DtlsReliableHandshake_RecordLayerBufferconst&) = delete;
+  DtlsReliableHandshake_RecordLayerBuffer(DtlsReliableHandshake_RecordLayerBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1231 };
@@ -232,7 +232,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DtlsReliableHandshake_Retransmit", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DtlsReliableHandshake_Retransmit(DtlsReliableHandshake_Retransmitconst&) = delete;
+  DtlsReliableHandshake_Retransmit(DtlsReliableHandshake_Retransmit const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1232 };
@@ -428,7 +428,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DtlsReliableHandshake", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DtlsReliableHandshake(DtlsReliableHandshakeconst&) = delete;
+  DtlsReliableHandshake(DtlsReliableHandshake const&) = delete;
 
   /// @brief Field InitialResendMillis offset 0xffffffff size 0x4
   static constexpr int32_t InitialResendMillis{ static_cast<int32_t>(0x3e8) };

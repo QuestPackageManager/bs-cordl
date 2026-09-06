@@ -171,7 +171,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7(CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7const&) = delete;
+  CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7(CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5758 };
@@ -297,7 +297,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CutoutAnimateEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CutoutAnimateEffect(CutoutAnimateEffectconst&) = delete;
+  CutoutAnimateEffect(CutoutAnimateEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5759 };

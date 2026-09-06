@@ -104,7 +104,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Marshal_SecureStringAllocator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Marshal_SecureStringAllocator(Marshal_SecureStringAllocatorconst&) = delete;
+  Marshal_SecureStringAllocator(Marshal_SecureStringAllocator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3350 };
@@ -152,7 +152,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Marshal_MarshalerInstanceKeyComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Marshal_MarshalerInstanceKeyComparer(Marshal_MarshalerInstanceKeyComparerconst&) = delete;
+  Marshal_MarshalerInstanceKeyComparer(Marshal_MarshalerInstanceKeyComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3351 };
@@ -209,7 +209,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Marshal___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Marshal___c(Marshal___cconst&) = delete;
+  Marshal___c(Marshal___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3352 };
@@ -477,7 +477,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Marshal", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Marshal(Marshalconst&) = delete;
+  Marshal(Marshal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3353 };

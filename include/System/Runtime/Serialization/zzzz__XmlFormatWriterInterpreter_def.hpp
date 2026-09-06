@@ -117,7 +117,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterInterpreter___c__DisplayClass24_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlFormatWriterInterpreter___c__DisplayClass24_0(XmlFormatWriterInterpreter___c__DisplayClass24_0const&) = delete;
+  XmlFormatWriterInterpreter___c__DisplayClass24_0(XmlFormatWriterInterpreter___c__DisplayClass24_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17160 };
@@ -170,7 +170,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterInterpreter___c__DisplayClass25_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlFormatWriterInterpreter___c__DisplayClass25_0(XmlFormatWriterInterpreter___c__DisplayClass25_0const&) = delete;
+  XmlFormatWriterInterpreter___c__DisplayClass25_0(XmlFormatWriterInterpreter___c__DisplayClass25_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17161 };
@@ -223,7 +223,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterInterpreter___c__DisplayClass33_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlFormatWriterInterpreter___c__DisplayClass33_0(XmlFormatWriterInterpreter___c__DisplayClass33_0const&) = delete;
+  XmlFormatWriterInterpreter___c__DisplayClass33_0(XmlFormatWriterInterpreter___c__DisplayClass33_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17162 };
@@ -465,7 +465,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlFormatWriterInterpreter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlFormatWriterInterpreter(XmlFormatWriterInterpreterconst&) = delete;
+  XmlFormatWriterInterpreter(XmlFormatWriterInterpreter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17163 };

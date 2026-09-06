@@ -39,7 +39,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "__JobReflectionRegistrationOutput__15867191014387474753", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __JobReflectionRegistrationOutput__15867191014387474753(__JobReflectionRegistrationOutput__15867191014387474753const&) = delete;
+  __JobReflectionRegistrationOutput__15867191014387474753(__JobReflectionRegistrationOutput__15867191014387474753 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17808 };

@@ -190,7 +190,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerEnvironmentResizeController_ResizeData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerEnvironmentResizeController_ResizeData(MultiplayerEnvironmentResizeController_ResizeDataconst&) = delete;
+  MultiplayerEnvironmentResizeController_ResizeData(MultiplayerEnvironmentResizeController_ResizeData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6140 };
@@ -360,7 +360,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerEnvironmentResizeController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerEnvironmentResizeController(MultiplayerEnvironmentResizeControllerconst&) = delete;
+  MultiplayerEnvironmentResizeController(MultiplayerEnvironmentResizeController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6141 };

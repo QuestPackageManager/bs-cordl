@@ -461,7 +461,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NativePassCompiler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativePassCompiler(NativePassCompilerconst&) = delete;
+  NativePassCompiler(NativePassCompiler const&) = delete;
 
   /// @brief Field ArbitraryMaxNbMergedPasses offset 0xffffffff size 0x4
   static constexpr int32_t ArbitraryMaxNbMergedPasses{ static_cast<int32_t>(0x10) };

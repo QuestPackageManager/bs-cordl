@@ -44,7 +44,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FixedUpdateVector3SmoothValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FixedUpdateVector3SmoothValue(FixedUpdateVector3SmoothValueconst&) = delete;
+  FixedUpdateVector3SmoothValue(FixedUpdateVector3SmoothValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21391 };

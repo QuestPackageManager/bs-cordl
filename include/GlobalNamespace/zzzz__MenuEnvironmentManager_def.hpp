@@ -147,7 +147,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuEnvironmentManager_MenuEnvironmentObjects", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuEnvironmentManager_MenuEnvironmentObjects(MenuEnvironmentManager_MenuEnvironmentObjectsconst&) = delete;
+  MenuEnvironmentManager_MenuEnvironmentObjects(MenuEnvironmentManager_MenuEnvironmentObjects const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5604 };
@@ -223,7 +223,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuEnvironmentManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuEnvironmentManager(MenuEnvironmentManagerconst&) = delete;
+  MenuEnvironmentManager(MenuEnvironmentManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5605 };

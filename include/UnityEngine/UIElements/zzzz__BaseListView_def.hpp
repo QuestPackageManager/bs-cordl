@@ -205,7 +205,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseListView_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseListView_UxmlTraits(BaseListView_UxmlTraitsconst&) = delete;
+  BaseListView_UxmlTraits(BaseListView_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4109 };
@@ -1088,7 +1088,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseListView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseListView(BaseListViewconst&) = delete;
+  BaseListView(BaseListView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4110 };

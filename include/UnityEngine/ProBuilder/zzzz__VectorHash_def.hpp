@@ -54,7 +54,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VectorHash", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VectorHash(VectorHashconst&) = delete;
+  VectorHash(VectorHash const&) = delete;
 
   /// @brief Field FltCompareResolution offset 0xffffffff size 0x4
   static constexpr float_t FltCompareResolution{ static_cast<float_t>(1000.0f) };

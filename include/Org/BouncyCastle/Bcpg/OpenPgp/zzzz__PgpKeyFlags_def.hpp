@@ -37,7 +37,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpKeyFlags", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PgpKeyFlags(PgpKeyFlagsconst&) = delete;
+  PgpKeyFlags(PgpKeyFlags const&) = delete;
 
   /// @brief Field CanCertify offset 0xffffffff size 0x4
   static constexpr int32_t CanCertify{ static_cast<int32_t>(0x1) };

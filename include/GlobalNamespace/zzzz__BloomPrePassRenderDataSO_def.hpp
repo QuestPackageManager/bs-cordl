@@ -118,7 +118,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRenderDataSO_Data", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassRenderDataSO_Data(BloomPrePassRenderDataSO_Dataconst&) = delete;
+  BloomPrePassRenderDataSO_Data(BloomPrePassRenderDataSO_Data const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19468 };
@@ -199,7 +199,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRenderDataSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassRenderDataSO(BloomPrePassRenderDataSOconst&) = delete;
+  BloomPrePassRenderDataSO(BloomPrePassRenderDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19469 };

@@ -209,7 +209,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FullScreenRenderPass_FullScreenPassRendererFeature_CopyPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FullScreenRenderPass_FullScreenPassRendererFeature_CopyPassData(FullScreenRenderPass_FullScreenPassRendererFeature_CopyPassDataconst&) = delete;
+  FullScreenRenderPass_FullScreenPassRendererFeature_CopyPassData(FullScreenRenderPass_FullScreenPassRendererFeature_CopyPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12562 };
@@ -276,7 +276,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FullScreenRenderPass_FullScreenPassRendererFeature_MainPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FullScreenRenderPass_FullScreenPassRendererFeature_MainPassData(FullScreenRenderPass_FullScreenPassRendererFeature_MainPassDataconst&) = delete;
+  FullScreenRenderPass_FullScreenPassRendererFeature_MainPassData(FullScreenRenderPass_FullScreenPassRendererFeature_MainPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12563 };
@@ -366,7 +366,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FullScreenRenderPass_FullScreenPassRendererFeature___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FullScreenRenderPass_FullScreenPassRendererFeature___c(FullScreenRenderPass_FullScreenPassRendererFeature___cconst&) = delete;
+  FullScreenRenderPass_FullScreenPassRendererFeature___c(FullScreenRenderPass_FullScreenPassRendererFeature___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12564 };
@@ -485,7 +485,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FullScreenPassRendererFeature_FullScreenRenderPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FullScreenPassRendererFeature_FullScreenRenderPass(FullScreenPassRendererFeature_FullScreenRenderPassconst&) = delete;
+  FullScreenPassRendererFeature_FullScreenRenderPass(FullScreenPassRendererFeature_FullScreenRenderPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12565 };
@@ -720,7 +720,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FullScreenPassRendererFeature", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FullScreenPassRendererFeature(FullScreenPassRendererFeatureconst&) = delete;
+  FullScreenPassRendererFeature(FullScreenPassRendererFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12567 };

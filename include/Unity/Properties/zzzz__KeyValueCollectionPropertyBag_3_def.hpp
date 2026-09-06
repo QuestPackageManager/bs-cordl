@@ -194,7 +194,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyValueCollectionPropertyBag_3_KeyValuePairProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyValueCollectionPropertyBag_3_KeyValuePairProperty(KeyValueCollectionPropertyBag_3_KeyValuePairPropertyconst&) = delete;
+  KeyValueCollectionPropertyBag_3_KeyValuePairProperty(KeyValueCollectionPropertyBag_3_KeyValuePairProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19657 };
@@ -320,7 +320,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Enumerable_KeyValueCollectionPropertyBag_3_Enumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable_KeyValueCollectionPropertyBag_3_Enumerator(Enumerable_KeyValueCollectionPropertyBag_3_Enumeratorconst&) = delete;
+  Enumerable_KeyValueCollectionPropertyBag_3_Enumerator(Enumerable_KeyValueCollectionPropertyBag_3_Enumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19658 };
@@ -504,7 +504,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyValueCollectionPropertyBag_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyValueCollectionPropertyBag_3(KeyValueCollectionPropertyBag_3const&) = delete;
+  KeyValueCollectionPropertyBag_3(KeyValueCollectionPropertyBag_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19660 };

@@ -107,7 +107,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature_IterationHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassRendererFeature_IterationHandle(BloomPrePassRendererFeature_IterationHandleconst&) = delete;
+  BloomPrePassRendererFeature_IterationHandle(BloomPrePassRendererFeature_IterationHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19470 };
@@ -163,7 +163,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature___c__DisplayClass10_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassRendererFeature___c__DisplayClass10_0_1(BloomPrePassRendererFeature___c__DisplayClass10_0_1const&) = delete;
+  BloomPrePassRendererFeature___c__DisplayClass10_0_1(BloomPrePassRendererFeature___c__DisplayClass10_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19471 };
@@ -221,7 +221,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassRendererFeature___c__DisplayClass6_0(BloomPrePassRendererFeature___c__DisplayClass6_0const&) = delete;
+  BloomPrePassRendererFeature___c__DisplayClass6_0(BloomPrePassRendererFeature___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19472 };
@@ -345,7 +345,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassRendererFeature(BloomPrePassRendererFeatureconst&) = delete;
+  BloomPrePassRendererFeature(BloomPrePassRendererFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19473 };

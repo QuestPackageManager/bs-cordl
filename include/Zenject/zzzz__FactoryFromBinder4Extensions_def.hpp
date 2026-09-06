@@ -164,7 +164,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder4Extensions___c__1_5", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactoryFromBinder4Extensions___c__1_5(FactoryFromBinder4Extensions___c__1_5const&) = delete;
+  FactoryFromBinder4Extensions___c__1_5(FactoryFromBinder4Extensions___c__1_5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14110 };
@@ -226,7 +226,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder4Extensions___c__3_5", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactoryFromBinder4Extensions___c__3_5(FactoryFromBinder4Extensions___c__3_5const&) = delete;
+  FactoryFromBinder4Extensions___c__3_5(FactoryFromBinder4Extensions___c__3_5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14111 };
@@ -288,7 +288,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder4Extensions___c__5_6", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactoryFromBinder4Extensions___c__5_6(FactoryFromBinder4Extensions___c__5_6const&) = delete;
+  FactoryFromBinder4Extensions___c__5_6(FactoryFromBinder4Extensions___c__5_6 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14112 };
@@ -343,7 +343,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder4Extensions___c__DisplayClass0_0_5", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactoryFromBinder4Extensions___c__DisplayClass0_0_5(FactoryFromBinder4Extensions___c__DisplayClass0_0_5const&) = delete;
+  FactoryFromBinder4Extensions___c__DisplayClass0_0_5(FactoryFromBinder4Extensions___c__DisplayClass0_0_5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14113 };
@@ -403,7 +403,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder4Extensions___c__DisplayClass6_0_6", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactoryFromBinder4Extensions___c__DisplayClass6_0_6(FactoryFromBinder4Extensions___c__DisplayClass6_0_6const&) = delete;
+  FactoryFromBinder4Extensions___c__DisplayClass6_0_6(FactoryFromBinder4Extensions___c__DisplayClass6_0_6 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14114 };
@@ -507,7 +507,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder4Extensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactoryFromBinder4Extensions(FactoryFromBinder4Extensionsconst&) = delete;
+  FactoryFromBinder4Extensions(FactoryFromBinder4Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14115 };

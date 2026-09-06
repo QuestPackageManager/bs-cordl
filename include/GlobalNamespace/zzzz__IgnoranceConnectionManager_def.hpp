@@ -331,7 +331,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_IgnoranceConnectionParamsBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IgnoranceConnectionManager_IgnoranceConnectionParamsBase(IgnoranceConnectionManager_IgnoranceConnectionParamsBaseconst&) = delete;
+  IgnoranceConnectionManager_IgnoranceConnectionParamsBase(IgnoranceConnectionManager_IgnoranceConnectionParamsBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18175 };
@@ -441,7 +441,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_StartServerParams", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IgnoranceConnectionManager_StartServerParams(IgnoranceConnectionManager_StartServerParamsconst&) = delete;
+  IgnoranceConnectionManager_StartServerParams(IgnoranceConnectionManager_StartServerParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18176 };
@@ -564,7 +564,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_ConnectToServerParams", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IgnoranceConnectionManager_ConnectToServerParams(IgnoranceConnectionManager_ConnectToServerParamsconst&) = delete;
+  IgnoranceConnectionManager_ConnectToServerParams(IgnoranceConnectionManager_ConnectToServerParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18177 };
@@ -742,7 +742,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_IgnoranceConnection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IgnoranceConnectionManager_IgnoranceConnection(IgnoranceConnectionManager_IgnoranceConnectionconst&) = delete;
+  IgnoranceConnectionManager_IgnoranceConnection(IgnoranceConnectionManager_IgnoranceConnection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18178 };
@@ -824,7 +824,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager___c__DisplayClass81_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IgnoranceConnectionManager___c__DisplayClass81_0(IgnoranceConnectionManager___c__DisplayClass81_0const&) = delete;
+  IgnoranceConnectionManager___c__DisplayClass81_0(IgnoranceConnectionManager___c__DisplayClass81_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18179 };
@@ -877,7 +877,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager___c__DisplayClass81_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IgnoranceConnectionManager___c__DisplayClass81_1(IgnoranceConnectionManager___c__DisplayClass81_1const&) = delete;
+  IgnoranceConnectionManager___c__DisplayClass81_1(IgnoranceConnectionManager___c__DisplayClass81_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18180 };
@@ -930,7 +930,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager___c__DisplayClass85_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IgnoranceConnectionManager___c__DisplayClass85_0(IgnoranceConnectionManager___c__DisplayClass85_0const&) = delete;
+  IgnoranceConnectionManager___c__DisplayClass85_0(IgnoranceConnectionManager___c__DisplayClass85_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18181 };
@@ -1627,7 +1627,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IgnoranceConnectionManager(IgnoranceConnectionManagerconst&) = delete;
+  IgnoranceConnectionManager(IgnoranceConnectionManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18184 };

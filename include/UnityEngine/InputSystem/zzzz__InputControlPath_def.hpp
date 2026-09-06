@@ -284,7 +284,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ParsedPathComponent_InputControlPath___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ParsedPathComponent_InputControlPath___c(ParsedPathComponent_InputControlPath___cconst&) = delete;
+  ParsedPathComponent_InputControlPath___c(ParsedPathComponent_InputControlPath___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8711 };
@@ -501,7 +501,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputControlPath___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputControlPath___c(InputControlPath___cconst&) = delete;
+  InputControlPath___c(InputControlPath___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8714 };
@@ -661,7 +661,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputControlPath__Parse_d__34", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputControlPath__Parse_d__34(InputControlPath__Parse_d__34const&) = delete;
+  InputControlPath__Parse_d__34(InputControlPath__Parse_d__34 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8715 };
@@ -841,7 +841,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputControlPath", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputControlPath(InputControlPathconst&) = delete;
+  InputControlPath(InputControlPath const&) = delete;
 
   /// @brief Field DoubleWildcard offset 0xffffffff size 0x8
   static constexpr ::ConstString DoubleWildcard{ u"**" };

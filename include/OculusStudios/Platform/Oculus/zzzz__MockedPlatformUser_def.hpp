@@ -146,7 +146,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MockedPlatformUser", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockedPlatformUser(MockedPlatformUserconst&) = delete;
+  MockedPlatformUser(MockedPlatformUser const&) = delete;
 
   /// @brief Field ENV_USER_ID offset 0xffffffff size 0x8
   static constexpr ::ConstString ENV_USER_ID{ u"OCULUS_PLATFORM_USER_ID" };

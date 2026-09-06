@@ -106,7 +106,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EtwDiagnosticTrace_StringBuilderPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EtwDiagnosticTrace_StringBuilderPool(EtwDiagnosticTrace_StringBuilderPoolconst&) = delete;
+  EtwDiagnosticTrace_StringBuilderPool(EtwDiagnosticTrace_StringBuilderPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21324 };
@@ -306,7 +306,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EtwDiagnosticTrace", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EtwDiagnosticTrace(EtwDiagnosticTraceconst&) = delete;
+  EtwDiagnosticTrace(EtwDiagnosticTrace const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21325 };

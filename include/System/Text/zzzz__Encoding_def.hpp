@@ -189,7 +189,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Encoding_DefaultEncoder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Encoding_DefaultEncoder(Encoding_DefaultEncoderconst&) = delete;
+  Encoding_DefaultEncoder(Encoding_DefaultEncoder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2889 };
@@ -298,7 +298,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Encoding_DefaultDecoder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Encoding_DefaultDecoder(Encoding_DefaultDecoderconst&) = delete;
+  Encoding_DefaultDecoder(Encoding_DefaultDecoder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2890 };
@@ -467,7 +467,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Encoding_EncodingCharBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Encoding_EncodingCharBuffer(Encoding_EncodingCharBufferconst&) = delete;
+  Encoding_EncodingCharBuffer(Encoding_EncodingCharBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2891 };
@@ -676,7 +676,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Encoding_EncodingByteBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Encoding_EncodingByteBuffer(Encoding_EncodingByteBufferconst&) = delete;
+  Encoding_EncodingByteBuffer(Encoding_EncodingByteBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2892 };
@@ -1149,7 +1149,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Encoding", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Encoding(Encodingconst&) = delete;
+  Encoding(Encoding const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2893 };

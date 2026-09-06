@@ -97,7 +97,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CrossContextChannel_ContextRestoreSink", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CrossContextChannel_ContextRestoreSink(CrossContextChannel_ContextRestoreSinkconst&) = delete;
+  CrossContextChannel_ContextRestoreSink(CrossContextChannel_ContextRestoreSink const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3118 };
@@ -162,7 +162,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CrossContextChannel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CrossContextChannel(CrossContextChannelconst&) = delete;
+  CrossContextChannel(CrossContextChannel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3119 };

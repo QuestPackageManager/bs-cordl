@@ -75,7 +75,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveTypeCollection___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionObjectiveTypeCollection___c(MissionObjectiveTypeCollection___cconst&) = delete;
+  MissionObjectiveTypeCollection___c(MissionObjectiveTypeCollection___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15266 };
@@ -127,7 +127,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveTypeCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionObjectiveTypeCollection(MissionObjectiveTypeCollectionconst&) = delete;
+  MissionObjectiveTypeCollection(MissionObjectiveTypeCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15267 };

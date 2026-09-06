@@ -115,7 +115,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RegexMatchTimeoutException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RegexMatchTimeoutException(RegexMatchTimeoutExceptionconst&) = delete;
+  RegexMatchTimeoutException(RegexMatchTimeoutException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11117 };

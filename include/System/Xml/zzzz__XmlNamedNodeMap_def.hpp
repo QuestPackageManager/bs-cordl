@@ -105,7 +105,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SmallXmlNodeList_XmlNamedNodeMap_SingleObjectEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SmallXmlNodeList_XmlNamedNodeMap_SingleObjectEnumerator(SmallXmlNodeList_XmlNamedNodeMap_SingleObjectEnumeratorconst&) = delete;
+  SmallXmlNodeList_XmlNamedNodeMap_SingleObjectEnumerator(SmallXmlNodeList_XmlNamedNodeMap_SingleObjectEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9397 };
@@ -267,7 +267,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlNamedNodeMap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlNamedNodeMap(XmlNamedNodeMapconst&) = delete;
+  XmlNamedNodeMap(XmlNamedNodeMap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9399 };

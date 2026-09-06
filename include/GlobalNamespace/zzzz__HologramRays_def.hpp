@@ -184,7 +184,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HologramRays__FadingCoroutine_d__28", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HologramRays__FadingCoroutine_d__28(HologramRays__FadingCoroutine_d__28const&) = delete;
+  HologramRays__FadingCoroutine_d__28(HologramRays__FadingCoroutine_d__28 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6048 };
@@ -466,7 +466,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HologramRays", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HologramRays(HologramRaysconst&) = delete;
+  HologramRays(HologramRays const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6049 };

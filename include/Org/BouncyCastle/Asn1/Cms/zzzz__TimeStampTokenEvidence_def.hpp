@@ -84,7 +84,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeStampTokenEvidence", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeStampTokenEvidence(TimeStampTokenEvidenceconst&) = delete;
+  TimeStampTokenEvidence(TimeStampTokenEvidence const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 101 };

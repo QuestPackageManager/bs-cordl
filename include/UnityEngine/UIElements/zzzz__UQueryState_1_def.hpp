@@ -142,7 +142,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UQueryState_1_ListQueryMatcher_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UQueryState_1_ListQueryMatcher_1(UQueryState_1_ListQueryMatcher_1const&) = delete;
+  UQueryState_1_ListQueryMatcher_1(UQueryState_1_ListQueryMatcher_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5128 };
@@ -201,7 +201,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UQueryState_1_ActionQueryMatcher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UQueryState_1_ActionQueryMatcher(UQueryState_1_ActionQueryMatcherconst&) = delete;
+  UQueryState_1_ActionQueryMatcher(UQueryState_1_ActionQueryMatcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5129 };

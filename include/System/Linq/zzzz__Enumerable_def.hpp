@@ -374,7 +374,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Enumerable_Iterator_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable_Iterator_1(Enumerable_Iterator_1const&) = delete;
+  Enumerable_Iterator_1(Enumerable_Iterator_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16061 };
@@ -460,7 +460,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Enumerable_WhereEnumerableIterator_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable_WhereEnumerableIterator_1(Enumerable_WhereEnumerableIterator_1const&) = delete;
+  Enumerable_WhereEnumerableIterator_1(Enumerable_WhereEnumerableIterator_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16062 };
@@ -543,7 +543,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Enumerable_WhereArrayIterator_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable_WhereArrayIterator_1(Enumerable_WhereArrayIterator_1const&) = delete;
+  Enumerable_WhereArrayIterator_1(Enumerable_WhereArrayIterator_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16063 };
@@ -626,7 +626,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Enumerable_WhereListIterator_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable_WhereListIterator_1(Enumerable_WhereListIterator_1const&) = delete;
+  Enumerable_WhereListIterator_1(Enumerable_WhereListIterator_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16064 };
@@ -722,7 +722,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Enumerable_WhereSelectEnumerableIterator_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable_WhereSelectEnumerableIterator_2(Enumerable_WhereSelectEnumerableIterator_2const&) = delete;
+  Enumerable_WhereSelectEnumerableIterator_2(Enumerable_WhereSelectEnumerableIterator_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16065 };
@@ -818,7 +818,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Enumerable_WhereSelectArrayIterator_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable_WhereSelectArrayIterator_2(Enumerable_WhereSelectArrayIterator_2const&) = delete;
+  Enumerable_WhereSelectArrayIterator_2(Enumerable_WhereSelectArrayIterator_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16066 };
@@ -914,7 +914,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Enumerable_WhereSelectListIterator_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable_WhereSelectListIterator_2(Enumerable_WhereSelectListIterator_2const&) = delete;
+  Enumerable_WhereSelectListIterator_2(Enumerable_WhereSelectListIterator_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16067 };
@@ -983,7 +983,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Enumerable___c__DisplayClass6_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable___c__DisplayClass6_0_1(Enumerable___c__DisplayClass6_0_1const&) = delete;
+  Enumerable___c__DisplayClass6_0_1(Enumerable___c__DisplayClass6_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16068 };
@@ -1046,7 +1046,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Enumerable___c__DisplayClass7_0_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable___c__DisplayClass7_0_3(Enumerable___c__DisplayClass7_0_3const&) = delete;
+  Enumerable___c__DisplayClass7_0_3(Enumerable___c__DisplayClass7_0_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16069 };
@@ -1239,7 +1239,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Enumerable__SelectManyIterator_d__17_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable__SelectManyIterator_d__17_2(Enumerable__SelectManyIterator_d__17_2const&) = delete;
+  Enumerable__SelectManyIterator_d__17_2(Enumerable__SelectManyIterator_d__17_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16070 };
@@ -1440,7 +1440,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Enumerable__TakeIterator_d__25_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable__TakeIterator_d__25_1(Enumerable__TakeIterator_d__25_1const&) = delete;
+  Enumerable__TakeIterator_d__25_1(Enumerable__TakeIterator_d__25_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16071 };
@@ -1638,7 +1638,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Enumerable__SkipIterator_d__31_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable__SkipIterator_d__31_1(Enumerable__SkipIterator_d__31_1const&) = delete;
+  Enumerable__SkipIterator_d__31_1(Enumerable__SkipIterator_d__31_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16072 };
@@ -1839,7 +1839,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Enumerable__ConcatIterator_d__59_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable__ConcatIterator_d__59_1(Enumerable__ConcatIterator_d__59_1const&) = delete;
+  Enumerable__ConcatIterator_d__59_1(Enumerable__ConcatIterator_d__59_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16073 };
@@ -2037,7 +2037,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Enumerable__AppendIterator_d__61_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable__AppendIterator_d__61_1(Enumerable__AppendIterator_d__61_1const&) = delete;
+  Enumerable__AppendIterator_d__61_1(Enumerable__AppendIterator_d__61_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16074 };
@@ -2265,7 +2265,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Enumerable__ZipIterator_d__65_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable__ZipIterator_d__65_3(Enumerable__ZipIterator_d__65_3const&) = delete;
+  Enumerable__ZipIterator_d__65_3(Enumerable__ZipIterator_d__65_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16075 };
@@ -2481,7 +2481,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Enumerable__DistinctIterator_d__68_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable__DistinctIterator_d__68_1(Enumerable__DistinctIterator_d__68_1const&) = delete;
+  Enumerable__DistinctIterator_d__68_1(Enumerable__DistinctIterator_d__68_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16076 };
@@ -2712,7 +2712,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Enumerable__UnionIterator_d__71_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable__UnionIterator_d__71_1(Enumerable__UnionIterator_d__71_1const&) = delete;
+  Enumerable__UnionIterator_d__71_1(Enumerable__UnionIterator_d__71_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16077 };
@@ -2946,7 +2946,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Enumerable__IntersectIterator_d__74_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable__IntersectIterator_d__74_1(Enumerable__IntersectIterator_d__74_1const&) = delete;
+  Enumerable__IntersectIterator_d__74_1(Enumerable__IntersectIterator_d__74_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16078 };
@@ -3180,7 +3180,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Enumerable__ExceptIterator_d__77_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable__ExceptIterator_d__77_1(Enumerable__ExceptIterator_d__77_1const&) = delete;
+  Enumerable__ExceptIterator_d__77_1(Enumerable__ExceptIterator_d__77_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16079 };
@@ -3375,7 +3375,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Enumerable__ReverseIterator_d__79_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable__ReverseIterator_d__79_1(Enumerable__ReverseIterator_d__79_1const&) = delete;
+  Enumerable__ReverseIterator_d__79_1(Enumerable__ReverseIterator_d__79_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16080 };
@@ -3570,7 +3570,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Enumerable__DefaultIfEmptyIterator_d__95_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable__DefaultIfEmptyIterator_d__95_1(Enumerable__DefaultIfEmptyIterator_d__95_1const&) = delete;
+  Enumerable__DefaultIfEmptyIterator_d__95_1(Enumerable__DefaultIfEmptyIterator_d__95_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16081 };
@@ -3750,7 +3750,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Enumerable__OfTypeIterator_d__97_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable__OfTypeIterator_d__97_1(Enumerable__OfTypeIterator_d__97_1const&) = delete;
+  Enumerable__OfTypeIterator_d__97_1(Enumerable__OfTypeIterator_d__97_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16082 };
@@ -3924,7 +3924,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Enumerable__CastIterator_d__99_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable__CastIterator_d__99_1(Enumerable__CastIterator_d__99_1const&) = delete;
+  Enumerable__CastIterator_d__99_1(Enumerable__CastIterator_d__99_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16083 };
@@ -4111,7 +4111,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Enumerable__RangeIterator_d__115", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable__RangeIterator_d__115(Enumerable__RangeIterator_d__115const&) = delete;
+  Enumerable__RangeIterator_d__115(Enumerable__RangeIterator_d__115 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16084 };
@@ -4613,7 +4613,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Enumerable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable(Enumerableconst&) = delete;
+  Enumerable(Enumerable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16085 };

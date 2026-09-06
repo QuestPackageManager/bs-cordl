@@ -83,7 +83,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1Dump", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Asn1Dump(Asn1Dumpconst&) = delete;
+  Asn1Dump(Asn1Dump const&) = delete;
 
   /// @brief Field SampleSize offset 0xffffffff size 0x4
   static constexpr int32_t SampleSize{ static_cast<int32_t>(0x20) };

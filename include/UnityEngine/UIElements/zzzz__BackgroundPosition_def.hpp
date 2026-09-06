@@ -187,7 +187,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundPosition_KeywordProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_BackgroundPosition_KeywordProperty(PropertyBag_BackgroundPosition_KeywordPropertyconst&) = delete;
+  PropertyBag_BackgroundPosition_KeywordProperty(PropertyBag_BackgroundPosition_KeywordProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4003 };
@@ -272,7 +272,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundPosition_OffsetProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_BackgroundPosition_OffsetProperty(PropertyBag_BackgroundPosition_OffsetPropertyconst&) = delete;
+  PropertyBag_BackgroundPosition_OffsetProperty(PropertyBag_BackgroundPosition_OffsetProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4004 };
@@ -325,7 +325,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BackgroundPosition_PropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BackgroundPosition_PropertyBag(BackgroundPosition_PropertyBagconst&) = delete;
+  BackgroundPosition_PropertyBag(BackgroundPosition_PropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4005 };

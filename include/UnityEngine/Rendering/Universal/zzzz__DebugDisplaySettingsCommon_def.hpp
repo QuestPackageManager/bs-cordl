@@ -83,7 +83,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SettingsPanel_DebugDisplaySettingsCommon___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SettingsPanel_DebugDisplaySettingsCommon___c__DisplayClass3_0(SettingsPanel_DebugDisplaySettingsCommon___c__DisplayClass3_0const&) = delete;
+  SettingsPanel_DebugDisplaySettingsCommon___c__DisplayClass3_0(SettingsPanel_DebugDisplaySettingsCommon___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12602 };
@@ -131,7 +131,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsCommon_SettingsPanel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsCommon_SettingsPanel(DebugDisplaySettingsCommon_SettingsPanelconst&) = delete;
+  DebugDisplaySettingsCommon_SettingsPanel(DebugDisplaySettingsCommon_SettingsPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12603 };
@@ -191,7 +191,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsCommon", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsCommon(DebugDisplaySettingsCommonconst&) = delete;
+  DebugDisplaySettingsCommon(DebugDisplaySettingsCommon const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12604 };

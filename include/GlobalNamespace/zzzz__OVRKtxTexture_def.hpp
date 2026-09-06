@@ -45,7 +45,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRKtxTexture", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRKtxTexture(OVRKtxTextureconst&) = delete;
+  OVRKtxTexture(OVRKtxTexture const&) = delete;
 
   /// @brief Field KTX_TTF_ASTC_4x4_RGBA offset 0xffffffff size 0x4
   static constexpr uint32_t KTX_TTF_ASTC_4x4_RGBA{ static_cast<uint32_t>(0xau) };

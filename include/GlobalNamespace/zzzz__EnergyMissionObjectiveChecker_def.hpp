@@ -61,7 +61,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnergyMissionObjectiveChecker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnergyMissionObjectiveChecker(EnergyMissionObjectiveCheckerconst&) = delete;
+  EnergyMissionObjectiveChecker(EnergyMissionObjectiveChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6790 };

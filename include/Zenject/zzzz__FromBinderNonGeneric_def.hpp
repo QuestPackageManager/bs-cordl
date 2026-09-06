@@ -121,7 +121,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FromBinderNonGeneric___c__1_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinderNonGeneric___c__1_2(FromBinderNonGeneric___c__1_2const&) = delete;
+  FromBinderNonGeneric___c__1_2(FromBinderNonGeneric___c__1_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14269 };
@@ -210,7 +210,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FromBinderNonGeneric", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinderNonGeneric(FromBinderNonGenericconst&) = delete;
+  FromBinderNonGeneric(FromBinderNonGeneric const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14270 };

@@ -49,7 +49,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PkiFailureInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PkiFailureInfo(PkiFailureInfoconst&) = delete;
+  PkiFailureInfo(PkiFailureInfo const&) = delete;
 
   /// @brief Field AddInfoNotAvailable offset 0xffffffff size 0x4
   static constexpr int32_t AddInfoNotAvailable{ static_cast<int32_t>(0x400000) };

@@ -508,7 +508,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenXRInput___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRInput___c(OpenXRInput___cconst&) = delete;
+  OpenXRInput___c(OpenXRInput___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18548 };
@@ -716,7 +716,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenXRInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRInput(OpenXRInputconst&) = delete;
+  OpenXRInput(OpenXRInput const&) = delete;
 
   /// @brief Field Library offset 0xffffffff size 0x8
   static constexpr ::ConstString Library{ u"UnityOpenXR" };

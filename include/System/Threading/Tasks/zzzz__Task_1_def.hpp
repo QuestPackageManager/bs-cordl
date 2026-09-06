@@ -108,7 +108,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskWhenAnyCast_Task_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskWhenAnyCast_Task_1___c(TaskWhenAnyCast_Task_1___cconst&) = delete;
+  TaskWhenAnyCast_Task_1___c(TaskWhenAnyCast_Task_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2785 };
@@ -148,7 +148,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Task_1_TaskWhenAnyCast", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Task_1_TaskWhenAnyCast(Task_1_TaskWhenAnyCastconst&) = delete;
+  Task_1_TaskWhenAnyCast(Task_1_TaskWhenAnyCast const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2786 };
@@ -325,7 +325,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Task_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Task_1(Task_1const&) = delete;
+  Task_1(Task_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2787 };

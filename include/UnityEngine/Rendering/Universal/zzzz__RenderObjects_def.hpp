@@ -278,7 +278,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderObjects_RenderObjectsSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderObjects_RenderObjectsSettings(RenderObjects_RenderObjectsSettingsconst&) = delete;
+  RenderObjects_RenderObjectsSettings(RenderObjects_RenderObjectsSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12916 };
@@ -405,7 +405,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderObjects_FilterSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderObjects_FilterSettings(RenderObjects_FilterSettingsconst&) = delete;
+  RenderObjects_FilterSettings(RenderObjects_FilterSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12917 };
@@ -491,7 +491,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderObjects_CustomCameraSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderObjects_CustomCameraSettings(RenderObjects_CustomCameraSettingsconst&) = delete;
+  RenderObjects_CustomCameraSettings(RenderObjects_CustomCameraSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12918 };
@@ -582,7 +582,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderObjects", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderObjects(RenderObjectsconst&) = delete;
+  RenderObjects(RenderObjects const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12919 };

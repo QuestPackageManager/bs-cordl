@@ -80,7 +80,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MovementBeatmapEventEffect_MovementData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MovementBeatmapEventEffect_MovementData(MovementBeatmapEventEffect_MovementDataconst&) = delete;
+  MovementBeatmapEventEffect_MovementData(MovementBeatmapEventEffect_MovementData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5971 };
@@ -243,7 +243,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MovementBeatmapEventEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MovementBeatmapEventEffect(MovementBeatmapEventEffectconst&) = delete;
+  MovementBeatmapEventEffect(MovementBeatmapEventEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5972 };

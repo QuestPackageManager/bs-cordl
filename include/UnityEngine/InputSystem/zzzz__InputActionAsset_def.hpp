@@ -389,7 +389,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputActionAsset__GetEnumerator_d__32", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputActionAsset__GetEnumerator_d__32(InputActionAsset__GetEnumerator_d__32const&) = delete;
+  InputActionAsset__GetEnumerator_d__32(InputActionAsset__GetEnumerator_d__32 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8619 };
@@ -607,7 +607,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputActionAsset__get_bindings_d__9", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputActionAsset__get_bindings_d__9(InputActionAsset__get_bindings_d__9const&) = delete;
+  InputActionAsset__get_bindings_d__9(InputActionAsset__get_bindings_d__9 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8620 };
@@ -910,7 +910,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "InputActionAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputActionAsset(InputActionAssetconst&) = delete;
+  InputActionAsset(InputActionAsset const&) = delete;
 
   /// @brief Field Extension offset 0xffffffff size 0x8
   static constexpr ::ConstString Extension{ u"inputactions" };

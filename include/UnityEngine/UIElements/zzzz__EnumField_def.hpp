@@ -124,7 +124,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnumField_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumField_UxmlFactory(EnumField_UxmlFactoryconst&) = delete;
+  EnumField_UxmlFactory(EnumField_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4185 };
@@ -191,7 +191,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnumField_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumField_UxmlTraits(EnumField_UxmlTraitsconst&) = delete;
+  EnumField_UxmlTraits(EnumField_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4186 };
@@ -259,7 +259,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnumField___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumField___c(EnumField___cconst&) = delete;
+  EnumField___c(EnumField___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4187 };
@@ -463,7 +463,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EnumField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumField(EnumFieldconst&) = delete;
+  EnumField(EnumField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4188 };

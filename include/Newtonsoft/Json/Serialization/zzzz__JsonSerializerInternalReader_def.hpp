@@ -264,7 +264,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonSerializerInternalReader_CreatorPropertyContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSerializerInternalReader_CreatorPropertyContext(JsonSerializerInternalReader_CreatorPropertyContextconst&) = delete;
+  JsonSerializerInternalReader_CreatorPropertyContext(JsonSerializerInternalReader_CreatorPropertyContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13518 };
@@ -385,7 +385,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonSerializerInternalReader___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSerializerInternalReader___c(JsonSerializerInternalReader___cconst&) = delete;
+  JsonSerializerInternalReader___c(JsonSerializerInternalReader___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13519 };
@@ -434,7 +434,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonSerializerInternalReader___c__DisplayClass38_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSerializerInternalReader___c__DisplayClass38_0(JsonSerializerInternalReader___c__DisplayClass38_0const&) = delete;
+  JsonSerializerInternalReader___c__DisplayClass38_0(JsonSerializerInternalReader___c__DisplayClass38_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13520 };
@@ -690,7 +690,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonSerializerInternalReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSerializerInternalReader(JsonSerializerInternalReaderconst&) = delete;
+  JsonSerializerInternalReader(JsonSerializerInternalReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13521 };

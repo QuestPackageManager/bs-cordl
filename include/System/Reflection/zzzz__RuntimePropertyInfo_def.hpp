@@ -127,7 +127,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimePropertyInfo_GetterAdapter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimePropertyInfo_GetterAdapter(RuntimePropertyInfo_GetterAdapterconst&) = delete;
+  RuntimePropertyInfo_GetterAdapter(RuntimePropertyInfo_GetterAdapter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3556 };
@@ -167,7 +167,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimePropertyInfo_Getter_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimePropertyInfo_Getter_2(RuntimePropertyInfo_Getter_2const&) = delete;
+  RuntimePropertyInfo_Getter_2(RuntimePropertyInfo_Getter_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3557 };
@@ -205,7 +205,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimePropertyInfo_StaticGetter_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimePropertyInfo_StaticGetter_1(RuntimePropertyInfo_StaticGetter_1const&) = delete;
+  RuntimePropertyInfo_StaticGetter_1(RuntimePropertyInfo_StaticGetter_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3558 };
@@ -413,7 +413,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimePropertyInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimePropertyInfo(RuntimePropertyInfoconst&) = delete;
+  RuntimePropertyInfo(RuntimePropertyInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3559 };

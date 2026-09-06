@@ -98,7 +98,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BerOctetStringGenerator_BufferedBerOctetStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BerOctetStringGenerator_BufferedBerOctetStream(BerOctetStringGenerator_BufferedBerOctetStreamconst&) = delete;
+  BerOctetStringGenerator_BufferedBerOctetStream(BerOctetStringGenerator_BufferedBerOctetStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 482 };
@@ -169,7 +169,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BerOctetStringGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BerOctetStringGenerator(BerOctetStringGeneratorconst&) = delete;
+  BerOctetStringGenerator(BerOctetStringGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 483 };

@@ -133,7 +133,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsLighting_Strings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsLighting_Strings(DebugDisplaySettingsLighting_Stringsconst&) = delete;
+  DebugDisplaySettingsLighting_Strings(DebugDisplaySettingsLighting_Strings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12605 };
@@ -190,7 +190,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass0_0(WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass0_0const&) = delete;
+  WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass0_0(WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12606 };
@@ -246,7 +246,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass1_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass1_0(WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass1_0const&) = delete;
+  WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass1_0(WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12607 };
@@ -308,7 +308,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass2_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass2_0(WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass2_0const&) = delete;
+  WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass2_0(WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass2_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12608 };
@@ -358,7 +358,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsLighting_WidgetFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsLighting_WidgetFactory(DebugDisplaySettingsLighting_WidgetFactoryconst&) = delete;
+  DebugDisplaySettingsLighting_WidgetFactory(DebugDisplaySettingsLighting_WidgetFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12609 };
@@ -394,7 +394,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsLighting_SettingsPanel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsLighting_SettingsPanel(DebugDisplaySettingsLighting_SettingsPanelconst&) = delete;
+  DebugDisplaySettingsLighting_SettingsPanel(DebugDisplaySettingsLighting_SettingsPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12610 };
@@ -525,7 +525,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsLighting", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsLighting(DebugDisplaySettingsLightingconst&) = delete;
+  DebugDisplaySettingsLighting(DebugDisplaySettingsLighting const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12611 };

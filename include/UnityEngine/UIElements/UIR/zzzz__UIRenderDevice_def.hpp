@@ -511,7 +511,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UIRenderDevice___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIRenderDevice___c(UIRenderDevice___cconst&) = delete;
+  UIRenderDevice___c(UIRenderDevice___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5373 };
@@ -1041,7 +1041,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UIRenderDevice", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIRenderDevice(UIRenderDeviceconst&) = delete;
+  UIRenderDevice(UIRenderDevice const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5374 };

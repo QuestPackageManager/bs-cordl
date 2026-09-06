@@ -202,7 +202,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MockRuntime_ScriptEventDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockRuntime_ScriptEventDelegate(MockRuntime_ScriptEventDelegateconst&) = delete;
+  MockRuntime_ScriptEventDelegate(MockRuntime_ScriptEventDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23401 };
@@ -246,7 +246,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MockRuntime_BeforeFunctionDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockRuntime_BeforeFunctionDelegate(MockRuntime_BeforeFunctionDelegateconst&) = delete;
+  MockRuntime_BeforeFunctionDelegate(MockRuntime_BeforeFunctionDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23402 };
@@ -290,7 +290,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MockRuntime_AfterFunctionDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockRuntime_AfterFunctionDelegate(MockRuntime_AfterFunctionDelegateconst&) = delete;
+  MockRuntime_AfterFunctionDelegate(MockRuntime_AfterFunctionDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23403 };
@@ -490,7 +490,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MockRuntime", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockRuntime(MockRuntimeconst&) = delete;
+  MockRuntime(MockRuntime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23404 };

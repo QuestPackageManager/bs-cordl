@@ -251,7 +251,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalServerConnectionManager_LocalServerConnectionManagerParamsBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalServerConnectionManager_LocalServerConnectionManagerParamsBase(LocalServerConnectionManager_LocalServerConnectionManagerParamsBaseconst&) = delete;
+  LocalServerConnectionManager_LocalServerConnectionManagerParamsBase(LocalServerConnectionManager_LocalServerConnectionManagerParamsBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18863 };
@@ -328,7 +328,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalServerConnectionManager_LocalServerConnectionManagerConnectToServerParams", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalServerConnectionManager_LocalServerConnectionManagerConnectToServerParams(LocalServerConnectionManager_LocalServerConnectionManagerConnectToServerParamsconst&) = delete;
+  LocalServerConnectionManager_LocalServerConnectionManagerConnectToServerParams(LocalServerConnectionManager_LocalServerConnectionManagerConnectToServerParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18864 };
@@ -378,7 +378,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalServerConnectionManager_LocalServerConnectionManagerStartClientParams", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalServerConnectionManager_LocalServerConnectionManagerStartClientParams(LocalServerConnectionManager_LocalServerConnectionManagerStartClientParamsconst&) = delete;
+  LocalServerConnectionManager_LocalServerConnectionManagerStartClientParams(LocalServerConnectionManager_LocalServerConnectionManagerStartClientParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18865 };
@@ -784,7 +784,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalServerConnectionManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalServerConnectionManager(LocalServerConnectionManagerconst&) = delete;
+  LocalServerConnectionManager(LocalServerConnectionManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18866 };

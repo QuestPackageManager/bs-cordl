@@ -298,7 +298,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Gost3411Digest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Gost3411Digest(Gost3411Digestconst&) = delete;
+  Gost3411Digest(Gost3411Digest const&) = delete;
 
   /// @brief Field DIGEST_LENGTH offset 0xffffffff size 0x4
   static constexpr int32_t DIGEST_LENGTH{ static_cast<int32_t>(0x20) };

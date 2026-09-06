@@ -70,7 +70,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SetShaderDefaultsPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetShaderDefaultsPass_PassData(SetShaderDefaultsPass_PassDataconst&) = delete;
+  SetShaderDefaultsPass_PassData(SetShaderDefaultsPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20689 };
@@ -127,7 +127,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SetShaderDefaultsPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetShaderDefaultsPass___c(SetShaderDefaultsPass___cconst&) = delete;
+  SetShaderDefaultsPass___c(SetShaderDefaultsPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20690 };
@@ -172,7 +172,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SetShaderDefaultsPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetShaderDefaultsPass(SetShaderDefaultsPassconst&) = delete;
+  SetShaderDefaultsPass(SetShaderDefaultsPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20691 };

@@ -97,7 +97,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConditionalWeakTable_2_CreateValueCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConditionalWeakTable_2_CreateValueCallback(ConditionalWeakTable_2_CreateValueCallbackconst&) = delete;
+  ConditionalWeakTable_2_CreateValueCallback(ConditionalWeakTable_2_CreateValueCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3436 };
@@ -201,7 +201,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConditionalWeakTable_2_Enumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConditionalWeakTable_2_Enumerator(ConditionalWeakTable_2_Enumeratorconst&) = delete;
+  ConditionalWeakTable_2_Enumerator(ConditionalWeakTable_2_Enumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3437 };
@@ -322,7 +322,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConditionalWeakTable_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConditionalWeakTable_2(ConditionalWeakTable_2const&) = delete;
+  ConditionalWeakTable_2(ConditionalWeakTable_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3438 };

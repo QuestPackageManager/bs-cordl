@@ -570,7 +570,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "NumberFormatInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NumberFormatInfo(NumberFormatInfoconst&) = delete;
+  NumberFormatInfo(NumberFormatInfo const&) = delete;
 
   /// @brief Field InvalidNumberStyles value: I32(-1024)
   static ::System::Globalization::NumberStyles const InvalidNumberStyles;

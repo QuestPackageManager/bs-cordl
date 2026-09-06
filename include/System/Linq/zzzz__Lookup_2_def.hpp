@@ -177,7 +177,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Grouping_Lookup_2__GetEnumerator_d__7", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Grouping_Lookup_2__GetEnumerator_d__7(Grouping_Lookup_2__GetEnumerator_d__7const&) = delete;
+  Grouping_Lookup_2__GetEnumerator_d__7(Grouping_Lookup_2__GetEnumerator_d__7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16091 };
@@ -367,7 +367,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Lookup_2_Grouping", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Lookup_2_Grouping(Lookup_2_Groupingconst&) = delete;
+  Lookup_2_Grouping(Lookup_2_Grouping const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16092 };
@@ -502,7 +502,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Lookup_2__GetEnumerator_d__12", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Lookup_2__GetEnumerator_d__12(Lookup_2__GetEnumerator_d__12const&) = delete;
+  Lookup_2__GetEnumerator_d__12(Lookup_2__GetEnumerator_d__12 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16093 };
@@ -624,7 +624,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Lookup_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Lookup_2(Lookup_2const&) = delete;
+  Lookup_2(Lookup_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16094 };

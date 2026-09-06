@@ -203,7 +203,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SortColumnDescriptions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortColumnDescriptions(SortColumnDescriptionsconst&) = delete;
+  SortColumnDescriptions(SortColumnDescriptions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4283 };
@@ -255,7 +255,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SortColumnDescriptions_UxmlObjectFactory_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortColumnDescriptions_UxmlObjectFactory_1(SortColumnDescriptions_UxmlObjectFactory_1const&) = delete;
+  SortColumnDescriptions_UxmlObjectFactory_1(SortColumnDescriptions_UxmlObjectFactory_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4280 };
@@ -289,7 +289,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SortColumnDescriptions_UxmlObjectFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortColumnDescriptions_UxmlObjectFactory(SortColumnDescriptions_UxmlObjectFactoryconst&) = delete;
+  SortColumnDescriptions_UxmlObjectFactory(SortColumnDescriptions_UxmlObjectFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4281 };
@@ -343,7 +343,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SortColumnDescriptions_UxmlObjectTraits_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortColumnDescriptions_UxmlObjectTraits_1(SortColumnDescriptions_UxmlObjectTraits_1const&) = delete;
+  SortColumnDescriptions_UxmlObjectTraits_1(SortColumnDescriptions_UxmlObjectTraits_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4282 };

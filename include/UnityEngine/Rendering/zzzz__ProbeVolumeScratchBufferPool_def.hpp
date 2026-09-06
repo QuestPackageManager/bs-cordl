@@ -115,7 +115,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeScratchBufferPool_ScratchBufferPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumeScratchBufferPool_ScratchBufferPool(ProbeVolumeScratchBufferPool_ScratchBufferPoolconst&) = delete;
+  ProbeVolumeScratchBufferPool_ScratchBufferPool(ProbeVolumeScratchBufferPool_ScratchBufferPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12150 };
@@ -188,7 +188,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeScratchBufferPool___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumeScratchBufferPool___c(ProbeVolumeScratchBufferPool___cconst&) = delete;
+  ProbeVolumeScratchBufferPool___c(ProbeVolumeScratchBufferPool___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12151 };
@@ -395,7 +395,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeScratchBufferPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumeScratchBufferPool(ProbeVolumeScratchBufferPoolconst&) = delete;
+  ProbeVolumeScratchBufferPool(ProbeVolumeScratchBufferPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12152 };

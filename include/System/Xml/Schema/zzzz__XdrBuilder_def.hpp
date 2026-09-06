@@ -299,7 +299,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_DeclBaseInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XdrBuilder_DeclBaseInfo(XdrBuilder_DeclBaseInfoconst&) = delete;
+  XdrBuilder_DeclBaseInfo(XdrBuilder_DeclBaseInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9724 };
@@ -445,7 +445,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_GroupContent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XdrBuilder_GroupContent(XdrBuilder_GroupContentconst&) = delete;
+  XdrBuilder_GroupContent(XdrBuilder_GroupContent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9725 };
@@ -631,7 +631,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_ElementContent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XdrBuilder_ElementContent(XdrBuilder_ElementContentconst&) = delete;
+  XdrBuilder_ElementContent(XdrBuilder_ElementContent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9726 };
@@ -844,7 +844,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_AttributeContent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XdrBuilder_AttributeContent(XdrBuilder_AttributeContentconst&) = delete;
+  XdrBuilder_AttributeContent(XdrBuilder_AttributeContent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9727 };
@@ -942,7 +942,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrBuildFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XdrBuilder_XdrBuildFunction(XdrBuilder_XdrBuildFunctionconst&) = delete;
+  XdrBuilder_XdrBuildFunction(XdrBuilder_XdrBuildFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9728 };
@@ -980,7 +980,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrInitFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XdrBuilder_XdrInitFunction(XdrBuilder_XdrInitFunctionconst&) = delete;
+  XdrBuilder_XdrInitFunction(XdrBuilder_XdrInitFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9729 };
@@ -1018,7 +1018,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrBeginChildFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XdrBuilder_XdrBeginChildFunction(XdrBuilder_XdrBeginChildFunctionconst&) = delete;
+  XdrBuilder_XdrBeginChildFunction(XdrBuilder_XdrBeginChildFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9730 };
@@ -1056,7 +1056,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrEndChildFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XdrBuilder_XdrEndChildFunction(XdrBuilder_XdrEndChildFunctionconst&) = delete;
+  XdrBuilder_XdrEndChildFunction(XdrBuilder_XdrEndChildFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9731 };
@@ -1134,7 +1134,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrAttributeEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XdrBuilder_XdrAttributeEntry(XdrBuilder_XdrAttributeEntryconst&) = delete;
+  XdrBuilder_XdrAttributeEntry(XdrBuilder_XdrAttributeEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9732 };
@@ -1257,7 +1257,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder_XdrEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XdrBuilder_XdrEntry(XdrBuilder_XdrEntryconst&) = delete;
+  XdrBuilder_XdrEntry(XdrBuilder_XdrEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9733 };
@@ -1915,7 +1915,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XdrBuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XdrBuilder(XdrBuilderconst&) = delete;
+  XdrBuilder(XdrBuilder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9734 };

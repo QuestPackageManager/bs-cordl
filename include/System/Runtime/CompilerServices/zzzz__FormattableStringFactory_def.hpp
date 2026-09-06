@@ -94,7 +94,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FormattableStringFactory_ConcreteFormattableString", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FormattableStringFactory_ConcreteFormattableString(FormattableStringFactory_ConcreteFormattableStringconst&) = delete;
+  FormattableStringFactory_ConcreteFormattableString(FormattableStringFactory_ConcreteFormattableString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3385 };
@@ -139,7 +139,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FormattableStringFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FormattableStringFactory(FormattableStringFactoryconst&) = delete;
+  FormattableStringFactory(FormattableStringFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3386 };

@@ -174,7 +174,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FriendsMatchmaking___c__DisplayClass21_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FriendsMatchmaking___c__DisplayClass21_0(FriendsMatchmaking___c__DisplayClass21_0const&) = delete;
+  FriendsMatchmaking___c__DisplayClass21_0(FriendsMatchmaking___c__DisplayClass21_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20858 };
@@ -227,7 +227,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FriendsMatchmaking___c__DisplayClass23_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FriendsMatchmaking___c__DisplayClass23_0(FriendsMatchmaking___c__DisplayClass23_0const&) = delete;
+  FriendsMatchmaking___c__DisplayClass23_0(FriendsMatchmaking___c__DisplayClass23_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20859 };
@@ -280,7 +280,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FriendsMatchmaking___c__DisplayClass28_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FriendsMatchmaking___c__DisplayClass28_0(FriendsMatchmaking___c__DisplayClass28_0const&) = delete;
+  FriendsMatchmaking___c__DisplayClass28_0(FriendsMatchmaking___c__DisplayClass28_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20860 };
@@ -333,7 +333,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FriendsMatchmaking___c__DisplayClass29_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FriendsMatchmaking___c__DisplayClass29_0(FriendsMatchmaking___c__DisplayClass29_0const&) = delete;
+  FriendsMatchmaking___c__DisplayClass29_0(FriendsMatchmaking___c__DisplayClass29_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20861 };
@@ -845,7 +845,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FriendsMatchmaking", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FriendsMatchmaking(FriendsMatchmakingconst&) = delete;
+  FriendsMatchmaking(FriendsMatchmaking const&) = delete;
 
   /// @brief Field DebugCategory offset 0xffffffff size 0x8
   static constexpr ::ConstString DebugCategory{ u"Friends Matchmaking" };

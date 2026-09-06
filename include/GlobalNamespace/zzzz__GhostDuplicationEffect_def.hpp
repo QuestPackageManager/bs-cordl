@@ -225,7 +225,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GhostDuplicationEffect___c__DisplayClass7_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GhostDuplicationEffect___c__DisplayClass7_0(GhostDuplicationEffect___c__DisplayClass7_0const&) = delete;
+  GhostDuplicationEffect___c__DisplayClass7_0(GhostDuplicationEffect___c__DisplayClass7_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5780 };
@@ -355,7 +355,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GhostDuplicationEffect__HideRedundantWithDelay_d__8", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GhostDuplicationEffect__HideRedundantWithDelay_d__8(GhostDuplicationEffect__HideRedundantWithDelay_d__8const&) = delete;
+  GhostDuplicationEffect__HideRedundantWithDelay_d__8(GhostDuplicationEffect__HideRedundantWithDelay_d__8 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5781 };
@@ -484,7 +484,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GhostDuplicationEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GhostDuplicationEffect(GhostDuplicationEffectconst&) = delete;
+  GhostDuplicationEffect(GhostDuplicationEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5782 };

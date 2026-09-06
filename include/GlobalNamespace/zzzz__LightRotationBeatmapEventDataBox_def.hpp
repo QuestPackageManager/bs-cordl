@@ -395,7 +395,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightRotationBeatmapEventDataBox__Unpack_d__10", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightRotationBeatmapEventDataBox__Unpack_d__10(LightRotationBeatmapEventDataBox__Unpack_d__10const&) = delete;
+  LightRotationBeatmapEventDataBox__Unpack_d__10(LightRotationBeatmapEventDataBox__Unpack_d__10 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14933 };
@@ -628,7 +628,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightRotationBeatmapEventDataBox", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightRotationBeatmapEventDataBox(LightRotationBeatmapEventDataBoxconst&) = delete;
+  LightRotationBeatmapEventDataBox(LightRotationBeatmapEventDataBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14934 };

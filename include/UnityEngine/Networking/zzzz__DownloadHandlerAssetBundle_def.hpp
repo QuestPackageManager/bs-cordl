@@ -61,7 +61,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerAssetBundle_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DownloadHandlerAssetBundle_BindingsMarshaller(DownloadHandlerAssetBundle_BindingsMarshallerconst&) = delete;
+  DownloadHandlerAssetBundle_BindingsMarshaller(DownloadHandlerAssetBundle_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23238 };
@@ -161,7 +161,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerAssetBundle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DownloadHandlerAssetBundle(DownloadHandlerAssetBundleconst&) = delete;
+  DownloadHandlerAssetBundle(DownloadHandlerAssetBundle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23239 };

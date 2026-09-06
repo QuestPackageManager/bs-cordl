@@ -160,7 +160,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlAsset(UxmlAssetconst&) = delete;
+  UxmlAsset(UxmlAsset const&) = delete;
 
   /// @brief Field NullNodeType offset 0xffffffff size 0x8
   static constexpr ::ConstString NullNodeType{ u"null" };

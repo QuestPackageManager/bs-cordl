@@ -67,7 +67,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FtpWebResponse_EmptyStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FtpWebResponse_EmptyStream(FtpWebResponse_EmptyStreamconst&) = delete;
+  FtpWebResponse_EmptyStream(FtpWebResponse_EmptyStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11476 };
@@ -229,7 +229,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FtpWebResponse", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FtpWebResponse(FtpWebResponseconst&) = delete;
+  FtpWebResponse(FtpWebResponse const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11477 };

@@ -64,7 +64,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DtlsReplayWindow", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DtlsReplayWindow(DtlsReplayWindowconst&) = delete;
+  DtlsReplayWindow(DtlsReplayWindow const&) = delete;
 
   /// @brief Field VALID_SEQ_MASK offset 0xffffffff size 0x8
   static constexpr int64_t VALID_SEQ_MASK{ static_cast<int64_t>(0xffffffffffff) };

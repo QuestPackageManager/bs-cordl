@@ -171,7 +171,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FontAsset___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FontAsset___c(FontAsset___cconst&) = delete;
+  FontAsset___c(FontAsset___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17227 };
@@ -1455,7 +1455,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FontAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FontAsset(FontAssetconst&) = delete;
+  FontAsset(FontAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17228 };

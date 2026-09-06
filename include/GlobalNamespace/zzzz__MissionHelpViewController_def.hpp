@@ -76,7 +76,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionHelpViewController_MissionHelpGameObjectPair", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionHelpViewController_MissionHelpGameObjectPair(MissionHelpViewController_MissionHelpGameObjectPairconst&) = delete;
+  MissionHelpViewController_MissionHelpGameObjectPair(MissionHelpViewController_MissionHelpGameObjectPair const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6958 };
@@ -181,7 +181,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionHelpViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionHelpViewController(MissionHelpViewControllerconst&) = delete;
+  MissionHelpViewController(MissionHelpViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6959 };

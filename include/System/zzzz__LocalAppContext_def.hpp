@@ -70,7 +70,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalAppContext___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalAppContext___c(LocalAppContext___cconst&) = delete;
+  LocalAppContext___c(LocalAppContext___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13725 };
@@ -132,7 +132,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalAppContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalAppContext(LocalAppContextconst&) = delete;
+  LocalAppContext(LocalAppContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13726 };

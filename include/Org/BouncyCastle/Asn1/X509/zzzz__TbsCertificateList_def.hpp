@@ -118,7 +118,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RevokedCertificatesEnumeration_TbsCertificateList_RevokedCertificatesEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RevokedCertificatesEnumeration_TbsCertificateList_RevokedCertificatesEnumerator(RevokedCertificatesEnumeration_TbsCertificateList_RevokedCertificatesEnumeratorconst&) = delete;
+  RevokedCertificatesEnumeration_TbsCertificateList_RevokedCertificatesEnumerator(RevokedCertificatesEnumeration_TbsCertificateList_RevokedCertificatesEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 391 };
@@ -178,7 +178,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TbsCertificateList_RevokedCertificatesEnumeration", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TbsCertificateList_RevokedCertificatesEnumeration(TbsCertificateList_RevokedCertificatesEnumerationconst&) = delete;
+  TbsCertificateList_RevokedCertificatesEnumeration(TbsCertificateList_RevokedCertificatesEnumeration const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 392 };
@@ -342,7 +342,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TbsCertificateList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TbsCertificateList(TbsCertificateListconst&) = delete;
+  TbsCertificateList(TbsCertificateList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 393 };

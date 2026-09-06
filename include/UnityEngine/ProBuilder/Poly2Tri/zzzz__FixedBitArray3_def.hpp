@@ -269,7 +269,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FixedBitArray3__Enumerate_d__10", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FixedBitArray3__Enumerate_d__10(FixedBitArray3__Enumerate_d__10const&) = delete;
+  FixedBitArray3__Enumerate_d__10(FixedBitArray3__Enumerate_d__10 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21787 };

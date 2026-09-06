@@ -210,7 +210,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BatchExtensions__Batch_d__0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BatchExtensions__Batch_d__0_1(BatchExtensions__Batch_d__0_1const&) = delete;
+  BatchExtensions__Batch_d__0_1(BatchExtensions__Batch_d__0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18116 };
@@ -271,7 +271,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BatchExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BatchExtensions(BatchExtensionsconst&) = delete;
+  BatchExtensions(BatchExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18117 };

@@ -209,7 +209,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameServerLobbyFlowCoordinator___c__DisplayClass103_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameServerLobbyFlowCoordinator___c__DisplayClass103_0(GameServerLobbyFlowCoordinator___c__DisplayClass103_0const&) = delete;
+  GameServerLobbyFlowCoordinator___c__DisplayClass103_0(GameServerLobbyFlowCoordinator___c__DisplayClass103_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6842 };
@@ -285,7 +285,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameServerLobbyFlowCoordinator___c__DisplayClass87_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameServerLobbyFlowCoordinator___c__DisplayClass87_0(GameServerLobbyFlowCoordinator___c__DisplayClass87_0const&) = delete;
+  GameServerLobbyFlowCoordinator___c__DisplayClass87_0(GameServerLobbyFlowCoordinator___c__DisplayClass87_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6843 };
@@ -939,7 +939,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GameServerLobbyFlowCoordinator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameServerLobbyFlowCoordinator(GameServerLobbyFlowCoordinatorconst&) = delete;
+  GameServerLobbyFlowCoordinator(GameServerLobbyFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6844 };

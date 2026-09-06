@@ -81,7 +81,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ModifiersSelectionView___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ModifiersSelectionView___c__DisplayClass3_0(ModifiersSelectionView___c__DisplayClass3_0const&) = delete;
+  ModifiersSelectionView___c__DisplayClass3_0(ModifiersSelectionView___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7011 };
@@ -154,7 +154,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ModifiersSelectionView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ModifiersSelectionView(ModifiersSelectionViewconst&) = delete;
+  ModifiersSelectionView(ModifiersSelectionView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7012 };

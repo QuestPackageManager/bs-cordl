@@ -51,7 +51,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarPlace_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLobbyAvatarPlace_Pool(MultiplayerLobbyAvatarPlace_Poolconst&) = delete;
+  MultiplayerLobbyAvatarPlace_Pool(MultiplayerLobbyAvatarPlace_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6159 };
@@ -91,7 +91,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarPlace", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLobbyAvatarPlace(MultiplayerLobbyAvatarPlaceconst&) = delete;
+  MultiplayerLobbyAvatarPlace(MultiplayerLobbyAvatarPlace const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6160 };

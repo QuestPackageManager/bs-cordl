@@ -124,7 +124,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EventTrigger_TriggerEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventTrigger_TriggerEvent(EventTrigger_TriggerEventconst&) = delete;
+  EventTrigger_TriggerEvent(EventTrigger_TriggerEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17561 };
@@ -177,7 +177,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EventTrigger_Entry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventTrigger_Entry(EventTrigger_Entryconst&) = delete;
+  EventTrigger_Entry(EventTrigger_Entry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17562 };
@@ -417,7 +417,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EventTrigger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventTrigger(EventTriggerconst&) = delete;
+  EventTrigger(EventTrigger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17563 };

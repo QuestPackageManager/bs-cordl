@@ -85,7 +85,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BinaryConverter(BinaryConverterconst&) = delete;
+  BinaryConverter(BinaryConverter const&) = delete;
 
   /// @brief Field BinaryToArrayName offset 0xffffffff size 0x8
   static constexpr ::ConstString BinaryToArrayName{ u"ToArray" };

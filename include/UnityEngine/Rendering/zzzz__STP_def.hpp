@@ -609,7 +609,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "STP_HistoryContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  STP_HistoryContext(STP_HistoryContextconst&) = delete;
+  STP_HistoryContext(STP_HistoryContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12220 };
@@ -981,7 +981,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "STP_ShaderResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  STP_ShaderResources(STP_ShaderResourcesconst&) = delete;
+  STP_ShaderResources(STP_ShaderResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12224 };
@@ -1039,7 +1039,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "STP_ShaderKeywords", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  STP_ShaderKeywords(STP_ShaderKeywordsconst&) = delete;
+  STP_ShaderKeywords(STP_ShaderKeywords const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12225 };
@@ -1146,7 +1146,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "STP_RuntimeResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  STP_RuntimeResources(STP_RuntimeResourcesconst&) = delete;
+  STP_RuntimeResources(STP_RuntimeResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12226 };
@@ -1433,7 +1433,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "STP_SetupData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  STP_SetupData(STP_SetupDataconst&) = delete;
+  STP_SetupData(STP_SetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12228 };
@@ -1654,7 +1654,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "STP_PreTaaData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  STP_PreTaaData(STP_PreTaaDataconst&) = delete;
+  STP_PreTaaData(STP_PreTaaData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12229 };
@@ -1856,7 +1856,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "STP_TaaData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  STP_TaaData(STP_TaaDataconst&) = delete;
+  STP_TaaData(STP_TaaData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12230 };
@@ -2006,7 +2006,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "STP___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  STP___c(STP___cconst&) = delete;
+  STP___c(STP___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12231 };
@@ -2139,7 +2139,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "STP", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  STP(STPconst&) = delete;
+  STP(STP const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12232 };

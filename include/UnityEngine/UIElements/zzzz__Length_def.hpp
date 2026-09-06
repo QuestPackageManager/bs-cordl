@@ -295,7 +295,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Length_ValueProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_Length_ValueProperty(PropertyBag_Length_ValuePropertyconst&) = delete;
+  PropertyBag_Length_ValueProperty(PropertyBag_Length_ValueProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4949 };
@@ -380,7 +380,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Length_UnitProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_Length_UnitProperty(PropertyBag_Length_UnitPropertyconst&) = delete;
+  PropertyBag_Length_UnitProperty(PropertyBag_Length_UnitProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4950 };
@@ -433,7 +433,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Length_PropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Length_PropertyBag(Length_PropertyBagconst&) = delete;
+  Length_PropertyBag(Length_PropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4951 };

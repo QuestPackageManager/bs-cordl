@@ -267,7 +267,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlAtomicValue_NamespacePrefixForQName", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlAtomicValue_NamespacePrefixForQName(XmlAtomicValue_NamespacePrefixForQNameconst&) = delete;
+  XmlAtomicValue_NamespacePrefixForQName(XmlAtomicValue_NamespacePrefixForQName const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9737 };
@@ -464,7 +464,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlAtomicValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlAtomicValue(XmlAtomicValueconst&) = delete;
+  XmlAtomicValue(XmlAtomicValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9738 };

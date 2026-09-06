@@ -176,7 +176,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonSerializerSettings___c__DisplayClass93_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSerializerSettings___c__DisplayClass93_0(JsonSerializerSettings___c__DisplayClass93_0const&) = delete;
+  JsonSerializerSettings___c__DisplayClass93_0(JsonSerializerSettings___c__DisplayClass93_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13273 };
@@ -830,7 +830,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonSerializerSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSerializerSettings(JsonSerializerSettingsconst&) = delete;
+  JsonSerializerSettings(JsonSerializerSettings const&) = delete;
 
   /// @brief Field DefaultCheckAdditionalContent offset 0xffffffff size 0x1
   static constexpr bool DefaultCheckAdditionalContent{ false };

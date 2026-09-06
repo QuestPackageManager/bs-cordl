@@ -66,7 +66,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerAudioClip_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DownloadHandlerAudioClip_BindingsMarshaller(DownloadHandlerAudioClip_BindingsMarshallerconst&) = delete;
+  DownloadHandlerAudioClip_BindingsMarshaller(DownloadHandlerAudioClip_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23309 };
@@ -152,7 +152,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerAudioClip", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DownloadHandlerAudioClip(DownloadHandlerAudioClipconst&) = delete;
+  DownloadHandlerAudioClip(DownloadHandlerAudioClip const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23310 };

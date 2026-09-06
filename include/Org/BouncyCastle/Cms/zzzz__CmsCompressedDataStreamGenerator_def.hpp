@@ -106,7 +106,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsCompressedDataStreamGenerator_CmsCompressedOutputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsCompressedDataStreamGenerator_CmsCompressedOutputStream(CmsCompressedDataStreamGenerator_CmsCompressedOutputStreamconst&) = delete;
+  CmsCompressedDataStreamGenerator_CmsCompressedOutputStream(CmsCompressedDataStreamGenerator_CmsCompressedOutputStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 631 };
@@ -181,7 +181,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsCompressedDataStreamGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsCompressedDataStreamGenerator(CmsCompressedDataStreamGeneratorconst&) = delete;
+  CmsCompressedDataStreamGenerator(CmsCompressedDataStreamGenerator const&) = delete;
 
   /// @brief Field ZLib offset 0xffffffff size 0x8
   static constexpr ::ConstString ZLib{ u"1.2.840.113549.1.9.16.3.8" };

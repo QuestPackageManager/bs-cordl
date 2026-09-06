@@ -577,7 +577,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HandInteractionProfile_HandInteraction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HandInteractionProfile_HandInteraction(HandInteractionProfile_HandInteractionconst&) = delete;
+  HandInteractionProfile_HandInteraction(HandInteractionProfile_HandInteraction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18575 };
@@ -767,7 +767,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HandInteractionProfile", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HandInteractionProfile(HandInteractionProfileconst&) = delete;
+  HandInteractionProfile(HandInteractionProfile const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18576 };

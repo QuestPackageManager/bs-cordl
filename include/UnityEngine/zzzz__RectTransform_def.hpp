@@ -207,7 +207,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RectTransform_ReapplyDrivenProperties", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RectTransform_ReapplyDrivenProperties(RectTransform_ReapplyDrivenPropertiesconst&) = delete;
+  RectTransform_ReapplyDrivenProperties(RectTransform_ReapplyDrivenProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10421 };
@@ -424,7 +424,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RectTransform", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RectTransform(RectTransformconst&) = delete;
+  RectTransform(RectTransform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10422 };

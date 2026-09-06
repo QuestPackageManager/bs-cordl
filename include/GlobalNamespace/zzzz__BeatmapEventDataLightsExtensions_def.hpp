@@ -46,7 +46,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues(BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValuesconst&) = delete;
+  BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues(BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21235 };
@@ -139,7 +139,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataLightsExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapEventDataLightsExtensions(BeatmapEventDataLightsExtensionsconst&) = delete;
+  BeatmapEventDataLightsExtensions(BeatmapEventDataLightsExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21236 };

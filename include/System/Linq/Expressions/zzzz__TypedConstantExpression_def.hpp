@@ -57,7 +57,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypedConstantExpression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypedConstantExpression(TypedConstantExpressionconst&) = delete;
+  TypedConstantExpression(TypedConstantExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16160 };

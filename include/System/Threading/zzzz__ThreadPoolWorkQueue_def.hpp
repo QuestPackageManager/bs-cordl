@@ -97,7 +97,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueue_SparseArray_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadPoolWorkQueue_SparseArray_1(ThreadPoolWorkQueue_SparseArray_1const&) = delete;
+  ThreadPoolWorkQueue_SparseArray_1(ThreadPoolWorkQueue_SparseArray_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2744 };
@@ -193,7 +193,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueue_WorkStealingQueue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadPoolWorkQueue_WorkStealingQueue(ThreadPoolWorkQueue_WorkStealingQueueconst&) = delete;
+  ThreadPoolWorkQueue_WorkStealingQueue(ThreadPoolWorkQueue_WorkStealingQueue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2745 };
@@ -297,7 +297,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueue_QueueSegment", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadPoolWorkQueue_QueueSegment(ThreadPoolWorkQueue_QueueSegmentconst&) = delete;
+  ThreadPoolWorkQueue_QueueSegment(ThreadPoolWorkQueue_QueueSegment const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2746 };
@@ -411,7 +411,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadPoolWorkQueue(ThreadPoolWorkQueueconst&) = delete;
+  ThreadPoolWorkQueue(ThreadPoolWorkQueue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2747 };

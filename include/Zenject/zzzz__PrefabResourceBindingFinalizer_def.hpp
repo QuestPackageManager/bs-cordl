@@ -142,7 +142,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PrefabResourceBindingFinalizer___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PrefabResourceBindingFinalizer___c__DisplayClass5_0(PrefabResourceBindingFinalizer___c__DisplayClass5_0const&) = delete;
+  PrefabResourceBindingFinalizer___c__DisplayClass5_0(PrefabResourceBindingFinalizer___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14314 };
@@ -221,7 +221,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PrefabResourceBindingFinalizer___c__DisplayClass5_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PrefabResourceBindingFinalizer___c__DisplayClass5_1(PrefabResourceBindingFinalizer___c__DisplayClass5_1const&) = delete;
+  PrefabResourceBindingFinalizer___c__DisplayClass5_1(PrefabResourceBindingFinalizer___c__DisplayClass5_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14315 };
@@ -295,7 +295,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PrefabResourceBindingFinalizer___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PrefabResourceBindingFinalizer___c__DisplayClass6_0(PrefabResourceBindingFinalizer___c__DisplayClass6_0const&) = delete;
+  PrefabResourceBindingFinalizer___c__DisplayClass6_0(PrefabResourceBindingFinalizer___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14316 };
@@ -369,7 +369,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PrefabResourceBindingFinalizer___c__DisplayClass6_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PrefabResourceBindingFinalizer___c__DisplayClass6_1(PrefabResourceBindingFinalizer___c__DisplayClass6_1const&) = delete;
+  PrefabResourceBindingFinalizer___c__DisplayClass6_1(PrefabResourceBindingFinalizer___c__DisplayClass6_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14317 };
@@ -462,7 +462,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PrefabResourceBindingFinalizer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PrefabResourceBindingFinalizer(PrefabResourceBindingFinalizerconst&) = delete;
+  PrefabResourceBindingFinalizer(PrefabResourceBindingFinalizer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14318 };

@@ -153,7 +153,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Module", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Module(Moduleconst&) = delete;
+  Module(Module const&) = delete;
 
   /// @brief Field DefaultLookup value: I32(28)
   static ::System::Reflection::BindingFlags const DefaultLookup;

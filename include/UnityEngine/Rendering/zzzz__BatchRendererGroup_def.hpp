@@ -129,7 +129,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BatchRendererGroup_OnPerformCulling", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BatchRendererGroup_OnPerformCulling(BatchRendererGroup_OnPerformCullingconst&) = delete;
+  BatchRendererGroup_OnPerformCulling(BatchRendererGroup_OnPerformCulling const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10870 };
@@ -167,7 +167,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BatchRendererGroup_OnFinishedCulling", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BatchRendererGroup_OnFinishedCulling(BatchRendererGroup_OnFinishedCullingconst&) = delete;
+  BatchRendererGroup_OnFinishedCulling(BatchRendererGroup_OnFinishedCulling const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10871 };
@@ -200,7 +200,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BatchRendererGroup_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BatchRendererGroup_BindingsMarshaller(BatchRendererGroup_BindingsMarshallerconst&) = delete;
+  BatchRendererGroup_BindingsMarshaller(BatchRendererGroup_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10872 };
@@ -353,7 +353,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BatchRendererGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BatchRendererGroup(BatchRendererGroupconst&) = delete;
+  BatchRendererGroup(BatchRendererGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10873 };

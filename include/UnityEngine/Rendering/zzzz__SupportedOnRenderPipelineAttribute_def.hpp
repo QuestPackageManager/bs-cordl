@@ -147,7 +147,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SupportedOnRenderPipelineAttribute___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SupportedOnRenderPipelineAttribute___c(SupportedOnRenderPipelineAttribute___cconst&) = delete;
+  SupportedOnRenderPipelineAttribute___c(SupportedOnRenderPipelineAttribute___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10782 };
@@ -224,7 +224,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SupportedOnRenderPipelineAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SupportedOnRenderPipelineAttribute(SupportedOnRenderPipelineAttributeconst&) = delete;
+  SupportedOnRenderPipelineAttribute(SupportedOnRenderPipelineAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10783 };

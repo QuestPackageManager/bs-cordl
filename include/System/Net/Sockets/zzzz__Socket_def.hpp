@@ -342,7 +342,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Socket_CachedEventArgs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Socket_CachedEventArgs(Socket_CachedEventArgsconst&) = delete;
+  Socket_CachedEventArgs(Socket_CachedEventArgs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11749 };
@@ -425,7 +425,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Socket_TaskSocketAsyncEventArgs_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Socket_TaskSocketAsyncEventArgs_1(Socket_TaskSocketAsyncEventArgs_1const&) = delete;
+  Socket_TaskSocketAsyncEventArgs_1(Socket_TaskSocketAsyncEventArgs_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11750 };
@@ -473,7 +473,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Socket_Int32TaskSocketAsyncEventArgs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Socket_Int32TaskSocketAsyncEventArgs(Socket_Int32TaskSocketAsyncEventArgsconst&) = delete;
+  Socket_Int32TaskSocketAsyncEventArgs(Socket_Int32TaskSocketAsyncEventArgs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11751 };
@@ -547,7 +547,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AwaitableSocketAsyncEventArgs_Socket___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AwaitableSocketAsyncEventArgs_Socket___c(AwaitableSocketAsyncEventArgs_Socket___cconst&) = delete;
+  AwaitableSocketAsyncEventArgs_Socket___c(AwaitableSocketAsyncEventArgs_Socket___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11752 };
@@ -715,7 +715,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Socket_AwaitableSocketAsyncEventArgs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Socket_AwaitableSocketAsyncEventArgs(Socket_AwaitableSocketAsyncEventArgsconst&) = delete;
+  Socket_AwaitableSocketAsyncEventArgs(Socket_AwaitableSocketAsyncEventArgs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11753 };
@@ -985,7 +985,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Socket___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Socket___c(Socket___cconst&) = delete;
+  Socket___c(Socket___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11755 };
@@ -1033,7 +1033,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Socket___c__DisplayClass240_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Socket___c__DisplayClass240_0(Socket___c__DisplayClass240_0const&) = delete;
+  Socket___c__DisplayClass240_0(Socket___c__DisplayClass240_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11756 };
@@ -1086,7 +1086,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Socket___c__DisplayClass298_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Socket___c__DisplayClass298_0(Socket___c__DisplayClass298_0const&) = delete;
+  Socket___c__DisplayClass298_0(Socket___c__DisplayClass298_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11757 };
@@ -1139,7 +1139,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Socket___c__DisplayClass311_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Socket___c__DisplayClass311_0(Socket___c__DisplayClass311_0const&) = delete;
+  Socket___c__DisplayClass311_0(Socket___c__DisplayClass311_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11758 };
@@ -1210,7 +1210,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Socket___c__DisplayClass355_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Socket___c__DisplayClass355_0(Socket___c__DisplayClass355_0const&) = delete;
+  Socket___c__DisplayClass355_0(Socket___c__DisplayClass355_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11759 };
@@ -2214,7 +2214,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Socket", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Socket(Socketconst&) = delete;
+  Socket(Socket const&) = delete;
 
   /// @brief Field DefaultCloseTimeout offset 0xffffffff size 0x4
   static constexpr int32_t DefaultCloseTimeout{ static_cast<int32_t>(0xffffffff) };

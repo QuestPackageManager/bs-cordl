@@ -244,7 +244,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ArrayMultipleIndexFilter__ExecuteFilter_d__2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayMultipleIndexFilter__ExecuteFilter_d__2(ArrayMultipleIndexFilter__ExecuteFilter_d__2const&) = delete;
+  ArrayMultipleIndexFilter__ExecuteFilter_d__2(ArrayMultipleIndexFilter__ExecuteFilter_d__2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13625 };
@@ -361,7 +361,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ArrayMultipleIndexFilter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayMultipleIndexFilter(ArrayMultipleIndexFilterconst&) = delete;
+  ArrayMultipleIndexFilter(ArrayMultipleIndexFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13626 };

@@ -261,7 +261,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SceneProvider_SceneOp", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SceneProvider_SceneOp(SceneProvider_SceneOpconst&) = delete;
+  SceneProvider_SceneOp(SceneProvider_SceneOp const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18792 };
@@ -393,7 +393,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SceneProvider_UnloadSceneOp", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SceneProvider_UnloadSceneOp(SceneProvider_UnloadSceneOpconst&) = delete;
+  SceneProvider_UnloadSceneOp(SceneProvider_UnloadSceneOp const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18793 };
@@ -487,7 +487,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SceneProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SceneProvider(SceneProviderconst&) = delete;
+  SceneProvider(SceneProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18794 };

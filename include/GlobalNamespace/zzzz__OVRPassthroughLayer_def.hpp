@@ -569,7 +569,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_IStyleHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughLayer_IStyleHandler(OVRPassthroughLayer_IStyleHandlerconst&) = delete;
+  OVRPassthroughLayer_IStyleHandler(OVRPassthroughLayer_IStyleHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7275 };
@@ -702,7 +702,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_StylesHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughLayer_StylesHandler(OVRPassthroughLayer_StylesHandlerconst&) = delete;
+  OVRPassthroughLayer_StylesHandler(OVRPassthroughLayer_StylesHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7276 };
@@ -802,7 +802,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_NoneStyleHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughLayer_NoneStyleHandler(OVRPassthroughLayer_NoneStyleHandlerconst&) = delete;
+  OVRPassthroughLayer_NoneStyleHandler(OVRPassthroughLayer_NoneStyleHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7277 };
@@ -895,7 +895,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_BaseGeneratedStyleHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughLayer_BaseGeneratedStyleHandler(OVRPassthroughLayer_BaseGeneratedStyleHandlerconst&) = delete;
+  OVRPassthroughLayer_BaseGeneratedStyleHandler(OVRPassthroughLayer_BaseGeneratedStyleHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7278 };
@@ -966,7 +966,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_MonoToRgbaStyleHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughLayer_MonoToRgbaStyleHandler(OVRPassthroughLayer_MonoToRgbaStyleHandlerconst&) = delete;
+  OVRPassthroughLayer_MonoToRgbaStyleHandler(OVRPassthroughLayer_MonoToRgbaStyleHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7279 };
@@ -1017,7 +1017,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_MonoToMonoStyleHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughLayer_MonoToMonoStyleHandler(OVRPassthroughLayer_MonoToMonoStyleHandlerconst&) = delete;
+  OVRPassthroughLayer_MonoToMonoStyleHandler(OVRPassthroughLayer_MonoToMonoStyleHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7280 };
@@ -1060,7 +1060,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_BCSStyleHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughLayer_BCSStyleHandler(OVRPassthroughLayer_BCSStyleHandlerconst&) = delete;
+  OVRPassthroughLayer_BCSStyleHandler(OVRPassthroughLayer_BCSStyleHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7281 };
@@ -1193,7 +1193,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_ColorLutHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughLayer_ColorLutHandler(OVRPassthroughLayer_ColorLutHandlerconst&) = delete;
+  OVRPassthroughLayer_ColorLutHandler(OVRPassthroughLayer_ColorLutHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7282 };
@@ -1298,7 +1298,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_InterpolatedColorLutHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughLayer_InterpolatedColorLutHandler(OVRPassthroughLayer_InterpolatedColorLutHandlerconst&) = delete;
+  OVRPassthroughLayer_InterpolatedColorLutHandler(OVRPassthroughLayer_InterpolatedColorLutHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7283 };
@@ -1357,7 +1357,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer___c__DisplayClass10_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughLayer___c__DisplayClass10_0(OVRPassthroughLayer___c__DisplayClass10_0const&) = delete;
+  OVRPassthroughLayer___c__DisplayClass10_0(OVRPassthroughLayer___c__DisplayClass10_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7284 };
@@ -1410,7 +1410,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer___c__DisplayClass9_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughLayer___c__DisplayClass9_0(OVRPassthroughLayer___c__DisplayClass9_0const&) = delete;
+  OVRPassthroughLayer___c__DisplayClass9_0(OVRPassthroughLayer___c__DisplayClass9_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7285 };
@@ -1952,7 +1952,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughLayer(OVRPassthroughLayerconst&) = delete;
+  OVRPassthroughLayer(OVRPassthroughLayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7286 };

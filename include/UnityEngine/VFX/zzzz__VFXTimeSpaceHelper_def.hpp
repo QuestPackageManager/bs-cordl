@@ -224,7 +224,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VFXTimeSpaceHelper__CollectClipEvents_d__1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXTimeSpaceHelper__CollectClipEvents_d__1(VFXTimeSpaceHelper__CollectClipEvents_d__1const&) = delete;
+  VFXTimeSpaceHelper__CollectClipEvents_d__1(VFXTimeSpaceHelper__CollectClipEvents_d__1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19952 };
@@ -476,7 +476,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3(VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3const&) = delete;
+  VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3(VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19953 };
@@ -591,7 +591,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VFXTimeSpaceHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXTimeSpaceHelper(VFXTimeSpaceHelperconst&) = delete;
+  VFXTimeSpaceHelper(VFXTimeSpaceHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19954 };

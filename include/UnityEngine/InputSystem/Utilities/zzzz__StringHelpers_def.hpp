@@ -231,7 +231,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StringHelpers__Split_d__9", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StringHelpers__Split_d__9(StringHelpers__Split_d__9const&) = delete;
+  StringHelpers__Split_d__9(StringHelpers__Split_d__9 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9201 };
@@ -442,7 +442,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StringHelpers__Tokenize_d__8", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StringHelpers__Tokenize_d__8(StringHelpers__Tokenize_d__8const&) = delete;
+  StringHelpers__Tokenize_d__8(StringHelpers__Tokenize_d__8 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9202 };
@@ -595,7 +595,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StringHelpers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StringHelpers(StringHelpersconst&) = delete;
+  StringHelpers(StringHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9203 };

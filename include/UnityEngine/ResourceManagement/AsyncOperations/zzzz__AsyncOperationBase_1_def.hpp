@@ -121,7 +121,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncOperationBase_1___c__DisplayClass60_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncOperationBase_1___c__DisplayClass60_0(AsyncOperationBase_1___c__DisplayClass60_0const&) = delete;
+  AsyncOperationBase_1___c__DisplayClass60_0(AsyncOperationBase_1___c__DisplayClass60_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18814 };
@@ -172,7 +172,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncOperationBase_1___c__DisplayClass61_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncOperationBase_1___c__DisplayClass61_0(AsyncOperationBase_1___c__DisplayClass61_0const&) = delete;
+  AsyncOperationBase_1___c__DisplayClass61_0(AsyncOperationBase_1___c__DisplayClass61_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18815 };
@@ -674,7 +674,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncOperationBase_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncOperationBase_1(AsyncOperationBase_1const&) = delete;
+  AsyncOperationBase_1(AsyncOperationBase_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18816 };

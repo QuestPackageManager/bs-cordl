@@ -46,7 +46,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "DecalDrawFowardEmissiveSystem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalDrawFowardEmissiveSystem(DecalDrawFowardEmissiveSystemconst&) = delete;
+  DecalDrawFowardEmissiveSystem(DecalDrawFowardEmissiveSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12677 };

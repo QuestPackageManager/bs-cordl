@@ -121,7 +121,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ContainerViewController___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContainerViewController___c(ContainerViewController___cconst&) = delete;
+  ContainerViewController___c(ContainerViewController___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20937 };
@@ -291,7 +291,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ContainerViewController__AddViewControllerCoroutine_d__16", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContainerViewController__AddViewControllerCoroutine_d__16(ContainerViewController__AddViewControllerCoroutine_d__16const&) = delete;
+  ContainerViewController__AddViewControllerCoroutine_d__16(ContainerViewController__AddViewControllerCoroutine_d__16 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20938 };
@@ -525,7 +525,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ContainerViewController__RemoveViewControllersCoroutine_d__18", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContainerViewController__RemoveViewControllersCoroutine_d__18(ContainerViewController__RemoveViewControllersCoroutine_d__18const&) = delete;
+  ContainerViewController__RemoveViewControllersCoroutine_d__18(ContainerViewController__RemoveViewControllersCoroutine_d__18 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20939 };
@@ -701,7 +701,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ContainerViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContainerViewController(ContainerViewControllerconst&) = delete;
+  ContainerViewController(ContainerViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20940 };

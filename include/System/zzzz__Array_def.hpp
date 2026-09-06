@@ -201,7 +201,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Array_ArrayEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Array_ArrayEnumerator(Array_ArrayEnumeratorconst&) = delete;
+  Array_ArrayEnumerator(Array_ArrayEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2538 };
@@ -273,7 +273,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Array_RawData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Array_RawData(Array_RawDataconst&) = delete;
+  Array_RawData(Array_RawData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2539 };
@@ -442,7 +442,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Array_EmptyInternalEnumerator_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Array_EmptyInternalEnumerator_1(Array_EmptyInternalEnumerator_1const&) = delete;
+  Array_EmptyInternalEnumerator_1(Array_EmptyInternalEnumerator_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2541 };
@@ -1158,7 +1158,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Array", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Array(Arrayconst&) = delete;
+  Array(Array const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2544 };

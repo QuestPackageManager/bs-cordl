@@ -505,7 +505,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RichTextTagParser_TagTypeInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RichTextTagParser_TagTypeInfo(RichTextTagParser_TagTypeInfoconst&) = delete;
+  RichTextTagParser_TagTypeInfo(RichTextTagParser_TagTypeInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17193 };
@@ -657,7 +657,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RichTextTagParser_TagValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RichTextTagParser_TagValue(RichTextTagParser_TagValueconst&) = delete;
+  RichTextTagParser_TagValue(RichTextTagParser_TagValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17196 };
@@ -865,7 +865,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RichTextTagParser_ParseError", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RichTextTagParser_ParseError(RichTextTagParser_ParseErrorconst&) = delete;
+  RichTextTagParser_ParseError(RichTextTagParser_ParseError const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17199 };
@@ -976,7 +976,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RichTextTagParser", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RichTextTagParser(RichTextTagParserconst&) = delete;
+  RichTextTagParser(RichTextTagParser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17200 };

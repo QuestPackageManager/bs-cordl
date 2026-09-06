@@ -184,7 +184,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "CallbackEventHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CallbackEventHandler(CallbackEventHandlerconst&) = delete;
+  CallbackEventHandler(CallbackEventHandler const&) = delete;
 
   /// @brief Field ExecuteDefaultActionAtTargetName offset 0xffffffff size 0x8
   static constexpr ::ConstString ExecuteDefaultActionAtTargetName{ u"ExecuteDefaultActionAtTarget" };

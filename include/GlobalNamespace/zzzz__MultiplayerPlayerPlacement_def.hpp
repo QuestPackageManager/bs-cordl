@@ -82,7 +82,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPlayerPlacement___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerPlayerPlacement___c(MultiplayerPlayerPlacement___cconst&) = delete;
+  MultiplayerPlayerPlacement___c(MultiplayerPlayerPlacement___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6172 };
@@ -132,7 +132,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPlayerPlacement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerPlayerPlacement(MultiplayerPlayerPlacementconst&) = delete;
+  MultiplayerPlayerPlacement(MultiplayerPlayerPlacement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6173 };

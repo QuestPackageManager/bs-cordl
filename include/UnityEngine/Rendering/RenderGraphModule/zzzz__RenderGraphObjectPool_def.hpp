@@ -109,7 +109,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderGraphObjectPool_SharedObjectPoolBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphObjectPool_SharedObjectPoolBase(RenderGraphObjectPool_SharedObjectPoolBaseconst&) = delete;
+  RenderGraphObjectPool_SharedObjectPoolBase(RenderGraphObjectPool_SharedObjectPoolBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12423 };
@@ -165,7 +165,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SharedObjectPool_1_RenderGraphObjectPool___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedObjectPool_1_RenderGraphObjectPool___c(SharedObjectPool_1_RenderGraphObjectPool___cconst&) = delete;
+  SharedObjectPool_1_RenderGraphObjectPool___c(SharedObjectPool_1_RenderGraphObjectPool___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12424 };
@@ -222,7 +222,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderGraphObjectPool_SharedObjectPool_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphObjectPool_SharedObjectPool_1(RenderGraphObjectPool_SharedObjectPool_1const&) = delete;
+  RenderGraphObjectPool_SharedObjectPool_1(RenderGraphObjectPool_SharedObjectPool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12425 };
@@ -326,7 +326,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderGraphObjectPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphObjectPool(RenderGraphObjectPoolconst&) = delete;
+  RenderGraphObjectPool(RenderGraphObjectPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12426 };

@@ -70,7 +70,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GlobalShaderColorLightWithIds_LightIntensitiesWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GlobalShaderColorLightWithIds_LightIntensitiesWithId(GlobalShaderColorLightWithIds_LightIntensitiesWithIdconst&) = delete;
+  GlobalShaderColorLightWithIds_LightIntensitiesWithId(GlobalShaderColorLightWithIds_LightIntensitiesWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19526 };
@@ -155,7 +155,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GlobalShaderColorLightWithIds", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GlobalShaderColorLightWithIds(GlobalShaderColorLightWithIdsconst&) = delete;
+  GlobalShaderColorLightWithIds(GlobalShaderColorLightWithIds const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19527 };

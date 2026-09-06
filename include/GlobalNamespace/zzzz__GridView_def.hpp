@@ -102,7 +102,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GridView_IDataSource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GridView_IDataSource(GridView_IDataSourceconst&) = delete;
+  GridView_IDataSource(GridView_IDataSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20931 };
@@ -237,7 +237,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GridViewCellsEnumerator_GridView__GetEnumerator_d__1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GridViewCellsEnumerator_GridView__GetEnumerator_d__1(GridViewCellsEnumerator_GridView__GetEnumerator_d__1const&) = delete;
+  GridViewCellsEnumerator_GridView__GetEnumerator_d__1(GridViewCellsEnumerator_GridView__GetEnumerator_d__1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20932 };
@@ -327,7 +327,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GridView_GridViewCellsEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GridView_GridViewCellsEnumerator(GridView_GridViewCellsEnumeratorconst&) = delete;
+  GridView_GridViewCellsEnumerator(GridView_GridViewCellsEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20933 };
@@ -501,7 +501,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GridView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GridView(GridViewconst&) = delete;
+  GridView(GridView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20934 };

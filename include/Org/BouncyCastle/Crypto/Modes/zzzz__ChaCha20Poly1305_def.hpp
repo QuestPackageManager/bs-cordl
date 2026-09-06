@@ -324,7 +324,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ChaCha20Poly1305", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ChaCha20Poly1305(ChaCha20Poly1305const&) = delete;
+  ChaCha20Poly1305(ChaCha20Poly1305 const&) = delete;
 
   /// @brief Field AadLimit offset 0xffffffff size 0x8
   static constexpr uint64_t AadLimit{ static_cast<uint64_t>(0xffffffffffffffffu) };

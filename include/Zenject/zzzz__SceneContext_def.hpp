@@ -174,7 +174,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SceneContext___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SceneContext___c(SceneContext___cconst&) = delete;
+  SceneContext___c(SceneContext___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14477 };
@@ -241,7 +241,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SceneContext___c__DisplayClass50_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SceneContext___c__DisplayClass50_0(SceneContext___c__DisplayClass50_0const&) = delete;
+  SceneContext___c__DisplayClass50_0(SceneContext___c__DisplayClass50_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14478 };
@@ -306,7 +306,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SceneContext___c__DisplayClass52_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SceneContext___c__DisplayClass52_0(SceneContext___c__DisplayClass52_0const&) = delete;
+  SceneContext___c__DisplayClass52_0(SceneContext___c__DisplayClass52_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14479 };
@@ -644,7 +644,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SceneContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SceneContext(SceneContextconst&) = delete;
+  SceneContext(SceneContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14480 };

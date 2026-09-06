@@ -106,7 +106,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusAdvancedHapticFeedbackPlayer_HapticPlayerState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusAdvancedHapticFeedbackPlayer_HapticPlayerState(OculusAdvancedHapticFeedbackPlayer_HapticPlayerStateconst&) = delete;
+  OculusAdvancedHapticFeedbackPlayer_HapticPlayerState(OculusAdvancedHapticFeedbackPlayer_HapticPlayerState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23190 };
@@ -259,7 +259,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusAdvancedHapticFeedbackPlayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusAdvancedHapticFeedbackPlayer(OculusAdvancedHapticFeedbackPlayerconst&) = delete;
+  OculusAdvancedHapticFeedbackPlayer(OculusAdvancedHapticFeedbackPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23191 };

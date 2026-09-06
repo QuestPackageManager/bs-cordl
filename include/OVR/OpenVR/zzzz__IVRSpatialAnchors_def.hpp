@@ -105,7 +105,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSpatialAnchors__CreateSpatialAnchorFromDescriptor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSpatialAnchors__CreateSpatialAnchorFromDescriptor(IVRSpatialAnchors__CreateSpatialAnchorFromDescriptorconst&) = delete;
+  IVRSpatialAnchors__CreateSpatialAnchorFromDescriptor(IVRSpatialAnchors__CreateSpatialAnchorFromDescriptor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8365 };
@@ -152,7 +152,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSpatialAnchors__CreateSpatialAnchorFromPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSpatialAnchors__CreateSpatialAnchorFromPose(IVRSpatialAnchors__CreateSpatialAnchorFromPoseconst&) = delete;
+  IVRSpatialAnchors__CreateSpatialAnchorFromPose(IVRSpatialAnchors__CreateSpatialAnchorFromPose const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8366 };
@@ -198,7 +198,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSpatialAnchors__GetSpatialAnchorPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSpatialAnchors__GetSpatialAnchorPose(IVRSpatialAnchors__GetSpatialAnchorPoseconst&) = delete;
+  IVRSpatialAnchors__GetSpatialAnchorPose(IVRSpatialAnchors__GetSpatialAnchorPose const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8367 };
@@ -244,7 +244,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVRSpatialAnchors__GetSpatialAnchorDescriptor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSpatialAnchors__GetSpatialAnchorDescriptor(IVRSpatialAnchors__GetSpatialAnchorDescriptorconst&) = delete;
+  IVRSpatialAnchors__GetSpatialAnchorDescriptor(IVRSpatialAnchors__GetSpatialAnchorDescriptor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8368 };

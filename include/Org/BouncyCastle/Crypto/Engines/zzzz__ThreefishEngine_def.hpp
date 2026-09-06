@@ -101,7 +101,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreefishEngine_ThreefishCipher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreefishEngine_ThreefishCipher(ThreefishEngine_ThreefishCipherconst&) = delete;
+  ThreefishEngine_ThreefishCipher(ThreefishEngine_ThreefishCipher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 875 };
@@ -152,7 +152,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreefishEngine_Threefish256Cipher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreefishEngine_Threefish256Cipher(ThreefishEngine_Threefish256Cipherconst&) = delete;
+  ThreefishEngine_Threefish256Cipher(ThreefishEngine_Threefish256Cipher const&) = delete;
 
   /// @brief Field ROTATION_0_0 offset 0xffffffff size 0x4
   static constexpr int32_t ROTATION_0_0{ static_cast<int32_t>(0xe) };
@@ -241,7 +241,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreefishEngine_Threefish512Cipher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreefishEngine_Threefish512Cipher(ThreefishEngine_Threefish512Cipherconst&) = delete;
+  ThreefishEngine_Threefish512Cipher(ThreefishEngine_Threefish512Cipher const&) = delete;
 
   /// @brief Field ROTATION_0_0 offset 0xffffffff size 0x4
   static constexpr int32_t ROTATION_0_0{ static_cast<int32_t>(0x2e) };
@@ -378,7 +378,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreefishEngine_Threefish1024Cipher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreefishEngine_Threefish1024Cipher(ThreefishEngine_Threefish1024Cipherconst&) = delete;
+  ThreefishEngine_Threefish1024Cipher(ThreefishEngine_Threefish1024Cipher const&) = delete;
 
   /// @brief Field ROTATION_0_0 offset 0xffffffff size 0x4
   static constexpr int32_t ROTATION_0_0{ static_cast<int32_t>(0x18) };
@@ -756,7 +756,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreefishEngine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreefishEngine(ThreefishEngineconst&) = delete;
+  ThreefishEngine(ThreefishEngine const&) = delete;
 
   /// @brief Field BLOCKSIZE_1024 offset 0xffffffff size 0x4
   static constexpr int32_t BLOCKSIZE_1024{ static_cast<int32_t>(0x400) };

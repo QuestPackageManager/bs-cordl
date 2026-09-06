@@ -78,7 +78,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ShaderDebugPrintManager_Profiling", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShaderDebugPrintManager_Profiling(ShaderDebugPrintManager_Profilingconst&) = delete;
+  ShaderDebugPrintManager_Profiling(ShaderDebugPrintManager_Profiling const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12054 };
@@ -346,7 +346,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ShaderDebugPrintManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShaderDebugPrintManager(ShaderDebugPrintManagerconst&) = delete;
+  ShaderDebugPrintManager(ShaderDebugPrintManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12056 };

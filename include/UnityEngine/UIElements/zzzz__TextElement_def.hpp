@@ -147,7 +147,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TextElement_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextElement_UxmlFactory(TextElement_UxmlFactoryconst&) = delete;
+  TextElement_UxmlFactory(TextElement_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5100 };
@@ -263,7 +263,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TextElement_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextElement_UxmlTraits(TextElement_UxmlTraitsconst&) = delete;
+  TextElement_UxmlTraits(TextElement_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5101 };
@@ -1615,7 +1615,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TextElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextElement(TextElementconst&) = delete;
+  TextElement(TextElement const&) = delete;
 
   /// @brief Field ZeroWidthSpace offset 0xffffffff size 0x8
   static constexpr ::ConstString ZeroWidthSpace{ u"\u{200b}" };

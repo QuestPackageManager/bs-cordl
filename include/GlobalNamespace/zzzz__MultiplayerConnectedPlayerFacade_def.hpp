@@ -77,7 +77,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerFacade_Factory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerConnectedPlayerFacade_Factory(MultiplayerConnectedPlayerFacade_Factoryconst&) = delete;
+  MultiplayerConnectedPlayerFacade_Factory(MultiplayerConnectedPlayerFacade_Factory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6055 };
@@ -232,7 +232,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerFacade", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerConnectedPlayerFacade(MultiplayerConnectedPlayerFacadeconst&) = delete;
+  MultiplayerConnectedPlayerFacade(MultiplayerConnectedPlayerFacade const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6056 };

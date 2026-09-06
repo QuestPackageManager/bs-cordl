@@ -92,7 +92,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerable_1_FindPredicate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemEnumerable_1_FindPredicate(FileSystemEnumerable_1_FindPredicateconst&) = delete;
+  FileSystemEnumerable_1_FindPredicate(FileSystemEnumerable_1_FindPredicate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3927 };
@@ -130,7 +130,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerable_1_FindTransform", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemEnumerable_1_FindTransform(FileSystemEnumerable_1_FindTransformconst&) = delete;
+  FileSystemEnumerable_1_FindTransform(FileSystemEnumerable_1_FindTransform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3928 };
@@ -183,7 +183,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerable_1_DelegateEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemEnumerable_1_DelegateEnumerator(FileSystemEnumerable_1_DelegateEnumeratorconst&) = delete;
+  FileSystemEnumerable_1_DelegateEnumerator(FileSystemEnumerable_1_DelegateEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3929 };
@@ -320,7 +320,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerable_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemEnumerable_1(FileSystemEnumerable_1const&) = delete;
+  FileSystemEnumerable_1(FileSystemEnumerable_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3930 };

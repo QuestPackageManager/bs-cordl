@@ -223,7 +223,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TransformOrigin_XProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_TransformOrigin_XProperty(PropertyBag_TransformOrigin_XPropertyconst&) = delete;
+  PropertyBag_TransformOrigin_XProperty(PropertyBag_TransformOrigin_XProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4993 };
@@ -308,7 +308,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TransformOrigin_YProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_TransformOrigin_YProperty(PropertyBag_TransformOrigin_YPropertyconst&) = delete;
+  PropertyBag_TransformOrigin_YProperty(PropertyBag_TransformOrigin_YProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4994 };
@@ -393,7 +393,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TransformOrigin_ZProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_TransformOrigin_ZProperty(PropertyBag_TransformOrigin_ZPropertyconst&) = delete;
+  PropertyBag_TransformOrigin_ZProperty(PropertyBag_TransformOrigin_ZProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4995 };
@@ -448,7 +448,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TransformOrigin_PropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TransformOrigin_PropertyBag(TransformOrigin_PropertyBagconst&) = delete;
+  TransformOrigin_PropertyBag(TransformOrigin_PropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4996 };

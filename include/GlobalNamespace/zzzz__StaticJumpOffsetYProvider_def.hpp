@@ -57,7 +57,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StaticJumpOffsetYProvider_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StaticJumpOffsetYProvider_InitData(StaticJumpOffsetYProvider_InitDataconst&) = delete;
+  StaticJumpOffsetYProvider_InitData(StaticJumpOffsetYProvider_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5740 };
@@ -119,7 +119,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "StaticJumpOffsetYProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StaticJumpOffsetYProvider(StaticJumpOffsetYProviderconst&) = delete;
+  StaticJumpOffsetYProvider(StaticJumpOffsetYProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5741 };

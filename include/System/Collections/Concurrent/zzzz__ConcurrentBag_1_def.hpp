@@ -199,7 +199,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConcurrentBag_1_WorkStealingQueue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcurrentBag_1_WorkStealingQueue(ConcurrentBag_1_WorkStealingQueueconst&) = delete;
+  ConcurrentBag_1_WorkStealingQueue(ConcurrentBag_1_WorkStealingQueue const&) = delete;
 
   /// @brief Field InitialSize offset 0xffffffff size 0x4
   static constexpr int32_t InitialSize{ static_cast<int32_t>(0x20) };
@@ -334,7 +334,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConcurrentBag_1_Enumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcurrentBag_1_Enumerator(ConcurrentBag_1_Enumeratorconst&) = delete;
+  ConcurrentBag_1_Enumerator(ConcurrentBag_1_Enumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11389 };
@@ -520,7 +520,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ConcurrentBag_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcurrentBag_1(ConcurrentBag_1const&) = delete;
+  ConcurrentBag_1(ConcurrentBag_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11390 };

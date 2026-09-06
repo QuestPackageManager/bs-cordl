@@ -99,7 +99,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IMGUITextHandle_TextHandleTuple", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IMGUITextHandle_TextHandleTuple(IMGUITextHandle_TextHandleTupleconst&) = delete;
+  IMGUITextHandle_TextHandleTuple(IMGUITextHandle_TextHandleTuple const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19894 };
@@ -225,7 +225,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IMGUITextHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IMGUITextHandle(IMGUITextHandleconst&) = delete;
+  IMGUITextHandle(IMGUITextHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19895 };

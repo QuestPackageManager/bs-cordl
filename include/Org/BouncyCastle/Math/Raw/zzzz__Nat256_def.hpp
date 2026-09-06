@@ -188,7 +188,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Nat256", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Nat256(Nat256const&) = delete;
+  Nat256(Nat256 const&) = delete;
 
   /// @brief Field M offset 0xffffffff size 0x8
   static constexpr uint64_t M{ static_cast<uint64_t>(0xffffffffu) };

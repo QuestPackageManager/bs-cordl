@@ -102,7 +102,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Scope_TypeLimiter___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Scope_TypeLimiter___c(Scope_TypeLimiter___cconst&) = delete;
+  Scope_TypeLimiter___c(Scope_TypeLimiter___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13749 };
@@ -180,7 +180,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeLimiter_Scope", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeLimiter_Scope(TypeLimiter_Scopeconst&) = delete;
+  TypeLimiter_Scope(TypeLimiter_Scope const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13750 };
@@ -254,7 +254,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeLimiter___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeLimiter___c(TypeLimiter___cconst&) = delete;
+  TypeLimiter___c(TypeLimiter___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13751 };
@@ -332,7 +332,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeLimiter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeLimiter(TypeLimiterconst&) = delete;
+  TypeLimiter(TypeLimiter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13752 };

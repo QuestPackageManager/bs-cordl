@@ -177,7 +177,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Tnaf", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Tnaf(Tnafconst&) = delete;
+  Tnaf(Tnaf const&) = delete;
 
   /// @brief Field Pow2Width offset 0xffffffff size 0x1
   static constexpr int8_t Pow2Width{ static_cast<int8_t>(0x10) };

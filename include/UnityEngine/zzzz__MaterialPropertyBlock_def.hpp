@@ -77,7 +77,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlock_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaterialPropertyBlock_BindingsMarshaller(MaterialPropertyBlock_BindingsMarshallerconst&) = delete;
+  MaterialPropertyBlock_BindingsMarshaller(MaterialPropertyBlock_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10156 };
@@ -369,7 +369,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlock", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaterialPropertyBlock(MaterialPropertyBlockconst&) = delete;
+  MaterialPropertyBlock(MaterialPropertyBlock const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10157 };

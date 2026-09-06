@@ -69,7 +69,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ScribeHelperUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScribeHelperUtility(ScribeHelperUtilityconst&) = delete;
+  ScribeHelperUtility(ScribeHelperUtility const&) = delete;
 
   /// @brief Field DOUBLE_TYPE_SCRIBE_KEY offset 0xffffffff size 0x8
   static constexpr ::ConstString DOUBLE_TYPE_SCRIBE_KEY{ u"double" };

@@ -77,7 +77,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GroupBox_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GroupBox_UxmlFactory(GroupBox_UxmlFactoryconst&) = delete;
+  GroupBox_UxmlFactory(GroupBox_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4201 };
@@ -125,7 +125,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GroupBox_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GroupBox_UxmlTraits(GroupBox_UxmlTraitsconst&) = delete;
+  GroupBox_UxmlTraits(GroupBox_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4202 };
@@ -225,7 +225,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "GroupBox", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GroupBox(GroupBoxconst&) = delete;
+  GroupBox(GroupBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4203 };

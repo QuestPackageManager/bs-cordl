@@ -108,7 +108,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JSONObject___c__DisplayClass21_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JSONObject___c__DisplayClass21_0(JSONObject___c__DisplayClass21_0const&) = delete;
+  JSONObject___c__DisplayClass21_0(JSONObject___c__DisplayClass21_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8025 };
@@ -262,7 +262,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JSONObject__get_Children_d__27", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JSONObject__get_Children_d__27(JSONObject__get_Children_d__27const&) = delete;
+  JSONObject__get_Children_d__27(JSONObject__get_Children_d__27 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8026 };
@@ -420,7 +420,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "JSONObject", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JSONObject(JSONObjectconst&) = delete;
+  JSONObject(JSONObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8027 };

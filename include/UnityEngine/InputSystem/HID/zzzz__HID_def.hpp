@@ -230,7 +230,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HIDLayoutBuilder_HID___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HIDLayoutBuilder_HID___c(HIDLayoutBuilder_HID___cconst&) = delete;
+  HIDLayoutBuilder_HID___c(HIDLayoutBuilder_HID___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8884 };
@@ -1024,7 +1024,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HID_HIDLayoutBuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HID_HIDLayoutBuilder(HID_HIDLayoutBuilderconst&) = delete;
+  HID_HIDLayoutBuilder(HID_HIDLayoutBuilder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8885 };
@@ -1851,7 +1851,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HID___c__DisplayClass13_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HID___c__DisplayClass13_0(HID___c__DisplayClass13_0const&) = delete;
+  HID___c__DisplayClass13_0(HID___c__DisplayClass13_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8897 };
@@ -1970,7 +1970,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "HID", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HID(HIDconst&) = delete;
+  HID(HID const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8898 };

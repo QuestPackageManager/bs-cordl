@@ -153,7 +153,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RandomizedPitch__PlayDelayedCoroutine_d__9", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RandomizedPitch__PlayDelayedCoroutine_d__9(RandomizedPitch__PlayDelayedCoroutine_d__9const&) = delete;
+  RandomizedPitch__PlayDelayedCoroutine_d__9(RandomizedPitch__PlayDelayedCoroutine_d__9 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20720 };
@@ -288,7 +288,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RandomizedPitch__RestorePitchWithDelay_d__10", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RandomizedPitch__RestorePitchWithDelay_d__10(RandomizedPitch__RestorePitchWithDelay_d__10const&) = delete;
+  RandomizedPitch__RestorePitchWithDelay_d__10(RandomizedPitch__RestorePitchWithDelay_d__10 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20721 };
@@ -418,7 +418,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "RandomizedPitch", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RandomizedPitch(RandomizedPitchconst&) = delete;
+  RandomizedPitch(RandomizedPitch const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20722 };

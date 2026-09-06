@@ -112,7 +112,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BasePopupField_2_PopupTextElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BasePopupField_2_PopupTextElement(BasePopupField_2_PopupTextElementconst&) = delete;
+  BasePopupField_2_PopupTextElement(BasePopupField_2_PopupTextElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4111 };
@@ -165,7 +165,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BasePopupField_2___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BasePopupField_2___c(BasePopupField_2___cconst&) = delete;
+  BasePopupField_2___c(BasePopupField_2___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4112 };
@@ -376,7 +376,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BasePopupField_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BasePopupField_2(BasePopupField_2const&) = delete;
+  BasePopupField_2(BasePopupField_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4113 };

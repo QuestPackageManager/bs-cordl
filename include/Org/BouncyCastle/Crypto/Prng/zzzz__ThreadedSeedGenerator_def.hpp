@@ -76,7 +76,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadedSeedGenerator_SeedGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadedSeedGenerator_SeedGenerator(ThreadedSeedGenerator_SeedGeneratorconst&) = delete;
+  ThreadedSeedGenerator_SeedGenerator(ThreadedSeedGenerator_SeedGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1117 };
@@ -126,7 +126,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadedSeedGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadedSeedGenerator(ThreadedSeedGeneratorconst&) = delete;
+  ThreadedSeedGenerator(ThreadedSeedGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1118 };

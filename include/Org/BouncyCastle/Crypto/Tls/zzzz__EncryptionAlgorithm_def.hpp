@@ -37,7 +37,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "EncryptionAlgorithm", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EncryptionAlgorithm(EncryptionAlgorithmconst&) = delete;
+  EncryptionAlgorithm(EncryptionAlgorithm const&) = delete;
 
   /// @brief Field AES_128_CBC offset 0xffffffff size 0x4
   static constexpr int32_t AES_128_CBC{ static_cast<int32_t>(0x8) };

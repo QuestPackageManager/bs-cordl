@@ -139,7 +139,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LeaderboardTableView_ScoreData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeaderboardTableView_ScoreData(LeaderboardTableView_ScoreDataconst&) = delete;
+  LeaderboardTableView_ScoreData(LeaderboardTableView_ScoreData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7007 };
@@ -263,7 +263,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LeaderboardTableView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeaderboardTableView(LeaderboardTableViewconst&) = delete;
+  LeaderboardTableView(LeaderboardTableView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7008 };

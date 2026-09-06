@@ -158,7 +158,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimatedSwitchView_ColorBlock", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimatedSwitchView_ColorBlock(AnimatedSwitchView_ColorBlockconst&) = delete;
+  AnimatedSwitchView_ColorBlock(AnimatedSwitchView_ColorBlock const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20982 };
@@ -309,7 +309,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimatedSwitchView_GetColorDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimatedSwitchView_GetColorDelegate(AnimatedSwitchView_GetColorDelegateconst&) = delete;
+  AnimatedSwitchView_GetColorDelegate(AnimatedSwitchView_GetColorDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20984 };
@@ -412,7 +412,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimatedSwitchView___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimatedSwitchView___c(AnimatedSwitchView___cconst&) = delete;
+  AnimatedSwitchView___c(AnimatedSwitchView___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20985 };
@@ -685,7 +685,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimatedSwitchView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimatedSwitchView(AnimatedSwitchViewconst&) = delete;
+  AnimatedSwitchView(AnimatedSwitchView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20986 };

@@ -82,7 +82,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SetSaberGlowColor_PropertyTintColorPair", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetSaberGlowColor_PropertyTintColorPair(SetSaberGlowColor_PropertyTintColorPairconst&) = delete;
+  SetSaberGlowColor_PropertyTintColorPair(SetSaberGlowColor_PropertyTintColorPair const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6242 };
@@ -197,7 +197,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "SetSaberGlowColor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetSaberGlowColor(SetSaberGlowColorconst&) = delete;
+  SetSaberGlowColor(SetSaberGlowColor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6243 };

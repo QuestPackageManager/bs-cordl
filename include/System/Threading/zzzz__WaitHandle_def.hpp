@@ -166,7 +166,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "WaitHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WaitHandle(WaitHandleconst&) = delete;
+  WaitHandle(WaitHandle const&) = delete;
 
   /// @brief Field ERROR_NOT_OWNED_BY_CALLER offset 0xffffffff size 0x4
   static constexpr int32_t ERROR_NOT_OWNED_BY_CALLER{ static_cast<int32_t>(0x12b) };

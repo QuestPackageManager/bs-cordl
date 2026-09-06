@@ -78,7 +78,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeStampResponseGenerator_FailInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeStampResponseGenerator_FailInfo(TimeStampResponseGenerator_FailInfoconst&) = delete;
+  TimeStampResponseGenerator_FailInfo(TimeStampResponseGenerator_FailInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1767 };
@@ -210,7 +210,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeStampResponseGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeStampResponseGenerator(TimeStampResponseGeneratorconst&) = delete;
+  TimeStampResponseGenerator(TimeStampResponseGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1768 };

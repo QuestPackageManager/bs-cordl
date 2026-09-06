@@ -220,7 +220,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightCompiler_QuoteVisitor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightCompiler_QuoteVisitor(LightCompiler_QuoteVisitorconst&) = delete;
+  LightCompiler_QuoteVisitor(LightCompiler_QuoteVisitor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16441 };
@@ -304,7 +304,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightCompiler___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightCompiler___c(LightCompiler___cconst&) = delete;
+  LightCompiler___c(LightCompiler___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16442 };
@@ -708,7 +708,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightCompiler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightCompiler(LightCompilerconst&) = delete;
+  LightCompiler(LightCompiler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16443 };

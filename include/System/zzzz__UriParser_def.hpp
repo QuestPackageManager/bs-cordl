@@ -402,7 +402,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "UriParser", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UriParser(UriParserconst&) = delete;
+  UriParser(UriParser const&) = delete;
 
   /// @brief Field FtpSyntaxFlags value: I32(367005533)
   static ::System::UriSyntaxFlags const FtpSyntaxFlags;

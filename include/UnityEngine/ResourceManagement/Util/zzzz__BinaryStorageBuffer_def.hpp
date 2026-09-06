@@ -238,7 +238,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BuiltinTypesSerializer_BinaryStorageBuffer___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BuiltinTypesSerializer_BinaryStorageBuffer___c__DisplayClass4_0(BuiltinTypesSerializer_BinaryStorageBuffer___c__DisplayClass4_0const&) = delete;
+  BuiltinTypesSerializer_BinaryStorageBuffer___c__DisplayClass4_0(BuiltinTypesSerializer_BinaryStorageBuffer___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18722 };
@@ -337,7 +337,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryStorageBuffer_BuiltinTypesSerializer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BinaryStorageBuffer_BuiltinTypesSerializer(BinaryStorageBuffer_BuiltinTypesSerializerconst&) = delete;
+  BinaryStorageBuffer_BuiltinTypesSerializer(BinaryStorageBuffer_BuiltinTypesSerializer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18723 };
@@ -435,7 +435,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryStorageBuffer_TypeSerializer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BinaryStorageBuffer_TypeSerializer(BinaryStorageBuffer_TypeSerializerconst&) = delete;
+  BinaryStorageBuffer_TypeSerializer(BinaryStorageBuffer_TypeSerializer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18725 };
@@ -540,7 +540,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryStorageBuffer_ISerializationAdapter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BinaryStorageBuffer_ISerializationAdapter(BinaryStorageBuffer_ISerializationAdapterconst&) = delete;
+  BinaryStorageBuffer_ISerializationAdapter(BinaryStorageBuffer_ISerializationAdapter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18728 };
@@ -566,7 +566,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryStorageBuffer_ISerializationAdapter_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BinaryStorageBuffer_ISerializationAdapter_1(BinaryStorageBuffer_ISerializationAdapter_1const&) = delete;
+  BinaryStorageBuffer_ISerializationAdapter_1(BinaryStorageBuffer_ISerializationAdapter_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18729 };
@@ -768,7 +768,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryStorageBuffer_Reader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BinaryStorageBuffer_Reader(BinaryStorageBuffer_Readerconst&) = delete;
+  BinaryStorageBuffer_Reader(BinaryStorageBuffer_Reader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18731 };
@@ -841,7 +841,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Writer_BinaryStorageBuffer_Chunk", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Writer_BinaryStorageBuffer_Chunk(Writer_BinaryStorageBuffer_Chunkconst&) = delete;
+  Writer_BinaryStorageBuffer_Chunk(Writer_BinaryStorageBuffer_Chunk const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18732 };
@@ -1077,7 +1077,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryStorageBuffer_Writer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BinaryStorageBuffer_Writer(BinaryStorageBuffer_Writerconst&) = delete;
+  BinaryStorageBuffer_Writer(BinaryStorageBuffer_Writer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18734 };
@@ -1166,7 +1166,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryStorageBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BinaryStorageBuffer(BinaryStorageBufferconst&) = delete;
+  BinaryStorageBuffer(BinaryStorageBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18735 };

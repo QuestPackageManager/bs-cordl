@@ -781,7 +781,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__FindOverlay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__FindOverlay(IVROverlay__FindOverlayconst&) = delete;
+  IVROverlay__FindOverlay(IVROverlay__FindOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8206 };
@@ -826,7 +826,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__CreateOverlay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__CreateOverlay(IVROverlay__CreateOverlayconst&) = delete;
+  IVROverlay__CreateOverlay(IVROverlay__CreateOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8207 };
@@ -871,7 +871,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__DestroyOverlay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__DestroyOverlay(IVROverlay__DestroyOverlayconst&) = delete;
+  IVROverlay__DestroyOverlay(IVROverlay__DestroyOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8208 };
@@ -916,7 +916,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetHighQualityOverlay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetHighQualityOverlay(IVROverlay__SetHighQualityOverlayconst&) = delete;
+  IVROverlay__SetHighQualityOverlay(IVROverlay__SetHighQualityOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8209 };
@@ -961,7 +961,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetHighQualityOverlay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetHighQualityOverlay(IVROverlay__GetHighQualityOverlayconst&) = delete;
+  IVROverlay__GetHighQualityOverlay(IVROverlay__GetHighQualityOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8210 };
@@ -1007,7 +1007,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayKey", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetOverlayKey(IVROverlay__GetOverlayKeyconst&) = delete;
+  IVROverlay__GetOverlayKey(IVROverlay__GetOverlayKey const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8211 };
@@ -1053,7 +1053,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayName", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetOverlayName(IVROverlay__GetOverlayNameconst&) = delete;
+  IVROverlay__GetOverlayName(IVROverlay__GetOverlayName const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8212 };
@@ -1098,7 +1098,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayName", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetOverlayName(IVROverlay__SetOverlayNameconst&) = delete;
+  IVROverlay__SetOverlayName(IVROverlay__SetOverlayName const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8213 };
@@ -1144,7 +1144,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayImageData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetOverlayImageData(IVROverlay__GetOverlayImageDataconst&) = delete;
+  IVROverlay__GetOverlayImageData(IVROverlay__GetOverlayImageData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8214 };
@@ -1189,7 +1189,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayErrorNameFromEnum", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetOverlayErrorNameFromEnum(IVROverlay__GetOverlayErrorNameFromEnumconst&) = delete;
+  IVROverlay__GetOverlayErrorNameFromEnum(IVROverlay__GetOverlayErrorNameFromEnum const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8215 };
@@ -1234,7 +1234,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayRenderingPid", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetOverlayRenderingPid(IVROverlay__SetOverlayRenderingPidconst&) = delete;
+  IVROverlay__SetOverlayRenderingPid(IVROverlay__SetOverlayRenderingPid const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8216 };
@@ -1279,7 +1279,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayRenderingPid", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetOverlayRenderingPid(IVROverlay__GetOverlayRenderingPidconst&) = delete;
+  IVROverlay__GetOverlayRenderingPid(IVROverlay__GetOverlayRenderingPid const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8217 };
@@ -1324,7 +1324,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayFlag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetOverlayFlag(IVROverlay__SetOverlayFlagconst&) = delete;
+  IVROverlay__SetOverlayFlag(IVROverlay__SetOverlayFlag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8218 };
@@ -1370,7 +1370,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayFlag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetOverlayFlag(IVROverlay__GetOverlayFlagconst&) = delete;
+  IVROverlay__GetOverlayFlag(IVROverlay__GetOverlayFlag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8219 };
@@ -1415,7 +1415,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayColor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetOverlayColor(IVROverlay__SetOverlayColorconst&) = delete;
+  IVROverlay__SetOverlayColor(IVROverlay__SetOverlayColor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8220 };
@@ -1461,7 +1461,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayColor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetOverlayColor(IVROverlay__GetOverlayColorconst&) = delete;
+  IVROverlay__GetOverlayColor(IVROverlay__GetOverlayColor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8221 };
@@ -1506,7 +1506,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayAlpha", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetOverlayAlpha(IVROverlay__SetOverlayAlphaconst&) = delete;
+  IVROverlay__SetOverlayAlpha(IVROverlay__SetOverlayAlpha const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8222 };
@@ -1551,7 +1551,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayAlpha", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetOverlayAlpha(IVROverlay__GetOverlayAlphaconst&) = delete;
+  IVROverlay__GetOverlayAlpha(IVROverlay__GetOverlayAlpha const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8223 };
@@ -1596,7 +1596,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTexelAspect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetOverlayTexelAspect(IVROverlay__SetOverlayTexelAspectconst&) = delete;
+  IVROverlay__SetOverlayTexelAspect(IVROverlay__SetOverlayTexelAspect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8224 };
@@ -1641,7 +1641,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTexelAspect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetOverlayTexelAspect(IVROverlay__GetOverlayTexelAspectconst&) = delete;
+  IVROverlay__GetOverlayTexelAspect(IVROverlay__GetOverlayTexelAspect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8225 };
@@ -1686,7 +1686,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlaySortOrder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetOverlaySortOrder(IVROverlay__SetOverlaySortOrderconst&) = delete;
+  IVROverlay__SetOverlaySortOrder(IVROverlay__SetOverlaySortOrder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8226 };
@@ -1731,7 +1731,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlaySortOrder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetOverlaySortOrder(IVROverlay__GetOverlaySortOrderconst&) = delete;
+  IVROverlay__GetOverlaySortOrder(IVROverlay__GetOverlaySortOrder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8227 };
@@ -1776,7 +1776,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayWidthInMeters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetOverlayWidthInMeters(IVROverlay__SetOverlayWidthInMetersconst&) = delete;
+  IVROverlay__SetOverlayWidthInMeters(IVROverlay__SetOverlayWidthInMeters const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8228 };
@@ -1821,7 +1821,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayWidthInMeters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetOverlayWidthInMeters(IVROverlay__GetOverlayWidthInMetersconst&) = delete;
+  IVROverlay__GetOverlayWidthInMeters(IVROverlay__GetOverlayWidthInMeters const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8229 };
@@ -1866,7 +1866,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters(IVROverlay__SetOverlayAutoCurveDistanceRangeInMetersconst&) = delete;
+  IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters(IVROverlay__SetOverlayAutoCurveDistanceRangeInMeters const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8230 };
@@ -1912,7 +1912,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters(IVROverlay__GetOverlayAutoCurveDistanceRangeInMetersconst&) = delete;
+  IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters(IVROverlay__GetOverlayAutoCurveDistanceRangeInMeters const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8231 };
@@ -1957,7 +1957,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTextureColorSpace", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetOverlayTextureColorSpace(IVROverlay__SetOverlayTextureColorSpaceconst&) = delete;
+  IVROverlay__SetOverlayTextureColorSpace(IVROverlay__SetOverlayTextureColorSpace const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8232 };
@@ -2002,7 +2002,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTextureColorSpace", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetOverlayTextureColorSpace(IVROverlay__GetOverlayTextureColorSpaceconst&) = delete;
+  IVROverlay__GetOverlayTextureColorSpace(IVROverlay__GetOverlayTextureColorSpace const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8233 };
@@ -2047,7 +2047,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTextureBounds", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetOverlayTextureBounds(IVROverlay__SetOverlayTextureBoundsconst&) = delete;
+  IVROverlay__SetOverlayTextureBounds(IVROverlay__SetOverlayTextureBounds const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8234 };
@@ -2092,7 +2092,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTextureBounds", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetOverlayTextureBounds(IVROverlay__GetOverlayTextureBoundsconst&) = delete;
+  IVROverlay__GetOverlayTextureBounds(IVROverlay__GetOverlayTextureBounds const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8235 };
@@ -2139,7 +2139,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayRenderModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetOverlayRenderModel(IVROverlay__GetOverlayRenderModelconst&) = delete;
+  IVROverlay__GetOverlayRenderModel(IVROverlay__GetOverlayRenderModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8236 };
@@ -2185,7 +2185,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayRenderModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetOverlayRenderModel(IVROverlay__SetOverlayRenderModelconst&) = delete;
+  IVROverlay__SetOverlayRenderModel(IVROverlay__SetOverlayRenderModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8237 };
@@ -2230,7 +2230,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTransformType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetOverlayTransformType(IVROverlay__GetOverlayTransformTypeconst&) = delete;
+  IVROverlay__GetOverlayTransformType(IVROverlay__GetOverlayTransformType const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8238 };
@@ -2277,7 +2277,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTransformAbsolute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetOverlayTransformAbsolute(IVROverlay__SetOverlayTransformAbsoluteconst&) = delete;
+  IVROverlay__SetOverlayTransformAbsolute(IVROverlay__SetOverlayTransformAbsolute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8239 };
@@ -2325,7 +2325,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTransformAbsolute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetOverlayTransformAbsolute(IVROverlay__GetOverlayTransformAbsoluteconst&) = delete;
+  IVROverlay__GetOverlayTransformAbsolute(IVROverlay__GetOverlayTransformAbsolute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8240 };
@@ -2371,7 +2371,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTransformTrackedDeviceRelative", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetOverlayTransformTrackedDeviceRelative(IVROverlay__SetOverlayTransformTrackedDeviceRelativeconst&) = delete;
+  IVROverlay__SetOverlayTransformTrackedDeviceRelative(IVROverlay__SetOverlayTransformTrackedDeviceRelative const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8241 };
@@ -2417,7 +2417,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTransformTrackedDeviceRelative", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetOverlayTransformTrackedDeviceRelative(IVROverlay__GetOverlayTransformTrackedDeviceRelativeconst&) = delete;
+  IVROverlay__GetOverlayTransformTrackedDeviceRelative(IVROverlay__GetOverlayTransformTrackedDeviceRelative const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8242 };
@@ -2462,7 +2462,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTransformTrackedDeviceComponent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetOverlayTransformTrackedDeviceComponent(IVROverlay__SetOverlayTransformTrackedDeviceComponentconst&) = delete;
+  IVROverlay__SetOverlayTransformTrackedDeviceComponent(IVROverlay__SetOverlayTransformTrackedDeviceComponent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8243 };
@@ -2508,7 +2508,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTransformTrackedDeviceComponent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetOverlayTransformTrackedDeviceComponent(IVROverlay__GetOverlayTransformTrackedDeviceComponentconst&) = delete;
+  IVROverlay__GetOverlayTransformTrackedDeviceComponent(IVROverlay__GetOverlayTransformTrackedDeviceComponent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8244 };
@@ -2554,7 +2554,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTransformOverlayRelative", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetOverlayTransformOverlayRelative(IVROverlay__GetOverlayTransformOverlayRelativeconst&) = delete;
+  IVROverlay__GetOverlayTransformOverlayRelative(IVROverlay__GetOverlayTransformOverlayRelative const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8245 };
@@ -2600,7 +2600,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTransformOverlayRelative", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetOverlayTransformOverlayRelative(IVROverlay__SetOverlayTransformOverlayRelativeconst&) = delete;
+  IVROverlay__SetOverlayTransformOverlayRelative(IVROverlay__SetOverlayTransformOverlayRelative const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8246 };
@@ -2645,7 +2645,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ShowOverlay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__ShowOverlay(IVROverlay__ShowOverlayconst&) = delete;
+  IVROverlay__ShowOverlay(IVROverlay__ShowOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8247 };
@@ -2690,7 +2690,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__HideOverlay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__HideOverlay(IVROverlay__HideOverlayconst&) = delete;
+  IVROverlay__HideOverlay(IVROverlay__HideOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8248 };
@@ -2735,7 +2735,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__IsOverlayVisible", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__IsOverlayVisible(IVROverlay__IsOverlayVisibleconst&) = delete;
+  IVROverlay__IsOverlayVisible(IVROverlay__IsOverlayVisible const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8249 };
@@ -2782,7 +2782,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetTransformForOverlayCoordinates", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetTransformForOverlayCoordinates(IVROverlay__GetTransformForOverlayCoordinatesconst&) = delete;
+  IVROverlay__GetTransformForOverlayCoordinates(IVROverlay__GetTransformForOverlayCoordinates const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8250 };
@@ -2827,7 +2827,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__PollNextOverlayEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__PollNextOverlayEvent(IVROverlay__PollNextOverlayEventconst&) = delete;
+  IVROverlay__PollNextOverlayEvent(IVROverlay__PollNextOverlayEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8251 };
@@ -2872,7 +2872,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayInputMethod", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetOverlayInputMethod(IVROverlay__GetOverlayInputMethodconst&) = delete;
+  IVROverlay__GetOverlayInputMethod(IVROverlay__GetOverlayInputMethod const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8252 };
@@ -2917,7 +2917,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayInputMethod", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetOverlayInputMethod(IVROverlay__SetOverlayInputMethodconst&) = delete;
+  IVROverlay__SetOverlayInputMethod(IVROverlay__SetOverlayInputMethod const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8253 };
@@ -2962,7 +2962,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayMouseScale", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetOverlayMouseScale(IVROverlay__GetOverlayMouseScaleconst&) = delete;
+  IVROverlay__GetOverlayMouseScale(IVROverlay__GetOverlayMouseScale const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8254 };
@@ -3007,7 +3007,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayMouseScale", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetOverlayMouseScale(IVROverlay__SetOverlayMouseScaleconst&) = delete;
+  IVROverlay__SetOverlayMouseScale(IVROverlay__SetOverlayMouseScale const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8255 };
@@ -3053,7 +3053,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ComputeOverlayIntersection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__ComputeOverlayIntersection(IVROverlay__ComputeOverlayIntersectionconst&) = delete;
+  IVROverlay__ComputeOverlayIntersection(IVROverlay__ComputeOverlayIntersection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8256 };
@@ -3098,7 +3098,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__IsHoverTargetOverlay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__IsHoverTargetOverlay(IVROverlay__IsHoverTargetOverlayconst&) = delete;
+  IVROverlay__IsHoverTargetOverlay(IVROverlay__IsHoverTargetOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8257 };
@@ -3143,7 +3143,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetGamepadFocusOverlay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetGamepadFocusOverlay(IVROverlay__GetGamepadFocusOverlayconst&) = delete;
+  IVROverlay__GetGamepadFocusOverlay(IVROverlay__GetGamepadFocusOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8258 };
@@ -3188,7 +3188,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetGamepadFocusOverlay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetGamepadFocusOverlay(IVROverlay__SetGamepadFocusOverlayconst&) = delete;
+  IVROverlay__SetGamepadFocusOverlay(IVROverlay__SetGamepadFocusOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8259 };
@@ -3233,7 +3233,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayNeighbor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetOverlayNeighbor(IVROverlay__SetOverlayNeighborconst&) = delete;
+  IVROverlay__SetOverlayNeighbor(IVROverlay__SetOverlayNeighbor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8260 };
@@ -3278,7 +3278,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__MoveGamepadFocusToNeighbor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__MoveGamepadFocusToNeighbor(IVROverlay__MoveGamepadFocusToNeighborconst&) = delete;
+  IVROverlay__MoveGamepadFocusToNeighbor(IVROverlay__MoveGamepadFocusToNeighbor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8261 };
@@ -3324,7 +3324,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayDualAnalogTransform", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetOverlayDualAnalogTransform(IVROverlay__SetOverlayDualAnalogTransformconst&) = delete;
+  IVROverlay__SetOverlayDualAnalogTransform(IVROverlay__SetOverlayDualAnalogTransform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8262 };
@@ -3370,7 +3370,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayDualAnalogTransform", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetOverlayDualAnalogTransform(IVROverlay__GetOverlayDualAnalogTransformconst&) = delete;
+  IVROverlay__GetOverlayDualAnalogTransform(IVROverlay__GetOverlayDualAnalogTransform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8263 };
@@ -3415,7 +3415,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayTexture", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetOverlayTexture(IVROverlay__SetOverlayTextureconst&) = delete;
+  IVROverlay__SetOverlayTexture(IVROverlay__SetOverlayTexture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8264 };
@@ -3460,7 +3460,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ClearOverlayTexture", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__ClearOverlayTexture(IVROverlay__ClearOverlayTextureconst&) = delete;
+  IVROverlay__ClearOverlayTexture(IVROverlay__ClearOverlayTexture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8265 };
@@ -3506,7 +3506,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayRaw", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetOverlayRaw(IVROverlay__SetOverlayRawconst&) = delete;
+  IVROverlay__SetOverlayRaw(IVROverlay__SetOverlayRaw const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8266 };
@@ -3551,7 +3551,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayFromFile", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetOverlayFromFile(IVROverlay__SetOverlayFromFileconst&) = delete;
+  IVROverlay__SetOverlayFromFile(IVROverlay__SetOverlayFromFile const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8267 };
@@ -3603,7 +3603,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTexture", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetOverlayTexture(IVROverlay__GetOverlayTextureconst&) = delete;
+  IVROverlay__GetOverlayTexture(IVROverlay__GetOverlayTexture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8268 };
@@ -3648,7 +3648,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ReleaseNativeOverlayHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__ReleaseNativeOverlayHandle(IVROverlay__ReleaseNativeOverlayHandleconst&) = delete;
+  IVROverlay__ReleaseNativeOverlayHandle(IVROverlay__ReleaseNativeOverlayHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8269 };
@@ -3693,7 +3693,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayTextureSize", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetOverlayTextureSize(IVROverlay__GetOverlayTextureSizeconst&) = delete;
+  IVROverlay__GetOverlayTextureSize(IVROverlay__GetOverlayTextureSize const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8270 };
@@ -3739,7 +3739,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__CreateDashboardOverlay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__CreateDashboardOverlay(IVROverlay__CreateDashboardOverlayconst&) = delete;
+  IVROverlay__CreateDashboardOverlay(IVROverlay__CreateDashboardOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8271 };
@@ -3784,7 +3784,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__IsDashboardVisible", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__IsDashboardVisible(IVROverlay__IsDashboardVisibleconst&) = delete;
+  IVROverlay__IsDashboardVisible(IVROverlay__IsDashboardVisible const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8272 };
@@ -3829,7 +3829,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__IsActiveDashboardOverlay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__IsActiveDashboardOverlay(IVROverlay__IsActiveDashboardOverlayconst&) = delete;
+  IVROverlay__IsActiveDashboardOverlay(IVROverlay__IsActiveDashboardOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8273 };
@@ -3874,7 +3874,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetDashboardOverlaySceneProcess", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetDashboardOverlaySceneProcess(IVROverlay__SetDashboardOverlaySceneProcessconst&) = delete;
+  IVROverlay__SetDashboardOverlaySceneProcess(IVROverlay__SetDashboardOverlaySceneProcess const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8274 };
@@ -3919,7 +3919,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetDashboardOverlaySceneProcess", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetDashboardOverlaySceneProcess(IVROverlay__GetDashboardOverlaySceneProcessconst&) = delete;
+  IVROverlay__GetDashboardOverlaySceneProcess(IVROverlay__GetDashboardOverlaySceneProcess const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8275 };
@@ -3964,7 +3964,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ShowDashboard", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__ShowDashboard(IVROverlay__ShowDashboardconst&) = delete;
+  IVROverlay__ShowDashboard(IVROverlay__ShowDashboard const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8276 };
@@ -4009,7 +4009,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetPrimaryDashboardDevice", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetPrimaryDashboardDevice(IVROverlay__GetPrimaryDashboardDeviceconst&) = delete;
+  IVROverlay__GetPrimaryDashboardDevice(IVROverlay__GetPrimaryDashboardDevice const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8277 };
@@ -4056,7 +4056,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ShowKeyboard", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__ShowKeyboard(IVROverlay__ShowKeyboardconst&) = delete;
+  IVROverlay__ShowKeyboard(IVROverlay__ShowKeyboard const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8278 };
@@ -4103,7 +4103,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ShowKeyboardForOverlay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__ShowKeyboardForOverlay(IVROverlay__ShowKeyboardForOverlayconst&) = delete;
+  IVROverlay__ShowKeyboardForOverlay(IVROverlay__ShowKeyboardForOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8279 };
@@ -4148,7 +4148,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetKeyboardText", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetKeyboardText(IVROverlay__GetKeyboardTextconst&) = delete;
+  IVROverlay__GetKeyboardText(IVROverlay__GetKeyboardText const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8280 };
@@ -4193,7 +4193,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__HideKeyboard", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__HideKeyboard(IVROverlay__HideKeyboardconst&) = delete;
+  IVROverlay__HideKeyboard(IVROverlay__HideKeyboard const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8281 };
@@ -4239,7 +4239,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetKeyboardTransformAbsolute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetKeyboardTransformAbsolute(IVROverlay__SetKeyboardTransformAbsoluteconst&) = delete;
+  IVROverlay__SetKeyboardTransformAbsolute(IVROverlay__SetKeyboardTransformAbsolute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8282 };
@@ -4284,7 +4284,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetKeyboardPositionForOverlay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetKeyboardPositionForOverlay(IVROverlay__SetKeyboardPositionForOverlayconst&) = delete;
+  IVROverlay__SetKeyboardPositionForOverlay(IVROverlay__SetKeyboardPositionForOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8283 };
@@ -4331,7 +4331,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__SetOverlayIntersectionMask", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__SetOverlayIntersectionMask(IVROverlay__SetOverlayIntersectionMaskconst&) = delete;
+  IVROverlay__SetOverlayIntersectionMask(IVROverlay__SetOverlayIntersectionMask const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8284 };
@@ -4376,7 +4376,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__GetOverlayFlags", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__GetOverlayFlags(IVROverlay__GetOverlayFlagsconst&) = delete;
+  IVROverlay__GetOverlayFlags(IVROverlay__GetOverlayFlags const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8285 };
@@ -4423,7 +4423,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__ShowMessageOverlay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__ShowMessageOverlay(IVROverlay__ShowMessageOverlayconst&) = delete;
+  IVROverlay__ShowMessageOverlay(IVROverlay__ShowMessageOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8286 };
@@ -4468,7 +4468,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "IVROverlay__CloseMessageOverlay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVROverlay__CloseMessageOverlay(IVROverlay__CloseMessageOverlayconst&) = delete;
+  IVROverlay__CloseMessageOverlay(IVROverlay__CloseMessageOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8287 };

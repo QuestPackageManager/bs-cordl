@@ -284,7 +284,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyDictionary_2_KeyCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReadOnlyDictionary_2_KeyCollection(ReadOnlyDictionary_2_KeyCollectionconst&) = delete;
+  ReadOnlyDictionary_2_KeyCollection(ReadOnlyDictionary_2_KeyCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3752 };
@@ -424,7 +424,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyDictionary_2_ValueCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReadOnlyDictionary_2_ValueCollection(ReadOnlyDictionary_2_ValueCollectionconst&) = delete;
+  ReadOnlyDictionary_2_ValueCollection(ReadOnlyDictionary_2_ValueCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3753 };
@@ -710,7 +710,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyDictionary_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReadOnlyDictionary_2(ReadOnlyDictionary_2const&) = delete;
+  ReadOnlyDictionary_2(ReadOnlyDictionary_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3754 };

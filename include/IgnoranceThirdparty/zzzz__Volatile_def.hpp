@@ -149,7 +149,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "Volatile", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Volatile(Volatileconst&) = delete;
+  Volatile(Volatile const&) = delete;
 
   /// @brief Field CacheLineSize offset 0xffffffff size 0x4
   static constexpr int32_t CacheLineSize{ static_cast<int32_t>(0x40) };

@@ -133,7 +133,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightPairSinMoveEventEffect_MovementData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightPairSinMoveEventEffect_MovementData(LightPairSinMoveEventEffect_MovementDataconst&) = delete;
+  LightPairSinMoveEventEffect_MovementData(LightPairSinMoveEventEffect_MovementData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5923 };
@@ -386,7 +386,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "LightPairSinMoveEventEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightPairSinMoveEventEffect(LightPairSinMoveEventEffectconst&) = delete;
+  LightPairSinMoveEventEffect(LightPairSinMoveEventEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5924 };

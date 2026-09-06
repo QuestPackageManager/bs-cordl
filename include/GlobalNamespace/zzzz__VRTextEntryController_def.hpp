@@ -152,7 +152,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VRTextEntryController__BlinkCursor_d__23", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VRTextEntryController__BlinkCursor_d__23(VRTextEntryController__BlinkCursor_d__23const&) = delete;
+  VRTextEntryController__BlinkCursor_d__23(VRTextEntryController__BlinkCursor_d__23 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6339 };
@@ -354,7 +354,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "VRTextEntryController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VRTextEntryController(VRTextEntryControllerconst&) = delete;
+  VRTextEntryController(VRTextEntryController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6340 };

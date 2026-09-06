@@ -133,7 +133,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedDataGenerator_EncMethod", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PgpEncryptedDataGenerator_EncMethod(PgpEncryptedDataGenerator_EncMethodconst&) = delete;
+  PgpEncryptedDataGenerator_EncMethod(PgpEncryptedDataGenerator_EncMethod const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1639 };
@@ -202,7 +202,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedDataGenerator_PbeMethod", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PgpEncryptedDataGenerator_PbeMethod(PgpEncryptedDataGenerator_PbeMethodconst&) = delete;
+  PgpEncryptedDataGenerator_PbeMethod(PgpEncryptedDataGenerator_PbeMethod const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1640 };
@@ -284,7 +284,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedDataGenerator_PubMethod", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PgpEncryptedDataGenerator_PubMethod(PgpEncryptedDataGenerator_PubMethodconst&) = delete;
+  PgpEncryptedDataGenerator_PubMethod(PgpEncryptedDataGenerator_PubMethod const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1641 };
@@ -490,7 +490,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedDataGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PgpEncryptedDataGenerator(PgpEncryptedDataGeneratorconst&) = delete;
+  PgpEncryptedDataGenerator(PgpEncryptedDataGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1642 };
