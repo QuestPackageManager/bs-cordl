@@ -6,9 +6,7 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IEquatableByReference_1)
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class IEquatableByReference_1;
+template <typename T> class IEquatableByReference_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::IEquatableByReference_1);
@@ -17,7 +15,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::IEquatableByReference_1, "", "IEq
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: IEquatableByReference`1<T>
 class CORDL_TYPE IEquatableByReference_1 {

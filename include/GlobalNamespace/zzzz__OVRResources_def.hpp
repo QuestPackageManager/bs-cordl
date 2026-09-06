@@ -12,9 +12,7 @@ namespace GlobalNamespace {
 class OVRResources___c__DisplayClass2_0;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
-class OVRResources___c__DisplayClass3_0_1;
+template <typename T> class OVRResources___c__DisplayClass3_0_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -33,9 +31,7 @@ namespace GlobalNamespace {
 class OVRResources___c__DisplayClass2_0;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
-class OVRResources___c__DisplayClass3_0_1;
+template <typename T> class OVRResources___c__DisplayClass3_0_1;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OVRResources*);
@@ -98,11 +94,10 @@ static_assert(sizeof(::GlobalNamespace::OVRResources___c__DisplayClass2_0) == 0x
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
-// Dependencies System.Object, UnityEngine.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
 // Is value type: false
 // CS Name: OVRResources/<>c__DisplayClass3_0`1<T>
 class CORDL_TYPE OVRResources___c__DisplayClass3_0_1 : public ::System::Object {
@@ -158,9 +153,7 @@ public:
   // Declarations
   using __c__DisplayClass2_0 = ::GlobalNamespace::OVRResources___c__DisplayClass2_0;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
-  using __c__DisplayClass3_0_1 = ::GlobalNamespace::OVRResources___c__DisplayClass3_0_1<T>;
+  template <typename T> using __c__DisplayClass3_0_1 = ::GlobalNamespace::OVRResources___c__DisplayClass3_0_1<T>;
 
   /// @brief Field assetNames, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_assetNames, put = setStaticF_assetNames)) ::System::Collections::Generic::List_1<::StringW>* assetNames;

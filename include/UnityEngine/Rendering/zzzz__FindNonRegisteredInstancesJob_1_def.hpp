@@ -14,9 +14,7 @@ class IJobParallelForBatch;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct FindNonRegisteredInstancesJob_1;
+template <typename T> struct FindNonRegisteredInstancesJob_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::Rendering::FindNonRegisteredInstancesJob_1);
@@ -26,7 +24,6 @@ DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::Rendering::FindNonRegisteredInstancesJob_
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.Rendering.FindNonRegisteredInstancesJob`1<T>
 struct CORDL_TYPE FindNonRegisteredInstancesJob_1 {

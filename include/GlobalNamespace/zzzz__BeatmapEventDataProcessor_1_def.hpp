@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BeatmapEventDataProcessor_1)
 namespace GlobalNamespace {
@@ -17,18 +16,15 @@ template <typename T> class LinkedListNode_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapEventData*>)
-class BeatmapEventDataProcessor_1;
+template <typename T> class BeatmapEventDataProcessor_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::BeatmapEventDataProcessor_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::BeatmapEventDataProcessor_1, "", "BeatmapEventDataProcessor`1");
-// Dependencies BeatmapEventData, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapEventData*>)
 // Is value type: false
 // CS Name: BeatmapEventDataProcessor`1<T>
 class CORDL_TYPE BeatmapEventDataProcessor_1 : public ::System::Object {

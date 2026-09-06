@@ -39,33 +39,22 @@ namespace Unity::Burst {
 template <typename T> struct FunctionPointer_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-class AllocatorManager_AllocatorCache_1;
+template <typename T> class AllocatorManager_AllocatorCache_1;
 }
 namespace Unity::Collections {
 struct AllocatorManager_AllocatorHandle;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct AllocatorManager_Array16_1;
+template <typename T> struct AllocatorManager_Array16_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct AllocatorManager_Array256_1;
+template <typename T> struct AllocatorManager_Array256_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct AllocatorManager_Array32768_1;
+template <typename T> struct AllocatorManager_Array32768_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct AllocatorManager_Array4096_1;
+template <typename T> struct AllocatorManager_Array4096_1;
 }
 namespace Unity::Collections {
 struct AllocatorManager_BlockHandle;
@@ -101,9 +90,7 @@ namespace Unity::Collections {
 struct Allocator;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class IIndexable_1;
+template <typename T> class IIndexable_1;
 }
 namespace Unity::Collections {
 class SharedStatics_AllocatorManager_IsAutoDispose;
@@ -131,10 +118,7 @@ namespace Unity::Collections {
 class AllocatorManager;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-class AllocatorManager_AllocatorCache_1;
+template <typename T> class AllocatorManager_AllocatorCache_1;
 }
 namespace Unity::Collections {
 class AllocatorManager_IAllocator;
@@ -173,24 +157,16 @@ namespace Unity::Collections {
 struct AllocatorManager_AllocatorHandle;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct AllocatorManager_Array16_1;
+template <typename T> struct AllocatorManager_Array16_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct AllocatorManager_Array256_1;
+template <typename T> struct AllocatorManager_Array256_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct AllocatorManager_Array32768_1;
+template <typename T> struct AllocatorManager_Array32768_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct AllocatorManager_Array4096_1;
+template <typename T> struct AllocatorManager_Array4096_1;
 }
 namespace Unity::Collections {
 struct AllocatorManager_Block;
@@ -1198,7 +1174,6 @@ static_assert(sizeof(::Unity::Collections::AllocatorManager_TableEntry) == 0x10,
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.AllocatorManager/Array16`1<T>
 struct CORDL_TYPE AllocatorManager_Array16_1 {
@@ -1279,7 +1254,6 @@ public:
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.AllocatorManager/Array256`1<T>
 struct CORDL_TYPE AllocatorManager_Array256_1 {
@@ -1372,7 +1346,6 @@ public:
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.AllocatorManager/Array4096`1<T>
 struct CORDL_TYPE AllocatorManager_Array4096_1 {
@@ -1465,7 +1438,6 @@ public:
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.AllocatorManager/Array32768`1<T>
 struct CORDL_TYPE AllocatorManager_Array32768_1 {
@@ -1751,12 +1723,10 @@ public:
 static_assert(sizeof(::Unity::Collections::AllocatorManager_Managed) == 0x10, "Size mismatch!");
 
 } // namespace Unity::Collections
-// Dependencies System.Object, Unity.Burst.FunctionPointer`1<T>, Unity.Collections.AllocatorManager::IAllocator
+// Dependencies System.Object, Unity.Burst.FunctionPointer`1<T>
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
-           ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: Unity.Collections.AllocatorManager/AllocatorCache`1<T>
 class CORDL_TYPE AllocatorManager_AllocatorCache_1 : public ::System::Object {
@@ -1805,28 +1775,17 @@ namespace Unity::Collections {
 class CORDL_TYPE AllocatorManager : public ::System::Object {
 public:
   // Declarations
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
-             ::cordl_internals::default_constructor_constraint<T>)
-  using AllocatorCache_1 = ::Unity::Collections::AllocatorManager_AllocatorCache_1<T>;
+  template <typename T> using AllocatorCache_1 = ::Unity::Collections::AllocatorManager_AllocatorCache_1<T>;
 
   using AllocatorHandle = ::Unity::Collections::AllocatorManager_AllocatorHandle;
 
-  template <typename T>
-    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  using Array16_1 = ::Unity::Collections::AllocatorManager_Array16_1<T>;
+  template <typename T> using Array16_1 = ::Unity::Collections::AllocatorManager_Array16_1<T>;
 
-  template <typename T>
-    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  using Array256_1 = ::Unity::Collections::AllocatorManager_Array256_1<T>;
+  template <typename T> using Array256_1 = ::Unity::Collections::AllocatorManager_Array256_1<T>;
 
-  template <typename T>
-    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  using Array32768_1 = ::Unity::Collections::AllocatorManager_Array32768_1<T>;
+  template <typename T> using Array32768_1 = ::Unity::Collections::AllocatorManager_Array32768_1<T>;
 
-  template <typename T>
-    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  using Array4096_1 = ::Unity::Collections::AllocatorManager_Array4096_1<T>;
+  template <typename T> using Array4096_1 = ::Unity::Collections::AllocatorManager_Array4096_1<T>;
 
   using Block = ::Unity::Collections::AllocatorManager_Block;
 

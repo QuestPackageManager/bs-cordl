@@ -21,9 +21,7 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Linq::Expressions::Interpreter {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::reference_type_constraint<TKey>)
-class HybridReferenceDictionary_2__GetEnumeratorWorker_d__7;
+template <typename TKey, typename TValue> class HybridReferenceDictionary_2__GetEnumeratorWorker_d__7;
 }
 namespace System {
 class IDisposable;
@@ -33,14 +31,10 @@ class Object;
 }
 // Forward declare root types
 namespace System::Linq::Expressions::Interpreter {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::reference_type_constraint<TKey>)
-class HybridReferenceDictionary_2;
+template <typename TKey, typename TValue> class HybridReferenceDictionary_2;
 }
 namespace System::Linq::Expressions::Interpreter {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::reference_type_constraint<TKey>)
-class HybridReferenceDictionary_2__GetEnumeratorWorker_d__7;
+template <typename TKey, typename TValue> class HybridReferenceDictionary_2__GetEnumeratorWorker_d__7;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2);
@@ -53,7 +47,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Linq::Expressions::Interpreter::HybridRefe
 namespace System::Linq::Expressions::Interpreter {
 // cpp template
 template <typename TKey, typename TValue>
-  requires(::cordl_internals::reference_type_constraint<TKey>)
 // Is value type: false
 // CS Name: System.Linq.Expressions.Interpreter.HybridReferenceDictionary`2/<GetEnumeratorWorker>d__7<TKey,TValue>
 class CORDL_TYPE HybridReferenceDictionary_2__GetEnumeratorWorker_d__7 : public ::System::Object {
@@ -184,7 +177,6 @@ public:
 namespace System::Linq::Expressions::Interpreter {
 // cpp template
 template <typename TKey, typename TValue>
-  requires(::cordl_internals::reference_type_constraint<TKey>)
 // Is value type: false
 // CS Name: System.Linq.Expressions.Interpreter.HybridReferenceDictionary`2<TKey,TValue>
 class CORDL_TYPE HybridReferenceDictionary_2 : public ::System::Object {

@@ -13,23 +13,14 @@ namespace Unity::Profiling {
 struct ProfilerCategory;
 }
 namespace Unity::Profiling {
-template <typename TP1, typename TP2, typename TP3>
-  requires(::cordl_internals::value_type_constraint<TP1> && ::cordl_internals::default_constructor_constraint<TP1> && ::cordl_internals::value_type_constraint<TP2> &&
-           ::cordl_internals::default_constructor_constraint<TP2> && ::cordl_internals::value_type_constraint<TP3> && ::cordl_internals::default_constructor_constraint<TP3>)
-struct ProfilerMarker_3_AutoScope;
+template <typename TP1, typename TP2, typename TP3> struct ProfilerMarker_3_AutoScope;
 }
 // Forward declare root types
 namespace Unity::Profiling {
-template <typename TP1, typename TP2, typename TP3>
-  requires(::cordl_internals::value_type_constraint<TP1> && ::cordl_internals::default_constructor_constraint<TP1> && ::cordl_internals::value_type_constraint<TP2> &&
-           ::cordl_internals::default_constructor_constraint<TP2> && ::cordl_internals::value_type_constraint<TP3> && ::cordl_internals::default_constructor_constraint<TP3>)
-struct ProfilerMarker_3;
+template <typename TP1, typename TP2, typename TP3> struct ProfilerMarker_3;
 }
 namespace Unity::Profiling {
-template <typename TP1, typename TP2, typename TP3>
-  requires(::cordl_internals::value_type_constraint<TP1> && ::cordl_internals::default_constructor_constraint<TP1> && ::cordl_internals::value_type_constraint<TP2> &&
-           ::cordl_internals::default_constructor_constraint<TP2> && ::cordl_internals::value_type_constraint<TP3> && ::cordl_internals::default_constructor_constraint<TP3>)
-struct ProfilerMarker_3_AutoScope;
+template <typename TP1, typename TP2, typename TP3> struct ProfilerMarker_3_AutoScope;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Profiling::ProfilerMarker_3);
@@ -41,8 +32,6 @@ DEFINE_IL2CPP_GEN_CLASS(::Unity::Profiling::ProfilerMarker_3_AutoScope, "Unity.P
 namespace Unity::Profiling {
 // cpp template
 template <typename TP1, typename TP2, typename TP3>
-  requires(::cordl_internals::value_type_constraint<TP1> && ::cordl_internals::default_constructor_constraint<TP1> && ::cordl_internals::value_type_constraint<TP2> &&
-           ::cordl_internals::default_constructor_constraint<TP2> && ::cordl_internals::value_type_constraint<TP3> && ::cordl_internals::default_constructor_constraint<TP3>)
 // Is value type: true
 // CS Name: Unity.Profiling.ProfilerMarker`3/AutoScope<TP1,TP2,TP3>
 #pragma pack(push, 0)
@@ -81,8 +70,6 @@ public:
 namespace Unity::Profiling {
 // cpp template
 template <typename TP1, typename TP2, typename TP3>
-  requires(::cordl_internals::value_type_constraint<TP1> && ::cordl_internals::default_constructor_constraint<TP1> && ::cordl_internals::value_type_constraint<TP2> &&
-           ::cordl_internals::default_constructor_constraint<TP2> && ::cordl_internals::value_type_constraint<TP3> && ::cordl_internals::default_constructor_constraint<TP3>)
 // Is value type: true
 // CS Name: Unity.Profiling.ProfilerMarker`3<TP1,TP2,TP3>
 #pragma pack(push, 0)

@@ -11,9 +11,7 @@ namespace GlobalNamespace {
 struct BeatmapLevelDataVersion;
 }
 namespace GlobalNamespace {
-template <typename TLevelProductData>
-  requires(::cordl_internals::type_constraint<TLevelProductData, ::GlobalNamespace::ILevelProductData*>)
-class ILevelPackProductData_1;
+template <typename TLevelProductData> class ILevelPackProductData_1;
 }
 namespace GlobalNamespace {
 class ILevelProductData;

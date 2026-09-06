@@ -37,9 +37,7 @@ template <typename T> class Predicate_1;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class HttpHeaderValueCollection_1;
+template <typename T> class HttpHeaderValueCollection_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::System::Net::Http::Headers::HttpHeaderValueCollection_1);
@@ -48,7 +46,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Net::Http::Headers::HttpHeaderValueCollect
 namespace System::Net::Http::Headers {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: false
 // CS Name: System.Net.Http.Headers.HttpHeaderValueCollection`1<T>
 class CORDL_TYPE HttpHeaderValueCollection_1 : public ::System::Object {

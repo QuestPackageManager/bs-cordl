@@ -16,9 +16,7 @@ class RenderGraphObjectPool;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData>
-  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
-class ComputeRenderGraphPass_1;
+template <typename PassData> class ComputeRenderGraphPass_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::RenderGraphModule::ComputeRenderGraphPass_1);
@@ -28,7 +26,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::RenderGraphModule::Compute
 namespace UnityEngine::Rendering::RenderGraphModule {
 // cpp template
 template <typename PassData>
-  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.RenderGraphModule.ComputeRenderGraphPass`1<PassData>
 class CORDL_TYPE ComputeRenderGraphPass_1 : public ::UnityEngine::Rendering::RenderGraphModule::BaseRenderGraphPass_2<PassData, ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*> {

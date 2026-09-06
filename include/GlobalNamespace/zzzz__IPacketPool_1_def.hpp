@@ -3,25 +3,21 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IPoolablePacket_def.hpp"
 CORDL_MODULE_EXPORT(IPacketPool_1)
 namespace GlobalNamespace {
 class IPacketPool;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IPoolablePacket*>)
-class IPacketPool_1;
+template <typename T> class IPacketPool_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::IPacketPool_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::IPacketPool_1, "", "IPacketPool`1");
-// Dependencies IPoolablePacket
+// Dependencies
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IPoolablePacket*>)
 // Is value type: false
 // CS Name: IPacketPool`1<T>
 class CORDL_TYPE IPacketPool_1 {

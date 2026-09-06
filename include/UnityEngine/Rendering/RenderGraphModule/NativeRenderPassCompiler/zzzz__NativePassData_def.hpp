@@ -25,9 +25,7 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct PassData;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class DynamicArray_1;
+template <typename T> class DynamicArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {

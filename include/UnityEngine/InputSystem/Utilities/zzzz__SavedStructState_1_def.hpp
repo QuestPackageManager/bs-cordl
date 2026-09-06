@@ -25,20 +25,14 @@ namespace UnityEngine::InputSystem::Utilities {
 class ISavedState;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class SavedStructState_1_TypedRestore;
+template <typename T> class SavedStructState_1_TypedRestore;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class SavedStructState_1;
+template <typename T> class SavedStructState_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class SavedStructState_1_TypedRestore;
+template <typename T> class SavedStructState_1_TypedRestore;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::InputSystem::Utilities::SavedStructState_1);
@@ -49,7 +43,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::InputSystem::Utilities::SavedStructSt
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.Utilities.SavedStructState`1/TypedRestore<T>
 class CORDL_TYPE SavedStructState_1_TypedRestore : public ::System::MulticastDelegate {
@@ -94,7 +87,6 @@ public:
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.Utilities.SavedStructState`1<T>
 class CORDL_TYPE SavedStructState_1 : public ::System::Object {

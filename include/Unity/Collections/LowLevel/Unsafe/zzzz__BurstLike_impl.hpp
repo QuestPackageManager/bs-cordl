@@ -3,22 +3,17 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__BurstLike_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__BurstLike_def.hpp"
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline void Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<T>::_ctor(void* buffer) {
+template <typename T> inline void Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<T>::_ctor(void* buffer) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<T>>(), { ".ctor", {}, { ::i2c::type_of<void*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, buffer);
 }
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline ::by_ref<T> Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<T>::get_Data() {
+template <typename T> inline ::by_ref<T> Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<T>::get_Data() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<T>>(), { "get_Data", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<T>>(*this, ___internal_method);
 }
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 template <typename TContext>
 inline ::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<T> Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<T>::GetOrCreate(uint32_t alignment) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<T>>(),
@@ -27,15 +22,11 @@ inline ::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<T> Unity
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<T>>(nullptr, ___internal_method, alignment);
 }
 // Ctor Parameters [CppParam { name: "_buffer", ty: "void*", modifiers: "", def_value: Some("{}"), comment: None }]
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr ::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<T>::BurstLike_SharedStatic_1(void* _buffer) noexcept {
+template <typename T> constexpr ::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<T>::BurstLike_SharedStatic_1(void* _buffer) noexcept {
   this->_buffer = _buffer;
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr ::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<T>::BurstLike_SharedStatic_1() {}
+template <typename T> constexpr ::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<T>::BurstLike_SharedStatic_1() {}
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic.GetOrCreateSharedStaticInternal
 template <>
 

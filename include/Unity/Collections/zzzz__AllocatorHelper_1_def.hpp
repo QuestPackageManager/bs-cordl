@@ -15,21 +15,16 @@ struct AllocatorManager_AllocatorHandle;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-struct AllocatorHelper_1;
+template <typename T> struct AllocatorHelper_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::AllocatorHelper_1);
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::AllocatorHelper_1, "Unity.Collections", "AllocatorHelper`1");
 // [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.AllocatorManager::AllocatorHandle) })]
-// Dependencies Unity.Collections.AllocatorManager::AllocatorHandle, Unity.Collections.AllocatorManager::IAllocator
+// Dependencies Unity.Collections.AllocatorManager::AllocatorHandle
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
-           ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.AllocatorHelper`1<T>
 struct CORDL_TYPE AllocatorHelper_1 {

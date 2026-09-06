@@ -1,11 +1,7 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MultiplayerSessionManager_5.hpp"
-#include "GlobalNamespace/zzzz__ConnectedPlayerManager_3_impl.hpp"
-#include "GlobalNamespace/zzzz__ConnectedPlayer_3_impl.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_impl.hpp"
 #include "GlobalNamespace/zzzz__StandaloneMonobehavior_impl.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_impl.hpp"
-#include "System/zzzz__IConvertible_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSessionManager_5_def.hpp"
 #include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
@@ -28,84 +24,35 @@
 #include "System/zzzz__Func_2_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::GlobalNamespace::MultiplayerSessionManager_5_ConnectionState<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                                          TGameSpecificIdentityData>::MultiplayerSessionManager_5_ConnectionState(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::GlobalNamespace::MultiplayerSessionManager_5_ConnectionState<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                                          TGameSpecificIdentityData>::MultiplayerSessionManager_5_ConnectionState() {}
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::GlobalNamespace::MultiplayerSessionManager_5_ConnectionState<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>
     GlobalNamespace::MultiplayerSessionManager_5_ConnectionState<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::Disconnected{
       static_cast<int32_t>(0x0)
     };
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::GlobalNamespace::MultiplayerSessionManager_5_ConnectionState<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>
     GlobalNamespace::MultiplayerSessionManager_5_ConnectionState<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::Connecting{
       static_cast<int32_t>(0x1)
     };
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::GlobalNamespace::MultiplayerSessionManager_5_ConnectionState<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>
     GlobalNamespace::MultiplayerSessionManager_5_ConnectionState<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::Connected{
       static_cast<int32_t>(0x2)
     };
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::GlobalNamespace::MultiplayerSessionManager_5_ConnectionState<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>
     GlobalNamespace::MultiplayerSessionManager_5_ConnectionState<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::Disconnecting{
       static_cast<int32_t>(0x3)
     };
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5___c<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::setStaticF___9(
     ::GlobalNamespace::MultiplayerSessionManager_5___c<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>* value) {
   ::cordl_internals::setStaticField<
@@ -114,13 +61,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5___c<TMessageType, TConn
       std::forward<::GlobalNamespace::MultiplayerSessionManager_5___c<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*>(value));
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline ::GlobalNamespace::MultiplayerSessionManager_5___c<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*
 GlobalNamespace::MultiplayerSessionManager_5___c<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::getStaticF___9() {
   return ::cordl_internals::getStaticField<
@@ -128,13 +68,6 @@ GlobalNamespace::MultiplayerSessionManager_5___c<TMessageType, TConnectedPlayerS
       ::GlobalNamespace::MultiplayerSessionManager_5___c<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*>();
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5___c<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::setStaticF___9__100_0(
     ::System::Func_2<TConnectedPlayer, int32_t>* value) {
   ::cordl_internals::setStaticField<
@@ -143,13 +76,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5___c<TMessageType, TConn
       std::forward<::System::Func_2<TConnectedPlayer, int32_t>*>(value));
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline ::System::Func_2<TConnectedPlayer, int32_t>*
 GlobalNamespace::MultiplayerSessionManager_5___c<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::getStaticF___9__100_0() {
   return ::cordl_internals::getStaticField<
@@ -157,13 +83,6 @@ GlobalNamespace::MultiplayerSessionManager_5___c<TMessageType, TConnectedPlayerS
       ::GlobalNamespace::MultiplayerSessionManager_5___c<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*>();
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5___c<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -173,13 +92,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5___c<TMessageType, TConn
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline int32_t
 GlobalNamespace::MultiplayerSessionManager_5___c<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::_TryUpdateConnectedPlayer_b__100_0(
     TConnectedPlayer p) {
@@ -191,13 +103,6 @@ GlobalNamespace::MultiplayerSessionManager_5___c<TMessageType, TConnectedPlayerS
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, p);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline ::GlobalNamespace::MultiplayerSessionManager_5___c<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*
 GlobalNamespace::MultiplayerSessionManager_5___c<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::New_ctor() {
   return THROW_UNLESS(
@@ -206,62 +111,27 @@ GlobalNamespace::MultiplayerSessionManager_5___c<TMessageType, TConnectedPlayerS
 }
 // Ctor Parameters []
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::GlobalNamespace::MultiplayerSessionManager_5___c<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                              TGameSpecificIdentityData>::MultiplayerSessionManager_5___c() {}
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::StringW& GlobalNamespace::MultiplayerSessionManager_5___c__DisplayClass94_0<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                                                         TGameSpecificIdentityData>::__cordl_internal_get_userId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___userId;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::StringW const& GlobalNamespace::MultiplayerSessionManager_5___c__DisplayClass94_0<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                                                               TGameSpecificIdentityData>::__cordl_internal_get_userId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___userId;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr void GlobalNamespace::MultiplayerSessionManager_5___c__DisplayClass94_0<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                                                   TGameSpecificIdentityData>::__cordl_internal_set_userId(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___userId = value;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void
 GlobalNamespace::MultiplayerSessionManager_5___c__DisplayClass94_0<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(
@@ -271,13 +141,6 @@ GlobalNamespace::MultiplayerSessionManager_5___c__DisplayClass94_0<TMessageType,
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline bool GlobalNamespace::MultiplayerSessionManager_5___c__DisplayClass94_0<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                                                TGameSpecificIdentityData>::_GetPlayerByUserId_b__0(TConnectedPlayer player) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -287,13 +150,6 @@ inline bool GlobalNamespace::MultiplayerSessionManager_5___c__DisplayClass94_0<T
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, player);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline ::GlobalNamespace::MultiplayerSessionManager_5___c__DisplayClass94_0<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*
 GlobalNamespace::MultiplayerSessionManager_5___c__DisplayClass94_0<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::New_ctor() {
   return THROW_UNLESS(
@@ -303,23 +159,9 @@ GlobalNamespace::MultiplayerSessionManager_5___c__DisplayClass94_0<TMessageType,
 }
 // Ctor Parameters []
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::GlobalNamespace::MultiplayerSessionManager_5___c__DisplayClass94_0<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                                                TGameSpecificIdentityData>::MultiplayerSessionManager_5___c__DisplayClass94_0() {}
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::GlobalNamespace::NetworkPacketSerializer_2<TMessageType, TConnectedPlayer>*&
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                              TGameSpecificIdentityData>::__cordl_internal_get__packetSerializer() {
@@ -327,13 +169,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return this->____packetSerializer;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::GlobalNamespace::NetworkPacketSerializer_2<TMessageType, TConnectedPlayer>* const&
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::__cordl_internal_get__packetSerializer()
     const {
@@ -341,13 +176,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return this->____packetSerializer;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr void
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::__cordl_internal_set__packetSerializer(
     ::GlobalNamespace::NetworkPacketSerializer_2<TMessageType, TConnectedPlayer>* value) {
@@ -355,26 +183,12 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   this->____packetSerializer = value;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::System::Collections::Generic::List_1<TConnectedPlayer>*& GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                                                                                   TGameSpecificIdentityData>::__cordl_internal_get__connectedPlayers() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayers;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::System::Collections::Generic::List_1<TConnectedPlayer>* const&
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::__cordl_internal_get__connectedPlayers()
     const {
@@ -382,13 +196,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return this->____connectedPlayers;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr void
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::__cordl_internal_set__connectedPlayers(
     ::System::Collections::Generic::List_1<TConnectedPlayer>* value) {
@@ -396,26 +203,12 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   this->____connectedPlayers = value;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                                                                               TGameSpecificIdentityData>::__cordl_internal_get__localPlayerState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPlayerState;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::System::Collections::Generic::HashSet_1<::StringW>* const&
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::__cordl_internal_get__localPlayerState()
     const {
@@ -423,13 +216,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return this->____localPlayerState;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr void
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::__cordl_internal_set__localPlayerState(
     ::System::Collections::Generic::HashSet_1<::StringW>* value) {
@@ -437,26 +223,12 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   this->____localPlayerState = value;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr int32_t&
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::__cordl_internal_get__maxPlayerCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxPlayerCount;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr int32_t const&
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::__cordl_internal_get__maxPlayerCount()
     const {
@@ -464,13 +236,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return this->____maxPlayerCount;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr void
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::__cordl_internal_set__maxPlayerCount(
     int32_t value) {
@@ -478,26 +243,12 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   this->____maxPlayerCount = value;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::GlobalNamespace::MultiplayerSessionManager_5_ConnectionState<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>&
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::__cordl_internal_get__connectionState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectionState;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::GlobalNamespace::MultiplayerSessionManager_5_ConnectionState<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData> const&
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::__cordl_internal_get__connectionState()
     const {
@@ -505,13 +256,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return this->____connectionState;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr void
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::__cordl_internal_set__connectionState(
     ::GlobalNamespace::MultiplayerSessionManager_5_ConnectionState<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData> value) {
@@ -519,26 +263,12 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   this->____connectionState = value;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::System::Collections::Generic::Queue_1<int32_t>*&
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::__cordl_internal_get__freeSortIndices() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____freeSortIndices;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::System::Collections::Generic::Queue_1<int32_t>* const&
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::__cordl_internal_get__freeSortIndices()
     const {
@@ -546,13 +276,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return this->____freeSortIndices;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr void
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::__cordl_internal_set__freeSortIndices(
     ::System::Collections::Generic::Queue_1<int32_t>* value) {
@@ -560,26 +283,12 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   this->____freeSortIndices = value;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::System::Action*&
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::__cordl_internal_get_connectedEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectedEvent;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::System::Action* const&
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::__cordl_internal_get_connectedEvent()
     const {
@@ -587,13 +296,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return this->___connectedEvent;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr void
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::__cordl_internal_set_connectedEvent(
     ::System::Action* value) {
@@ -601,13 +303,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   this->___connectedEvent = value;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*&
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                              TGameSpecificIdentityData>::__cordl_internal_get_connectionFailedEvent() {
@@ -615,13 +310,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return this->___connectionFailedEvent;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* const&
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                              TGameSpecificIdentityData>::__cordl_internal_get_connectionFailedEvent() const {
@@ -629,13 +317,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return this->___connectionFailedEvent;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr void
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                              TGameSpecificIdentityData>::__cordl_internal_set_connectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value) {
@@ -643,182 +324,84 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   this->___connectionFailedEvent = value;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::System::Action_1<TConnectedPlayer>*& GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                                                               TGameSpecificIdentityData>::__cordl_internal_get_playerConnectedEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerConnectedEvent;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::System::Action_1<TConnectedPlayer>* const& GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                                                                     TGameSpecificIdentityData>::__cordl_internal_get_playerConnectedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerConnectedEvent;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                             TGameSpecificIdentityData>::__cordl_internal_set_playerConnectedEvent(::System::Action_1<TConnectedPlayer>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___playerConnectedEvent = value;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::System::Action_1<TConnectedPlayer>*& GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                                                               TGameSpecificIdentityData>::__cordl_internal_get_playerDisconnectedEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerDisconnectedEvent;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::System::Action_1<TConnectedPlayer>* const& GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                                                                     TGameSpecificIdentityData>::__cordl_internal_get_playerDisconnectedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerDisconnectedEvent;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                             TGameSpecificIdentityData>::__cordl_internal_set_playerDisconnectedEvent(::System::Action_1<TConnectedPlayer>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___playerDisconnectedEvent = value;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::System::Action_1<TConnectedPlayer>*& GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                                                               TGameSpecificIdentityData>::__cordl_internal_get_playerStateChangedEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerStateChangedEvent;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::System::Action_1<TConnectedPlayer>* const& GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                                                                     TGameSpecificIdentityData>::__cordl_internal_get_playerStateChangedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerStateChangedEvent;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                             TGameSpecificIdentityData>::__cordl_internal_set_playerStateChangedEvent(::System::Action_1<TConnectedPlayer>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___playerStateChangedEvent = value;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::System::Action_1<TConnectedPlayer>*& GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                                                               TGameSpecificIdentityData>::__cordl_internal_get_connectionOwnerStateChangedEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectionOwnerStateChangedEvent;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::System::Action_1<TConnectedPlayer>* const& GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                                                                     TGameSpecificIdentityData>::__cordl_internal_get_connectionOwnerStateChangedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectionOwnerStateChangedEvent;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                             TGameSpecificIdentityData>::__cordl_internal_set_connectionOwnerStateChangedEvent(::System::Action_1<TConnectedPlayer>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___connectionOwnerStateChangedEvent = value;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::System::Action_1<::GlobalNamespace::DisconnectedReason>*& GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                                                                                    TGameSpecificIdentityData>::__cordl_internal_get_disconnectedEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disconnectedEvent;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::System::Action_1<::GlobalNamespace::DisconnectedReason>* const&
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::__cordl_internal_get_disconnectedEvent()
     const {
@@ -826,13 +409,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return this->___disconnectedEvent;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr void
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::__cordl_internal_set_disconnectedEvent(
     ::System::Action_1<::GlobalNamespace::DisconnectedReason>* value) {
@@ -840,26 +416,12 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   this->___disconnectedEvent = value;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::System::Action*&
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::__cordl_internal_get_pollUpdateEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pollUpdateEvent;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::System::Action* const&
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::__cordl_internal_get_pollUpdateEvent()
     const {
@@ -867,13 +429,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return this->___pollUpdateEvent;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr void
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::__cordl_internal_set_pollUpdateEvent(
     ::System::Action* value) {
@@ -881,91 +436,42 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   this->___pollUpdateEvent = value;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr TConnectedPlayer& GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                                          TGameSpecificIdentityData>::__cordl_internal_get__connectionOwner_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectionOwner_k__BackingField;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr TConnectedPlayer const& GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                                                TGameSpecificIdentityData>::__cordl_internal_get__connectionOwner_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectionOwner_k__BackingField;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                             TGameSpecificIdentityData>::__cordl_internal_set__connectionOwner_k__BackingField(TConnectedPlayer value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____connectionOwner_k__BackingField = value;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr TConnectedPlayerSessionManager& GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                                                        TGameSpecificIdentityData>::__cordl_internal_get__connectedPlayerManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayerManager;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr TConnectedPlayerSessionManager const& GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                                                              TGameSpecificIdentityData>::__cordl_internal_get__connectedPlayerManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayerManager;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                             TGameSpecificIdentityData>::__cordl_internal_set__connectedPlayerManager(TConnectedPlayerSessionManager value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____connectedPlayerManager = value;
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::add_connectedEvent(
     ::System::Action* value) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -976,13 +482,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::remove_connectedEvent(
     ::System::Action* value) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -993,13 +492,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::add_connectionFailedEvent(
     ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1010,13 +502,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::remove_connectionFailedEvent(
     ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1027,13 +512,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::add_playerConnectedEvent(
     ::System::Action_1<TConnectedPlayer>* value) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1044,13 +522,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::remove_playerConnectedEvent(
     ::System::Action_1<TConnectedPlayer>* value) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1061,13 +532,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::add_playerDisconnectedEvent(
     ::System::Action_1<TConnectedPlayer>* value) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1078,13 +542,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::remove_playerDisconnectedEvent(
     ::System::Action_1<TConnectedPlayer>* value) {
@@ -1096,13 +553,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::add_playerStateChangedEvent(
     ::System::Action_1<TConnectedPlayer>* value) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1113,13 +563,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::remove_playerStateChangedEvent(
     ::System::Action_1<TConnectedPlayer>* value) {
@@ -1131,13 +574,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::add_connectionOwnerStateChangedEvent(
     ::System::Action_1<TConnectedPlayer>* value) {
@@ -1149,13 +585,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::remove_connectionOwnerStateChangedEvent(
     ::System::Action_1<TConnectedPlayer>* value) {
@@ -1167,13 +596,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::add_disconnectedEvent(
     ::System::Action_1<::GlobalNamespace::DisconnectedReason>* value) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1184,13 +606,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::remove_disconnectedEvent(
     ::System::Action_1<::GlobalNamespace::DisconnectedReason>* value) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1201,13 +616,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::add_pollUpdateEvent(
     ::System::Action* value) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1218,13 +626,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::remove_pollUpdateEvent(
     ::System::Action* value) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1235,13 +636,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline bool GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::get_isConnectionOwner() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1251,13 +645,6 @@ inline bool GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline TConnectedPlayer
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::get_connectionOwner() {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1268,13 +655,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return ::cordl_internals::RunMethodRethrow<TConnectedPlayer>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::set_connectionOwner(
     TConnectedPlayer value) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1285,13 +665,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline bool GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::get_isSpectating() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1301,13 +674,6 @@ inline bool GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline bool
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::get_isConnectingOrConnected() {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1318,13 +684,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline bool GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::get_isConnected() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1334,13 +693,6 @@ inline bool GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline bool GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::get_isConnecting() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1350,13 +702,6 @@ inline bool GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline bool GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::get_isDisconnecting() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1366,13 +711,6 @@ inline bool GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline ::System::Collections::Generic::IReadOnlyList_1<TConnectedPlayer>*
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::get_connectedPlayers() {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1383,13 +721,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<TConnectedPlayer>*>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline int32_t
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::get_connectedPlayerCount() {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1400,13 +731,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline int64_t GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::get_syncTime() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1416,13 +740,6 @@ inline int64_t GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConne
   return ::cordl_internals::RunMethodRethrow<int64_t>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline bool GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::get_isSyncTimeInitialized() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1432,13 +749,6 @@ inline bool GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline TConnectedPlayer
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::get_localPlayer() {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1449,13 +759,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return ::cordl_internals::RunMethodRethrow<TConnectedPlayer>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline TConnectedPlayerSessionManager
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::get_connectedPlayerManager() {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1466,13 +769,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return ::cordl_internals::RunMethodRethrow<TConnectedPlayerSessionManager>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline int32_t GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::get_maxPlayerCount() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1482,13 +778,6 @@ inline int32_t GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConne
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::Start() {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1498,13 +787,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::Update() {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1514,13 +796,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::LateUpdate() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1530,13 +805,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::OnDestroy() {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1547,13 +815,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::OnApplicationPause(bool pauseStatus) {
   auto* ___internal_method = THROW_UNLESS(
@@ -1565,13 +826,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pauseStatus);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::RegisterSerializer(
     TMessageType serializerType, ::GlobalNamespace::INetworkPacketSubSerializer_1<TConnectedPlayer>* subSerializer) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1582,13 +836,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, serializerType, subSerializer);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::UnregisterSerializer(
     TMessageType serializerType, ::GlobalNamespace::INetworkPacketSubSerializer_1<TConnectedPlayer>* subSerializer) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1599,13 +846,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, serializerType, subSerializer);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 template <typename T>
   requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::RegisterCallback(
@@ -1619,13 +859,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, serializerType, callback, constructor);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 template <typename T>
   requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::UnregisterCallback(
@@ -1639,13 +872,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, serializerType);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::StartSession(
     TConnectedPlayerSessionManager connectedPlayerManager, ::GlobalNamespace::IMultiplayerSessionManager_1_IMultiplayerSessionInitializer<TConnectedPlayer>* multiplayerSessionInitializer) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1658,13 +884,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, connectedPlayerManager, multiplayerSessionInitializer);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::RegisterGameSpecificEventHandlers() {
   auto* ___internal_method = THROW_UNLESS(
@@ -1676,13 +895,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::SetMaxPlayerCount(
     int32_t maxPlayerCount) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1693,13 +905,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, maxPlayerCount);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::EndSession() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1709,13 +914,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::UnregisterGameSpecificEventHandlers() {
   auto* ___internal_method = THROW_UNLESS(
@@ -1727,13 +925,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::Disconnect() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1743,13 +934,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 template <typename T>
   requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::Send(T message) {
@@ -1762,13 +946,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, message);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 template <typename T>
   requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::SendToPlayer(
@@ -1782,13 +959,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, message, player);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 template <typename T>
   requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::SendUnreliable(T message) {
@@ -1801,13 +971,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, message);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 template <typename T>
   requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
 inline void
@@ -1822,13 +985,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, message, player);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 template <typename T>
   requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
@@ -1842,13 +998,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, message);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 template <typename T>
   requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
 inline void
@@ -1865,13 +1014,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, message, fromPlayer, toPlayer);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::HandleInitialized() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1881,13 +1023,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::HandleConnected() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1897,13 +1032,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::HandleDisconnected(
     ::GlobalNamespace::DisconnectedReason disconnectedReason) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1914,13 +1042,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, disconnectedReason);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::HandleConnectionFailed(
     ::GlobalNamespace::ConnectionFailedReason reason) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1931,13 +1052,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reason);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::HandleSyncTimeInitialized() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1947,13 +1061,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::HandlePlayerConnected(
     TConnectedPlayer player) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1964,13 +1071,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, player);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::HandlePlayerDisconnected(
     TConnectedPlayer player) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1981,13 +1081,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, player);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::HandlePlayerStateChanged(
     TConnectedPlayer player) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1998,13 +1091,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, player);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::HandlePlayerOrderChanged(
     TConnectedPlayer player) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -2015,13 +1101,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, player);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::HandlePlayerLatencyInitialized(
     TConnectedPlayer player) {
@@ -2033,13 +1112,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, player);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline TConnectedPlayer
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::GetPlayerByUserId(::StringW userId) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -2050,13 +1122,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return ::cordl_internals::RunMethodRethrow<TConnectedPlayer>(this, ___internal_method, userId);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline TConnectedPlayer
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::GetConnectedPlayer(int32_t i) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -2067,13 +1132,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return ::cordl_internals::RunMethodRethrow<TConnectedPlayer>(this, ___internal_method, i);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::SetLocalPlayerState(::StringW state,
                                                                                                                                                                                    bool hasState) {
@@ -2085,13 +1143,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, state, hasState);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::KickPlayer(::StringW userId) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -2102,13 +1153,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, userId);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline bool
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::LocalPlayerHasState(::StringW state) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -2119,13 +1163,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, state);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::UpdateConnectionState(
     ::GlobalNamespace::UpdateConnectionStateReason updateReason, ::GlobalNamespace::DisconnectedReason disconnectedReason, ::GlobalNamespace::ConnectionFailedReason connectionFailedReason) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -2139,13 +1176,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, updateReason, disconnectedReason, connectionFailedReason);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline bool GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::TryUpdateConnectedPlayer(
     TConnectedPlayer player, bool isPlayerConnected) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -2156,13 +1186,6 @@ inline bool GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, player, isPlayerConnected);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline bool GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::ShouldKickPlayer(
     ::GlobalNamespace::IConnectedPlayer* player, ::by_ref<::GlobalNamespace::DisconnectedReason> reason) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -2173,13 +1196,6 @@ inline bool GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, player, reason);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline int32_t
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::GetNextAvailableSortIndex() {
   static auto* ___internal_method = THROW_UNLESS(
@@ -2190,13 +1206,6 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -2206,13 +1215,6 @@ inline void GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnecte
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline ::GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::New_ctor() {
   return THROW_UNLESS(
@@ -2221,26 +1223,12 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
 }
 /// @brief Convert operator to "::GlobalNamespace::IMultiplayerSessionManager_1<TConnectedPlayer>"
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                        TGameSpecificIdentityData>::operator ::GlobalNamespace::IMultiplayerSessionManager_1<TConnectedPlayer>*() noexcept {
   return static_cast<::GlobalNamespace::IMultiplayerSessionManager_1<TConnectedPlayer>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::GlobalNamespace::IMultiplayerSessionManager_1<TConnectedPlayer>"
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::GlobalNamespace::IMultiplayerSessionManager_1<TConnectedPlayer>*
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                              TGameSpecificIdentityData>::i___GlobalNamespace__IMultiplayerSessionManager_1_TConnectedPlayer_() noexcept {
@@ -2248,26 +1236,12 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
 }
 /// @brief Convert operator to "::GlobalNamespace::IMultiplayerSessionMessageProcessor_2<TMessageType,TConnectedPlayer>"
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                        TGameSpecificIdentityData>::operator ::GlobalNamespace::IMultiplayerSessionMessageProcessor_2<TMessageType, TConnectedPlayer>*() noexcept {
   return static_cast<::GlobalNamespace::IMultiplayerSessionMessageProcessor_2<TMessageType, TConnectedPlayer>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::GlobalNamespace::IMultiplayerSessionMessageProcessor_2<TMessageType,TConnectedPlayer>"
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::GlobalNamespace::IMultiplayerSessionMessageProcessor_2<TMessageType, TConnectedPlayer>*
 GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                              TGameSpecificIdentityData>::i___GlobalNamespace__IMultiplayerSessionMessageProcessor_2_TMessageType_TConnectedPlayer_() noexcept {
@@ -2275,12 +1249,5 @@ GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessi
 }
 // Ctor Parameters []
 template <typename TMessageType, typename TConnectedPlayerSessionManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerSessionManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 constexpr ::GlobalNamespace::MultiplayerSessionManager_5<TMessageType, TConnectedPlayerSessionManager, TConnectedPlayer, TConnectedPlayerImpl,
                                                          TGameSpecificIdentityData>::MultiplayerSessionManager_5() {}

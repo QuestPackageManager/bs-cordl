@@ -17,9 +17,7 @@ namespace UnityEngine::Rendering {
 class AtlasAllocator___c;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class ObjectPool_1;
+template <typename T> class ObjectPool_1;
 }
 namespace UnityEngine {
 struct Vector4;

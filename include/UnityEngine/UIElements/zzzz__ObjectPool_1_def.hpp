@@ -13,20 +13,14 @@ namespace System {
 template <typename TResult> class Func_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class ObjectPool_1___c;
+template <typename T> class ObjectPool_1___c;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class ObjectPool_1;
+template <typename T> class ObjectPool_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class ObjectPool_1___c;
+template <typename T> class ObjectPool_1___c;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::ObjectPool_1);
@@ -38,7 +32,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::ObjectPool_1___c, "UnityE
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.ObjectPool`1/<>c<T>
 class CORDL_TYPE ObjectPool_1___c : public ::System::Object {
@@ -91,7 +84,6 @@ public:
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.ObjectPool`1<T>
 class CORDL_TYPE ObjectPool_1 : public ::System::Object {

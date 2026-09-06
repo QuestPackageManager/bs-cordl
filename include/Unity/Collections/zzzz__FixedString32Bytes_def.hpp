@@ -28,9 +28,7 @@ namespace Unity::Collections {
 struct CopyError;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct FixedList32Bytes_1;
+template <typename T> struct FixedList32Bytes_1;
 }
 namespace Unity::Collections {
 struct FixedString128Bytes;
@@ -51,14 +49,10 @@ namespace Unity::Collections {
 struct FormatError;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class IIndexable_1;
+template <typename T> class IIndexable_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class INativeList_1;
+template <typename T> class INativeList_1;
 }
 namespace Unity::Collections {
 class IUTF8Bytes;

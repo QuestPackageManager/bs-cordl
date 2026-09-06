@@ -123,9 +123,7 @@ namespace System {
 struct RuntimeTypeHandle;
 }
 namespace System {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-struct RuntimeType_ListBuilder_1;
+template <typename T> struct RuntimeType_ListBuilder_1;
 }
 namespace System {
 struct RuntimeType_MemberListType;
@@ -147,9 +145,7 @@ namespace System {
 class RuntimeType;
 }
 namespace System {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-struct RuntimeType_ListBuilder_1;
+template <typename T> struct RuntimeType_ListBuilder_1;
 }
 // Write type traits
 MARK_VAL_T(::System::RuntimeType_MemberListType);
@@ -226,7 +222,6 @@ static_assert(sizeof(::System::RuntimeType_MemberListType) == 0x4, "Size mismatc
 namespace System {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: true
 // CS Name: System.RuntimeType/ListBuilder`1<T>
 struct CORDL_TYPE RuntimeType_ListBuilder_1 {
@@ -291,9 +286,7 @@ namespace System {
 class CORDL_TYPE RuntimeType : public ::System::Reflection::TypeInfo {
 public:
   // Declarations
-  template <typename T>
-    requires(::cordl_internals::reference_type_constraint<T>)
-  using ListBuilder_1 = ::System::RuntimeType_ListBuilder_1<T>;
+  template <typename T> using ListBuilder_1 = ::System::RuntimeType_ListBuilder_1<T>;
 
   using MemberListType = ::System::RuntimeType_MemberListType;
 

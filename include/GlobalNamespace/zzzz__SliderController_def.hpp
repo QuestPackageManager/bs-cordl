@@ -124,9 +124,7 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace Zenject {
-template <typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::UnityEngine::Component*>)
-class MonoMemoryPool_1;
+template <typename TValue> class MonoMemoryPool_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

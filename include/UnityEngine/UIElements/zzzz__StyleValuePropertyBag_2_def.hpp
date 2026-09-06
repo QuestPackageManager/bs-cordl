@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "Unity/Properties/zzzz__ContainerPropertyBag_1_def.hpp"
 #include "Unity/Properties/zzzz__Property_2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IStyleValue_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(StyleValuePropertyBag_2)
@@ -13,30 +12,20 @@ namespace UnityEngine::UIElements {
 struct StyleKeyword;
 }
 namespace UnityEngine::UIElements {
-template <typename TContainer, typename TValue>
-  requires(::cordl_internals::type_constraint<TContainer, ::UnityEngine::UIElements::IStyleValue_1<TValue>*>)
-class StyleValuePropertyBag_2_KeywordProperty;
+template <typename TContainer, typename TValue> class StyleValuePropertyBag_2_KeywordProperty;
 }
 namespace UnityEngine::UIElements {
-template <typename TContainer, typename TValue>
-  requires(::cordl_internals::type_constraint<TContainer, ::UnityEngine::UIElements::IStyleValue_1<TValue>*>)
-class StyleValuePropertyBag_2_ValueProperty;
+template <typename TContainer, typename TValue> class StyleValuePropertyBag_2_ValueProperty;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename TContainer, typename TValue>
-  requires(::cordl_internals::type_constraint<TContainer, ::UnityEngine::UIElements::IStyleValue_1<TValue>*>)
-class StyleValuePropertyBag_2;
+template <typename TContainer, typename TValue> class StyleValuePropertyBag_2;
 }
 namespace UnityEngine::UIElements {
-template <typename TContainer, typename TValue>
-  requires(::cordl_internals::type_constraint<TContainer, ::UnityEngine::UIElements::IStyleValue_1<TValue>*>)
-class StyleValuePropertyBag_2_KeywordProperty;
+template <typename TContainer, typename TValue> class StyleValuePropertyBag_2_KeywordProperty;
 }
 namespace UnityEngine::UIElements {
-template <typename TContainer, typename TValue>
-  requires(::cordl_internals::type_constraint<TContainer, ::UnityEngine::UIElements::IStyleValue_1<TValue>*>)
-class StyleValuePropertyBag_2_ValueProperty;
+template <typename TContainer, typename TValue> class StyleValuePropertyBag_2_ValueProperty;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::StyleValuePropertyBag_2);
@@ -45,11 +34,10 @@ MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::StyleValuePropertyBag_2_ValuePrope
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::StyleValuePropertyBag_2, "UnityEngine.UIElements", "StyleValuePropertyBag`2");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::StyleValuePropertyBag_2_KeywordProperty, "UnityEngine.UIElements", "StyleValuePropertyBag`2/KeywordProperty");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::StyleValuePropertyBag_2_ValueProperty, "UnityEngine.UIElements", "StyleValuePropertyBag`2/ValueProperty");
-// Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.UIElements.IStyleValue`1<T>
+// Dependencies Unity.Properties.Property`2<TContainer, TValue>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TContainer, typename TValue>
-  requires(::cordl_internals::type_constraint<TContainer, ::UnityEngine::UIElements::IStyleValue_1<TValue>*>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.StyleValuePropertyBag`2/ValueProperty<TContainer,TValue>
 class CORDL_TYPE StyleValuePropertyBag_2_ValueProperty : public ::Unity::Properties::Property_2<TContainer, TValue> {
@@ -127,11 +115,10 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.UIElements.IStyleValue`1<T>, UnityEngine.UIElements.StyleKeyword
+// Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.UIElements.StyleKeyword
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TContainer, typename TValue>
-  requires(::cordl_internals::type_constraint<TContainer, ::UnityEngine::UIElements::IStyleValue_1<TValue>*>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.StyleValuePropertyBag`2/KeywordProperty<TContainer,TValue>
 class CORDL_TYPE StyleValuePropertyBag_2_KeywordProperty : public ::Unity::Properties::Property_2<TContainer, ::UnityEngine::UIElements::StyleKeyword> {
@@ -209,11 +196,10 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies Unity.Properties.ContainerPropertyBag`1<TContainer>, UnityEngine.UIElements.IStyleValue`1<T>
+// Dependencies Unity.Properties.ContainerPropertyBag`1<TContainer>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TContainer, typename TValue>
-  requires(::cordl_internals::type_constraint<TContainer, ::UnityEngine::UIElements::IStyleValue_1<TValue>*>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.StyleValuePropertyBag`2<TContainer,TValue>
 class CORDL_TYPE StyleValuePropertyBag_2 : public ::Unity::Properties::ContainerPropertyBag_1<TContainer> {

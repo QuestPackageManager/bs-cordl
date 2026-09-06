@@ -9,14 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HeaderInfo)
 namespace GlobalNamespace {
-template <typename T, typename U>
-  requires(::cordl_internals::reference_type_constraint<U>)
-class HeaderInfo_CollectionHeaderTypeInfo_2;
+template <typename T, typename U> class HeaderInfo_CollectionHeaderTypeInfo_2;
 }
 namespace GlobalNamespace {
-template <typename T, typename U>
-  requires(::cordl_internals::reference_type_constraint<U>)
-class HeaderInfo_HeaderTypeInfo_2;
+template <typename T, typename U> class HeaderInfo_HeaderTypeInfo_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -53,13 +49,9 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE HeaderInfo : public ::System::Object {
 public:
   // Declarations
-  template <typename T, typename U>
-    requires(::cordl_internals::reference_type_constraint<U>)
-  using CollectionHeaderTypeInfo_2 = ::GlobalNamespace::HeaderInfo_CollectionHeaderTypeInfo_2<T, U>;
+  template <typename T, typename U> using CollectionHeaderTypeInfo_2 = ::GlobalNamespace::HeaderInfo_CollectionHeaderTypeInfo_2<T, U>;
 
-  template <typename T, typename U>
-    requires(::cordl_internals::reference_type_constraint<U>)
-  using HeaderTypeInfo_2 = ::GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>;
+  template <typename T, typename U> using HeaderTypeInfo_2 = ::GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>;
 
   /// @brief Field AllowsMany, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_AllowsMany, put = __cordl_internal_set_AllowsMany)) bool AllowsMany;

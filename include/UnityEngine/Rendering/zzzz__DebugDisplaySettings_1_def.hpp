@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IDebugDisplaySettingsData_def.hpp"
-#include "UnityEngine/Rendering/zzzz__IDebugDisplaySettings_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DebugDisplaySettings_1)
 namespace System::Collections::Generic {
@@ -21,14 +20,10 @@ namespace System {
 template <typename T> class Lazy_1;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IDebugDisplaySettings*> && ::cordl_internals::default_constructor_constraint<T>)
-class DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer;
+template <typename T> class DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IDebugDisplaySettings*> && ::cordl_internals::default_constructor_constraint<T>)
-class DebugDisplaySettings_1___c;
+template <typename T> class DebugDisplaySettings_1___c;
 }
 namespace UnityEngine::Rendering {
 class IDebugDisplaySettingsData;
@@ -41,19 +36,13 @@ struct Color;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IDebugDisplaySettings*> && ::cordl_internals::default_constructor_constraint<T>)
-class DebugDisplaySettings_1;
+template <typename T> class DebugDisplaySettings_1;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IDebugDisplaySettings*> && ::cordl_internals::default_constructor_constraint<T>)
-class DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer;
+template <typename T> class DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IDebugDisplaySettings*> && ::cordl_internals::default_constructor_constraint<T>)
-class DebugDisplaySettings_1___c;
+template <typename T> class DebugDisplaySettings_1___c;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::DebugDisplaySettings_1);
@@ -62,11 +51,10 @@ MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::DebugDisplaySettings_1___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::DebugDisplaySettings_1, "UnityEngine.Rendering", "DebugDisplaySettings`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer, "UnityEngine.Rendering", "DebugDisplaySettings`1/IDebugDisplaySettingsDataComparer");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::DebugDisplaySettings_1___c, "UnityEngine.Rendering", "DebugDisplaySettings`1/<>c");
-// Dependencies System.Object, UnityEngine.Rendering.IDebugDisplaySettings
+// Dependencies System.Object
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IDebugDisplaySettings*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.DebugDisplaySettings`1/IDebugDisplaySettingsDataComparer<T>
 class CORDL_TYPE DebugDisplaySettings_1_IDebugDisplaySettingsDataComparer : public ::System::Object {
@@ -112,11 +100,10 @@ public:
 // Non member Declarations
 } // namespace UnityEngine::Rendering
 // [CompilerGenerated]
-// Dependencies System.Object, UnityEngine.Rendering.IDebugDisplaySettings
+// Dependencies System.Object
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IDebugDisplaySettings*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.DebugDisplaySettings`1/<>c<T>
 class CORDL_TYPE DebugDisplaySettings_1___c : public ::System::Object {
@@ -158,11 +145,10 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::Rendering
-// Dependencies System.Object, UnityEngine.Rendering.IDebugDisplaySettings, UnityEngine.Rendering.IDebugDisplaySettingsData
+// Dependencies System.Object, UnityEngine.Rendering.IDebugDisplaySettingsData
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IDebugDisplaySettings*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.DebugDisplaySettings`1<T>
 class CORDL_TYPE DebugDisplaySettings_1 : public ::System::Object {

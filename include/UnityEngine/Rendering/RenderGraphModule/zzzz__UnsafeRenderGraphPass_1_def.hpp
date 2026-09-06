@@ -16,9 +16,7 @@ class UnsafeGraphContext;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData>
-  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
-class UnsafeRenderGraphPass_1;
+template <typename PassData> class UnsafeRenderGraphPass_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::RenderGraphModule::UnsafeRenderGraphPass_1);
@@ -28,7 +26,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::RenderGraphModule::UnsafeR
 namespace UnityEngine::Rendering::RenderGraphModule {
 // cpp template
 template <typename PassData>
-  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.RenderGraphModule.UnsafeRenderGraphPass`1<PassData>
 class CORDL_TYPE UnsafeRenderGraphPass_1 : public ::UnityEngine::Rendering::RenderGraphModule::BaseRenderGraphPass_2<PassData, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*> {

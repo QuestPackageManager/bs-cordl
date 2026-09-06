@@ -16,9 +16,7 @@ template <typename TValue> class IMemoryPool_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T0, typename T1>
-  requires(::cordl_internals::type_constraint<T0, T1>)
-class MemoryPoolContainer_2;
+template <typename T0, typename T1> class MemoryPoolContainer_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::MemoryPoolContainer_2);
@@ -27,7 +25,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::MemoryPoolContainer_2, "", "Memor
 namespace GlobalNamespace {
 // cpp template
 template <typename T0, typename T1>
-  requires(::cordl_internals::type_constraint<T0, T1>)
 // Is value type: false
 // CS Name: MemoryPoolContainer`2<T0,T1>
 class CORDL_TYPE MemoryPoolContainer_2 : public ::System::Object {

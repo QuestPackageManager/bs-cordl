@@ -4,8 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
-#include "GlobalNamespace/zzzz__FxBaseData_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 #include <cstdint>
@@ -20,9 +18,7 @@ namespace GlobalNamespace {
 struct EaseType;
 }
 namespace GlobalNamespace {
-template <typename TIn, typename TOut>
-  requires(::cordl_internals::type_constraint<TIn, ::GlobalNamespace::FxBaseData*> && ::cordl_internals::type_constraint<TOut, ::GlobalNamespace::BeatmapEventData*>)
-class FloatFxBeatmapEventDataBox_2__Unpack_d__3;
+template <typename TIn, typename TOut> class FloatFxBeatmapEventDataBox_2__Unpack_d__3;
 }
 namespace GlobalNamespace {
 class IBeatToTimeConverter;
@@ -56,14 +52,10 @@ class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename TIn, typename TOut>
-  requires(::cordl_internals::type_constraint<TIn, ::GlobalNamespace::FxBaseData*> && ::cordl_internals::type_constraint<TOut, ::GlobalNamespace::BeatmapEventData*>)
-class FloatFxBeatmapEventDataBox_2;
+template <typename TIn, typename TOut> class FloatFxBeatmapEventDataBox_2;
 }
 namespace GlobalNamespace {
-template <typename TIn, typename TOut>
-  requires(::cordl_internals::type_constraint<TIn, ::GlobalNamespace::FxBaseData*> && ::cordl_internals::type_constraint<TOut, ::GlobalNamespace::BeatmapEventData*>)
-class FloatFxBeatmapEventDataBox_2__Unpack_d__3;
+template <typename TIn, typename TOut> class FloatFxBeatmapEventDataBox_2__Unpack_d__3;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::FloatFxBeatmapEventDataBox_2);
@@ -71,11 +63,10 @@ MARK_GEN_REF_T_PTR(::GlobalNamespace::FloatFxBeatmapEventDataBox_2__Unpack_d__3)
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::FloatFxBeatmapEventDataBox_2, "", "FloatFxBeatmapEventDataBox`2");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::FloatFxBeatmapEventDataBox_2__Unpack_d__3, "", "FloatFxBeatmapEventDataBox`2/<Unpack>d__3");
 // [CompilerGenerated]
-// Dependencies BeatmapEventData, FxBaseData, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TIn, typename TOut>
-  requires(::cordl_internals::type_constraint<TIn, ::GlobalNamespace::FxBaseData*> && ::cordl_internals::type_constraint<TOut, ::GlobalNamespace::BeatmapEventData*>)
 // Is value type: false
 // CS Name: FloatFxBeatmapEventDataBox`2/<Unpack>d__3<TIn,TOut>
 class CORDL_TYPE FloatFxBeatmapEventDataBox_2__Unpack_d__3 : public ::System::Object {
@@ -426,11 +417,10 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies BeatmapEventData, BeatmapEventDataBox, FxBaseData
+// Dependencies BeatmapEventDataBox
 namespace GlobalNamespace {
 // cpp template
 template <typename TIn, typename TOut>
-  requires(::cordl_internals::type_constraint<TIn, ::GlobalNamespace::FxBaseData*> && ::cordl_internals::type_constraint<TOut, ::GlobalNamespace::BeatmapEventData*>)
 // Is value type: false
 // CS Name: FloatFxBeatmapEventDataBox`2<TIn,TOut>
 class CORDL_TYPE FloatFxBeatmapEventDataBox_2 : public ::GlobalNamespace::BeatmapEventDataBox {

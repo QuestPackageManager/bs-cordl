@@ -8,15 +8,11 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FixedAttachmentArray_1)
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1;
+template <typename T> struct NativeArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
-template <typename DataType>
-  requires(::cordl_internals::value_type_constraint<DataType> && ::cordl_internals::default_constructor_constraint<DataType>)
-struct FixedAttachmentArray_1;
+template <typename DataType> struct FixedAttachmentArray_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::FixedAttachmentArray_1);
@@ -27,7 +23,6 @@ DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::Rendering::RenderGraphModule::NativeRende
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 // cpp template
 template <typename DataType>
-  requires(::cordl_internals::value_type_constraint<DataType> && ::cordl_internals::default_constructor_constraint<DataType>)
 // Is value type: true
 // CS Name: UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler.FixedAttachmentArray`1<DataType>
 struct CORDL_TYPE FixedAttachmentArray_1 {

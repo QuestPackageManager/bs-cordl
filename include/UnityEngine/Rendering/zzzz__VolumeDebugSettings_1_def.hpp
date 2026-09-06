@@ -4,10 +4,8 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/Rendering/zzzz__IAdditionalData_def.hpp"
 #include "UnityEngine/Rendering/zzzz__Volume_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
-#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cmath>
@@ -41,14 +39,10 @@ namespace UnityEngine::Rendering {
 class VolumeComponent;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*> && ::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IAdditionalData*>)
-class VolumeDebugSettings_1___c__DisplayClass22_0;
+template <typename T> class VolumeDebugSettings_1___c__DisplayClass22_0;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*> && ::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IAdditionalData*>)
-class VolumeDebugSettings_1___c;
+template <typename T> class VolumeDebugSettings_1___c;
 }
 namespace UnityEngine::Rendering {
 class VolumeParameter;
@@ -70,19 +64,13 @@ struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*> && ::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IAdditionalData*>)
-class VolumeDebugSettings_1;
+template <typename T> class VolumeDebugSettings_1;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*> && ::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IAdditionalData*>)
-class VolumeDebugSettings_1___c;
+template <typename T> class VolumeDebugSettings_1___c;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*> && ::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IAdditionalData*>)
-class VolumeDebugSettings_1___c__DisplayClass22_0;
+template <typename T> class VolumeDebugSettings_1___c__DisplayClass22_0;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::VolumeDebugSettings_1);
@@ -92,11 +80,10 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::VolumeDebugSettings_1, "Un
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::VolumeDebugSettings_1___c, "UnityEngine.Rendering", "VolumeDebugSettings`1/<>c");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::VolumeDebugSettings_1___c__DisplayClass22_0, "UnityEngine.Rendering", "VolumeDebugSettings`1/<>c__DisplayClass22_0");
 // [CompilerGenerated]
-// Dependencies System.Object, UnityEngine.MonoBehaviour, UnityEngine.Rendering.IAdditionalData
+// Dependencies System.Object
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*> && ::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IAdditionalData*>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.VolumeDebugSettings`1/<>c<T>
 class CORDL_TYPE VolumeDebugSettings_1___c : public ::System::Object {
@@ -186,11 +173,10 @@ public:
 // Non member Declarations
 } // namespace UnityEngine::Rendering
 // [CompilerGenerated]
-// Dependencies System.Object, UnityEngine.MonoBehaviour, UnityEngine.Rendering.IAdditionalData
+// Dependencies System.Object
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*> && ::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IAdditionalData*>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.VolumeDebugSettings`1/<>c__DisplayClass22_0<T>
 class CORDL_TYPE VolumeDebugSettings_1___c__DisplayClass22_0 : public ::System::Object {
@@ -237,11 +223,10 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::Rendering
-// Dependencies System.Object, UnityEngine.Camera, UnityEngine.MonoBehaviour, UnityEngine.Rendering.IAdditionalData, UnityEngine.Rendering.Volume
+// Dependencies System.Object, UnityEngine.Camera, UnityEngine.Rendering.Volume
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*> && ::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IAdditionalData*>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.VolumeDebugSettings`1<T>
 class CORDL_TYPE VolumeDebugSettings_1 : public ::System::Object {

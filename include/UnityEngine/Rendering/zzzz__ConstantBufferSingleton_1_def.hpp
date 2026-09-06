@@ -7,9 +7,7 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ConstantBufferSingleton_1)
 // Forward declare root types
 namespace UnityEngine::Rendering {
-template <typename CBType>
-  requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
-class ConstantBufferSingleton_1;
+template <typename CBType> class ConstantBufferSingleton_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::ConstantBufferSingleton_1);
@@ -18,7 +16,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::ConstantBufferSingleton_1,
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename CBType>
-  requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.ConstantBufferSingleton`1<CBType>
 class CORDL_TYPE ConstantBufferSingleton_1 : public ::UnityEngine::Rendering::ConstantBuffer_1<CBType> {

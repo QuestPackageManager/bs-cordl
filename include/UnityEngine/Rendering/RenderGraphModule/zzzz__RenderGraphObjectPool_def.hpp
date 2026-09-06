@@ -29,27 +29,19 @@ namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
 }
 namespace UnityEngine::Pool {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class ObjectPool_1;
+template <typename T> class ObjectPool_1;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 class RenderGraphObjectPool_SharedObjectPoolBase;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class RenderGraphObjectPool_SharedObjectPool_1;
+template <typename T> class RenderGraphObjectPool_SharedObjectPool_1;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class SharedObjectPool_1_RenderGraphObjectPool___c;
+template <typename T> class SharedObjectPool_1_RenderGraphObjectPool___c;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class DynamicArray_1;
+template <typename T> class DynamicArray_1;
 }
 namespace UnityEngine {
 class MaterialPropertyBlock;
@@ -62,14 +54,10 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 class RenderGraphObjectPool_SharedObjectPoolBase;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class RenderGraphObjectPool_SharedObjectPool_1;
+template <typename T> class RenderGraphObjectPool_SharedObjectPool_1;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class SharedObjectPool_1_RenderGraphObjectPool___c;
+template <typename T> class SharedObjectPool_1_RenderGraphObjectPool___c;
 }
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool*);
@@ -125,7 +113,6 @@ static_assert(sizeof(::UnityEngine::Rendering::RenderGraphModule::RenderGraphObj
 namespace UnityEngine::Rendering::RenderGraphModule {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.RenderGraphModule.RenderGraphObjectPool/SharedObjectPool`1/<>c<T>
 class CORDL_TYPE SharedObjectPool_1_RenderGraphObjectPool___c : public ::System::Object {
@@ -178,7 +165,6 @@ public:
 namespace UnityEngine::Rendering::RenderGraphModule {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.RenderGraphModule.RenderGraphObjectPool/SharedObjectPool`1<T>
 class CORDL_TYPE RenderGraphObjectPool_SharedObjectPool_1 : public ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPoolBase {
@@ -240,9 +226,7 @@ public:
   // Declarations
   using SharedObjectPoolBase = ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPoolBase;
 
-  template <typename T>
-    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  using SharedObjectPool_1 = ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>;
+  template <typename T> using SharedObjectPool_1 = ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>;
 
   /// @brief Field m_AllocatedArrays, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_AllocatedArrays, put = __cordl_internal_set_m_AllocatedArrays)) ::System::Collections::Generic::List_1<

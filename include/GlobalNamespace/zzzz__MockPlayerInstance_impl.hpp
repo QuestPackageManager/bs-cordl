@@ -132,64 +132,45 @@ constexpr ::System::IDisposable* GlobalNamespace::MockPlayerInstance_FsmTickRunn
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockPlayerInstance_FsmTickRunnable::MockPlayerInstance_FsmTickRunnable() {}
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T>)
-constexpr ::GlobalNamespace::MockPlayerInstance*& GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_get___4__this() {
+template <typename T> constexpr ::GlobalNamespace::MockPlayerInstance*& GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T>)
-constexpr ::GlobalNamespace::MockPlayerInstance* const& GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_get___4__this() const {
+template <typename T> constexpr ::GlobalNamespace::MockPlayerInstance* const& GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T>)
-constexpr void GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_set___4__this(::GlobalNamespace::MockPlayerInstance* value) {
+template <typename T> constexpr void GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_set___4__this(::GlobalNamespace::MockPlayerInstance* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T>)
-constexpr ::GlobalNamespace::IConnectionInitParams_1<T>*& GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_get_connectionInitParams() {
+template <typename T> constexpr ::GlobalNamespace::IConnectionInitParams_1<T>*& GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_get_connectionInitParams() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectionInitParams;
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T>)
 constexpr ::GlobalNamespace::IConnectionInitParams_1<T>* const& GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_get_connectionInitParams() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectionInitParams;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T>)
-constexpr void GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_set_connectionInitParams(::GlobalNamespace::IConnectionInitParams_1<T>* value) {
+template <typename T> constexpr void GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_set_connectionInitParams(::GlobalNamespace::IConnectionInitParams_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___connectionInitParams = value;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T>)
-inline void GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::_ctor() {
+template <typename T> inline void GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T>)
-inline void GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::_ConnectToServer_b__0() {
+template <typename T> inline void GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::_ConnectToServer_b__0() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>*>(), { "<ConnectToServer>b__0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T>)
-inline ::GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>* GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::New_ctor() {
+template <typename T> inline ::GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>* GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>*>());
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T>)
-constexpr ::GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::MockPlayerInstance___c__DisplayClass26_0_1() {}
+template <typename T> constexpr ::GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::MockPlayerInstance___c__DisplayClass26_0_1() {}
 //  Writing Method size for method: ::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__33.MoveNext
 template <>
 

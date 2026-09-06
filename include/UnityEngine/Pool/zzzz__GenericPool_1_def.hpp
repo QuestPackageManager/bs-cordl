@@ -6,30 +6,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(GenericPool_1)
 namespace UnityEngine::Pool {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class GenericPool_1___c;
+template <typename T> class GenericPool_1___c;
 }
 namespace UnityEngine::Pool {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class ObjectPool_1;
+template <typename T> class ObjectPool_1;
 }
 namespace UnityEngine::Pool {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-struct PooledObject_1;
+template <typename T> struct PooledObject_1;
 }
 // Forward declare root types
 namespace UnityEngine::Pool {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class GenericPool_1;
+template <typename T> class GenericPool_1;
 }
 namespace UnityEngine::Pool {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class GenericPool_1___c;
+template <typename T> class GenericPool_1___c;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Pool::GenericPool_1);
@@ -41,7 +31,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Pool::GenericPool_1___c, "UnityEngine
 namespace UnityEngine::Pool {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.Pool.GenericPool`1/<>c<T>
 class CORDL_TYPE GenericPool_1___c : public ::System::Object {
@@ -87,7 +76,6 @@ public:
 namespace UnityEngine::Pool {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.Pool.GenericPool`1<T>
 class CORDL_TYPE GenericPool_1 : public ::System::Object {

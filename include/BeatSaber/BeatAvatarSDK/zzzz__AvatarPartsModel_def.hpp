@@ -13,9 +13,7 @@ namespace BeatSaber::BeatAvatarSDK {
 class AvatarMeshPartSO;
 }
 namespace BeatSaber::BeatAvatarSDK {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*> && ::cordl_internals::type_constraint<T, ::BeatSaber::BeatAvatarSDK::IAvatarPart*>)
-class AvatarPartCollection_1;
+template <typename T> class AvatarPartCollection_1;
 }
 namespace BeatSaber::BeatAvatarSDK {
 class AvatarPartsModelSO;

@@ -18,9 +18,7 @@ namespace GlobalNamespace {
 template <typename T> class MemoryPoolContainer_1;
 }
 namespace GlobalNamespace {
-template <typename T0, typename T1>
-  requires(::cordl_internals::type_constraint<T0, T1>)
-class MemoryPoolContainer_2;
+template <typename T0, typename T1> class MemoryPoolContainer_2;
 }
 namespace GlobalNamespace {
 class MultiplayerConnectedPlayerBeatmapObjectManager_InitData;

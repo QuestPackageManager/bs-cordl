@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/Playables/zzzz__IPlayableBehaviour_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -37,20 +36,15 @@ class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Playables::IPlayableBehaviour*> && ::cordl_internals::reference_type_constraint<T> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-struct ScriptPlayable_1;
+template <typename T> struct ScriptPlayable_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::Playables::ScriptPlayable_1);
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::Playables::ScriptPlayable_1, "UnityEngine.Playables", "ScriptPlayable`1");
-// Dependencies UnityEngine.Playables.IPlayableBehaviour, UnityEngine.Playables.PlayableHandle
+// Dependencies UnityEngine.Playables.PlayableHandle
 namespace UnityEngine::Playables {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Playables::IPlayableBehaviour*> && ::cordl_internals::reference_type_constraint<T> &&
-           ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.Playables.ScriptPlayable`1<T>
 struct CORDL_TYPE ScriptPlayable_1 {

@@ -95,11 +95,7 @@ namespace GlobalNamespace {
 class PlayerSpecificSettingsNetSerializable;
 }
 namespace GlobalNamespace {
-template <typename TMessageType, typename TType, typename TConnectedPlayer>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*>)
-class RpcHandler_3;
+template <typename TMessageType, typename TType, typename TConnectedPlayer> class RpcHandler_3;
 }
 namespace GlobalNamespace {
 class SliderSpawnInfoNetSerializable;

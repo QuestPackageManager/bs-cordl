@@ -3,16 +3,13 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IComparable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ValueDropdownController_1)
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IComparable*>)
-class ValueDropdownController_1___c;
+template <typename T> class ValueDropdownController_1___c;
 }
 namespace HMUI {
 class DropdownWithTableView;
@@ -34,14 +31,10 @@ template <typename T1, typename T2> class Tuple_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IComparable*>)
-class ValueDropdownController_1;
+template <typename T> class ValueDropdownController_1;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IComparable*>)
-class ValueDropdownController_1___c;
+template <typename T> class ValueDropdownController_1___c;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::ValueDropdownController_1);
@@ -49,11 +42,10 @@ MARK_GEN_REF_T_PTR(::GlobalNamespace::ValueDropdownController_1___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::ValueDropdownController_1, "", "ValueDropdownController`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::ValueDropdownController_1___c, "", "ValueDropdownController`1/<>c");
 // [CompilerGenerated]
-// Dependencies System.IComparable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IComparable*>)
 // Is value type: false
 // CS Name: ValueDropdownController`1/<>c<T>
 class CORDL_TYPE ValueDropdownController_1___c : public ::System::Object {
@@ -102,11 +94,10 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies System.IComparable, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IComparable*>)
 // Is value type: false
 // CS Name: ValueDropdownController`1<T>
 class CORDL_TYPE ValueDropdownController_1 : public ::UnityEngine::MonoBehaviour {

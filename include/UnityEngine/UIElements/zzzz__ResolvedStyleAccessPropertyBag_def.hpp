@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IConvertible_def.hpp"
 #include "Unity/Properties/zzzz__PropertyBag_1_def.hpp"
 #include "Unity/Properties/zzzz__Property_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Align_def.hpp"
@@ -251,9 +250,7 @@ namespace UnityEngine::UIElements {
 class ResolvedStyleAccessPropertyBag_ResolvedColorProperty;
 }
 namespace UnityEngine::UIElements {
-template <typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-class ResolvedStyleAccessPropertyBag_ResolvedEnumProperty_1;
+template <typename TValue> class ResolvedStyleAccessPropertyBag_ResolvedEnumProperty_1;
 }
 namespace UnityEngine::UIElements {
 class ResolvedStyleAccessPropertyBag_ResolvedFloatProperty;
@@ -593,9 +590,7 @@ namespace UnityEngine::UIElements {
 class ResolvedStyleAccessPropertyBag_ResolvedColorProperty;
 }
 namespace UnityEngine::UIElements {
-template <typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-class ResolvedStyleAccessPropertyBag_ResolvedEnumProperty_1;
+template <typename TValue> class ResolvedStyleAccessPropertyBag_ResolvedEnumProperty_1;
 }
 namespace UnityEngine::UIElements {
 class ResolvedStyleAccessPropertyBag_ResolvedFloatProperty;
@@ -964,11 +959,10 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies System.IConvertible, UnityEngine.UIElements.ResolvedStyleAccessPropertyBag::ResolvedStyleProperty`1<TValue>
+// Dependencies UnityEngine.UIElements.ResolvedStyleAccessPropertyBag::ResolvedStyleProperty`1<TValue>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.ResolvedStyleAccessPropertyBag/ResolvedEnumProperty`1<TValue>
 class CORDL_TYPE ResolvedStyleAccessPropertyBag_ResolvedEnumProperty_1 : public ::UnityEngine::UIElements::ResolvedStyleAccessPropertyBag_ResolvedStyleProperty_1<TValue> {
@@ -6042,9 +6036,7 @@ public:
 
   using ResolvedColorProperty = ::UnityEngine::UIElements::ResolvedStyleAccessPropertyBag_ResolvedColorProperty;
 
-  template <typename TValue>
-    requires(::cordl_internals::type_constraint<TValue, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-  using ResolvedEnumProperty_1 = ::UnityEngine::UIElements::ResolvedStyleAccessPropertyBag_ResolvedEnumProperty_1<TValue>;
+  template <typename TValue> using ResolvedEnumProperty_1 = ::UnityEngine::UIElements::ResolvedStyleAccessPropertyBag_ResolvedEnumProperty_1<TValue>;
 
   using ResolvedFloatProperty = ::UnityEngine::UIElements::ResolvedStyleAccessPropertyBag_ResolvedFloatProperty;
 

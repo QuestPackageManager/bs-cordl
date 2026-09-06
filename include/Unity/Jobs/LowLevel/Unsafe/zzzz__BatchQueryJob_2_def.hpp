@@ -7,16 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(BatchQueryJob_2)
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1;
+template <typename T> struct NativeArray_1;
 }
 // Forward declare root types
 namespace Unity::Jobs::LowLevel::Unsafe {
-template <typename CommandT, typename ResultT>
-  requires(::cordl_internals::value_type_constraint<CommandT> && ::cordl_internals::default_constructor_constraint<CommandT> && ::cordl_internals::value_type_constraint<ResultT> &&
-           ::cordl_internals::default_constructor_constraint<ResultT>)
-struct BatchQueryJob_2;
+template <typename CommandT, typename ResultT> struct BatchQueryJob_2;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Jobs::LowLevel::Unsafe::BatchQueryJob_2);
@@ -25,8 +20,6 @@ DEFINE_IL2CPP_GEN_CLASS(::Unity::Jobs::LowLevel::Unsafe::BatchQueryJob_2, "Unity
 namespace Unity::Jobs::LowLevel::Unsafe {
 // cpp template
 template <typename CommandT, typename ResultT>
-  requires(::cordl_internals::value_type_constraint<CommandT> && ::cordl_internals::default_constructor_constraint<CommandT> && ::cordl_internals::value_type_constraint<ResultT> &&
-           ::cordl_internals::default_constructor_constraint<ResultT>)
 // Is value type: true
 // CS Name: Unity.Jobs.LowLevel.Unsafe.BatchQueryJob`2<CommandT,ResultT>
 struct CORDL_TYPE BatchQueryJob_2 {

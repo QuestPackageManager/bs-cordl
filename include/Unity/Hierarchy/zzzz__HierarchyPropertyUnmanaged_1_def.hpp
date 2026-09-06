@@ -28,9 +28,7 @@ template <typename T> class IHierarchyProperty_1;
 }
 // Forward declare root types
 namespace Unity::Hierarchy {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct HierarchyPropertyUnmanaged_1;
+template <typename T> struct HierarchyPropertyUnmanaged_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Hierarchy::HierarchyPropertyUnmanaged_1);
@@ -40,7 +38,6 @@ DEFINE_IL2CPP_GEN_CLASS(::Unity::Hierarchy::HierarchyPropertyUnmanaged_1, "Unity
 namespace Unity::Hierarchy {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Hierarchy.HierarchyPropertyUnmanaged`1<T>
 struct CORDL_TYPE HierarchyPropertyUnmanaged_1 {

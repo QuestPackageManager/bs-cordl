@@ -4,8 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__ConnectedPlayerManager_def.hpp"
-#include "GlobalNamespace/zzzz__ConnectedPlayer_3_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectionManager_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
@@ -25,12 +23,7 @@ namespace BGNet::Core {
 class ITimeProvider;
 }
 namespace GlobalNamespace {
-template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
-struct ConnectedPlayerManager_3__InitializePlayerEncryption_d__119;
+template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData> struct ConnectedPlayerManager_3__InitializePlayerEncryption_d__119;
 }
 namespace GlobalNamespace {
 struct ConnectedPlayerManager_InternalMessageType;
@@ -48,12 +41,7 @@ namespace GlobalNamespace {
 class EncryptionUtility_IEncryptionState;
 }
 namespace GlobalNamespace {
-template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
-class IConnectedPlayerFactory_3;
+template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData> class IConnectedPlayerFactory_3;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
@@ -80,9 +68,7 @@ namespace GlobalNamespace {
 class LongRollingAverage;
 }
 namespace GlobalNamespace {
-template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
-class NetworkPacketSerializer_2;
+template <typename TType, typename TData> class NetworkPacketSerializer_2;
 }
 namespace GlobalNamespace {
 class PingPacket;
@@ -94,10 +80,7 @@ namespace GlobalNamespace {
 class PlayerDisconnectedPacket;
 }
 namespace GlobalNamespace {
-template <typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> &&
-           ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
-class PlayerIdentityPacket_1;
+template <typename TGameSpecificIdentityData> class PlayerIdentityPacket_1;
 }
 namespace GlobalNamespace {
 class PlayerSortOrderPacket;
@@ -143,20 +126,10 @@ class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
-class ConnectedPlayerManager_3;
+template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData> class ConnectedPlayerManager_3;
 }
 namespace GlobalNamespace {
-template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
-struct ConnectedPlayerManager_3__InitializePlayerEncryption_d__119;
+template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData> struct ConnectedPlayerManager_3__InitializePlayerEncryption_d__119;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::ConnectedPlayerManager_3);
@@ -164,15 +137,10 @@ MARK_GEN_VAL_T(::GlobalNamespace::ConnectedPlayerManager_3__InitializePlayerEncr
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::ConnectedPlayerManager_3, "", "ConnectedPlayerManager`3");
 DEFINE_IL2CPP_GEN_CLASS(::GlobalNamespace::ConnectedPlayerManager_3__InitializePlayerEncryption_d__119, "", "ConnectedPlayerManager`3/<InitializePlayerEncryption>d__119");
 // [CompilerGenerated]
-// Dependencies ConnectedPlayer`3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>, IConnectedPlayer, LiteNetLib.Utils.INetSerializable,
-// System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // cpp template
 template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 // Is value type: true
 // CS Name: ConnectedPlayerManager`3/<InitializePlayerEncryption>d__119<TConnectedPlayer,TConnectedPlayerImpl,TGameSpecificIdentityData>
 struct CORDL_TYPE ConnectedPlayerManager_3__InitializePlayerEncryption_d__119 {
@@ -237,14 +205,10 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies ConnectedPlayerManager, ConnectedPlayer`3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>, IConnectedPlayer, IConnectionManager, LiteNetLib.Utils.INetSerializable
+// Dependencies ConnectedPlayerManager, IConnectionManager, LiteNetLib.Utils.INetSerializable
 namespace GlobalNamespace {
 // cpp template
 template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
-           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
-           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 // Is value type: false
 // CS Name: ConnectedPlayerManager`3<TConnectedPlayer,TConnectedPlayerImpl,TGameSpecificIdentityData>
 class CORDL_TYPE ConnectedPlayerManager_3 : public ::GlobalNamespace::ConnectedPlayerManager {

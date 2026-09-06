@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Nullable_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ReusableCollectionItem_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VerticalVirtualizationController_1_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include <cmath>
@@ -33,24 +32,16 @@ namespace UnityEngine::UIElements {
 class DetachFromPanelEvent;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::ReusableCollectionItem*> && ::cordl_internals::default_constructor_constraint<T>)
-struct DynamicHeightVirtualizationController_1_ContentHeightCacheInfo;
+template <typename T> struct DynamicHeightVirtualizationController_1_ContentHeightCacheInfo;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::ReusableCollectionItem*> && ::cordl_internals::default_constructor_constraint<T>)
-struct DynamicHeightVirtualizationController_1_ScrollDirection;
+template <typename T> struct DynamicHeightVirtualizationController_1_ScrollDirection;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::ReusableCollectionItem*> && ::cordl_internals::default_constructor_constraint<T>)
-struct DynamicHeightVirtualizationController_1_VirtualizationChange;
+template <typename T> struct DynamicHeightVirtualizationController_1_VirtualizationChange;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::ReusableCollectionItem*> && ::cordl_internals::default_constructor_constraint<T>)
-struct DynamicHeightVirtualizationController_1___c__DisplayClass69_0;
+template <typename T> struct DynamicHeightVirtualizationController_1___c__DisplayClass69_0;
 }
 namespace UnityEngine::UIElements {
 class GeometryChangedEvent;
@@ -66,29 +57,19 @@ struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::ReusableCollectionItem*> && ::cordl_internals::default_constructor_constraint<T>)
-struct DynamicHeightVirtualizationController_1_ScrollDirection;
+template <typename T> struct DynamicHeightVirtualizationController_1_ScrollDirection;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::ReusableCollectionItem*> && ::cordl_internals::default_constructor_constraint<T>)
-struct DynamicHeightVirtualizationController_1_VirtualizationChange;
+template <typename T> struct DynamicHeightVirtualizationController_1_VirtualizationChange;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::ReusableCollectionItem*> && ::cordl_internals::default_constructor_constraint<T>)
-class DynamicHeightVirtualizationController_1;
+template <typename T> class DynamicHeightVirtualizationController_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::ReusableCollectionItem*> && ::cordl_internals::default_constructor_constraint<T>)
-struct DynamicHeightVirtualizationController_1_ContentHeightCacheInfo;
+template <typename T> struct DynamicHeightVirtualizationController_1_ContentHeightCacheInfo;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::ReusableCollectionItem*> && ::cordl_internals::default_constructor_constraint<T>)
-struct DynamicHeightVirtualizationController_1___c__DisplayClass69_0;
+template <typename T> struct DynamicHeightVirtualizationController_1___c__DisplayClass69_0;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::UIElements::DynamicHeightVirtualizationController_1_ScrollDirection);
@@ -105,11 +86,10 @@ DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::DynamicHeightVirtualizationCo
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::DynamicHeightVirtualizationController_1___c__DisplayClass69_0, "UnityEngine.UIElements",
                         "DynamicHeightVirtualizationController`1/<>c__DisplayClass69_0");
 // [IsReadOnly]
-// Dependencies UnityEngine.UIElements.ReusableCollectionItem
+// Dependencies
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::ReusableCollectionItem*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.UIElements.DynamicHeightVirtualizationController`1/ContentHeightCacheInfo<T>
 struct CORDL_TYPE DynamicHeightVirtualizationController_1_ContentHeightCacheInfo {
@@ -141,11 +121,10 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies UnityEngine.UIElements.ReusableCollectionItem
+// Dependencies
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::ReusableCollectionItem*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.UIElements.DynamicHeightVirtualizationController`1/VirtualizationChange<T>
 struct CORDL_TYPE DynamicHeightVirtualizationController_1_VirtualizationChange {
@@ -203,11 +182,10 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies UnityEngine.UIElements.ReusableCollectionItem
+// Dependencies
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::ReusableCollectionItem*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.UIElements.DynamicHeightVirtualizationController`1/ScrollDirection<T>
 struct CORDL_TYPE DynamicHeightVirtualizationController_1_ScrollDirection {
@@ -262,11 +240,10 @@ public:
 // Non member Declarations
 } // namespace UnityEngine::UIElements
 // [CompilerGenerated]
-// Dependencies UnityEngine.UIElements.ReusableCollectionItem
+// Dependencies
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::ReusableCollectionItem*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.UIElements.DynamicHeightVirtualizationController`1/<>c__DisplayClass69_0<T>
 struct CORDL_TYPE DynamicHeightVirtualizationController_1___c__DisplayClass69_0 {
@@ -297,12 +274,10 @@ public:
 // Non member Declarations
 } // namespace UnityEngine::UIElements
 // Dependencies System.Nullable`1<T>, UnityEngine.UIElements.DynamicHeightVirtualizationController`1::ScrollDirection<T>,
-// UnityEngine.UIElements.DynamicHeightVirtualizationController`1::VirtualizationChange<T>, UnityEngine.UIElements.ReusableCollectionItem, UnityEngine.UIElements.VerticalVirtualizationController`1<T>,
-// UnityEngine.Vector2
+// UnityEngine.UIElements.DynamicHeightVirtualizationController`1::VirtualizationChange<T>, UnityEngine.UIElements.VerticalVirtualizationController`1<T>, UnityEngine.Vector2
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::ReusableCollectionItem*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.DynamicHeightVirtualizationController`1<T>
 class CORDL_TYPE DynamicHeightVirtualizationController_1 : public ::UnityEngine::UIElements::VerticalVirtualizationController_1<T> {

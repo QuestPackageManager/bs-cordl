@@ -29,14 +29,10 @@ namespace Unity::Collections {
 struct Allocator;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1;
+template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IEquatable_1<TValue>*>)
-class ArrayHelpers___c__DisplayClass33_0_1;
+template <typename TValue> class ArrayHelpers___c__DisplayClass33_0_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> class ArrayHelpers___c__DisplayClass34_0_1;
@@ -49,9 +45,7 @@ namespace UnityEngine::InputSystem::Utilities {
 class ArrayHelpers;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IEquatable_1<TValue>*>)
-class ArrayHelpers___c__DisplayClass33_0_1;
+template <typename TValue> class ArrayHelpers___c__DisplayClass33_0_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> class ArrayHelpers___c__DisplayClass34_0_1;
@@ -69,11 +63,10 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::InputSystem::Utilities::ArrayHelpers_
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass34_0_1, "UnityEngine.InputSystem.Utilities", "ArrayHelpers/<>c__DisplayClass34_0`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass34_1_1, "UnityEngine.InputSystem.Utilities", "ArrayHelpers/<>c__DisplayClass34_1`1");
 // [CompilerGenerated]
-// Dependencies System.IEquatable`1<T>, System.Object
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IEquatable_1<TValue>*>)
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.Utilities.ArrayHelpers/<>c__DisplayClass33_0`1<TValue>
 class CORDL_TYPE ArrayHelpers___c__DisplayClass33_0_1 : public ::System::Object {
@@ -240,9 +233,7 @@ namespace UnityEngine::InputSystem::Utilities {
 class CORDL_TYPE ArrayHelpers : public ::System::Object {
 public:
   // Declarations
-  template <typename TValue>
-    requires(::cordl_internals::type_constraint<TValue, ::System::IEquatable_1<TValue>*>)
-  using __c__DisplayClass33_0_1 = ::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>;
+  template <typename TValue> using __c__DisplayClass33_0_1 = ::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>;
 
   template <typename TValue> using __c__DisplayClass34_0_1 = ::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass34_0_1<TValue>;
 

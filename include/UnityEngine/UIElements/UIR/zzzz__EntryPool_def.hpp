@@ -21,9 +21,7 @@ namespace UnityEngine::UIElements::UIR {
 class Entry;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class ImplicitPool_1;
+template <typename T> class ImplicitPool_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {

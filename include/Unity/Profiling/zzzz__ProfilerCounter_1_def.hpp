@@ -14,9 +14,7 @@ struct ProfilerMarkerDataUnit;
 }
 // Forward declare root types
 namespace Unity::Profiling {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct ProfilerCounter_1;
+template <typename T> struct ProfilerCounter_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Profiling::ProfilerCounter_1);
@@ -26,7 +24,6 @@ DEFINE_IL2CPP_GEN_CLASS(::Unity::Profiling::ProfilerCounter_1, "Unity.Profiling"
 namespace Unity::Profiling {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Profiling.ProfilerCounter`1<T>
 struct CORDL_TYPE ProfilerCounter_1 {

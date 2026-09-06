@@ -14,26 +14,17 @@ namespace Unity::Collections {
 struct AllocatorManager_AllocatorHandle;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class IIndexable_1;
+template <typename T> class IIndexable_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class INativeList_1;
+template <typename T> class INativeList_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1;
+template <typename T> struct NativeArray_1;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T, typename U>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> && ::cordl_internals::value_type_constraint<U> &&
-           ::cordl_internals::default_constructor_constraint<U>)
-struct FixedList_2;
+template <typename T, typename U> struct FixedList_2;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::FixedList_2);
@@ -44,8 +35,6 @@ DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::FixedList_2, "Unity.Collections", 
 namespace Unity::Collections {
 // cpp template
 template <typename T, typename U>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> && ::cordl_internals::value_type_constraint<U> &&
-           ::cordl_internals::default_constructor_constraint<U>)
 // Is value type: true
 // CS Name: Unity.Collections.FixedList`2<T,U>
 struct CORDL_TYPE FixedList_2 {

@@ -16,9 +16,7 @@ namespace System {
 class IDisposable;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeSlice_1;
+template <typename T> struct NativeSlice_1;
 }
 namespace Unity::Jobs {
 class IJobParallelFor;

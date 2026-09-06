@@ -9,14 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomFilterUtil)
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-class BloomFilterUtil___c__DisplayClass1_0_1;
+template <typename T> class BloomFilterUtil___c__DisplayClass1_0_1;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-class BloomFilterUtil___c__DisplayClass2_0_1;
+template <typename T> class BloomFilterUtil___c__DisplayClass2_0_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -26,14 +22,10 @@ namespace GlobalNamespace {
 class BloomFilterUtil;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-class BloomFilterUtil___c__DisplayClass1_0_1;
+template <typename T> class BloomFilterUtil___c__DisplayClass1_0_1;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-class BloomFilterUtil___c__DisplayClass2_0_1;
+template <typename T> class BloomFilterUtil___c__DisplayClass2_0_1;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::BloomFilterUtil*);
@@ -43,11 +35,10 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::BloomFilterUtil*, "", "BloomFilterUtil");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1, "", "BloomFilterUtil/<>c__DisplayClass1_0`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1, "", "BloomFilterUtil/<>c__DisplayClass2_0`1");
 // [CompilerGenerated]
-// Dependencies IBitMask`1<T>, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: BloomFilterUtil/<>c__DisplayClass1_0`1<T>
 class CORDL_TYPE BloomFilterUtil___c__DisplayClass1_0_1 : public ::System::Object {
@@ -107,11 +98,10 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // [CompilerGenerated]
-// Dependencies IBitMask`1<T>, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: BloomFilterUtil/<>c__DisplayClass2_0`1<T>
 class CORDL_TYPE BloomFilterUtil___c__DisplayClass2_0_1 : public ::System::Object {
@@ -178,13 +168,9 @@ namespace GlobalNamespace {
 class CORDL_TYPE BloomFilterUtil : public ::System::Object {
 public:
   // Declarations
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-  using __c__DisplayClass1_0_1 = ::GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>;
+  template <typename T> using __c__DisplayClass1_0_1 = ::GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-  using __c__DisplayClass2_0_1 = ::GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>;
+  template <typename T> using __c__DisplayClass2_0_1 = ::GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>;
 
   /// [Extension]
   /// @brief Method AddBloomFilterEntry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

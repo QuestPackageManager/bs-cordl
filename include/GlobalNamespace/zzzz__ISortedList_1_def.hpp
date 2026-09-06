@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IComparable_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ISortedList_1)
 namespace System::Collections::Generic {
@@ -14,18 +13,15 @@ template <typename T> class LinkedList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
-class ISortedList_1;
+template <typename T> class ISortedList_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::ISortedList_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::ISortedList_1, "", "ISortedList`1");
-// Dependencies System.IComparable`1<T>
+// Dependencies
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
 // Is value type: false
 // CS Name: ISortedList`1<T>
 class CORDL_TYPE ISortedList_1 {

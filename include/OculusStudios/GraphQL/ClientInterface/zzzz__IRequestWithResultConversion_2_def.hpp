@@ -3,27 +3,21 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "OculusStudios/GraphQL/ClientInterface/zzzz__IGraphQLModel_def.hpp"
 CORDL_MODULE_EXPORT(IRequestWithResultConversion_2)
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 // Forward declare root types
 namespace OculusStudios::GraphQL::ClientInterface {
-template <typename TBackend, typename TFrontend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend> &&
-           ::cordl_internals::reference_type_constraint<TFrontend>)
-class IRequestWithResultConversion_2;
+template <typename TBackend, typename TFrontend> class IRequestWithResultConversion_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::OculusStudios::GraphQL::ClientInterface::IRequestWithResultConversion_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::OculusStudios::GraphQL::ClientInterface::IRequestWithResultConversion_2, "OculusStudios.GraphQL.ClientInterface", "IRequestWithResultConversion`2");
-// Dependencies OculusStudios.GraphQL.ClientInterface.IGraphQLModel
+// Dependencies
 namespace OculusStudios::GraphQL::ClientInterface {
 // cpp template
 template <typename TBackend, typename TFrontend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend> &&
-           ::cordl_internals::reference_type_constraint<TFrontend>)
 // Is value type: false
 // CS Name: OculusStudios.GraphQL.ClientInterface.IRequestWithResultConversion`2<TBackend,TFrontend>
 class CORDL_TYPE IRequestWithResultConversion_2 {

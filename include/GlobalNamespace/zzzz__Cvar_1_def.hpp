@@ -4,14 +4,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__ObservableVariable_1_def.hpp"
-#include "System/zzzz__IConvertible_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(Cvar_1)
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
-class Cvar_1___c;
+template <typename T> class Cvar_1___c;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -27,14 +24,10 @@ class Type;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
-class Cvar_1;
+template <typename T> class Cvar_1;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
-class Cvar_1___c;
+template <typename T> class Cvar_1___c;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::Cvar_1);
@@ -42,11 +35,10 @@ MARK_GEN_REF_T_PTR(::GlobalNamespace::Cvar_1___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::Cvar_1, "", "Cvar`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::Cvar_1___c, "", "Cvar`1/<>c");
 // [CompilerGenerated]
-// Dependencies System.IConvertible, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
 // Is value type: false
 // CS Name: Cvar`1/<>c<T>
 class CORDL_TYPE Cvar_1___c : public ::System::Object {
@@ -95,11 +87,10 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies ObservableVariable`1<T>, System.IConvertible
+// Dependencies ObservableVariable`1<T>
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
 // Is value type: false
 // CS Name: Cvar`1<T>
 class CORDL_TYPE Cvar_1 : public ::GlobalNamespace::ObservableVariable_1<T> {

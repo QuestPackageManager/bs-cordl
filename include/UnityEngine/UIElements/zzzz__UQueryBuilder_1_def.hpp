@@ -32,18 +32,14 @@ namespace UnityEngine::UIElements {
 class StyleSelector;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
-struct UQueryState_1;
+template <typename T> struct UQueryState_1;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
-struct UQueryBuilder_1;
+template <typename T> struct UQueryBuilder_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::UIElements::UQueryBuilder_1);
@@ -52,7 +48,6 @@ DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::UQueryBuilder_1, "UnityEngine
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
 // Is value type: true
 // CS Name: UnityEngine.UIElements.UQueryBuilder`1<T>
 struct CORDL_TYPE UQueryBuilder_1 {

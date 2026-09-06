@@ -7,14 +7,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(OVRResult)
 namespace GlobalNamespace {
-template <typename TStatus>
-  requires(::cordl_internals::type_constraint<TStatus, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TStatus> && ::cordl_internals::default_constructor_constraint<TStatus>)
-struct OVRResult_1;
+template <typename TStatus> struct OVRResult_1;
 }
 namespace GlobalNamespace {
-template <typename TValue, typename TStatus>
-  requires(::cordl_internals::type_constraint<TStatus, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TStatus> && ::cordl_internals::default_constructor_constraint<TStatus>)
-struct OVRResult_2;
+template <typename TValue, typename TStatus> struct OVRResult_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

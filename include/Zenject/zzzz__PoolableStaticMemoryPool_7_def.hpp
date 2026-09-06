@@ -3,25 +3,19 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Zenject/zzzz__IPoolable_6_def.hpp"
 #include "Zenject/zzzz__StaticMemoryPool_7_def.hpp"
 CORDL_MODULE_EXPORT(PoolableStaticMemoryPool_7)
 // Forward declare root types
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*> && ::cordl_internals::reference_type_constraint<TValue> &&
-           ::cordl_internals::default_constructor_constraint<TValue>)
-class PoolableStaticMemoryPool_7;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue> class PoolableStaticMemoryPool_7;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::PoolableStaticMemoryPool_7);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::PoolableStaticMemoryPool_7, "Zenject", "PoolableStaticMemoryPool`7");
-// Dependencies Zenject.IPoolable`6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>, Zenject.StaticMemoryPool`7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>
+// Dependencies Zenject.StaticMemoryPool`7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*> && ::cordl_internals::reference_type_constraint<TValue> &&
-           ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: false
 // CS Name: Zenject.PoolableStaticMemoryPool`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue>
 class CORDL_TYPE PoolableStaticMemoryPool_7 : public ::Zenject::StaticMemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue> {

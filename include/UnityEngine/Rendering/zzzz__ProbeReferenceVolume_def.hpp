@@ -74,9 +74,7 @@ namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1;
+template <typename T> struct NativeArray_1;
 }
 namespace Unity::IO::LowLevel::Unsafe {
 struct FileHandle;
@@ -88,9 +86,7 @@ namespace UnityEngine::Events {
 template <typename T0> class UnityAction_1;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType>
-  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
-class BaseRenderFunc_2;
+template <typename PassData, typename ContextType> class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RenderGraphContext;
@@ -123,19 +119,13 @@ namespace UnityEngine::Rendering {
 template <typename T> class DebugUI_Field_1;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class DynamicArray_1_SortComparer;
+template <typename T> class DynamicArray_1_SortComparer;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class DynamicArray_1;
+template <typename T> class DynamicArray_1;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class ObjectPool_1;
+template <typename T> class ObjectPool_1;
 }
 namespace UnityEngine::Rendering {
 class ProbeBrickBlendingPool;

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/zzzz__Component_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(LocalizedTextComponent_1)
@@ -24,20 +23,17 @@ class Object;
 }
 // Forward declare root types
 namespace BGLib::Polyglot {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
-class LocalizedTextComponent_1;
+template <typename T> class LocalizedTextComponent_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::BGLib::Polyglot::LocalizedTextComponent_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::BGLib::Polyglot::LocalizedTextComponent_1, "BGLib.Polyglot", "LocalizedTextComponent`1");
 // [NullableContext(1)]
 // [Nullable(0)]
-// Dependencies UnityEngine.Component, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.MonoBehaviour
 namespace BGLib::Polyglot {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
 // Is value type: false
 // CS Name: BGLib.Polyglot.LocalizedTextComponent`1<T>
 class CORDL_TYPE LocalizedTextComponent_1 : public ::UnityEngine::MonoBehaviour {

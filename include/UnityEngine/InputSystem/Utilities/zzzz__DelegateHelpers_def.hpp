@@ -28,9 +28,7 @@ namespace Unity::Profiling {
 struct ProfilerMarker;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TDelegate>
-  requires(::cordl_internals::type_constraint<TDelegate, ::System::Delegate*>)
-struct CallbackArray_1;
+template <typename TDelegate> struct CallbackArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {

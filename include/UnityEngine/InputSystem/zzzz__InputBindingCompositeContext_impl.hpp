@@ -100,30 +100,23 @@ constexpr ::UnityEngine::InputSystem::InputBindingCompositeContext_PartBinding::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputBindingCompositeContext_PartBinding::InputBindingCompositeContext_PartBinding() {}
-template <typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IComparable_1<TValue>*>)
-inline int32_t UnityEngine::InputSystem::InputBindingCompositeContext_DefaultComparer_1<TValue>::Compare(TValue x, TValue y) {
+template <typename TValue> inline int32_t UnityEngine::InputSystem::InputBindingCompositeContext_DefaultComparer_1<TValue>::Compare(TValue x, TValue y) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputBindingCompositeContext_DefaultComparer_1<TValue>>(),
                                                                                          { "Compare", {}, { ::i2c::type_of<TValue>(), ::i2c::type_of<TValue>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, x, y);
 }
 /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<TValue>"
-template <typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IComparable_1<TValue>*>)
-constexpr UnityEngine::InputSystem::InputBindingCompositeContext_DefaultComparer_1<TValue>::operator ::System::Collections::Generic::IComparer_1<TValue>*() {
+template <typename TValue> constexpr UnityEngine::InputSystem::InputBindingCompositeContext_DefaultComparer_1<TValue>::operator ::System::Collections::Generic::IComparer_1<TValue>*() {
   return static_cast<::System::Collections::Generic::IComparer_1<TValue>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Collections::Generic::IComparer_1<TValue>"
 template <typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IComparable_1<TValue>*>)
 constexpr ::System::Collections::Generic::IComparer_1<TValue>*
 UnityEngine::InputSystem::InputBindingCompositeContext_DefaultComparer_1<TValue>::i___System__Collections__Generic__IComparer_1_TValue_() {
   return static_cast<::System::Collections::Generic::IComparer_1<TValue>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters []
-template <typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IComparable_1<TValue>*>)
-constexpr ::UnityEngine::InputSystem::InputBindingCompositeContext_DefaultComparer_1<TValue>::InputBindingCompositeContext_DefaultComparer_1() {}
+template <typename TValue> constexpr ::UnityEngine::InputSystem::InputBindingCompositeContext_DefaultComparer_1<TValue>::InputBindingCompositeContext_DefaultComparer_1() {}
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputBindingCompositeContext.get_controls
 template <>
 

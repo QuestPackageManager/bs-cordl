@@ -28,30 +28,20 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 class RenderGraphLogger;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename Type>
-  requires(::cordl_internals::reference_type_constraint<Type>)
-struct RenderGraphResourcePool_1_ResourceLogInfo;
+template <typename Type> struct RenderGraphResourcePool_1_ResourceLogInfo;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename Type>
-  requires(::cordl_internals::reference_type_constraint<Type>)
-class RenderGraphResourcePool_1___c;
+template <typename Type> class RenderGraphResourcePool_1___c;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename Type>
-  requires(::cordl_internals::reference_type_constraint<Type>)
-class RenderGraphResourcePool_1;
+template <typename Type> class RenderGraphResourcePool_1;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename Type>
-  requires(::cordl_internals::reference_type_constraint<Type>)
-class RenderGraphResourcePool_1___c;
+template <typename Type> class RenderGraphResourcePool_1___c;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename Type>
-  requires(::cordl_internals::reference_type_constraint<Type>)
-struct RenderGraphResourcePool_1_ResourceLogInfo;
+template <typename Type> struct RenderGraphResourcePool_1_ResourceLogInfo;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1);
@@ -64,7 +54,6 @@ DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::Rendering::RenderGraphModule::RenderGraph
 namespace UnityEngine::Rendering::RenderGraphModule {
 // cpp template
 template <typename Type>
-  requires(::cordl_internals::reference_type_constraint<Type>)
 // Is value type: true
 // CS Name: UnityEngine.Rendering.RenderGraphModule.RenderGraphResourcePool`1/ResourceLogInfo<Type>
 struct CORDL_TYPE RenderGraphResourcePool_1_ResourceLogInfo {
@@ -99,7 +88,6 @@ public:
 namespace UnityEngine::Rendering::RenderGraphModule {
 // cpp template
 template <typename Type>
-  requires(::cordl_internals::reference_type_constraint<Type>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.RenderGraphModule.RenderGraphResourcePool`1/<>c<Type>
 class CORDL_TYPE RenderGraphResourcePool_1___c : public ::System::Object {
@@ -154,7 +142,6 @@ public:
 namespace UnityEngine::Rendering::RenderGraphModule {
 // cpp template
 template <typename Type>
-  requires(::cordl_internals::reference_type_constraint<Type>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.RenderGraphModule.RenderGraphResourcePool`1<Type>
 class CORDL_TYPE RenderGraphResourcePool_1 : public ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResourcePool {

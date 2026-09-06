@@ -33,9 +33,7 @@ namespace Zenject {
 class FactoryBindInfo;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TContract, typename TSubFactory>
-  requires(::cordl_internals::type_constraint<TSubFactory, ::Zenject::IFactory_3<TParam1, TParam2, TContract>*>)
-class FactoryFromBinder_3___c__2_1;
+template <typename TParam1, typename TParam2, typename TContract, typename TSubFactory> class FactoryFromBinder_3___c__2_1;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TContract> class FactoryFromBinder_3___c__DisplayClass1_0;
@@ -57,9 +55,7 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TContract> class FactoryFromBinder_3;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TContract, typename TSubFactory>
-  requires(::cordl_internals::type_constraint<TSubFactory, ::Zenject::IFactory_3<TParam1, TParam2, TContract>*>)
-class FactoryFromBinder_3___c__2_1;
+template <typename TParam1, typename TParam2, typename TContract, typename TSubFactory> class FactoryFromBinder_3___c__2_1;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TContract> class FactoryFromBinder_3___c__DisplayClass1_0;
@@ -72,11 +68,10 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactoryFromBinder_3, "Zenject", "FactoryF
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactoryFromBinder_3___c__2_1, "Zenject", "FactoryFromBinder`3/<>c__2`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactoryFromBinder_3___c__DisplayClass1_0, "Zenject", "FactoryFromBinder`3/<>c__DisplayClass1_0");
 // [CompilerGenerated]
-// Dependencies System.Object, Zenject.IFactory`3<TParam1, TParam2, TValue>
+// Dependencies System.Object
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TContract, typename TSubFactory>
-  requires(::cordl_internals::type_constraint<TSubFactory, ::Zenject::IFactory_3<TParam1, TParam2, TContract>*>)
 // Is value type: false
 // CS Name: Zenject.FactoryFromBinder`3/<>c__2`1<TParam1,TParam2,TContract,TSubFactory>
 class CORDL_TYPE FactoryFromBinder_3___c__2_1 : public ::System::Object {

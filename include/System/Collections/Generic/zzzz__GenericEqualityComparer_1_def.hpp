@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Collections/Generic/zzzz__EqualityComparer_1_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GenericEqualityComparer_1)
@@ -13,18 +12,15 @@ class Object;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*>)
-class GenericEqualityComparer_1;
+template <typename T> class GenericEqualityComparer_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::System::Collections::Generic::GenericEqualityComparer_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Collections::Generic::GenericEqualityComparer_1, "System.Collections.Generic", "GenericEqualityComparer`1");
-// Dependencies System.Collections.Generic.EqualityComparer`1<T>, System.IEquatable`1<T>
+// Dependencies System.Collections.Generic.EqualityComparer`1<T>
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*>)
 // Is value type: false
 // CS Name: System.Collections.Generic.GenericEqualityComparer`1<T>
 class CORDL_TYPE GenericEqualityComparer_1 : public ::System::Collections::Generic::EqualityComparer_1<T> {

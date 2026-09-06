@@ -12,9 +12,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncRetry)
 namespace OSCE::Web {
-template <typename TException>
-  requires(::cordl_internals::type_constraint<TException, ::System::Exception*>)
-struct AsyncRetry__RetryOn_d__0_1;
+template <typename TException> struct AsyncRetry__RetryOn_d__0_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -33,9 +31,7 @@ namespace OSCE::Web {
 class AsyncRetry;
 }
 namespace OSCE::Web {
-template <typename TException>
-  requires(::cordl_internals::type_constraint<TException, ::System::Exception*>)
-struct AsyncRetry__RetryOn_d__0_1;
+template <typename TException> struct AsyncRetry__RetryOn_d__0_1;
 }
 // Write type traits
 MARK_REF_T(::OSCE::Web::AsyncRetry*);
@@ -43,11 +39,10 @@ MARK_GEN_VAL_T(::OSCE::Web::AsyncRetry__RetryOn_d__0_1);
 DEFINE_IL2CPP_CLASS(::OSCE::Web::AsyncRetry*, "OSCE.Web", "AsyncRetry");
 DEFINE_IL2CPP_GEN_CLASS(::OSCE::Web::AsyncRetry__RetryOn_d__0_1, "OSCE.Web", "AsyncRetry/<RetryOn>d__0`1");
 // [CompilerGenerated]
-// Dependencies System.Exception, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken
 namespace OSCE::Web {
 // cpp template
 template <typename TException>
-  requires(::cordl_internals::type_constraint<TException, ::System::Exception*>)
 // Is value type: true
 // CS Name: OSCE.Web.AsyncRetry/<RetryOn>d__0`1<TException>
 struct CORDL_TYPE AsyncRetry__RetryOn_d__0_1 {
@@ -121,9 +116,7 @@ namespace OSCE::Web {
 class CORDL_TYPE AsyncRetry : public ::System::Object {
 public:
   // Declarations
-  template <typename TException>
-    requires(::cordl_internals::type_constraint<TException, ::System::Exception*>)
-  using _RetryOn_d__0_1 = ::OSCE::Web::AsyncRetry__RetryOn_d__0_1<TException>;
+  template <typename TException> using _RetryOn_d__0_1 = ::OSCE::Web::AsyncRetry__RetryOn_d__0_1<TException>;
 
   /// [AsyncStateMachine(typeof(OSCE.Web.AsyncRetry::<RetryOn>d__0`1<TException>))]
   /// @brief Method RetryOn, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

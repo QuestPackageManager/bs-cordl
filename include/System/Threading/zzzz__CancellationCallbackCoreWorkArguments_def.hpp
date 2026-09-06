@@ -10,9 +10,7 @@ namespace System::Threading {
 class CancellationCallbackInfo;
 }
 namespace System::Threading {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class SparselyPopulatedArrayFragment_1;
+template <typename T> class SparselyPopulatedArrayFragment_1;
 }
 // Forward declare root types
 namespace System::Threading {

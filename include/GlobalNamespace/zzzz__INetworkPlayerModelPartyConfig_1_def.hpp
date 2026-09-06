@@ -3,22 +3,18 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__INetworkPlayerModel_def.hpp"
 CORDL_MODULE_EXPORT(INetworkPlayerModelPartyConfig_1)
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::INetworkPlayerModel*>)
-class INetworkPlayerModelPartyConfig_1;
+template <typename T> class INetworkPlayerModelPartyConfig_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::INetworkPlayerModelPartyConfig_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::INetworkPlayerModelPartyConfig_1, "", "INetworkPlayerModelPartyConfig`1");
-// Dependencies INetworkPlayerModel
+// Dependencies
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::INetworkPlayerModel*>)
 // Is value type: false
 // CS Name: INetworkPlayerModelPartyConfig`1<T>
 class CORDL_TYPE INetworkPlayerModelPartyConfig_1 {

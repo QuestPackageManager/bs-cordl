@@ -23,9 +23,7 @@ namespace System {
 struct IntPtr;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeSlice_1;
+template <typename T> struct NativeSlice_1;
 }
 namespace UnityEngine::Bindings {
 struct ManagedSpanWrapper;
@@ -43,9 +41,7 @@ namespace UnityEngine::UIElements::UIR {
 struct Utility_GPUBufferType;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class Utility_GPUBuffer_1;
+template <typename T> class Utility_GPUBuffer_1;
 }
 namespace UnityEngine {
 class MaterialPropertyBlock;
@@ -64,9 +60,7 @@ namespace UnityEngine::UIElements::UIR {
 class Utility;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class Utility_GPUBuffer_1;
+template <typename T> class Utility_GPUBuffer_1;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::UIR::Utility_GPUBufferType);
@@ -134,7 +128,6 @@ static_assert(sizeof(::UnityEngine::UIElements::UIR::Utility_GPUBufferType) == 0
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UIR.Utility/GPUBuffer`1<T>
 class CORDL_TYPE Utility_GPUBuffer_1 : public ::System::Object {
@@ -235,9 +228,7 @@ public:
   // Declarations
   using GPUBufferType = ::UnityEngine::UIElements::UIR::Utility_GPUBufferType;
 
-  template <typename T>
-    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  using GPUBuffer_1 = ::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>;
+  template <typename T> using GPUBuffer_1 = ::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>;
 
   /// @brief Field EngineUpdate, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_EngineUpdate, put = setStaticF_EngineUpdate)) ::System::Action* EngineUpdate;

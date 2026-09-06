@@ -4,33 +4,27 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Collections/Generic/zzzz__EqualityComparer_1_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NullableEqualityComparer_1)
 namespace System {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct Nullable_1;
+template <typename T> struct Nullable_1;
 }
 namespace System {
 class Object;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NullableEqualityComparer_1;
+template <typename T> class NullableEqualityComparer_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::System::Collections::Generic::NullableEqualityComparer_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Collections::Generic::NullableEqualityComparer_1, "System.Collections.Generic", "NullableEqualityComparer`1");
-// Dependencies System.Collections.Generic.EqualityComparer`1<T>, System.IEquatable`1<T>, System.Nullable`1<T>
+// Dependencies System.Collections.Generic.EqualityComparer`1<T>, System.Nullable`1<T>
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: System.Collections.Generic.NullableEqualityComparer`1<T>
 class CORDL_TYPE NullableEqualityComparer_1 : public ::System::Collections::Generic::EqualityComparer_1<::System::Nullable_1<T>> {

@@ -15,25 +15,17 @@ namespace System {
 class IDisposable;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeSlice_1;
+template <typename T> struct NativeSlice_1;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct TempAllocator_1_Page;
+template <typename T> struct TempAllocator_1_Page;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class TempAllocator_1;
+template <typename T> class TempAllocator_1;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct TempAllocator_1_Page;
+template <typename T> struct TempAllocator_1_Page;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::UIR::TempAllocator_1);
@@ -44,7 +36,6 @@ DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::UIR::TempAllocator_1_Page, "U
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.UIElements.UIR.TempAllocator`1/Page<T>
 struct CORDL_TYPE TempAllocator_1_Page {
@@ -78,7 +69,6 @@ public:
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UIR.TempAllocator`1<T>
 class CORDL_TYPE TempAllocator_1 : public ::System::Object {

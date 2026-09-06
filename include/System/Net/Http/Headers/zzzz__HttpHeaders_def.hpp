@@ -39,9 +39,7 @@ namespace System::Net::Http::Headers {
 struct HttpHeaderKind;
 }
 namespace System::Net::Http::Headers {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class HttpHeaderValueCollection_1;
+template <typename T> class HttpHeaderValueCollection_1;
 }
 namespace System::Net::Http::Headers {
 class HttpHeaders_HeaderBucket;
@@ -56,9 +54,7 @@ namespace System {
 class IDisposable;
 }
 namespace System {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct Nullable_1;
+template <typename T> struct Nullable_1;
 }
 namespace System {
 class Object;

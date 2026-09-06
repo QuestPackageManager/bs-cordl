@@ -40,14 +40,10 @@ namespace GlobalNamespace {
 class IBeatSaberConnectedPlayer;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*>)
-class IConnectionInitParams_1;
+template <typename T> class IConnectionInitParams_1;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::INetworkPlayerModel*>)
-class INetworkPlayerModelPartyConfig_1;
+template <typename T> class INetworkPlayerModelPartyConfig_1;
 }
 namespace GlobalNamespace {
 class INetworkPlayerModel;

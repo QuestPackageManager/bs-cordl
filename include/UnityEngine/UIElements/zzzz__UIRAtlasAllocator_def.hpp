@@ -16,9 +16,7 @@ namespace UnityEngine::UIElements {
 class AreaNode_UIRAtlasAllocator___c;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class ObjectPool_1;
+template <typename T> class ObjectPool_1;
 }
 namespace UnityEngine::UIElements {
 class Row_UIRAtlasAllocator___c;

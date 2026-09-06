@@ -1,9 +1,7 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/Layout/FixedBuffer9_1.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__FixedBuffer9_1_def.hpp"
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline ::by_ref<T> UnityEngine::UIElements::Layout::FixedBuffer9_1<T>::get_Item(int32_t index) {
+template <typename T> inline ::by_ref<T> UnityEngine::UIElements::Layout::FixedBuffer9_1<T>::get_Item(int32_t index) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::FixedBuffer9_1<T>>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<T>>(*this, ___internal_method, index);
@@ -13,9 +11,7 @@ inline ::by_ref<T> UnityEngine::UIElements::Layout::FixedBuffer9_1<T>::get_Item(
 // "__4", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__5", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__6", ty: "T",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__8", ty: "T", modifiers: "",
 // def_value: Some("{}"), comment: None }]
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr ::UnityEngine::UIElements::Layout::FixedBuffer9_1<T>::FixedBuffer9_1(T __0, T __1, T __2, T __3, T __4, T __5, T __6, T __7, T __8) noexcept {
+template <typename T> constexpr ::UnityEngine::UIElements::Layout::FixedBuffer9_1<T>::FixedBuffer9_1(T __0, T __1, T __2, T __3, T __4, T __5, T __6, T __7, T __8) noexcept {
   this->__0 = __0;
   this->__1 = __1;
   this->__2 = __2;
@@ -27,6 +23,4 @@ constexpr ::UnityEngine::UIElements::Layout::FixedBuffer9_1<T>::FixedBuffer9_1(T
   this->__8 = __8;
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr ::UnityEngine::UIElements::Layout::FixedBuffer9_1<T>::FixedBuffer9_1() {}
+template <typename T> constexpr ::UnityEngine::UIElements::Layout::FixedBuffer9_1<T>::FixedBuffer9_1() {}

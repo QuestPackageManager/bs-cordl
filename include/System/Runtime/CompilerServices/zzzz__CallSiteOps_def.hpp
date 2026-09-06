@@ -11,17 +11,13 @@ namespace System::Runtime::CompilerServices {
 class CallSiteBinder;
 }
 namespace System::Runtime::CompilerServices {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class CallSite_1;
+template <typename T> class CallSite_1;
 }
 namespace System::Runtime::CompilerServices {
 class CallSite;
 }
 namespace System::Runtime::CompilerServices {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class RuleCache_1;
+template <typename T> class RuleCache_1;
 }
 namespace System {
 class Object;

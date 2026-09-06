@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IConvertible_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Properties/zzzz__PropertyBag_1_def.hpp"
 #include "Unity/Properties/zzzz__Property_2_def.hpp"
@@ -213,9 +212,7 @@ namespace UnityEngine::UIElements {
 class InlineStyleAccessPropertyBag_InlineStyleCursorProperty;
 }
 namespace UnityEngine::UIElements {
-template <typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-class InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1;
+template <typename TValue> class InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1;
 }
 namespace UnityEngine::UIElements {
 class InlineStyleAccessPropertyBag_InlineStyleFloatProperty;
@@ -236,9 +233,7 @@ namespace UnityEngine::UIElements {
 template <typename T> class InlineStyleAccessPropertyBag_InlineStyleListProperty_1;
 }
 namespace UnityEngine::UIElements {
-template <typename TStyleValue, typename TValue>
-  requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
-class InlineStyleAccessPropertyBag_InlineStyleProperty_2;
+template <typename TStyleValue, typename TValue> class InlineStyleAccessPropertyBag_InlineStyleProperty_2;
 }
 namespace UnityEngine::UIElements {
 class InlineStyleAccessPropertyBag_InlineStyleRotateProperty;
@@ -427,9 +422,7 @@ namespace UnityEngine::UIElements {
 class InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c;
 }
 namespace UnityEngine::UIElements {
-template <typename TStyleValue, typename TValue>
-  requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
-class InlineStyleProperty_2_InlineStyleAccessPropertyBag___c;
+template <typename TStyleValue, typename TValue> class InlineStyleProperty_2_InlineStyleAccessPropertyBag___c;
 }
 namespace UnityEngine::UIElements {
 struct Justify;
@@ -462,9 +455,7 @@ namespace UnityEngine::UIElements {
 struct StyleCursor;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct StyleEnum_1;
+template <typename T> struct StyleEnum_1;
 }
 namespace UnityEngine::UIElements {
 struct StyleFloat;
@@ -669,9 +660,7 @@ namespace UnityEngine::UIElements {
 class InlineStyleAccessPropertyBag_InlineStyleCursorProperty;
 }
 namespace UnityEngine::UIElements {
-template <typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-class InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1;
+template <typename TValue> class InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1;
 }
 namespace UnityEngine::UIElements {
 class InlineStyleAccessPropertyBag_InlineStyleFloatProperty;
@@ -692,9 +681,7 @@ namespace UnityEngine::UIElements {
 template <typename T> class InlineStyleAccessPropertyBag_InlineStyleListProperty_1;
 }
 namespace UnityEngine::UIElements {
-template <typename TStyleValue, typename TValue>
-  requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
-class InlineStyleAccessPropertyBag_InlineStyleProperty_2;
+template <typename TStyleValue, typename TValue> class InlineStyleAccessPropertyBag_InlineStyleProperty_2;
 }
 namespace UnityEngine::UIElements {
 class InlineStyleAccessPropertyBag_InlineStyleRotateProperty;
@@ -880,9 +867,7 @@ namespace UnityEngine::UIElements {
 class InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c;
 }
 namespace UnityEngine::UIElements {
-template <typename TStyleValue, typename TValue>
-  requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
-class InlineStyleProperty_2_InlineStyleAccessPropertyBag___c;
+template <typename TStyleValue, typename TValue> class InlineStyleProperty_2_InlineStyleAccessPropertyBag___c;
 }
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::InlineStyleAccessPropertyBag*);
@@ -1114,11 +1099,10 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::InlineStyleFontDefinitionProperty
                     "InlineStyleAccessPropertyBag/InlineStyleFontDefinitionProperty/<>c");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::InlineStyleLengthProperty_InlineStyleAccessPropertyBag___c*, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/InlineStyleLengthProperty/<>c");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c, "UnityEngine.UIElements", "InlineStyleAccessPropertyBag/InlineStyleProperty`2/<>c");
-// Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.UIElements.IStyleValue`1<T>
+// Dependencies Unity.Properties.Property`2<TContainer, TValue>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TStyleValue, typename TValue>
-  requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleProperty`2<TStyleValue,TValue>
 class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleProperty_2 : public ::Unity::Properties::Property_2<::UnityEngine::UIElements::InlineStyleAccess*, TStyleValue> {
@@ -1157,11 +1141,10 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies System.IConvertible, UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleProperty`2<TStyleValue, TValue>, UnityEngine.UIElements.StyleEnum`1<T>
+// Dependencies UnityEngine.UIElements.InlineStyleAccessPropertyBag::InlineStyleProperty`2<TStyleValue, TValue>, UnityEngine.UIElements.StyleEnum`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleEnumProperty`1<TValue>
 class CORDL_TYPE InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1
@@ -6473,11 +6456,10 @@ static_assert(sizeof(::UnityEngine::UIElements::InlineStyleAccessPropertyBag_Wor
 
 } // namespace UnityEngine::UIElements
 // [CompilerGenerated]
-// Dependencies System.Object, UnityEngine.UIElements.IStyleValue`1<T>
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TStyleValue, typename TValue>
-  requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.InlineStyleAccessPropertyBag/InlineStyleProperty`2/<>c<TStyleValue,TValue>
 class CORDL_TYPE InlineStyleProperty_2_InlineStyleAccessPropertyBag___c : public ::System::Object {
@@ -7055,9 +7037,7 @@ public:
 
   using InlineStyleCursorProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleCursorProperty;
 
-  template <typename TValue>
-    requires(::cordl_internals::type_constraint<TValue, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-  using InlineStyleEnumProperty_1 = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<TValue>;
+  template <typename TValue> using InlineStyleEnumProperty_1 = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<TValue>;
 
   using InlineStyleFloatProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleFloatProperty;
 
@@ -7071,9 +7051,7 @@ public:
 
   template <typename T> using InlineStyleListProperty_1 = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleListProperty_1<T>;
 
-  template <typename TStyleValue, typename TValue>
-    requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
-  using InlineStyleProperty_2 = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<TStyleValue, TValue>;
+  template <typename TStyleValue, typename TValue> using InlineStyleProperty_2 = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<TStyleValue, TValue>;
 
   using InlineStyleRotateProperty = ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleRotateProperty;
 

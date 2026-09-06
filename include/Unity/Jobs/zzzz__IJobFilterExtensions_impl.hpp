@@ -18,7 +18,6 @@
 // Ctor Parameters [CppParam { name: "outputIndices", ty: "::Unity::Collections::NativeList_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "appendCount", ty:
 // "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "JobData", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr ::Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_JobWrapper<T>::JobFilterProducer_1_IJobFilterExtensions_JobWrapper(::Unity::Collections::NativeList_1<int32_t> outputIndices,
                                                                                                                                      int32_t appendCount, T JobData) noexcept {
   this->outputIndices = outputIndices;
@@ -26,18 +25,13 @@ constexpr ::Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_JobWrapper<T>:
   this->JobData = JobData;
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr ::Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_JobWrapper<T>::JobFilterProducer_1_IJobFilterExtensions_JobWrapper() {}
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline void Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction<T>::_ctor(::System::Object* object, ::System::IntPtr method) {
+template <typename T> constexpr ::Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_JobWrapper<T>::JobFilterProducer_1_IJobFilterExtensions_JobWrapper() {}
+template <typename T> inline void Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction<T>::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction<T>*>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction<T>::Invoke(::by_ref<::Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_JobWrapper<T>> jobWrapper,
                                                                                                 ::System::IntPtr additionalPtr, ::System::IntPtr bufferRangePatchData,
                                                                                                 ::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges, int32_t jobIndex) {
@@ -47,7 +41,6 @@ inline void Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunc
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, jobWrapper, additionalPtr, bufferRangePatchData, ranges, jobIndex);
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::System::IAsyncResult* Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction<T>::BeginInvoke(
     ::by_ref<::Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_JobWrapper<T>> jobWrapper, ::System::IntPtr additionalPtr, ::System::IntPtr bufferRangePatchData,
     ::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges, int32_t jobIndex, ::System::AsyncCallback* callback, ::System::Object* object) {
@@ -57,7 +50,6 @@ inline ::System::IAsyncResult* Unity::Jobs::JobFilterProducer_1_IJobFilterExtens
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, jobWrapper, additionalPtr, bufferRangePatchData, ranges, jobIndex, callback, object);
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction<T>::EndInvoke(::by_ref<::Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_JobWrapper<T>> jobWrapper,
                                                                                                    ::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges, ::System::IAsyncResult* result) {
   auto* ___internal_method =
@@ -66,34 +58,24 @@ inline void Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunc
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, jobWrapper, ranges, result);
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction<T>* Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction<T>::New_ctor(::System::Object* object,
                                                                                                                                                                             ::System::IntPtr method) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction<T>*>(object, method));
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr ::Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction<T>::JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction() {}
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline void Unity::Jobs::IJobFilterExtensions_JobFilterProducer_1<T>::setStaticF_jobReflectionData(::Unity::Burst::SharedStatic_1<::System::IntPtr> value) {
+template <typename T> constexpr ::Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction<T>::JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction() {}
+template <typename T> inline void Unity::Jobs::IJobFilterExtensions_JobFilterProducer_1<T>::setStaticF_jobReflectionData(::Unity::Burst::SharedStatic_1<::System::IntPtr> value) {
   ::cordl_internals::setStaticField<::Unity::Burst::SharedStatic_1<::System::IntPtr>, "jobReflectionData", ::Unity::Jobs::IJobFilterExtensions_JobFilterProducer_1<T>>(
       std::forward<::Unity::Burst::SharedStatic_1<::System::IntPtr>>(value));
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline ::Unity::Burst::SharedStatic_1<::System::IntPtr> Unity::Jobs::IJobFilterExtensions_JobFilterProducer_1<T>::getStaticF_jobReflectionData() {
+template <typename T> inline ::Unity::Burst::SharedStatic_1<::System::IntPtr> Unity::Jobs::IJobFilterExtensions_JobFilterProducer_1<T>::getStaticF_jobReflectionData() {
   return ::cordl_internals::getStaticField<::Unity::Burst::SharedStatic_1<::System::IntPtr>, "jobReflectionData", ::Unity::Jobs::IJobFilterExtensions_JobFilterProducer_1<T>>();
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline void Unity::Jobs::IJobFilterExtensions_JobFilterProducer_1<T>::Initialize() {
+template <typename T> inline void Unity::Jobs::IJobFilterExtensions_JobFilterProducer_1<T>::Initialize() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::IJobFilterExtensions_JobFilterProducer_1<T>>(), { "Initialize", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Jobs::IJobFilterExtensions_JobFilterProducer_1<T>::Execute(::by_ref<::Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_JobWrapper<T>> jobWrapper,
                                                                               ::System::IntPtr additionalPtr, ::System::IntPtr bufferRangePatchData,
                                                                               ::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges, int32_t jobIndex) {
@@ -106,7 +88,6 @@ inline void Unity::Jobs::IJobFilterExtensions_JobFilterProducer_1<T>::Execute(::
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, jobWrapper, additionalPtr, bufferRangePatchData, ranges, jobIndex);
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Jobs::IJobFilterExtensions_JobFilterProducer_1<T>::ExecuteAppend(::by_ref<::Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_JobWrapper<T>> jobWrapper,
                                                                                     ::System::IntPtr bufferRangePatchData) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +97,6 @@ inline void Unity::Jobs::IJobFilterExtensions_JobFilterProducer_1<T>::ExecuteApp
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, jobWrapper, bufferRangePatchData);
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Jobs::IJobFilterExtensions_JobFilterProducer_1<T>::ExecuteFilter(::by_ref<::Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_JobWrapper<T>> jobWrapper,
                                                                                     ::System::IntPtr bufferRangePatchData) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -126,9 +106,7 @@ inline void Unity::Jobs::IJobFilterExtensions_JobFilterProducer_1<T>::ExecuteFil
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, jobWrapper, bufferRangePatchData);
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr ::Unity::Jobs::IJobFilterExtensions_JobFilterProducer_1<T>::IJobFilterExtensions_JobFilterProducer_1() {}
+template <typename T> constexpr ::Unity::Jobs::IJobFilterExtensions_JobFilterProducer_1<T>::IJobFilterExtensions_JobFilterProducer_1() {}
 template <typename T>
   requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Jobs::IJobFilterExtensions::EarlyJobInit() {

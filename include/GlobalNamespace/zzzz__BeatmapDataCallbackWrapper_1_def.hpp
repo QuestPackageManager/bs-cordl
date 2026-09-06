@@ -4,33 +4,27 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDataCallbackWrapper_1)
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-class BeatmapDataCallback_1;
+template <typename T> class BeatmapDataCallback_1;
 }
 namespace GlobalNamespace {
 class BeatmapDataItem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-class BeatmapDataCallbackWrapper_1;
+template <typename T> class BeatmapDataCallbackWrapper_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::BeatmapDataCallbackWrapper_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::BeatmapDataCallbackWrapper_1, "", "BeatmapDataCallbackWrapper`1");
-// Dependencies BeatmapDataCallbackWrapper, BeatmapDataItem
+// Dependencies BeatmapDataCallbackWrapper
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
 // Is value type: false
 // CS Name: BeatmapDataCallbackWrapper`1<T>
 class CORDL_TYPE BeatmapDataCallbackWrapper_1 : public ::GlobalNamespace::BeatmapDataCallbackWrapper {

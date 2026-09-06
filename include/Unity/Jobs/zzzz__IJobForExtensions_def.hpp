@@ -21,31 +21,23 @@ namespace Unity::Jobs::LowLevel::Unsafe {
 struct JobRanges;
 }
 namespace Unity::Jobs {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFor*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class ForJobStruct_1_IJobForExtensions_ExecuteJobFunction;
+template <typename T> class ForJobStruct_1_IJobForExtensions_ExecuteJobFunction;
 }
 namespace Unity::Jobs {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFor*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct IJobForExtensions_ForJobStruct_1;
+template <typename T> struct IJobForExtensions_ForJobStruct_1;
 }
 namespace Unity::Jobs {
 struct JobHandle;
 }
 // Forward declare root types
 namespace Unity::Jobs {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFor*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class ForJobStruct_1_IJobForExtensions_ExecuteJobFunction;
+template <typename T> class ForJobStruct_1_IJobForExtensions_ExecuteJobFunction;
 }
 namespace Unity::Jobs {
 class IJobForExtensions;
 }
 namespace Unity::Jobs {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFor*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct IJobForExtensions_ForJobStruct_1;
+template <typename T> struct IJobForExtensions_ForJobStruct_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Unity::Jobs::ForJobStruct_1_IJobForExtensions_ExecuteJobFunction);
@@ -54,11 +46,10 @@ MARK_GEN_VAL_T(::Unity::Jobs::IJobForExtensions_ForJobStruct_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Jobs::ForJobStruct_1_IJobForExtensions_ExecuteJobFunction, "Unity.Jobs", "IJobForExtensions/ForJobStruct`1/ExecuteJobFunction");
 DEFINE_IL2CPP_CLASS(::Unity::Jobs::IJobForExtensions*, "Unity.Jobs", "IJobForExtensions");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Jobs::IJobForExtensions_ForJobStruct_1, "Unity.Jobs", "IJobForExtensions/ForJobStruct`1");
-// Dependencies System.MulticastDelegate, Unity.Jobs.IJobFor
+// Dependencies System.MulticastDelegate
 namespace Unity::Jobs {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFor*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: Unity.Jobs.IJobForExtensions/ForJobStruct`1/ExecuteJobFunction<T>
 class CORDL_TYPE ForJobStruct_1_IJobForExtensions_ExecuteJobFunction : public ::System::MulticastDelegate {
@@ -93,11 +84,10 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Jobs
-// Dependencies System.IntPtr, Unity.Collections.LowLevel.Unsafe.BurstLike::SharedStatic`1<T>, Unity.Jobs.IJobFor
+// Dependencies System.IntPtr, Unity.Collections.LowLevel.Unsafe.BurstLike::SharedStatic`1<T>
 namespace Unity::Jobs {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFor*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Jobs.IJobForExtensions/ForJobStruct`1<T>
 #pragma pack(push, 0)
@@ -143,9 +133,7 @@ namespace Unity::Jobs {
 class CORDL_TYPE IJobForExtensions : public ::System::Object {
 public:
   // Declarations
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFor*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  using ForJobStruct_1 = ::Unity::Jobs::IJobForExtensions_ForJobStruct_1<T>;
+  template <typename T> using ForJobStruct_1 = ::Unity::Jobs::IJobForExtensions_ForJobStruct_1<T>;
 
   /// @brief Method EarlyJobInit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>

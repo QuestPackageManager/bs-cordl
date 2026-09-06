@@ -3,14 +3,12 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__IRemoteProcedureCall_def.hpp"
 #include "GlobalNamespace/zzzz__RemoteProcedureCall_1_def.hpp"
 #include "GlobalNamespace/zzzz__RemoteProcedureCall_2_def.hpp"
 #include "GlobalNamespace/zzzz__RemoteProcedureCall_3_def.hpp"
 #include "GlobalNamespace/zzzz__RemoteProcedureCall_4_def.hpp"
 #include "GlobalNamespace/zzzz__RemoteProcedureCall_def.hpp"
-#include "System/zzzz__IConvertible_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstdint>
@@ -19,108 +17,46 @@ namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-template <typename TConnectedPlayer>
-  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*>)
-class IMultiplayerSessionManager_1;
+template <typename TConnectedPlayer> class IMultiplayerSessionManager_1;
 }
 namespace GlobalNamespace {
-template <typename TMessageType, typename TConnectedPlayer>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> && ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*>)
-class IMultiplayerSessionMessageProcessor_2;
+template <typename TMessageType, typename TConnectedPlayer> class IMultiplayerSessionMessageProcessor_2;
 }
 namespace GlobalNamespace {
-template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
-class NetworkPacketSerializer_2;
+template <typename TType, typename TData> class NetworkPacketSerializer_2;
 }
 namespace GlobalNamespace {
-template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall*> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-class RpcHandler_3___c__DisplayClass11_0_1;
+template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T> class RpcHandler_3___c__DisplayClass11_0_1;
 }
 namespace GlobalNamespace {
-template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_1<T0>*> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-class RpcHandler_3___c__DisplayClass12_0_2;
+template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0> class RpcHandler_3___c__DisplayClass12_0_2;
 }
 namespace GlobalNamespace {
-template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_2<T0, T1>*> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-class RpcHandler_3___c__DisplayClass13_0_3;
+template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1> class RpcHandler_3___c__DisplayClass13_0_3;
 }
 namespace GlobalNamespace {
-template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1, typename T2>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>*> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-class RpcHandler_3___c__DisplayClass14_0_4;
+template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1, typename T2> class RpcHandler_3___c__DisplayClass14_0_4;
 }
 namespace GlobalNamespace {
-template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1, typename T2, typename T3>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_4<T0, T1, T2, T3>*> && ::cordl_internals::default_constructor_constraint<T>)
-class RpcHandler_3___c__DisplayClass15_0_5;
+template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1, typename T2, typename T3> class RpcHandler_3___c__DisplayClass15_0_5;
 }
 namespace GlobalNamespace {
-template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall*> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-class RpcHandler_3___c__DisplayClass16_0_1;
+template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T> class RpcHandler_3___c__DisplayClass16_0_1;
 }
 namespace GlobalNamespace {
-template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_1<T0>*> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-class RpcHandler_3___c__DisplayClass17_0_2;
+template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0> class RpcHandler_3___c__DisplayClass17_0_2;
 }
 namespace GlobalNamespace {
-template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_2<T0, T1>*> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-class RpcHandler_3___c__DisplayClass18_0_3;
+template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1> class RpcHandler_3___c__DisplayClass18_0_3;
 }
 namespace GlobalNamespace {
-template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1, typename T2>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>*> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-class RpcHandler_3___c__DisplayClass19_0_4;
+template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1, typename T2> class RpcHandler_3___c__DisplayClass19_0_4;
 }
 namespace GlobalNamespace {
-template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1, typename T2, typename T3>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_4<T0, T1, T2, T3>*> && ::cordl_internals::default_constructor_constraint<T>)
-class RpcHandler_3___c__DisplayClass20_0_5;
+template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1, typename T2, typename T3> class RpcHandler_3___c__DisplayClass20_0_5;
 }
 namespace GlobalNamespace {
-template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::IRemoteProcedureCall*> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-class RpcHandler_3___c__DisplayClass21_0_1;
+template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T> class RpcHandler_3___c__DisplayClass21_0_1;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -142,99 +78,40 @@ template <typename T1, typename T2, typename T3, typename T4, typename T5, typen
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename TMessageType, typename TType, typename TConnectedPlayer>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*>)
-class RpcHandler_3;
+template <typename TMessageType, typename TType, typename TConnectedPlayer> class RpcHandler_3;
 }
 namespace GlobalNamespace {
-template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall*> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-class RpcHandler_3___c__DisplayClass11_0_1;
+template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T> class RpcHandler_3___c__DisplayClass11_0_1;
 }
 namespace GlobalNamespace {
-template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_1<T0>*> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-class RpcHandler_3___c__DisplayClass12_0_2;
+template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0> class RpcHandler_3___c__DisplayClass12_0_2;
 }
 namespace GlobalNamespace {
-template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_2<T0, T1>*> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-class RpcHandler_3___c__DisplayClass13_0_3;
+template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1> class RpcHandler_3___c__DisplayClass13_0_3;
 }
 namespace GlobalNamespace {
-template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1, typename T2>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>*> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-class RpcHandler_3___c__DisplayClass14_0_4;
+template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1, typename T2> class RpcHandler_3___c__DisplayClass14_0_4;
 }
 namespace GlobalNamespace {
-template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1, typename T2, typename T3>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_4<T0, T1, T2, T3>*> && ::cordl_internals::default_constructor_constraint<T>)
-class RpcHandler_3___c__DisplayClass15_0_5;
+template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1, typename T2, typename T3> class RpcHandler_3___c__DisplayClass15_0_5;
 }
 namespace GlobalNamespace {
-template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall*> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-class RpcHandler_3___c__DisplayClass16_0_1;
+template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T> class RpcHandler_3___c__DisplayClass16_0_1;
 }
 namespace GlobalNamespace {
-template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_1<T0>*> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-class RpcHandler_3___c__DisplayClass17_0_2;
+template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0> class RpcHandler_3___c__DisplayClass17_0_2;
 }
 namespace GlobalNamespace {
-template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_2<T0, T1>*> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-class RpcHandler_3___c__DisplayClass18_0_3;
+template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1> class RpcHandler_3___c__DisplayClass18_0_3;
 }
 namespace GlobalNamespace {
-template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1, typename T2>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>*> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-class RpcHandler_3___c__DisplayClass19_0_4;
+template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1, typename T2> class RpcHandler_3___c__DisplayClass19_0_4;
 }
 namespace GlobalNamespace {
-template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1, typename T2, typename T3>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_4<T0, T1, T2, T3>*> && ::cordl_internals::default_constructor_constraint<T>)
-class RpcHandler_3___c__DisplayClass20_0_5;
+template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1, typename T2, typename T3> class RpcHandler_3___c__DisplayClass20_0_5;
 }
 namespace GlobalNamespace {
-template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::IRemoteProcedureCall*> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-class RpcHandler_3___c__DisplayClass21_0_1;
+template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T> class RpcHandler_3___c__DisplayClass21_0_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::RpcHandler_3);
@@ -262,14 +139,10 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::RpcHandler_3___c__DisplayClass19_
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::RpcHandler_3___c__DisplayClass20_0_5, "", "RpcHandler`3/<>c__DisplayClass20_0`5");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::RpcHandler_3___c__DisplayClass21_0_1, "", "RpcHandler`3/<>c__DisplayClass21_0`1");
 // [CompilerGenerated]
-// Dependencies IConnectedPlayer, RemoteProcedureCall, System.IConvertible, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall*> &&
-           ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: RpcHandler`3/<>c__DisplayClass11_0`1<TMessageType,TType,TConnectedPlayer,T>
 class CORDL_TYPE RpcHandler_3___c__DisplayClass11_0_1 : public ::System::Object {
@@ -317,14 +190,10 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // [CompilerGenerated]
-// Dependencies IConnectedPlayer, RemoteProcedureCall`1<T0>, System.IConvertible, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_1<T0>*> &&
-           ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: RpcHandler`3/<>c__DisplayClass12_0`2<TMessageType,TType,TConnectedPlayer,T,T0>
 class CORDL_TYPE RpcHandler_3___c__DisplayClass12_0_2 : public ::System::Object {
@@ -372,14 +241,10 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // [CompilerGenerated]
-// Dependencies IConnectedPlayer, RemoteProcedureCall`2<T0, T1>, System.IConvertible, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_2<T0, T1>*> &&
-           ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: RpcHandler`3/<>c__DisplayClass13_0`3<TMessageType,TType,TConnectedPlayer,T,T0,T1>
 class CORDL_TYPE RpcHandler_3___c__DisplayClass13_0_3 : public ::System::Object {
@@ -427,14 +292,10 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // [CompilerGenerated]
-// Dependencies IConnectedPlayer, RemoteProcedureCall`3<T0, T1, T2>, System.IConvertible, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1, typename T2>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>*> &&
-           ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: RpcHandler`3/<>c__DisplayClass14_0`4<TMessageType,TType,TConnectedPlayer,T,T0,T1,T2>
 class CORDL_TYPE RpcHandler_3___c__DisplayClass14_0_4 : public ::System::Object {
@@ -482,14 +343,10 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // [CompilerGenerated]
-// Dependencies IConnectedPlayer, RemoteProcedureCall`4<T0, T1, T2, T3>, System.IConvertible, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1, typename T2, typename T3>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_4<T0, T1, T2, T3>*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: RpcHandler`3/<>c__DisplayClass15_0`5<TMessageType,TType,TConnectedPlayer,T,T0,T1,T2,T3>
 class CORDL_TYPE RpcHandler_3___c__DisplayClass15_0_5 : public ::System::Object {
@@ -537,14 +394,10 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // [CompilerGenerated]
-// Dependencies IConnectedPlayer, RemoteProcedureCall, System.IConvertible, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall*> &&
-           ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: RpcHandler`3/<>c__DisplayClass16_0`1<TMessageType,TType,TConnectedPlayer,T>
 class CORDL_TYPE RpcHandler_3___c__DisplayClass16_0_1 : public ::System::Object {
@@ -592,14 +445,10 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // [CompilerGenerated]
-// Dependencies IConnectedPlayer, RemoteProcedureCall`1<T0>, System.IConvertible, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_1<T0>*> &&
-           ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: RpcHandler`3/<>c__DisplayClass17_0`2<TMessageType,TType,TConnectedPlayer,T,T0>
 class CORDL_TYPE RpcHandler_3___c__DisplayClass17_0_2 : public ::System::Object {
@@ -647,14 +496,10 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // [CompilerGenerated]
-// Dependencies IConnectedPlayer, RemoteProcedureCall`2<T0, T1>, System.IConvertible, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_2<T0, T1>*> &&
-           ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: RpcHandler`3/<>c__DisplayClass18_0`3<TMessageType,TType,TConnectedPlayer,T,T0,T1>
 class CORDL_TYPE RpcHandler_3___c__DisplayClass18_0_3 : public ::System::Object {
@@ -702,14 +547,10 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // [CompilerGenerated]
-// Dependencies IConnectedPlayer, RemoteProcedureCall`3<T0, T1, T2>, System.IConvertible, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1, typename T2>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>*> &&
-           ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: RpcHandler`3/<>c__DisplayClass19_0`4<TMessageType,TType,TConnectedPlayer,T,T0,T1,T2>
 class CORDL_TYPE RpcHandler_3___c__DisplayClass19_0_4 : public ::System::Object {
@@ -757,14 +598,10 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // [CompilerGenerated]
-// Dependencies IConnectedPlayer, RemoteProcedureCall`4<T0, T1, T2, T3>, System.IConvertible, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T, typename T0, typename T1, typename T2, typename T3>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
-           ::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_4<T0, T1, T2, T3>*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: RpcHandler`3/<>c__DisplayClass20_0`5<TMessageType,TType,TConnectedPlayer,T,T0,T1,T2,T3>
 class CORDL_TYPE RpcHandler_3___c__DisplayClass20_0_5 : public ::System::Object {
@@ -812,14 +649,10 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // [CompilerGenerated]
-// Dependencies IConnectedPlayer, IRemoteProcedureCall, System.IConvertible, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TMessageType, typename TType, typename TConnectedPlayer, typename T>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::IRemoteProcedureCall*> &&
-           ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: RpcHandler`3/<>c__DisplayClass21_0`1<TMessageType,TType,TConnectedPlayer,T>
 class CORDL_TYPE RpcHandler_3___c__DisplayClass21_0_1 : public ::System::Object {
@@ -866,62 +699,41 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies IConnectedPlayer, IRemoteProcedureCall, RemoteProcedureCall, RemoteProcedureCall`1<T0>, RemoteProcedureCall`2<T0, T1>, RemoteProcedureCall`3<T0, T1, T2>, RemoteProcedureCall`4<T0, T1,
-// T2, T3>, System.IConvertible, System.Object
+// Dependencies IRemoteProcedureCall, RemoteProcedureCall, RemoteProcedureCall`1<T0>, RemoteProcedureCall`2<T0, T1>, RemoteProcedureCall`3<T0, T1, T2>, RemoteProcedureCall`4<T0, T1, T2, T3>,
+// System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TMessageType, typename TType, typename TConnectedPlayer>
-  requires(::cordl_internals::value_type_constraint<TMessageType> && ::cordl_internals::default_constructor_constraint<TMessageType> &&
-           ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*>)
 // Is value type: false
 // CS Name: RpcHandler`3<TMessageType,TType,TConnectedPlayer>
 class CORDL_TYPE RpcHandler_3 : public ::System::Object {
 public:
   // Declarations
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall*> && ::cordl_internals::default_constructor_constraint<T>)
-  using __c__DisplayClass11_0_1 = ::GlobalNamespace::RpcHandler_3___c__DisplayClass11_0_1<TMessageType, TType, TConnectedPlayer, T>;
+  template <typename T> using __c__DisplayClass11_0_1 = ::GlobalNamespace::RpcHandler_3___c__DisplayClass11_0_1<TMessageType, TType, TConnectedPlayer, T>;
 
-  template <typename T, typename T0>
-    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_1<T0>*> && ::cordl_internals::default_constructor_constraint<T>)
-  using __c__DisplayClass12_0_2 = ::GlobalNamespace::RpcHandler_3___c__DisplayClass12_0_2<TMessageType, TType, TConnectedPlayer, T, T0>;
+  template <typename T, typename T0> using __c__DisplayClass12_0_2 = ::GlobalNamespace::RpcHandler_3___c__DisplayClass12_0_2<TMessageType, TType, TConnectedPlayer, T, T0>;
 
-  template <typename T, typename T0, typename T1>
-    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_2<T0, T1>*> && ::cordl_internals::default_constructor_constraint<T>)
-  using __c__DisplayClass13_0_3 = ::GlobalNamespace::RpcHandler_3___c__DisplayClass13_0_3<TMessageType, TType, TConnectedPlayer, T, T0, T1>;
+  template <typename T, typename T0, typename T1> using __c__DisplayClass13_0_3 = ::GlobalNamespace::RpcHandler_3___c__DisplayClass13_0_3<TMessageType, TType, TConnectedPlayer, T, T0, T1>;
 
   template <typename T, typename T0, typename T1, typename T2>
-    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>*> && ::cordl_internals::default_constructor_constraint<T>)
   using __c__DisplayClass14_0_4 = ::GlobalNamespace::RpcHandler_3___c__DisplayClass14_0_4<TMessageType, TType, TConnectedPlayer, T, T0, T1, T2>;
 
   template <typename T, typename T0, typename T1, typename T2, typename T3>
-    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_4<T0, T1, T2, T3>*> && ::cordl_internals::default_constructor_constraint<T>)
   using __c__DisplayClass15_0_5 = ::GlobalNamespace::RpcHandler_3___c__DisplayClass15_0_5<TMessageType, TType, TConnectedPlayer, T, T0, T1, T2, T3>;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall*> && ::cordl_internals::default_constructor_constraint<T>)
-  using __c__DisplayClass16_0_1 = ::GlobalNamespace::RpcHandler_3___c__DisplayClass16_0_1<TMessageType, TType, TConnectedPlayer, T>;
+  template <typename T> using __c__DisplayClass16_0_1 = ::GlobalNamespace::RpcHandler_3___c__DisplayClass16_0_1<TMessageType, TType, TConnectedPlayer, T>;
 
-  template <typename T, typename T0>
-    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_1<T0>*> && ::cordl_internals::default_constructor_constraint<T>)
-  using __c__DisplayClass17_0_2 = ::GlobalNamespace::RpcHandler_3___c__DisplayClass17_0_2<TMessageType, TType, TConnectedPlayer, T, T0>;
+  template <typename T, typename T0> using __c__DisplayClass17_0_2 = ::GlobalNamespace::RpcHandler_3___c__DisplayClass17_0_2<TMessageType, TType, TConnectedPlayer, T, T0>;
 
-  template <typename T, typename T0, typename T1>
-    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_2<T0, T1>*> && ::cordl_internals::default_constructor_constraint<T>)
-  using __c__DisplayClass18_0_3 = ::GlobalNamespace::RpcHandler_3___c__DisplayClass18_0_3<TMessageType, TType, TConnectedPlayer, T, T0, T1>;
+  template <typename T, typename T0, typename T1> using __c__DisplayClass18_0_3 = ::GlobalNamespace::RpcHandler_3___c__DisplayClass18_0_3<TMessageType, TType, TConnectedPlayer, T, T0, T1>;
 
   template <typename T, typename T0, typename T1, typename T2>
-    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>*> && ::cordl_internals::default_constructor_constraint<T>)
   using __c__DisplayClass19_0_4 = ::GlobalNamespace::RpcHandler_3___c__DisplayClass19_0_4<TMessageType, TType, TConnectedPlayer, T, T0, T1, T2>;
 
   template <typename T, typename T0, typename T1, typename T2, typename T3>
-    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::RemoteProcedureCall_4<T0, T1, T2, T3>*> && ::cordl_internals::default_constructor_constraint<T>)
   using __c__DisplayClass20_0_5 = ::GlobalNamespace::RpcHandler_3___c__DisplayClass20_0_5<TMessageType, TType, TConnectedPlayer, T, T0, T1, T2, T3>;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IRemoteProcedureCall*> && ::cordl_internals::default_constructor_constraint<T>)
-  using __c__DisplayClass21_0_1 = ::GlobalNamespace::RpcHandler_3___c__DisplayClass21_0_1<TMessageType, TType, TConnectedPlayer, T>;
+  template <typename T> using __c__DisplayClass21_0_1 = ::GlobalNamespace::RpcHandler_3___c__DisplayClass21_0_1<TMessageType, TType, TConnectedPlayer, T>;
 
   /// @brief Field _messageType, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__messageType, put = __cordl_internal_set__messageType)) TMessageType _messageType;

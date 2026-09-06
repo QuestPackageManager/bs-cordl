@@ -39,7 +39,6 @@ class FactoryBindInfo;
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
           typename TContract, typename TSubFactory>
-  requires(::cordl_internals::type_constraint<TSubFactory, ::Zenject::IFactory_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*>)
 class FactoryFromBinder_11___c__2_1;
 }
 namespace Zenject {
@@ -77,7 +76,6 @@ class FactoryFromBinder_11;
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
           typename TContract, typename TSubFactory>
-  requires(::cordl_internals::type_constraint<TSubFactory, ::Zenject::IFactory_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*>)
 class FactoryFromBinder_11___c__2_1;
 }
 namespace Zenject {
@@ -100,12 +98,11 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactoryFromBinder_11___c__2_1, "Zenject",
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactoryFromBinder_11___c__DisplayClass1_0, "Zenject", "FactoryFromBinder`11/<>c__DisplayClass1_0");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactoryFromBinder_11___c__DisplayClass3_0, "Zenject", "FactoryFromBinder`11/<>c__DisplayClass3_0");
 // [CompilerGenerated]
-// Dependencies System.Object, Zenject.IFactory`11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TValue>
+// Dependencies System.Object
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
           typename TContract, typename TSubFactory>
-  requires(::cordl_internals::type_constraint<TSubFactory, ::Zenject::IFactory_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*>)
 // Is value type: false
 // CS Name: Zenject.FactoryFromBinder`11/<>c__2`1<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TContract,TSubFactory>
 class CORDL_TYPE FactoryFromBinder_11___c__2_1 : public ::System::Object {

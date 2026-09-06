@@ -11,14 +11,10 @@ namespace System {
 template <typename T> struct Span_1;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class DynamicArray_1_SortComparer;
+template <typename T> class DynamicArray_1_SortComparer;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class DynamicArray_1;
+template <typename T> class DynamicArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {

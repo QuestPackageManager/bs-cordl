@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(AvatarPartSO_1)
 namespace BeatSaber::BeatAvatarSDK {
@@ -12,18 +11,15 @@ class IAvatarPart;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarSDK {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
-class AvatarPartSO_1;
+template <typename T> class AvatarPartSO_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::BeatSaber::BeatAvatarSDK::AvatarPartSO_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::BeatSaber::BeatAvatarSDK::AvatarPartSO_1, "BeatSaber.BeatAvatarSDK", "AvatarPartSO`1");
-// Dependencies PersistentScriptableObject, UnityEngine.Object
+// Dependencies PersistentScriptableObject
 namespace BeatSaber::BeatAvatarSDK {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
 // Is value type: false
 // CS Name: BeatSaber.BeatAvatarSDK.AvatarPartSO`1<T>
 class CORDL_TYPE AvatarPartSO_1 : public ::GlobalNamespace::PersistentScriptableObject {

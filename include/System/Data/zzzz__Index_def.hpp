@@ -51,19 +51,13 @@ namespace System::Data {
 class Index___c__DisplayClass86_0;
 }
 namespace System::Data {
-template <typename TElem, typename T1, typename T2, typename T3, typename T4>
-  requires(::cordl_internals::reference_type_constraint<TElem>)
-class Listeners_1_Action_4;
+template <typename TElem, typename T1, typename T2, typename T3, typename T4> class Listeners_1_Action_4;
 }
 namespace System::Data {
-template <typename TElem, typename T1, typename TResult>
-  requires(::cordl_internals::reference_type_constraint<TElem>)
-class Listeners_1_Func_2;
+template <typename TElem, typename T1, typename TResult> class Listeners_1_Func_2;
 }
 namespace System::Data {
-template <typename TElem>
-  requires(::cordl_internals::reference_type_constraint<TElem>)
-class Listeners_1;
+template <typename TElem> class Listeners_1;
 }
 namespace System::Data {
 template <typename K> struct RBTree_1_RBTreeEnumerator;

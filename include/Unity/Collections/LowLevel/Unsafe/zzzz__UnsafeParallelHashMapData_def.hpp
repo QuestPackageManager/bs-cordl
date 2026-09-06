@@ -13,15 +13,10 @@ namespace Unity::Collections {
 struct AllocatorManager_AllocatorHandle;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1;
+template <typename T> struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
-           ::cordl_internals::default_constructor_constraint<TValue>)
-struct NativeKeyValueArrays_2;
+template <typename TKey, typename TValue> struct NativeKeyValueArrays_2;
 }
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe {

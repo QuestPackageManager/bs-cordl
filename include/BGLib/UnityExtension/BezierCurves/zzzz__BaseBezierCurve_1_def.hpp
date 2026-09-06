@@ -3,23 +3,19 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "BGLib/UnityExtension/BezierCurves/zzzz__BaseBezierCurveData_def.hpp"
 #include "BGLib/UnityExtension/BezierCurves/zzzz__BaseBezierCurve_def.hpp"
 CORDL_MODULE_EXPORT(BaseBezierCurve_1)
 // Forward declare root types
 namespace BGLib::UnityExtension::BezierCurves {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData*>)
-class BaseBezierCurve_1;
+template <typename T> class BaseBezierCurve_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::BGLib::UnityExtension::BezierCurves::BaseBezierCurve_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::BGLib::UnityExtension::BezierCurves::BaseBezierCurve_1, "BGLib.UnityExtension.BezierCurves", "BaseBezierCurve`1");
-// Dependencies BGLib.UnityExtension.BezierCurves.BaseBezierCurve, BGLib.UnityExtension.BezierCurves.BaseBezierCurveData
+// Dependencies BGLib.UnityExtension.BezierCurves.BaseBezierCurve
 namespace BGLib::UnityExtension::BezierCurves {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData*>)
 // Is value type: false
 // CS Name: BGLib.UnityExtension.BezierCurves.BaseBezierCurve`1<T>
 class CORDL_TYPE BaseBezierCurve_1 : public ::BGLib::UnityExtension::BezierCurves::BaseBezierCurve {

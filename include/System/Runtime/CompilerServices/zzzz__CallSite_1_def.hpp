@@ -24,9 +24,7 @@ namespace System::Runtime::CompilerServices {
 class CallSiteBinder;
 }
 namespace System::Runtime::CompilerServices {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class CallSite_1___c;
+template <typename T> class CallSite_1___c;
 }
 namespace System {
 template <typename TInput, typename TOutput> class Converter_2;
@@ -36,14 +34,10 @@ class Type;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class CallSite_1;
+template <typename T> class CallSite_1;
 }
 namespace System::Runtime::CompilerServices {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class CallSite_1___c;
+template <typename T> class CallSite_1___c;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::System::Runtime::CompilerServices::CallSite_1);
@@ -55,7 +49,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Runtime::CompilerServices::CallSite_1___c,
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: false
 // CS Name: System.Runtime.CompilerServices.CallSite`1/<>c<T>
 class CORDL_TYPE CallSite_1___c : public ::System::Object {
@@ -131,7 +124,6 @@ public:
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: false
 // CS Name: System.Runtime.CompilerServices.CallSite`1<T>
 class CORDL_TYPE CallSite_1 : public ::System::Runtime::CompilerServices::CallSite {

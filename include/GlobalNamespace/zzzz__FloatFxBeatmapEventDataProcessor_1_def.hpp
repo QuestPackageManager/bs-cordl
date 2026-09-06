@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapEventDataProcessor_1_def.hpp"
-#include "GlobalNamespace/zzzz__FloatFxBeatmapEventData_def.hpp"
 CORDL_MODULE_EXPORT(FloatFxBeatmapEventDataProcessor_1)
 namespace GlobalNamespace {
 class BeatmapDataItem;
@@ -14,18 +13,15 @@ template <typename T> class LinkedListNode_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::FloatFxBeatmapEventData*>)
-class FloatFxBeatmapEventDataProcessor_1;
+template <typename T> class FloatFxBeatmapEventDataProcessor_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::FloatFxBeatmapEventDataProcessor_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::FloatFxBeatmapEventDataProcessor_1, "", "FloatFxBeatmapEventDataProcessor`1");
-// Dependencies BeatmapEventDataProcessor`1<T>, FloatFxBeatmapEventData
+// Dependencies BeatmapEventDataProcessor`1<T>
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::FloatFxBeatmapEventData*>)
 // Is value type: false
 // CS Name: FloatFxBeatmapEventDataProcessor`1<T>
 class CORDL_TYPE FloatFxBeatmapEventDataProcessor_1 : public ::GlobalNamespace::BeatmapEventDataProcessor_1<T> {

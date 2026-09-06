@@ -7,7 +7,6 @@ CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
-#include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -16,9 +15,7 @@ namespace BGLib::AppFlow::Initialization {
 class IInstallerRegistry;
 }
 namespace BGLib::AppFlow::Initialization {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ScriptableObject*>)
-struct ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__3;
+template <typename T> struct ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__3;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -34,14 +31,10 @@ class DiContainer;
 }
 // Forward declare root types
 namespace BGLib::AppFlow::Initialization {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ScriptableObject*>)
-class ScriptableObjectReferenceAsyncInstaller_1;
+template <typename T> class ScriptableObjectReferenceAsyncInstaller_1;
 }
 namespace BGLib::AppFlow::Initialization {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ScriptableObject*>)
-struct ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__3;
+template <typename T> struct ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__3;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1);
@@ -50,11 +43,10 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::BGLib::AppFlow::Initialization::ScriptableObjectRe
 DEFINE_IL2CPP_GEN_CLASS(::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__3, "BGLib.AppFlow.Initialization",
                         "ScriptableObjectReferenceAsyncInstaller`1/<LoadResourcesBeforeInstallAsync>d__3");
 // [CompilerGenerated]
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, UnityEngine.ScriptableObject
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BGLib::AppFlow::Initialization {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ScriptableObject*>)
 // Is value type: true
 // CS Name: BGLib.AppFlow.Initialization.ScriptableObjectReferenceAsyncInstaller`1/<LoadResourcesBeforeInstallAsync>d__3<T>
 struct CORDL_TYPE ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__3 {
@@ -105,11 +97,10 @@ public:
 };
 // Non member Declarations
 } // namespace BGLib::AppFlow::Initialization
-// Dependencies BGLib.AppFlow.Initialization.AsyncInstaller, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>, UnityEngine.ScriptableObject
+// Dependencies BGLib.AppFlow.Initialization.AsyncInstaller, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>
 namespace BGLib::AppFlow::Initialization {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ScriptableObject*>)
 // Is value type: false
 // CS Name: BGLib.AppFlow.Initialization.ScriptableObjectReferenceAsyncInstaller`1<T>
 class CORDL_TYPE ScriptableObjectReferenceAsyncInstaller_1 : public ::BGLib::AppFlow::Initialization::AsyncInstaller {

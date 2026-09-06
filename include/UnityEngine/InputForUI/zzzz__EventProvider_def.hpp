@@ -20,9 +20,7 @@ namespace System {
 template <typename T> class Comparison_1;
 }
 namespace System {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct Nullable_1;
+template <typename T> struct Nullable_1;
 }
 namespace UnityEngine::InputForUI {
 class EventConsumer;

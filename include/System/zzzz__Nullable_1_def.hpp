@@ -12,9 +12,7 @@ class Object;
 }
 // Forward declare root types
 namespace System {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct Nullable_1;
+template <typename T> struct Nullable_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::System::Nullable_1);
@@ -24,7 +22,6 @@ DEFINE_IL2CPP_GEN_CLASS(::System::Nullable_1, "System", "Nullable`1");
 namespace System {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: System.Nullable`1<T>
 struct CORDL_TYPE Nullable_1 {

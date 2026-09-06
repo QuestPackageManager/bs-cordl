@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
 CORDL_MODULE_EXPORT(IDictionaryPropertyBag_3)
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
@@ -15,9 +14,7 @@ namespace Unity::Properties {
 template <typename TContainer> class ICollectionPropertyBagAccept_1;
 }
 namespace Unity::Properties {
-template <typename TCollection, typename TElement>
-  requires(::cordl_internals::type_constraint<TCollection, ::System::Collections::Generic::ICollection_1<TElement>*>)
-class ICollectionPropertyBag_2;
+template <typename TCollection, typename TElement> class ICollectionPropertyBag_2;
 }
 namespace Unity::Properties {
 template <typename TContainer> class IDictionaryPropertyBagAccept_1;
@@ -33,18 +30,15 @@ class IPropertyBag;
 }
 // Forward declare root types
 namespace Unity::Properties {
-template <typename TDictionary, typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
-class IDictionaryPropertyBag_3;
+template <typename TDictionary, typename TKey, typename TValue> class IDictionaryPropertyBag_3;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Unity::Properties::IDictionaryPropertyBag_3);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Properties::IDictionaryPropertyBag_3, "Unity.Properties", "IDictionaryPropertyBag`3");
-// Dependencies System.Collections.Generic.IDictionary`2<TKey, TValue>
+// Dependencies
 namespace Unity::Properties {
 // cpp template
 template <typename TDictionary, typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 // Is value type: false
 // CS Name: Unity.Properties.IDictionaryPropertyBag`3<TDictionary,TKey,TValue>
 class CORDL_TYPE IDictionaryPropertyBag_3 {

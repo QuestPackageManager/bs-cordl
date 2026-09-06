@@ -4,8 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__BaseUxmlFactory_2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlTraits_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 CORDL_MODULE_EXPORT(UxmlFactory_2)
 namespace UnityEngine::UIElements {
 struct CreationContext;
@@ -24,21 +22,16 @@ class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename TCreatedType, typename TTraits>
-  requires(::cordl_internals::type_constraint<TCreatedType, ::UnityEngine::UIElements::VisualElement*> && ::cordl_internals::default_constructor_constraint<TCreatedType> &&
-           ::cordl_internals::type_constraint<TTraits, ::UnityEngine::UIElements::UxmlTraits*> && ::cordl_internals::default_constructor_constraint<TTraits>)
-class UxmlFactory_2;
+template <typename TCreatedType, typename TTraits> class UxmlFactory_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::UxmlFactory_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::UxmlFactory_2, "UnityEngine.UIElements", "UxmlFactory`2");
 // [Obsolete("UxmlFactory<TCreatedType, TTraits> is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
-// Dependencies UnityEngine.UIElements.BaseUxmlFactory`2<TCreatedType, TTraits>, UnityEngine.UIElements.UxmlTraits, UnityEngine.UIElements.VisualElement
+// Dependencies UnityEngine.UIElements.BaseUxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TCreatedType, typename TTraits>
-  requires(::cordl_internals::type_constraint<TCreatedType, ::UnityEngine::UIElements::VisualElement*> && ::cordl_internals::default_constructor_constraint<TCreatedType> &&
-           ::cordl_internals::type_constraint<TTraits, ::UnityEngine::UIElements::UxmlTraits*> && ::cordl_internals::default_constructor_constraint<TTraits>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UxmlFactory`2<TCreatedType,TTraits>
 class CORDL_TYPE UxmlFactory_2 : public ::UnityEngine::UIElements::BaseUxmlFactory_2<TCreatedType, TTraits> {

@@ -16,9 +16,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
 struct UnsafeAppendBuffer;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct UnsafeParallelHashSet_1;
+template <typename T> struct UnsafeParallelHashSet_1;
 }
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe::NotBurstCompatible {

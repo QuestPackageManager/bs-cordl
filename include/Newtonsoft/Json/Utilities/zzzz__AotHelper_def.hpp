@@ -6,9 +6,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AotHelper)
 namespace Newtonsoft::Json::Utilities {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class AotHelper___c__1_1;
+template <typename T> class AotHelper___c__1_1;
 }
 namespace Newtonsoft::Json::Utilities {
 template <typename T> class AotHelper___c__2_1;
@@ -24,9 +22,7 @@ namespace Newtonsoft::Json::Utilities {
 class AotHelper;
 }
 namespace Newtonsoft::Json::Utilities {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class AotHelper___c__1_1;
+template <typename T> class AotHelper___c__1_1;
 }
 namespace Newtonsoft::Json::Utilities {
 template <typename T> class AotHelper___c__2_1;
@@ -48,7 +44,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Newtonsoft::Json::Utilities::AotHelper___c__3_2, "
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: Newtonsoft.Json.Utilities.AotHelper/<>c__1`1<T>
 class CORDL_TYPE AotHelper___c__1_1 : public ::System::Object {
@@ -212,9 +207,7 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE AotHelper : public ::System::Object {
 public:
   // Declarations
-  template <typename T>
-    requires(::cordl_internals::default_constructor_constraint<T>)
-  using __c__1_1 = ::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>;
+  template <typename T> using __c__1_1 = ::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>;
 
   template <typename T> using __c__2_1 = ::Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>;
 

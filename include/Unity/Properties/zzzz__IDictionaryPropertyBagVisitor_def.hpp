@@ -6,9 +6,7 @@ CORDL_MODULE_INIT
 #include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
 CORDL_MODULE_EXPORT(IDictionaryPropertyBagVisitor)
 namespace Unity::Properties {
-template <typename TDictionary, typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
-class IDictionaryPropertyBag_3;
+template <typename TDictionary, typename TKey, typename TValue> class IDictionaryPropertyBag_3;
 }
 // Forward declare root types
 namespace Unity::Properties {

@@ -16,9 +16,7 @@ namespace UnityEngine::UIElements {
 class BlurEvent;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
-class ClampedDragger_1;
+template <typename T> class ClampedDragger_1;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;

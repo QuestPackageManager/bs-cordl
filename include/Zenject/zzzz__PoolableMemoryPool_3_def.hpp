@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Zenject/zzzz__IPoolable_2_def.hpp"
 #include "Zenject/zzzz__MemoryPool_3_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 CORDL_MODULE_EXPORT(PoolableMemoryPool_3)
@@ -15,18 +14,15 @@ class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_2<TParam1, TParam2>*>)
-class PoolableMemoryPool_3;
+template <typename TParam1, typename TParam2, typename TValue> class PoolableMemoryPool_3;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::PoolableMemoryPool_3);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::PoolableMemoryPool_3, "Zenject", "PoolableMemoryPool`3");
-// Dependencies Zenject.IPoolable`2<TParam1, TParam2>, Zenject.MemoryPool`3<TParam1, TParam2, TValue>
+// Dependencies Zenject.MemoryPool`3<TParam1, TParam2, TValue>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_2<TParam1, TParam2>*>)
 // Is value type: false
 // CS Name: Zenject.PoolableMemoryPool`3<TParam1,TParam2,TValue>
 class CORDL_TYPE PoolableMemoryPool_3 : public ::Zenject::MemoryPool_3<TParam1, TParam2, TValue> {

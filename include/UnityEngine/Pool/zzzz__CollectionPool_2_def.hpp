@@ -3,37 +3,23 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CollectionPool_2)
 namespace UnityEngine::Pool {
-template <typename TCollection, typename TItem>
-  requires(::cordl_internals::type_constraint<TCollection, ::System::Collections::Generic::ICollection_1<TItem>*> && ::cordl_internals::reference_type_constraint<TCollection> &&
-           ::cordl_internals::default_constructor_constraint<TCollection>)
-class CollectionPool_2___c;
+template <typename TCollection, typename TItem> class CollectionPool_2___c;
 }
 namespace UnityEngine::Pool {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class ObjectPool_1;
+template <typename T> class ObjectPool_1;
 }
 namespace UnityEngine::Pool {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-struct PooledObject_1;
+template <typename T> struct PooledObject_1;
 }
 // Forward declare root types
 namespace UnityEngine::Pool {
-template <typename TCollection, typename TItem>
-  requires(::cordl_internals::type_constraint<TCollection, ::System::Collections::Generic::ICollection_1<TItem>*> && ::cordl_internals::reference_type_constraint<TCollection> &&
-           ::cordl_internals::default_constructor_constraint<TCollection>)
-class CollectionPool_2;
+template <typename TCollection, typename TItem> class CollectionPool_2;
 }
 namespace UnityEngine::Pool {
-template <typename TCollection, typename TItem>
-  requires(::cordl_internals::type_constraint<TCollection, ::System::Collections::Generic::ICollection_1<TItem>*> && ::cordl_internals::reference_type_constraint<TCollection> &&
-           ::cordl_internals::default_constructor_constraint<TCollection>)
-class CollectionPool_2___c;
+template <typename TCollection, typename TItem> class CollectionPool_2___c;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Pool::CollectionPool_2);
@@ -41,12 +27,10 @@ MARK_GEN_REF_T_PTR(::UnityEngine::Pool::CollectionPool_2___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Pool::CollectionPool_2, "UnityEngine.Pool", "CollectionPool`2");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Pool::CollectionPool_2___c, "UnityEngine.Pool", "CollectionPool`2/<>c");
 // [CompilerGenerated]
-// Dependencies System.Collections.Generic.ICollection`1<T>, System.Object
+// Dependencies System.Object
 namespace UnityEngine::Pool {
 // cpp template
 template <typename TCollection, typename TItem>
-  requires(::cordl_internals::type_constraint<TCollection, ::System::Collections::Generic::ICollection_1<TItem>*> && ::cordl_internals::reference_type_constraint<TCollection> &&
-           ::cordl_internals::default_constructor_constraint<TCollection>)
 // Is value type: false
 // CS Name: UnityEngine.Pool.CollectionPool`2/<>c<TCollection,TItem>
 class CORDL_TYPE CollectionPool_2___c : public ::System::Object {
@@ -91,12 +75,10 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::Pool
-// Dependencies System.Collections.Generic.ICollection`1<T>, System.Object
+// Dependencies System.Object
 namespace UnityEngine::Pool {
 // cpp template
 template <typename TCollection, typename TItem>
-  requires(::cordl_internals::type_constraint<TCollection, ::System::Collections::Generic::ICollection_1<TItem>*> && ::cordl_internals::reference_type_constraint<TCollection> &&
-           ::cordl_internals::default_constructor_constraint<TCollection>)
 // Is value type: false
 // CS Name: UnityEngine.Pool.CollectionPool`2<TCollection,TItem>
 class CORDL_TYPE CollectionPool_2 : public ::System::Object {

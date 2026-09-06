@@ -17,20 +17,14 @@ namespace UnityEngine::Events {
 template <typename T0> class UnityAction_1;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-struct ObjectPool_1_PooledObject;
+template <typename T> struct ObjectPool_1_PooledObject;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class ObjectPool_1;
+template <typename T> class ObjectPool_1;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-struct ObjectPool_1_PooledObject;
+template <typename T> struct ObjectPool_1_PooledObject;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::ObjectPool_1);
@@ -41,7 +35,6 @@ DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::Rendering::ObjectPool_1_PooledObject, "Un
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.Rendering.ObjectPool`1/PooledObject<T>
 struct CORDL_TYPE ObjectPool_1_PooledObject {
@@ -87,7 +80,6 @@ public:
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.ObjectPool`1<T>
 class CORDL_TYPE ObjectPool_1 : public ::System::Object {

@@ -29,12 +29,7 @@ namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
 class Label;
 }
 namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
-template <typename ControllerType, typename ProxyControllerType>
-  requires(::cordl_internals::type_constraint<ControllerType, ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*> &&
-           ::cordl_internals::default_constructor_constraint<ControllerType> &&
-           ::cordl_internals::type_constraint<ProxyControllerType, ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ProxyController_1<ControllerType>*> &&
-           ::cordl_internals::default_constructor_constraint<ProxyControllerType>)
-class ProxyFlex_2;
+template <typename ControllerType, typename ProxyControllerType> class ProxyFlex_2;
 }
 namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
 class ScrollView;

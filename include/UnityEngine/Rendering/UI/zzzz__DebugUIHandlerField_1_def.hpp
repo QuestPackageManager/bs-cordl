@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerWidget_def.hpp"
-#include "UnityEngine/Rendering/zzzz__DebugUI_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(DebugUIHandlerField_1)
 namespace UnityEngine::Rendering::UI {
@@ -18,18 +17,15 @@ class Text;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering::UI {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::DebugUI_Widget*>)
-class DebugUIHandlerField_1;
+template <typename T> class DebugUIHandlerField_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::UI::DebugUIHandlerField_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::UI::DebugUIHandlerField_1, "UnityEngine.Rendering.UI", "DebugUIHandlerField`1");
-// Dependencies UnityEngine.Rendering.DebugUI::Widget, UnityEngine.Rendering.UI.DebugUIHandlerWidget
+// Dependencies UnityEngine.Rendering.UI.DebugUIHandlerWidget
 namespace UnityEngine::Rendering::UI {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::DebugUI_Widget*>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.UI.DebugUIHandlerField`1<T>
 class CORDL_TYPE DebugUIHandlerField_1 : public ::UnityEngine::Rendering::UI::DebugUIHandlerWidget {

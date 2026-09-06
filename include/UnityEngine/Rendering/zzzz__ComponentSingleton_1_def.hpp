@@ -4,22 +4,18 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__Component_def.hpp"
 CORDL_MODULE_EXPORT(ComponentSingleton_1)
 // Forward declare root types
 namespace UnityEngine::Rendering {
-template <typename TType>
-  requires(::cordl_internals::type_constraint<TType, ::UnityEngine::Component*>)
-class ComponentSingleton_1;
+template <typename TType> class ComponentSingleton_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::ComponentSingleton_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::ComponentSingleton_1, "UnityEngine.Rendering", "ComponentSingleton`1");
-// Dependencies System.Object, UnityEngine.Component
+// Dependencies System.Object
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename TType>
-  requires(::cordl_internals::type_constraint<TType, ::UnityEngine::Component*>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.ComponentSingleton`1<TType>
 class CORDL_TYPE ComponentSingleton_1 : public ::System::Object {

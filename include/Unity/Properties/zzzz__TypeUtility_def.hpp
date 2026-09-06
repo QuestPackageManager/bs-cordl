@@ -57,9 +57,7 @@ namespace Unity::Properties {
 class TypeUtility___c;
 }
 namespace UnityEngine::Pool {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class ObjectPool_1;
+template <typename T> class ObjectPool_1;
 }
 // Forward declare root types
 namespace Unity::Properties {

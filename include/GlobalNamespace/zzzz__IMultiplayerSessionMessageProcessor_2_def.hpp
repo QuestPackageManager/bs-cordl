@@ -3,9 +3,7 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
-#include "System/zzzz__IConvertible_def.hpp"
 CORDL_MODULE_EXPORT(IMultiplayerSessionMessageProcessor_2)
 namespace GlobalNamespace {
 template <typename TData> class INetworkPacketSubSerializer_1;
@@ -18,20 +16,15 @@ template <typename TResult> class Func_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename TMessageType, typename TConnectedPlayer>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> && ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*>)
-class IMultiplayerSessionMessageProcessor_2;
+template <typename TMessageType, typename TConnectedPlayer> class IMultiplayerSessionMessageProcessor_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::IMultiplayerSessionMessageProcessor_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::IMultiplayerSessionMessageProcessor_2, "", "IMultiplayerSessionMessageProcessor`2");
-// Dependencies IConnectedPlayer, LiteNetLib.Utils.INetSerializable, System.IConvertible
+// Dependencies LiteNetLib.Utils.INetSerializable
 namespace GlobalNamespace {
 // cpp template
 template <typename TMessageType, typename TConnectedPlayer>
-  requires(::cordl_internals::type_constraint<TMessageType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TMessageType> &&
-           ::cordl_internals::default_constructor_constraint<TMessageType> && ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*>)
 // Is value type: false
 // CS Name: IMultiplayerSessionMessageProcessor`2<TMessageType,TConnectedPlayer>
 class CORDL_TYPE IMultiplayerSessionMessageProcessor_2 {

@@ -14,9 +14,7 @@ template <typename T0> class UnityAction_1;
 }
 // Forward declare root types
 namespace TMPro {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class TMP_ObjectPool_1;
+template <typename T> class TMP_ObjectPool_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::TMPro::TMP_ObjectPool_1);
@@ -25,7 +23,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::TMPro::TMP_ObjectPool_1, "TMPro", "TMP_ObjectPool`
 namespace TMPro {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: TMPro.TMP_ObjectPool`1<T>
 class CORDL_TYPE TMP_ObjectPool_1 : public ::System::Object {

@@ -54,17 +54,13 @@ namespace UnityEngine::InputSystem::LowLevel {
 struct InputEvent;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TDelegate>
-  requires(::cordl_internals::type_constraint<TDelegate, ::System::Delegate*>)
-struct CallbackArray_1;
+template <typename TDelegate> struct CallbackArray_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
 class ISavedState;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class SavedStructState_1_TypedRestore;
+template <typename T> class SavedStructState_1_TypedRestore;
 }
 namespace UnityEngine::InputSystem {
 struct BindingState_InputActionState_Flags;
@@ -112,14 +108,10 @@ namespace UnityEngine::InputSystem {
 struct InputBinding;
 }
 namespace UnityEngine::InputSystem {
-template <typename TControl>
-  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
-struct InputControlList_1;
+template <typename TControl> struct InputControlList_1;
 }
 namespace UnityEngine::InputSystem {
-template <typename TValue>
-  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-class InputControl_1;
+template <typename TValue> class InputControl_1;
 }
 namespace UnityEngine::InputSystem {
 class InputControl;

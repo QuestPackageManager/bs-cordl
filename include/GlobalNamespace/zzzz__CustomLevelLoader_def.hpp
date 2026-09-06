@@ -12,9 +12,7 @@ namespace GlobalNamespace {
 class ICustomLevelLoader;
 }
 namespace UnityEngine::AddressableAssets {
-template <typename TObject>
-  requires(::cordl_internals::type_constraint<TObject, ::UnityEngine::Object*>)
-class AssetReferenceT_1;
+template <typename TObject> class AssetReferenceT_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

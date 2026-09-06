@@ -16,9 +16,7 @@ namespace Newtonsoft::Json {
 class JsonWriter;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename I, typename T>
-  requires(::cordl_internals::type_constraint<T, I>)
-class ConcreteListConverter_2___c;
+template <typename I, typename T> class ConcreteListConverter_2___c;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -31,14 +29,10 @@ class Type;
 }
 // Forward declare root types
 namespace OculusStudios::GraphQL::Client {
-template <typename I, typename T>
-  requires(::cordl_internals::type_constraint<T, I>)
-class ConcreteListConverter_2;
+template <typename I, typename T> class ConcreteListConverter_2;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename I, typename T>
-  requires(::cordl_internals::type_constraint<T, I>)
-class ConcreteListConverter_2___c;
+template <typename I, typename T> class ConcreteListConverter_2___c;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::OculusStudios::GraphQL::Client::ConcreteListConverter_2);
@@ -50,7 +44,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::OculusStudios::GraphQL::Client::ConcreteListConver
 namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename I, typename T>
-  requires(::cordl_internals::type_constraint<T, I>)
 // Is value type: false
 // CS Name: OculusStudios.GraphQL.Client.ConcreteListConverter`2/<>c<I,T>
 class CORDL_TYPE ConcreteListConverter_2___c : public ::System::Object {
@@ -103,7 +96,6 @@ public:
 namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename I, typename T>
-  requires(::cordl_internals::type_constraint<T, I>)
 // Is value type: false
 // CS Name: OculusStudios.GraphQL.Client.ConcreteListConverter`2<I,T>
 class CORDL_TYPE ConcreteListConverter_2 : public ::Newtonsoft::Json::JsonConverter {

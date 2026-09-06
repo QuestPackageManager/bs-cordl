@@ -3,26 +3,22 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__Delegate_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CallbackArray_1)
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TDelegate>
-  requires(::cordl_internals::type_constraint<TDelegate, ::System::Delegate*>)
-struct CallbackArray_1;
+template <typename TDelegate> struct CallbackArray_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::InputSystem::Utilities::CallbackArray_1);
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::InputSystem::Utilities::CallbackArray_1, "UnityEngine.InputSystem.Utilities", "CallbackArray`1");
 // [DefaultMember("Item")]
-// Dependencies System.Delegate, UnityEngine.InputSystem.Utilities.InlinedArray`1<TValue>
+// Dependencies UnityEngine.InputSystem.Utilities.InlinedArray`1<TValue>
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TDelegate>
-  requires(::cordl_internals::type_constraint<TDelegate, ::System::Delegate*>)
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.Utilities.CallbackArray`1<TDelegate>
 struct CORDL_TYPE CallbackArray_1 {

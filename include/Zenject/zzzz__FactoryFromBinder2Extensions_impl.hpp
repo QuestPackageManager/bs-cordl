@@ -19,40 +19,33 @@
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__MemoryPoolInitialSizeMaxSizeBinder_1_def.hpp"
 template <typename TParam1, typename TParam2, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*>)
 inline void Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TContract>::setStaticF___9(::Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TContract>* value) {
   ::cordl_internals::setStaticField<::Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TContract>*, "<>9",
                                     ::Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TContract>*>(
       std::forward<::Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TContract>*>(value));
 }
 template <typename TParam1, typename TParam2, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*>)
 inline ::Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TContract>* Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TContract>::getStaticF___9() {
   return ::cordl_internals::getStaticField<::Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TContract>*, "<>9",
                                            ::Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TContract>*>();
 }
 template <typename TParam1, typename TParam2, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*>)
 inline void Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TContract>::setStaticF___9__1_0(::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>* value) {
   ::cordl_internals::setStaticField<::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>*, "<>9__1_0",
                                     ::Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TContract>*>(
       std::forward<::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>*>(value));
 }
 template <typename TParam1, typename TParam2, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*>)
 inline ::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>* Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TContract>::getStaticF___9__1_0() {
   return ::cordl_internals::getStaticField<::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>*, "<>9__1_0",
                                            ::Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TContract>*>();
 }
-template <typename TParam1, typename TParam2, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*>)
-inline void Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TContract>::_ctor() {
+template <typename TParam1, typename TParam2, typename TContract> inline void Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TContract>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TContract>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*>)
 inline void Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TContract>::_FromPoolableMemoryPool_b__1_0(::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>* x) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TContract>*>(),
@@ -60,69 +53,51 @@ inline void Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TCo
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, x);
 }
 template <typename TParam1, typename TParam2, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*>)
 inline ::System::Object* Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TContract>::__zenCreate(::ArrayW<::System::Object*> P_0) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TContract>*>(),
                                                                                          { "__zenCreate", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, P_0);
 }
 template <typename TParam1, typename TParam2, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*>)
 inline ::Zenject::InjectTypeInfo* Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TContract>::__zenCreateInjectTypeInfo() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TContract>*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*>)
 inline ::Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TContract>* Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TContract>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TContract>*>());
 }
 // Ctor Parameters []
+template <typename TParam1, typename TParam2, typename TContract> constexpr ::Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TContract>::FactoryFromBinder2Extensions___c__1_3() {}
 template <typename TParam1, typename TParam2, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*>)
-constexpr ::Zenject::FactoryFromBinder2Extensions___c__1_3<TParam1, TParam2, TContract>::FactoryFromBinder2Extensions___c__1_3() {}
-template <typename TParam1, typename TParam2, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
-           ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*>)
 inline void Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TContract>::setStaticF___9(::Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TContract>* value) {
   ::cordl_internals::setStaticField<::Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TContract>*, "<>9",
                                     ::Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TContract>*>(
       std::forward<::Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TContract>*>(value));
 }
 template <typename TParam1, typename TParam2, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
-           ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*>)
 inline ::Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TContract>* Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TContract>::getStaticF___9() {
   return ::cordl_internals::getStaticField<::Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TContract>*, "<>9",
                                            ::Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TContract>*>();
 }
 template <typename TParam1, typename TParam2, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
-           ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*>)
 inline void Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TContract>::setStaticF___9__3_0(::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>* value) {
   ::cordl_internals::setStaticField<::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>*, "<>9__3_0",
                                     ::Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TContract>*>(
       std::forward<::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>*>(value));
 }
 template <typename TParam1, typename TParam2, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
-           ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*>)
 inline ::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>* Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TContract>::getStaticF___9__3_0() {
   return ::cordl_internals::getStaticField<::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>*, "<>9__3_0",
                                            ::Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TContract>*>();
 }
-template <typename TParam1, typename TParam2, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
-           ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*>)
-inline void Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TContract>::_ctor() {
+template <typename TParam1, typename TParam2, typename TContract> inline void Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TContract>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TContract>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
-           ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*>)
 inline void Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TContract>::_FromMonoPoolableMemoryPool_b__3_0(::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>* x) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TContract>*>(),
@@ -130,35 +105,24 @@ inline void Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TCo
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, x);
 }
 template <typename TParam1, typename TParam2, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
-           ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*>)
 inline ::System::Object* Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TContract>::__zenCreate(::ArrayW<::System::Object*> P_0) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TContract>*>(),
                                                                                          { "__zenCreate", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, P_0);
 }
 template <typename TParam1, typename TParam2, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
-           ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*>)
 inline ::Zenject::InjectTypeInfo* Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TContract>::__zenCreateInjectTypeInfo() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TContract>*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
-           ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*>)
 inline ::Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TContract>* Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TContract>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TContract>*>());
 }
 // Ctor Parameters []
-template <typename TParam1, typename TParam2, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
-           ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*>)
-constexpr ::Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TContract>::FactoryFromBinder2Extensions___c__3_3() {}
+template <typename TParam1, typename TParam2, typename TContract> constexpr ::Zenject::FactoryFromBinder2Extensions___c__3_3<TParam1, TParam2, TContract>::FactoryFromBinder2Extensions___c__3_3() {}
 template <typename TParam1, typename TParam2, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_4<TParam1, TParam2, ::Zenject::IMemoryPool*, TContract>*>)
 inline void Zenject::FactoryFromBinder2Extensions___c__5_4<TParam1, TParam2, TContract, TMemoryPool>::setStaticF___9(
     ::Zenject::FactoryFromBinder2Extensions___c__5_4<TParam1, TParam2, TContract, TMemoryPool>* value) {
   ::cordl_internals::setStaticField<::Zenject::FactoryFromBinder2Extensions___c__5_4<TParam1, TParam2, TContract, TMemoryPool>*, "<>9",
@@ -166,16 +130,12 @@ inline void Zenject::FactoryFromBinder2Extensions___c__5_4<TParam1, TParam2, TCo
       std::forward<::Zenject::FactoryFromBinder2Extensions___c__5_4<TParam1, TParam2, TContract, TMemoryPool>*>(value));
 }
 template <typename TParam1, typename TParam2, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_4<TParam1, TParam2, ::Zenject::IMemoryPool*, TContract>*>)
 inline ::Zenject::FactoryFromBinder2Extensions___c__5_4<TParam1, TParam2, TContract, TMemoryPool>*
 Zenject::FactoryFromBinder2Extensions___c__5_4<TParam1, TParam2, TContract, TMemoryPool>::getStaticF___9() {
   return ::cordl_internals::getStaticField<::Zenject::FactoryFromBinder2Extensions___c__5_4<TParam1, TParam2, TContract, TMemoryPool>*, "<>9",
                                            ::Zenject::FactoryFromBinder2Extensions___c__5_4<TParam1, TParam2, TContract, TMemoryPool>*>();
 }
 template <typename TParam1, typename TParam2, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_4<TParam1, TParam2, ::Zenject::IMemoryPool*, TContract>*>)
 inline void
 Zenject::FactoryFromBinder2Extensions___c__5_4<TParam1, TParam2, TContract, TMemoryPool>::setStaticF___9__5_0(::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>* value) {
   ::cordl_internals::setStaticField<::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>*, "<>9__5_0",
@@ -183,24 +143,17 @@ Zenject::FactoryFromBinder2Extensions___c__5_4<TParam1, TParam2, TContract, TMem
       std::forward<::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>*>(value));
 }
 template <typename TParam1, typename TParam2, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_4<TParam1, TParam2, ::Zenject::IMemoryPool*, TContract>*>)
 inline ::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>*
 Zenject::FactoryFromBinder2Extensions___c__5_4<TParam1, TParam2, TContract, TMemoryPool>::getStaticF___9__5_0() {
   return ::cordl_internals::getStaticField<::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>*, "<>9__5_0",
                                            ::Zenject::FactoryFromBinder2Extensions___c__5_4<TParam1, TParam2, TContract, TMemoryPool>*>();
 }
-template <typename TParam1, typename TParam2, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_4<TParam1, TParam2, ::Zenject::IMemoryPool*, TContract>*>)
-inline void Zenject::FactoryFromBinder2Extensions___c__5_4<TParam1, TParam2, TContract, TMemoryPool>::_ctor() {
+template <typename TParam1, typename TParam2, typename TContract, typename TMemoryPool> inline void Zenject::FactoryFromBinder2Extensions___c__5_4<TParam1, TParam2, TContract, TMemoryPool>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryFromBinder2Extensions___c__5_4<TParam1, TParam2, TContract, TMemoryPool>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_4<TParam1, TParam2, ::Zenject::IMemoryPool*, TContract>*>)
 inline void Zenject::FactoryFromBinder2Extensions___c__5_4<TParam1, TParam2, TContract, TMemoryPool>::_FromPoolableMemoryPool_b__5_0(::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>* x) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryFromBinder2Extensions___c__5_4<TParam1, TParam2, TContract, TMemoryPool>*>(),
@@ -208,16 +161,12 @@ inline void Zenject::FactoryFromBinder2Extensions___c__5_4<TParam1, TParam2, TCo
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, x);
 }
 template <typename TParam1, typename TParam2, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_4<TParam1, TParam2, ::Zenject::IMemoryPool*, TContract>*>)
 inline ::System::Object* Zenject::FactoryFromBinder2Extensions___c__5_4<TParam1, TParam2, TContract, TMemoryPool>::__zenCreate(::ArrayW<::System::Object*> P_0) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryFromBinder2Extensions___c__5_4<TParam1, TParam2, TContract, TMemoryPool>*>(),
                                                                                          { "__zenCreate", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, P_0);
 }
 template <typename TParam1, typename TParam2, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_4<TParam1, TParam2, ::Zenject::IMemoryPool*, TContract>*>)
 inline ::Zenject::InjectTypeInfo* Zenject::FactoryFromBinder2Extensions___c__5_4<TParam1, TParam2, TContract, TMemoryPool>::__zenCreateInjectTypeInfo() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
@@ -225,16 +174,12 @@ inline ::Zenject::InjectTypeInfo* Zenject::FactoryFromBinder2Extensions___c__5_4
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_4<TParam1, TParam2, ::Zenject::IMemoryPool*, TContract>*>)
 inline ::Zenject::FactoryFromBinder2Extensions___c__5_4<TParam1, TParam2, TContract, TMemoryPool>*
 Zenject::FactoryFromBinder2Extensions___c__5_4<TParam1, TParam2, TContract, TMemoryPool>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::FactoryFromBinder2Extensions___c__5_4<TParam1, TParam2, TContract, TMemoryPool>*>());
 }
 // Ctor Parameters []
 template <typename TParam1, typename TParam2, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_4<TParam1, TParam2, ::Zenject::IMemoryPool*, TContract>*>)
 constexpr ::Zenject::FactoryFromBinder2Extensions___c__5_4<TParam1, TParam2, TContract, TMemoryPool>::FactoryFromBinder2Extensions___c__5_4() {}
 template <typename TParam1, typename TParam2, typename TContract>
 constexpr ::System::Guid& Zenject::FactoryFromBinder2Extensions___c__DisplayClass0_0_3<TParam1, TParam2, TContract>::__cordl_internal_get_factoryId() {
@@ -286,37 +231,27 @@ Zenject::FactoryFromBinder2Extensions___c__DisplayClass0_0_3<TParam1, TParam2, T
 template <typename TParam1, typename TParam2, typename TContract>
 constexpr ::Zenject::FactoryFromBinder2Extensions___c__DisplayClass0_0_3<TParam1, TParam2, TContract>::FactoryFromBinder2Extensions___c__DisplayClass0_0_3() {}
 template <typename TParam1, typename TParam2, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_4<TParam1, TParam2, ::Zenject::IMemoryPool*, TContract>*>)
 constexpr ::System::Guid& Zenject::FactoryFromBinder2Extensions___c__DisplayClass6_0_4<TParam1, TParam2, TContract, TMemoryPool>::__cordl_internal_get_poolId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___poolId;
 }
 template <typename TParam1, typename TParam2, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_4<TParam1, TParam2, ::Zenject::IMemoryPool*, TContract>*>)
 constexpr ::System::Guid const& Zenject::FactoryFromBinder2Extensions___c__DisplayClass6_0_4<TParam1, TParam2, TContract, TMemoryPool>::__cordl_internal_get_poolId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___poolId;
 }
 template <typename TParam1, typename TParam2, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_4<TParam1, TParam2, ::Zenject::IMemoryPool*, TContract>*>)
 constexpr void Zenject::FactoryFromBinder2Extensions___c__DisplayClass6_0_4<TParam1, TParam2, TContract, TMemoryPool>::__cordl_internal_set_poolId(::System::Guid value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___poolId = value;
 }
 template <typename TParam1, typename TParam2, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_4<TParam1, TParam2, ::Zenject::IMemoryPool*, TContract>*>)
 inline void Zenject::FactoryFromBinder2Extensions___c__DisplayClass6_0_4<TParam1, TParam2, TContract, TMemoryPool>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryFromBinder2Extensions___c__DisplayClass6_0_4<TParam1, TParam2, TContract, TMemoryPool>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_4<TParam1, TParam2, ::Zenject::IMemoryPool*, TContract>*>)
 inline ::Zenject::IProvider* Zenject::FactoryFromBinder2Extensions___c__DisplayClass6_0_4<TParam1, TParam2, TContract, TMemoryPool>::_FromPoolableMemoryPool_b__0(::Zenject::DiContainer* container) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryFromBinder2Extensions___c__DisplayClass6_0_4<TParam1, TParam2, TContract, TMemoryPool>*>(),
@@ -324,8 +259,6 @@ inline ::Zenject::IProvider* Zenject::FactoryFromBinder2Extensions___c__DisplayC
   return ::cordl_internals::RunMethodRethrow<::Zenject::IProvider*>(this, ___internal_method, container);
 }
 template <typename TParam1, typename TParam2, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_4<TParam1, TParam2, ::Zenject::IMemoryPool*, TContract>*>)
 inline ::System::Object* Zenject::FactoryFromBinder2Extensions___c__DisplayClass6_0_4<TParam1, TParam2, TContract, TMemoryPool>::__zenCreate(::ArrayW<::System::Object*> P_0) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryFromBinder2Extensions___c__DisplayClass6_0_4<TParam1, TParam2, TContract, TMemoryPool>*>(),
@@ -333,8 +266,6 @@ inline ::System::Object* Zenject::FactoryFromBinder2Extensions___c__DisplayClass
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, P_0);
 }
 template <typename TParam1, typename TParam2, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_4<TParam1, TParam2, ::Zenject::IMemoryPool*, TContract>*>)
 inline ::Zenject::InjectTypeInfo* Zenject::FactoryFromBinder2Extensions___c__DisplayClass6_0_4<TParam1, TParam2, TContract, TMemoryPool>::__zenCreateInjectTypeInfo() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -342,16 +273,12 @@ inline ::Zenject::InjectTypeInfo* Zenject::FactoryFromBinder2Extensions___c__Dis
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_4<TParam1, TParam2, ::Zenject::IMemoryPool*, TContract>*>)
 inline ::Zenject::FactoryFromBinder2Extensions___c__DisplayClass6_0_4<TParam1, TParam2, TContract, TMemoryPool>*
 Zenject::FactoryFromBinder2Extensions___c__DisplayClass6_0_4<TParam1, TParam2, TContract, TMemoryPool>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::FactoryFromBinder2Extensions___c__DisplayClass6_0_4<TParam1, TParam2, TContract, TMemoryPool>*>());
 }
 // Ctor Parameters []
 template <typename TParam1, typename TParam2, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_3<TParam1, TParam2, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_4<TParam1, TParam2, ::Zenject::IMemoryPool*, TContract>*>)
 constexpr ::Zenject::FactoryFromBinder2Extensions___c__DisplayClass6_0_4<TParam1, TParam2, TContract, TMemoryPool>::FactoryFromBinder2Extensions___c__DisplayClass6_0_4() {}
 template <typename TParam1, typename TParam2, typename TContract>
 inline ::Zenject::ArgConditionCopyNonLazyBinder*

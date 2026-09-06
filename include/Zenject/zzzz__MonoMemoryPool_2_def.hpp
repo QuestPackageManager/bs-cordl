@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/zzzz__Component_def.hpp"
 #include "Zenject/zzzz__MemoryPool_2_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 CORDL_MODULE_EXPORT(MonoMemoryPool_2)
@@ -18,18 +17,15 @@ class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
-template <typename TParam1, typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::UnityEngine::Component*>)
-class MonoMemoryPool_2;
+template <typename TParam1, typename TValue> class MonoMemoryPool_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::MonoMemoryPool_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::MonoMemoryPool_2, "Zenject", "MonoMemoryPool`2");
-// Dependencies UnityEngine.Component, Zenject.MemoryPool`2<TParam1, TValue>
+// Dependencies Zenject.MemoryPool`2<TParam1, TValue>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::UnityEngine::Component*>)
 // Is value type: false
 // CS Name: Zenject.MonoMemoryPool`2<TParam1,TValue>
 class CORDL_TYPE MonoMemoryPool_2 : public ::Zenject::MemoryPool_2<TParam1, TValue> {

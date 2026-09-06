@@ -38,9 +38,7 @@ namespace GlobalNamespace {
 struct RoomMeshAnchor_PopulateMeshDataJob;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct RoomMeshAnchor__EnableComponent_d__16_1;
+template <typename T> struct RoomMeshAnchor__EnableComponent_d__16_1;
 }
 namespace GlobalNamespace {
 class RoomMeshAnchor__GenerateRoomMesh_d__15;
@@ -101,9 +99,7 @@ namespace GlobalNamespace {
 struct RoomMeshAnchor_PopulateMeshDataJob;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct RoomMeshAnchor__EnableComponent_d__16_1;
+template <typename T> struct RoomMeshAnchor__EnableComponent_d__16_1;
 }
 namespace GlobalNamespace {
 struct RoomMeshAnchor__Initialize_d__14;
@@ -329,11 +325,10 @@ static_assert(sizeof(::GlobalNamespace::RoomMeshAnchor_BakeMeshJob) == 0x8, "Siz
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
-// Dependencies IOVRAnchorComponent`1<T>, OVRTask`1::Awaiter<TResult>, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>
+// Dependencies OVRTask`1::Awaiter<TResult>, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: RoomMeshAnchor/<EnableComponent>d__16`1<T>
 struct CORDL_TYPE RoomMeshAnchor__EnableComponent_d__16_1 {
@@ -673,9 +668,7 @@ public:
 
   using PopulateMeshDataJob = ::GlobalNamespace::RoomMeshAnchor_PopulateMeshDataJob;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  using _EnableComponent_d__16_1 = ::GlobalNamespace::RoomMeshAnchor__EnableComponent_d__16_1<T>;
+  template <typename T> using _EnableComponent_d__16_1 = ::GlobalNamespace::RoomMeshAnchor__EnableComponent_d__16_1<T>;
 
   using _GenerateRoomMesh_d__15 = ::GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15;
 

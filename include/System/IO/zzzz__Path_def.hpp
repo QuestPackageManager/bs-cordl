@@ -30,9 +30,7 @@ namespace System {
 template <typename T1, typename T2, typename T3, typename T4, typename T5> struct ValueTuple_5;
 }
 namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
-  requires(::cordl_internals::value_type_constraint<TRest> && ::cordl_internals::default_constructor_constraint<TRest>)
-struct ValueTuple_8;
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest> struct ValueTuple_8;
 }
 // Forward declare root types
 namespace System::IO {

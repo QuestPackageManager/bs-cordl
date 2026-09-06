@@ -6,9 +6,7 @@ CORDL_MODULE_INIT
 #include "System/Collections/Generic/zzzz__ISet_1_def.hpp"
 CORDL_MODULE_EXPORT(ISetPropertyBagVisitor)
 namespace Unity::Properties {
-template <typename TSet, typename TElement>
-  requires(::cordl_internals::type_constraint<TSet, ::System::Collections::Generic::ISet_1<TElement>*>)
-class ISetPropertyBag_2;
+template <typename TSet, typename TElement> class ISetPropertyBag_2;
 }
 // Forward declare root types
 namespace Unity::Properties {

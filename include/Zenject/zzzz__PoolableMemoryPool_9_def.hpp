@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Zenject/zzzz__IPoolable_8_def.hpp"
 #include "Zenject/zzzz__MemoryPool_9_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 CORDL_MODULE_EXPORT(PoolableMemoryPool_9)
@@ -15,19 +14,15 @@ class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8>*>)
-class PoolableMemoryPool_9;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TValue> class PoolableMemoryPool_9;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::PoolableMemoryPool_9);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::PoolableMemoryPool_9, "Zenject", "PoolableMemoryPool`9");
-// Dependencies Zenject.IPoolable`8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8>, Zenject.MemoryPool`9<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7,
-// TParam8, TValue>
+// Dependencies Zenject.MemoryPool`9<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TValue>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8>*>)
 // Is value type: false
 // CS Name: Zenject.PoolableMemoryPool`9<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TValue>
 class CORDL_TYPE PoolableMemoryPool_9 : public ::Zenject::MemoryPool_9<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TValue> {

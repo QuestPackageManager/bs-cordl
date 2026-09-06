@@ -12,14 +12,10 @@ namespace GlobalNamespace {
 class IObservableChange;
 }
 namespace HMUI {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::IValue_1<::StringW>*>)
-class InputFieldDataBinder___c__3_1;
+template <typename T> class InputFieldDataBinder___c__3_1;
 }
 namespace HMUI {
-template <typename T0, typename T1>
-  requires(::cordl_internals::type_constraint<T0, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T0, ::GlobalNamespace::IValue_1<T1>*>)
-class InputFieldDataBinder___c__DisplayClass2_0_2;
+template <typename T0, typename T1> class InputFieldDataBinder___c__DisplayClass2_0_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -47,14 +43,10 @@ namespace HMUI {
 class InputFieldDataBinder;
 }
 namespace HMUI {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::IValue_1<::StringW>*>)
-class InputFieldDataBinder___c__3_1;
+template <typename T> class InputFieldDataBinder___c__3_1;
 }
 namespace HMUI {
-template <typename T0, typename T1>
-  requires(::cordl_internals::type_constraint<T0, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T0, ::GlobalNamespace::IValue_1<T1>*>)
-class InputFieldDataBinder___c__DisplayClass2_0_2;
+template <typename T0, typename T1> class InputFieldDataBinder___c__DisplayClass2_0_2;
 }
 // Write type traits
 MARK_REF_T(::HMUI::InputFieldDataBinder*);
@@ -64,11 +56,10 @@ DEFINE_IL2CPP_CLASS(::HMUI::InputFieldDataBinder*, "HMUI", "InputFieldDataBinder
 DEFINE_IL2CPP_GEN_CLASS_PTR(::HMUI::InputFieldDataBinder___c__3_1, "HMUI", "InputFieldDataBinder/<>c__3`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::HMUI::InputFieldDataBinder___c__DisplayClass2_0_2, "HMUI", "InputFieldDataBinder/<>c__DisplayClass2_0`2");
 // [CompilerGenerated]
-// Dependencies IObservableChange, IValue`1<T>, System.Object
+// Dependencies System.Object
 namespace HMUI {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::IValue_1<::StringW>*>)
 // Is value type: false
 // CS Name: HMUI.InputFieldDataBinder/<>c__3`1<T>
 class CORDL_TYPE InputFieldDataBinder___c__3_1 : public ::System::Object {
@@ -118,11 +109,10 @@ public:
 // Non member Declarations
 } // namespace HMUI
 // [CompilerGenerated]
-// Dependencies IObservableChange, IValue`1<T>, System.Object
+// Dependencies System.Object
 namespace HMUI {
 // cpp template
 template <typename T0, typename T1>
-  requires(::cordl_internals::type_constraint<T0, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T0, ::GlobalNamespace::IValue_1<T1>*>)
 // Is value type: false
 // CS Name: HMUI.InputFieldDataBinder/<>c__DisplayClass2_0`2<T0,T1>
 class CORDL_TYPE InputFieldDataBinder___c__DisplayClass2_0_2 : public ::System::Object {
@@ -215,13 +205,9 @@ namespace HMUI {
 class CORDL_TYPE InputFieldDataBinder : public ::System::Object {
 public:
   // Declarations
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::IValue_1<::StringW>*>)
-  using __c__3_1 = ::HMUI::InputFieldDataBinder___c__3_1<T>;
+  template <typename T> using __c__3_1 = ::HMUI::InputFieldDataBinder___c__3_1<T>;
 
-  template <typename T0, typename T1>
-    requires(::cordl_internals::type_constraint<T0, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T0, ::GlobalNamespace::IValue_1<T1>*>)
-  using __c__DisplayClass2_0_2 = ::HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>;
+  template <typename T0, typename T1> using __c__DisplayClass2_0_2 = ::HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>;
 
   /// @brief Field _bindings, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__bindings, put = __cordl_internal_set__bindings)) ::System::Collections::Generic::List_1<

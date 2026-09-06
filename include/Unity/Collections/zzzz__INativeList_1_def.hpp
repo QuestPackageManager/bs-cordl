@@ -6,15 +6,11 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(INativeList_1)
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class IIndexable_1;
+template <typename T> class IIndexable_1;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class INativeList_1;
+template <typename T> class INativeList_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Unity::Collections::INativeList_1);
@@ -24,7 +20,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Collections::INativeList_1, "Unity.Collecti
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: Unity.Collections.INativeList`1<T>
 class CORDL_TYPE INativeList_1 {

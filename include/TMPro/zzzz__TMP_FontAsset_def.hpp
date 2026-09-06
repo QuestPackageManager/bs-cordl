@@ -29,9 +29,7 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class WeakReference_1;
+template <typename T> class WeakReference_1;
 }
 namespace TMPro {
 struct AtlasPopulationMode;

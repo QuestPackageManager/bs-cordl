@@ -49,9 +49,7 @@ namespace System::Collections {
 class IEqualityComparer;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::reference_type_constraint<TKey> && ::cordl_internals::reference_type_constraint<TValue>)
-class ConditionalWeakTable_2;
+template <typename TKey, typename TValue> class ConditionalWeakTable_2;
 }
 namespace System::Runtime::Serialization {
 class IDeserializationCallback;

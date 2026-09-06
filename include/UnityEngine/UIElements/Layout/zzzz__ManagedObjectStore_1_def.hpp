@@ -15,9 +15,7 @@ template <typename T> class Queue_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::Layout {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class ManagedObjectStore_1;
+template <typename T> class ManagedObjectStore_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::Layout::ManagedObjectStore_1);
@@ -26,7 +24,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::Layout::ManagedObjectStor
 namespace UnityEngine::UIElements::Layout {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.Layout.ManagedObjectStore`1<T>
 class CORDL_TYPE ManagedObjectStore_1 : public ::System::Object {

@@ -12,9 +12,7 @@ namespace UnityEngine::UIElements {
 template <typename T> class ObjectListPool_1___c;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class ObjectPool_1;
+template <typename T> class ObjectPool_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

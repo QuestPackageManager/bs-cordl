@@ -22,9 +22,7 @@ namespace GlobalNamespace {
 struct OVRPlugin_SpaceComponentType;
 }
 namespace GlobalNamespace {
-template <typename TValue, typename TStatus>
-  requires(::cordl_internals::type_constraint<TStatus, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TStatus> && ::cordl_internals::default_constructor_constraint<TStatus>)
-struct OVRResult_2;
+template <typename TValue, typename TStatus> struct OVRResult_2;
 }
 namespace GlobalNamespace {
 template <typename TResult> struct OVRTask_1;

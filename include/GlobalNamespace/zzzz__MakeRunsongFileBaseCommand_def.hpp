@@ -28,14 +28,10 @@ namespace GlobalNamespace {
 class MakeRunsongFileBaseCommand___c;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
-class OptionalArgument_1;
+template <typename T> class OptionalArgument_1;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
-class RequiredArgument_1;
+template <typename T> class RequiredArgument_1;
 }
 namespace GlobalNamespace {
 class SongRunningHelper;

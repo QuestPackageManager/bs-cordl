@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__PropertyName_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(ExposedReference_1)
@@ -15,19 +14,16 @@ class Object;
 }
 // Forward declare root types
 namespace UnityEngine {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
-struct ExposedReference_1;
+template <typename T> struct ExposedReference_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::ExposedReference_1);
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::ExposedReference_1, "UnityEngine", "ExposedReference`1");
 // [UsedByNativeCode(Name = "ExposedReference")]
-// Dependencies UnityEngine.Object, UnityEngine.PropertyName
+// Dependencies UnityEngine.PropertyName
 namespace UnityEngine {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
 // Is value type: true
 // CS Name: UnityEngine.ExposedReference`1<T>
 struct CORDL_TYPE ExposedReference_1 {

@@ -22,9 +22,7 @@ class IMemoryPool;
 }
 // Forward declare root types
 namespace Zenject {
-template <typename TParam1, typename TValue>
-  requires(::cordl_internals::reference_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-class StaticMemoryPool_2;
+template <typename TParam1, typename TValue> class StaticMemoryPool_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::StaticMemoryPool_2);
@@ -34,7 +32,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::StaticMemoryPool_2, "Zenject", "StaticMem
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TValue>
-  requires(::cordl_internals::reference_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: false
 // CS Name: Zenject.StaticMemoryPool`2<TParam1,TValue>
 class CORDL_TYPE StaticMemoryPool_2 : public ::Zenject::StaticMemoryPoolBase_1<TValue> {

@@ -17,9 +17,7 @@ template <typename TResult> class Func_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class SimpleMemoryPool_1;
+template <typename T> class SimpleMemoryPool_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::SimpleMemoryPool_1);
@@ -30,7 +28,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::SimpleMemoryPool_1, "", "SimpleMe
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: false
 // CS Name: SimpleMemoryPool`1<T>
 class CORDL_TYPE SimpleMemoryPool_1 : public ::System::Object {

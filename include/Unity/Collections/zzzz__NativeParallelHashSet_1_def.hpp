@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeParallelHashMapDataEnumerator_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeParallelHashMap_2_def.hpp"
 #include "Unity/Collections/zzzz__NativeParallelHashMap_2_def.hpp"
@@ -35,48 +34,32 @@ namespace Unity::Collections {
 class INativeDisposable;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1;
+template <typename T> struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeParallelHashSet_1_Enumerator;
+template <typename T> struct NativeParallelHashSet_1_Enumerator;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeParallelHashSet_1_ParallelWriter;
+template <typename T> struct NativeParallelHashSet_1_ParallelWriter;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeParallelHashSet_1_ReadOnly;
+template <typename T> struct NativeParallelHashSet_1_ReadOnly;
 }
 namespace Unity::Jobs {
 struct JobHandle;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeParallelHashSet_1;
+template <typename T> struct NativeParallelHashSet_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeParallelHashSet_1_Enumerator;
+template <typename T> struct NativeParallelHashSet_1_Enumerator;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeParallelHashSet_1_ParallelWriter;
+template <typename T> struct NativeParallelHashSet_1_ParallelWriter;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeParallelHashSet_1_ReadOnly;
+template <typename T> struct NativeParallelHashSet_1_ReadOnly;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::NativeParallelHashSet_1);
@@ -89,11 +72,10 @@ DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeParallelHashSet_1_ParallelWr
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeParallelHashSet_1_ReadOnly, "Unity.Collections", "NativeParallelHashSet`1/ReadOnly");
 // [NativeContainerIsAtomicWriteOnly]
 // [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
-// Dependencies System.IEquatable`1<T>, Unity.Collections.NativeParallelHashMap`2::ParallelWriter<TKey, TValue>
+// Dependencies Unity.Collections.NativeParallelHashMap`2::ParallelWriter<TKey, TValue>
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeParallelHashSet`1/ParallelWriter<T>
 struct CORDL_TYPE NativeParallelHashSet_1_ParallelWriter {
@@ -133,11 +115,10 @@ public:
 } // namespace Unity::Collections
 // [NativeContainer]
 // [NativeContainerIsReadOnly]
-// Dependencies System.IEquatable`1<T>, Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapDataEnumerator
+// Dependencies Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapDataEnumerator
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeParallelHashSet`1/Enumerator<T>
 struct CORDL_TYPE NativeParallelHashSet_1_Enumerator {
@@ -203,11 +184,10 @@ public:
 // [NativeContainer]
 // [NativeContainerIsReadOnly]
 // [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
-// Dependencies System.IEquatable`1<T>, Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2<TKey, TValue>
+// Dependencies Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2<TKey, TValue>
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeParallelHashSet`1/ReadOnly<T>
 struct CORDL_TYPE NativeParallelHashSet_1_ReadOnly {
@@ -295,11 +275,10 @@ public:
 } // namespace Unity::Collections
 // [DebuggerTypeProxy(typeof(Unity.Collections.NativeParallelHashSetDebuggerTypeProxy`1<T>))]
 // [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
-// Dependencies System.IEquatable`1<T>, Unity.Collections.NativeParallelHashMap`2<TKey, TValue>
+// Dependencies Unity.Collections.NativeParallelHashMap`2<TKey, TValue>
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeParallelHashSet`1<T>
 struct CORDL_TYPE NativeParallelHashSet_1 {

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeParallelHashMapDataEnumerator_def.hpp"
 #include "Unity/Collections/zzzz__AllocatorManager_def.hpp"
 #include <cstddef>
@@ -28,31 +27,19 @@ namespace System {
 class Object;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
-           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-struct KeyValue_2;
+template <typename TKey, typename TValue> struct KeyValue_2;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
 struct UnsafeParallelHashMapData;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
-           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-struct UnsafeParallelHashMap_2_Enumerator;
+template <typename TKey, typename TValue> struct UnsafeParallelHashMap_2_Enumerator;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
-           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-struct UnsafeParallelHashMap_2_ParallelWriter;
+template <typename TKey, typename TValue> struct UnsafeParallelHashMap_2_ParallelWriter;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
-           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-struct UnsafeParallelHashMap_2_ReadOnly;
+template <typename TKey, typename TValue> struct UnsafeParallelHashMap_2_ReadOnly;
 }
 namespace Unity::Collections {
 struct AllocatorManager_AllocatorHandle;
@@ -61,43 +48,26 @@ namespace Unity::Collections {
 class INativeDisposable;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1;
+template <typename T> struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
-           ::cordl_internals::default_constructor_constraint<TValue>)
-struct NativeKeyValueArrays_2;
+template <typename TKey, typename TValue> struct NativeKeyValueArrays_2;
 }
 namespace Unity::Jobs {
 struct JobHandle;
 }
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
-           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-struct UnsafeParallelHashMap_2;
+template <typename TKey, typename TValue> struct UnsafeParallelHashMap_2;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
-           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-struct UnsafeParallelHashMap_2_Enumerator;
+template <typename TKey, typename TValue> struct UnsafeParallelHashMap_2_Enumerator;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
-           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-struct UnsafeParallelHashMap_2_ParallelWriter;
+template <typename TKey, typename TValue> struct UnsafeParallelHashMap_2_ParallelWriter;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
-           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-struct UnsafeParallelHashMap_2_ReadOnly;
+template <typename TKey, typename TValue> struct UnsafeParallelHashMap_2_ReadOnly;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMap_2);
@@ -112,12 +82,10 @@ DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHa
 // [DebuggerDisplay("Count = {Count()}, Capacity = {Capacity}, IsCreated = {IsCreated}, IsEmpty = {IsEmpty}")]
 // [DebuggerTypeProxy(typeof(Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapDebuggerTypeProxy`2<TKey, TValue>))]
 // [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32) })]
-// Dependencies System.IEquatable`1<T>, Unity.Collections.AllocatorManager::AllocatorHandle
+// Dependencies Unity.Collections.AllocatorManager::AllocatorHandle
 namespace Unity::Collections::LowLevel::Unsafe {
 // cpp template
 template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
-           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: true
 // CS Name: Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2<TKey,TValue>
 struct CORDL_TYPE UnsafeParallelHashMap_2 {
@@ -268,12 +236,10 @@ public:
 // [DefaultMember("Item")]
 // [DebuggerDisplay("Count = {m_HashMapData.Count()}, Capacity = {m_HashMapData.Capacity}, IsCreated = {m_HashMapData.IsCreated}, IsEmpty = {IsEmpty}")]
 // [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32) })]
-// Dependencies System.IEquatable`1<T>, Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2<TKey, TValue>
+// Dependencies Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2<TKey, TValue>
 namespace Unity::Collections::LowLevel::Unsafe {
 // cpp template
 template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
-           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: true
 // CS Name: Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2/ReadOnly<TKey,TValue>
 struct CORDL_TYPE UnsafeParallelHashMap_2_ReadOnly {
@@ -382,12 +348,10 @@ public:
 // Non member Declarations
 } // namespace Unity::Collections::LowLevel::Unsafe
 // [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32) })]
-// Dependencies System.IEquatable`1<T>
+// Dependencies
 namespace Unity::Collections::LowLevel::Unsafe {
 // cpp template
 template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
-           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: true
 // CS Name: Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2/ParallelWriter<TKey,TValue>
 struct CORDL_TYPE UnsafeParallelHashMap_2_ParallelWriter {
@@ -436,12 +400,10 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections::LowLevel::Unsafe
-// Dependencies System.IEquatable`1<T>, Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapDataEnumerator
+// Dependencies Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapDataEnumerator
 namespace Unity::Collections::LowLevel::Unsafe {
 // cpp template
 template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
-           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: true
 // CS Name: Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2/Enumerator<TKey,TValue>
 struct CORDL_TYPE UnsafeParallelHashMap_2_Enumerator {

@@ -18,9 +18,7 @@ class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T, typename U>
-  requires(::cordl_internals::reference_type_constraint<U>)
-class HeaderInfo_CollectionHeaderTypeInfo_2;
+template <typename T, typename U> class HeaderInfo_CollectionHeaderTypeInfo_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::HeaderInfo_CollectionHeaderTypeInfo_2);
@@ -29,7 +27,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::HeaderInfo_CollectionHeaderTypeIn
 namespace GlobalNamespace {
 // cpp template
 template <typename T, typename U>
-  requires(::cordl_internals::reference_type_constraint<U>)
 // Is value type: false
 // CS Name: System.Net.Http.Headers.HeaderInfo/CollectionHeaderTypeInfo`2<T,U>
 class CORDL_TYPE HeaderInfo_CollectionHeaderTypeInfo_2 : public ::GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U> {

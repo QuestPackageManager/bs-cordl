@@ -36,55 +36,35 @@ namespace Unity::Collections {
 struct AllocatorManager_AllocatorHandle;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct FixedList128Bytes_1;
+template <typename T> struct FixedList128Bytes_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct FixedList32Bytes_1;
+template <typename T> struct FixedList32Bytes_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct FixedList4096Bytes_1_Enumerator;
+template <typename T> struct FixedList4096Bytes_1_Enumerator;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct FixedList512Bytes_1;
+template <typename T> struct FixedList512Bytes_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct FixedList64Bytes_1;
+template <typename T> struct FixedList64Bytes_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class IIndexable_1;
+template <typename T> class IIndexable_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class INativeList_1;
+template <typename T> class INativeList_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1;
+template <typename T> struct NativeArray_1;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct FixedList4096Bytes_1;
+template <typename T> struct FixedList4096Bytes_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct FixedList4096Bytes_1_Enumerator;
+template <typename T> struct FixedList4096Bytes_1_Enumerator;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::FixedList4096Bytes_1);
@@ -98,7 +78,6 @@ DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::FixedList4096Bytes_1_Enumerator, "
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.FixedList4096Bytes`1<T>
 struct CORDL_TYPE FixedList4096Bytes_1 {
@@ -444,7 +423,6 @@ public:
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.FixedList4096Bytes`1/Enumerator<T>
 struct CORDL_TYPE FixedList4096Bytes_1_Enumerator {

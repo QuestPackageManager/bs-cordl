@@ -23,9 +23,7 @@ namespace System::Threading::Tasks {
 template <typename TResult> class TaskCompletionSource_1;
 }
 namespace System {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct Nullable_1;
+template <typename T> struct Nullable_1;
 }
 namespace System {
 class Object;

@@ -36,9 +36,7 @@ namespace UnityEngine::InputSystem {
 class InputActionState;
 }
 namespace UnityEngine::InputSystem {
-template <typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IComparable_1<TValue>*>)
-struct InputBindingCompositeContext_DefaultComparer_1;
+template <typename TValue> struct InputBindingCompositeContext_DefaultComparer_1;
 }
 namespace UnityEngine::InputSystem {
 struct InputBindingCompositeContext_PartBinding;
@@ -57,9 +55,7 @@ namespace UnityEngine::InputSystem {
 struct InputBindingCompositeContext;
 }
 namespace UnityEngine::InputSystem {
-template <typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IComparable_1<TValue>*>)
-struct InputBindingCompositeContext_DefaultComparer_1;
+template <typename TValue> struct InputBindingCompositeContext_DefaultComparer_1;
 }
 namespace UnityEngine::InputSystem {
 struct InputBindingCompositeContext_PartBinding;
@@ -134,11 +130,10 @@ static_assert(offsetof(::UnityEngine::InputSystem::InputBindingCompositeContext_
 static_assert(sizeof(::UnityEngine::InputSystem::InputBindingCompositeContext_PartBinding) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
-// Dependencies System.IComparable`1<T>
+// Dependencies
 namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IComparable_1<TValue>*>)
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.InputBindingCompositeContext/DefaultComparer`1<TValue>
 #pragma pack(push, 0)
@@ -176,9 +171,7 @@ namespace UnityEngine::InputSystem {
 struct CORDL_TYPE InputBindingCompositeContext {
 public:
   // Declarations
-  template <typename TValue>
-    requires(::cordl_internals::type_constraint<TValue, ::System::IComparable_1<TValue>*>)
-  using DefaultComparer_1 = ::UnityEngine::InputSystem::InputBindingCompositeContext_DefaultComparer_1<TValue>;
+  template <typename TValue> using DefaultComparer_1 = ::UnityEngine::InputSystem::InputBindingCompositeContext_DefaultComparer_1<TValue>;
 
   using PartBinding = ::UnityEngine::InputSystem::InputBindingCompositeContext_PartBinding;
 

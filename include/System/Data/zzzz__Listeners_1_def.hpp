@@ -11,14 +11,10 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Data {
-template <typename TElem, typename T1, typename T2, typename T3, typename T4>
-  requires(::cordl_internals::reference_type_constraint<TElem>)
-class Listeners_1_Action_4;
+template <typename TElem, typename T1, typename T2, typename T3, typename T4> class Listeners_1_Action_4;
 }
 namespace System::Data {
-template <typename TElem, typename T1, typename TResult>
-  requires(::cordl_internals::reference_type_constraint<TElem>)
-class Listeners_1_Func_2;
+template <typename TElem, typename T1, typename TResult> class Listeners_1_Func_2;
 }
 namespace System {
 struct IntPtr;
@@ -28,19 +24,13 @@ class Object;
 }
 // Forward declare root types
 namespace System::Data {
-template <typename TElem>
-  requires(::cordl_internals::reference_type_constraint<TElem>)
-class Listeners_1;
+template <typename TElem> class Listeners_1;
 }
 namespace System::Data {
-template <typename TElem, typename T1, typename T2, typename T3, typename T4>
-  requires(::cordl_internals::reference_type_constraint<TElem>)
-class Listeners_1_Action_4;
+template <typename TElem, typename T1, typename T2, typename T3, typename T4> class Listeners_1_Action_4;
 }
 namespace System::Data {
-template <typename TElem, typename T1, typename TResult>
-  requires(::cordl_internals::reference_type_constraint<TElem>)
-class Listeners_1_Func_2;
+template <typename TElem, typename T1, typename TResult> class Listeners_1_Func_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::System::Data::Listeners_1);
@@ -53,7 +43,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Data::Listeners_1_Func_2, "System.Data", "
 namespace System::Data {
 // cpp template
 template <typename TElem, typename T1, typename T2, typename T3, typename T4>
-  requires(::cordl_internals::reference_type_constraint<TElem>)
 // Is value type: false
 // CS Name: System.Data.Listeners`1/Action`4<TElem,T1,T2,T3,T4>
 class CORDL_TYPE Listeners_1_Action_4 : public ::System::MulticastDelegate {
@@ -92,7 +81,6 @@ public:
 namespace System::Data {
 // cpp template
 template <typename TElem, typename T1, typename TResult>
-  requires(::cordl_internals::reference_type_constraint<TElem>)
 // Is value type: false
 // CS Name: System.Data.Listeners`1/Func`2<TElem,T1,TResult>
 class CORDL_TYPE Listeners_1_Func_2 : public ::System::MulticastDelegate {
@@ -131,7 +119,6 @@ public:
 namespace System::Data {
 // cpp template
 template <typename TElem>
-  requires(::cordl_internals::reference_type_constraint<TElem>)
 // Is value type: false
 // CS Name: System.Data.Listeners`1<TElem>
 class CORDL_TYPE Listeners_1 : public ::System::Object {

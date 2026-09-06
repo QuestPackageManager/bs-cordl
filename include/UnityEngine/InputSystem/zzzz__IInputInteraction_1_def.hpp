@@ -6,9 +6,7 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IInputInteraction_1)
 // Forward declare root types
 namespace UnityEngine::InputSystem {
-template <typename TValue>
-  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-class IInputInteraction_1;
+template <typename TValue> class IInputInteraction_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::InputSystem::IInputInteraction_1);
@@ -17,7 +15,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::InputSystem::IInputInteraction_1, "Un
 namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TValue>
-  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.IInputInteraction`1<TValue>
 class CORDL_TYPE IInputInteraction_1 {

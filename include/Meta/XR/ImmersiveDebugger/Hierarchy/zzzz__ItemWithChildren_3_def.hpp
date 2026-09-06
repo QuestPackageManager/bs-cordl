@@ -12,9 +12,7 @@ template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Meta::XR::ImmersiveDebugger::Hierarchy {
-template <typename TargetType, typename ChildType, typename ChildTargetType>
-  requires(::cordl_internals::type_constraint<ChildType, ::Meta::XR::ImmersiveDebugger::Hierarchy::Item_1<ChildTargetType>*> && ::cordl_internals::default_constructor_constraint<ChildType>)
-class ItemWithChildren_3;
+template <typename TargetType, typename ChildType, typename ChildTargetType> class ItemWithChildren_3;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Meta::XR::ImmersiveDebugger::Hierarchy::ItemWithChildren_3);
@@ -23,7 +21,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Meta::XR::ImmersiveDebugger::Hierarchy::ItemWithCh
 namespace Meta::XR::ImmersiveDebugger::Hierarchy {
 // cpp template
 template <typename TargetType, typename ChildType, typename ChildTargetType>
-  requires(::cordl_internals::type_constraint<ChildType, ::Meta::XR::ImmersiveDebugger::Hierarchy::Item_1<ChildTargetType>*> && ::cordl_internals::default_constructor_constraint<ChildType>)
 // Is value type: false
 // CS Name: Meta.XR.ImmersiveDebugger.Hierarchy.ItemWithChildren`3<TargetType,ChildType,ChildTargetType>
 class CORDL_TYPE ItemWithChildren_3 : public ::Meta::XR::ImmersiveDebugger::Hierarchy::Item_1<TargetType> {

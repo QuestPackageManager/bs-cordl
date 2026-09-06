@@ -3,8 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/zzzz__Component_def.hpp"
-#include "Zenject/zzzz__IPoolable_7_def.hpp"
 #include "Zenject/zzzz__MemoryPool_8_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 CORDL_MODULE_EXPORT(MonoPoolableMemoryPool_8)
@@ -19,21 +17,15 @@ class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::UnityEngine::Component*> &&
-           ::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7>*>)
-class MonoPoolableMemoryPool_8;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue> class MonoPoolableMemoryPool_8;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::MonoPoolableMemoryPool_8);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::MonoPoolableMemoryPool_8, "Zenject", "MonoPoolableMemoryPool`8");
-// Dependencies UnityEngine.Component, Zenject.IPoolable`7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7>, Zenject.MemoryPool`8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6,
-// TParam7, TValue>
+// Dependencies Zenject.MemoryPool`8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::UnityEngine::Component*> &&
-           ::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7>*>)
 // Is value type: false
 // CS Name: Zenject.MonoPoolableMemoryPool`8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue>
 class CORDL_TYPE MonoPoolableMemoryPool_8 : public ::Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue> {

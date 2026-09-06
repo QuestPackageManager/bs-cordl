@@ -11,9 +11,7 @@ class Type;
 }
 // Forward declare root types
 namespace Unity::Burst {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct SharedStatic_1;
+template <typename T> struct SharedStatic_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Burst::SharedStatic_1);
@@ -23,7 +21,6 @@ DEFINE_IL2CPP_GEN_CLASS(::Unity::Burst::SharedStatic_1, "Unity.Burst", "SharedSt
 namespace Unity::Burst {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Burst.SharedStatic`1<T>
 struct CORDL_TYPE SharedStatic_1 {

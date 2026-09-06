@@ -12,9 +12,7 @@ namespace GlobalNamespace {
 template <typename T> struct RenderGraphCompilationCache_HashEntry_1;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph_ICompiledGraph*>)
-class RenderGraphCompilationCache___c__11_1;
+template <typename T> class RenderGraphCompilationCache___c__11_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class Stack_1;
@@ -26,23 +24,17 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 class RenderGraph_CompiledGraph;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class DynamicArray_1_SortComparer;
+template <typename T> class DynamicArray_1_SortComparer;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class DynamicArray_1;
+template <typename T> class DynamicArray_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class RenderGraphCompilationCache;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph_ICompiledGraph*>)
-class RenderGraphCompilationCache___c__11_1;
+template <typename T> class RenderGraphCompilationCache___c__11_1;
 }
 namespace GlobalNamespace {
 template <typename T> struct RenderGraphCompilationCache_HashEntry_1;
@@ -91,11 +83,10 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // [CompilerGenerated]
-// Dependencies System.Object, UnityEngine.Rendering.RenderGraphModule.RenderGraph::ICompiledGraph
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph_ICompiledGraph*>)
 // Is value type: false
 // CS Name: RenderGraphCompilationCache/<>c__11`1<T>
 class CORDL_TYPE RenderGraphCompilationCache___c__11_1 : public ::System::Object {
@@ -153,9 +144,7 @@ public:
   // Declarations
   template <typename T> using HashEntry_1 = ::GlobalNamespace::RenderGraphCompilationCache_HashEntry_1<T>;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph_ICompiledGraph*>)
-  using __c__11_1 = ::GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>;
+  template <typename T> using __c__11_1 = ::GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>;
 
   /// @brief Field m_CompiledGraphPool, offset 0x20, size 0x8
   __declspec(property(

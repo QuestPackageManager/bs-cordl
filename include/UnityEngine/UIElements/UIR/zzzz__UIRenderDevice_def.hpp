@@ -33,9 +33,7 @@ namespace System {
 class IDisposable;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeSlice_1;
+template <typename T> struct NativeSlice_1;
 }
 namespace UnityEngine::UIElements::UIR {
 struct Alloc;
@@ -50,9 +48,7 @@ namespace UnityEngine::UIElements::UIR {
 class DrawParams;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<T>*>)
-class LinkedPool_1;
+template <typename T> class LinkedPool_1;
 }
 namespace UnityEngine::UIElements::UIR {
 class MeshHandle;
@@ -85,9 +81,7 @@ namespace UnityEngine::UIElements::UIR {
 class UIRenderDevice___c;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class Utility_GPUBuffer_1;
+template <typename T> class Utility_GPUBuffer_1;
 }
 namespace UnityEngine::UIElements {
 struct Vertex;

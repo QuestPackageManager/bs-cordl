@@ -333,29 +333,23 @@ inline ::GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0* GlobalName
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0::FileStorageExtensions___c__DisplayClass4_0() {}
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-inline void GlobalNamespace::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1<T>::MoveNext() {
+template <typename T> inline void GlobalNamespace::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1<T>::MoveNext() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1<T>>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 inline void GlobalNamespace::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1<T>::SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1<T>>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr GlobalNamespace::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+template <typename T> constexpr GlobalNamespace::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 GlobalNamespace::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1<T>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
@@ -366,7 +360,6 @@ GlobalNamespace::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1<T>::i___Sys
 // "::GlobalNamespace::StoragePreference", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>",
 // modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 constexpr ::GlobalNamespace::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1<T>::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> __t__builder, ::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName,
     ::GlobalNamespace::StoragePreference storageLocation, ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept {
@@ -378,9 +371,7 @@ constexpr ::GlobalNamespace::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr ::GlobalNamespace::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1<T>::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1() {}
+template <typename T> constexpr ::GlobalNamespace::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1<T>::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1() {}
 //  Writing Method size for method: ::GlobalNamespace::FileStorageExtensions.SaveFile
 template <>
 

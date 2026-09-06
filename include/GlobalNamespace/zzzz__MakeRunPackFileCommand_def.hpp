@@ -22,9 +22,7 @@ namespace GlobalNamespace {
 class MakeRunPackFileCommand___c__DisplayClass5_0;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
-class RequiredArgument_1;
+template <typename T> class RequiredArgument_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;

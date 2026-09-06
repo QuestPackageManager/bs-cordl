@@ -31,50 +31,32 @@ namespace System {
 template <typename T> struct Span_1;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-struct DynamicArray_1_Iterator;
+template <typename T> struct DynamicArray_1_Iterator;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-struct DynamicArray_1_RangeEnumerable;
+template <typename T> struct DynamicArray_1_RangeEnumerable;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class DynamicArray_1_SortComparer;
+template <typename T> class DynamicArray_1_SortComparer;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-struct RangeEnumerable_DynamicArray_1_RangeIterator;
+template <typename T> struct RangeEnumerable_DynamicArray_1_RangeIterator;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class DynamicArray_1;
+template <typename T> class DynamicArray_1;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class DynamicArray_1_SortComparer;
+template <typename T> class DynamicArray_1_SortComparer;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-struct DynamicArray_1_Iterator;
+template <typename T> struct DynamicArray_1_Iterator;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-struct DynamicArray_1_RangeEnumerable;
+template <typename T> struct DynamicArray_1_RangeEnumerable;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-struct RangeEnumerable_DynamicArray_1_RangeIterator;
+template <typename T> struct RangeEnumerable_DynamicArray_1_RangeIterator;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::DynamicArray_1);
@@ -91,7 +73,6 @@ DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::Rendering::RangeEnumerable_DynamicArray_1
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.Rendering.DynamicArray`1/Iterator<T>
 struct CORDL_TYPE DynamicArray_1_Iterator {
@@ -139,7 +120,6 @@ public:
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.Rendering.DynamicArray`1/RangeEnumerable/RangeIterator<T>
 struct CORDL_TYPE RangeEnumerable_DynamicArray_1_RangeIterator {
@@ -194,7 +174,6 @@ public:
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.Rendering.DynamicArray`1/RangeEnumerable<T>
 struct CORDL_TYPE DynamicArray_1_RangeEnumerable {
@@ -229,7 +208,6 @@ public:
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.DynamicArray`1/SortComparer<T>
 class CORDL_TYPE DynamicArray_1_SortComparer : public ::System::MulticastDelegate {
@@ -276,7 +254,6 @@ public:
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.DynamicArray`1<T>
 class CORDL_TYPE DynamicArray_1 : public ::System::Object {

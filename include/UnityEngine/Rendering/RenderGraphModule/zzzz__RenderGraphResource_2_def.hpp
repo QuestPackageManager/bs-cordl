@@ -10,15 +10,11 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 class IRenderGraphResourcePool;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename Type>
-  requires(::cordl_internals::reference_type_constraint<Type>)
-class RenderGraphResourcePool_1;
+template <typename Type> class RenderGraphResourcePool_1;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename DescType, typename ResType>
-  requires(::cordl_internals::value_type_constraint<DescType> && ::cordl_internals::default_constructor_constraint<DescType> && ::cordl_internals::reference_type_constraint<ResType>)
-class RenderGraphResource_2;
+template <typename DescType, typename ResType> class RenderGraphResource_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResource_2);
@@ -28,7 +24,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::RenderGraphModule::RenderG
 namespace UnityEngine::Rendering::RenderGraphModule {
 // cpp template
 template <typename DescType, typename ResType>
-  requires(::cordl_internals::value_type_constraint<DescType> && ::cordl_internals::default_constructor_constraint<DescType> && ::cordl_internals::reference_type_constraint<ResType>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.RenderGraphModule.RenderGraphResource`2<DescType,ResType>
 class CORDL_TYPE RenderGraphResource_2 : public ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource {

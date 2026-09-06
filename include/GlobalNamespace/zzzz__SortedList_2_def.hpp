@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SortedList_2)
@@ -11,9 +10,7 @@ namespace GlobalNamespace {
 template <typename T> class ISortedListItemProcessor_1;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
-class ISortedList_1;
+template <typename T> class ISortedList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class LinkedListNode_1;
@@ -23,18 +20,15 @@ template <typename T> class LinkedList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T, typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::System::IComparable_1<TBase>*> && ::cordl_internals::reference_type_constraint<TBase>)
-class SortedList_2;
+template <typename T, typename TBase> class SortedList_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::SortedList_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::SortedList_2, "", "SortedList`2");
-// Dependencies System.IComparable`1<T>, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T, typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::System::IComparable_1<TBase>*> && ::cordl_internals::reference_type_constraint<TBase>)
 // Is value type: false
 // CS Name: SortedList`2<T,TBase>
 class CORDL_TYPE SortedList_2 : public ::System::Object {

@@ -3,25 +3,19 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IConvertible_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IStateTable_3)
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
-class IStateTable_3;
+template <typename TStateTable, typename TType, typename TState> class IStateTable_3;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::IStateTable_3);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::IStateTable_3, "", "IStateTable`3");
-// Dependencies System.IConvertible
+// Dependencies
 namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
 // Is value type: false
 // CS Name: IStateTable`3<TStateTable,TType,TState>
 class CORDL_TYPE IStateTable_3 {

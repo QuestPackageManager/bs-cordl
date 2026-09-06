@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IConvertible_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstddef>
@@ -23,18 +22,15 @@ struct StyleKeyword;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct StyleEnum_1;
+template <typename T> struct StyleEnum_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::UIElements::StyleEnum_1);
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::StyleEnum_1, "UnityEngine.UIElements", "StyleEnum`1");
-// Dependencies System.IConvertible, UnityEngine.UIElements.StyleKeyword
+// Dependencies UnityEngine.UIElements.StyleKeyword
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.UIElements.StyleEnum`1<T>
 struct CORDL_TYPE StyleEnum_1 {

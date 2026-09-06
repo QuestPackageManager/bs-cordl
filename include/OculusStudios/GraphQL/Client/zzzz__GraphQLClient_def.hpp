@@ -29,10 +29,7 @@ namespace OculusStudios::GraphQL::ClientInterface {
 class IQueryRequest;
 }
 namespace OculusStudios::GraphQL::ClientInterface {
-template <typename TBackend, typename TFrontend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend> &&
-           ::cordl_internals::reference_type_constraint<TFrontend>)
-class IRequestWithResultConversion_2;
+template <typename TBackend, typename TFrontend> class IRequestWithResultConversion_2;
 }
 namespace OculusStudios::GraphQL::ClientInterface {
 struct RequestState;
@@ -47,85 +44,55 @@ namespace OculusStudios::GraphQL::Client {
 struct GraphQLClient__ExecuteAsync_d__33;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
-struct GraphQLClient__InternalMutateData_d__30_1;
+template <typename T> struct GraphQLClient__InternalMutateData_d__30_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
-struct GraphQLClient__InternalQueryData_d__27_1;
+template <typename TBackend> struct GraphQLClient__InternalQueryData_d__27_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
-struct GraphQLClient__Mutate_d__28_1;
+template <typename TBackend> struct GraphQLClient__Mutate_d__28_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend, typename TFrontend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend> &&
-           ::cordl_internals::reference_type_constraint<TFrontend>)
-struct GraphQLClient__Mutate_d__29_2;
+template <typename TBackend, typename TFrontend> struct GraphQLClient__Mutate_d__29_2;
 }
 namespace OculusStudios::GraphQL::Client {
 struct GraphQLClient__ProcessRequest_d__24;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
-struct GraphQLClient__Query_d__25_1;
+template <typename TBackend> struct GraphQLClient__Query_d__25_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend, typename TFrontend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend> &&
-           ::cordl_internals::reference_type_constraint<TFrontend>)
-struct GraphQLClient__Query_d__26_2;
+template <typename TBackend, typename TFrontend> struct GraphQLClient__Query_d__26_2;
 }
 namespace OculusStudios::GraphQL::Client {
 struct GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__37;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
-struct GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1;
+template <typename T> struct GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1;
 }
 namespace OculusStudios::GraphQL::Client {
 struct GraphQLClient__WaitUntilRequestQueueIsResumed_d__36;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
-class GraphQLClient___c__DisplayClass25_0_1;
+template <typename TBackend> class GraphQLClient___c__DisplayClass25_0_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
-class GraphQLClient___c__DisplayClass27_0_1;
+template <typename TBackend> class GraphQLClient___c__DisplayClass27_0_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
-class GraphQLClient___c__DisplayClass27_1_1;
+template <typename TBackend> class GraphQLClient___c__DisplayClass27_1_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
-class GraphQLClient___c__DisplayClass27_2_1;
+template <typename TBackend> class GraphQLClient___c__DisplayClass27_2_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
-class GraphQLClient___c__DisplayClass28_0_1;
+template <typename TBackend> class GraphQLClient___c__DisplayClass28_0_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
-class GraphQLClient___c__DisplayClass30_0_1;
+template <typename T> class GraphQLClient___c__DisplayClass30_0_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
-class GraphQLClient___c__DisplayClass32_0_1;
+template <typename T> class GraphQLClient___c__DisplayClass32_0_1;
 }
 namespace OculusStudios::GraphQL::Client {
 class GraphQLClient___c__DisplayClass33_0;
@@ -189,39 +156,25 @@ namespace OculusStudios::GraphQL::Client {
 class GraphQLClient;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
-class GraphQLClient___c__DisplayClass25_0_1;
+template <typename TBackend> class GraphQLClient___c__DisplayClass25_0_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
-class GraphQLClient___c__DisplayClass27_0_1;
+template <typename TBackend> class GraphQLClient___c__DisplayClass27_0_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
-class GraphQLClient___c__DisplayClass27_1_1;
+template <typename TBackend> class GraphQLClient___c__DisplayClass27_1_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
-class GraphQLClient___c__DisplayClass27_2_1;
+template <typename TBackend> class GraphQLClient___c__DisplayClass27_2_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
-class GraphQLClient___c__DisplayClass28_0_1;
+template <typename TBackend> class GraphQLClient___c__DisplayClass28_0_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
-class GraphQLClient___c__DisplayClass30_0_1;
+template <typename T> class GraphQLClient___c__DisplayClass30_0_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
-class GraphQLClient___c__DisplayClass32_0_1;
+template <typename T> class GraphQLClient___c__DisplayClass32_0_1;
 }
 namespace OculusStudios::GraphQL::Client {
 class GraphQLClient___c__DisplayClass33_0;
@@ -233,47 +186,31 @@ namespace OculusStudios::GraphQL::Client {
 struct GraphQLClient__ExecuteAsync_d__33;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
-struct GraphQLClient__InternalMutateData_d__30_1;
+template <typename T> struct GraphQLClient__InternalMutateData_d__30_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
-struct GraphQLClient__InternalQueryData_d__27_1;
+template <typename TBackend> struct GraphQLClient__InternalQueryData_d__27_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
-struct GraphQLClient__Mutate_d__28_1;
+template <typename TBackend> struct GraphQLClient__Mutate_d__28_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend, typename TFrontend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend> &&
-           ::cordl_internals::reference_type_constraint<TFrontend>)
-struct GraphQLClient__Mutate_d__29_2;
+template <typename TBackend, typename TFrontend> struct GraphQLClient__Mutate_d__29_2;
 }
 namespace OculusStudios::GraphQL::Client {
 struct GraphQLClient__ProcessRequest_d__24;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
-struct GraphQLClient__Query_d__25_1;
+template <typename TBackend> struct GraphQLClient__Query_d__25_1;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename TBackend, typename TFrontend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend> &&
-           ::cordl_internals::reference_type_constraint<TFrontend>)
-struct GraphQLClient__Query_d__26_2;
+template <typename TBackend, typename TFrontend> struct GraphQLClient__Query_d__26_2;
 }
 namespace OculusStudios::GraphQL::Client {
 struct GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__37;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
-struct GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1;
+template <typename T> struct GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1;
 }
 namespace OculusStudios::GraphQL::Client {
 struct GraphQLClient__WaitUntilRequestQueueIsResumed_d__36;
@@ -323,11 +260,10 @@ DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient__ResetReques
 DEFINE_IL2CPP_GEN_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1, "OculusStudios.GraphQL.Client", "GraphQLClient/<RetryOrErrorOutMutationAsync>d__31`1");
 DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::GraphQLClient__WaitUntilRequestQueueIsResumed_d__36, "OculusStudios.GraphQL.Client", "GraphQLClient/<WaitUntilRequestQueueIsResumed>d__36");
 // [CompilerGenerated]
-// Dependencies OculusStudios.GraphQL.ClientInterface.IGraphQLModel, System.Object
+// Dependencies System.Object
 namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename TBackend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 // Is value type: false
 // CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<>c__DisplayClass25_0`1<TBackend>
 class CORDL_TYPE GraphQLClient___c__DisplayClass25_0_1 : public ::System::Object {
@@ -387,11 +323,10 @@ public:
 // Non member Declarations
 } // namespace OculusStudios::GraphQL::Client
 // [CompilerGenerated]
-// Dependencies OculusStudios.GraphQL.ClientInterface.IGraphQLModel, System.Object
+// Dependencies System.Object
 namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename TBackend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 // Is value type: false
 // CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<>c__DisplayClass27_0`1<TBackend>
 class CORDL_TYPE GraphQLClient___c__DisplayClass27_0_1 : public ::System::Object {
@@ -448,11 +383,10 @@ public:
 // Non member Declarations
 } // namespace OculusStudios::GraphQL::Client
 // [CompilerGenerated]
-// Dependencies OculusStudios.GraphQL.ClientInterface.IGraphQLModel, System.Object
+// Dependencies System.Object
 namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename TBackend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 // Is value type: false
 // CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<>c__DisplayClass27_1`1<TBackend>
 class CORDL_TYPE GraphQLClient___c__DisplayClass27_1_1 : public ::System::Object {
@@ -513,11 +447,10 @@ public:
 // Non member Declarations
 } // namespace OculusStudios::GraphQL::Client
 // [CompilerGenerated]
-// Dependencies OculusStudios.GraphQL.ClientInterface.IGraphQLModel, System.Object
+// Dependencies System.Object
 namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename TBackend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 // Is value type: false
 // CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<>c__DisplayClass27_2`1<TBackend>
 class CORDL_TYPE GraphQLClient___c__DisplayClass27_2_1 : public ::System::Object {
@@ -578,11 +511,10 @@ public:
 // Non member Declarations
 } // namespace OculusStudios::GraphQL::Client
 // [CompilerGenerated]
-// Dependencies OculusStudios.GraphQL.ClientInterface.IGraphQLModel, System.Object
+// Dependencies System.Object
 namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename TBackend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 // Is value type: false
 // CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<>c__DisplayClass28_0`1<TBackend>
 class CORDL_TYPE GraphQLClient___c__DisplayClass28_0_1 : public ::System::Object {
@@ -642,11 +574,10 @@ public:
 // Non member Declarations
 } // namespace OculusStudios::GraphQL::Client
 // [CompilerGenerated]
-// Dependencies OculusStudios.GraphQL.ClientInterface.IGraphQLModel, System.Object
+// Dependencies System.Object
 namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
 // Is value type: false
 // CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<>c__DisplayClass30_0`1<T>
 class CORDL_TYPE GraphQLClient___c__DisplayClass30_0_1 : public ::System::Object {
@@ -718,11 +649,10 @@ public:
 // Non member Declarations
 } // namespace OculusStudios::GraphQL::Client
 // [CompilerGenerated]
-// Dependencies OculusStudios.GraphQL.ClientInterface.IGraphQLModel, System.Object
+// Dependencies System.Object
 namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
 // Is value type: false
 // CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<>c__DisplayClass32_0`1<T>
 class CORDL_TYPE GraphQLClient___c__DisplayClass32_0_1 : public ::System::Object {
@@ -1008,12 +938,10 @@ static_assert(sizeof(::OculusStudios::GraphQL::Client::GraphQLClient__ExecuteAsy
 
 } // namespace OculusStudios::GraphQL::Client
 // [CompilerGenerated]
-// Dependencies OculusStudios.GraphQL.ClientInterface.IGraphQLModel, System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter,
-// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
 // Is value type: true
 // CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<InternalMutateData>d__30`1<T>
 struct CORDL_TYPE GraphQLClient__InternalMutateData_d__30_1 {
@@ -1096,12 +1024,10 @@ public:
 // Non member Declarations
 } // namespace OculusStudios::GraphQL::Client
 // [CompilerGenerated]
-// Dependencies OculusStudios.GraphQL.ClientInterface.IGraphQLModel, System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter,
-// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename TBackend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 // Is value type: true
 // CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<InternalQueryData>d__27`1<TBackend>
 struct CORDL_TYPE GraphQLClient__InternalQueryData_d__27_1 {
@@ -1189,12 +1115,10 @@ public:
 // Non member Declarations
 } // namespace OculusStudios::GraphQL::Client
 // [CompilerGenerated]
-// Dependencies OculusStudios.GraphQL.ClientInterface.IGraphQLModel, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter,
-// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename TBackend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 // Is value type: true
 // CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<Mutate>d__28`1<TBackend>
 struct CORDL_TYPE GraphQLClient__Mutate_d__28_1 {
@@ -1264,13 +1188,10 @@ public:
 // Non member Declarations
 } // namespace OculusStudios::GraphQL::Client
 // [CompilerGenerated]
-// Dependencies OculusStudios.GraphQL.ClientInterface.IGraphQLModel, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter,
-// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename TBackend, typename TFrontend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend> &&
-           ::cordl_internals::reference_type_constraint<TFrontend>)
 // Is value type: true
 // CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<Mutate>d__29`2<TBackend,TFrontend>
 struct CORDL_TYPE GraphQLClient__Mutate_d__29_2 {
@@ -1414,12 +1335,10 @@ static_assert(sizeof(::OculusStudios::GraphQL::Client::GraphQLClient__ProcessReq
 
 } // namespace OculusStudios::GraphQL::Client
 // [CompilerGenerated]
-// Dependencies OculusStudios.GraphQL.ClientInterface.IGraphQLModel, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter,
-// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename TBackend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 // Is value type: true
 // CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<Query>d__25`1<TBackend>
 struct CORDL_TYPE GraphQLClient__Query_d__25_1 {
@@ -1489,13 +1408,10 @@ public:
 // Non member Declarations
 } // namespace OculusStudios::GraphQL::Client
 // [CompilerGenerated]
-// Dependencies OculusStudios.GraphQL.ClientInterface.IGraphQLModel, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter,
-// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename TBackend, typename TFrontend>
-  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend> &&
-           ::cordl_internals::reference_type_constraint<TFrontend>)
 // Is value type: true
 // CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<Query>d__26`2<TBackend,TFrontend>
 struct CORDL_TYPE GraphQLClient__Query_d__26_2 {
@@ -1645,11 +1561,10 @@ static_assert(sizeof(::OculusStudios::GraphQL::Client::GraphQLClient__ResetReque
 
 } // namespace OculusStudios::GraphQL::Client
 // [CompilerGenerated]
-// Dependencies OculusStudios.GraphQL.ClientInterface.IGraphQLModel, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
 // Is value type: true
 // CS Name: OculusStudios.GraphQL.Client.GraphQLClient/<RetryOrErrorOutMutationAsync>d__31`1<T>
 struct CORDL_TYPE GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1 {
@@ -1796,69 +1711,39 @@ public:
 
   using _ExecuteAsync_d__33 = ::OculusStudios::GraphQL::Client::GraphQLClient__ExecuteAsync_d__33;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
-  using _InternalMutateData_d__30_1 = ::OculusStudios::GraphQL::Client::GraphQLClient__InternalMutateData_d__30_1<T>;
+  template <typename T> using _InternalMutateData_d__30_1 = ::OculusStudios::GraphQL::Client::GraphQLClient__InternalMutateData_d__30_1<T>;
 
-  template <typename TBackend>
-    requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
-  using _InternalQueryData_d__27_1 = ::OculusStudios::GraphQL::Client::GraphQLClient__InternalQueryData_d__27_1<TBackend>;
+  template <typename TBackend> using _InternalQueryData_d__27_1 = ::OculusStudios::GraphQL::Client::GraphQLClient__InternalQueryData_d__27_1<TBackend>;
 
-  template <typename TBackend>
-    requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
-  using _Mutate_d__28_1 = ::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__28_1<TBackend>;
+  template <typename TBackend> using _Mutate_d__28_1 = ::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__28_1<TBackend>;
 
-  template <typename TBackend, typename TFrontend>
-    requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend> &&
-             ::cordl_internals::reference_type_constraint<TFrontend>)
-  using _Mutate_d__29_2 = ::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__29_2<TBackend, TFrontend>;
+  template <typename TBackend, typename TFrontend> using _Mutate_d__29_2 = ::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__29_2<TBackend, TFrontend>;
 
   using _ProcessRequest_d__24 = ::OculusStudios::GraphQL::Client::GraphQLClient__ProcessRequest_d__24;
 
-  template <typename TBackend>
-    requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
-  using _Query_d__25_1 = ::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__25_1<TBackend>;
+  template <typename TBackend> using _Query_d__25_1 = ::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__25_1<TBackend>;
 
-  template <typename TBackend, typename TFrontend>
-    requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend> &&
-             ::cordl_internals::reference_type_constraint<TFrontend>)
-  using _Query_d__26_2 = ::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__26_2<TBackend, TFrontend>;
+  template <typename TBackend, typename TFrontend> using _Query_d__26_2 = ::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__26_2<TBackend, TFrontend>;
 
   using _ResetRequestForUserInitiatedRetryAsync_d__37 = ::OculusStudios::GraphQL::Client::GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__37;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
-  using _RetryOrErrorOutMutationAsync_d__31_1 = ::OculusStudios::GraphQL::Client::GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1<T>;
+  template <typename T> using _RetryOrErrorOutMutationAsync_d__31_1 = ::OculusStudios::GraphQL::Client::GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1<T>;
 
   using _WaitUntilRequestQueueIsResumed_d__36 = ::OculusStudios::GraphQL::Client::GraphQLClient__WaitUntilRequestQueueIsResumed_d__36;
 
-  template <typename TBackend>
-    requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
-  using __c__DisplayClass25_0_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1<TBackend>;
+  template <typename TBackend> using __c__DisplayClass25_0_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1<TBackend>;
 
-  template <typename TBackend>
-    requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
-  using __c__DisplayClass27_0_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>;
+  template <typename TBackend> using __c__DisplayClass27_0_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>;
 
-  template <typename TBackend>
-    requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
-  using __c__DisplayClass27_1_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>;
+  template <typename TBackend> using __c__DisplayClass27_1_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>;
 
-  template <typename TBackend>
-    requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
-  using __c__DisplayClass27_2_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_2_1<TBackend>;
+  template <typename TBackend> using __c__DisplayClass27_2_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_2_1<TBackend>;
 
-  template <typename TBackend>
-    requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
-  using __c__DisplayClass28_0_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1<TBackend>;
+  template <typename TBackend> using __c__DisplayClass28_0_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1<TBackend>;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
-  using __c__DisplayClass30_0_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>;
+  template <typename T> using __c__DisplayClass30_0_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
-  using __c__DisplayClass32_0_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>;
+  template <typename T> using __c__DisplayClass32_0_1 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>;
 
   using __c__DisplayClass33_0 = ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass33_0;
 

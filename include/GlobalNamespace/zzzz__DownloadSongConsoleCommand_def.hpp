@@ -32,9 +32,7 @@ namespace GlobalNamespace {
 struct DownloadSongConsoleCommand__FindAssetByBundleNameAsync_d__13;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
-class RequiredArgument_1;
+template <typename T> class RequiredArgument_1;
 }
 namespace Oculus::Platform::Models {
 class AssetDetailsList;

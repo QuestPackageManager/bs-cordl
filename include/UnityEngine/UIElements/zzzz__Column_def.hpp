@@ -41,17 +41,13 @@ namespace UnityEngine::UIElements {
 struct ColumnDataType;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Column*> && ::cordl_internals::default_constructor_constraint<T>)
-class Column_UxmlObjectFactory_1;
+template <typename T> class Column_UxmlObjectFactory_1;
 }
 namespace UnityEngine::UIElements {
 class Column_UxmlObjectFactory;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Column*>)
-class Column_UxmlObjectTraits_1;
+template <typename T> class Column_UxmlObjectTraits_1;
 }
 namespace UnityEngine::UIElements {
 class Columns;
@@ -72,14 +68,10 @@ namespace UnityEngine::UIElements {
 class UxmlBoolAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Column*>)
-class UxmlObjectTraits_1_Column___c__DisplayClass14_0;
+template <typename T> class UxmlObjectTraits_1_Column___c__DisplayClass14_0;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Column*>)
-class UxmlObjectTraits_1_Column___c__DisplayClass14_1;
+template <typename T> class UxmlObjectTraits_1_Column___c__DisplayClass14_1;
 }
 namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
@@ -98,24 +90,16 @@ namespace UnityEngine::UIElements {
 class Column_UxmlObjectFactory;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Column*> && ::cordl_internals::default_constructor_constraint<T>)
-class Column_UxmlObjectFactory_1;
+template <typename T> class Column_UxmlObjectFactory_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Column*>)
-class Column_UxmlObjectTraits_1;
+template <typename T> class Column_UxmlObjectTraits_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Column*>)
-class UxmlObjectTraits_1_Column___c__DisplayClass14_0;
+template <typename T> class UxmlObjectTraits_1_Column___c__DisplayClass14_0;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Column*>)
-class UxmlObjectTraits_1_Column___c__DisplayClass14_1;
+template <typename T> class UxmlObjectTraits_1_Column___c__DisplayClass14_1;
 }
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::Column*);
@@ -130,6 +114,382 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::Column_UxmlObjectFactory_
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::Column_UxmlObjectTraits_1, "UnityEngine.UIElements", "Column/UxmlObjectTraits`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::UxmlObjectTraits_1_Column___c__DisplayClass14_0, "UnityEngine.UIElements", "Column/UxmlObjectTraits`1/<>c__DisplayClass14_0");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::UxmlObjectTraits_1_Column___c__DisplayClass14_1, "UnityEngine.UIElements", "Column/UxmlObjectTraits`1/<>c__DisplayClass14_1");
+// [Obsolete("UxmlObjectFactory<T> is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
+// Dependencies UnityEngine.UIElements.UxmlObjectFactory`2<TCreatedType, TTraits>
+namespace UnityEngine::UIElements {
+// cpp template
+template <typename T>
+// Is value type: false
+// CS Name: UnityEngine.UIElements.Column/UxmlObjectFactory`1<T>
+class CORDL_TYPE Column_UxmlObjectFactory_1 : public ::UnityEngine::UIElements::UxmlObjectFactory_2<T, ::UnityEngine::UIElements::Column_UxmlObjectTraits_1<T>*> {
+public:
+  // Declarations
+  static inline ::UnityEngine::UIElements::Column_UxmlObjectFactory_1<T>* New_ctor();
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Column_UxmlObjectFactory_1();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "Column_UxmlObjectFactory_1", modifiers: "&&", def_value: None, comment: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Column_UxmlObjectFactory_1(Column_UxmlObjectFactory_1&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "Column_UxmlObjectFactory_1", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Column_UxmlObjectFactory_1(Column_UxmlObjectFactory_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4251 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace UnityEngine::UIElements
+// [Obsolete("UxmlObjectFactory<T> is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
+// Dependencies UnityEngine.UIElements.Column::UxmlObjectFactory`1<T>
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.Column/UxmlObjectFactory
+class CORDL_TYPE Column_UxmlObjectFactory : public ::UnityEngine::UIElements::Column_UxmlObjectFactory_1<::UnityEngine::UIElements::Column*> {
+public:
+  // Declarations
+  static inline ::UnityEngine::UIElements::Column_UxmlObjectFactory* New_ctor();
+
+  /// @brief Method .ctor, addr 0x6d55bf0, size 0x74, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Column_UxmlObjectFactory();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "Column_UxmlObjectFactory", modifiers: "&&", def_value: None, comment: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Column_UxmlObjectFactory(Column_UxmlObjectFactory&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "Column_UxmlObjectFactory", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Column_UxmlObjectFactory(Column_UxmlObjectFactory const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4252 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::UIElements::Column_UxmlObjectFactory) == 0x18, "Size mismatch!");
+
+} // namespace UnityEngine::UIElements
+// [CompilerGenerated]
+// Dependencies System.Object
+namespace UnityEngine::UIElements {
+// cpp template
+template <typename T>
+// Is value type: false
+// CS Name: UnityEngine.UIElements.Column/UxmlObjectTraits`1/<>c__DisplayClass14_0<T>
+class CORDL_TYPE UxmlObjectTraits_1_Column___c__DisplayClass14_0 : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field asset, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_asset, put = __cordl_internal_set_asset)) ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> asset;
+
+  static inline ::UnityEngine::UIElements::UxmlObjectTraits_1_Column___c__DisplayClass14_0<T>* New_ctor();
+
+  /// @brief Method <Init>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::VisualElement* _Init_b__0();
+
+  constexpr ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> const& __cordl_internal_get_asset() const;
+
+  constexpr ::UnityW<::UnityEngine::UIElements::VisualTreeAsset>& __cordl_internal_get_asset();
+
+  constexpr void __cordl_internal_set_asset(::UnityW<::UnityEngine::UIElements::VisualTreeAsset> value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UxmlObjectTraits_1_Column___c__DisplayClass14_0();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlObjectTraits_1_Column___c__DisplayClass14_0", modifiers: "&&", def_value: None, comment: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  UxmlObjectTraits_1_Column___c__DisplayClass14_0(UxmlObjectTraits_1_Column___c__DisplayClass14_0&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlObjectTraits_1_Column___c__DisplayClass14_0", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  UxmlObjectTraits_1_Column___c__DisplayClass14_0(UxmlObjectTraits_1_Column___c__DisplayClass14_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4253 };
+
+  /// @brief Field asset, offset: 0x10, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> ___asset;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace UnityEngine::UIElements
+// [CompilerGenerated]
+// Dependencies System.Object
+namespace UnityEngine::UIElements {
+// cpp template
+template <typename T>
+// Is value type: false
+// CS Name: UnityEngine.UIElements.Column/UxmlObjectTraits`1/<>c__DisplayClass14_1<T>
+class CORDL_TYPE UxmlObjectTraits_1_Column___c__DisplayClass14_1 : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field asset, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_asset, put = __cordl_internal_set_asset)) ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> asset;
+
+  static inline ::UnityEngine::UIElements::UxmlObjectTraits_1_Column___c__DisplayClass14_1<T>* New_ctor();
+
+  /// @brief Method <Init>b__1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::VisualElement* _Init_b__1();
+
+  constexpr ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> const& __cordl_internal_get_asset() const;
+
+  constexpr ::UnityW<::UnityEngine::UIElements::VisualTreeAsset>& __cordl_internal_get_asset();
+
+  constexpr void __cordl_internal_set_asset(::UnityW<::UnityEngine::UIElements::VisualTreeAsset> value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UxmlObjectTraits_1_Column___c__DisplayClass14_1();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlObjectTraits_1_Column___c__DisplayClass14_1", modifiers: "&&", def_value: None, comment: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  UxmlObjectTraits_1_Column___c__DisplayClass14_1(UxmlObjectTraits_1_Column___c__DisplayClass14_1&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlObjectTraits_1_Column___c__DisplayClass14_1", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  UxmlObjectTraits_1_Column___c__DisplayClass14_1(UxmlObjectTraits_1_Column___c__DisplayClass14_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4254 };
+
+  /// @brief Field asset, offset: 0x10, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> ___asset;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace UnityEngine::UIElements
+// [Obsolete("UxmlObjectTraits<T> is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
+// Dependencies UnityEngine.UIElements.UxmlObjectTraits`1<T>
+namespace UnityEngine::UIElements {
+// cpp template
+template <typename T>
+// Is value type: false
+// CS Name: UnityEngine.UIElements.Column/UxmlObjectTraits`1<T>
+class CORDL_TYPE Column_UxmlObjectTraits_1 : public ::UnityEngine::UIElements::UxmlObjectTraits_1<T> {
+public:
+  // Declarations
+  using __c__DisplayClass14_0 = ::UnityEngine::UIElements::UxmlObjectTraits_1_Column___c__DisplayClass14_0<T>;
+
+  using __c__DisplayClass14_1 = ::UnityEngine::UIElements::UxmlObjectTraits_1_Column___c__DisplayClass14_1<T>;
+
+  /// @brief Field m_BindingPath, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_BindingPath, put = __cordl_internal_set_m_BindingPath)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_BindingPath;
+
+  /// @brief Field m_CellTemplateId, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_CellTemplateId, put = __cordl_internal_set_m_CellTemplateId)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_CellTemplateId;
+
+  /// @brief Field m_HeaderTemplateId, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_HeaderTemplateId, put = __cordl_internal_set_m_HeaderTemplateId)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_HeaderTemplateId;
+
+  /// @brief Field m_MaxWidth, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_MaxWidth, put = __cordl_internal_set_m_MaxWidth)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_MaxWidth;
+
+  /// @brief Field m_MinWidth, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_MinWidth, put = __cordl_internal_set_m_MinWidth)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_MinWidth;
+
+  /// @brief Field m_Name, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Name;
+
+  /// @brief Field m_Optional, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Optional, put = __cordl_internal_set_m_Optional)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Optional;
+
+  /// @brief Field m_Resizable, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Resizable, put = __cordl_internal_set_m_Resizable)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Resizable;
+
+  /// @brief Field m_Sortable, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Sortable, put = __cordl_internal_set_m_Sortable)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Sortable;
+
+  /// @brief Field m_Stretch, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Stretch, put = __cordl_internal_set_m_Stretch)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Stretch;
+
+  /// @brief Field m_Text, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
+
+  /// @brief Field m_Visible, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Visible, put = __cordl_internal_set_m_Visible)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Visible;
+
+  /// @brief Field m_Width, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Width, put = __cordl_internal_set_m_Width)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Width;
+
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Init(::by_ref<T> obj, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
+
+  static inline ::UnityEngine::UIElements::Column_UxmlObjectTraits_1<T>* New_ctor();
+
+  /// @brief Method ParseLength, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::Length ParseLength(::StringW str, ::UnityEngine::UIElements::Length defaultValue);
+
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_BindingPath() const;
+
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_BindingPath();
+
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_CellTemplateId() const;
+
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_CellTemplateId();
+
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_HeaderTemplateId() const;
+
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_HeaderTemplateId();
+
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_MaxWidth() const;
+
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_MaxWidth();
+
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_MinWidth() const;
+
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_MinWidth();
+
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_Name() const;
+
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Name();
+
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_Optional() const;
+
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_Optional();
+
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_Resizable() const;
+
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_Resizable();
+
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_Sortable() const;
+
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_Sortable();
+
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_Stretch() const;
+
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_Stretch();
+
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_Text() const;
+
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Text();
+
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_Visible() const;
+
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_Visible();
+
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_Width() const;
+
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Width();
+
+  constexpr void __cordl_internal_set_m_BindingPath(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+
+  constexpr void __cordl_internal_set_m_CellTemplateId(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+
+  constexpr void __cordl_internal_set_m_HeaderTemplateId(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+
+  constexpr void __cordl_internal_set_m_MaxWidth(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+
+  constexpr void __cordl_internal_set_m_MinWidth(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+
+  constexpr void __cordl_internal_set_m_Name(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+
+  constexpr void __cordl_internal_set_m_Optional(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+
+  constexpr void __cordl_internal_set_m_Resizable(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+
+  constexpr void __cordl_internal_set_m_Sortable(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+
+  constexpr void __cordl_internal_set_m_Stretch(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+
+  constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+
+  constexpr void __cordl_internal_set_m_Visible(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+
+  constexpr void __cordl_internal_set_m_Width(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Column_UxmlObjectTraits_1();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "Column_UxmlObjectTraits_1", modifiers: "&&", def_value: None, comment: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Column_UxmlObjectTraits_1(Column_UxmlObjectTraits_1&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "Column_UxmlObjectTraits_1", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Column_UxmlObjectTraits_1(Column_UxmlObjectTraits_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4255 };
+
+  /// @brief Field m_Name, offset: 0x18, size: 0x8, def value: None
+  ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Name;
+
+  /// @brief Field m_Text, offset: 0x20, size: 0x8, def value: None
+  ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Text;
+
+  /// @brief Field m_Visible, offset: 0x28, size: 0x8, def value: None
+  ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_Visible;
+
+  /// @brief Field m_Width, offset: 0x30, size: 0x8, def value: None
+  ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Width;
+
+  /// @brief Field m_MinWidth, offset: 0x38, size: 0x8, def value: None
+  ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_MinWidth;
+
+  /// @brief Field m_MaxWidth, offset: 0x40, size: 0x8, def value: None
+  ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_MaxWidth;
+
+  /// @brief Field m_Stretch, offset: 0x48, size: 0x8, def value: None
+  ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_Stretch;
+
+  /// @brief Field m_Sortable, offset: 0x50, size: 0x8, def value: None
+  ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_Sortable;
+
+  /// @brief Field m_Optional, offset: 0x58, size: 0x8, def value: None
+  ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_Optional;
+
+  /// @brief Field m_Resizable, offset: 0x60, size: 0x8, def value: None
+  ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_Resizable;
+
+  /// @brief Field m_HeaderTemplateId, offset: 0x68, size: 0x8, def value: None
+  ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_HeaderTemplateId;
+
+  /// @brief Field m_CellTemplateId, offset: 0x70, size: 0x8, def value: None
+  ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_CellTemplateId;
+
+  /// @brief Field m_BindingPath, offset: 0x78, size: 0x8, def value: None
+  ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_BindingPath;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace UnityEngine::UIElements
 // [UxmlObject]
 // Dependencies System.Object, UnityEngine.UIElements.Background, UnityEngine.UIElements.BindingId, UnityEngine.UIElements.Length
 namespace UnityEngine::UIElements {
@@ -140,13 +500,9 @@ public:
   // Declarations
   using UxmlObjectFactory = ::UnityEngine::UIElements::Column_UxmlObjectFactory;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Column*> && ::cordl_internals::default_constructor_constraint<T>)
-  using UxmlObjectFactory_1 = ::UnityEngine::UIElements::Column_UxmlObjectFactory_1<T>;
+  template <typename T> using UxmlObjectFactory_1 = ::UnityEngine::UIElements::Column_UxmlObjectFactory_1<T>;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Column*>)
-  using UxmlObjectTraits_1 = ::UnityEngine::UIElements::Column_UxmlObjectTraits_1<T>;
+  template <typename T> using UxmlObjectTraits_1 = ::UnityEngine::UIElements::Column_UxmlObjectTraits_1<T>;
 
   /// @brief Field <bindingPath>k__BackingField, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get__bindingPath_k__BackingField, put = __cordl_internal_set__bindingPath_k__BackingField)) ::StringW _bindingPath_k__BackingField;
@@ -930,384 +1286,4 @@ static_assert(offsetof(::UnityEngine::UIElements::Column, ___resized) == 0xe0, "
 
 static_assert(sizeof(::UnityEngine::UIElements::Column) == 0xe8, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
-// [Obsolete("UxmlObjectFactory<T> is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
-// Dependencies UnityEngine.UIElements.Column, UnityEngine.UIElements.UxmlObjectFactory`2<TCreatedType, TTraits>
-namespace UnityEngine::UIElements {
-// cpp template
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Column*> && ::cordl_internals::default_constructor_constraint<T>)
-// Is value type: false
-// CS Name: UnityEngine.UIElements.Column/UxmlObjectFactory`1<T>
-class CORDL_TYPE Column_UxmlObjectFactory_1 : public ::UnityEngine::UIElements::UxmlObjectFactory_2<T, ::UnityEngine::UIElements::Column_UxmlObjectTraits_1<T>*> {
-public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::Column_UxmlObjectFactory_1<T>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Column_UxmlObjectFactory_1();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "Column_UxmlObjectFactory_1", modifiers: "&&", def_value: None, comment: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Column_UxmlObjectFactory_1(Column_UxmlObjectFactory_1&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "Column_UxmlObjectFactory_1", modifiers: "const&", def_value: None, comment: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Column_UxmlObjectFactory_1(Column_UxmlObjectFactory_1 const&) = delete;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4251 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace UnityEngine::UIElements
-// [Obsolete("UxmlObjectFactory<T> is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
-// Dependencies UnityEngine.UIElements.Column::UxmlObjectFactory`1<T>
-namespace UnityEngine::UIElements {
-// Is value type: false
-// CS Name: UnityEngine.UIElements.Column/UxmlObjectFactory
-class CORDL_TYPE Column_UxmlObjectFactory : public ::UnityEngine::UIElements::Column_UxmlObjectFactory_1<::UnityEngine::UIElements::Column*> {
-public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::Column_UxmlObjectFactory* New_ctor();
-
-  /// @brief Method .ctor, addr 0x6d55bf0, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Column_UxmlObjectFactory();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "Column_UxmlObjectFactory", modifiers: "&&", def_value: None, comment: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Column_UxmlObjectFactory(Column_UxmlObjectFactory&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "Column_UxmlObjectFactory", modifiers: "const&", def_value: None, comment: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Column_UxmlObjectFactory(Column_UxmlObjectFactory const&) = delete;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4252 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(sizeof(::UnityEngine::UIElements::Column_UxmlObjectFactory) == 0x18, "Size mismatch!");
-
-} // namespace UnityEngine::UIElements
-// [CompilerGenerated]
-// Dependencies System.Object, UnityEngine.UIElements.Column
-namespace UnityEngine::UIElements {
-// cpp template
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Column*>)
-// Is value type: false
-// CS Name: UnityEngine.UIElements.Column/UxmlObjectTraits`1/<>c__DisplayClass14_0<T>
-class CORDL_TYPE UxmlObjectTraits_1_Column___c__DisplayClass14_0 : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field asset, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_asset, put = __cordl_internal_set_asset)) ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> asset;
-
-  static inline ::UnityEngine::UIElements::UxmlObjectTraits_1_Column___c__DisplayClass14_0<T>* New_ctor();
-
-  /// @brief Method <Init>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::VisualElement* _Init_b__0();
-
-  constexpr ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> const& __cordl_internal_get_asset() const;
-
-  constexpr ::UnityW<::UnityEngine::UIElements::VisualTreeAsset>& __cordl_internal_get_asset();
-
-  constexpr void __cordl_internal_set_asset(::UnityW<::UnityEngine::UIElements::VisualTreeAsset> value);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UxmlObjectTraits_1_Column___c__DisplayClass14_0();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlObjectTraits_1_Column___c__DisplayClass14_0", modifiers: "&&", def_value: None, comment: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UxmlObjectTraits_1_Column___c__DisplayClass14_0(UxmlObjectTraits_1_Column___c__DisplayClass14_0&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlObjectTraits_1_Column___c__DisplayClass14_0", modifiers: "const&", def_value: None, comment: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UxmlObjectTraits_1_Column___c__DisplayClass14_0(UxmlObjectTraits_1_Column___c__DisplayClass14_0 const&) = delete;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4253 };
-
-  /// @brief Field asset, offset: 0x10, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> ___asset;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace UnityEngine::UIElements
-// [CompilerGenerated]
-// Dependencies System.Object, UnityEngine.UIElements.Column
-namespace UnityEngine::UIElements {
-// cpp template
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Column*>)
-// Is value type: false
-// CS Name: UnityEngine.UIElements.Column/UxmlObjectTraits`1/<>c__DisplayClass14_1<T>
-class CORDL_TYPE UxmlObjectTraits_1_Column___c__DisplayClass14_1 : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field asset, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_asset, put = __cordl_internal_set_asset)) ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> asset;
-
-  static inline ::UnityEngine::UIElements::UxmlObjectTraits_1_Column___c__DisplayClass14_1<T>* New_ctor();
-
-  /// @brief Method <Init>b__1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::VisualElement* _Init_b__1();
-
-  constexpr ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> const& __cordl_internal_get_asset() const;
-
-  constexpr ::UnityW<::UnityEngine::UIElements::VisualTreeAsset>& __cordl_internal_get_asset();
-
-  constexpr void __cordl_internal_set_asset(::UnityW<::UnityEngine::UIElements::VisualTreeAsset> value);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UxmlObjectTraits_1_Column___c__DisplayClass14_1();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlObjectTraits_1_Column___c__DisplayClass14_1", modifiers: "&&", def_value: None, comment: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UxmlObjectTraits_1_Column___c__DisplayClass14_1(UxmlObjectTraits_1_Column___c__DisplayClass14_1&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlObjectTraits_1_Column___c__DisplayClass14_1", modifiers: "const&", def_value: None, comment: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UxmlObjectTraits_1_Column___c__DisplayClass14_1(UxmlObjectTraits_1_Column___c__DisplayClass14_1 const&) = delete;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4254 };
-
-  /// @brief Field asset, offset: 0x10, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> ___asset;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace UnityEngine::UIElements
-// [Obsolete("UxmlObjectTraits<T> is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
-// Dependencies UnityEngine.UIElements.Column, UnityEngine.UIElements.UxmlObjectTraits`1<T>
-namespace UnityEngine::UIElements {
-// cpp template
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::Column*>)
-// Is value type: false
-// CS Name: UnityEngine.UIElements.Column/UxmlObjectTraits`1<T>
-class CORDL_TYPE Column_UxmlObjectTraits_1 : public ::UnityEngine::UIElements::UxmlObjectTraits_1<T> {
-public:
-  // Declarations
-  using __c__DisplayClass14_0 = ::UnityEngine::UIElements::UxmlObjectTraits_1_Column___c__DisplayClass14_0<T>;
-
-  using __c__DisplayClass14_1 = ::UnityEngine::UIElements::UxmlObjectTraits_1_Column___c__DisplayClass14_1<T>;
-
-  /// @brief Field m_BindingPath, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_BindingPath, put = __cordl_internal_set_m_BindingPath)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_BindingPath;
-
-  /// @brief Field m_CellTemplateId, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_CellTemplateId, put = __cordl_internal_set_m_CellTemplateId)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_CellTemplateId;
-
-  /// @brief Field m_HeaderTemplateId, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_HeaderTemplateId, put = __cordl_internal_set_m_HeaderTemplateId)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_HeaderTemplateId;
-
-  /// @brief Field m_MaxWidth, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_MaxWidth, put = __cordl_internal_set_m_MaxWidth)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_MaxWidth;
-
-  /// @brief Field m_MinWidth, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_MinWidth, put = __cordl_internal_set_m_MinWidth)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_MinWidth;
-
-  /// @brief Field m_Name, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Name;
-
-  /// @brief Field m_Optional, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Optional, put = __cordl_internal_set_m_Optional)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Optional;
-
-  /// @brief Field m_Resizable, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Resizable, put = __cordl_internal_set_m_Resizable)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Resizable;
-
-  /// @brief Field m_Sortable, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Sortable, put = __cordl_internal_set_m_Sortable)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Sortable;
-
-  /// @brief Field m_Stretch, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Stretch, put = __cordl_internal_set_m_Stretch)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Stretch;
-
-  /// @brief Field m_Text, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
-
-  /// @brief Field m_Visible, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Visible, put = __cordl_internal_set_m_Visible)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Visible;
-
-  /// @brief Field m_Width, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Width, put = __cordl_internal_set_m_Width)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Width;
-
-  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Init(::by_ref<T> obj, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
-
-  static inline ::UnityEngine::UIElements::Column_UxmlObjectTraits_1<T>* New_ctor();
-
-  /// @brief Method ParseLength, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::Length ParseLength(::StringW str, ::UnityEngine::UIElements::Length defaultValue);
-
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_BindingPath() const;
-
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_BindingPath();
-
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_CellTemplateId() const;
-
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_CellTemplateId();
-
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_HeaderTemplateId() const;
-
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_HeaderTemplateId();
-
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_MaxWidth() const;
-
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_MaxWidth();
-
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_MinWidth() const;
-
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_MinWidth();
-
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_Name() const;
-
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Name();
-
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_Optional() const;
-
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_Optional();
-
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_Resizable() const;
-
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_Resizable();
-
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_Sortable() const;
-
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_Sortable();
-
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_Stretch() const;
-
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_Stretch();
-
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_Text() const;
-
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Text();
-
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_Visible() const;
-
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_Visible();
-
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_Width() const;
-
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Width();
-
-  constexpr void __cordl_internal_set_m_BindingPath(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
-
-  constexpr void __cordl_internal_set_m_CellTemplateId(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
-
-  constexpr void __cordl_internal_set_m_HeaderTemplateId(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
-
-  constexpr void __cordl_internal_set_m_MaxWidth(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
-
-  constexpr void __cordl_internal_set_m_MinWidth(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
-
-  constexpr void __cordl_internal_set_m_Name(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
-
-  constexpr void __cordl_internal_set_m_Optional(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
-
-  constexpr void __cordl_internal_set_m_Resizable(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
-
-  constexpr void __cordl_internal_set_m_Sortable(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
-
-  constexpr void __cordl_internal_set_m_Stretch(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
-
-  constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
-
-  constexpr void __cordl_internal_set_m_Visible(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
-
-  constexpr void __cordl_internal_set_m_Width(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Column_UxmlObjectTraits_1();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "Column_UxmlObjectTraits_1", modifiers: "&&", def_value: None, comment: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Column_UxmlObjectTraits_1(Column_UxmlObjectTraits_1&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "Column_UxmlObjectTraits_1", modifiers: "const&", def_value: None, comment: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Column_UxmlObjectTraits_1(Column_UxmlObjectTraits_1 const&) = delete;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4255 };
-
-  /// @brief Field m_Name, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Name;
-
-  /// @brief Field m_Text, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Text;
-
-  /// @brief Field m_Visible, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_Visible;
-
-  /// @brief Field m_Width, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Width;
-
-  /// @brief Field m_MinWidth, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_MinWidth;
-
-  /// @brief Field m_MaxWidth, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_MaxWidth;
-
-  /// @brief Field m_Stretch, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_Stretch;
-
-  /// @brief Field m_Sortable, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_Sortable;
-
-  /// @brief Field m_Optional, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_Optional;
-
-  /// @brief Field m_Resizable, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_Resizable;
-
-  /// @brief Field m_HeaderTemplateId, offset: 0x68, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_HeaderTemplateId;
-
-  /// @brief Field m_CellTemplateId, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_CellTemplateId;
-
-  /// @brief Field m_BindingPath, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_BindingPath;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
 } // namespace UnityEngine::UIElements

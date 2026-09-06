@@ -10,7 +10,6 @@
 // None }, CppParam { name: "_13", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_14", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
 // name: "_15", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr ::UnityEngine::UIElements::Layout::FixedBuffer16_1<T>::FixedBuffer16_1(T __0, T __1, T __2, T __3, T __4, T __5, T __6, T __7, T __8, T __9, T _10, T _11, T _12, T _13, T _14,
                                                                                  T _15) noexcept {
   this->__0 = __0;
@@ -31,6 +30,4 @@ constexpr ::UnityEngine::UIElements::Layout::FixedBuffer16_1<T>::FixedBuffer16_1
   this->_15 = _15;
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr ::UnityEngine::UIElements::Layout::FixedBuffer16_1<T>::FixedBuffer16_1() {}
+template <typename T> constexpr ::UnityEngine::UIElements::Layout::FixedBuffer16_1<T>::FixedBuffer16_1() {}

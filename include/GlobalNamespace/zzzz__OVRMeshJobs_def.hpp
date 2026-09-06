@@ -15,9 +15,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRMeshJobs)
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct OVRMeshJobs_NativeArrayHelper_1;
+template <typename T> struct OVRMeshJobs_NativeArrayHelper_1;
 }
 namespace GlobalNamespace {
 struct OVRMeshJobs_TransformToUnitySpaceJob;
@@ -36,9 +34,7 @@ namespace GlobalNamespace {
 class OVRMeshJobs;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct OVRMeshJobs_NativeArrayHelper_1;
+template <typename T> struct OVRMeshJobs_NativeArrayHelper_1;
 }
 namespace GlobalNamespace {
 struct OVRMeshJobs_TransformToUnitySpaceJob;
@@ -205,7 +201,6 @@ static_assert(sizeof(::GlobalNamespace::OVRMeshJobs_TransformTrianglesJob) == 0x
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: OVRMeshJobs/NativeArrayHelper`1<T>
 struct CORDL_TYPE OVRMeshJobs_NativeArrayHelper_1 {
@@ -254,9 +249,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRMeshJobs : public ::System::Object {
 public:
   // Declarations
-  template <typename T>
-    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  using NativeArrayHelper_1 = ::GlobalNamespace::OVRMeshJobs_NativeArrayHelper_1<T>;
+  template <typename T> using NativeArrayHelper_1 = ::GlobalNamespace::OVRMeshJobs_NativeArrayHelper_1<T>;
 
   using TransformToUnitySpaceJob = ::GlobalNamespace::OVRMeshJobs_TransformToUnitySpaceJob;
 

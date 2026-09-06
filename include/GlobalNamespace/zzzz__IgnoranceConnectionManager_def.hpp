@@ -31,9 +31,7 @@ namespace GlobalNamespace {
 struct DisconnectedReason;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*>)
-class IConnectionInitParams_1;
+template <typename T> class IConnectionInitParams_1;
 }
 namespace GlobalNamespace {
 class IConnectionManager;

@@ -50,14 +50,10 @@ namespace GlobalNamespace {
 struct OVRPlugin_Result;
 }
 namespace GlobalNamespace {
-template <typename TStatus>
-  requires(::cordl_internals::type_constraint<TStatus, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TStatus> && ::cordl_internals::default_constructor_constraint<TStatus>)
-struct OVRResult_1;
+template <typename TStatus> struct OVRResult_1;
 }
 namespace GlobalNamespace {
-template <typename TValue, typename TStatus>
-  requires(::cordl_internals::type_constraint<TStatus, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TStatus> && ::cordl_internals::default_constructor_constraint<TStatus>)
-struct OVRResult_2;
+template <typename TValue, typename TStatus> struct OVRResult_2;
 }
 namespace GlobalNamespace {
 template <typename TResult> struct OVRTask_1;
@@ -126,9 +122,7 @@ namespace System {
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7> struct ValueTuple_7;
 }
 namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
-  requires(::cordl_internals::value_type_constraint<TRest> && ::cordl_internals::default_constructor_constraint<TRest>)
-struct ValueTuple_8;
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest> struct ValueTuple_8;
 }
 // Forward declare root types
 namespace GlobalNamespace {

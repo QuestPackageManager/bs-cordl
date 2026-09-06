@@ -6,9 +6,7 @@ CORDL_MODULE_INIT
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 CORDL_MODULE_EXPORT(IListPropertyBagVisitor)
 namespace Unity::Properties {
-template <typename TList, typename TElement>
-  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IList_1<TElement>*>)
-class IListPropertyBag_2;
+template <typename TList, typename TElement> class IListPropertyBag_2;
 }
 // Forward declare root types
 namespace Unity::Properties {

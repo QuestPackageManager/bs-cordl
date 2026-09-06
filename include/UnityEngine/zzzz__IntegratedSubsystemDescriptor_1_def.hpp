@@ -4,27 +4,23 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__IntegratedSubsystemDescriptor_def.hpp"
-#include "UnityEngine/zzzz__IntegratedSubsystem_def.hpp"
 CORDL_MODULE_EXPORT(IntegratedSubsystemDescriptor_1)
 namespace UnityEngine {
 class ISubsystem;
 }
 // Forward declare root types
 namespace UnityEngine {
-template <typename TSubsystem>
-  requires(::cordl_internals::type_constraint<TSubsystem, ::UnityEngine::IntegratedSubsystem*>)
-class IntegratedSubsystemDescriptor_1;
+template <typename TSubsystem> class IntegratedSubsystemDescriptor_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::IntegratedSubsystemDescriptor_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::IntegratedSubsystemDescriptor_1, "UnityEngine", "IntegratedSubsystemDescriptor`1");
 // [UsedByNativeCode("SubsystemDescriptor")]
 // [NativeHeader("Modules/Subsystems/SubsystemDescriptor.h")]
-// Dependencies UnityEngine.IntegratedSubsystem, UnityEngine.IntegratedSubsystemDescriptor
+// Dependencies UnityEngine.IntegratedSubsystemDescriptor
 namespace UnityEngine {
 // cpp template
 template <typename TSubsystem>
-  requires(::cordl_internals::type_constraint<TSubsystem, ::UnityEngine::IntegratedSubsystem*>)
 // Is value type: false
 // CS Name: UnityEngine.IntegratedSubsystemDescriptor`1<TSubsystem>
 class CORDL_TYPE IntegratedSubsystemDescriptor_1 : public ::UnityEngine::IntegratedSubsystemDescriptor {

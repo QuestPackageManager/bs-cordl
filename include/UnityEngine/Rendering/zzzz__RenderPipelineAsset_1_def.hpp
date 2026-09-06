@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/Rendering/zzzz__RenderPipelineAsset_def.hpp"
-#include "UnityEngine/Rendering/zzzz__RenderPipeline_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(RenderPipelineAsset_1)
 namespace System {
@@ -12,18 +11,15 @@ class Type;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
-template <typename TRenderPipeline>
-  requires(::cordl_internals::type_constraint<TRenderPipeline, ::UnityEngine::Rendering::RenderPipeline*>)
-class RenderPipelineAsset_1;
+template <typename TRenderPipeline> class RenderPipelineAsset_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::RenderPipelineAsset_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::RenderPipelineAsset_1, "UnityEngine.Rendering", "RenderPipelineAsset`1");
-// Dependencies UnityEngine.Rendering.RenderPipeline, UnityEngine.Rendering.RenderPipelineAsset
+// Dependencies UnityEngine.Rendering.RenderPipelineAsset
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename TRenderPipeline>
-  requires(::cordl_internals::type_constraint<TRenderPipeline, ::UnityEngine::Rendering::RenderPipeline*>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.RenderPipelineAsset`1<TRenderPipeline>
 class CORDL_TYPE RenderPipelineAsset_1 : public ::UnityEngine::Rendering::RenderPipelineAsset {

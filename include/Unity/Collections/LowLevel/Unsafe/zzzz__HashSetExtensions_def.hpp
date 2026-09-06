@@ -7,84 +7,52 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(HashSetExtensions)
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct UnsafeHashSet_1_ReadOnly;
+template <typename T> struct UnsafeHashSet_1_ReadOnly;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct UnsafeHashSet_1;
+template <typename T> struct UnsafeHashSet_1;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct UnsafeList_1;
+template <typename T> struct UnsafeList_1;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct UnsafeParallelHashSet_1_ReadOnly;
+template <typename T> struct UnsafeParallelHashSet_1_ReadOnly;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct UnsafeParallelHashSet_1;
+template <typename T> struct UnsafeParallelHashSet_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct FixedList128Bytes_1;
+template <typename T> struct FixedList128Bytes_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct FixedList32Bytes_1;
+template <typename T> struct FixedList32Bytes_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct FixedList4096Bytes_1;
+template <typename T> struct FixedList4096Bytes_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct FixedList512Bytes_1;
+template <typename T> struct FixedList512Bytes_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct FixedList64Bytes_1;
+template <typename T> struct FixedList64Bytes_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1;
+template <typename T> struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeHashSet_1_ReadOnly;
+template <typename T> struct NativeHashSet_1_ReadOnly;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeHashSet_1;
+template <typename T> struct NativeHashSet_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeList_1;
+template <typename T> struct NativeList_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeParallelHashSet_1_ReadOnly;
+template <typename T> struct NativeParallelHashSet_1_ReadOnly;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeParallelHashSet_1;
+template <typename T> struct NativeParallelHashSet_1;
 }
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe {

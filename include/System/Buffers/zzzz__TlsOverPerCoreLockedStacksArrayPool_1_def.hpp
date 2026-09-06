@@ -19,9 +19,7 @@ namespace System::Buffers {
 template <typename T> class TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::reference_type_constraint<TKey> && ::cordl_internals::reference_type_constraint<TValue>)
-class ConditionalWeakTable_2;
+template <typename TKey, typename TValue> class ConditionalWeakTable_2;
 }
 namespace System {
 class Object;

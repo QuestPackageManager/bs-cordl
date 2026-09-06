@@ -14,17 +14,13 @@ namespace GlobalNamespace {
 class BeatmapDataItem;
 }
 namespace GlobalNamespace {
-template <typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::GlobalNamespace::BeatmapDataItem*>)
-class BeatmapDataSortedListForTypeAndIds_1;
+template <typename TBase> class BeatmapDataSortedListForTypeAndIds_1;
 }
 namespace GlobalNamespace {
 class BeatmapData_BeatmapDataBinaryHeapItem;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-class BeatmapData___c__DisplayClass50_0_1;
+template <typename T> class BeatmapData___c__DisplayClass50_0_1;
 }
 namespace GlobalNamespace {
 class BeatmapEventData;
@@ -39,9 +35,7 @@ namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
-class ISortedList_1;
+template <typename T> class ISortedList_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -78,9 +72,7 @@ namespace GlobalNamespace {
 class BeatmapData_BeatmapDataBinaryHeapItem;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-class BeatmapData___c__DisplayClass50_0_1;
+template <typename T> class BeatmapData___c__DisplayClass50_0_1;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::BeatmapData*);
@@ -148,11 +140,10 @@ static_assert(sizeof(::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem) =
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
-// Dependencies BeatmapDataItem, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
 // Is value type: false
 // CS Name: BeatmapData/<>c__DisplayClass50_0`1<T>
 class CORDL_TYPE BeatmapData___c__DisplayClass50_0_1 : public ::System::Object {
@@ -208,9 +199,7 @@ public:
   // Declarations
   using BeatmapDataBinaryHeapItem = ::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-  using __c__DisplayClass50_0_1 = ::GlobalNamespace::BeatmapData___c__DisplayClass50_0_1<T>;
+  template <typename T> using __c__DisplayClass50_0_1 = ::GlobalNamespace::BeatmapData___c__DisplayClass50_0_1<T>;
 
   /// @brief Field _allBeatmapData, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__allBeatmapData, put = __cordl_internal_set__allBeatmapData)) ::GlobalNamespace::ISortedList_1<::GlobalNamespace::BeatmapDataItem*>* _allBeatmapData;

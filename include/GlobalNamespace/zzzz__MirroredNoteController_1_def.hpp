@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__INoteMirrorable_def.hpp"
 #include "GlobalNamespace/zzzz__NoteControllerBase_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MirroredNoteController_1)
@@ -33,18 +32,15 @@ class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::INoteMirrorable*>)
-class MirroredNoteController_1;
+template <typename T> class MirroredNoteController_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::MirroredNoteController_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::MirroredNoteController_1, "", "MirroredNoteController`1");
-// Dependencies INoteMirrorable, NoteControllerBase
+// Dependencies NoteControllerBase
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::INoteMirrorable*>)
 // Is value type: false
 // CS Name: MirroredNoteController`1<T>
 class CORDL_TYPE MirroredNoteController_1 : public ::GlobalNamespace::NoteControllerBase {

@@ -102,9 +102,7 @@ namespace UnityEngine::Rendering::RendererUtils {
 struct RendererListDesc;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class DynamicArray_1;
+template <typename T> class DynamicArray_1;
 }
 namespace UnityEngine::Rendering {
 struct GizmoSubset;

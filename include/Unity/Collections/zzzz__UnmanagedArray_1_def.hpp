@@ -16,9 +16,7 @@ struct AllocatorManager_AllocatorHandle;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct UnmanagedArray_1;
+template <typename T> struct UnmanagedArray_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::UnmanagedArray_1);
@@ -28,7 +26,6 @@ DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::UnmanagedArray_1, "Unity.Collectio
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.UnmanagedArray`1<T>
 struct CORDL_TYPE UnmanagedArray_1 {

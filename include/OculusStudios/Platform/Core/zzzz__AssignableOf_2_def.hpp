@@ -7,9 +7,7 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(AssignableOf_2)
 // Forward declare root types
 namespace OculusStudios::Platform::Core {
-template <typename TBase, typename TDerived>
-  requires(::cordl_internals::type_constraint<TDerived, TBase>)
-class AssignableOf_2;
+template <typename TBase, typename TDerived> class AssignableOf_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::OculusStudios::Platform::Core::AssignableOf_2);
@@ -18,7 +16,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::OculusStudios::Platform::Core::AssignableOf_2, "Oc
 namespace OculusStudios::Platform::Core {
 // cpp template
 template <typename TBase, typename TDerived>
-  requires(::cordl_internals::type_constraint<TDerived, TBase>)
 // Is value type: false
 // CS Name: OculusStudios.Platform.Core.AssignableOf`2<TBase,TDerived>
 class CORDL_TYPE AssignableOf_2 : public ::OculusStudios::Platform::Core::AssignableOf_1<TBase> {

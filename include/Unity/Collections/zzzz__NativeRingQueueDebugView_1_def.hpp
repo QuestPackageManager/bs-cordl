@@ -7,20 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/arrayw.hpp"
 CORDL_MODULE_EXPORT(NativeRingQueueDebugView_1)
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct UnsafeRingQueue_1;
+template <typename T> struct UnsafeRingQueue_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeRingQueue_1;
+template <typename T> struct NativeRingQueue_1;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NativeRingQueueDebugView_1;
+template <typename T> class NativeRingQueueDebugView_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Unity::Collections::NativeRingQueueDebugView_1);
@@ -29,7 +23,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Collections::NativeRingQueueDebugView_1, "U
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: Unity.Collections.NativeRingQueueDebugView`1<T>
 class CORDL_TYPE NativeRingQueueDebugView_1 : public ::System::Object {

@@ -7,7 +7,6 @@ CORDL_MODULE_INIT
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "Unity/Collections/zzzz__Allocator_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstddef>
@@ -47,31 +46,24 @@ namespace Unity::Collections {
 struct Allocator;
 }
 namespace UnityEngine::InputSystem {
-template <typename TControl>
-  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
-struct InputControlList_1_Enumerator;
+template <typename TControl> struct InputControlList_1_Enumerator;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
-template <typename TControl>
-  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
-struct InputControlList_1;
+template <typename TControl> struct InputControlList_1;
 }
 namespace UnityEngine::InputSystem {
-template <typename TControl>
-  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
-struct InputControlList_1_Enumerator;
+template <typename TControl> struct InputControlList_1_Enumerator;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::InputSystem::InputControlList_1);
 MARK_GEN_VAL_T(::UnityEngine::InputSystem::InputControlList_1_Enumerator);
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::InputSystem::InputControlList_1, "UnityEngine.InputSystem", "InputControlList`1");
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::InputSystem::InputControlList_1_Enumerator, "UnityEngine.InputSystem", "InputControlList`1/Enumerator");
-// Dependencies UnityEngine.InputSystem.InputControl
+// Dependencies
 namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TControl>
-  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.InputControlList`1/Enumerator<TControl>
 struct CORDL_TYPE InputControlList_1_Enumerator {
@@ -146,12 +138,10 @@ public:
 } // namespace UnityEngine::InputSystem
 // [DefaultMember("Item")]
 // [DebuggerDisplay("Count = {Count}")]
-// Dependencies System.Collections.Generic.IComparer`1<T>, System.Collections.Generic.IReadOnlyList`1<T>, Unity.Collections.Allocator, Unity.Collections.NativeArray`1<T>,
-// UnityEngine.InputSystem.InputControl
+// Dependencies System.Collections.Generic.IComparer`1<T>, System.Collections.Generic.IReadOnlyList`1<T>, Unity.Collections.Allocator, Unity.Collections.NativeArray`1<T>
 namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TControl>
-  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.InputControlList`1<TControl>
 struct CORDL_TYPE InputControlList_1 {

@@ -3,24 +3,20 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/zzzz__Object_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LazyLoadReference_1)
 // Forward declare root types
 namespace UnityEngine {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
-struct LazyLoadReference_1;
+template <typename T> struct LazyLoadReference_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::LazyLoadReference_1);
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::LazyLoadReference_1, "UnityEngine", "LazyLoadReference`1");
-// Dependencies UnityEngine.Object
+// Dependencies
 namespace UnityEngine {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
 // Is value type: true
 // CS Name: UnityEngine.LazyLoadReference`1<T>
 struct CORDL_TYPE LazyLoadReference_1 {

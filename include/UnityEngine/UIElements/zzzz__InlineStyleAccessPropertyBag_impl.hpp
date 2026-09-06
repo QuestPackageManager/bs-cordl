@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/InlineStyleAccessPropertyBag.hpp"
-#include "System/zzzz__IConvertible_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Properties/zzzz__PropertyBag_1_impl.hpp"
 #include "Unity/Properties/zzzz__Property_2_impl.hpp"
@@ -110,47 +109,36 @@
 #include "UnityEngine/zzzz__TextAnchor_def.hpp"
 #include "UnityEngine/zzzz__TextGeneratorType_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
-template <typename TStyleValue, typename TValue>
-  requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
-inline void UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<TStyleValue, TValue>::_ctor() {
+template <typename TStyleValue, typename TValue> inline void UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<TStyleValue, TValue>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<TStyleValue, TValue>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TStyleValue, typename TValue>
-  requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
-inline ::StringW UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<TStyleValue, TValue>::get_ussName() {
+template <typename TStyleValue, typename TValue> inline ::StringW UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<TStyleValue, TValue>::get_ussName() {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass,
                                                            { ::i2c::class_of<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<TStyleValue, TValue>*>(), 18 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
 template <typename TStyleValue, typename TValue>
-  requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
 inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<TStyleValue, TValue>*
 UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<TStyleValue, TValue>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<TStyleValue, TValue>*>());
 }
 // Ctor Parameters []
 template <typename TStyleValue, typename TValue>
-  requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
 constexpr ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleProperty_2<TStyleValue, TValue>::InlineStyleAccessPropertyBag_InlineStyleProperty_2() {}
-template <typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-inline void UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<TValue>::_ctor() {
+template <typename TValue> inline void UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<TValue>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<TValue>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<TValue>* UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<TValue>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<TValue>*>());
 }
 // Ctor Parameters []
-template <typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-constexpr ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<TValue>::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1() {}
+template <typename TValue> constexpr ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1<TValue>::InlineStyleAccessPropertyBag_InlineStyleEnumProperty_1() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_AlignContentProperty.get_Name
 template <>
 
@@ -10927,7 +10915,6 @@ inline ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_WordSpacingProper
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::InlineStyleAccessPropertyBag_WordSpacingProperty::InlineStyleAccessPropertyBag_WordSpacingProperty() {}
 template <typename TStyleValue, typename TValue>
-  requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
 inline void UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>::setStaticF___9(
     ::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>* value) {
   ::cordl_internals::setStaticField<::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>*, "<>9",
@@ -10935,14 +10922,12 @@ inline void UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessProp
       std::forward<::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>*>(value));
 }
 template <typename TStyleValue, typename TValue>
-  requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
 inline ::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>*
 UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>::getStaticF___9() {
   return ::cordl_internals::getStaticField<::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>*, "<>9",
                                            ::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>*>();
 }
 template <typename TStyleValue, typename TValue>
-  requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
 inline void
 UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>::setStaticF___9__0_0(::Unity::Properties::TypeConverter_2<TStyleValue, TValue>* value) {
   ::cordl_internals::setStaticField<::Unity::Properties::TypeConverter_2<TStyleValue, TValue>*, "<>9__0_0",
@@ -10950,13 +10935,11 @@ UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<
       std::forward<::Unity::Properties::TypeConverter_2<TStyleValue, TValue>*>(value));
 }
 template <typename TStyleValue, typename TValue>
-  requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
 inline ::Unity::Properties::TypeConverter_2<TStyleValue, TValue>* UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>::getStaticF___9__0_0() {
   return ::cordl_internals::getStaticField<::Unity::Properties::TypeConverter_2<TStyleValue, TValue>*, "<>9__0_0",
                                            ::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>*>();
 }
 template <typename TStyleValue, typename TValue>
-  requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
 inline void
 UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>::setStaticF___9__0_1(::Unity::Properties::TypeConverter_2<TValue, TStyleValue>* value) {
   ::cordl_internals::setStaticField<::Unity::Properties::TypeConverter_2<TValue, TStyleValue>*, "<>9__0_1",
@@ -10964,13 +10947,11 @@ UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<
       std::forward<::Unity::Properties::TypeConverter_2<TValue, TStyleValue>*>(value));
 }
 template <typename TStyleValue, typename TValue>
-  requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
 inline ::Unity::Properties::TypeConverter_2<TValue, TStyleValue>* UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>::getStaticF___9__0_1() {
   return ::cordl_internals::getStaticField<::Unity::Properties::TypeConverter_2<TValue, TStyleValue>*, "<>9__0_1",
                                            ::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>*>();
 }
 template <typename TStyleValue, typename TValue>
-  requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
 inline void UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>::setStaticF___9__0_2(
     ::Unity::Properties::TypeConverter_2<TStyleValue, ::UnityEngine::UIElements::StyleKeyword>* value) {
   ::cordl_internals::setStaticField<::Unity::Properties::TypeConverter_2<TStyleValue, ::UnityEngine::UIElements::StyleKeyword>*, "<>9__0_2",
@@ -10978,14 +10959,12 @@ inline void UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessProp
       std::forward<::Unity::Properties::TypeConverter_2<TStyleValue, ::UnityEngine::UIElements::StyleKeyword>*>(value));
 }
 template <typename TStyleValue, typename TValue>
-  requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
 inline ::Unity::Properties::TypeConverter_2<TStyleValue, ::UnityEngine::UIElements::StyleKeyword>*
 UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>::getStaticF___9__0_2() {
   return ::cordl_internals::getStaticField<::Unity::Properties::TypeConverter_2<TStyleValue, ::UnityEngine::UIElements::StyleKeyword>*, "<>9__0_2",
                                            ::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>*>();
 }
 template <typename TStyleValue, typename TValue>
-  requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
 inline void UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>::setStaticF___9__0_3(
     ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleKeyword, TStyleValue>* value) {
   ::cordl_internals::setStaticField<::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleKeyword, TStyleValue>*, "<>9__0_3",
@@ -10993,21 +10972,17 @@ inline void UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessProp
       std::forward<::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleKeyword, TStyleValue>*>(value));
 }
 template <typename TStyleValue, typename TValue>
-  requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
 inline ::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleKeyword, TStyleValue>*
 UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>::getStaticF___9__0_3() {
   return ::cordl_internals::getStaticField<::Unity::Properties::TypeConverter_2<::UnityEngine::UIElements::StyleKeyword, TStyleValue>*, "<>9__0_3",
                                            ::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>*>();
 }
-template <typename TStyleValue, typename TValue>
-  requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
-inline void UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>::_ctor() {
+template <typename TStyleValue, typename TValue> inline void UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TStyleValue, typename TValue>
-  requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
 inline TValue UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>::__ctor_b__0_0(::by_ref<TStyleValue> sv) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>*>(),
@@ -11015,7 +10990,6 @@ inline TValue UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPr
   return ::cordl_internals::RunMethodRethrow<TValue>(this, ___internal_method, sv);
 }
 template <typename TStyleValue, typename TValue>
-  requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
 inline TStyleValue UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>::__ctor_b__0_1(::by_ref<TValue> v) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>*>(),
@@ -11023,7 +10997,6 @@ inline TStyleValue UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAcc
   return ::cordl_internals::RunMethodRethrow<TStyleValue>(this, ___internal_method, v);
 }
 template <typename TStyleValue, typename TValue>
-  requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
 inline ::UnityEngine::UIElements::StyleKeyword UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>::__ctor_b__0_2(::by_ref<TStyleValue> sv) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>*>(),
@@ -11031,7 +11004,6 @@ inline ::UnityEngine::UIElements::StyleKeyword UnityEngine::UIElements::InlineSt
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleKeyword>(this, ___internal_method, sv);
 }
 template <typename TStyleValue, typename TValue>
-  requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
 inline TStyleValue UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>::__ctor_b__0_3(::by_ref<::UnityEngine::UIElements::StyleKeyword> kw) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>*>(),
@@ -11039,14 +11011,12 @@ inline TStyleValue UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAcc
   return ::cordl_internals::RunMethodRethrow<TStyleValue>(this, ___internal_method, kw);
 }
 template <typename TStyleValue, typename TValue>
-  requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
 inline ::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>*
 UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>*>());
 }
 // Ctor Parameters []
 template <typename TStyleValue, typename TValue>
-  requires(::cordl_internals::type_constraint<TStyleValue, ::UnityEngine::UIElements::IStyleValue_1<TValue>*> && ::cordl_internals::default_constructor_constraint<TStyleValue>)
 constexpr ::UnityEngine::UIElements::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c<TStyleValue, TValue>::InlineStyleProperty_2_InlineStyleAccessPropertyBag___c() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::InlineStyleColorProperty_InlineStyleAccessPropertyBag___c._ctor
 template <>

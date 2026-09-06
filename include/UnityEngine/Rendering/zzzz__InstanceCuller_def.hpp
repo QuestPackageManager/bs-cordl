@@ -27,20 +27,13 @@ namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1;
+template <typename T> struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeList_1;
+template <typename T> struct NativeList_1;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
-           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-struct NativeParallelHashMap_2;
+template <typename TKey, typename TValue> struct NativeParallelHashMap_2;
 }
 namespace Unity::Jobs {
 class IJob;
@@ -49,9 +42,7 @@ namespace Unity::Jobs {
 struct JobHandle;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType>
-  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
-class BaseRenderFunc_2;
+template <typename PassData, typename ContextType> class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 class ComputeGraphContext;

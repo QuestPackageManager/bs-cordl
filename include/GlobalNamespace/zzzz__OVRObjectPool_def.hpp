@@ -17,9 +17,7 @@ namespace GlobalNamespace {
 class OVRObjectPool_IPoolObject;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct OVRObjectPool_ItemScope_1;
+template <typename T> struct OVRObjectPool_ItemScope_1;
 }
 namespace GlobalNamespace {
 template <typename T> struct OVRObjectPool_ListScope_1;
@@ -31,9 +29,7 @@ namespace GlobalNamespace {
 template <typename T> struct OVRObjectPool_StackScope_1;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class OVRObjectPool_Storage_1;
+template <typename T> class OVRObjectPool_Storage_1;
 }
 namespace GlobalNamespace {
 template <typename T> struct OVRObjectPool_TaskScope_1;
@@ -42,9 +38,7 @@ namespace GlobalNamespace {
 template <typename TResult> struct OVRTask_1;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class Storage_1_OVRObjectPool___c;
+template <typename T> class Storage_1_OVRObjectPool___c;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -78,14 +72,10 @@ namespace GlobalNamespace {
 class OVRObjectPool_IPoolObject;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class OVRObjectPool_Storage_1;
+template <typename T> class OVRObjectPool_Storage_1;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class Storage_1_OVRObjectPool___c;
+template <typename T> class Storage_1_OVRObjectPool___c;
 }
 namespace GlobalNamespace {
 template <typename TKey, typename TValue> struct OVRObjectPool_DictionaryScope_2;
@@ -94,9 +84,7 @@ namespace GlobalNamespace {
 template <typename T> struct OVRObjectPool_HashSetScope_1;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct OVRObjectPool_ItemScope_1;
+template <typename T> struct OVRObjectPool_ItemScope_1;
 }
 namespace GlobalNamespace {
 template <typename T> struct OVRObjectPool_ListScope_1;
@@ -162,7 +150,6 @@ public:
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: OVRObjectPool/Storage`1/<>c<T>
 class CORDL_TYPE Storage_1_OVRObjectPool___c : public ::System::Object {
@@ -208,7 +195,6 @@ public:
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: OVRObjectPool/Storage`1<T>
 class CORDL_TYPE OVRObjectPool_Storage_1 : public ::System::Object {
@@ -522,7 +508,6 @@ public:
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: OVRObjectPool/ItemScope`1<T>
 struct CORDL_TYPE OVRObjectPool_ItemScope_1 {
@@ -573,9 +558,7 @@ public:
 
   using IPoolObject = ::GlobalNamespace::OVRObjectPool_IPoolObject;
 
-  template <typename T>
-    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  using ItemScope_1 = ::GlobalNamespace::OVRObjectPool_ItemScope_1<T>;
+  template <typename T> using ItemScope_1 = ::GlobalNamespace::OVRObjectPool_ItemScope_1<T>;
 
   template <typename T> using ListScope_1 = ::GlobalNamespace::OVRObjectPool_ListScope_1<T>;
 
@@ -583,9 +566,7 @@ public:
 
   template <typename T> using StackScope_1 = ::GlobalNamespace::OVRObjectPool_StackScope_1<T>;
 
-  template <typename T>
-    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  using Storage_1 = ::GlobalNamespace::OVRObjectPool_Storage_1<T>;
+  template <typename T> using Storage_1 = ::GlobalNamespace::OVRObjectPool_Storage_1<T>;
 
   template <typename T> using TaskScope_1 = ::GlobalNamespace::OVRObjectPool_TaskScope_1<T>;
 

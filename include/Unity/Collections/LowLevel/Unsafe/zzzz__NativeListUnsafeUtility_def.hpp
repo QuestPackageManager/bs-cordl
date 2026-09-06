@@ -6,9 +6,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(NativeListUnsafeUtility)
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeList_1;
+template <typename T> struct NativeList_1;
 }
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe {

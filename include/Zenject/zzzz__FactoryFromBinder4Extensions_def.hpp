@@ -26,30 +26,19 @@ namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_5<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*>*>)
-class FactoryFromBinder4Extensions___c__1_5;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract> class FactoryFromBinder4Extensions___c__1_5;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
-           ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_5<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*>*>)
-class FactoryFromBinder4Extensions___c__3_5;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract> class FactoryFromBinder4Extensions___c__3_5;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_5<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_6<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*, TContract>*>)
-class FactoryFromBinder4Extensions___c__5_6;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract, typename TMemoryPool> class FactoryFromBinder4Extensions___c__5_6;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract> class FactoryFromBinder4Extensions___c__DisplayClass0_0_5;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_5<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_6<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*, TContract>*>)
-class FactoryFromBinder4Extensions___c__DisplayClass6_0_6;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract, typename TMemoryPool> class FactoryFromBinder4Extensions___c__DisplayClass6_0_6;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract> class FactoryFromBinder_5;
@@ -74,30 +63,19 @@ namespace Zenject {
 class FactoryFromBinder4Extensions;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_5<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*>*>)
-class FactoryFromBinder4Extensions___c__1_5;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract> class FactoryFromBinder4Extensions___c__1_5;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
-           ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_5<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*>*>)
-class FactoryFromBinder4Extensions___c__3_5;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract> class FactoryFromBinder4Extensions___c__3_5;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_5<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_6<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*, TContract>*>)
-class FactoryFromBinder4Extensions___c__5_6;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract, typename TMemoryPool> class FactoryFromBinder4Extensions___c__5_6;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract> class FactoryFromBinder4Extensions___c__DisplayClass0_0_5;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_5<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_6<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*, TContract>*>)
-class FactoryFromBinder4Extensions___c__DisplayClass6_0_6;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract, typename TMemoryPool> class FactoryFromBinder4Extensions___c__DisplayClass6_0_6;
 }
 // Write type traits
 MARK_REF_T(::Zenject::FactoryFromBinder4Extensions*);
@@ -113,11 +91,10 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactoryFromBinder4Extensions___c__5_6, "Z
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactoryFromBinder4Extensions___c__DisplayClass0_0_5, "Zenject", "FactoryFromBinder4Extensions/<>c__DisplayClass0_0`5");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactoryFromBinder4Extensions___c__DisplayClass6_0_6, "Zenject", "FactoryFromBinder4Extensions/<>c__DisplayClass6_0`6");
 // [CompilerGenerated]
-// Dependencies System.Object, Zenject.IPoolable`5<TParam1, TParam2, TParam3, TParam4, TParam5>
+// Dependencies System.Object
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_5<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*>*>)
 // Is value type: false
 // CS Name: Zenject.FactoryFromBinder4Extensions/<>c__1`5<TParam1,TParam2,TParam3,TParam4,TContract>
 class CORDL_TYPE FactoryFromBinder4Extensions___c__1_5 : public ::System::Object {
@@ -174,12 +151,10 @@ public:
 // Non member Declarations
 } // namespace Zenject
 // [CompilerGenerated]
-// Dependencies System.Object, UnityEngine.Component, Zenject.IPoolable`5<TParam1, TParam2, TParam3, TParam4, TParam5>
+// Dependencies System.Object
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
-           ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_5<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*>*>)
 // Is value type: false
 // CS Name: Zenject.FactoryFromBinder4Extensions/<>c__3`5<TParam1,TParam2,TParam3,TParam4,TContract>
 class CORDL_TYPE FactoryFromBinder4Extensions___c__3_5 : public ::System::Object {
@@ -236,12 +211,10 @@ public:
 // Non member Declarations
 } // namespace Zenject
 // [CompilerGenerated]
-// Dependencies System.Object, Zenject.IPoolable`5<TParam1, TParam2, TParam3, TParam4, TParam5>, Zenject.MemoryPool`6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>
+// Dependencies System.Object
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_5<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_6<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*, TContract>*>)
 // Is value type: false
 // CS Name: Zenject.FactoryFromBinder4Extensions/<>c__5`6<TParam1,TParam2,TParam3,TParam4,TContract,TMemoryPool>
 class CORDL_TYPE FactoryFromBinder4Extensions___c__5_6 : public ::System::Object {
@@ -356,12 +329,10 @@ public:
 // Non member Declarations
 } // namespace Zenject
 // [CompilerGenerated]
-// Dependencies System.Guid, System.Object, Zenject.IPoolable`5<TParam1, TParam2, TParam3, TParam4, TParam5>, Zenject.MemoryPool`6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>
+// Dependencies System.Guid, System.Object
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_5<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_6<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*, TContract>*>)
 // Is value type: false
 // CS Name: Zenject.FactoryFromBinder4Extensions/<>c__DisplayClass6_0`6<TParam1,TParam2,TParam3,TParam4,TContract,TMemoryPool>
 class CORDL_TYPE FactoryFromBinder4Extensions___c__DisplayClass6_0_6 : public ::System::Object {
@@ -424,25 +395,18 @@ class CORDL_TYPE FactoryFromBinder4Extensions : public ::System::Object {
 public:
   // Declarations
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract>
-    requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_5<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*>*>)
   using __c__1_5 = ::Zenject::FactoryFromBinder4Extensions___c__1_5<TParam1, TParam2, TParam3, TParam4, TContract>;
 
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract>
-    requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
-             ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_5<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*>*>)
   using __c__3_5 = ::Zenject::FactoryFromBinder4Extensions___c__3_5<TParam1, TParam2, TParam3, TParam4, TContract>;
 
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract, typename TMemoryPool>
-    requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_5<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*>*> &&
-             ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_6<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*, TContract>*>)
   using __c__5_6 = ::Zenject::FactoryFromBinder4Extensions___c__5_6<TParam1, TParam2, TParam3, TParam4, TContract, TMemoryPool>;
 
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract>
   using __c__DisplayClass0_0_5 = ::Zenject::FactoryFromBinder4Extensions___c__DisplayClass0_0_5<TParam1, TParam2, TParam3, TParam4, TContract>;
 
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract, typename TMemoryPool>
-    requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_5<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*>*> &&
-             ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_6<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*, TContract>*>)
   using __c__DisplayClass6_0_6 = ::Zenject::FactoryFromBinder4Extensions___c__DisplayClass6_0_6<TParam1, TParam2, TParam3, TParam4, TContract, TMemoryPool>;
 
   /// [Extension]

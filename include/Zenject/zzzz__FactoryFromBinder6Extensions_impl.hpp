@@ -19,7 +19,6 @@
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__MemoryPoolInitialSizeMaxSizeBinder_1_def.hpp"
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*>)
 inline void Zenject::FactoryFromBinder6Extensions___c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>::setStaticF___9(
     ::Zenject::FactoryFromBinder6Extensions___c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* value) {
   ::cordl_internals::setStaticField<::Zenject::FactoryFromBinder6Extensions___c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*, "<>9",
@@ -27,14 +26,12 @@ inline void Zenject::FactoryFromBinder6Extensions___c__1_7<TParam1, TParam2, TPa
       std::forward<::Zenject::FactoryFromBinder6Extensions___c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>(value));
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*>)
 inline ::Zenject::FactoryFromBinder6Extensions___c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*
 Zenject::FactoryFromBinder6Extensions___c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>::getStaticF___9() {
   return ::cordl_internals::getStaticField<::Zenject::FactoryFromBinder6Extensions___c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*, "<>9",
                                            ::Zenject::FactoryFromBinder6Extensions___c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>();
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*>)
 inline void Zenject::FactoryFromBinder6Extensions___c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>::setStaticF___9__1_0(
     ::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>* value) {
   ::cordl_internals::setStaticField<::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>*, "<>9__1_0",
@@ -42,14 +39,12 @@ inline void Zenject::FactoryFromBinder6Extensions___c__1_7<TParam1, TParam2, TPa
       std::forward<::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>*>(value));
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*>)
 inline ::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>*
 Zenject::FactoryFromBinder6Extensions___c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>::getStaticF___9__1_0() {
   return ::cordl_internals::getStaticField<::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>*, "<>9__1_0",
                                            ::Zenject::FactoryFromBinder6Extensions___c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>();
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*>)
 inline void Zenject::FactoryFromBinder6Extensions___c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
@@ -57,7 +52,6 @@ inline void Zenject::FactoryFromBinder6Extensions___c__1_7<TParam1, TParam2, TPa
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*>)
 inline void Zenject::FactoryFromBinder6Extensions___c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>::_FromPoolableMemoryPool_b__1_0(
     ::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>* x) {
   static auto* ___internal_method =
@@ -66,7 +60,6 @@ inline void Zenject::FactoryFromBinder6Extensions___c__1_7<TParam1, TParam2, TPa
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, x);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*>)
 inline ::System::Object* Zenject::FactoryFromBinder6Extensions___c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>::__zenCreate(::ArrayW<::System::Object*> P_0) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryFromBinder6Extensions___c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>(),
@@ -74,7 +67,6 @@ inline ::System::Object* Zenject::FactoryFromBinder6Extensions___c__1_7<TParam1,
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, P_0);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*>)
 inline ::Zenject::InjectTypeInfo* Zenject::FactoryFromBinder6Extensions___c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>::__zenCreateInjectTypeInfo() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryFromBinder6Extensions___c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>(),
@@ -82,18 +74,14 @@ inline ::Zenject::InjectTypeInfo* Zenject::FactoryFromBinder6Extensions___c__1_7
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*>)
 inline ::Zenject::FactoryFromBinder6Extensions___c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*
 Zenject::FactoryFromBinder6Extensions___c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::FactoryFromBinder6Extensions___c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>());
 }
 // Ctor Parameters []
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*>)
 constexpr ::Zenject::FactoryFromBinder6Extensions___c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>::FactoryFromBinder6Extensions___c__1_7() {}
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
-           ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*>)
 inline void Zenject::FactoryFromBinder6Extensions___c__3_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>::setStaticF___9(
     ::Zenject::FactoryFromBinder6Extensions___c__3_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* value) {
   ::cordl_internals::setStaticField<::Zenject::FactoryFromBinder6Extensions___c__3_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*, "<>9",
@@ -101,16 +89,12 @@ inline void Zenject::FactoryFromBinder6Extensions___c__3_7<TParam1, TParam2, TPa
       std::forward<::Zenject::FactoryFromBinder6Extensions___c__3_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>(value));
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
-           ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*>)
 inline ::Zenject::FactoryFromBinder6Extensions___c__3_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*
 Zenject::FactoryFromBinder6Extensions___c__3_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>::getStaticF___9() {
   return ::cordl_internals::getStaticField<::Zenject::FactoryFromBinder6Extensions___c__3_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*, "<>9",
                                            ::Zenject::FactoryFromBinder6Extensions___c__3_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>();
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
-           ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*>)
 inline void Zenject::FactoryFromBinder6Extensions___c__3_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>::setStaticF___9__3_0(
     ::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>* value) {
   ::cordl_internals::setStaticField<::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>*, "<>9__3_0",
@@ -118,16 +102,12 @@ inline void Zenject::FactoryFromBinder6Extensions___c__3_7<TParam1, TParam2, TPa
       std::forward<::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>*>(value));
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
-           ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*>)
 inline ::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>*
 Zenject::FactoryFromBinder6Extensions___c__3_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>::getStaticF___9__3_0() {
   return ::cordl_internals::getStaticField<::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>*, "<>9__3_0",
                                            ::Zenject::FactoryFromBinder6Extensions___c__3_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>();
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
-           ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*>)
 inline void Zenject::FactoryFromBinder6Extensions___c__3_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
@@ -135,8 +115,6 @@ inline void Zenject::FactoryFromBinder6Extensions___c__3_7<TParam1, TParam2, TPa
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
-           ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*>)
 inline void Zenject::FactoryFromBinder6Extensions___c__3_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>::_FromMonoPoolableMemoryPool_b__3_0(
     ::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>* x) {
   static auto* ___internal_method =
@@ -145,8 +123,6 @@ inline void Zenject::FactoryFromBinder6Extensions___c__3_7<TParam1, TParam2, TPa
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, x);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
-           ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*>)
 inline ::System::Object* Zenject::FactoryFromBinder6Extensions___c__3_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>::__zenCreate(::ArrayW<::System::Object*> P_0) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryFromBinder6Extensions___c__3_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>(),
@@ -154,8 +130,6 @@ inline ::System::Object* Zenject::FactoryFromBinder6Extensions___c__3_7<TParam1,
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, P_0);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
-           ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*>)
 inline ::Zenject::InjectTypeInfo* Zenject::FactoryFromBinder6Extensions___c__3_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>::__zenCreateInjectTypeInfo() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryFromBinder6Extensions___c__3_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>(),
@@ -163,20 +137,14 @@ inline ::Zenject::InjectTypeInfo* Zenject::FactoryFromBinder6Extensions___c__3_7
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
-           ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*>)
 inline ::Zenject::FactoryFromBinder6Extensions___c__3_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*
 Zenject::FactoryFromBinder6Extensions___c__3_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::FactoryFromBinder6Extensions___c__3_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>());
 }
 // Ctor Parameters []
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
-  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
-           ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*>)
 constexpr ::Zenject::FactoryFromBinder6Extensions___c__3_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>::FactoryFromBinder6Extensions___c__3_7() {}
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*, TContract>*>)
 inline void Zenject::FactoryFromBinder6Extensions___c__5_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>::setStaticF___9(
     ::Zenject::FactoryFromBinder6Extensions___c__5_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>* value) {
   ::cordl_internals::setStaticField<::Zenject::FactoryFromBinder6Extensions___c__5_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>*, "<>9",
@@ -184,16 +152,12 @@ inline void Zenject::FactoryFromBinder6Extensions___c__5_8<TParam1, TParam2, TPa
       std::forward<::Zenject::FactoryFromBinder6Extensions___c__5_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>*>(value));
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*, TContract>*>)
 inline ::Zenject::FactoryFromBinder6Extensions___c__5_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>*
 Zenject::FactoryFromBinder6Extensions___c__5_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>::getStaticF___9() {
   return ::cordl_internals::getStaticField<::Zenject::FactoryFromBinder6Extensions___c__5_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>*, "<>9",
                                            ::Zenject::FactoryFromBinder6Extensions___c__5_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>*>();
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*, TContract>*>)
 inline void Zenject::FactoryFromBinder6Extensions___c__5_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>::setStaticF___9__5_0(
     ::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>* value) {
   ::cordl_internals::setStaticField<::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>*, "<>9__5_0",
@@ -201,16 +165,12 @@ inline void Zenject::FactoryFromBinder6Extensions___c__5_8<TParam1, TParam2, TPa
       std::forward<::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>*>(value));
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*, TContract>*>)
 inline ::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>*
 Zenject::FactoryFromBinder6Extensions___c__5_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>::getStaticF___9__5_0() {
   return ::cordl_internals::getStaticField<::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>*, "<>9__5_0",
                                            ::Zenject::FactoryFromBinder6Extensions___c__5_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>*>();
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*, TContract>*>)
 inline void Zenject::FactoryFromBinder6Extensions___c__5_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -218,8 +178,6 @@ inline void Zenject::FactoryFromBinder6Extensions___c__5_8<TParam1, TParam2, TPa
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*, TContract>*>)
 inline void Zenject::FactoryFromBinder6Extensions___c__5_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>::_FromPoolableMemoryPool_b__5_0(
     ::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>* x) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -228,8 +186,6 @@ inline void Zenject::FactoryFromBinder6Extensions___c__5_8<TParam1, TParam2, TPa
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, x);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*, TContract>*>)
 inline ::System::Object* Zenject::FactoryFromBinder6Extensions___c__5_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>::__zenCreate(::ArrayW<::System::Object*> P_0) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryFromBinder6Extensions___c__5_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>*>(),
@@ -237,8 +193,6 @@ inline ::System::Object* Zenject::FactoryFromBinder6Extensions___c__5_8<TParam1,
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, P_0);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*, TContract>*>)
 inline ::Zenject::InjectTypeInfo* Zenject::FactoryFromBinder6Extensions___c__5_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>::__zenCreateInjectTypeInfo() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryFromBinder6Extensions___c__5_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>*>(),
@@ -246,16 +200,12 @@ inline ::Zenject::InjectTypeInfo* Zenject::FactoryFromBinder6Extensions___c__5_8
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*, TContract>*>)
 inline ::Zenject::FactoryFromBinder6Extensions___c__5_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>*
 Zenject::FactoryFromBinder6Extensions___c__5_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::FactoryFromBinder6Extensions___c__5_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>*>());
 }
 // Ctor Parameters []
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*, TContract>*>)
 constexpr ::Zenject::FactoryFromBinder6Extensions___c__5_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>::FactoryFromBinder6Extensions___c__5_8() {}
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
 constexpr ::System::Guid& Zenject::FactoryFromBinder6Extensions___c__DisplayClass0_0_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>::__cordl_internal_get_factoryId() {
@@ -310,31 +260,23 @@ Zenject::FactoryFromBinder6Extensions___c__DisplayClass0_0_7<TParam1, TParam2, T
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
 constexpr ::Zenject::FactoryFromBinder6Extensions___c__DisplayClass0_0_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>::FactoryFromBinder6Extensions___c__DisplayClass0_0_7() {}
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*, TContract>*>)
 constexpr ::System::Guid& Zenject::FactoryFromBinder6Extensions___c__DisplayClass6_0_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>::__cordl_internal_get_poolId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___poolId;
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*, TContract>*>)
 constexpr ::System::Guid const&
 Zenject::FactoryFromBinder6Extensions___c__DisplayClass6_0_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>::__cordl_internal_get_poolId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___poolId;
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*, TContract>*>)
 constexpr void
 Zenject::FactoryFromBinder6Extensions___c__DisplayClass6_0_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>::__cordl_internal_set_poolId(::System::Guid value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___poolId = value;
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*, TContract>*>)
 inline void Zenject::FactoryFromBinder6Extensions___c__DisplayClass6_0_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
@@ -343,8 +285,6 @@ inline void Zenject::FactoryFromBinder6Extensions___c__DisplayClass6_0_8<TParam1
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*, TContract>*>)
 inline ::Zenject::IProvider* Zenject::FactoryFromBinder6Extensions___c__DisplayClass6_0_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>::_FromPoolableMemoryPool_b__0(
     ::Zenject::DiContainer* container) {
   static auto* ___internal_method =
@@ -354,8 +294,6 @@ inline ::Zenject::IProvider* Zenject::FactoryFromBinder6Extensions___c__DisplayC
   return ::cordl_internals::RunMethodRethrow<::Zenject::IProvider*>(this, ___internal_method, container);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*, TContract>*>)
 inline ::System::Object*
 Zenject::FactoryFromBinder6Extensions___c__DisplayClass6_0_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>::__zenCreate(::ArrayW<::System::Object*> P_0) {
   static auto* ___internal_method =
@@ -365,8 +303,6 @@ Zenject::FactoryFromBinder6Extensions___c__DisplayClass6_0_8<TParam1, TParam2, T
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, P_0);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*, TContract>*>)
 inline ::Zenject::InjectTypeInfo*
 Zenject::FactoryFromBinder6Extensions___c__DisplayClass6_0_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>::__zenCreateInjectTypeInfo() {
   static auto* ___internal_method =
@@ -376,8 +312,6 @@ Zenject::FactoryFromBinder6Extensions___c__DisplayClass6_0_8<TParam1, TParam2, T
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*, TContract>*>)
 inline ::Zenject::FactoryFromBinder6Extensions___c__DisplayClass6_0_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>*
 Zenject::FactoryFromBinder6Extensions___c__DisplayClass6_0_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{},
@@ -385,8 +319,6 @@ Zenject::FactoryFromBinder6Extensions___c__DisplayClass6_0_8<TParam1, TParam2, T
 }
 // Ctor Parameters []
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*, TContract>*>)
 constexpr ::Zenject::FactoryFromBinder6Extensions___c__DisplayClass6_0_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract,
                                                                          TMemoryPool>::FactoryFromBinder6Extensions___c__DisplayClass6_0_8() {}
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>

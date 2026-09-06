@@ -12,9 +12,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileStorageExtensions)
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-struct FileStorageExtensions__LoadFromJSONFileAsync_d__8_1;
+template <typename T> struct FileStorageExtensions__LoadFromJSONFileAsync_d__8_1;
 }
 namespace GlobalNamespace {
 class FileStorageExtensions___c__DisplayClass1_0;
@@ -66,9 +64,7 @@ namespace GlobalNamespace {
 class FileStorageExtensions___c__DisplayClass4_0;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-struct FileStorageExtensions__LoadFromJSONFileAsync_d__8_1;
+template <typename T> struct FileStorageExtensions__LoadFromJSONFileAsync_d__8_1;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::FileStorageExtensions*);
@@ -435,7 +431,6 @@ static_assert(sizeof(::GlobalNamespace::FileStorageExtensions___c__DisplayClass4
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: true
 // CS Name: FileStorageExtensions/<LoadFromJSONFileAsync>d__8`1<T>
 struct CORDL_TYPE FileStorageExtensions__LoadFromJSONFileAsync_d__8_1 {
@@ -509,9 +504,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE FileStorageExtensions : public ::System::Object {
 public:
   // Declarations
-  template <typename T>
-    requires(::cordl_internals::reference_type_constraint<T>)
-  using _LoadFromJSONFileAsync_d__8_1 = ::GlobalNamespace::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1<T>;
+  template <typename T> using _LoadFromJSONFileAsync_d__8_1 = ::GlobalNamespace::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1<T>;
 
   using __c__DisplayClass1_0 = ::GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0;
 

@@ -15,9 +15,7 @@ namespace GlobalNamespace {
 struct ScoreMultiplierCounter_MultiplierEventType;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::ScoringElement*>)
-class ScoringElement_Pool_1;
+template <typename T> class ScoringElement_Pool_1;
 }
 namespace System {
 template <typename T> class IComparable_1;
@@ -27,15 +25,51 @@ namespace GlobalNamespace {
 class ScoringElement;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::ScoringElement*>)
-class ScoringElement_Pool_1;
+template <typename T> class ScoringElement_Pool_1;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ScoringElement*);
 MARK_GEN_REF_T_PTR(::GlobalNamespace::ScoringElement_Pool_1);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ScoringElement*, "", "ScoringElement");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::ScoringElement_Pool_1, "", "ScoringElement/Pool`1");
+// Dependencies Zenject.MemoryPool`1<TValue>
+namespace GlobalNamespace {
+// cpp template
+template <typename T>
+// Is value type: false
+// CS Name: ScoringElement/Pool`1<T>
+class CORDL_TYPE ScoringElement_Pool_1 : public ::Zenject::MemoryPool_1<T> {
+public:
+  // Declarations
+  static inline ::GlobalNamespace::ScoringElement_Pool_1<T>* New_ctor();
+
+  /// @brief Method Reinitialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Reinitialize(T scoringElement);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ScoringElement_Pool_1();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "ScoringElement_Pool_1", modifiers: "&&", def_value: None, comment: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ScoringElement_Pool_1(ScoringElement_Pool_1&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "ScoringElement_Pool_1", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ScoringElement_Pool_1(ScoringElement_Pool_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6264 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace GlobalNamespace
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -43,9 +77,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE ScoringElement : public ::System::Object {
 public:
   // Declarations
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::ScoringElement*>)
-  using Pool_1 = ::GlobalNamespace::ScoringElement_Pool_1<T>;
+  template <typename T> using Pool_1 = ::GlobalNamespace::ScoringElement_Pool_1<T>;
 
   /// @brief Field <isFinished>k__BackingField, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__isFinished_k__BackingField, put = __cordl_internal_set__isFinished_k__BackingField)) bool _isFinished_k__BackingField;
@@ -219,43 +251,4 @@ static_assert(offsetof(::GlobalNamespace::ScoringElement, ____isFinished_k__Back
 
 static_assert(sizeof(::GlobalNamespace::ScoringElement) == 0x28, "Size mismatch!");
 
-} // namespace GlobalNamespace
-// Dependencies ScoringElement, Zenject.MemoryPool`1<TValue>
-namespace GlobalNamespace {
-// cpp template
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::ScoringElement*>)
-// Is value type: false
-// CS Name: ScoringElement/Pool`1<T>
-class CORDL_TYPE ScoringElement_Pool_1 : public ::Zenject::MemoryPool_1<T> {
-public:
-  // Declarations
-  static inline ::GlobalNamespace::ScoringElement_Pool_1<T>* New_ctor();
-
-  /// @brief Method Reinitialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Reinitialize(T scoringElement);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScoringElement_Pool_1();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScoringElement_Pool_1", modifiers: "&&", def_value: None, comment: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ScoringElement_Pool_1(ScoringElement_Pool_1&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "ScoringElement_Pool_1", modifiers: "const&", def_value: None, comment: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ScoringElement_Pool_1(ScoringElement_Pool_1 const&) = delete;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6264 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
 } // namespace GlobalNamespace

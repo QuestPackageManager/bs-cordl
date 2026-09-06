@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__ISet_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Properties/zzzz__PropertyBag_1_def.hpp"
 #include "Unity/Properties/zzzz__Property_2_def.hpp"
@@ -35,9 +34,7 @@ namespace Unity::Properties {
 class ICollectionPropertyBagVisitor;
 }
 namespace Unity::Properties {
-template <typename TCollection, typename TElement>
-  requires(::cordl_internals::type_constraint<TCollection, ::System::Collections::Generic::ICollection_1<TElement>*>)
-class ICollectionPropertyBag_2;
+template <typename TCollection, typename TElement> class ICollectionPropertyBag_2;
 }
 namespace Unity::Properties {
 template <typename TContainer, typename TKey> class IKeyedProperties_2;
@@ -61,38 +58,26 @@ namespace Unity::Properties {
 class ISetPropertyBagVisitor;
 }
 namespace Unity::Properties {
-template <typename TSet, typename TElement>
-  requires(::cordl_internals::type_constraint<TSet, ::System::Collections::Generic::ISet_1<TElement>*>)
-class ISetPropertyBag_2;
+template <typename TSet, typename TElement> class ISetPropertyBag_2;
 }
 namespace Unity::Properties {
 template <typename TContainer> struct PropertyCollection_1;
 }
 namespace Unity::Properties {
-template <typename TSet, typename TElement>
-  requires(::cordl_internals::type_constraint<TSet, ::System::Collections::Generic::ISet_1<TElement>*>)
-class SetPropertyBagBase_2_SetElementProperty;
+template <typename TSet, typename TElement> class SetPropertyBagBase_2_SetElementProperty;
 }
 namespace Unity::Properties {
-template <typename TSet, typename TElement>
-  requires(::cordl_internals::type_constraint<TSet, ::System::Collections::Generic::ISet_1<TElement>*>)
-class SetPropertyBagBase_2__GetPropertiesEnumerable_d__4;
+template <typename TSet, typename TElement> class SetPropertyBagBase_2__GetPropertiesEnumerable_d__4;
 }
 // Forward declare root types
 namespace Unity::Properties {
-template <typename TSet, typename TElement>
-  requires(::cordl_internals::type_constraint<TSet, ::System::Collections::Generic::ISet_1<TElement>*>)
-class SetPropertyBagBase_2;
+template <typename TSet, typename TElement> class SetPropertyBagBase_2;
 }
 namespace Unity::Properties {
-template <typename TSet, typename TElement>
-  requires(::cordl_internals::type_constraint<TSet, ::System::Collections::Generic::ISet_1<TElement>*>)
-class SetPropertyBagBase_2_SetElementProperty;
+template <typename TSet, typename TElement> class SetPropertyBagBase_2_SetElementProperty;
 }
 namespace Unity::Properties {
-template <typename TSet, typename TElement>
-  requires(::cordl_internals::type_constraint<TSet, ::System::Collections::Generic::ISet_1<TElement>*>)
-class SetPropertyBagBase_2__GetPropertiesEnumerable_d__4;
+template <typename TSet, typename TElement> class SetPropertyBagBase_2__GetPropertiesEnumerable_d__4;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Unity::Properties::SetPropertyBagBase_2);
@@ -101,11 +86,10 @@ MARK_GEN_REF_T_PTR(::Unity::Properties::SetPropertyBagBase_2__GetPropertiesEnume
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Properties::SetPropertyBagBase_2, "Unity.Properties", "SetPropertyBagBase`2");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Properties::SetPropertyBagBase_2_SetElementProperty, "Unity.Properties", "SetPropertyBagBase`2/SetElementProperty");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Properties::SetPropertyBagBase_2__GetPropertiesEnumerable_d__4, "Unity.Properties", "SetPropertyBagBase`2/<GetPropertiesEnumerable>d__4");
-// Dependencies System.Collections.Generic.ISet`1<T>, Unity.Properties.Property`2<TContainer, TValue>
+// Dependencies Unity.Properties.Property`2<TContainer, TValue>
 namespace Unity::Properties {
 // cpp template
 template <typename TSet, typename TElement>
-  requires(::cordl_internals::type_constraint<TSet, ::System::Collections::Generic::ISet_1<TElement>*>)
 // Is value type: false
 // CS Name: Unity.Properties.SetPropertyBagBase`2/SetElementProperty<TSet,TElement>
 class CORDL_TYPE SetPropertyBagBase_2_SetElementProperty : public ::Unity::Properties::Property_2<TSet, TElement> {
@@ -177,11 +161,10 @@ public:
 // Non member Declarations
 } // namespace Unity::Properties
 // [CompilerGenerated]
-// Dependencies System.Collections.Generic.ISet`1<T>, System.Object
+// Dependencies System.Object
 namespace Unity::Properties {
 // cpp template
 template <typename TSet, typename TElement>
-  requires(::cordl_internals::type_constraint<TSet, ::System::Collections::Generic::ISet_1<TElement>*>)
 // Is value type: false
 // CS Name: Unity.Properties.SetPropertyBagBase`2/<GetPropertiesEnumerable>d__4<TSet,TElement>
 class CORDL_TYPE SetPropertyBagBase_2__GetPropertiesEnumerable_d__4 : public ::System::Object {
@@ -376,11 +359,10 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Properties
-// Dependencies System.Collections.Generic.ISet`1<T>, Unity.Properties.PropertyBag`1<TContainer>
+// Dependencies Unity.Properties.PropertyBag`1<TContainer>
 namespace Unity::Properties {
 // cpp template
 template <typename TSet, typename TElement>
-  requires(::cordl_internals::type_constraint<TSet, ::System::Collections::Generic::ISet_1<TElement>*>)
 // Is value type: false
 // CS Name: Unity.Properties.SetPropertyBagBase`2<TSet,TElement>
 class CORDL_TYPE SetPropertyBagBase_2 : public ::Unity::Properties::PropertyBag_1<TSet> {

@@ -63,9 +63,7 @@ namespace System {
 struct TimeSpan;
 }
 namespace System {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class WeakReference_1;
+template <typename T> class WeakReference_1;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {

@@ -14,20 +14,14 @@ namespace Unity::Collections {
 struct Allocator;
 }
 namespace UnityEngine::UIElements::Layout {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct LayoutList_1_Data;
+template <typename T> struct LayoutList_1_Data;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::Layout {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct LayoutList_1;
+template <typename T> struct LayoutList_1;
 }
 namespace UnityEngine::UIElements::Layout {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct LayoutList_1_Data;
+template <typename T> struct LayoutList_1_Data;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::UIElements::Layout::LayoutList_1);
@@ -38,7 +32,6 @@ DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::Layout::LayoutList_1_Data, "U
 namespace UnityEngine::UIElements::Layout {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.UIElements.Layout.LayoutList`1/Data<T>
 struct CORDL_TYPE LayoutList_1_Data {
@@ -76,7 +69,6 @@ public:
 namespace UnityEngine::UIElements::Layout {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.UIElements.Layout.LayoutList`1<T>
 struct CORDL_TYPE LayoutList_1 {

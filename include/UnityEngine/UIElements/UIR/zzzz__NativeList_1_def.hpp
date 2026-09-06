@@ -11,15 +11,11 @@ namespace System {
 class IDisposable;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeSlice_1;
+template <typename T> struct NativeSlice_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NativeList_1;
+template <typename T> class NativeList_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::UIR::NativeList_1);
@@ -28,7 +24,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::UIR::NativeList_1, "Unity
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UIR.NativeList`1<T>
 class CORDL_TYPE NativeList_1 : public ::System::Object {

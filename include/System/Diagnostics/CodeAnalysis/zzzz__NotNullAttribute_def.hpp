@@ -12,7 +12,7 @@ class NotNullAttribute;
 // Write type traits
 MARK_REF_T(::System::Diagnostics::CodeAnalysis::NotNullAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Diagnostics::CodeAnalysis::NotNullAttribute*, "System.Diagnostics.CodeAnalysis", "NotNullAttribute");
-// [AttributeUsage((System.AttributeTargets)10624, Inherited = false)]
+// [AttributeUsage((System.AttributeTargets)10688, AllowMultiple = true)]
 // Dependencies System.Attribute
 namespace System::Diagnostics::CodeAnalysis {
 // Is value type: false
@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::System::Diagnostics::CodeAnalysis::NotNullAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5be2fdc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cd2a40, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -40,7 +40,7 @@ public:
   NotNullAttribute(NotNullAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3678 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13228 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

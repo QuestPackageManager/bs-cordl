@@ -35,9 +35,7 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct Nullable_1;
+template <typename T> struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -82,9 +80,7 @@ namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct ReadOnlyArray_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class SavedStructState_1_TypedRestore;
+template <typename T> class SavedStructState_1_TypedRestore;
 }
 namespace UnityEngine::InputSystem {
 class IInputActionCollection;
@@ -93,9 +89,7 @@ namespace UnityEngine::InputSystem {
 struct InputActionChange;
 }
 namespace UnityEngine::InputSystem {
-template <typename TControl>
-  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
-struct InputControlList_1;
+template <typename TControl> struct InputControlList_1;
 }
 namespace UnityEngine::InputSystem {
 struct InputControlScheme_MatchResult;

@@ -8,9 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIItemsList_1)
 namespace HMUI {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*>)
-class UIItemsList_1_DataCallback;
+template <typename T> class UIItemsList_1_DataCallback;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -38,25 +36,20 @@ class DiContainer;
 }
 // Forward declare root types
 namespace HMUI {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*>)
-class UIItemsList_1;
+template <typename T> class UIItemsList_1;
 }
 namespace HMUI {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*>)
-class UIItemsList_1_DataCallback;
+template <typename T> class UIItemsList_1_DataCallback;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::HMUI::UIItemsList_1);
 MARK_GEN_REF_T_PTR(::HMUI::UIItemsList_1_DataCallback);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::HMUI::UIItemsList_1, "HMUI", "UIItemsList`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::HMUI::UIItemsList_1_DataCallback, "HMUI", "UIItemsList`1/DataCallback");
-// Dependencies System.MulticastDelegate, UnityEngine.MonoBehaviour
+// Dependencies System.MulticastDelegate
 namespace HMUI {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*>)
 // Is value type: false
 // CS Name: HMUI.UIItemsList`1/DataCallback<T>
 class CORDL_TYPE UIItemsList_1_DataCallback : public ::System::MulticastDelegate {
@@ -101,7 +94,6 @@ public:
 namespace HMUI {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*>)
 // Is value type: false
 // CS Name: HMUI.UIItemsList`1<T>
 class CORDL_TYPE UIItemsList_1 : public ::UnityEngine::MonoBehaviour {

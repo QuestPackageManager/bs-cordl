@@ -39,9 +39,7 @@ namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-template <typename TContract, typename TFactory>
-  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TContract>*>)
-class FromBinderGeneric_1___c__1_1;
+template <typename TContract, typename TFactory> class FromBinderGeneric_1___c__1_1;
 }
 namespace Zenject {
 template <typename TContract> class FromBinderGeneric_1___c__DisplayClass14_0;
@@ -72,9 +70,7 @@ namespace Zenject {
 template <typename TContract> class FromBinderGeneric_1;
 }
 namespace Zenject {
-template <typename TContract, typename TFactory>
-  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TContract>*>)
-class FromBinderGeneric_1___c__1_1;
+template <typename TContract, typename TFactory> class FromBinderGeneric_1___c__1_1;
 }
 namespace Zenject {
 template <typename TContract> class FromBinderGeneric_1___c__DisplayClass14_0;
@@ -97,11 +93,10 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FromBinderGeneric_1___c__DisplayClass14_0
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FromBinderGeneric_1___c__DisplayClass15_0, "Zenject", "FromBinderGeneric`1/<>c__DisplayClass15_0");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FromBinderGeneric_1___c__DisplayClass3_0, "Zenject", "FromBinderGeneric`1/<>c__DisplayClass3_0");
 // [CompilerGenerated]
-// Dependencies System.Object, Zenject.IFactory`1<TValue>
+// Dependencies System.Object
 namespace Zenject {
 // cpp template
 template <typename TContract, typename TFactory>
-  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TContract>*>)
 // Is value type: false
 // CS Name: Zenject.FromBinderGeneric`1/<>c__1`1<TContract,TFactory>
 class CORDL_TYPE FromBinderGeneric_1___c__1_1 : public ::System::Object {

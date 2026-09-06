@@ -56,9 +56,7 @@ namespace Zenject {
 class IMemoryPool;
 }
 namespace Zenject {
-template <typename TValue>
-  requires(::cordl_internals::reference_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-class StaticMemoryPool_1;
+template <typename TValue> class StaticMemoryPool_1;
 }
 // Forward declare root types
 namespace Zenject {

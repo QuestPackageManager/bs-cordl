@@ -9,9 +9,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SteamLevelProductCollectionModel)
 namespace GlobalNamespace {
-template <typename TLevelProductData>
-  requires(::cordl_internals::type_constraint<TLevelProductData, ::GlobalNamespace::ILevelProductData*>)
-class ILevelPackProductData_1;
+template <typename TLevelProductData> class ILevelPackProductData_1;
 }
 namespace GlobalNamespace {
 class ILevelProductData;

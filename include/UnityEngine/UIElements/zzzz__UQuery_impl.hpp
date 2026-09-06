@@ -3,7 +3,6 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__HierarchyTraversal_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UQuery_impl.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UQuery_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
@@ -31,51 +30,36 @@ inline bool UnityEngine::UIElements::UQuery_IVisualPredicateWrapper::Predicate(:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::UQuery_IVisualPredicateWrapper*>(), 0 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, e);
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
-inline void UnityEngine::UIElements::UQuery_IsOfType_1<T>::setStaticF_s_Instance(::UnityEngine::UIElements::UQuery_IsOfType_1<T>* value) {
+template <typename T> inline void UnityEngine::UIElements::UQuery_IsOfType_1<T>::setStaticF_s_Instance(::UnityEngine::UIElements::UQuery_IsOfType_1<T>* value) {
   ::cordl_internals::setStaticField<::UnityEngine::UIElements::UQuery_IsOfType_1<T>*, "s_Instance", ::UnityEngine::UIElements::UQuery_IsOfType_1<T>*>(
       std::forward<::UnityEngine::UIElements::UQuery_IsOfType_1<T>*>(value));
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
-inline ::UnityEngine::UIElements::UQuery_IsOfType_1<T>* UnityEngine::UIElements::UQuery_IsOfType_1<T>::getStaticF_s_Instance() {
+template <typename T> inline ::UnityEngine::UIElements::UQuery_IsOfType_1<T>* UnityEngine::UIElements::UQuery_IsOfType_1<T>::getStaticF_s_Instance() {
   return ::cordl_internals::getStaticField<::UnityEngine::UIElements::UQuery_IsOfType_1<T>*, "s_Instance", ::UnityEngine::UIElements::UQuery_IsOfType_1<T>*>();
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
-inline bool UnityEngine::UIElements::UQuery_IsOfType_1<T>::Predicate(::System::Object* e) {
+template <typename T> inline bool UnityEngine::UIElements::UQuery_IsOfType_1<T>::Predicate(::System::Object* e) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UQuery_IsOfType_1<T>*>(), { "Predicate", {}, { ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, e);
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
-inline void UnityEngine::UIElements::UQuery_IsOfType_1<T>::_ctor() {
+template <typename T> inline void UnityEngine::UIElements::UQuery_IsOfType_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UQuery_IsOfType_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
-inline ::UnityEngine::UIElements::UQuery_IsOfType_1<T>* UnityEngine::UIElements::UQuery_IsOfType_1<T>::New_ctor() {
+template <typename T> inline ::UnityEngine::UIElements::UQuery_IsOfType_1<T>* UnityEngine::UIElements::UQuery_IsOfType_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::UQuery_IsOfType_1<T>*>());
 }
 /// @brief Convert operator to "::UnityEngine::UIElements::UQuery_IVisualPredicateWrapper"
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
-constexpr UnityEngine::UIElements::UQuery_IsOfType_1<T>::operator ::UnityEngine::UIElements::UQuery_IVisualPredicateWrapper*() noexcept {
+template <typename T> constexpr UnityEngine::UIElements::UQuery_IsOfType_1<T>::operator ::UnityEngine::UIElements::UQuery_IVisualPredicateWrapper*() noexcept {
   return static_cast<::UnityEngine::UIElements::UQuery_IVisualPredicateWrapper*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::UnityEngine::UIElements::UQuery_IVisualPredicateWrapper"
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
 constexpr ::UnityEngine::UIElements::UQuery_IVisualPredicateWrapper* UnityEngine::UIElements::UQuery_IsOfType_1<T>::i___UnityEngine__UIElements__UQuery_IVisualPredicateWrapper() noexcept {
   return static_cast<::UnityEngine::UIElements::UQuery_IVisualPredicateWrapper*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
-constexpr ::UnityEngine::UIElements::UQuery_IsOfType_1<T>::UQuery_IsOfType_1() {}
+template <typename T> constexpr ::UnityEngine::UIElements::UQuery_IsOfType_1<T>::UQuery_IsOfType_1() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::UQueryMatcher_UQuery___c._ctor
 template <>
 

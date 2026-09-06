@@ -56,9 +56,7 @@ namespace TMPro {
 class TMP_Text;
 }
 namespace TMPro {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::TMPro::ITweenValue*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class TweenRunner_1;
+template <typename T> class TweenRunner_1;
 }
 namespace UnityEngine::EventSystems {
 class BaseEventData;

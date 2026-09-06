@@ -28,18 +28,13 @@ namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace UnityEngine::Playables {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Playables::IPlayableBehaviour*> && ::cordl_internals::reference_type_constraint<T> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-struct ScriptPlayable_1;
+template <typename T> struct ScriptPlayable_1;
 }
 namespace UnityEngine::Timeline {
 class ITimelineEvaluateCallback;
 }
 namespace UnityEngine::Timeline {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Timeline::IInterval*>)
-class IntervalTree_1;
+template <typename T> class IntervalTree_1;
 }
 namespace UnityEngine::Timeline {
 class RuntimeElement;

@@ -10,9 +10,7 @@ namespace Unity::Properties {
 template <typename TContainer, typename TValue> class Property_2;
 }
 namespace UnityEngine::Pool {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class ObjectPool_1;
+template <typename T> class ObjectPool_1;
 }
 namespace UnityEngine::UIElements {
 class ConverterGroup;

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "BeatmapSaveDataCommon/zzzz__IBeat_def.hpp"
 #include "Priority_Queue/zzzz__StablePriorityQueueNode_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
@@ -11,19 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultipleSortedBeatmapObjectsListsEnumerator_1)
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::BeatmapSaveDataCommon::IBeat*>)
-class MultipleSortedBeatmapObjectsListsEnumerator_1_BeatmapObjectListNode;
+template <typename T> class MultipleSortedBeatmapObjectsListsEnumerator_1_BeatmapObjectListNode;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::BeatmapSaveDataCommon::IBeat*>)
-class MultipleSortedBeatmapObjectsListsEnumerator_1__GetEnumerator_d__4;
+template <typename T> class MultipleSortedBeatmapObjectsListsEnumerator_1__GetEnumerator_d__4;
 }
 namespace Priority_Queue {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Priority_Queue::StablePriorityQueueNode*>)
-class StablePriorityQueue_1;
+template <typename T> class StablePriorityQueue_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -48,19 +41,13 @@ template <typename T1, typename T2> struct ValueTuple_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::BeatmapSaveDataCommon::IBeat*>)
-class MultipleSortedBeatmapObjectsListsEnumerator_1;
+template <typename T> class MultipleSortedBeatmapObjectsListsEnumerator_1;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::BeatmapSaveDataCommon::IBeat*>)
-class MultipleSortedBeatmapObjectsListsEnumerator_1_BeatmapObjectListNode;
+template <typename T> class MultipleSortedBeatmapObjectsListsEnumerator_1_BeatmapObjectListNode;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::BeatmapSaveDataCommon::IBeat*>)
-class MultipleSortedBeatmapObjectsListsEnumerator_1__GetEnumerator_d__4;
+template <typename T> class MultipleSortedBeatmapObjectsListsEnumerator_1__GetEnumerator_d__4;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::MultipleSortedBeatmapObjectsListsEnumerator_1);
@@ -69,11 +56,10 @@ MARK_GEN_REF_T_PTR(::GlobalNamespace::MultipleSortedBeatmapObjectsListsEnumerato
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::MultipleSortedBeatmapObjectsListsEnumerator_1, "", "MultipleSortedBeatmapObjectsListsEnumerator`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::MultipleSortedBeatmapObjectsListsEnumerator_1_BeatmapObjectListNode, "", "MultipleSortedBeatmapObjectsListsEnumerator`1/BeatmapObjectListNode");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::MultipleSortedBeatmapObjectsListsEnumerator_1__GetEnumerator_d__4, "", "MultipleSortedBeatmapObjectsListsEnumerator`1/<GetEnumerator>d__4");
-// Dependencies BeatmapSaveDataCommon.IBeat, Priority_Queue.StablePriorityQueueNode
+// Dependencies Priority_Queue.StablePriorityQueueNode
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::BeatmapSaveDataCommon::IBeat*>)
 // Is value type: false
 // CS Name: MultipleSortedBeatmapObjectsListsEnumerator`1/BeatmapObjectListNode<T>
 class CORDL_TYPE MultipleSortedBeatmapObjectsListsEnumerator_1_BeatmapObjectListNode : public ::Priority_Queue::StablePriorityQueueNode {
@@ -155,11 +141,10 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // [CompilerGenerated]
-// Dependencies BeatmapSaveDataCommon.IBeat, System.Object, System.ValueTuple`2<T1, T2>
+// Dependencies System.Object, System.ValueTuple`2<T1, T2>
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::BeatmapSaveDataCommon::IBeat*>)
 // Is value type: false
 // CS Name: MultipleSortedBeatmapObjectsListsEnumerator`1/<GetEnumerator>d__4<T>
 class CORDL_TYPE MultipleSortedBeatmapObjectsListsEnumerator_1__GetEnumerator_d__4 : public ::System::Object {
@@ -285,11 +270,10 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies BeatmapSaveDataCommon.IBeat, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::BeatmapSaveDataCommon::IBeat*>)
 // Is value type: false
 // CS Name: MultipleSortedBeatmapObjectsListsEnumerator`1<T>
 class CORDL_TYPE MultipleSortedBeatmapObjectsListsEnumerator_1 : public ::System::Object {

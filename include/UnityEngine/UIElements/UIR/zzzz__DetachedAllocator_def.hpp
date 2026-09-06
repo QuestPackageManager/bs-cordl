@@ -13,9 +13,7 @@ namespace System {
 class IDisposable;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class TempAllocator_1;
+template <typename T> class TempAllocator_1;
 }
 namespace UnityEngine::UIElements {
 class MeshWriteData;

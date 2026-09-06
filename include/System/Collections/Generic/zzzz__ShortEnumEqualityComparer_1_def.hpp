@@ -17,9 +17,7 @@ struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class ShortEnumEqualityComparer_1;
+template <typename T> class ShortEnumEqualityComparer_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::System::Collections::Generic::ShortEnumEqualityComparer_1);
@@ -28,7 +26,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Collections::Generic::ShortEnumEqualityCom
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: System.Collections.Generic.ShortEnumEqualityComparer`1<T>
 class CORDL_TYPE ShortEnumEqualityComparer_1 : public ::System::Collections::Generic::EnumEqualityComparer_1<T> {

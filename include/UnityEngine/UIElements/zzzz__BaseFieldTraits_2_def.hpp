@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__BaseField_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TypedUxmlAttributeDescription_1_def.hpp"
 CORDL_MODULE_EXPORT(BaseFieldTraits_2)
 namespace UnityEngine::UIElements {
 struct CreationContext;
@@ -17,21 +16,16 @@ class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename TValueType, typename TValueUxmlAttributeType>
-  requires(::cordl_internals::type_constraint<TValueUxmlAttributeType, ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<TValueType>*> &&
-           ::cordl_internals::default_constructor_constraint<TValueUxmlAttributeType>)
-class BaseFieldTraits_2;
+template <typename TValueType, typename TValueUxmlAttributeType> class BaseFieldTraits_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::BaseFieldTraits_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::BaseFieldTraits_2, "UnityEngine.UIElements", "BaseFieldTraits`2");
 // [Obsolete("BaseFieldTraits<TValueType, TValueUxmlAttributeType> is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
-// Dependencies UnityEngine.UIElements.BaseField`1::UxmlTraits<TValueType>, UnityEngine.UIElements.TypedUxmlAttributeDescription`1<T>
+// Dependencies UnityEngine.UIElements.BaseField`1::UxmlTraits<TValueType>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType, typename TValueUxmlAttributeType>
-  requires(::cordl_internals::type_constraint<TValueUxmlAttributeType, ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<TValueType>*> &&
-           ::cordl_internals::default_constructor_constraint<TValueUxmlAttributeType>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.BaseFieldTraits`2<TValueType,TValueUxmlAttributeType>
 class CORDL_TYPE BaseFieldTraits_2 : public ::UnityEngine::UIElements::BaseField_1_UxmlTraits<TValueType> {

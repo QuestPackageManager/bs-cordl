@@ -39,9 +39,7 @@ class Object;
 }
 // Forward declare root types
 namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
-  requires(::cordl_internals::value_type_constraint<TRest> && ::cordl_internals::default_constructor_constraint<TRest>)
-struct ValueTuple_8;
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest> struct ValueTuple_8;
 }
 // Write type traits
 MARK_GEN_VAL_T(::System::ValueTuple_8);
@@ -50,7 +48,6 @@ DEFINE_IL2CPP_GEN_CLASS(::System::ValueTuple_8, "System", "ValueTuple`8");
 namespace System {
 // cpp template
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
-  requires(::cordl_internals::value_type_constraint<TRest> && ::cordl_internals::default_constructor_constraint<TRest>)
 // Is value type: true
 // CS Name: System.ValueTuple`8<T1,T2,T3,T4,T5,T6,T7,TRest>
 struct CORDL_TYPE ValueTuple_8 {

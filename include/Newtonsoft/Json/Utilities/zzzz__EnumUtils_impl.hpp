@@ -71,49 +71,33 @@ inline ::Newtonsoft::Json::Utilities::EnumUtils___c* Newtonsoft::Json::Utilities
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::EnumUtils___c::EnumUtils___c() {}
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline void Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::setStaticF___9(::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>* value) {
+template <typename T> inline void Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::setStaticF___9(::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>* value) {
   ::cordl_internals::setStaticField<::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>*, "<>9", ::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>*>(
       std::forward<::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>*>(value));
 }
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline ::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>* Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::getStaticF___9() {
+template <typename T> inline ::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>* Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::getStaticF___9() {
   return ::cordl_internals::getStaticField<::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>*, "<>9", ::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>*>();
 }
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline void Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::setStaticF___9__4_0(::System::Func_2<uint64_t, bool>* value) {
+template <typename T> inline void Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::setStaticF___9__4_0(::System::Func_2<uint64_t, bool>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<uint64_t, bool>*, "<>9__4_0", ::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>*>(std::forward<::System::Func_2<uint64_t, bool>*>(value));
 }
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline ::System::Func_2<uint64_t, bool>* Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::getStaticF___9__4_0() {
+template <typename T> inline ::System::Func_2<uint64_t, bool>* Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::getStaticF___9__4_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<uint64_t, bool>*, "<>9__4_0", ::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>*>();
 }
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline void Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::_ctor() {
+template <typename T> inline void Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline bool Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::_GetFlagsValues_b__4_0(uint64_t v) {
+template <typename T> inline bool Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::_GetFlagsValues_b__4_0(uint64_t v) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>*>(), { "<GetFlagsValues>b__4_0", {}, { ::i2c::type_of<uint64_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, v);
 }
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline ::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>* Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::New_ctor() {
+template <typename T> inline ::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>* Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>*>());
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr ::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::EnumUtils___c__4_1() {}
+template <typename T> constexpr ::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::EnumUtils___c__4_1() {}
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::EnumUtils.InitializeValuesAndNames
 template <>
 

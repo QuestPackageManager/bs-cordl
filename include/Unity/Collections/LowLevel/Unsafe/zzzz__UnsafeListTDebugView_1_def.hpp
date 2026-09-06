@@ -8,15 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/arrayw.hpp"
 CORDL_MODULE_EXPORT(UnsafeListTDebugView_1)
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct UnsafeList_1;
+template <typename T> struct UnsafeList_1;
 }
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class UnsafeListTDebugView_1;
+template <typename T> class UnsafeListTDebugView_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Unity::Collections::LowLevel::Unsafe::UnsafeListTDebugView_1);
@@ -25,7 +21,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Collections::LowLevel::Unsafe::UnsafeListTD
 namespace Unity::Collections::LowLevel::Unsafe {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: Unity.Collections.LowLevel.Unsafe.UnsafeListTDebugView`1<T>
 class CORDL_TYPE UnsafeListTDebugView_1 : public ::System::Object {

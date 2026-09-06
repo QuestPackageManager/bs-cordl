@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IConvertible_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TypedUxmlAttributeDescription_1_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
@@ -21,20 +20,14 @@ namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class UxmlEnumAttributeDescription_1___c;
+template <typename T> class UxmlEnumAttributeDescription_1___c;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class UxmlEnumAttributeDescription_1;
+template <typename T> class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class UxmlEnumAttributeDescription_1___c;
+template <typename T> class UxmlEnumAttributeDescription_1___c;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1);
@@ -42,11 +35,10 @@ MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1___c
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1, "UnityEngine.UIElements", "UxmlEnumAttributeDescription`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1___c, "UnityEngine.UIElements", "UxmlEnumAttributeDescription`1/<>c");
 // [CompilerGenerated]
-// Dependencies System.IConvertible, System.Object
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UxmlEnumAttributeDescription`1/<>c<T>
 class CORDL_TYPE UxmlEnumAttributeDescription_1___c : public ::System::Object {
@@ -105,11 +97,10 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies System.IConvertible, UnityEngine.UIElements.TypedUxmlAttributeDescription`1<T>
+// Dependencies UnityEngine.UIElements.TypedUxmlAttributeDescription`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UxmlEnumAttributeDescription`1<T>
 class CORDL_TYPE UxmlEnumAttributeDescription_1 : public ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<T> {

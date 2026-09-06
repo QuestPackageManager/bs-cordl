@@ -15,9 +15,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(JToken)
 namespace Newtonsoft::Json::Linq {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
-class IJEnumerable_1;
+template <typename T> class IJEnumerable_1;
 }
 namespace Newtonsoft::Json::Linq {
 class JArray;
@@ -29,9 +27,7 @@ namespace Newtonsoft::Json::Linq {
 class JContainer;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
-struct JEnumerable_1;
+template <typename T> struct JEnumerable_1;
 }
 namespace Newtonsoft::Json::Linq {
 class JObject;
@@ -52,9 +48,7 @@ namespace Newtonsoft::Json::Linq {
 class JToken__AfterSelf_d__49;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class JToken__Annotations_d__185_1;
+template <typename T> class JToken__Annotations_d__185_1;
 }
 namespace Newtonsoft::Json::Linq {
 class JToken__Annotations_d__186;
@@ -153,9 +147,7 @@ namespace System {
 class IDisposable;
 }
 namespace System {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct Nullable_1;
+template <typename T> struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -180,9 +172,7 @@ namespace Newtonsoft::Json::Linq {
 class JToken__AfterSelf_d__49;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class JToken__Annotations_d__185_1;
+template <typename T> class JToken__Annotations_d__185_1;
 }
 namespace Newtonsoft::Json::Linq {
 class JToken__Annotations_d__186;
@@ -454,7 +444,6 @@ static_assert(sizeof(::Newtonsoft::Json::Linq::JToken__AfterSelf_d__49) == 0x38,
 namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: false
 // CS Name: Newtonsoft.Json.Linq.JToken/<Annotations>d__185`1<T>
 class CORDL_TYPE JToken__Annotations_d__185_1 : public ::System::Object {
@@ -1338,9 +1327,7 @@ public:
 
   using _AfterSelf_d__49 = ::Newtonsoft::Json::Linq::JToken__AfterSelf_d__49;
 
-  template <typename T>
-    requires(::cordl_internals::reference_type_constraint<T>)
-  using _Annotations_d__185_1 = ::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>;
+  template <typename T> using _Annotations_d__185_1 = ::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>;
 
   using _Annotations_d__186 = ::Newtonsoft::Json::Linq::JToken__Annotations_d__186;
 

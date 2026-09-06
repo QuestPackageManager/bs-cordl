@@ -12,29 +12,21 @@
 #include "Unity/Collections/zzzz__NativeSortExtension_def.hpp"
 #include "Unity/Collections/zzzz__SortJobDefer_2_def.hpp"
 #include "Unity/Collections/zzzz__SortJob_2_def.hpp"
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
-inline int32_t Unity::Collections::NativeSortExtension_DefaultComparer_1<T>::Compare(T x, T y) {
+template <typename T> inline int32_t Unity::Collections::NativeSortExtension_DefaultComparer_1<T>::Compare(T x, T y) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeSortExtension_DefaultComparer_1<T>>(), { "Compare", {}, { ::i2c::type_of<T>(), ::i2c::type_of<T>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, x, y);
 }
 /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<T>"
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
-constexpr Unity::Collections::NativeSortExtension_DefaultComparer_1<T>::operator ::System::Collections::Generic::IComparer_1<T>*() {
+template <typename T> constexpr Unity::Collections::NativeSortExtension_DefaultComparer_1<T>::operator ::System::Collections::Generic::IComparer_1<T>*() {
   return static_cast<::System::Collections::Generic::IComparer_1<T>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Collections::Generic::IComparer_1<T>"
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
-constexpr ::System::Collections::Generic::IComparer_1<T>* Unity::Collections::NativeSortExtension_DefaultComparer_1<T>::i___System__Collections__Generic__IComparer_1_T_() {
+template <typename T> constexpr ::System::Collections::Generic::IComparer_1<T>* Unity::Collections::NativeSortExtension_DefaultComparer_1<T>::i___System__Collections__Generic__IComparer_1_T_() {
   return static_cast<::System::Collections::Generic::IComparer_1<T>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
-constexpr ::Unity::Collections::NativeSortExtension_DefaultComparer_1<T>::NativeSortExtension_DefaultComparer_1() {}
+template <typename T> constexpr ::Unity::Collections::NativeSortExtension_DefaultComparer_1<T>::NativeSortExtension_DefaultComparer_1() {}
 template <typename T>
   requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::NativeSortExtension::Sort(T* array, int32_t length) {

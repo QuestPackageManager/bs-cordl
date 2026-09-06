@@ -33,9 +33,7 @@ namespace Zenject {
 class FactoryBindInfo;
 }
 namespace Zenject {
-template <typename TParam1, typename TContract, typename TSubFactory>
-  requires(::cordl_internals::type_constraint<TSubFactory, ::Zenject::IFactory_2<TParam1, TContract>*>)
-class FactoryFromBinder_2___c__2_1;
+template <typename TParam1, typename TContract, typename TSubFactory> class FactoryFromBinder_2___c__2_1;
 }
 namespace Zenject {
 template <typename TParam1, typename TContract> class FactoryFromBinder_2___c__DisplayClass1_0;
@@ -57,9 +55,7 @@ namespace Zenject {
 template <typename TParam1, typename TContract> class FactoryFromBinder_2;
 }
 namespace Zenject {
-template <typename TParam1, typename TContract, typename TSubFactory>
-  requires(::cordl_internals::type_constraint<TSubFactory, ::Zenject::IFactory_2<TParam1, TContract>*>)
-class FactoryFromBinder_2___c__2_1;
+template <typename TParam1, typename TContract, typename TSubFactory> class FactoryFromBinder_2___c__2_1;
 }
 namespace Zenject {
 template <typename TParam1, typename TContract> class FactoryFromBinder_2___c__DisplayClass1_0;
@@ -72,11 +68,10 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactoryFromBinder_2, "Zenject", "FactoryF
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactoryFromBinder_2___c__2_1, "Zenject", "FactoryFromBinder`2/<>c__2`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactoryFromBinder_2___c__DisplayClass1_0, "Zenject", "FactoryFromBinder`2/<>c__DisplayClass1_0");
 // [CompilerGenerated]
-// Dependencies System.Object, Zenject.IFactory`2<TParam1, TValue>
+// Dependencies System.Object
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TContract, typename TSubFactory>
-  requires(::cordl_internals::type_constraint<TSubFactory, ::Zenject::IFactory_2<TParam1, TContract>*>)
 // Is value type: false
 // CS Name: Zenject.FactoryFromBinder`2/<>c__2`1<TParam1,TContract,TSubFactory>
 class CORDL_TYPE FactoryFromBinder_2___c__2_1 : public ::System::Object {

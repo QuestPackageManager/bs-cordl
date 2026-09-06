@@ -18,9 +18,7 @@ namespace UnityEngine::UIElements::UIR {
 class JobMerger;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NativePagedList_1;
+template <typename T> class NativePagedList_1;
 }
 namespace UnityEngine::UIElements::UIR {
 struct NudgeJobData;

@@ -19,9 +19,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(JObject)
 namespace Newtonsoft::Json::Linq {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
-struct JEnumerable_1;
+template <typename T> struct JEnumerable_1;
 }
 namespace Newtonsoft::Json::Linq {
 class JObjectDynamicProxy_JObject___c;

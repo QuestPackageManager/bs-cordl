@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/UI/CoroutineTween/zzzz__ITweenValue_def.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TweenRunner_1)
@@ -21,26 +20,17 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::UI::CoroutineTween {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UI::CoroutineTween::ITweenValue*> && ::cordl_internals::value_type_constraint<T> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-class TweenRunner_1__Start_d__2;
+template <typename T> class TweenRunner_1__Start_d__2;
 }
 namespace UnityEngine {
 class MonoBehaviour;
 }
 // Forward declare root types
 namespace UnityEngine::UI::CoroutineTween {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UI::CoroutineTween::ITweenValue*> && ::cordl_internals::value_type_constraint<T> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-class TweenRunner_1;
+template <typename T> class TweenRunner_1;
 }
 namespace UnityEngine::UI::CoroutineTween {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UI::CoroutineTween::ITweenValue*> && ::cordl_internals::value_type_constraint<T> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-class TweenRunner_1__Start_d__2;
+template <typename T> class TweenRunner_1__Start_d__2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UI::CoroutineTween::TweenRunner_1);
@@ -48,12 +38,10 @@ MARK_GEN_REF_T_PTR(::UnityEngine::UI::CoroutineTween::TweenRunner_1__Start_d__2)
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UI::CoroutineTween::TweenRunner_1, "UnityEngine.UI.CoroutineTween", "TweenRunner`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UI::CoroutineTween::TweenRunner_1__Start_d__2, "UnityEngine.UI.CoroutineTween", "TweenRunner`1/<Start>d__2");
 // [CompilerGenerated]
-// Dependencies System.Object, UnityEngine.UI.CoroutineTween.ITweenValue
+// Dependencies System.Object
 namespace UnityEngine::UI::CoroutineTween {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UI::CoroutineTween::ITweenValue*> && ::cordl_internals::value_type_constraint<T> &&
-           ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UI.CoroutineTween.TweenRunner`1/<Start>d__2<T>
 class CORDL_TYPE TweenRunner_1__Start_d__2 : public ::System::Object {
@@ -176,12 +164,10 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UI::CoroutineTween
-// Dependencies System.Object, UnityEngine.UI.CoroutineTween.ITweenValue
+// Dependencies System.Object
 namespace UnityEngine::UI::CoroutineTween {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UI::CoroutineTween::ITweenValue*> && ::cordl_internals::value_type_constraint<T> &&
-           ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UI.CoroutineTween.TweenRunner`1<T>
 class CORDL_TYPE TweenRunner_1 : public ::System::Object {

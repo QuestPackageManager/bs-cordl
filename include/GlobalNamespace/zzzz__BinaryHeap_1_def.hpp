@@ -3,27 +3,23 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BinaryHeap_1)
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
-class BinaryHeap_1;
+template <typename T> class BinaryHeap_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::BinaryHeap_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::BinaryHeap_1, "", "BinaryHeap`1");
 // [NullableContext(1)]
 // [Nullable(0)]
-// Dependencies System.IComparable`1<T>, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
 // Is value type: false
 // CS Name: BinaryHeap`1<T>
 class CORDL_TYPE BinaryHeap_1 : public ::System::Object {

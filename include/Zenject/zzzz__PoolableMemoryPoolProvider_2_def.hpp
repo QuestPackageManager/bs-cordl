@@ -3,8 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Zenject/zzzz__IPoolable_1_def.hpp"
-#include "Zenject/zzzz__MemoryPool_2_def.hpp"
 #include "Zenject/zzzz__PoolableMemoryPoolProviderBase_1_def.hpp"
 CORDL_MODULE_EXPORT(PoolableMemoryPoolProvider_2)
 namespace System::Collections::Generic {
@@ -23,9 +21,6 @@ namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class IMemoryPool;
-}
-namespace Zenject {
 class IValidatable;
 }
 namespace Zenject {
@@ -36,21 +31,16 @@ struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {
-template <typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_1<::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_2<::Zenject::IMemoryPool*, TContract>*>)
-class PoolableMemoryPoolProvider_2;
+template <typename TContract, typename TMemoryPool> class PoolableMemoryPoolProvider_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::PoolableMemoryPoolProvider_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::PoolableMemoryPoolProvider_2, "Zenject", "PoolableMemoryPoolProvider`2");
 // [NoReflectionBaking]
-// Dependencies Zenject.IPoolable`1<TParam1>, Zenject.MemoryPool`2<TParam1, TValue>, Zenject.PoolableMemoryPoolProviderBase`1<TContract>
+// Dependencies Zenject.PoolableMemoryPoolProviderBase`1<TContract>
 namespace Zenject {
 // cpp template
 template <typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_1<::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_2<::Zenject::IMemoryPool*, TContract>*>)
 // Is value type: false
 // CS Name: Zenject.PoolableMemoryPoolProvider`2<TContract,TMemoryPool>
 class CORDL_TYPE PoolableMemoryPoolProvider_2 : public ::Zenject::PoolableMemoryPoolProviderBase_1<TContract> {

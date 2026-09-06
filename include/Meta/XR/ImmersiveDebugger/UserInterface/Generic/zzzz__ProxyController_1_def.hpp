@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__Controller_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ProxyController_1)
 namespace System::Collections::Generic {
@@ -11,18 +10,15 @@ template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
-template <typename ControllerType>
-  requires(::cordl_internals::type_constraint<ControllerType, ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*>)
-class ProxyController_1;
+template <typename ControllerType> class ProxyController_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ProxyController_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ProxyController_1, "Meta.XR.ImmersiveDebugger.UserInterface.Generic", "ProxyController`1");
-// Dependencies Meta.XR.ImmersiveDebugger.UserInterface.Generic.Controller, System.Object
+// Dependencies System.Object
 namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
 // cpp template
 template <typename ControllerType>
-  requires(::cordl_internals::type_constraint<ControllerType, ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*>)
 // Is value type: false
 // CS Name: Meta.XR.ImmersiveDebugger.UserInterface.Generic.ProxyController`1<ControllerType>
 class CORDL_TYPE ProxyController_1 : public ::System::Object {

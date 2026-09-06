@@ -15,160 +15,122 @@
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-constexpr float_t& GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::__cordl_internal_get__time_k__BackingField() {
+template <typename T> constexpr float_t& GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::__cordl_internal_get__time_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____time_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-constexpr float_t const& GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::__cordl_internal_get__time_k__BackingField() const {
+template <typename T> constexpr float_t const& GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::__cordl_internal_get__time_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____time_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-constexpr void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::__cordl_internal_set__time_k__BackingField(float_t value) {
+template <typename T> constexpr void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::__cordl_internal_set__time_k__BackingField(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____time_k__BackingField = value;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-constexpr float_t& GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::__cordl_internal_get__previousTimeSliceTime_k__BackingField() {
+template <typename T> constexpr float_t& GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::__cordl_internal_get__previousTimeSliceTime_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previousTimeSliceTime_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-constexpr float_t const& GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::__cordl_internal_get__previousTimeSliceTime_k__BackingField() const {
+template <typename T> constexpr float_t const& GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::__cordl_internal_get__previousTimeSliceTime_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previousTimeSliceTime_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-constexpr void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::__cordl_internal_set__previousTimeSliceTime_k__BackingField(float_t value) {
+template <typename T> constexpr void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::__cordl_internal_set__previousTimeSliceTime_k__BackingField(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____previousTimeSliceTime_k__BackingField = value;
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
 constexpr ::System::Action_2<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*, float_t>*&
 GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::__cordl_internal_get_didFinishTimeSliceEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishTimeSliceEvent;
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
 constexpr ::System::Action_2<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*, float_t>* const&
 GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::__cordl_internal_get_didFinishTimeSliceEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishTimeSliceEvent;
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
 constexpr void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::__cordl_internal_set_didFinishTimeSliceEvent(
     ::System::Action_2<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*, float_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___didFinishTimeSliceEvent = value;
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
 constexpr ::System::Action_1<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*>*&
 GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::__cordl_internal_get_didStartNewTimeSliceEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didStartNewTimeSliceEvent;
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
 constexpr ::System::Action_1<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*>* const&
 GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::__cordl_internal_get_didStartNewTimeSliceEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didStartNewTimeSliceEvent;
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
 constexpr void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::__cordl_internal_set_didStartNewTimeSliceEvent(
     ::System::Action_1<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___didStartNewTimeSliceEvent = value;
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
 constexpr ::System::Action_2<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*, T>*&
 GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::__cordl_internal_get_didAddItemEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didAddItemEvent;
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
 constexpr ::System::Action_2<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*, T>* const&
 GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::__cordl_internal_get_didAddItemEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didAddItemEvent;
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
 constexpr void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::__cordl_internal_set_didAddItemEvent(
     ::System::Action_2<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*, T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___didAddItemEvent = value;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-constexpr ::System::Collections::Generic::List_1<T>*& GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::__cordl_internal_get__items() {
+template <typename T> constexpr ::System::Collections::Generic::List_1<T>*& GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::__cordl_internal_get__items() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____items;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-constexpr ::System::Collections::Generic::List_1<T>* const& GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::__cordl_internal_get__items() const {
+template <typename T> constexpr ::System::Collections::Generic::List_1<T>* const& GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::__cordl_internal_get__items() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____items;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-constexpr void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::__cordl_internal_set__items(::System::Collections::Generic::List_1<T>* value) {
+template <typename T> constexpr void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::__cordl_internal_set__items(::System::Collections::Generic::List_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____items = value;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-inline float_t GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::get_time() {
+template <typename T> inline float_t GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::get_time() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*>(), { "get_time", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-inline void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::set_time(float_t value) {
+template <typename T> inline void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::set_time(float_t value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*>(), { "set_time", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-inline float_t GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::get_previousTimeSliceTime() {
+template <typename T> inline float_t GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::get_previousTimeSliceTime() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*>(), { "get_previousTimeSliceTime", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-inline void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::set_previousTimeSliceTime(float_t value) {
+template <typename T> inline void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::set_previousTimeSliceTime(float_t value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*>(),
                                                                                          { "set_previousTimeSliceTime", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-inline ::System::Collections::Generic::IReadOnlyList_1<T>* GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::get_items() {
+template <typename T> inline ::System::Collections::Generic::IReadOnlyList_1<T>* GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::get_items() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*>(), { "get_items", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<T>*>(this, ___internal_method);
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
 inline void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::add_didFinishTimeSliceEvent(
     ::System::Action_2<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*, float_t>* value) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -178,7 +140,6 @@ inline void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
 inline void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::remove_didFinishTimeSliceEvent(
     ::System::Action_2<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*, float_t>* value) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -188,7 +149,6 @@ inline void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
 inline void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::add_didStartNewTimeSliceEvent(
     ::System::Action_1<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*>* value) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -198,7 +158,6 @@ inline void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
 inline void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::remove_didStartNewTimeSliceEvent(
     ::System::Action_1<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*>* value) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -208,7 +167,6 @@ inline void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
 inline void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::add_didAddItemEvent(
     ::System::Action_2<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*, T>* value) {
   static auto* ___internal_method =
@@ -218,7 +176,6 @@ inline void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
 inline void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::remove_didAddItemEvent(
     ::System::Action_2<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*, T>* value) {
   static auto* ___internal_method =
@@ -227,53 +184,40 @@ inline void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer
                                        { "remove_didAddItemEvent", {}, { ::i2c::type_of<::System::Action_2<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*, T>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-inline void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::_ctor(int32_t capacity) {
+template <typename T> inline void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::_ctor(int32_t capacity) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, capacity);
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-inline void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::Add(T item) {
+template <typename T> inline void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::Add(T item) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*>(), { "Add", {}, { ::i2c::type_of<T>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, item);
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-inline void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::AddWithoutNotifications(T item) {
+template <typename T> inline void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::AddWithoutNotifications(T item) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*>(), { "AddWithoutNotifications", {}, { ::i2c::type_of<T>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, item);
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-inline void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::FinishTimeSlice(float_t nextTimeSliceTime) {
+template <typename T> inline void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::FinishTimeSlice(float_t nextTimeSliceTime) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*>(), { "FinishTimeSlice", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, nextTimeSliceTime);
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-inline void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::StartNewTimeSlice(float_t newSliceTime) {
+template <typename T> inline void GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::StartNewTimeSlice(float_t newSliceTime) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*>(), { "StartNewTimeSlice", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newSliceTime);
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
 inline ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>* GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::New_ctor(int32_t capacity) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*>(capacity));
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-constexpr ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1() {}
+template <typename T> constexpr ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1() {}
 //  Writing Method size for method: ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_SliderTailData._ctor
 template <>
 

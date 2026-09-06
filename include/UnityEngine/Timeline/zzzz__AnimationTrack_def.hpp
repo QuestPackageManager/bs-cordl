@@ -74,9 +74,7 @@ namespace UnityEngine::Timeline {
 class IPropertyCollector;
 }
 namespace UnityEngine::Timeline {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Timeline::IInterval*>)
-class IntervalTree_1;
+template <typename T> class IntervalTree_1;
 }
 namespace UnityEngine::Timeline {
 struct MatchTargetFields;

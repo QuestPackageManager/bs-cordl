@@ -14,79 +14,59 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*&
 System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::__cordl_internal_get_Parameters() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Parameters;
 }
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* const&
 System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::__cordl_internal_get_Parameters() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Parameters;
 }
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 constexpr void System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::__cordl_internal_set_Parameters(
     ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Parameters = value;
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr ::System::Linq::Expressions::LabelTarget*& System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::__cordl_internal_get_ReturnLabel() {
+template <typename T> constexpr ::System::Linq::Expressions::LabelTarget*& System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::__cordl_internal_get_ReturnLabel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ReturnLabel;
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr ::System::Linq::Expressions::LabelTarget* const& System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::__cordl_internal_get_ReturnLabel() const {
+template <typename T> constexpr ::System::Linq::Expressions::LabelTarget* const& System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::__cordl_internal_get_ReturnLabel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ReturnLabel;
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr void System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::__cordl_internal_set_ReturnLabel(::System::Linq::Expressions::LabelTarget* value) {
+template <typename T> constexpr void System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::__cordl_internal_set_ReturnLabel(::System::Linq::Expressions::LabelTarget* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ReturnLabel = value;
 }
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 inline void System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::setStaticF_s_instance(::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>* value) {
   ::cordl_internals::setStaticField<::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>*, "s_instance", ::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>*>(
       std::forward<::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>*>(value));
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-inline ::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>* System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::getStaticF_s_instance() {
+template <typename T> inline ::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>* System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::getStaticF_s_instance() {
   return ::cordl_internals::getStaticField<::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>*, "s_instance",
                                            ::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>*>();
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-inline ::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>* System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::get_Instance() {
+template <typename T> inline ::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>* System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::get_Instance() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>*>(), { "get_Instance", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>*>(nullptr, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-inline void System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::_ctor() {
+template <typename T> inline void System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-inline ::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>* System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::New_ctor() {
+template <typename T> inline ::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>* System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>*>());
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr ::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::CallSiteBinder_LambdaSignature_1() {}
+template <typename T> constexpr ::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>::CallSiteBinder_LambdaSignature_1() {}
 //  Writing Method size for method: ::System::Runtime::CompilerServices::CallSiteBinder._ctor
 template <>
 

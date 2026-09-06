@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__HashMapHelper_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -27,21 +26,13 @@ namespace System {
 class Object;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey>)
-struct HashMapHelper_1;
+template <typename TKey> struct HashMapHelper_1;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
-           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-struct UnsafeHashMap_2_Enumerator;
+template <typename TKey, typename TValue> struct UnsafeHashMap_2_Enumerator;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
-           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-struct UnsafeHashMap_2_ReadOnly;
+template <typename TKey, typename TValue> struct UnsafeHashMap_2_ReadOnly;
 }
 namespace Unity::Collections {
 struct AllocatorManager_AllocatorHandle;
@@ -50,43 +41,26 @@ namespace Unity::Collections {
 class INativeDisposable;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
-           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-struct KVPair_2;
+template <typename TKey, typename TValue> struct KVPair_2;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1;
+template <typename T> struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
-           ::cordl_internals::default_constructor_constraint<TValue>)
-struct NativeKeyValueArrays_2;
+template <typename TKey, typename TValue> struct NativeKeyValueArrays_2;
 }
 namespace Unity::Jobs {
 struct JobHandle;
 }
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
-           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-struct UnsafeHashMap_2;
+template <typename TKey, typename TValue> struct UnsafeHashMap_2;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
-           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-struct UnsafeHashMap_2_Enumerator;
+template <typename TKey, typename TValue> struct UnsafeHashMap_2_Enumerator;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
-           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-struct UnsafeHashMap_2_ReadOnly;
+template <typename TKey, typename TValue> struct UnsafeHashMap_2_ReadOnly;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::LowLevel::Unsafe::UnsafeHashMap_2);
@@ -95,12 +69,10 @@ MARK_GEN_VAL_T(::Unity::Collections::LowLevel::Unsafe::UnsafeHashMap_2_ReadOnly)
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeHashMap_2, "Unity.Collections.LowLevel.Unsafe", "UnsafeHashMap`2");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeHashMap_2_Enumerator, "Unity.Collections.LowLevel.Unsafe", "UnsafeHashMap`2/Enumerator");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeHashMap_2_ReadOnly, "Unity.Collections.LowLevel.Unsafe", "UnsafeHashMap`2/ReadOnly");
-// Dependencies System.IEquatable`1<T>, Unity.Collections.LowLevel.Unsafe.HashMapHelper`1::Enumerator<TKey>
+// Dependencies Unity.Collections.LowLevel.Unsafe.HashMapHelper`1::Enumerator<TKey>
 namespace Unity::Collections::LowLevel::Unsafe {
 // cpp template
 template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
-           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: true
 // CS Name: Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2/Enumerator<TKey,TValue>
 struct CORDL_TYPE UnsafeHashMap_2_Enumerator {
@@ -165,12 +137,10 @@ public:
 } // namespace Unity::Collections::LowLevel::Unsafe
 // [DefaultMember("Item")]
 // [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32) })]
-// Dependencies System.IEquatable`1<T>, Unity.Collections.LowLevel.Unsafe.HashMapHelper`1<TKey>
+// Dependencies Unity.Collections.LowLevel.Unsafe.HashMapHelper`1<TKey>
 namespace Unity::Collections::LowLevel::Unsafe {
 // cpp template
 template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
-           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: true
 // CS Name: Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2/ReadOnly<TKey,TValue>
 struct CORDL_TYPE UnsafeHashMap_2_ReadOnly {
@@ -275,12 +245,10 @@ public:
 // [DefaultMember("Item")]
 // [DebuggerTypeProxy(typeof(Unity.Collections.LowLevel.Unsafe.UnsafeHashMapDebuggerTypeProxy`2<TKey, TValue>))]
 // [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32) })]
-// Dependencies System.IEquatable`1<T>, Unity.Collections.LowLevel.Unsafe.HashMapHelper`1<TKey>
+// Dependencies Unity.Collections.LowLevel.Unsafe.HashMapHelper`1<TKey>
 namespace Unity::Collections::LowLevel::Unsafe {
 // cpp template
 template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
-           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: true
 // CS Name: Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2<TKey,TValue>
 struct CORDL_TYPE UnsafeHashMap_2 {

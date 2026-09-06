@@ -34,46 +34,32 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct Nullable_1;
+template <typename T> struct Nullable_1;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-template <typename TValue>
-  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-struct InputStateHistory_1_Enumerator;
+template <typename TValue> struct InputStateHistory_1_Enumerator;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-template <typename TValue>
-  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-struct InputStateHistory_1_Record;
+template <typename TValue> struct InputStateHistory_1_Record;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputStateHistory_RecordHeader;
 }
 namespace UnityEngine::InputSystem {
-template <typename TValue>
-  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-class InputControl_1;
+template <typename TValue> class InputControl_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
-template <typename TValue>
-  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-class InputStateHistory_1;
+template <typename TValue> class InputStateHistory_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-template <typename TValue>
-  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-struct InputStateHistory_1_Enumerator;
+template <typename TValue> struct InputStateHistory_1_Enumerator;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-template <typename TValue>
-  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-struct InputStateHistory_1_Record;
+template <typename TValue> struct InputStateHistory_1_Record;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::InputSystem::LowLevel::InputStateHistory_1);
@@ -86,7 +72,6 @@ DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::InputSystem::LowLevel::InputStateHistory_
 namespace UnityEngine::InputSystem::LowLevel {
 // cpp template
 template <typename TValue>
-  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.LowLevel.InputStateHistory`1/Enumerator<TValue>
 struct CORDL_TYPE InputStateHistory_1_Enumerator {
@@ -161,7 +146,6 @@ public:
 namespace UnityEngine::InputSystem::LowLevel {
 // cpp template
 template <typename TValue>
-  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.LowLevel.InputStateHistory`1/Record<TValue>
 struct CORDL_TYPE InputStateHistory_1_Record {
@@ -290,7 +274,6 @@ public:
 namespace UnityEngine::InputSystem::LowLevel {
 // cpp template
 template <typename TValue>
-  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.LowLevel.InputStateHistory`1<TValue>
 class CORDL_TYPE InputStateHistory_1 : public ::UnityEngine::InputSystem::LowLevel::InputStateHistory {

@@ -3,15 +3,12 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 CORDL_MODULE_EXPORT(IListPropertyBag_2)
 namespace Unity::Properties {
 template <typename TContainer> class ICollectionPropertyBagAccept_1;
 }
 namespace Unity::Properties {
-template <typename TCollection, typename TElement>
-  requires(::cordl_internals::type_constraint<TCollection, ::System::Collections::Generic::ICollection_1<TElement>*>)
-class ICollectionPropertyBag_2;
+template <typename TCollection, typename TElement> class ICollectionPropertyBag_2;
 }
 namespace Unity::Properties {
 template <typename TContainer> class IIndexedProperties_1;
@@ -30,18 +27,15 @@ class IPropertyBag;
 }
 // Forward declare root types
 namespace Unity::Properties {
-template <typename TList, typename TElement>
-  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IList_1<TElement>*>)
-class IListPropertyBag_2;
+template <typename TList, typename TElement> class IListPropertyBag_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Unity::Properties::IListPropertyBag_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Properties::IListPropertyBag_2, "Unity.Properties", "IListPropertyBag`2");
-// Dependencies System.Collections.Generic.IList`1<T>
+// Dependencies
 namespace Unity::Properties {
 // cpp template
 template <typename TList, typename TElement>
-  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IList_1<TElement>*>)
 // Is value type: false
 // CS Name: Unity.Properties.IListPropertyBag`2<TList,TElement>
 class CORDL_TYPE IListPropertyBag_2 {

@@ -3,8 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Zenject/zzzz__IPoolable_5_def.hpp"
-#include "Zenject/zzzz__MemoryPool_6_def.hpp"
 #include "Zenject/zzzz__PoolableMemoryPoolProviderBase_1_def.hpp"
 CORDL_MODULE_EXPORT(PoolableMemoryPoolProvider_6)
 namespace System::Collections::Generic {
@@ -23,9 +21,6 @@ namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class IMemoryPool;
-}
-namespace Zenject {
 class IValidatable;
 }
 namespace Zenject {
@@ -36,22 +31,16 @@ struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_5<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_6<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*, TContract>*>)
-class PoolableMemoryPoolProvider_6;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract, typename TMemoryPool> class PoolableMemoryPoolProvider_6;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::PoolableMemoryPoolProvider_6);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::PoolableMemoryPoolProvider_6, "Zenject", "PoolableMemoryPoolProvider`6");
 // [NoReflectionBaking]
-// Dependencies Zenject.IPoolable`5<TParam1, TParam2, TParam3, TParam4, TParam5>, Zenject.MemoryPool`6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>,
-// Zenject.PoolableMemoryPoolProviderBase`1<TContract>
+// Dependencies Zenject.PoolableMemoryPoolProviderBase`1<TContract>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_5<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_6<TParam1, TParam2, TParam3, TParam4, ::Zenject::IMemoryPool*, TContract>*>)
 // Is value type: false
 // CS Name: Zenject.PoolableMemoryPoolProvider`6<TParam1,TParam2,TParam3,TParam4,TContract,TMemoryPool>
 class CORDL_TYPE PoolableMemoryPoolProvider_6 : public ::Zenject::PoolableMemoryPoolProviderBase_1<TContract> {

@@ -25,9 +25,7 @@ template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Meta::XR::ImmersiveDebugger::Manager {
-template <typename Type>
-  requires(::cordl_internals::default_constructor_constraint<Type>)
-class DebugManagerAddon_1;
+template <typename Type> class DebugManagerAddon_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Meta::XR::ImmersiveDebugger::Manager::DebugManagerAddon_1);
@@ -36,7 +34,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Meta::XR::ImmersiveDebugger::Manager::DebugManager
 namespace Meta::XR::ImmersiveDebugger::Manager {
 // cpp template
 template <typename Type>
-  requires(::cordl_internals::default_constructor_constraint<Type>)
 // Is value type: false
 // CS Name: Meta.XR.ImmersiveDebugger.Manager.DebugManagerAddon`1<Type>
 class CORDL_TYPE DebugManagerAddon_1 : public ::System::Object {

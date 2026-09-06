@@ -1935,7 +1935,6 @@ constexpr ::Unity::Collections::AllocatorManager_TableEntry::AllocatorManager_Ta
 // "f13", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "f14", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "f15", ty: "T",
 // modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr ::Unity::Collections::AllocatorManager_Array16_1<T>::AllocatorManager_Array16_1(T f0, T f1, T f2, T f3, T f4, T f5, T f6, T f7, T f8, T f9, T f10, T f11, T f12, T f13, T f14,
                                                                                           T f15) noexcept {
   this->f0 = f0;
@@ -1956,9 +1955,7 @@ constexpr ::Unity::Collections::AllocatorManager_Array16_1<T>::AllocatorManager_
   this->f15 = f15;
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr ::Unity::Collections::AllocatorManager_Array16_1<T>::AllocatorManager_Array16_1() {}
+template <typename T> constexpr ::Unity::Collections::AllocatorManager_Array16_1<T>::AllocatorManager_Array16_1() {}
 // Ctor Parameters [CppParam { name: "f0", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "f1", ty:
 // "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "f2", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "f3", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: Some("{}"), comment: None },
@@ -1972,7 +1969,6 @@ constexpr ::Unity::Collections::AllocatorManager_Array16_1<T>::AllocatorManager_
 // "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "f14", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "f15", ty: "::Unity::Collections::AllocatorManager_Array16_1<T>", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr ::Unity::Collections::AllocatorManager_Array256_1<T>::AllocatorManager_Array256_1(
     ::Unity::Collections::AllocatorManager_Array16_1<T> f0, ::Unity::Collections::AllocatorManager_Array16_1<T> f1, ::Unity::Collections::AllocatorManager_Array16_1<T> f2,
     ::Unity::Collections::AllocatorManager_Array16_1<T> f3, ::Unity::Collections::AllocatorManager_Array16_1<T> f4, ::Unity::Collections::AllocatorManager_Array16_1<T> f5,
@@ -1998,9 +1994,7 @@ constexpr ::Unity::Collections::AllocatorManager_Array256_1<T>::AllocatorManager
   this->f15 = f15;
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr ::Unity::Collections::AllocatorManager_Array256_1<T>::AllocatorManager_Array256_1() {}
+template <typename T> constexpr ::Unity::Collections::AllocatorManager_Array256_1<T>::AllocatorManager_Array256_1() {}
 // Ctor Parameters [CppParam { name: "f0", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "f1", ty:
 // "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "f2", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "f3", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: Some("{}"), comment: None },
@@ -2014,7 +2008,6 @@ constexpr ::Unity::Collections::AllocatorManager_Array256_1<T>::AllocatorManager
 // "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "f14", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "f15", ty: "::Unity::Collections::AllocatorManager_Array256_1<T>", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr ::Unity::Collections::AllocatorManager_Array4096_1<T>::AllocatorManager_Array4096_1(
     ::Unity::Collections::AllocatorManager_Array256_1<T> f0, ::Unity::Collections::AllocatorManager_Array256_1<T> f1, ::Unity::Collections::AllocatorManager_Array256_1<T> f2,
     ::Unity::Collections::AllocatorManager_Array256_1<T> f3, ::Unity::Collections::AllocatorManager_Array256_1<T> f4, ::Unity::Collections::AllocatorManager_Array256_1<T> f5,
@@ -2040,39 +2033,27 @@ constexpr ::Unity::Collections::AllocatorManager_Array4096_1<T>::AllocatorManage
   this->f15 = f15;
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr ::Unity::Collections::AllocatorManager_Array4096_1<T>::AllocatorManager_Array4096_1() {}
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline int32_t Unity::Collections::AllocatorManager_Array32768_1<T>::get_Length() {
+template <typename T> constexpr ::Unity::Collections::AllocatorManager_Array4096_1<T>::AllocatorManager_Array4096_1() {}
+template <typename T> inline int32_t Unity::Collections::AllocatorManager_Array32768_1<T>::get_Length() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::AllocatorManager_Array32768_1<T>>(), { "get_Length", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline void Unity::Collections::AllocatorManager_Array32768_1<T>::set_Length(int32_t value) {
+template <typename T> inline void Unity::Collections::AllocatorManager_Array32768_1<T>::set_Length(int32_t value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::AllocatorManager_Array32768_1<T>>(), { "set_Length", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline ::by_ref<T> Unity::Collections::AllocatorManager_Array32768_1<T>::ElementAt(int32_t index) {
+template <typename T> inline ::by_ref<T> Unity::Collections::AllocatorManager_Array32768_1<T>::ElementAt(int32_t index) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::AllocatorManager_Array32768_1<T>>(), { "ElementAt", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<T>>(*this, ___internal_method, index);
 }
 /// @brief Convert operator to "::Unity::Collections::IIndexable_1<T>"
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr Unity::Collections::AllocatorManager_Array32768_1<T>::operator ::Unity::Collections::IIndexable_1<T>*() {
+template <typename T> constexpr Unity::Collections::AllocatorManager_Array32768_1<T>::operator ::Unity::Collections::IIndexable_1<T>*() {
   return static_cast<::Unity::Collections::IIndexable_1<T>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::Unity::Collections::IIndexable_1<T>"
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr ::Unity::Collections::IIndexable_1<T>* Unity::Collections::AllocatorManager_Array32768_1<T>::i___Unity__Collections__IIndexable_1_T_() {
+template <typename T> constexpr ::Unity::Collections::IIndexable_1<T>* Unity::Collections::AllocatorManager_Array32768_1<T>::i___Unity__Collections__IIndexable_1_T_() {
   return static_cast<::Unity::Collections::IIndexable_1<T>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "f0", ty: "::Unity::Collections::AllocatorManager_Array4096_1<T>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "f1", ty:
@@ -2082,7 +2063,6 @@ constexpr ::Unity::Collections::IIndexable_1<T>* Unity::Collections::AllocatorMa
 // "::Unity::Collections::AllocatorManager_Array4096_1<T>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "f6", ty: "::Unity::Collections::AllocatorManager_Array4096_1<T>",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "f7", ty: "::Unity::Collections::AllocatorManager_Array4096_1<T>", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr ::Unity::Collections::AllocatorManager_Array32768_1<T>::AllocatorManager_Array32768_1(
     ::Unity::Collections::AllocatorManager_Array4096_1<T> f0, ::Unity::Collections::AllocatorManager_Array4096_1<T> f1, ::Unity::Collections::AllocatorManager_Array4096_1<T> f2,
     ::Unity::Collections::AllocatorManager_Array4096_1<T> f3, ::Unity::Collections::AllocatorManager_Array4096_1<T> f4, ::Unity::Collections::AllocatorManager_Array4096_1<T> f5,
@@ -2097,9 +2077,7 @@ constexpr ::Unity::Collections::AllocatorManager_Array32768_1<T>::AllocatorManag
   this->f7 = f7;
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr ::Unity::Collections::AllocatorManager_Array32768_1<T>::AllocatorManager_Array32768_1() {}
+template <typename T> constexpr ::Unity::Collections::AllocatorManager_Array32768_1<T>::AllocatorManager_Array32768_1() {}
 //  Writing Method size for method: ::Unity::Collections::SharedStatics_AllocatorManager_IsInstalled._ctor
 template <>
 
@@ -2261,37 +2239,23 @@ inline void Unity::Collections::AllocatorManager_Managed::UnregisterDelegate(int
 // Ctor Parameters []
 constexpr ::Unity::Collections::AllocatorManager_Managed::AllocatorManager_Managed() {}
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
-           ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::AllocatorManager_AllocatorCache_1<T>::setStaticF_TryFunction(::Unity::Burst::FunctionPointer_1<::Unity::Collections::AllocatorManager_TryFunction*> value) {
   ::cordl_internals::setStaticField<::Unity::Burst::FunctionPointer_1<::Unity::Collections::AllocatorManager_TryFunction*>, "TryFunction", ::Unity::Collections::AllocatorManager_AllocatorCache_1<T>*>(
       std::forward<::Unity::Burst::FunctionPointer_1<::Unity::Collections::AllocatorManager_TryFunction*>>(value));
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-inline ::Unity::Burst::FunctionPointer_1<::Unity::Collections::AllocatorManager_TryFunction*> Unity::Collections::AllocatorManager_AllocatorCache_1<T>::getStaticF_TryFunction() {
+template <typename T> inline ::Unity::Burst::FunctionPointer_1<::Unity::Collections::AllocatorManager_TryFunction*> Unity::Collections::AllocatorManager_AllocatorCache_1<T>::getStaticF_TryFunction() {
   return ::cordl_internals::getStaticField<::Unity::Burst::FunctionPointer_1<::Unity::Collections::AllocatorManager_TryFunction*>, "TryFunction",
                                            ::Unity::Collections::AllocatorManager_AllocatorCache_1<T>*>();
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-inline void Unity::Collections::AllocatorManager_AllocatorCache_1<T>::setStaticF_CachedFunction(::Unity::Collections::AllocatorManager_TryFunction* value) {
+template <typename T> inline void Unity::Collections::AllocatorManager_AllocatorCache_1<T>::setStaticF_CachedFunction(::Unity::Collections::AllocatorManager_TryFunction* value) {
   ::cordl_internals::setStaticField<::Unity::Collections::AllocatorManager_TryFunction*, "CachedFunction", ::Unity::Collections::AllocatorManager_AllocatorCache_1<T>*>(
       std::forward<::Unity::Collections::AllocatorManager_TryFunction*>(value));
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-inline ::Unity::Collections::AllocatorManager_TryFunction* Unity::Collections::AllocatorManager_AllocatorCache_1<T>::getStaticF_CachedFunction() {
+template <typename T> inline ::Unity::Collections::AllocatorManager_TryFunction* Unity::Collections::AllocatorManager_AllocatorCache_1<T>::getStaticF_CachedFunction() {
   return ::cordl_internals::getStaticField<::Unity::Collections::AllocatorManager_TryFunction*, "CachedFunction", ::Unity::Collections::AllocatorManager_AllocatorCache_1<T>*>();
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-constexpr ::Unity::Collections::AllocatorManager_AllocatorCache_1<T>::AllocatorManager_AllocatorCache_1() {}
+template <typename T> constexpr ::Unity::Collections::AllocatorManager_AllocatorCache_1<T>::AllocatorManager_AllocatorCache_1() {}
 //  Writing Method size for method: ::Unity::Collections::AllocatorManager.Allocate
 template <>
 

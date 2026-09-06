@@ -8,10 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeHashMapDispose)
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
-           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-struct UnsafeHashMap_2;
+template <typename TKey, typename TValue> struct UnsafeHashMap_2;
 }
 // Forward declare root types
 namespace Unity::Collections {

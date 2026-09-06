@@ -11,9 +11,7 @@ template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class UndoRedoBuffer_1;
+template <typename T> class UndoRedoBuffer_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::UndoRedoBuffer_1);
@@ -22,7 +20,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::UndoRedoBuffer_1, "", "UndoRedoBu
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: false
 // CS Name: UndoRedoBuffer`1<T>
 class CORDL_TYPE UndoRedoBuffer_1 : public ::System::Object {

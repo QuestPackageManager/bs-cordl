@@ -15,7 +15,6 @@
 // Ctor Parameters [CppParam { name: "TransformAccessArray", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "IsReadOnly", ty: "int32_t", modifiers: "",
 // def_value: Some("{}"), comment: None }]
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Jobs::IJobParallelForTransform*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr ::UnityEngine::Jobs::TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_TransformJobData<
     T>::TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_TransformJobData(::System::IntPtr TransformAccessArray, int32_t IsReadOnly) noexcept {
   this->TransformAccessArray = TransformAccessArray;
@@ -23,11 +22,9 @@ constexpr ::UnityEngine::Jobs::TransformParallelForLoopStruct_1_IJobParallelForT
 }
 // Ctor Parameters []
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Jobs::IJobParallelForTransform*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr ::UnityEngine::Jobs::TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_TransformJobData<
     T>::TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_TransformJobData() {}
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Jobs::IJobParallelForTransform*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Jobs::TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction<T>::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Jobs::TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction<T>*>(),
@@ -35,7 +32,6 @@ inline void UnityEngine::Jobs::TransformParallelForLoopStruct_1_IJobParallelForT
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Jobs::IJobParallelForTransform*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Jobs::TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction<T>::Invoke(::by_ref<T> jobData, ::System::IntPtr additionalPtr,
                                                                                                                                  ::System::IntPtr bufferRangePatchData,
                                                                                                                                  ::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges,
@@ -46,18 +42,15 @@ inline void UnityEngine::Jobs::TransformParallelForLoopStruct_1_IJobParallelForT
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, jobData, additionalPtr, bufferRangePatchData, ranges, jobIndex);
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Jobs::IJobParallelForTransform*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::UnityEngine::Jobs::TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction<T>*
 UnityEngine::Jobs::TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction<T>::New_ctor(::System::Object* object, ::System::IntPtr method) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Jobs::TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction<T>*>(object, method));
 }
 // Ctor Parameters []
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Jobs::IJobParallelForTransform*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr ::UnityEngine::Jobs::TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction<
     T>::TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction() {}
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Jobs::IJobParallelForTransform*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Jobs::IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1<T>::setStaticF_jobReflectionData(
     ::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<::System::IntPtr> value) {
   ::cordl_internals::setStaticField<::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<::System::IntPtr>, "jobReflectionData",
@@ -65,21 +58,17 @@ inline void UnityEngine::Jobs::IJobParallelForTransformExtensions_TransformParal
       std::forward<::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<::System::IntPtr>>(value));
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Jobs::IJobParallelForTransform*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<::System::IntPtr>
 UnityEngine::Jobs::IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1<T>::getStaticF_jobReflectionData() {
   return ::cordl_internals::getStaticField<::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<::System::IntPtr>, "jobReflectionData",
                                            ::UnityEngine::Jobs::IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1<T>>();
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Jobs::IJobParallelForTransform*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::Jobs::IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1<T>::Initialize() {
+template <typename T> inline void UnityEngine::Jobs::IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1<T>::Initialize() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Jobs::IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1<T>>(), { "Initialize", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Jobs::IJobParallelForTransform*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Jobs::IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1<T>::Execute(::by_ref<T> jobData, ::System::IntPtr jobData2, ::System::IntPtr bufferRangePatchData,
                                                                                                                ::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges, int32_t jobIndex) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Jobs::IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1<T>>(),
@@ -90,9 +79,7 @@ inline void UnityEngine::Jobs::IJobParallelForTransformExtensions_TransformParal
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, jobData, jobData2, bufferRangePatchData, ranges, jobIndex);
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Jobs::IJobParallelForTransform*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr ::UnityEngine::Jobs::IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1<T>::IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1() {}
+template <typename T> constexpr ::UnityEngine::Jobs::IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1<T>::IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1() {}
 template <typename T>
   requires(::cordl_internals::type_constraint<T, ::UnityEngine::Jobs::IJobParallelForTransform*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::System::IntPtr UnityEngine::Jobs::IJobParallelForTransformExtensions::GetReflectionData() {

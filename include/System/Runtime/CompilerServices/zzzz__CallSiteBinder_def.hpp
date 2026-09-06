@@ -25,19 +25,13 @@ namespace System::Linq::Expressions {
 class ParameterExpression;
 }
 namespace System::Runtime::CompilerServices {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class CallSiteBinder_LambdaSignature_1;
+template <typename T> class CallSiteBinder_LambdaSignature_1;
 }
 namespace System::Runtime::CompilerServices {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class CallSite_1;
+template <typename T> class CallSite_1;
 }
 namespace System::Runtime::CompilerServices {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class RuleCache_1;
+template <typename T> class RuleCache_1;
 }
 namespace System {
 class Object;
@@ -50,9 +44,7 @@ namespace System::Runtime::CompilerServices {
 class CallSiteBinder;
 }
 namespace System::Runtime::CompilerServices {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class CallSiteBinder_LambdaSignature_1;
+template <typename T> class CallSiteBinder_LambdaSignature_1;
 }
 // Write type traits
 MARK_REF_T(::System::Runtime::CompilerServices::CallSiteBinder*);
@@ -63,7 +55,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Runtime::CompilerServices::CallSiteBinder_
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: false
 // CS Name: System.Runtime.CompilerServices.CallSiteBinder/LambdaSignature`1<T>
 class CORDL_TYPE CallSiteBinder_LambdaSignature_1 : public ::System::Object {
@@ -137,9 +128,7 @@ namespace System::Runtime::CompilerServices {
 class CORDL_TYPE CallSiteBinder : public ::System::Object {
 public:
   // Declarations
-  template <typename T>
-    requires(::cordl_internals::reference_type_constraint<T>)
-  using LambdaSignature_1 = ::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>;
+  template <typename T> using LambdaSignature_1 = ::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>;
 
   /// @brief Field Cache, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Cache, put = __cordl_internal_set_Cache)) ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>* Cache;

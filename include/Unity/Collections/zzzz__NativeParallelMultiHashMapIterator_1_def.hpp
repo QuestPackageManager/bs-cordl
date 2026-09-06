@@ -8,9 +8,7 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(NativeParallelMultiHashMapIterator_1)
 // Forward declare root types
 namespace Unity::Collections {
-template <typename TKey>
-  requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey>)
-struct NativeParallelMultiHashMapIterator_1;
+template <typename TKey> struct NativeParallelMultiHashMapIterator_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::NativeParallelMultiHashMapIterator_1);
@@ -20,7 +18,6 @@ DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeParallelMultiHashMapIterator
 namespace Unity::Collections {
 // cpp template
 template <typename TKey>
-  requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeParallelMultiHashMapIterator`1<TKey>
 struct CORDL_TYPE NativeParallelMultiHashMapIterator_1 {

@@ -27,9 +27,7 @@ namespace GlobalNamespace {
 class MirrorRendererFeature___c__DisplayClass17_0;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
-class MirrorRendererFeature___c__DisplayClass21_0_1;
+template <typename T> class MirrorRendererFeature___c__DisplayClass21_0_1;
 }
 namespace GlobalNamespace {
 class MirrorRendererSO;
@@ -47,9 +45,7 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace UnityEngine::AddressableAssets {
-template <typename TObject>
-  requires(::cordl_internals::type_constraint<TObject, ::UnityEngine::Object*>)
-class AssetReferenceT_1;
+template <typename TObject> class AssetReferenceT_1;
 }
 namespace UnityEngine::Rendering::Universal {
 struct RenderingData;
@@ -86,9 +82,7 @@ namespace GlobalNamespace {
 class MirrorRendererFeature___c__DisplayClass17_0;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
-class MirrorRendererFeature___c__DisplayClass21_0_1;
+template <typename T> class MirrorRendererFeature___c__DisplayClass21_0_1;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MirrorRendererFeature*);
@@ -258,11 +252,10 @@ static_assert(sizeof(::GlobalNamespace::MirrorRendererFeature___c__DisplayClass1
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
-// Dependencies System.Object, UnityEngine.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
 // Is value type: false
 // CS Name: MirrorRendererFeature/<>c__DisplayClass21_0`1<T>
 class CORDL_TYPE MirrorRendererFeature___c__DisplayClass21_0_1 : public ::System::Object {
@@ -323,9 +316,7 @@ public:
 
   using __c__DisplayClass17_0 = ::GlobalNamespace::MirrorRendererFeature___c__DisplayClass17_0;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
-  using __c__DisplayClass21_0_1 = ::GlobalNamespace::MirrorRendererFeature___c__DisplayClass21_0_1<T>;
+  template <typename T> using __c__DisplayClass21_0_1 = ::GlobalNamespace::MirrorRendererFeature___c__DisplayClass21_0_1<T>;
 
   /// @brief Field _bloomEffectOverrideHandle, offset 0x58, size 0x18
   __declspec(property(

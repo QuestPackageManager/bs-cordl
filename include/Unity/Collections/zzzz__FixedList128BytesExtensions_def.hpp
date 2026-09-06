@@ -8,9 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FixedList128BytesExtensions)
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct FixedList128Bytes_1;
+template <typename T> struct FixedList128Bytes_1;
 }
 // Forward declare root types
 namespace Unity::Collections {

@@ -7,60 +7,42 @@
 #include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
 #include "System/Threading/zzzz__ThreadPoolWorkQueueThreadLocals_def.hpp"
 #include "System/Threading/zzzz__ThreadPoolWorkQueue_def.hpp"
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr ::ArrayW<T>& System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>::__cordl_internal_get_m_array() {
+template <typename T> constexpr ::ArrayW<T>& System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>::__cordl_internal_get_m_array() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_array;
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr ::ArrayW<T> const& System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>::__cordl_internal_get_m_array() const {
+template <typename T> constexpr ::ArrayW<T> const& System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>::__cordl_internal_get_m_array() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_array;
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr void System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>::__cordl_internal_set_m_array(::ArrayW<T> value) {
+template <typename T> constexpr void System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>::__cordl_internal_set_m_array(::ArrayW<T> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_array = value;
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-inline void System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>::_ctor(int32_t initialSize) {
+template <typename T> inline void System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>::_ctor(int32_t initialSize) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, initialSize);
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-inline ::ArrayW<T> System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>::get_Current() {
+template <typename T> inline ::ArrayW<T> System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>::get_Current() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>*>(), { "get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<T>>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-inline int32_t System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>::Add(T e) {
+template <typename T> inline int32_t System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>::Add(T e) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>*>(), { "Add", {}, { ::i2c::type_of<T>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, e);
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-inline void System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>::Remove(T e) {
+template <typename T> inline void System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>::Remove(T e) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>*>(), { "Remove", {}, { ::i2c::type_of<T>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, e);
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-inline ::System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>* System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>::New_ctor(int32_t initialSize) {
+template <typename T> inline ::System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>* System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>::New_ctor(int32_t initialSize) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>*>(initialSize));
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr ::System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>::ThreadPoolWorkQueue_SparseArray_1() {}
+template <typename T> constexpr ::System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>::ThreadPoolWorkQueue_SparseArray_1() {}
 //  Writing Method size for method: ::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue.LocalPush
 template <>
 

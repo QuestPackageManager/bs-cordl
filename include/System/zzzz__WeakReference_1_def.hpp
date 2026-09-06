@@ -17,9 +17,7 @@ struct StreamingContext;
 }
 // Forward declare root types
 namespace System {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class WeakReference_1;
+template <typename T> class WeakReference_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::System::WeakReference_1);
@@ -28,7 +26,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::System::WeakReference_1, "System", "WeakReference`
 namespace System {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: false
 // CS Name: System.WeakReference`1<T>
 class CORDL_TYPE WeakReference_1 : public ::System::Object {

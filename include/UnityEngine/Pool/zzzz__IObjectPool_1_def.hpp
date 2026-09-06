@@ -6,9 +6,7 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IObjectPool_1)
 // Forward declare root types
 namespace UnityEngine::Pool {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class IObjectPool_1;
+template <typename T> class IObjectPool_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Pool::IObjectPool_1);
@@ -17,7 +15,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Pool::IObjectPool_1, "UnityEngine.Poo
 namespace UnityEngine::Pool {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.Pool.IObjectPool`1<T>
 class CORDL_TYPE IObjectPool_1 {

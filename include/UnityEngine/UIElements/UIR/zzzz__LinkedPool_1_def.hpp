@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__LinkedPoolItem_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LinkedPool_1)
 namespace System {
@@ -15,18 +14,15 @@ template <typename TResult> class Func_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<T>*>)
-class LinkedPool_1;
+template <typename T> class LinkedPool_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::UIR::LinkedPool_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::UIR::LinkedPool_1, "UnityEngine.UIElements.UIR", "LinkedPool`1");
-// Dependencies System.Object, UnityEngine.UIElements.UIR.LinkedPoolItem`1<T>
+// Dependencies System.Object
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<T>*>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UIR.LinkedPool`1<T>
 class CORDL_TYPE LinkedPool_1 : public ::System::Object {

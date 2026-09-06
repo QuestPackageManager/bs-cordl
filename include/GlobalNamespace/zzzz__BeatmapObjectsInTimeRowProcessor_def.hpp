@@ -17,9 +17,7 @@ namespace GlobalNamespace {
 class BeatmapObjectsInTimeRowProcessor_SliderTailData;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-class BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1;
+template <typename T> class BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1;
 }
 namespace GlobalNamespace {
 class BeatmapObjectsInTimeRowProcessor___c;
@@ -62,9 +60,7 @@ namespace GlobalNamespace {
 class BeatmapObjectsInTimeRowProcessor_SliderTailData;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-class BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1;
+template <typename T> class BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1;
 }
 namespace GlobalNamespace {
 class BeatmapObjectsInTimeRowProcessor___c;
@@ -83,11 +79,10 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_SliderTa
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1, "", "BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor___c*, "", "BeatmapObjectsInTimeRowProcessor/<>c");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor___c__DisplayClass17_0*, "", "BeatmapObjectsInTimeRowProcessor/<>c__DisplayClass17_0");
-// Dependencies BeatmapDataItem, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
 // Is value type: false
 // CS Name: BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1<T>
 class CORDL_TYPE BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1 : public ::System::Object {
@@ -430,9 +425,7 @@ public:
   // Declarations
   using SliderTailData = ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_SliderTailData;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-  using TimeSliceContainer_1 = ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>;
+  template <typename T> using TimeSliceContainer_1 = ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>;
 
   using __c = ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor___c;
 

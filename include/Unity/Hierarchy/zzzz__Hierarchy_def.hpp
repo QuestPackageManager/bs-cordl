@@ -37,9 +37,7 @@ namespace Unity::Hierarchy {
 struct HierarchyPropertyStorageType;
 }
 namespace Unity::Hierarchy {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct HierarchyPropertyUnmanaged_1;
+template <typename T> struct HierarchyPropertyUnmanaged_1;
 }
 namespace Unity::Hierarchy {
 class Hierarchy_BindingsMarshaller;

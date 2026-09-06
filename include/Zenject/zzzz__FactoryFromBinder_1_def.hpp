@@ -40,9 +40,7 @@ namespace Zenject {
 class FactoryBindInfo;
 }
 namespace Zenject {
-template <typename TContract, typename TSubFactory>
-  requires(::cordl_internals::type_constraint<TSubFactory, ::Zenject::IFactory_1<TContract>*>)
-class FactoryFromBinder_1___c__5_1;
+template <typename TContract, typename TSubFactory> class FactoryFromBinder_1___c__5_1;
 }
 namespace Zenject {
 template <typename TContract, typename TObj> class FactoryFromBinder_1___c__DisplayClass3_0_1;
@@ -79,9 +77,7 @@ namespace Zenject {
 template <typename TContract> class FactoryFromBinder_1___c;
 }
 namespace Zenject {
-template <typename TContract, typename TSubFactory>
-  requires(::cordl_internals::type_constraint<TSubFactory, ::Zenject::IFactory_1<TContract>*>)
-class FactoryFromBinder_1___c__5_1;
+template <typename TContract, typename TSubFactory> class FactoryFromBinder_1___c__5_1;
 }
 namespace Zenject {
 template <typename TContract, typename TObj> class FactoryFromBinder_1___c__DisplayClass3_0_1;
@@ -166,11 +162,10 @@ public:
 // Non member Declarations
 } // namespace Zenject
 // [CompilerGenerated]
-// Dependencies System.Object, Zenject.IFactory`1<TValue>
+// Dependencies System.Object
 namespace Zenject {
 // cpp template
 template <typename TContract, typename TSubFactory>
-  requires(::cordl_internals::type_constraint<TSubFactory, ::Zenject::IFactory_1<TContract>*>)
 // Is value type: false
 // CS Name: Zenject.FactoryFromBinder`1/<>c__5`1<TContract,TSubFactory>
 class CORDL_TYPE FactoryFromBinder_1___c__5_1 : public ::System::Object {

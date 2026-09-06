@@ -9,47 +9,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Extensions)
 namespace Newtonsoft::Json::Linq {
-template <typename T, typename U>
-  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
-class Extensions__Convert_d__14_2;
+template <typename T, typename U> class Extensions__Convert_d__14_2;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T, typename U>
-  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
-class Extensions__Values_d__11_2;
+template <typename T, typename U> class Extensions__Values_d__11_2;
 }
 namespace Newtonsoft::Json::Linq {
 class Extensions___c;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
-class Extensions___c__0_1;
+template <typename T> class Extensions___c__0_1;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T, typename U>
-  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
-class Extensions___c__13_2;
+template <typename T, typename U> class Extensions___c__13_2;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
-class Extensions___c__1_1;
+template <typename T> class Extensions___c__1_1;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JContainer*>)
-class Extensions___c__2_1;
+template <typename T> class Extensions___c__2_1;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JContainer*>)
-class Extensions___c__3_1;
+template <typename T> class Extensions___c__3_1;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
-class IJEnumerable_1;
+template <typename T> class IJEnumerable_1;
 }
 namespace Newtonsoft::Json::Linq {
 class JObject;
@@ -86,42 +70,28 @@ namespace Newtonsoft::Json::Linq {
 class Extensions;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T, typename U>
-  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
-class Extensions__Convert_d__14_2;
+template <typename T, typename U> class Extensions__Convert_d__14_2;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T, typename U>
-  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
-class Extensions__Values_d__11_2;
+template <typename T, typename U> class Extensions__Values_d__11_2;
 }
 namespace Newtonsoft::Json::Linq {
 class Extensions___c;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
-class Extensions___c__0_1;
+template <typename T> class Extensions___c__0_1;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T, typename U>
-  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
-class Extensions___c__13_2;
+template <typename T, typename U> class Extensions___c__13_2;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
-class Extensions___c__1_1;
+template <typename T> class Extensions___c__1_1;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JContainer*>)
-class Extensions___c__2_1;
+template <typename T> class Extensions___c__2_1;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JContainer*>)
-class Extensions___c__3_1;
+template <typename T> class Extensions___c__3_1;
 }
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Linq::Extensions*);
@@ -198,11 +168,10 @@ static_assert(sizeof(::Newtonsoft::Json::Linq::Extensions___c) == 0x10, "Size mi
 
 } // namespace Newtonsoft::Json::Linq
 // [CompilerGenerated]
-// Dependencies Newtonsoft.Json.Linq.JToken, System.Object
+// Dependencies System.Object
 namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
 // Is value type: false
 // CS Name: Newtonsoft.Json.Linq.Extensions/<>c__0`1<T>
 class CORDL_TYPE Extensions___c__0_1 : public ::System::Object {
@@ -253,11 +222,10 @@ public:
 // Non member Declarations
 } // namespace Newtonsoft::Json::Linq
 // [CompilerGenerated]
-// Dependencies Newtonsoft.Json.Linq.JToken, System.Object
+// Dependencies System.Object
 namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
 // Is value type: false
 // CS Name: Newtonsoft.Json.Linq.Extensions/<>c__1`1<T>
 class CORDL_TYPE Extensions___c__1_1 : public ::System::Object {
@@ -308,11 +276,10 @@ public:
 // Non member Declarations
 } // namespace Newtonsoft::Json::Linq
 // [CompilerGenerated]
-// Dependencies Newtonsoft.Json.Linq.JToken, System.Object
+// Dependencies System.Object
 namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T, typename U>
-  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
 // Is value type: false
 // CS Name: Newtonsoft.Json.Linq.Extensions/<>c__13`2<T,U>
 class CORDL_TYPE Extensions___c__13_2 : public ::System::Object {
@@ -363,11 +330,10 @@ public:
 // Non member Declarations
 } // namespace Newtonsoft::Json::Linq
 // [CompilerGenerated]
-// Dependencies Newtonsoft.Json.Linq.JContainer, System.Object
+// Dependencies System.Object
 namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JContainer*>)
 // Is value type: false
 // CS Name: Newtonsoft.Json.Linq.Extensions/<>c__2`1<T>
 class CORDL_TYPE Extensions___c__2_1 : public ::System::Object {
@@ -418,11 +384,10 @@ public:
 // Non member Declarations
 } // namespace Newtonsoft::Json::Linq
 // [CompilerGenerated]
-// Dependencies Newtonsoft.Json.Linq.JContainer, System.Object
+// Dependencies System.Object
 namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JContainer*>)
 // Is value type: false
 // CS Name: Newtonsoft.Json.Linq.Extensions/<>c__3`1<T>
 class CORDL_TYPE Extensions___c__3_1 : public ::System::Object {
@@ -473,11 +438,10 @@ public:
 // Non member Declarations
 } // namespace Newtonsoft::Json::Linq
 // [CompilerGenerated]
-// Dependencies Newtonsoft.Json.Linq.JToken, System.Object
+// Dependencies System.Object
 namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T, typename U>
-  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
 // Is value type: false
 // CS Name: Newtonsoft.Json.Linq.Extensions/<Convert>d__14`2<T,U>
 class CORDL_TYPE Extensions__Convert_d__14_2 : public ::System::Object {
@@ -652,11 +616,10 @@ public:
 // Non member Declarations
 } // namespace Newtonsoft::Json::Linq
 // [CompilerGenerated]
-// Dependencies Newtonsoft.Json.Linq.JToken, System.Object
+// Dependencies System.Object
 namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T, typename U>
-  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
 // Is value type: false
 // CS Name: Newtonsoft.Json.Linq.Extensions/<Values>d__11`2<T,U>
 class CORDL_TYPE Extensions__Values_d__11_2 : public ::System::Object {
@@ -885,35 +848,21 @@ namespace Newtonsoft::Json::Linq {
 class CORDL_TYPE Extensions : public ::System::Object {
 public:
   // Declarations
-  template <typename T, typename U>
-    requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
-  using _Convert_d__14_2 = ::Newtonsoft::Json::Linq::Extensions__Convert_d__14_2<T, U>;
+  template <typename T, typename U> using _Convert_d__14_2 = ::Newtonsoft::Json::Linq::Extensions__Convert_d__14_2<T, U>;
 
-  template <typename T, typename U>
-    requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
-  using _Values_d__11_2 = ::Newtonsoft::Json::Linq::Extensions__Values_d__11_2<T, U>;
+  template <typename T, typename U> using _Values_d__11_2 = ::Newtonsoft::Json::Linq::Extensions__Values_d__11_2<T, U>;
 
   using __c = ::Newtonsoft::Json::Linq::Extensions___c;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
-  using __c__0_1 = ::Newtonsoft::Json::Linq::Extensions___c__0_1<T>;
+  template <typename T> using __c__0_1 = ::Newtonsoft::Json::Linq::Extensions___c__0_1<T>;
 
-  template <typename T, typename U>
-    requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
-  using __c__13_2 = ::Newtonsoft::Json::Linq::Extensions___c__13_2<T, U>;
+  template <typename T, typename U> using __c__13_2 = ::Newtonsoft::Json::Linq::Extensions___c__13_2<T, U>;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
-  using __c__1_1 = ::Newtonsoft::Json::Linq::Extensions___c__1_1<T>;
+  template <typename T> using __c__1_1 = ::Newtonsoft::Json::Linq::Extensions___c__1_1<T>;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JContainer*>)
-  using __c__2_1 = ::Newtonsoft::Json::Linq::Extensions___c__2_1<T>;
+  template <typename T> using __c__2_1 = ::Newtonsoft::Json::Linq::Extensions___c__2_1<T>;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JContainer*>)
-  using __c__3_1 = ::Newtonsoft::Json::Linq::Extensions___c__3_1<T>;
+  template <typename T> using __c__3_1 = ::Newtonsoft::Json::Linq::Extensions___c__3_1<T>;
 
   /// [Extension]
   /// @brief Method Ancestors, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

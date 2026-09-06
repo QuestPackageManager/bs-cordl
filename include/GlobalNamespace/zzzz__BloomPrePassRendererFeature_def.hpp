@@ -20,9 +20,7 @@ namespace GlobalNamespace {
 class BloomPrePassRendererFeature_IterationHandle;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
-class BloomPrePassRendererFeature___c__DisplayClass10_0_1;
+template <typename T> class BloomPrePassRendererFeature___c__DisplayClass10_0_1;
 }
 namespace GlobalNamespace {
 class BloomPrePassRendererFeature___c__DisplayClass6_0;
@@ -34,9 +32,7 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace UnityEngine::AddressableAssets {
-template <typename TObject>
-  requires(::cordl_internals::type_constraint<TObject, ::UnityEngine::Object*>)
-class AssetReferenceT_1;
+template <typename TObject> class AssetReferenceT_1;
 }
 namespace UnityEngine::Rendering::Universal {
 struct RenderingData;
@@ -58,9 +54,7 @@ namespace GlobalNamespace {
 class BloomPrePassRendererFeature_IterationHandle;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
-class BloomPrePassRendererFeature___c__DisplayClass10_0_1;
+template <typename T> class BloomPrePassRendererFeature___c__DisplayClass10_0_1;
 }
 namespace GlobalNamespace {
 class BloomPrePassRendererFeature___c__DisplayClass6_0;
@@ -124,11 +118,10 @@ static_assert(sizeof(::GlobalNamespace::BloomPrePassRendererFeature_IterationHan
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
-// Dependencies System.Object, UnityEngine.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
 // Is value type: false
 // CS Name: BloomPrePassRendererFeature/<>c__DisplayClass10_0`1<T>
 class CORDL_TYPE BloomPrePassRendererFeature___c__DisplayClass10_0_1 : public ::System::Object {
@@ -252,9 +245,7 @@ public:
   // Declarations
   using IterationHandle = ::GlobalNamespace::BloomPrePassRendererFeature_IterationHandle;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
-  using __c__DisplayClass10_0_1 = ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>;
+  template <typename T> using __c__DisplayClass10_0_1 = ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>;
 
   using __c__DisplayClass6_0 = ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass6_0;
 

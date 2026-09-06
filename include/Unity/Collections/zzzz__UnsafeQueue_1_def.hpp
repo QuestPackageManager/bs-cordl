@@ -32,9 +32,7 @@ namespace Unity::Collections {
 class INativeDisposable;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1;
+template <typename T> struct NativeArray_1;
 }
 namespace Unity::Collections {
 struct UnsafeQueueBlockHeader;
@@ -46,43 +44,29 @@ namespace Unity::Collections {
 struct UnsafeQueueData;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct UnsafeQueue_1_Enumerator;
+template <typename T> struct UnsafeQueue_1_Enumerator;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct UnsafeQueue_1_ParallelWriter;
+template <typename T> struct UnsafeQueue_1_ParallelWriter;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct UnsafeQueue_1_ReadOnly;
+template <typename T> struct UnsafeQueue_1_ReadOnly;
 }
 namespace Unity::Jobs {
 struct JobHandle;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct UnsafeQueue_1;
+template <typename T> struct UnsafeQueue_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct UnsafeQueue_1_Enumerator;
+template <typename T> struct UnsafeQueue_1_Enumerator;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct UnsafeQueue_1_ParallelWriter;
+template <typename T> struct UnsafeQueue_1_ParallelWriter;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct UnsafeQueue_1_ReadOnly;
+template <typename T> struct UnsafeQueue_1_ReadOnly;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::UnsafeQueue_1);
@@ -97,7 +81,6 @@ DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::UnsafeQueue_1_ReadOnly, "Unity.Col
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.UnsafeQueue`1/Enumerator<T>
 struct CORDL_TYPE UnsafeQueue_1_Enumerator {
@@ -178,7 +161,6 @@ public:
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.UnsafeQueue`1/ReadOnly<T>
 struct CORDL_TYPE UnsafeQueue_1_ReadOnly {
@@ -267,7 +249,6 @@ public:
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.UnsafeQueue`1/ParallelWriter<T>
 struct CORDL_TYPE UnsafeQueue_1_ParallelWriter {
@@ -315,7 +296,6 @@ public:
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.UnsafeQueue`1<T>
 struct CORDL_TYPE UnsafeQueue_1 {

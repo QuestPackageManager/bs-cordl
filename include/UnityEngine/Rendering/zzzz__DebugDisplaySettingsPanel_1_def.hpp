@@ -4,22 +4,18 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/Rendering/zzzz__DebugDisplaySettingsPanel_def.hpp"
-#include "UnityEngine/Rendering/zzzz__IDebugDisplaySettingsData_def.hpp"
 CORDL_MODULE_EXPORT(DebugDisplaySettingsPanel_1)
 // Forward declare root types
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IDebugDisplaySettingsData*>)
-class DebugDisplaySettingsPanel_1;
+template <typename T> class DebugDisplaySettingsPanel_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::DebugDisplaySettingsPanel_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::DebugDisplaySettingsPanel_1, "UnityEngine.Rendering", "DebugDisplaySettingsPanel`1");
-// Dependencies UnityEngine.Rendering.DebugDisplaySettingsPanel, UnityEngine.Rendering.IDebugDisplaySettingsData
+// Dependencies UnityEngine.Rendering.DebugDisplaySettingsPanel
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IDebugDisplaySettingsData*>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.DebugDisplaySettingsPanel`1<T>
 class CORDL_TYPE DebugDisplaySettingsPanel_1 : public ::UnityEngine::Rendering::DebugDisplaySettingsPanel {

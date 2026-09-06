@@ -40,9 +40,7 @@ namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
 }
 namespace System {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class WeakReference_1;
+template <typename T> class WeakReference_1;
 }
 namespace UnityEngine::Bindings {
 struct ManagedSpanWrapper;

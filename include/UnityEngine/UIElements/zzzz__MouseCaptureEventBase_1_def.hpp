@@ -7,9 +7,7 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(MouseCaptureEventBase_1)
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class MouseCaptureEventBase_1;
+template <typename T> class MouseCaptureEventBase_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::MouseCaptureEventBase_1);
@@ -18,7 +16,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::MouseCaptureEventBase_1, 
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.MouseCaptureEventBase`1<T>
 class CORDL_TYPE MouseCaptureEventBase_1 : public ::UnityEngine::UIElements::PointerCaptureEventBase_1<T> {

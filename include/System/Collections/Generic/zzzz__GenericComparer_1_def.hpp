@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Collections/Generic/zzzz__Comparer_1_def.hpp"
-#include "System/zzzz__IComparable_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GenericComparer_1)
 namespace System {
@@ -12,18 +11,15 @@ class Object;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
-class GenericComparer_1;
+template <typename T> class GenericComparer_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::System::Collections::Generic::GenericComparer_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Collections::Generic::GenericComparer_1, "System.Collections.Generic", "GenericComparer`1");
-// Dependencies System.Collections.Generic.Comparer`1<T>, System.IComparable`1<T>
+// Dependencies System.Collections.Generic.Comparer`1<T>
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
 // Is value type: false
 // CS Name: System.Collections.Generic.GenericComparer`1<T>
 class CORDL_TYPE GenericComparer_1 : public ::System::Collections::Generic::Comparer_1<T> {

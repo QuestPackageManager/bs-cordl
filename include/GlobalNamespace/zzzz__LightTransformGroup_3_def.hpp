@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__LightGroupSubsystem_def.hpp"
-#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightTransformGroup_3)
@@ -25,20 +24,15 @@ class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename TX, typename TY, typename TZ>
-  requires(::cordl_internals::type_constraint<TX, ::UnityEngine::MonoBehaviour*> && ::cordl_internals::type_constraint<TY, ::UnityEngine::MonoBehaviour*> &&
-           ::cordl_internals::type_constraint<TZ, ::UnityEngine::MonoBehaviour*>)
-class LightTransformGroup_3;
+template <typename TX, typename TY, typename TZ> class LightTransformGroup_3;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::LightTransformGroup_3);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::LightTransformGroup_3, "", "LightTransformGroup`3");
-// Dependencies LightGroupSubsystem, UnityEngine.MonoBehaviour
+// Dependencies LightGroupSubsystem
 namespace GlobalNamespace {
 // cpp template
 template <typename TX, typename TY, typename TZ>
-  requires(::cordl_internals::type_constraint<TX, ::UnityEngine::MonoBehaviour*> && ::cordl_internals::type_constraint<TY, ::UnityEngine::MonoBehaviour*> &&
-           ::cordl_internals::type_constraint<TZ, ::UnityEngine::MonoBehaviour*>)
 // Is value type: false
 // CS Name: LightTransformGroup`3<TX,TY,TZ>
 class CORDL_TYPE LightTransformGroup_3 : public ::GlobalNamespace::LightGroupSubsystem {

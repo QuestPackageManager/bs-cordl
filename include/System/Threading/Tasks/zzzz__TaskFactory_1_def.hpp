@@ -16,9 +16,7 @@ namespace System::Threading::Tasks {
 struct TaskCreationOptions;
 }
 namespace System::Threading::Tasks {
-template <typename TResult, typename TInstance>
-  requires(::cordl_internals::reference_type_constraint<TInstance>)
-class TaskFactory_1_FromAsyncTrimPromise_1;
+template <typename TResult, typename TInstance> class TaskFactory_1_FromAsyncTrimPromise_1;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class TaskFactory_1___c__DisplayClass32_0;
@@ -79,9 +77,7 @@ namespace System::Threading::Tasks {
 template <typename TResult> class TaskFactory_1;
 }
 namespace System::Threading::Tasks {
-template <typename TResult, typename TInstance>
-  requires(::cordl_internals::reference_type_constraint<TInstance>)
-class TaskFactory_1_FromAsyncTrimPromise_1;
+template <typename TResult, typename TInstance> class TaskFactory_1_FromAsyncTrimPromise_1;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class TaskFactory_1___c__DisplayClass32_0;
@@ -117,7 +113,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Threading::Tasks::TaskFactory_1___c__Displ
 namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult, typename TInstance>
-  requires(::cordl_internals::reference_type_constraint<TInstance>)
 // Is value type: false
 // CS Name: System.Threading.Tasks.TaskFactory`1/FromAsyncTrimPromise`1<TResult,TInstance>
 class CORDL_TYPE TaskFactory_1_FromAsyncTrimPromise_1 : public ::System::Threading::Tasks::Task_1<TResult> {
@@ -610,9 +605,7 @@ template <typename TResult>
 class CORDL_TYPE TaskFactory_1 : public ::System::Object {
 public:
   // Declarations
-  template <typename TInstance>
-    requires(::cordl_internals::reference_type_constraint<TInstance>)
-  using FromAsyncTrimPromise_1 = ::System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>;
+  template <typename TInstance> using FromAsyncTrimPromise_1 = ::System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>;
 
   using __c__DisplayClass32_0 = ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>;
 

@@ -29,18 +29,13 @@ namespace LiteNetLib::Utils {
 template <typename T> class NetSerializer_ClassInfo_1;
 }
 namespace LiteNetLib::Utils {
-template <typename TProperty>
-  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
-class NetSerializer_CustomTypeClass_1;
+template <typename TProperty> class NetSerializer_CustomTypeClass_1;
 }
 namespace LiteNetLib::Utils {
 template <typename TProperty> class NetSerializer_CustomTypeStatic_1;
 }
 namespace LiteNetLib::Utils {
-template <typename TProperty>
-  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
-           ::cordl_internals::default_constructor_constraint<TProperty>)
-class NetSerializer_CustomTypeStruct_1;
+template <typename TProperty> class NetSerializer_CustomTypeStruct_1;
 }
 namespace LiteNetLib::Utils {
 class NetSerializer_CustomType;
@@ -55,9 +50,7 @@ namespace LiteNetLib::Utils {
 template <typename T> class NetSerializer_EnumIntSerializer_1;
 }
 namespace LiteNetLib::Utils {
-template <typename TClass, typename TProperty>
-  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
-class NetSerializer_FastCallClass_2;
+template <typename TClass, typename TProperty> class NetSerializer_FastCallClass_2;
 }
 namespace LiteNetLib::Utils {
 template <typename TClass, typename TProperty> class NetSerializer_FastCallSpecificAuto_2;
@@ -69,10 +62,7 @@ namespace LiteNetLib::Utils {
 template <typename TClass, typename TProperty> class NetSerializer_FastCallStatic_2;
 }
 namespace LiteNetLib::Utils {
-template <typename TClass, typename TProperty>
-  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
-           ::cordl_internals::default_constructor_constraint<TProperty>)
-class NetSerializer_FastCallStruct_2;
+template <typename TClass, typename TProperty> class NetSerializer_FastCallStruct_2;
 }
 namespace LiteNetLib::Utils {
 template <typename T> class NetSerializer_FastCall_1;
@@ -154,18 +144,13 @@ namespace LiteNetLib::Utils {
 class NetSerializer_CustomType;
 }
 namespace LiteNetLib::Utils {
-template <typename TProperty>
-  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
-class NetSerializer_CustomTypeClass_1;
+template <typename TProperty> class NetSerializer_CustomTypeClass_1;
 }
 namespace LiteNetLib::Utils {
 template <typename TProperty> class NetSerializer_CustomTypeStatic_1;
 }
 namespace LiteNetLib::Utils {
-template <typename TProperty>
-  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
-           ::cordl_internals::default_constructor_constraint<TProperty>)
-class NetSerializer_CustomTypeStruct_1;
+template <typename TProperty> class NetSerializer_CustomTypeStruct_1;
 }
 namespace LiteNetLib::Utils {
 template <typename T> class NetSerializer_DoubleSerializer_1;
@@ -177,9 +162,7 @@ namespace LiteNetLib::Utils {
 template <typename T> class NetSerializer_EnumIntSerializer_1;
 }
 namespace LiteNetLib::Utils {
-template <typename TClass, typename TProperty>
-  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
-class NetSerializer_FastCallClass_2;
+template <typename TClass, typename TProperty> class NetSerializer_FastCallClass_2;
 }
 namespace LiteNetLib::Utils {
 template <typename TClass, typename TProperty> class NetSerializer_FastCallSpecificAuto_2;
@@ -191,10 +174,7 @@ namespace LiteNetLib::Utils {
 template <typename TClass, typename TProperty> class NetSerializer_FastCallStatic_2;
 }
 namespace LiteNetLib::Utils {
-template <typename TClass, typename TProperty>
-  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
-           ::cordl_internals::default_constructor_constraint<TProperty>)
-class NetSerializer_FastCallStruct_2;
+template <typename TClass, typename TProperty> class NetSerializer_FastCallStruct_2;
 }
 namespace LiteNetLib::Utils {
 template <typename T> class NetSerializer_FastCall_1;
@@ -565,12 +545,10 @@ public:
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
-// Dependencies LiteNetLib.Utils.INetSerializable, LiteNetLib.Utils.NetSerializer::FastCallSpecific`2<TClass, TProperty>
+// Dependencies LiteNetLib.Utils.NetSerializer::FastCallSpecific`2<TClass, TProperty>
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename TClass, typename TProperty>
-  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
-           ::cordl_internals::default_constructor_constraint<TProperty>)
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetSerializer/FastCallStruct`2<TClass,TProperty>
 class CORDL_TYPE NetSerializer_FastCallStruct_2 : public ::LiteNetLib::Utils::NetSerializer_FastCallSpecific_2<TClass, TProperty> {
@@ -626,11 +604,10 @@ public:
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
-// Dependencies LiteNetLib.Utils.INetSerializable, LiteNetLib.Utils.NetSerializer::FastCallSpecific`2<TClass, TProperty>
+// Dependencies LiteNetLib.Utils.NetSerializer::FastCallSpecific`2<TClass, TProperty>
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename TClass, typename TProperty>
-  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetSerializer/FastCallClass`2<TClass,TProperty>
 class CORDL_TYPE NetSerializer_FastCallClass_2 : public ::LiteNetLib::Utils::NetSerializer_FastCallSpecific_2<TClass, TProperty> {
@@ -1560,12 +1537,10 @@ public:
 static_assert(sizeof(::LiteNetLib::Utils::NetSerializer_CustomType) == 0x10, "Size mismatch!");
 
 } // namespace LiteNetLib::Utils
-// Dependencies LiteNetLib.Utils.INetSerializable, LiteNetLib.Utils.NetSerializer::CustomType
+// Dependencies LiteNetLib.Utils.NetSerializer::CustomType
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename TProperty>
-  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
-           ::cordl_internals::default_constructor_constraint<TProperty>)
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetSerializer/CustomTypeStruct`1<TProperty>
 class CORDL_TYPE NetSerializer_CustomTypeStruct_1 : public ::LiteNetLib::Utils::NetSerializer_CustomType {
@@ -1600,11 +1575,10 @@ public:
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
-// Dependencies LiteNetLib.Utils.INetSerializable, LiteNetLib.Utils.NetSerializer::CustomType
+// Dependencies LiteNetLib.Utils.NetSerializer::CustomType
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename TProperty>
-  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetSerializer/CustomTypeClass`1<TProperty>
 class CORDL_TYPE NetSerializer_CustomTypeClass_1 : public ::LiteNetLib::Utils::NetSerializer_CustomType {
@@ -1731,16 +1705,11 @@ public:
 
   using CustomType = ::LiteNetLib::Utils::NetSerializer_CustomType;
 
-  template <typename TProperty>
-    requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
-  using CustomTypeClass_1 = ::LiteNetLib::Utils::NetSerializer_CustomTypeClass_1<TProperty>;
+  template <typename TProperty> using CustomTypeClass_1 = ::LiteNetLib::Utils::NetSerializer_CustomTypeClass_1<TProperty>;
 
   template <typename TProperty> using CustomTypeStatic_1 = ::LiteNetLib::Utils::NetSerializer_CustomTypeStatic_1<TProperty>;
 
-  template <typename TProperty>
-    requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
-             ::cordl_internals::default_constructor_constraint<TProperty>)
-  using CustomTypeStruct_1 = ::LiteNetLib::Utils::NetSerializer_CustomTypeStruct_1<TProperty>;
+  template <typename TProperty> using CustomTypeStruct_1 = ::LiteNetLib::Utils::NetSerializer_CustomTypeStruct_1<TProperty>;
 
   template <typename T> using DoubleSerializer_1 = ::LiteNetLib::Utils::NetSerializer_DoubleSerializer_1<T>;
 
@@ -1748,9 +1717,7 @@ public:
 
   template <typename T> using EnumIntSerializer_1 = ::LiteNetLib::Utils::NetSerializer_EnumIntSerializer_1<T>;
 
-  template <typename TClass, typename TProperty>
-    requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
-  using FastCallClass_2 = ::LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>;
+  template <typename TClass, typename TProperty> using FastCallClass_2 = ::LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>;
 
   template <typename TClass, typename TProperty> using FastCallSpecificAuto_2 = ::LiteNetLib::Utils::NetSerializer_FastCallSpecificAuto_2<TClass, TProperty>;
 
@@ -1758,10 +1725,7 @@ public:
 
   template <typename TClass, typename TProperty> using FastCallStatic_2 = ::LiteNetLib::Utils::NetSerializer_FastCallStatic_2<TClass, TProperty>;
 
-  template <typename TClass, typename TProperty>
-    requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
-             ::cordl_internals::default_constructor_constraint<TProperty>)
-  using FastCallStruct_2 = ::LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>;
+  template <typename TClass, typename TProperty> using FastCallStruct_2 = ::LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>;
 
   template <typename T> using FastCall_1 = ::LiteNetLib::Utils::NetSerializer_FastCall_1<T>;
 

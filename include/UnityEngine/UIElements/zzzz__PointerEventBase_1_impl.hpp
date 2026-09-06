@@ -22,875 +22,602 @@
 #include "UnityEngine/zzzz__Touch_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr bool& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_AltitudeNeedsConversion() {
+template <typename T> constexpr bool& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_AltitudeNeedsConversion() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AltitudeNeedsConversion;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr bool const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_AltitudeNeedsConversion() const {
+template <typename T> constexpr bool const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_AltitudeNeedsConversion() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AltitudeNeedsConversion;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set_m_AltitudeNeedsConversion(bool value) {
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set_m_AltitudeNeedsConversion(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_AltitudeNeedsConversion = value;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr bool& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_AzimuthNeedsConversion() {
+template <typename T> constexpr bool& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_AzimuthNeedsConversion() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AzimuthNeedsConversion;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr bool const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_AzimuthNeedsConversion() const {
+template <typename T> constexpr bool const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_AzimuthNeedsConversion() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AzimuthNeedsConversion;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set_m_AzimuthNeedsConversion(bool value) {
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set_m_AzimuthNeedsConversion(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_AzimuthNeedsConversion = value;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr float_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_AltitudeAngle() {
+template <typename T> constexpr float_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_AltitudeAngle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AltitudeAngle;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr float_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_AltitudeAngle() const {
+template <typename T> constexpr float_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_AltitudeAngle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AltitudeAngle;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set_m_AltitudeAngle(float_t value) {
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set_m_AltitudeAngle(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_AltitudeAngle = value;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr float_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_AzimuthAngle() {
+template <typename T> constexpr float_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_AzimuthAngle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AzimuthAngle;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr float_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_AzimuthAngle() const {
+template <typename T> constexpr float_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_AzimuthAngle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AzimuthAngle;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set_m_AzimuthAngle(float_t value) {
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set_m_AzimuthAngle(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_AzimuthAngle = value;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr bool& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_TiltNeeded() {
+template <typename T> constexpr bool& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_TiltNeeded() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TiltNeeded;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr bool const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_TiltNeeded() const {
+template <typename T> constexpr bool const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_TiltNeeded() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TiltNeeded;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set_m_TiltNeeded(bool value) {
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set_m_TiltNeeded(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TiltNeeded = value;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_Tilt() {
+template <typename T> constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_Tilt() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Tilt;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_Tilt() const {
+template <typename T> constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_Tilt() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Tilt;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set_m_Tilt(::UnityEngine::Vector2 value) {
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set_m_Tilt(::UnityEngine::Vector2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Tilt = value;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr int32_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__pointerId_k__BackingField() {
+template <typename T> constexpr int32_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__pointerId_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerId_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr int32_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__pointerId_k__BackingField() const {
+template <typename T> constexpr int32_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__pointerId_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerId_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__pointerId_k__BackingField(int32_t value) {
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__pointerId_k__BackingField(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pointerId_k__BackingField = value;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr ::StringW& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__pointerType_k__BackingField() {
+template <typename T> constexpr ::StringW& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__pointerType_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerType_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr ::StringW const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__pointerType_k__BackingField() const {
+template <typename T> constexpr ::StringW const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__pointerType_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerType_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__pointerType_k__BackingField(::StringW value) {
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__pointerType_k__BackingField(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pointerType_k__BackingField = value;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr bool& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__isPrimary_k__BackingField() {
+template <typename T> constexpr bool& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__isPrimary_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isPrimary_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr bool const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__isPrimary_k__BackingField() const {
+template <typename T> constexpr bool const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__isPrimary_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isPrimary_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__isPrimary_k__BackingField(bool value) {
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__isPrimary_k__BackingField(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isPrimary_k__BackingField = value;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr int32_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__button_k__BackingField() {
+template <typename T> constexpr int32_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__button_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____button_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr int32_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__button_k__BackingField() const {
+template <typename T> constexpr int32_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__button_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____button_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__button_k__BackingField(int32_t value) {
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__button_k__BackingField(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____button_k__BackingField = value;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr int32_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__pressedButtons_k__BackingField() {
+template <typename T> constexpr int32_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__pressedButtons_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressedButtons_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr int32_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__pressedButtons_k__BackingField() const {
+template <typename T> constexpr int32_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__pressedButtons_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressedButtons_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__pressedButtons_k__BackingField(int32_t value) {
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__pressedButtons_k__BackingField(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pressedButtons_k__BackingField = value;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr ::UnityEngine::Vector3& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__position_k__BackingField() {
+template <typename T> constexpr ::UnityEngine::Vector3& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__position_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____position_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr ::UnityEngine::Vector3 const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__position_k__BackingField() const {
+template <typename T> constexpr ::UnityEngine::Vector3 const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__position_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____position_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__position_k__BackingField(::UnityEngine::Vector3 value) {
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__position_k__BackingField(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____position_k__BackingField = value;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr ::UnityEngine::Vector3& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__localPosition_k__BackingField() {
+template <typename T> constexpr ::UnityEngine::Vector3& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__localPosition_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPosition_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr ::UnityEngine::Vector3 const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__localPosition_k__BackingField() const {
+template <typename T> constexpr ::UnityEngine::Vector3 const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__localPosition_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPosition_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__localPosition_k__BackingField(::UnityEngine::Vector3 value) {
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__localPosition_k__BackingField(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____localPosition_k__BackingField = value;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr ::UnityEngine::Vector3& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__deltaPosition_k__BackingField() {
+template <typename T> constexpr ::UnityEngine::Vector3& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__deltaPosition_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deltaPosition_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr ::UnityEngine::Vector3 const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__deltaPosition_k__BackingField() const {
+template <typename T> constexpr ::UnityEngine::Vector3 const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__deltaPosition_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deltaPosition_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__deltaPosition_k__BackingField(::UnityEngine::Vector3 value) {
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__deltaPosition_k__BackingField(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____deltaPosition_k__BackingField = value;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr float_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__deltaTime_k__BackingField() {
+template <typename T> constexpr float_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__deltaTime_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deltaTime_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr float_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__deltaTime_k__BackingField() const {
+template <typename T> constexpr float_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__deltaTime_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deltaTime_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__deltaTime_k__BackingField(float_t value) {
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__deltaTime_k__BackingField(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____deltaTime_k__BackingField = value;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr int32_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__clickCount_k__BackingField() {
+template <typename T> constexpr int32_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__clickCount_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clickCount_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr int32_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__clickCount_k__BackingField() const {
+template <typename T> constexpr int32_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__clickCount_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clickCount_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__clickCount_k__BackingField(int32_t value) {
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__clickCount_k__BackingField(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____clickCount_k__BackingField = value;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr float_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__pressure_k__BackingField() {
+template <typename T> constexpr float_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__pressure_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressure_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr float_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__pressure_k__BackingField() const {
+template <typename T> constexpr float_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__pressure_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressure_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__pressure_k__BackingField(float_t value) {
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__pressure_k__BackingField(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pressure_k__BackingField = value;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr float_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__tangentialPressure_k__BackingField() {
+template <typename T> constexpr float_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__tangentialPressure_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tangentialPressure_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr float_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__tangentialPressure_k__BackingField() const {
+template <typename T> constexpr float_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__tangentialPressure_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tangentialPressure_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__tangentialPressure_k__BackingField(float_t value) {
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__tangentialPressure_k__BackingField(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tangentialPressure_k__BackingField = value;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr float_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__twist_k__BackingField() {
+template <typename T> constexpr float_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__twist_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____twist_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr float_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__twist_k__BackingField() const {
+template <typename T> constexpr float_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__twist_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____twist_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__twist_k__BackingField(float_t value) {
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__twist_k__BackingField(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____twist_k__BackingField = value;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr ::UnityEngine::PenStatus& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__penStatus_k__BackingField() {
+template <typename T> constexpr ::UnityEngine::PenStatus& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__penStatus_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____penStatus_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr ::UnityEngine::PenStatus const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__penStatus_k__BackingField() const {
+template <typename T> constexpr ::UnityEngine::PenStatus const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__penStatus_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____penStatus_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__penStatus_k__BackingField(::UnityEngine::PenStatus value) {
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__penStatus_k__BackingField(::UnityEngine::PenStatus value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____penStatus_k__BackingField = value;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__radius_k__BackingField() {
+template <typename T> constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__radius_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____radius_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__radius_k__BackingField() const {
+template <typename T> constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__radius_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____radius_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__radius_k__BackingField(::UnityEngine::Vector2 value) {
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__radius_k__BackingField(::UnityEngine::Vector2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____radius_k__BackingField = value;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__radiusVariance_k__BackingField() {
+template <typename T> constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__radiusVariance_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____radiusVariance_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__radiusVariance_k__BackingField() const {
+template <typename T> constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__radiusVariance_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____radiusVariance_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__radiusVariance_k__BackingField(::UnityEngine::Vector2 value) {
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__radiusVariance_k__BackingField(::UnityEngine::Vector2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____radiusVariance_k__BackingField = value;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr ::UnityEngine::EventModifiers& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__modifiers_k__BackingField() {
+template <typename T> constexpr ::UnityEngine::EventModifiers& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__modifiers_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modifiers_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr ::UnityEngine::EventModifiers const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__modifiers_k__BackingField() const {
+template <typename T> constexpr ::UnityEngine::EventModifiers const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__modifiers_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modifiers_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__modifiers_k__BackingField(::UnityEngine::EventModifiers value) {
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__modifiers_k__BackingField(::UnityEngine::EventModifiers value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____modifiers_k__BackingField = value;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr bool& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__UnityEngine_UIElements_IPointerEventInternal_triggeredByOS_k__BackingField() {
+template <typename T> constexpr bool& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__UnityEngine_UIElements_IPointerEventInternal_triggeredByOS_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UnityEngine_UIElements_IPointerEventInternal_triggeredByOS_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr bool const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__UnityEngine_UIElements_IPointerEventInternal_triggeredByOS_k__BackingField() const {
+template <typename T> constexpr bool const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__UnityEngine_UIElements_IPointerEventInternal_triggeredByOS_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UnityEngine_UIElements_IPointerEventInternal_triggeredByOS_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__UnityEngine_UIElements_IPointerEventInternal_triggeredByOS_k__BackingField(bool value) {
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__UnityEngine_UIElements_IPointerEventInternal_triggeredByOS_k__BackingField(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____UnityEngine_UIElements_IPointerEventInternal_triggeredByOS_k__BackingField = value;
 }
 template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
 constexpr ::UnityEngine::UIElements::IMouseEvent*&
 UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__UnityEngine_UIElements_IPointerEventInternal_compatibilityMouseEvent_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UnityEngine_UIElements_IPointerEventInternal_compatibilityMouseEvent_k__BackingField;
 }
 template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
 constexpr ::UnityEngine::UIElements::IMouseEvent* const&
 UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__UnityEngine_UIElements_IPointerEventInternal_compatibilityMouseEvent_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UnityEngine_UIElements_IPointerEventInternal_compatibilityMouseEvent_k__BackingField;
 }
 template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
 constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__UnityEngine_UIElements_IPointerEventInternal_compatibilityMouseEvent_k__BackingField(
     ::UnityEngine::UIElements::IMouseEvent* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____UnityEngine_UIElements_IPointerEventInternal_compatibilityMouseEvent_k__BackingField = value;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr int32_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__UnityEngine_UIElements_IPointerEventInternal_displayIndex_k__BackingField() {
+template <typename T> constexpr int32_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__UnityEngine_UIElements_IPointerEventInternal_displayIndex_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UnityEngine_UIElements_IPointerEventInternal_displayIndex_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr int32_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__UnityEngine_UIElements_IPointerEventInternal_displayIndex_k__BackingField() const {
+template <typename T> constexpr int32_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__UnityEngine_UIElements_IPointerEventInternal_displayIndex_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UnityEngine_UIElements_IPointerEventInternal_displayIndex_k__BackingField;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__UnityEngine_UIElements_IPointerEventInternal_displayIndex_k__BackingField(int32_t value) {
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__UnityEngine_UIElements_IPointerEventInternal_displayIndex_k__BackingField(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____UnityEngine_UIElements_IPointerEventInternal_displayIndex_k__BackingField = value;
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline int32_t UnityEngine::UIElements::PointerEventBase_1<T>::get_pointerId() {
+template <typename T> inline int32_t UnityEngine::UIElements::PointerEventBase_1<T>::get_pointerId() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "get_pointerId", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_pointerId(int32_t value) {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_pointerId(int32_t value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "set_pointerId", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline ::StringW UnityEngine::UIElements::PointerEventBase_1<T>::get_pointerType() {
+template <typename T> inline ::StringW UnityEngine::UIElements::PointerEventBase_1<T>::get_pointerType() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "get_pointerType", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_pointerType(::StringW value) {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_pointerType(::StringW value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "set_pointerType", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline bool UnityEngine::UIElements::PointerEventBase_1<T>::get_isPrimary() {
+template <typename T> inline bool UnityEngine::UIElements::PointerEventBase_1<T>::get_isPrimary() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "get_isPrimary", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_isPrimary(bool value) {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_isPrimary(bool value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "set_isPrimary", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline int32_t UnityEngine::UIElements::PointerEventBase_1<T>::get_button() {
+template <typename T> inline int32_t UnityEngine::UIElements::PointerEventBase_1<T>::get_button() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "get_button", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_button(int32_t value) {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_button(int32_t value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "set_button", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline int32_t UnityEngine::UIElements::PointerEventBase_1<T>::get_pressedButtons() {
+template <typename T> inline int32_t UnityEngine::UIElements::PointerEventBase_1<T>::get_pressedButtons() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "get_pressedButtons", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_pressedButtons(int32_t value) {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_pressedButtons(int32_t value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "set_pressedButtons", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline ::UnityEngine::Vector3 UnityEngine::UIElements::PointerEventBase_1<T>::get_position() {
+template <typename T> inline ::UnityEngine::Vector3 UnityEngine::UIElements::PointerEventBase_1<T>::get_position() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "get_position", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_position(::UnityEngine::Vector3 value) {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_position(::UnityEngine::Vector3 value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "set_position", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline ::UnityEngine::Vector3 UnityEngine::UIElements::PointerEventBase_1<T>::get_localPosition() {
+template <typename T> inline ::UnityEngine::Vector3 UnityEngine::UIElements::PointerEventBase_1<T>::get_localPosition() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "get_localPosition", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_localPosition(::UnityEngine::Vector3 value) {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_localPosition(::UnityEngine::Vector3 value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "set_localPosition", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline ::UnityEngine::Vector3 UnityEngine::UIElements::PointerEventBase_1<T>::get_deltaPosition() {
+template <typename T> inline ::UnityEngine::Vector3 UnityEngine::UIElements::PointerEventBase_1<T>::get_deltaPosition() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "get_deltaPosition", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_deltaPosition(::UnityEngine::Vector3 value) {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_deltaPosition(::UnityEngine::Vector3 value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "set_deltaPosition", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline float_t UnityEngine::UIElements::PointerEventBase_1<T>::get_deltaTime() {
+template <typename T> inline float_t UnityEngine::UIElements::PointerEventBase_1<T>::get_deltaTime() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "get_deltaTime", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_deltaTime(float_t value) {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_deltaTime(float_t value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "set_deltaTime", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline int32_t UnityEngine::UIElements::PointerEventBase_1<T>::get_clickCount() {
+template <typename T> inline int32_t UnityEngine::UIElements::PointerEventBase_1<T>::get_clickCount() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "get_clickCount", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_clickCount(int32_t value) {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_clickCount(int32_t value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "set_clickCount", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline float_t UnityEngine::UIElements::PointerEventBase_1<T>::get_pressure() {
+template <typename T> inline float_t UnityEngine::UIElements::PointerEventBase_1<T>::get_pressure() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "get_pressure", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_pressure(float_t value) {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_pressure(float_t value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "set_pressure", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline float_t UnityEngine::UIElements::PointerEventBase_1<T>::get_tangentialPressure() {
+template <typename T> inline float_t UnityEngine::UIElements::PointerEventBase_1<T>::get_tangentialPressure() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "get_tangentialPressure", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_tangentialPressure(float_t value) {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_tangentialPressure(float_t value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "set_tangentialPressure", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline float_t UnityEngine::UIElements::PointerEventBase_1<T>::get_altitudeAngle() {
+template <typename T> inline float_t UnityEngine::UIElements::PointerEventBase_1<T>::get_altitudeAngle() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "get_altitudeAngle", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_altitudeAngle(float_t value) {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_altitudeAngle(float_t value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "set_altitudeAngle", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline float_t UnityEngine::UIElements::PointerEventBase_1<T>::get_azimuthAngle() {
+template <typename T> inline float_t UnityEngine::UIElements::PointerEventBase_1<T>::get_azimuthAngle() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "get_azimuthAngle", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_azimuthAngle(float_t value) {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_azimuthAngle(float_t value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "set_azimuthAngle", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline float_t UnityEngine::UIElements::PointerEventBase_1<T>::get_twist() {
+template <typename T> inline float_t UnityEngine::UIElements::PointerEventBase_1<T>::get_twist() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "get_twist", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_twist(float_t value) {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_twist(float_t value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "set_twist", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline ::UnityEngine::Vector2 UnityEngine::UIElements::PointerEventBase_1<T>::get_tilt() {
+template <typename T> inline ::UnityEngine::Vector2 UnityEngine::UIElements::PointerEventBase_1<T>::get_tilt() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "get_tilt", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_tilt(::UnityEngine::Vector2 value) {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_tilt(::UnityEngine::Vector2 value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "set_tilt", {}, { ::i2c::type_of<::UnityEngine::Vector2>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline ::UnityEngine::PenStatus UnityEngine::UIElements::PointerEventBase_1<T>::get_penStatus() {
+template <typename T> inline ::UnityEngine::PenStatus UnityEngine::UIElements::PointerEventBase_1<T>::get_penStatus() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "get_penStatus", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::PenStatus>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_penStatus(::UnityEngine::PenStatus value) {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_penStatus(::UnityEngine::PenStatus value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "set_penStatus", {}, { ::i2c::type_of<::UnityEngine::PenStatus>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline ::UnityEngine::Vector2 UnityEngine::UIElements::PointerEventBase_1<T>::get_radius() {
+template <typename T> inline ::UnityEngine::Vector2 UnityEngine::UIElements::PointerEventBase_1<T>::get_radius() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "get_radius", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_radius(::UnityEngine::Vector2 value) {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_radius(::UnityEngine::Vector2 value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "set_radius", {}, { ::i2c::type_of<::UnityEngine::Vector2>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline ::UnityEngine::Vector2 UnityEngine::UIElements::PointerEventBase_1<T>::get_radiusVariance() {
+template <typename T> inline ::UnityEngine::Vector2 UnityEngine::UIElements::PointerEventBase_1<T>::get_radiusVariance() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "get_radiusVariance", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_radiusVariance(::UnityEngine::Vector2 value) {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_radiusVariance(::UnityEngine::Vector2 value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "set_radiusVariance", {}, { ::i2c::type_of<::UnityEngine::Vector2>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline ::UnityEngine::EventModifiers UnityEngine::UIElements::PointerEventBase_1<T>::get_modifiers() {
+template <typename T> inline ::UnityEngine::EventModifiers UnityEngine::UIElements::PointerEventBase_1<T>::get_modifiers() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "get_modifiers", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::EventModifiers>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_modifiers(::UnityEngine::EventModifiers value) {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_modifiers(::UnityEngine::EventModifiers value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "set_modifiers", {}, { ::i2c::type_of<::UnityEngine::EventModifiers>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline bool UnityEngine::UIElements::PointerEventBase_1<T>::get_shiftKey() {
+template <typename T> inline bool UnityEngine::UIElements::PointerEventBase_1<T>::get_shiftKey() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "get_shiftKey", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline bool UnityEngine::UIElements::PointerEventBase_1<T>::get_ctrlKey() {
+template <typename T> inline bool UnityEngine::UIElements::PointerEventBase_1<T>::get_ctrlKey() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "get_ctrlKey", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline bool UnityEngine::UIElements::PointerEventBase_1<T>::get_commandKey() {
+template <typename T> inline bool UnityEngine::UIElements::PointerEventBase_1<T>::get_commandKey() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "get_commandKey", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline bool UnityEngine::UIElements::PointerEventBase_1<T>::get_altKey() {
+template <typename T> inline bool UnityEngine::UIElements::PointerEventBase_1<T>::get_altKey() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "get_altKey", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline bool UnityEngine::UIElements::PointerEventBase_1<T>::get_actionKey() {
+template <typename T> inline bool UnityEngine::UIElements::PointerEventBase_1<T>::get_actionKey() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "get_actionKey", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline bool UnityEngine::UIElements::PointerEventBase_1<T>::UnityEngine_UIElements_IPointerEventInternal_get_triggeredByOS() {
+template <typename T> inline bool UnityEngine::UIElements::PointerEventBase_1<T>::UnityEngine_UIElements_IPointerEventInternal_get_triggeredByOS() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::UnityEngine_UIElements_IPointerEventInternal_set_triggeredByOS(bool value) {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::UnityEngine_UIElements_IPointerEventInternal_set_triggeredByOS(bool value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(),
                                                                                          { "UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline ::UnityEngine::UIElements::IMouseEvent* UnityEngine::UIElements::PointerEventBase_1<T>::UnityEngine_UIElements_IPointerEventInternal_get_compatibilityMouseEvent() {
+template <typename T> inline ::UnityEngine::UIElements::IMouseEvent* UnityEngine::UIElements::PointerEventBase_1<T>::UnityEngine_UIElements_IPointerEventInternal_get_compatibilityMouseEvent() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "UnityEngine.UIElements.IPointerEventInternal.get_compatibilityMouseEvent", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::IMouseEvent*>(this, ___internal_method);
 }
 template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::UIElements::PointerEventBase_1<T>::UnityEngine_UIElements_IPointerEventInternal_set_compatibilityMouseEvent(::UnityEngine::UIElements::IMouseEvent* value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(),
                                               { "UnityEngine.UIElements.IPointerEventInternal.set_compatibilityMouseEvent", {}, { ::i2c::type_of<::UnityEngine::UIElements::IMouseEvent*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::UnityEngine_UIElements_IPointerEventInternal_set_displayIndex(int32_t value) {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::UnityEngine_UIElements_IPointerEventInternal_set_displayIndex(int32_t value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(),
                                                                                          { "UnityEngine.UIElements.IPointerEventInternal.set_displayIndex", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::Init() {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::Init() {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::LocalInit() {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::LocalInit() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "LocalInit", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline ::UnityEngine::UIElements::IEventHandler* UnityEngine::UIElements::PointerEventBase_1<T>::get_currentTarget() {
+template <typename T> inline ::UnityEngine::UIElements::IEventHandler* UnityEngine::UIElements::PointerEventBase_1<T>::get_currentTarget() {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::IEventHandler*>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_currentTarget(::UnityEngine::UIElements::IEventHandler* value) {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_currentTarget(::UnityEngine::UIElements::IEventHandler* value) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), 12 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline bool UnityEngine::UIElements::PointerEventBase_1<T>::IsMouse(::UnityEngine::Event* systemEvent) {
+template <typename T> inline bool UnityEngine::UIElements::PointerEventBase_1<T>::IsMouse(::UnityEngine::Event* systemEvent) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "IsMouse", {}, { ::i2c::type_of<::UnityEngine::Event*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, systemEvent);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline bool UnityEngine::UIElements::PointerEventBase_1<T>::IsTouch(::UnityEngine::Event* systemEvent) {
+template <typename T> inline bool UnityEngine::UIElements::PointerEventBase_1<T>::IsTouch(::UnityEngine::Event* systemEvent) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "IsTouch", {}, { ::i2c::type_of<::UnityEngine::Event*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, systemEvent);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline float_t UnityEngine::UIElements::PointerEventBase_1<T>::TiltToAzimuth(::UnityEngine::Vector2 tilt) {
+template <typename T> inline float_t UnityEngine::UIElements::PointerEventBase_1<T>::TiltToAzimuth(::UnityEngine::Vector2 tilt) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "TiltToAzimuth", {}, { ::i2c::type_of<::UnityEngine::Vector2>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, tilt);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline ::UnityEngine::Vector2 UnityEngine::UIElements::PointerEventBase_1<T>::AzimuthAndAlitutudeToTilt(float_t altitude, float_t azimuth) {
+template <typename T> inline ::UnityEngine::Vector2 UnityEngine::UIElements::PointerEventBase_1<T>::AzimuthAndAlitutudeToTilt(float_t altitude, float_t azimuth) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(),
                                                                                          { "AzimuthAndAlitutudeToTilt", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(nullptr, ___internal_method, altitude, azimuth);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline float_t UnityEngine::UIElements::PointerEventBase_1<T>::TiltToAltitude(::UnityEngine::Vector2 tilt) {
+template <typename T> inline float_t UnityEngine::UIElements::PointerEventBase_1<T>::TiltToAltitude(::UnityEngine::Vector2 tilt) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "TiltToAltitude", {}, { ::i2c::type_of<::UnityEngine::Vector2>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, tilt);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine::Event* systemEvent) {
+template <typename T> inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine::Event* systemEvent) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "GetPooled", {}, { ::i2c::type_of<::UnityEngine::Event*>() } })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, systemEvent);
 }
 template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
 inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine::EventType eventType, ::UnityEngine::Vector3 mousePosition, ::UnityEngine::Vector2 delta, int32_t button,
                                                                    int32_t clickCount, ::UnityEngine::EventModifiers modifiers, int32_t displayIndex) {
   static auto* ___internal_method =
@@ -901,24 +628,19 @@ inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine
                                                                ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::EventModifiers>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, eventType, mousePosition, delta, button, clickCount, modifiers, displayIndex);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine::Touch touch, ::UnityEngine::EventModifiers modifiers, int32_t displayIndex) {
+template <typename T> inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine::Touch touch, ::UnityEngine::EventModifiers modifiers, int32_t displayIndex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(),
                                               { "GetPooled", {}, { ::i2c::type_of<::UnityEngine::Touch>(), ::i2c::type_of<::UnityEngine::EventModifiers>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, touch, modifiers, displayIndex);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine::PenData pen, ::UnityEngine::EventModifiers modifiers, int32_t displayIndex) {
+template <typename T> inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine::PenData pen, ::UnityEngine::EventModifiers modifiers, int32_t displayIndex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(),
                                               { "GetPooled", {}, { ::i2c::type_of<::UnityEngine::PenData>(), ::i2c::type_of<::UnityEngine::EventModifiers>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, pen, modifiers, displayIndex);
 }
 template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
 inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine::InputForUI::PointerEvent pointerEvent, ::UnityEngine::Vector2 position, ::UnityEngine::Vector2 deltaPosition,
                                                                    int32_t pointerId, float_t deltaTime) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(),
@@ -928,92 +650,64 @@ inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine
                                                                                              ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, pointerEvent, position, deltaPosition, pointerId, deltaTime);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine::UIElements::IPointerEvent* triggerEvent, ::UnityEngine::Vector2 position, int32_t pointerId) {
+template <typename T> inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine::UIElements::IPointerEvent* triggerEvent, ::UnityEngine::Vector2 position, int32_t pointerId) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(),
                                        { "GetPooled", {}, { ::i2c::type_of<::UnityEngine::UIElements::IPointerEvent*>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, triggerEvent, position, pointerId);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine::UIElements::IPointerEvent* triggerEvent) {
+template <typename T> inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine::UIElements::IPointerEvent* triggerEvent) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { "GetPooled", {}, { ::i2c::type_of<::UnityEngine::UIElements::IPointerEvent*>() } })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, triggerEvent);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::PreDispatch(::UnityEngine::UIElements::IPanel* panel) {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::PreDispatch(::UnityEngine::UIElements::IPanel* panel) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, panel);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::PostDispatch(::UnityEngine::UIElements::IPanel* panel) {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::PostDispatch(::UnityEngine::UIElements::IPanel* panel) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, panel);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel) {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), 10 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, panel);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline void UnityEngine::UIElements::PointerEventBase_1<T>::_ctor() {
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-inline ::UnityEngine::UIElements::PointerEventBase_1<T>* UnityEngine::UIElements::PointerEventBase_1<T>::New_ctor() {
+template <typename T> inline ::UnityEngine::UIElements::PointerEventBase_1<T>* UnityEngine::UIElements::PointerEventBase_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::PointerEventBase_1<T>*>());
 }
 /// @brief Convert operator to "::UnityEngine::UIElements::IPointerEvent"
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr UnityEngine::UIElements::PointerEventBase_1<T>::operator ::UnityEngine::UIElements::IPointerEvent*() noexcept {
+template <typename T> constexpr UnityEngine::UIElements::PointerEventBase_1<T>::operator ::UnityEngine::UIElements::IPointerEvent*() noexcept {
   return static_cast<::UnityEngine::UIElements::IPointerEvent*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::UnityEngine::UIElements::IPointerEvent"
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr ::UnityEngine::UIElements::IPointerEvent* UnityEngine::UIElements::PointerEventBase_1<T>::i___UnityEngine__UIElements__IPointerEvent() noexcept {
+template <typename T> constexpr ::UnityEngine::UIElements::IPointerEvent* UnityEngine::UIElements::PointerEventBase_1<T>::i___UnityEngine__UIElements__IPointerEvent() noexcept {
   return static_cast<::UnityEngine::UIElements::IPointerEvent*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::UnityEngine::UIElements::IPointerEventInternal"
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr UnityEngine::UIElements::PointerEventBase_1<T>::operator ::UnityEngine::UIElements::IPointerEventInternal*() noexcept {
+template <typename T> constexpr UnityEngine::UIElements::PointerEventBase_1<T>::operator ::UnityEngine::UIElements::IPointerEventInternal*() noexcept {
   return static_cast<::UnityEngine::UIElements::IPointerEventInternal*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::UnityEngine::UIElements::IPointerEventInternal"
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr ::UnityEngine::UIElements::IPointerEventInternal* UnityEngine::UIElements::PointerEventBase_1<T>::i___UnityEngine__UIElements__IPointerEventInternal() noexcept {
+template <typename T> constexpr ::UnityEngine::UIElements::IPointerEventInternal* UnityEngine::UIElements::PointerEventBase_1<T>::i___UnityEngine__UIElements__IPointerEventInternal() noexcept {
   return static_cast<::UnityEngine::UIElements::IPointerEventInternal*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::UnityEngine::UIElements::IPointerOrMouseEvent"
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr UnityEngine::UIElements::PointerEventBase_1<T>::operator ::UnityEngine::UIElements::IPointerOrMouseEvent*() noexcept {
+template <typename T> constexpr UnityEngine::UIElements::PointerEventBase_1<T>::operator ::UnityEngine::UIElements::IPointerOrMouseEvent*() noexcept {
   return static_cast<::UnityEngine::UIElements::IPointerOrMouseEvent*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::UnityEngine::UIElements::IPointerOrMouseEvent"
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr ::UnityEngine::UIElements::IPointerOrMouseEvent* UnityEngine::UIElements::PointerEventBase_1<T>::i___UnityEngine__UIElements__IPointerOrMouseEvent() noexcept {
+template <typename T> constexpr ::UnityEngine::UIElements::IPointerOrMouseEvent* UnityEngine::UIElements::PointerEventBase_1<T>::i___UnityEngine__UIElements__IPointerOrMouseEvent() noexcept {
   return static_cast<::UnityEngine::UIElements::IPointerOrMouseEvent*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-constexpr ::UnityEngine::UIElements::PointerEventBase_1<T>::PointerEventBase_1() {}
+template <typename T> constexpr ::UnityEngine::UIElements::PointerEventBase_1<T>::PointerEventBase_1() {}

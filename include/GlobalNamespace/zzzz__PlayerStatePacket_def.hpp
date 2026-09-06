@@ -10,9 +10,7 @@ namespace GlobalNamespace {
 class IPoolablePacket;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IPoolablePacket*> && ::cordl_internals::default_constructor_constraint<T>)
-class PacketPool_1;
+template <typename T> class PacketPool_1;
 }
 namespace GlobalNamespace {
 struct PlayerStateHash;

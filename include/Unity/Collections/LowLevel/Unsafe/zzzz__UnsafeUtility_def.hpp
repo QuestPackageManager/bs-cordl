@@ -22,9 +22,7 @@ namespace System {
 class Type;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct UnsafeUtility_AlignOfHelper_1;
+template <typename T> struct UnsafeUtility_AlignOfHelper_1;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
 template <typename T> struct UnsafeUtility_TypeFlagsCache_1;
@@ -40,9 +38,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
 class UnsafeUtility;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct UnsafeUtility_AlignOfHelper_1;
+template <typename T> struct UnsafeUtility_AlignOfHelper_1;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
 template <typename T> struct UnsafeUtility_TypeFlagsCache_1;
@@ -94,7 +90,6 @@ public:
 namespace Unity::Collections::LowLevel::Unsafe {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.LowLevel.Unsafe.UnsafeUtility/AlignOfHelper`1<T>
 struct CORDL_TYPE UnsafeUtility_AlignOfHelper_1 {
@@ -132,9 +127,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
 class CORDL_TYPE UnsafeUtility : public ::System::Object {
 public:
   // Declarations
-  template <typename T>
-    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  using AlignOfHelper_1 = ::Unity::Collections::LowLevel::Unsafe::UnsafeUtility_AlignOfHelper_1<T>;
+  template <typename T> using AlignOfHelper_1 = ::Unity::Collections::LowLevel::Unsafe::UnsafeUtility_AlignOfHelper_1<T>;
 
   template <typename T> using TypeFlagsCache_1 = ::Unity::Collections::LowLevel::Unsafe::UnsafeUtility_TypeFlagsCache_1<T>;
 

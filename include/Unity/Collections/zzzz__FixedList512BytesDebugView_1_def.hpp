@@ -8,15 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/arrayw.hpp"
 CORDL_MODULE_EXPORT(FixedList512BytesDebugView_1)
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct FixedList512Bytes_1;
+template <typename T> struct FixedList512Bytes_1;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class FixedList512BytesDebugView_1;
+template <typename T> class FixedList512BytesDebugView_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Unity::Collections::FixedList512BytesDebugView_1);
@@ -25,7 +21,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Collections::FixedList512BytesDebugView_1, 
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: Unity.Collections.FixedList512BytesDebugView`1<T>
 class CORDL_TYPE FixedList512BytesDebugView_1 : public ::System::Object {

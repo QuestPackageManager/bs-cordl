@@ -12,9 +12,7 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1;
+template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine::UIElements {
 class UIRAtlasAllocator;
@@ -33,9 +31,7 @@ struct TextureFormat;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class ShaderInfoStorage_1;
+template <typename T> class ShaderInfoStorage_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::UIR::ShaderInfoStorage_1);
@@ -44,7 +40,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::UIR::ShaderInfoStorage_1,
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UIR.ShaderInfoStorage`1<T>
 class CORDL_TYPE ShaderInfoStorage_1 : public ::UnityEngine::UIElements::UIR::BaseShaderInfoStorage {

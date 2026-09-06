@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__ILevelProductData_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(ILevelPackProductData_1)
 namespace System::Collections::Generic {
@@ -11,18 +10,15 @@ template <typename T> class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename TLevelProductData>
-  requires(::cordl_internals::type_constraint<TLevelProductData, ::GlobalNamespace::ILevelProductData*>)
-class ILevelPackProductData_1;
+template <typename TLevelProductData> class ILevelPackProductData_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::ILevelPackProductData_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::ILevelPackProductData_1, "", "ILevelPackProductData`1");
-// Dependencies ILevelProductData
+// Dependencies
 namespace GlobalNamespace {
 // cpp template
 template <typename TLevelProductData>
-  requires(::cordl_internals::type_constraint<TLevelProductData, ::GlobalNamespace::ILevelProductData*>)
 // Is value type: false
 // CS Name: ILevelPackProductData`1<TLevelProductData>
 class CORDL_TYPE ILevelPackProductData_1 {

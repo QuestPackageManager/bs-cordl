@@ -11,9 +11,7 @@ struct IntPtr;
 }
 // Forward declare root types
 namespace Unity::Jobs::LowLevel::Unsafe {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct BatchQueryJobStruct_1;
+template <typename T> struct BatchQueryJobStruct_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Jobs::LowLevel::Unsafe::BatchQueryJobStruct_1);
@@ -22,7 +20,6 @@ DEFINE_IL2CPP_GEN_CLASS(::Unity::Jobs::LowLevel::Unsafe::BatchQueryJobStruct_1, 
 namespace Unity::Jobs::LowLevel::Unsafe {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Jobs.LowLevel.Unsafe.BatchQueryJobStruct`1<T>
 #pragma pack(push, 0)

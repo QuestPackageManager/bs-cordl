@@ -3,9 +3,7 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "BeatSaber/BeatAvatarSDK/zzzz__IAvatarPart_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstdint>
@@ -15,18 +13,15 @@ template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarSDK {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*> && ::cordl_internals::type_constraint<T, ::BeatSaber::BeatAvatarSDK::IAvatarPart*>)
-class AvatarPartCollection_1;
+template <typename T> class AvatarPartCollection_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1, "BeatSaber.BeatAvatarSDK", "AvatarPartCollection`1");
-// Dependencies BeatSaber.BeatAvatarSDK.IAvatarPart, System.Object, UnityEngine.Object
+// Dependencies System.Object
 namespace BeatSaber::BeatAvatarSDK {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*> && ::cordl_internals::type_constraint<T, ::BeatSaber::BeatAvatarSDK::IAvatarPart*>)
 // Is value type: false
 // CS Name: BeatSaber.BeatAvatarSDK.AvatarPartCollection`1<T>
 class CORDL_TYPE AvatarPartCollection_1 : public ::System::Object {

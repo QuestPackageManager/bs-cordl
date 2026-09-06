@@ -12,9 +12,7 @@ namespace GlobalNamespace {
 template <typename T> struct OVREnumerable_1;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct OVRNativeList_1;
+template <typename T> struct OVRNativeList_1;
 }
 namespace GlobalNamespace {
 struct OVRNativeList_CapacityHelper;
@@ -23,9 +21,7 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct Nullable_1;
+template <typename T> struct Nullable_1;
 }
 namespace Unity::Collections {
 struct Allocator;

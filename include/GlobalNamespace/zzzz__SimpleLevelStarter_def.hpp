@@ -55,9 +55,7 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::AddressableAssets {
-template <typename TObject>
-  requires(::cordl_internals::type_constraint<TObject, ::UnityEngine::Object*>)
-class AssetReferenceT_1;
+template <typename TObject> class AssetReferenceT_1;
 }
 namespace UnityEngine::UI {
 class Button;

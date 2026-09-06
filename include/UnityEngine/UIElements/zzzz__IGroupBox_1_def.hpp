@@ -3,25 +3,21 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/UIElements/zzzz__IGroupManager_def.hpp"
 CORDL_MODULE_EXPORT(IGroupBox_1)
 namespace UnityEngine::UIElements {
 class IGroupBox;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::IGroupManager*>)
-class IGroupBox_1;
+template <typename T> class IGroupBox_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::IGroupBox_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::IGroupBox_1, "UnityEngine.UIElements", "IGroupBox`1");
-// Dependencies UnityEngine.UIElements.IGroupManager
+// Dependencies
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::IGroupManager*>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.IGroupBox`1<T>
 class CORDL_TYPE IGroupBox_1 {

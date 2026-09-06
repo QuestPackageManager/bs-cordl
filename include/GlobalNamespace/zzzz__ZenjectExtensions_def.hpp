@@ -7,9 +7,7 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Component_def.hpp"
 CORDL_MODULE_EXPORT(ZenjectExtensions)
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
-class ZenjectExtensions___c__DisplayClass0_0_1;
+template <typename T> class ZenjectExtensions___c__DisplayClass0_0_1;
 }
 namespace UnityEngine {
 class Object;
@@ -34,9 +32,7 @@ namespace GlobalNamespace {
 class ZenjectExtensions;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
-class ZenjectExtensions___c__DisplayClass0_0_1;
+template <typename T> class ZenjectExtensions___c__DisplayClass0_0_1;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ZenjectExtensions*);
@@ -44,11 +40,10 @@ MARK_GEN_REF_T_PTR(::GlobalNamespace::ZenjectExtensions___c__DisplayClass0_0_1);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ZenjectExtensions*, "", "ZenjectExtensions");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::ZenjectExtensions___c__DisplayClass0_0_1, "", "ZenjectExtensions/<>c__DisplayClass0_0`1");
 // [CompilerGenerated]
-// Dependencies System.Object, UnityEngine.Component
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
 // Is value type: false
 // CS Name: ZenjectExtensions/<>c__DisplayClass0_0`1<T>
 class CORDL_TYPE ZenjectExtensions___c__DisplayClass0_0_1 : public ::System::Object {
@@ -103,9 +98,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE ZenjectExtensions : public ::System::Object {
 public:
   // Declarations
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
-  using __c__DisplayClass0_0_1 = ::GlobalNamespace::ZenjectExtensions___c__DisplayClass0_0_1<T>;
+  template <typename T> using __c__DisplayClass0_0_1 = ::GlobalNamespace::ZenjectExtensions___c__DisplayClass0_0_1<T>;
 
   /// [Extension]
   /// @brief Method InstantiatePrefabForComponentAt, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

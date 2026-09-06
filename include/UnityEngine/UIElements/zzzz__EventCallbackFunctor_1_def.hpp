@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCallbackFunctorBase_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventCallbackFunctor_1)
@@ -27,18 +26,15 @@ struct TrickleDown;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename TEventType>
-  requires(::cordl_internals::type_constraint<TEventType, ::UnityEngine::UIElements::EventBase_1<TEventType>*> && ::cordl_internals::default_constructor_constraint<TEventType>)
-class EventCallbackFunctor_1;
+template <typename TEventType> class EventCallbackFunctor_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::EventCallbackFunctor_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::EventCallbackFunctor_1, "UnityEngine.UIElements", "EventCallbackFunctor`1");
-// Dependencies UnityEngine.UIElements.EventBase`1<T>, UnityEngine.UIElements.EventCallbackFunctorBase
+// Dependencies UnityEngine.UIElements.EventCallbackFunctorBase
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TEventType>
-  requires(::cordl_internals::type_constraint<TEventType, ::UnityEngine::UIElements::EventBase_1<TEventType>*> && ::cordl_internals::default_constructor_constraint<TEventType>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.EventCallbackFunctor`1<TEventType>
 class CORDL_TYPE EventCallbackFunctor_1 : public ::UnityEngine::UIElements::EventCallbackFunctorBase {

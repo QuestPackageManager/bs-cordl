@@ -36,25 +36,19 @@ namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::SortColumnDescription*> && ::cordl_internals::default_constructor_constraint<T>)
-class SortColumnDescription_UxmlObjectFactory_1;
+template <typename T> class SortColumnDescription_UxmlObjectFactory_1;
 }
 namespace UnityEngine::UIElements {
 class SortColumnDescription_UxmlObjectFactory;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::SortColumnDescription*>)
-class SortColumnDescription_UxmlObjectTraits_1;
+template <typename T> class SortColumnDescription_UxmlObjectTraits_1;
 }
 namespace UnityEngine::UIElements {
 struct SortDirection;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class UxmlEnumAttributeDescription_1;
+template <typename T> class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
 class UxmlIntAttributeDescription;
@@ -70,14 +64,10 @@ namespace UnityEngine::UIElements {
 class SortColumnDescription_UxmlObjectFactory;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::SortColumnDescription*> && ::cordl_internals::default_constructor_constraint<T>)
-class SortColumnDescription_UxmlObjectFactory_1;
+template <typename T> class SortColumnDescription_UxmlObjectFactory_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::SortColumnDescription*>)
-class SortColumnDescription_UxmlObjectTraits_1;
+template <typename T> class SortColumnDescription_UxmlObjectTraits_1;
 }
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::SortColumnDescription*);
@@ -88,6 +78,154 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::SortColumnDescription*, "UnityEng
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory*, "UnityEngine.UIElements", "SortColumnDescription/UxmlObjectFactory");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory_1, "UnityEngine.UIElements", "SortColumnDescription/UxmlObjectFactory`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::SortColumnDescription_UxmlObjectTraits_1, "UnityEngine.UIElements", "SortColumnDescription/UxmlObjectTraits`1");
+// [Obsolete("UxmlObjectFactory<T> is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
+// Dependencies UnityEngine.UIElements.UxmlObjectFactory`2<TCreatedType, TTraits>
+namespace UnityEngine::UIElements {
+// cpp template
+template <typename T>
+// Is value type: false
+// CS Name: UnityEngine.UIElements.SortColumnDescription/UxmlObjectFactory`1<T>
+class CORDL_TYPE SortColumnDescription_UxmlObjectFactory_1 : public ::UnityEngine::UIElements::UxmlObjectFactory_2<T, ::UnityEngine::UIElements::SortColumnDescription_UxmlObjectTraits_1<T>*> {
+public:
+  // Declarations
+  static inline ::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory_1<T>* New_ctor();
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SortColumnDescription_UxmlObjectFactory_1();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "SortColumnDescription_UxmlObjectFactory_1", modifiers: "&&", def_value: None, comment: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SortColumnDescription_UxmlObjectFactory_1(SortColumnDescription_UxmlObjectFactory_1&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "SortColumnDescription_UxmlObjectFactory_1", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SortColumnDescription_UxmlObjectFactory_1(SortColumnDescription_UxmlObjectFactory_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4276 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace UnityEngine::UIElements
+// [Obsolete("UxmlObjectFactory<T> is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
+// Dependencies UnityEngine.UIElements.SortColumnDescription::UxmlObjectFactory`1<T>
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: UnityEngine.UIElements.SortColumnDescription/UxmlObjectFactory
+class CORDL_TYPE SortColumnDescription_UxmlObjectFactory : public ::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory_1<::UnityEngine::UIElements::SortColumnDescription*> {
+public:
+  // Declarations
+  static inline ::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory* New_ctor();
+
+  /// @brief Method .ctor, addr 0x6d62d28, size 0x74, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SortColumnDescription_UxmlObjectFactory();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "SortColumnDescription_UxmlObjectFactory", modifiers: "&&", def_value: None, comment: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SortColumnDescription_UxmlObjectFactory(SortColumnDescription_UxmlObjectFactory&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "SortColumnDescription_UxmlObjectFactory", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SortColumnDescription_UxmlObjectFactory(SortColumnDescription_UxmlObjectFactory const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4277 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory) == 0x18, "Size mismatch!");
+
+} // namespace UnityEngine::UIElements
+// [Obsolete("UxmlObjectTraits<T> is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
+// Dependencies UnityEngine.UIElements.UxmlObjectTraits`1<T>
+namespace UnityEngine::UIElements {
+// cpp template
+template <typename T>
+// Is value type: false
+// CS Name: UnityEngine.UIElements.SortColumnDescription/UxmlObjectTraits`1<T>
+class CORDL_TYPE SortColumnDescription_UxmlObjectTraits_1 : public ::UnityEngine::UIElements::UxmlObjectTraits_1<T> {
+public:
+  // Declarations
+  /// @brief Field m_ColumnIndex, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_ColumnIndex, put = __cordl_internal_set_m_ColumnIndex)) ::UnityEngine::UIElements::UxmlIntAttributeDescription* m_ColumnIndex;
+
+  /// @brief Field m_ColumnName, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_ColumnName, put = __cordl_internal_set_m_ColumnName)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_ColumnName;
+
+  /// @brief Field m_SortDescription, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_SortDescription,
+                      put = __cordl_internal_set_m_SortDescription)) ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SortDirection>* m_SortDescription;
+
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Init(::by_ref<T> obj, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
+
+  static inline ::UnityEngine::UIElements::SortColumnDescription_UxmlObjectTraits_1<T>* New_ctor();
+
+  constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription* const& __cordl_internal_get_m_ColumnIndex() const;
+
+  constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& __cordl_internal_get_m_ColumnIndex();
+
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_ColumnName() const;
+
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_ColumnName();
+
+  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SortDirection>* const& __cordl_internal_get_m_SortDescription() const;
+
+  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SortDirection>*& __cordl_internal_get_m_SortDescription();
+
+  constexpr void __cordl_internal_set_m_ColumnIndex(::UnityEngine::UIElements::UxmlIntAttributeDescription* value);
+
+  constexpr void __cordl_internal_set_m_ColumnName(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+
+  constexpr void __cordl_internal_set_m_SortDescription(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SortDirection>* value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SortColumnDescription_UxmlObjectTraits_1();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "SortColumnDescription_UxmlObjectTraits_1", modifiers: "&&", def_value: None, comment: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  SortColumnDescription_UxmlObjectTraits_1(SortColumnDescription_UxmlObjectTraits_1&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "SortColumnDescription_UxmlObjectTraits_1", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  SortColumnDescription_UxmlObjectTraits_1(SortColumnDescription_UxmlObjectTraits_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4278 };
+
+  /// @brief Field m_ColumnName, offset: 0x18, size: 0x8, def value: None
+  ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_ColumnName;
+
+  /// @brief Field m_ColumnIndex, offset: 0x20, size: 0x8, def value: None
+  ::UnityEngine::UIElements::UxmlIntAttributeDescription* ___m_ColumnIndex;
+
+  /// @brief Field m_SortDescription, offset: 0x28, size: 0x8, def value: None
+  ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SortDirection>* ___m_SortDescription;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace UnityEngine::UIElements
 // [UxmlObject]
 // Dependencies System.Object, UnityEngine.UIElements.BindingId, UnityEngine.UIElements.SortDirection
 namespace UnityEngine::UIElements {
@@ -98,13 +236,9 @@ public:
   // Declarations
   using UxmlObjectFactory = ::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::SortColumnDescription*> && ::cordl_internals::default_constructor_constraint<T>)
-  using UxmlObjectFactory_1 = ::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory_1<T>;
+  template <typename T> using UxmlObjectFactory_1 = ::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory_1<T>;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::SortColumnDescription*>)
-  using UxmlObjectTraits_1 = ::UnityEngine::UIElements::SortColumnDescription_UxmlObjectTraits_1<T>;
+  template <typename T> using UxmlObjectTraits_1 = ::UnityEngine::UIElements::SortColumnDescription_UxmlObjectTraits_1<T>;
 
   /// @brief Field <column>k__BackingField, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__column_k__BackingField, put = __cordl_internal_set__column_k__BackingField)) ::UnityEngine::UIElements::Column* _column_k__BackingField;
@@ -320,154 +454,4 @@ static_assert(offsetof(::UnityEngine::UIElements::SortColumnDescription, ___chan
 
 static_assert(sizeof(::UnityEngine::UIElements::SortColumnDescription) == 0x40, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
-// [Obsolete("UxmlObjectFactory<T> is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
-// Dependencies UnityEngine.UIElements.SortColumnDescription, UnityEngine.UIElements.UxmlObjectFactory`2<TCreatedType, TTraits>
-namespace UnityEngine::UIElements {
-// cpp template
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::SortColumnDescription*> && ::cordl_internals::default_constructor_constraint<T>)
-// Is value type: false
-// CS Name: UnityEngine.UIElements.SortColumnDescription/UxmlObjectFactory`1<T>
-class CORDL_TYPE SortColumnDescription_UxmlObjectFactory_1 : public ::UnityEngine::UIElements::UxmlObjectFactory_2<T, ::UnityEngine::UIElements::SortColumnDescription_UxmlObjectTraits_1<T>*> {
-public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory_1<T>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SortColumnDescription_UxmlObjectFactory_1();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "SortColumnDescription_UxmlObjectFactory_1", modifiers: "&&", def_value: None, comment: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SortColumnDescription_UxmlObjectFactory_1(SortColumnDescription_UxmlObjectFactory_1&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "SortColumnDescription_UxmlObjectFactory_1", modifiers: "const&", def_value: None, comment: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SortColumnDescription_UxmlObjectFactory_1(SortColumnDescription_UxmlObjectFactory_1 const&) = delete;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4276 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace UnityEngine::UIElements
-// [Obsolete("UxmlObjectFactory<T> is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
-// Dependencies UnityEngine.UIElements.SortColumnDescription::UxmlObjectFactory`1<T>
-namespace UnityEngine::UIElements {
-// Is value type: false
-// CS Name: UnityEngine.UIElements.SortColumnDescription/UxmlObjectFactory
-class CORDL_TYPE SortColumnDescription_UxmlObjectFactory : public ::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory_1<::UnityEngine::UIElements::SortColumnDescription*> {
-public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory* New_ctor();
-
-  /// @brief Method .ctor, addr 0x6d62d28, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SortColumnDescription_UxmlObjectFactory();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "SortColumnDescription_UxmlObjectFactory", modifiers: "&&", def_value: None, comment: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SortColumnDescription_UxmlObjectFactory(SortColumnDescription_UxmlObjectFactory&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "SortColumnDescription_UxmlObjectFactory", modifiers: "const&", def_value: None, comment: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SortColumnDescription_UxmlObjectFactory(SortColumnDescription_UxmlObjectFactory const&) = delete;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4277 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(sizeof(::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory) == 0x18, "Size mismatch!");
-
-} // namespace UnityEngine::UIElements
-// [Obsolete("UxmlObjectTraits<T> is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
-// Dependencies UnityEngine.UIElements.SortColumnDescription, UnityEngine.UIElements.UxmlObjectTraits`1<T>
-namespace UnityEngine::UIElements {
-// cpp template
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::SortColumnDescription*>)
-// Is value type: false
-// CS Name: UnityEngine.UIElements.SortColumnDescription/UxmlObjectTraits`1<T>
-class CORDL_TYPE SortColumnDescription_UxmlObjectTraits_1 : public ::UnityEngine::UIElements::UxmlObjectTraits_1<T> {
-public:
-  // Declarations
-  /// @brief Field m_ColumnIndex, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ColumnIndex, put = __cordl_internal_set_m_ColumnIndex)) ::UnityEngine::UIElements::UxmlIntAttributeDescription* m_ColumnIndex;
-
-  /// @brief Field m_ColumnName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ColumnName, put = __cordl_internal_set_m_ColumnName)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_ColumnName;
-
-  /// @brief Field m_SortDescription, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_SortDescription,
-                      put = __cordl_internal_set_m_SortDescription)) ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SortDirection>* m_SortDescription;
-
-  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Init(::by_ref<T> obj, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
-
-  static inline ::UnityEngine::UIElements::SortColumnDescription_UxmlObjectTraits_1<T>* New_ctor();
-
-  constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription* const& __cordl_internal_get_m_ColumnIndex() const;
-
-  constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& __cordl_internal_get_m_ColumnIndex();
-
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_ColumnName() const;
-
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_ColumnName();
-
-  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SortDirection>* const& __cordl_internal_get_m_SortDescription() const;
-
-  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SortDirection>*& __cordl_internal_get_m_SortDescription();
-
-  constexpr void __cordl_internal_set_m_ColumnIndex(::UnityEngine::UIElements::UxmlIntAttributeDescription* value);
-
-  constexpr void __cordl_internal_set_m_ColumnName(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
-
-  constexpr void __cordl_internal_set_m_SortDescription(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SortDirection>* value);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SortColumnDescription_UxmlObjectTraits_1();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "SortColumnDescription_UxmlObjectTraits_1", modifiers: "&&", def_value: None, comment: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SortColumnDescription_UxmlObjectTraits_1(SortColumnDescription_UxmlObjectTraits_1&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "SortColumnDescription_UxmlObjectTraits_1", modifiers: "const&", def_value: None, comment: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SortColumnDescription_UxmlObjectTraits_1(SortColumnDescription_UxmlObjectTraits_1 const&) = delete;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4278 };
-
-  /// @brief Field m_ColumnName, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_ColumnName;
-
-  /// @brief Field m_ColumnIndex, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlIntAttributeDescription* ___m_ColumnIndex;
-
-  /// @brief Field m_SortDescription, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SortDirection>* ___m_SortDescription;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
 } // namespace UnityEngine::UIElements

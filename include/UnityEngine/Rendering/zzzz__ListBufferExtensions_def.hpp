@@ -7,9 +7,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ListBufferExtensions)
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct ListBuffer_1;
+template <typename T> struct ListBuffer_1;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {

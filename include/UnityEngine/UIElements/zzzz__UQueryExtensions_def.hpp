@@ -10,9 +10,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(UQueryExtensions)
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
-struct UQueryBuilder_1;
+template <typename T> struct UQueryBuilder_1;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;

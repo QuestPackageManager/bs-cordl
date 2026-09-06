@@ -13,9 +13,7 @@ namespace GlobalNamespace {
 struct ConsoleMessage;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
-class OptionalArgument_1;
+template <typename T> class OptionalArgument_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class IReadOnlyDictionary_2;

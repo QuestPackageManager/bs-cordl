@@ -41,9 +41,7 @@ namespace UnityEngine::InputSystem::EnhancedTouch {
 struct Touch;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-template <typename TValue>
-  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-class InputStateHistory_1;
+template <typename TValue> class InputStateHistory_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct TouchState;

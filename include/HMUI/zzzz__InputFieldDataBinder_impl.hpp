@@ -13,149 +13,99 @@
 #include "System/zzzz__Tuple_4_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
 #include "UnityEngine/UI/zzzz__InputField_def.hpp"
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::IValue_1<::StringW>*>)
-inline void HMUI::InputFieldDataBinder___c__3_1<T>::setStaticF___9(::HMUI::InputFieldDataBinder___c__3_1<T>* value) {
+template <typename T> inline void HMUI::InputFieldDataBinder___c__3_1<T>::setStaticF___9(::HMUI::InputFieldDataBinder___c__3_1<T>* value) {
   ::cordl_internals::setStaticField<::HMUI::InputFieldDataBinder___c__3_1<T>*, "<>9", ::HMUI::InputFieldDataBinder___c__3_1<T>*>(std::forward<::HMUI::InputFieldDataBinder___c__3_1<T>*>(value));
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::IValue_1<::StringW>*>)
-inline ::HMUI::InputFieldDataBinder___c__3_1<T>* HMUI::InputFieldDataBinder___c__3_1<T>::getStaticF___9() {
+template <typename T> inline ::HMUI::InputFieldDataBinder___c__3_1<T>* HMUI::InputFieldDataBinder___c__3_1<T>::getStaticF___9() {
   return ::cordl_internals::getStaticField<::HMUI::InputFieldDataBinder___c__3_1<T>*, "<>9", ::HMUI::InputFieldDataBinder___c__3_1<T>*>();
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::IValue_1<::StringW>*>)
-inline void HMUI::InputFieldDataBinder___c__3_1<T>::setStaticF___9__3_0(::System::Func_2<::StringW, ::StringW>* value) {
+template <typename T> inline void HMUI::InputFieldDataBinder___c__3_1<T>::setStaticF___9__3_0(::System::Func_2<::StringW, ::StringW>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::StringW, ::StringW>*, "<>9__3_0", ::HMUI::InputFieldDataBinder___c__3_1<T>*>(std::forward<::System::Func_2<::StringW, ::StringW>*>(value));
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::IValue_1<::StringW>*>)
-inline ::System::Func_2<::StringW, ::StringW>* HMUI::InputFieldDataBinder___c__3_1<T>::getStaticF___9__3_0() {
+template <typename T> inline ::System::Func_2<::StringW, ::StringW>* HMUI::InputFieldDataBinder___c__3_1<T>::getStaticF___9__3_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::StringW, ::StringW>*, "<>9__3_0", ::HMUI::InputFieldDataBinder___c__3_1<T>*>();
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::IValue_1<::StringW>*>)
-inline void HMUI::InputFieldDataBinder___c__3_1<T>::_ctor() {
+template <typename T> inline void HMUI::InputFieldDataBinder___c__3_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldDataBinder___c__3_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::IValue_1<::StringW>*>)
-inline ::StringW HMUI::InputFieldDataBinder___c__3_1<T>::_AddStringBindings_b__3_0(::StringW value) {
+template <typename T> inline ::StringW HMUI::InputFieldDataBinder___c__3_1<T>::_AddStringBindings_b__3_0(::StringW value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldDataBinder___c__3_1<T>*>(), { "<AddStringBindings>b__3_0", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, value);
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::IValue_1<::StringW>*>)
-inline ::HMUI::InputFieldDataBinder___c__3_1<T>* HMUI::InputFieldDataBinder___c__3_1<T>::New_ctor() {
+template <typename T> inline ::HMUI::InputFieldDataBinder___c__3_1<T>* HMUI::InputFieldDataBinder___c__3_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::InputFieldDataBinder___c__3_1<T>*>());
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::IValue_1<::StringW>*>)
-constexpr ::HMUI::InputFieldDataBinder___c__3_1<T>::InputFieldDataBinder___c__3_1() {}
-template <typename T0, typename T1>
-  requires(::cordl_internals::type_constraint<T0, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T0, ::GlobalNamespace::IValue_1<T1>*>)
-constexpr ::System::Func_2<::StringW, T1>*& HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::__cordl_internal_get_toValueConvertor() {
+template <typename T> constexpr ::HMUI::InputFieldDataBinder___c__3_1<T>::InputFieldDataBinder___c__3_1() {}
+template <typename T0, typename T1> constexpr ::System::Func_2<::StringW, T1>*& HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::__cordl_internal_get_toValueConvertor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toValueConvertor;
 }
-template <typename T0, typename T1>
-  requires(::cordl_internals::type_constraint<T0, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T0, ::GlobalNamespace::IValue_1<T1>*>)
-constexpr ::System::Func_2<::StringW, T1>* const& HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::__cordl_internal_get_toValueConvertor() const {
+template <typename T0, typename T1> constexpr ::System::Func_2<::StringW, T1>* const& HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::__cordl_internal_get_toValueConvertor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toValueConvertor;
 }
-template <typename T0, typename T1>
-  requires(::cordl_internals::type_constraint<T0, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T0, ::GlobalNamespace::IValue_1<T1>*>)
-constexpr void HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::__cordl_internal_set_toValueConvertor(::System::Func_2<::StringW, T1>* value) {
+template <typename T0, typename T1> constexpr void HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::__cordl_internal_set_toValueConvertor(::System::Func_2<::StringW, T1>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___toValueConvertor = value;
 }
-template <typename T0, typename T1>
-  requires(::cordl_internals::type_constraint<T0, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T0, ::GlobalNamespace::IValue_1<T1>*>)
-constexpr T0& HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::__cordl_internal_get_valueItem() {
+template <typename T0, typename T1> constexpr T0& HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::__cordl_internal_get_valueItem() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueItem;
 }
-template <typename T0, typename T1>
-  requires(::cordl_internals::type_constraint<T0, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T0, ::GlobalNamespace::IValue_1<T1>*>)
-constexpr T0 const& HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::__cordl_internal_get_valueItem() const {
+template <typename T0, typename T1> constexpr T0 const& HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::__cordl_internal_get_valueItem() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueItem;
 }
-template <typename T0, typename T1>
-  requires(::cordl_internals::type_constraint<T0, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T0, ::GlobalNamespace::IValue_1<T1>*>)
-constexpr void HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::__cordl_internal_set_valueItem(T0 value) {
+template <typename T0, typename T1> constexpr void HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::__cordl_internal_set_valueItem(T0 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___valueItem = value;
 }
-template <typename T0, typename T1>
-  requires(::cordl_internals::type_constraint<T0, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T0, ::GlobalNamespace::IValue_1<T1>*>)
-constexpr ::UnityW<::UnityEngine::UI::InputField>& HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::__cordl_internal_get_inputField() {
+template <typename T0, typename T1> constexpr ::UnityW<::UnityEngine::UI::InputField>& HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::__cordl_internal_get_inputField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputField;
 }
-template <typename T0, typename T1>
-  requires(::cordl_internals::type_constraint<T0, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T0, ::GlobalNamespace::IValue_1<T1>*>)
-constexpr ::UnityW<::UnityEngine::UI::InputField> const& HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::__cordl_internal_get_inputField() const {
+template <typename T0, typename T1> constexpr ::UnityW<::UnityEngine::UI::InputField> const& HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::__cordl_internal_get_inputField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputField;
 }
-template <typename T0, typename T1>
-  requires(::cordl_internals::type_constraint<T0, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T0, ::GlobalNamespace::IValue_1<T1>*>)
-constexpr void HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::__cordl_internal_set_inputField(::UnityW<::UnityEngine::UI::InputField> value) {
+template <typename T0, typename T1> constexpr void HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::__cordl_internal_set_inputField(::UnityW<::UnityEngine::UI::InputField> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___inputField = value;
 }
-template <typename T0, typename T1>
-  requires(::cordl_internals::type_constraint<T0, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T0, ::GlobalNamespace::IValue_1<T1>*>)
-constexpr ::System::Func_2<T1, ::StringW>*& HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::__cordl_internal_get_toStringConvertor() {
+template <typename T0, typename T1> constexpr ::System::Func_2<T1, ::StringW>*& HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::__cordl_internal_get_toStringConvertor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toStringConvertor;
 }
-template <typename T0, typename T1>
-  requires(::cordl_internals::type_constraint<T0, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T0, ::GlobalNamespace::IValue_1<T1>*>)
-constexpr ::System::Func_2<T1, ::StringW>* const& HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::__cordl_internal_get_toStringConvertor() const {
+template <typename T0, typename T1> constexpr ::System::Func_2<T1, ::StringW>* const& HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::__cordl_internal_get_toStringConvertor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toStringConvertor;
 }
-template <typename T0, typename T1>
-  requires(::cordl_internals::type_constraint<T0, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T0, ::GlobalNamespace::IValue_1<T1>*>)
-constexpr void HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::__cordl_internal_set_toStringConvertor(::System::Func_2<T1, ::StringW>* value) {
+template <typename T0, typename T1> constexpr void HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::__cordl_internal_set_toStringConvertor(::System::Func_2<T1, ::StringW>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___toStringConvertor = value;
 }
-template <typename T0, typename T1>
-  requires(::cordl_internals::type_constraint<T0, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T0, ::GlobalNamespace::IValue_1<T1>*>)
-inline void HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::_ctor() {
+template <typename T0, typename T1> inline void HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T0, typename T1>
-  requires(::cordl_internals::type_constraint<T0, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T0, ::GlobalNamespace::IValue_1<T1>*>)
-inline void HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::_AddBindings_b__0(::StringW value) {
+template <typename T0, typename T1> inline void HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::_AddBindings_b__0(::StringW value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>*>(), { "<AddBindings>b__0", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename T0, typename T1>
-  requires(::cordl_internals::type_constraint<T0, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T0, ::GlobalNamespace::IValue_1<T1>*>)
-inline void HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::_AddBindings_b__1() {
+template <typename T0, typename T1> inline void HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::_AddBindings_b__1() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>*>(), { "<AddBindings>b__1", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T0, typename T1>
-  requires(::cordl_internals::type_constraint<T0, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T0, ::GlobalNamespace::IValue_1<T1>*>)
-inline ::HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>* HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::New_ctor() {
+template <typename T0, typename T1> inline ::HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>* HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>*>());
 }
 // Ctor Parameters []
-template <typename T0, typename T1>
-  requires(::cordl_internals::type_constraint<T0, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T0, ::GlobalNamespace::IValue_1<T1>*>)
-constexpr ::HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::InputFieldDataBinder___c__DisplayClass2_0_2() {}
+template <typename T0, typename T1> constexpr ::HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>::InputFieldDataBinder___c__DisplayClass2_0_2() {}
 //  Writing Method size for method: ::HMUI::InputFieldDataBinder._ctor
 template <>
 

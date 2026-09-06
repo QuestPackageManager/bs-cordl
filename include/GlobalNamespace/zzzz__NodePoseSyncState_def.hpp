@@ -8,15 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NodePoseSyncState)
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class IEquatableByReference_1;
+template <typename T> class IEquatableByReference_1;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
-class IStateTable_3;
+template <typename TStateTable, typename TType, typename TState> class IStateTable_3;
 }
 namespace GlobalNamespace {
 struct NodePoseSyncState_NodePose;

@@ -17,9 +17,7 @@ struct InputBindingCompositeContext;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
-template <typename TValue>
-  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-class InputBindingComposite_1;
+template <typename TValue> class InputBindingComposite_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::InputSystem::InputBindingComposite_1);
@@ -28,7 +26,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::InputSystem::InputBindingComposite_1,
 namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TValue>
-  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.InputBindingComposite`1<TValue>
 class CORDL_TYPE InputBindingComposite_1 : public ::UnityEngine::InputSystem::InputBindingComposite {

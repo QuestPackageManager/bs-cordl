@@ -4,16 +4,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__ConsoleCommandBase_def.hpp"
-#include "System/zzzz__IConvertible_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(CvarCommand_1)
 namespace GlobalNamespace {
 struct ConsoleMessage;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
-class OptionalArgument_1;
+template <typename T> class OptionalArgument_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -23,18 +20,15 @@ template <typename TResult> class Task_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
-class CvarCommand_1;
+template <typename T> class CvarCommand_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::CvarCommand_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::CvarCommand_1, "", "CvarCommand`1");
-// Dependencies ConsoleCommandBase, System.IConvertible
+// Dependencies ConsoleCommandBase
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
 // Is value type: false
 // CS Name: CvarCommand`1<T>
 class CORDL_TYPE CvarCommand_1 : public ::GlobalNamespace::ConsoleCommandBase {

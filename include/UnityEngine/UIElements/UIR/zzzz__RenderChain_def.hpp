@@ -53,9 +53,7 @@ namespace UnityEngine::UIElements::UIR {
 class JobManager;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<T>*>)
-class LinkedPool_1;
+template <typename T> class LinkedPool_1;
 }
 namespace UnityEngine::UIElements::UIR {
 class MeshGenerationDeferrer;

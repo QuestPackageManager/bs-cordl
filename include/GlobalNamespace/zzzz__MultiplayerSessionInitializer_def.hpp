@@ -13,9 +13,7 @@ namespace GlobalNamespace {
 class IBeatSaberMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-template <typename TConnectedPlayer>
-  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*>)
-class IMultiplayerSessionManager_1_IMultiplayerSessionInitializer;
+template <typename TConnectedPlayer> class IMultiplayerSessionManager_1_IMultiplayerSessionInitializer;
 }
 namespace GlobalNamespace {
 struct MultiplayerSessionType;

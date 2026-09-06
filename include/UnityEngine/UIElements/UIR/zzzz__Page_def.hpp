@@ -15,17 +15,13 @@ namespace UnityEngine::UIElements::UIR {
 class GPUBufferAllocator;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class Page_DataSet_1;
+template <typename T> class Page_DataSet_1;
 }
 namespace UnityEngine::UIElements::UIR {
 struct Utility_GPUBufferType;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class Utility_GPUBuffer_1;
+template <typename T> class Utility_GPUBuffer_1;
 }
 namespace UnityEngine::UIElements {
 struct Vertex;
@@ -35,9 +31,7 @@ namespace UnityEngine::UIElements::UIR {
 class Page;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class Page_DataSet_1;
+template <typename T> class Page_DataSet_1;
 }
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::UIR::Page*);
@@ -48,7 +42,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::UIR::Page_DataSet_1, "Uni
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UIR.Page/DataSet`1<T>
 class CORDL_TYPE Page_DataSet_1 : public ::System::Object {
@@ -275,9 +268,7 @@ namespace UnityEngine::UIElements::UIR {
 class CORDL_TYPE Page : public ::System::Object {
 public:
   // Declarations
-  template <typename T>
-    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  using DataSet_1 = ::UnityEngine::UIElements::UIR::Page_DataSet_1<T>;
+  template <typename T> using DataSet_1 = ::UnityEngine::UIElements::UIR::Page_DataSet_1<T>;
 
   /// @brief Field <disposed>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__disposed_k__BackingField, put = __cordl_internal_set__disposed_k__BackingField)) bool _disposed_k__BackingField;

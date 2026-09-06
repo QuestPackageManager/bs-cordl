@@ -22,44 +22,28 @@ namespace LiteNetLib::Utils {
 class NetPacketProcessor_SubscribeDelegate;
 }
 namespace LiteNetLib::Utils {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NetPacketProcessor___c__DisplayClass25_0_1;
+template <typename T> class NetPacketProcessor___c__DisplayClass25_0_1;
 }
 namespace LiteNetLib::Utils {
-template <typename T, typename TUserData>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NetPacketProcessor___c__DisplayClass26_0_2;
+template <typename T, typename TUserData> class NetPacketProcessor___c__DisplayClass26_0_2;
 }
 namespace LiteNetLib::Utils {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NetPacketProcessor___c__DisplayClass27_0_1;
+template <typename T> class NetPacketProcessor___c__DisplayClass27_0_1;
 }
 namespace LiteNetLib::Utils {
-template <typename T, typename TUserData>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NetPacketProcessor___c__DisplayClass28_0_2;
+template <typename T, typename TUserData> class NetPacketProcessor___c__DisplayClass28_0_2;
 }
 namespace LiteNetLib::Utils {
-template <typename T, typename TUserData>
-  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
-class NetPacketProcessor___c__DisplayClass29_0_2;
+template <typename T, typename TUserData> class NetPacketProcessor___c__DisplayClass29_0_2;
 }
 namespace LiteNetLib::Utils {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
-class NetPacketProcessor___c__DisplayClass30_0_1;
+template <typename T> class NetPacketProcessor___c__DisplayClass30_0_1;
 }
 namespace LiteNetLib::Utils {
-template <typename T, typename TUserData>
-  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
-class NetPacketProcessor___c__DisplayClass31_0_2;
+template <typename T, typename TUserData> class NetPacketProcessor___c__DisplayClass31_0_2;
 }
 namespace LiteNetLib::Utils {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
-class NetPacketProcessor___c__DisplayClass32_0_1;
+template <typename T> class NetPacketProcessor___c__DisplayClass32_0_1;
 }
 namespace LiteNetLib::Utils {
 class NetSerializer;
@@ -111,44 +95,28 @@ namespace LiteNetLib::Utils {
 class NetPacketProcessor_SubscribeDelegate;
 }
 namespace LiteNetLib::Utils {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NetPacketProcessor___c__DisplayClass25_0_1;
+template <typename T> class NetPacketProcessor___c__DisplayClass25_0_1;
 }
 namespace LiteNetLib::Utils {
-template <typename T, typename TUserData>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NetPacketProcessor___c__DisplayClass26_0_2;
+template <typename T, typename TUserData> class NetPacketProcessor___c__DisplayClass26_0_2;
 }
 namespace LiteNetLib::Utils {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NetPacketProcessor___c__DisplayClass27_0_1;
+template <typename T> class NetPacketProcessor___c__DisplayClass27_0_1;
 }
 namespace LiteNetLib::Utils {
-template <typename T, typename TUserData>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NetPacketProcessor___c__DisplayClass28_0_2;
+template <typename T, typename TUserData> class NetPacketProcessor___c__DisplayClass28_0_2;
 }
 namespace LiteNetLib::Utils {
-template <typename T, typename TUserData>
-  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
-class NetPacketProcessor___c__DisplayClass29_0_2;
+template <typename T, typename TUserData> class NetPacketProcessor___c__DisplayClass29_0_2;
 }
 namespace LiteNetLib::Utils {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
-class NetPacketProcessor___c__DisplayClass30_0_1;
+template <typename T> class NetPacketProcessor___c__DisplayClass30_0_1;
 }
 namespace LiteNetLib::Utils {
-template <typename T, typename TUserData>
-  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
-class NetPacketProcessor___c__DisplayClass31_0_2;
+template <typename T, typename TUserData> class NetPacketProcessor___c__DisplayClass31_0_2;
 }
 namespace LiteNetLib::Utils {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
-class NetPacketProcessor___c__DisplayClass32_0_1;
+template <typename T> class NetPacketProcessor___c__DisplayClass32_0_1;
 }
 // Write type traits
 MARK_REF_T(::LiteNetLib::Utils::NetPacketProcessor*);
@@ -266,7 +234,6 @@ static_assert(sizeof(::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate) 
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass25_0`1<T>
 class CORDL_TYPE NetPacketProcessor___c__DisplayClass25_0_1 : public ::System::Object {
@@ -342,7 +309,6 @@ public:
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T, typename TUserData>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass26_0`2<T,TUserData>
 class CORDL_TYPE NetPacketProcessor___c__DisplayClass26_0_2 : public ::System::Object {
@@ -418,7 +384,6 @@ public:
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass27_0`1<T>
 class CORDL_TYPE NetPacketProcessor___c__DisplayClass27_0_1 : public ::System::Object {
@@ -494,7 +459,6 @@ public:
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T, typename TUserData>
-  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass28_0`2<T,TUserData>
 class CORDL_TYPE NetPacketProcessor___c__DisplayClass28_0_2 : public ::System::Object {
@@ -566,11 +530,10 @@ public:
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // [CompilerGenerated]
-// Dependencies LiteNetLib.Utils.INetSerializable, System.Object
+// Dependencies System.Object
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T, typename TUserData>
-  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass29_0`2<T,TUserData>
 class CORDL_TYPE NetPacketProcessor___c__DisplayClass29_0_2 : public ::System::Object {
@@ -630,11 +593,10 @@ public:
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // [CompilerGenerated]
-// Dependencies LiteNetLib.Utils.INetSerializable, System.Object
+// Dependencies System.Object
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass30_0`1<T>
 class CORDL_TYPE NetPacketProcessor___c__DisplayClass30_0_1 : public ::System::Object {
@@ -694,11 +656,10 @@ public:
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // [CompilerGenerated]
-// Dependencies LiteNetLib.Utils.INetSerializable, System.Object
+// Dependencies System.Object
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T, typename TUserData>
-  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass31_0`2<T,TUserData>
 class CORDL_TYPE NetPacketProcessor___c__DisplayClass31_0_2 : public ::System::Object {
@@ -758,11 +719,10 @@ public:
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // [CompilerGenerated]
-// Dependencies LiteNetLib.Utils.INetSerializable, System.Object
+// Dependencies System.Object
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass32_0`1<T>
 class CORDL_TYPE NetPacketProcessor___c__DisplayClass32_0_1 : public ::System::Object {
@@ -832,37 +792,21 @@ public:
 
   using SubscribeDelegate = ::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate;
 
-  template <typename T>
-    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  using __c__DisplayClass25_0_1 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>;
+  template <typename T> using __c__DisplayClass25_0_1 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>;
 
-  template <typename T, typename TUserData>
-    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  using __c__DisplayClass26_0_2 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUserData>;
+  template <typename T, typename TUserData> using __c__DisplayClass26_0_2 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUserData>;
 
-  template <typename T>
-    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  using __c__DisplayClass27_0_1 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>;
+  template <typename T> using __c__DisplayClass27_0_1 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>;
 
-  template <typename T, typename TUserData>
-    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  using __c__DisplayClass28_0_2 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>;
+  template <typename T, typename TUserData> using __c__DisplayClass28_0_2 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>;
 
-  template <typename T, typename TUserData>
-    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
-  using __c__DisplayClass29_0_2 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass29_0_2<T, TUserData>;
+  template <typename T, typename TUserData> using __c__DisplayClass29_0_2 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass29_0_2<T, TUserData>;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
-  using __c__DisplayClass30_0_1 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>;
+  template <typename T> using __c__DisplayClass30_0_1 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>;
 
-  template <typename T, typename TUserData>
-    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
-  using __c__DisplayClass31_0_2 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2<T, TUserData>;
+  template <typename T, typename TUserData> using __c__DisplayClass31_0_2 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2<T, TUserData>;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
-  using __c__DisplayClass32_0_1 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>;
+  template <typename T> using __c__DisplayClass32_0_1 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>;
 
   /// @brief Field _callbacks, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__callbacks,

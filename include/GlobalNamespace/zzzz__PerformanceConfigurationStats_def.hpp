@@ -16,9 +16,7 @@ namespace GlobalNamespace {
 struct PerformanceConfigurationStats_BoolStats;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
-struct PerformanceConfigurationStats_EnumStats_1;
+template <typename T> struct PerformanceConfigurationStats_EnumStats_1;
 }
 namespace GlobalNamespace {
 struct PerformanceConfigurationStats_FloatStats;
@@ -34,9 +32,7 @@ namespace GlobalNamespace {
 struct PerformanceConfigurationStats_BoolStats;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
-struct PerformanceConfigurationStats_EnumStats_1;
+template <typename T> struct PerformanceConfigurationStats_EnumStats_1;
 }
 namespace GlobalNamespace {
 struct PerformanceConfigurationStats_FloatStats;
@@ -198,11 +194,10 @@ static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationStats_FloatSta
 static_assert(sizeof(::GlobalNamespace::PerformanceConfigurationStats_FloatStats) == 0x8, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.IConvertible
+// Dependencies
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
 // Is value type: true
 // CS Name: PerformanceConfigurationStats/EnumStats`1<T>
 struct CORDL_TYPE PerformanceConfigurationStats_EnumStats_1 {
@@ -245,9 +240,7 @@ public:
   // Declarations
   using BoolStats = ::GlobalNamespace::PerformanceConfigurationStats_BoolStats;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
-  using EnumStats_1 = ::GlobalNamespace::PerformanceConfigurationStats_EnumStats_1<T>;
+  template <typename T> using EnumStats_1 = ::GlobalNamespace::PerformanceConfigurationStats_EnumStats_1<T>;
 
   using FloatStats = ::GlobalNamespace::PerformanceConfigurationStats_FloatStats;
 

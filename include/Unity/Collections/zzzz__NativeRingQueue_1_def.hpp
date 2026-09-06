@@ -10,9 +10,7 @@ namespace System {
 class IDisposable;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct UnsafeRingQueue_1;
+template <typename T> struct UnsafeRingQueue_1;
 }
 namespace Unity::Collections {
 struct AllocatorManager_AllocatorHandle;
@@ -28,9 +26,7 @@ struct JobHandle;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeRingQueue_1;
+template <typename T> struct NativeRingQueue_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::NativeRingQueue_1);
@@ -43,7 +39,6 @@ DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeRingQueue_1, "Unity.Collecti
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeRingQueue`1<T>
 struct CORDL_TYPE NativeRingQueue_1 {

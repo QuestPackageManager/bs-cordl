@@ -54,9 +54,7 @@ namespace GlobalNamespace {
 struct OVRSceneManager_RoomLayoutUuids;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct OVRSceneManager__FetchAnchorsAsync_d__36_1;
+template <typename T> struct OVRSceneManager__FetchAnchorsAsync_d__36_1;
 }
 namespace GlobalNamespace {
 struct OVRSceneManager__FetchAnchorsAsync_d__37;
@@ -125,17 +123,13 @@ namespace System {
 struct Guid;
 }
 namespace System {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct Nullable_1;
+template <typename T> struct Nullable_1;
 }
 namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1;
+template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine {
 class GameObject;
@@ -184,9 +178,7 @@ namespace GlobalNamespace {
 struct OVRSceneManager_RoomLayoutUuids;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct OVRSceneManager__FetchAnchorsAsync_d__36_1;
+template <typename T> struct OVRSceneManager__FetchAnchorsAsync_d__36_1;
 }
 namespace GlobalNamespace {
 struct OVRSceneManager__FetchAnchorsAsync_d__37;
@@ -970,11 +962,10 @@ static_assert(sizeof(::GlobalNamespace::OVRSceneManager___c__DisplayClass54_0) =
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
-// Dependencies IOVRAnchorComponent`1<T>, OVRAnchor::FetchResult, OVRResult`2<TValue, TStatus>, OVRTaskBuilder`1<T>, OVRTask`1::Awaiter<TResult>
+// Dependencies OVRAnchor::FetchResult, OVRResult`2<TValue, TStatus>, OVRTaskBuilder`1<T>, OVRTask`1::Awaiter<TResult>
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: OVRSceneManager/<FetchAnchorsAsync>d__36`1<T>
 struct CORDL_TYPE OVRSceneManager__FetchAnchorsAsync_d__36_1 {
@@ -1659,9 +1650,7 @@ public:
 
   using RoomLayoutUuids = ::GlobalNamespace::OVRSceneManager_RoomLayoutUuids;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  using _FetchAnchorsAsync_d__36_1 = ::GlobalNamespace::OVRSceneManager__FetchAnchorsAsync_d__36_1<T>;
+  template <typename T> using _FetchAnchorsAsync_d__36_1 = ::GlobalNamespace::OVRSceneManager__FetchAnchorsAsync_d__36_1<T>;
 
   using _FetchAnchorsAsync_d__37 = ::GlobalNamespace::OVRSceneManager__FetchAnchorsAsync_d__37;
 

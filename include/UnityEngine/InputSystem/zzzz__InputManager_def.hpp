@@ -63,9 +63,7 @@ namespace System {
 class IDisposable;
 }
 namespace System {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct Nullable_1;
+template <typename T> struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -146,9 +144,7 @@ namespace UnityEngine::InputSystem {
 struct InputControlLayoutChange;
 }
 namespace UnityEngine::InputSystem {
-template <typename TControl>
-  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
-struct InputControlList_1;
+template <typename TControl> struct InputControlList_1;
 }
 namespace UnityEngine::InputSystem {
 class InputControl;
@@ -184,9 +180,7 @@ namespace UnityEngine::InputSystem {
 class InputManager___c;
 }
 namespace UnityEngine::InputSystem {
-template <typename TDevice>
-  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*> && ::cordl_internals::default_constructor_constraint<TDevice>)
-class InputManager___c__82_1;
+template <typename TDevice> class InputManager___c__82_1;
 }
 namespace UnityEngine::InputSystem {
 struct InputSettings_ScrollDeltaBehavior;
@@ -208,9 +202,7 @@ namespace UnityEngine::InputSystem {
 class InputManager___c;
 }
 namespace UnityEngine::InputSystem {
-template <typename TDevice>
-  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*> && ::cordl_internals::default_constructor_constraint<TDevice>)
-class InputManager___c__82_1;
+template <typename TDevice> class InputManager___c__82_1;
 }
 namespace UnityEngine::InputSystem {
 struct InputManager_AvailableDevice;
@@ -586,11 +578,10 @@ static_assert(sizeof(::UnityEngine::InputSystem::InputManager___c) == 0x10, "Siz
 
 } // namespace UnityEngine::InputSystem
 // [CompilerGenerated]
-// Dependencies System.Object, UnityEngine.InputSystem.InputDevice
+// Dependencies System.Object
 namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TDevice>
-  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*> && ::cordl_internals::default_constructor_constraint<TDevice>)
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.InputManager/<>c__82`1<TDevice>
 class CORDL_TYPE InputManager___c__82_1 : public ::System::Object {
@@ -935,9 +926,7 @@ public:
 
   using __c = ::UnityEngine::InputSystem::InputManager___c;
 
-  template <typename TDevice>
-    requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*> && ::cordl_internals::default_constructor_constraint<TDevice>)
-  using __c__82_1 = ::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>;
+  template <typename TDevice> using __c__82_1 = ::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>;
 
   __declspec(property(get = get_actions, put = set_actions)) ::UnityW<::UnityEngine::InputSystem::InputActionAsset> actions;
 

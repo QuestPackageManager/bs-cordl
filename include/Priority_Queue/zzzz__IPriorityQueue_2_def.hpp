@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IComparable_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IPriorityQueue_2)
 namespace System::Collections::Generic {
@@ -14,19 +13,16 @@ class IEnumerable;
 }
 // Forward declare root types
 namespace Priority_Queue {
-template <typename TItem, typename TPriority>
-  requires(::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
-class IPriorityQueue_2;
+template <typename TItem, typename TPriority> class IPriorityQueue_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Priority_Queue::IPriorityQueue_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Priority_Queue::IPriorityQueue_2, "Priority_Queue", "IPriorityQueue`2");
 // [NullableContext(1)]
-// Dependencies System.IComparable`1<T>
+// Dependencies
 namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
-  requires(::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
 // Is value type: false
 // CS Name: Priority_Queue.IPriorityQueue`2<TItem,TPriority>
 class CORDL_TYPE IPriorityQueue_2 {

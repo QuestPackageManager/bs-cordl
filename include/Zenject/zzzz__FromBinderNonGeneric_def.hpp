@@ -36,9 +36,7 @@ namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-template <typename TConcrete, typename TFactory>
-  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TConcrete>*>)
-class FromBinderNonGeneric___c__1_2;
+template <typename TConcrete, typename TFactory> class FromBinderNonGeneric___c__1_2;
 }
 namespace Zenject {
 template <typename TValue> class IFactory_1;
@@ -60,9 +58,7 @@ namespace Zenject {
 class FromBinderNonGeneric;
 }
 namespace Zenject {
-template <typename TConcrete, typename TFactory>
-  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TConcrete>*>)
-class FromBinderNonGeneric___c__1_2;
+template <typename TConcrete, typename TFactory> class FromBinderNonGeneric___c__1_2;
 }
 // Write type traits
 MARK_REF_T(::Zenject::FromBinderNonGeneric*);
@@ -70,11 +66,10 @@ MARK_GEN_REF_T_PTR(::Zenject::FromBinderNonGeneric___c__1_2);
 DEFINE_IL2CPP_CLASS(::Zenject::FromBinderNonGeneric*, "Zenject", "FromBinderNonGeneric");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FromBinderNonGeneric___c__1_2, "Zenject", "FromBinderNonGeneric/<>c__1`2");
 // [CompilerGenerated]
-// Dependencies System.Object, Zenject.IFactory`1<TValue>
+// Dependencies System.Object
 namespace Zenject {
 // cpp template
 template <typename TConcrete, typename TFactory>
-  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TConcrete>*>)
 // Is value type: false
 // CS Name: Zenject.FromBinderNonGeneric/<>c__1`2<TConcrete,TFactory>
 class CORDL_TYPE FromBinderNonGeneric___c__1_2 : public ::System::Object {
@@ -138,9 +133,7 @@ namespace Zenject {
 class CORDL_TYPE FromBinderNonGeneric : public ::Zenject::FromBinder {
 public:
   // Declarations
-  template <typename TConcrete, typename TFactory>
-    requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TConcrete>*>)
-  using __c__1_2 = ::Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>;
+  template <typename TConcrete, typename TFactory> using __c__1_2 = ::Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>;
 
   /// @brief Method FromComponentsInChildren, addr 0x6e5cb80, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInChildren(bool excludeSelf, ::System::Func_2<::UnityW<::UnityEngine::Component>, bool>* predicate,

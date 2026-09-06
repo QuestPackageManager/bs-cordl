@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Nullable_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ReusableCollectionItem_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VerticalVirtualizationController_1_def.hpp"
 #include <cmath>
 #include <cstdint>
@@ -20,18 +19,15 @@ struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::ReusableCollectionItem*> && ::cordl_internals::default_constructor_constraint<T>)
-class FixedHeightVirtualizationController_1;
+template <typename T> class FixedHeightVirtualizationController_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::FixedHeightVirtualizationController_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::FixedHeightVirtualizationController_1, "UnityEngine.UIElements", "FixedHeightVirtualizationController`1");
-// Dependencies System.Nullable`1<T>, UnityEngine.UIElements.ReusableCollectionItem, UnityEngine.UIElements.VerticalVirtualizationController`1<T>
+// Dependencies System.Nullable`1<T>, UnityEngine.UIElements.VerticalVirtualizationController`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::ReusableCollectionItem*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.FixedHeightVirtualizationController`1<T>
 class CORDL_TYPE FixedHeightVirtualizationController_1 : public ::UnityEngine::UIElements::VerticalVirtualizationController_1<T> {

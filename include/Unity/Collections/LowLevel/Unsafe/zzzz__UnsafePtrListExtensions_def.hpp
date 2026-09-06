@@ -9,14 +9,10 @@ namespace System {
 struct IntPtr;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct UnsafeList_1;
+template <typename T> struct UnsafeList_1;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct UnsafePtrList_1;
+template <typename T> struct UnsafePtrList_1;
 }
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe {

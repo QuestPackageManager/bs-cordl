@@ -30,9 +30,7 @@ namespace System {
 class IDisposable;
 }
 namespace System {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct Nullable_1;
+template <typename T> struct Nullable_1;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
@@ -44,23 +42,17 @@ namespace Unity::Collections {
 struct Allocator;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1_Enumerator;
+template <typename T> struct NativeArray_1_Enumerator;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1;
+template <typename T> struct NativeArray_1;
 }
 namespace Unity::Jobs {
 struct JobHandle;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct OVRNativeList_1;
+template <typename T> struct OVRNativeList_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::GlobalNamespace::OVRNativeList_1);
@@ -70,7 +62,6 @@ DEFINE_IL2CPP_GEN_CLASS(::GlobalNamespace::OVRNativeList_1, "", "OVRNativeList`1
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: OVRNativeList`1<T>
 struct CORDL_TYPE OVRNativeList_1 {

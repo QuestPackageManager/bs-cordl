@@ -20,67 +20,51 @@
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__ScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
 template <typename TConcrete, typename TFactory>
-  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TConcrete>*>)
 inline void Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>::setStaticF___9(::Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>* value) {
   ::cordl_internals::setStaticField<::Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>*, "<>9", ::Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>*>(
       std::forward<::Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>*>(value));
 }
-template <typename TConcrete, typename TFactory>
-  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TConcrete>*>)
-inline ::Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>* Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>::getStaticF___9() {
+template <typename TConcrete, typename TFactory> inline ::Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>* Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>::getStaticF___9() {
   return ::cordl_internals::getStaticField<::Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>*, "<>9", ::Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>*>();
 }
 template <typename TConcrete, typename TFactory>
-  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TConcrete>*>)
 inline void Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>::setStaticF___9__1_0(::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TConcrete>*>*>* value) {
   ::cordl_internals::setStaticField<::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TConcrete>*>*>*, "<>9__1_0",
                                     ::Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>*>(
       std::forward<::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TConcrete>*>*>*>(value));
 }
 template <typename TConcrete, typename TFactory>
-  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TConcrete>*>)
 inline ::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TConcrete>*>*>* Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>::getStaticF___9__1_0() {
   return ::cordl_internals::getStaticField<::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TConcrete>*>*>*, "<>9__1_0",
                                            ::Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>*>();
 }
-template <typename TConcrete, typename TFactory>
-  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TConcrete>*>)
-inline void Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>::_ctor() {
+template <typename TConcrete, typename TFactory> inline void Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TConcrete, typename TFactory>
-  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TConcrete>*>)
 inline void Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>::_FromFactory_b__1_0(::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TConcrete>*>* x) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>*>(),
                                                            { "<FromFactory>b__1_0", {}, { ::i2c::type_of<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TConcrete>*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, x);
 }
-template <typename TConcrete, typename TFactory>
-  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TConcrete>*>)
-inline ::System::Object* Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>::__zenCreate(::ArrayW<::System::Object*> P_0) {
+template <typename TConcrete, typename TFactory> inline ::System::Object* Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>::__zenCreate(::ArrayW<::System::Object*> P_0) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>*>(), { "__zenCreate", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, P_0);
 }
-template <typename TConcrete, typename TFactory>
-  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TConcrete>*>)
-inline ::Zenject::InjectTypeInfo* Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>::__zenCreateInjectTypeInfo() {
+template <typename TConcrete, typename TFactory> inline ::Zenject::InjectTypeInfo* Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>::__zenCreateInjectTypeInfo() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
-template <typename TConcrete, typename TFactory>
-  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TConcrete>*>)
-inline ::Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>* Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>::New_ctor() {
+template <typename TConcrete, typename TFactory> inline ::Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>* Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>*>());
 }
 // Ctor Parameters []
-template <typename TConcrete, typename TFactory>
-  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TConcrete>*>)
-constexpr ::Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>::FromBinderNonGeneric___c__1_2() {}
+template <typename TConcrete, typename TFactory> constexpr ::Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>::FromBinderNonGeneric___c__1_2() {}
 //  Writing Method size for method: ::Zenject::FromBinderNonGeneric._ctor
 template <>
 

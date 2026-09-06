@@ -17,9 +17,7 @@ template <typename TResult> class Func_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class ImplicitPool_1;
+template <typename T> class ImplicitPool_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::UIR::ImplicitPool_1);
@@ -28,7 +26,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::UIR::ImplicitPool_1, "Uni
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UIR.ImplicitPool`1<T>
 class CORDL_TYPE ImplicitPool_1 : public ::System::Object {

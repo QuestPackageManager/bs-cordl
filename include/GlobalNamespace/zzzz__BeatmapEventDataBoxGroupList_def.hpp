@@ -22,9 +22,7 @@ namespace GlobalNamespace {
 class IBeatmapLightEventConverter;
 }
 namespace GlobalNamespace {
-template <typename T, typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::System::IComparable_1<TBase>*> && ::cordl_internals::reference_type_constraint<TBase>)
-class SortedList_2;
+template <typename T, typename TBase> class SortedList_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;

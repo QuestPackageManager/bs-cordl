@@ -3,25 +3,19 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Zenject/zzzz__IPoolable_1_def.hpp"
 #include "Zenject/zzzz__StaticMemoryPool_2_def.hpp"
 CORDL_MODULE_EXPORT(PoolableStaticMemoryPool_2)
 // Forward declare root types
 namespace Zenject {
-template <typename TParam1, typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_1<TParam1>*> && ::cordl_internals::reference_type_constraint<TValue> &&
-           ::cordl_internals::default_constructor_constraint<TValue>)
-class PoolableStaticMemoryPool_2;
+template <typename TParam1, typename TValue> class PoolableStaticMemoryPool_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::PoolableStaticMemoryPool_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::PoolableStaticMemoryPool_2, "Zenject", "PoolableStaticMemoryPool`2");
-// Dependencies Zenject.IPoolable`1<TParam1>, Zenject.StaticMemoryPool`2<TParam1, TValue>
+// Dependencies Zenject.StaticMemoryPool`2<TParam1, TValue>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_1<TParam1>*> && ::cordl_internals::reference_type_constraint<TValue> &&
-           ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: false
 // CS Name: Zenject.PoolableStaticMemoryPool`2<TParam1,TValue>
 class CORDL_TYPE PoolableStaticMemoryPool_2 : public ::Zenject::StaticMemoryPool_2<TParam1, TValue> {

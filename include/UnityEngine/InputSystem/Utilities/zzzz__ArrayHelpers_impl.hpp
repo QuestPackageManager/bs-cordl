@@ -13,48 +13,35 @@
 #include "Unity/Collections/zzzz__Allocator_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ArrayHelpers_def.hpp"
-template <typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IEquatable_1<TValue>*>)
-constexpr TValue& UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>::__cordl_internal_get_secondValue() {
+template <typename TValue> constexpr TValue& UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>::__cordl_internal_get_secondValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___secondValue;
 }
-template <typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IEquatable_1<TValue>*>)
-constexpr TValue const& UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>::__cordl_internal_get_secondValue() const {
+template <typename TValue> constexpr TValue const& UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>::__cordl_internal_get_secondValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___secondValue;
 }
-template <typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IEquatable_1<TValue>*>)
-constexpr void UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>::__cordl_internal_set_secondValue(TValue value) {
+template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>::__cordl_internal_set_secondValue(TValue value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___secondValue = value;
 }
-template <typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IEquatable_1<TValue>*>)
-inline void UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>::_ctor() {
+template <typename TValue> inline void UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IEquatable_1<TValue>*>)
-inline bool UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>::_Merge_b__0(TValue x) {
+template <typename TValue> inline bool UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>::_Merge_b__0(TValue x) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>*>(), { "<Merge>b__0", {}, { ::i2c::type_of<TValue>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, x);
 }
 template <typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IEquatable_1<TValue>*>)
 inline ::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>* UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>*>());
 }
 // Ctor Parameters []
-template <typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IEquatable_1<TValue>*>)
-constexpr ::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>::ArrayHelpers___c__DisplayClass33_0_1() {}
+template <typename TValue> constexpr ::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>::ArrayHelpers___c__DisplayClass33_0_1() {}
 template <typename TValue>
 constexpr ::System::Collections::Generic::IEqualityComparer_1<TValue>*& UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass34_0_1<TValue>::__cordl_internal_get_comparer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

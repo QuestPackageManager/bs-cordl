@@ -9,9 +9,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NodePoseSyncStateDeltaNetSerializable)
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IPoolablePacket*>)
-class IPacketPool_1;
+template <typename T> class IPacketPool_1;
 }
 namespace GlobalNamespace {
 class IPoolablePacket;

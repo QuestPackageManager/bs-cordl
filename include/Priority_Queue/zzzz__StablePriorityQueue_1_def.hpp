@@ -3,26 +3,19 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Priority_Queue/zzzz__StablePriorityQueueNode_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StablePriorityQueue_1)
 namespace Priority_Queue {
-template <typename TItem, typename TPriority>
-  requires(::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
-class IFixedSizePriorityQueue_2;
+template <typename TItem, typename TPriority> class IFixedSizePriorityQueue_2;
 }
 namespace Priority_Queue {
-template <typename TItem, typename TPriority>
-  requires(::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
-class IPriorityQueue_2;
+template <typename TItem, typename TPriority> class IPriorityQueue_2;
 }
 namespace Priority_Queue {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Priority_Queue::StablePriorityQueueNode*>)
-class StablePriorityQueue_1__GetEnumerator_d__22;
+template <typename T> class StablePriorityQueue_1__GetEnumerator_d__22;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -44,14 +37,10 @@ class Object;
 }
 // Forward declare root types
 namespace Priority_Queue {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Priority_Queue::StablePriorityQueueNode*>)
-class StablePriorityQueue_1;
+template <typename T> class StablePriorityQueue_1;
 }
 namespace Priority_Queue {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Priority_Queue::StablePriorityQueueNode*>)
-class StablePriorityQueue_1__GetEnumerator_d__22;
+template <typename T> class StablePriorityQueue_1__GetEnumerator_d__22;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Priority_Queue::StablePriorityQueue_1);
@@ -59,11 +48,10 @@ MARK_GEN_REF_T_PTR(::Priority_Queue::StablePriorityQueue_1__GetEnumerator_d__22)
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Priority_Queue::StablePriorityQueue_1, "Priority_Queue", "StablePriorityQueue`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Priority_Queue::StablePriorityQueue_1__GetEnumerator_d__22, "Priority_Queue", "StablePriorityQueue`1/<GetEnumerator>d__22");
 // [CompilerGenerated]
-// Dependencies Priority_Queue.StablePriorityQueueNode, System.Object
+// Dependencies System.Object
 namespace Priority_Queue {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Priority_Queue::StablePriorityQueueNode*>)
 // Is value type: false
 // CS Name: Priority_Queue.StablePriorityQueue`1/<GetEnumerator>d__22<T>
 class CORDL_TYPE StablePriorityQueue_1__GetEnumerator_d__22 : public ::System::Object {
@@ -189,11 +177,10 @@ public:
 } // namespace Priority_Queue
 // [NullableContext(1)]
 // [Nullable(0)]
-// Dependencies Priority_Queue.StablePriorityQueueNode, System.Object
+// Dependencies System.Object
 namespace Priority_Queue {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Priority_Queue::StablePriorityQueueNode*>)
 // Is value type: false
 // CS Name: Priority_Queue.StablePriorityQueue`1<T>
 class CORDL_TYPE StablePriorityQueue_1 : public ::System::Object {

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ExpiringDictionary_2)
@@ -11,14 +10,10 @@ namespace BGNet::Core {
 class ITimeProvider;
 }
 namespace GlobalNamespace {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IDisposable*>)
-class ExpiringDictionary_2_Entry;
+template <typename TKey, typename TValue> class ExpiringDictionary_2_Entry;
 }
 namespace GlobalNamespace {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IDisposable*>)
-class ExpiringDictionary_2__Enumerate_d__14;
+template <typename TKey, typename TValue> class ExpiringDictionary_2__Enumerate_d__14;
 }
 namespace GlobalNamespace {
 template <typename T> class OrderedSet_1;
@@ -49,19 +44,13 @@ class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IDisposable*>)
-class ExpiringDictionary_2;
+template <typename TKey, typename TValue> class ExpiringDictionary_2;
 }
 namespace GlobalNamespace {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IDisposable*>)
-class ExpiringDictionary_2_Entry;
+template <typename TKey, typename TValue> class ExpiringDictionary_2_Entry;
 }
 namespace GlobalNamespace {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IDisposable*>)
-class ExpiringDictionary_2__Enumerate_d__14;
+template <typename TKey, typename TValue> class ExpiringDictionary_2__Enumerate_d__14;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::ExpiringDictionary_2);
@@ -70,11 +59,10 @@ MARK_GEN_REF_T_PTR(::GlobalNamespace::ExpiringDictionary_2__Enumerate_d__14);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::ExpiringDictionary_2, "", "ExpiringDictionary`2");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::ExpiringDictionary_2_Entry, "", "ExpiringDictionary`2/Entry");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::ExpiringDictionary_2__Enumerate_d__14, "", "ExpiringDictionary`2/<Enumerate>d__14");
-// Dependencies System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IDisposable*>)
 // Is value type: false
 // CS Name: ExpiringDictionary`2/Entry<TKey,TValue>
 class CORDL_TYPE ExpiringDictionary_2_Entry : public ::System::Object {
@@ -152,11 +140,10 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // [CompilerGenerated]
-// Dependencies System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IDisposable*>)
 // Is value type: false
 // CS Name: ExpiringDictionary`2/<Enumerate>d__14<TKey,TValue>
 class CORDL_TYPE ExpiringDictionary_2__Enumerate_d__14 : public ::System::Object {
@@ -284,11 +271,10 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // [DefaultMember("Item")]
-// Dependencies System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IDisposable*>)
 // Is value type: false
 // CS Name: ExpiringDictionary`2<TKey,TValue>
 class CORDL_TYPE ExpiringDictionary_2 : public ::System::Object {

@@ -14,9 +14,7 @@ class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering::Universal {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct PinnedArray_1;
+template <typename T> struct PinnedArray_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::Rendering::Universal::PinnedArray_1);
@@ -25,7 +23,6 @@ DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::Rendering::Universal::PinnedArray_1, "Uni
 namespace UnityEngine::Rendering::Universal {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.Rendering.Universal.PinnedArray`1<T>
 struct CORDL_TYPE PinnedArray_1 {

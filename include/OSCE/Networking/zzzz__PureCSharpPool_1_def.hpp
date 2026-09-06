@@ -3,38 +3,30 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "OSCE/Networking/zzzz__IPureCSharpPoolElement_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PureCSharpPool_1)
 namespace OSCE::Networking {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::OSCE::Networking::IPureCSharpPoolElement*> && ::cordl_internals::default_constructor_constraint<T>)
-class PureCSharpPool_1_DebugTrace;
+template <typename T> class PureCSharpPool_1_DebugTrace;
 }
 // Forward declare root types
 namespace OSCE::Networking {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::OSCE::Networking::IPureCSharpPoolElement*> && ::cordl_internals::default_constructor_constraint<T>)
-class PureCSharpPool_1;
+template <typename T> class PureCSharpPool_1;
 }
 namespace OSCE::Networking {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::OSCE::Networking::IPureCSharpPoolElement*> && ::cordl_internals::default_constructor_constraint<T>)
-class PureCSharpPool_1_DebugTrace;
+template <typename T> class PureCSharpPool_1_DebugTrace;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::OSCE::Networking::PureCSharpPool_1);
 MARK_GEN_REF_T_PTR(::OSCE::Networking::PureCSharpPool_1_DebugTrace);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::OSCE::Networking::PureCSharpPool_1, "OSCE.Networking", "PureCSharpPool`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::OSCE::Networking::PureCSharpPool_1_DebugTrace, "OSCE.Networking", "PureCSharpPool`1/DebugTrace");
-// Dependencies OSCE.Networking.IPureCSharpPoolElement, System.Object
+// Dependencies System.Object
 namespace OSCE::Networking {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::OSCE::Networking::IPureCSharpPoolElement*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: OSCE.Networking.PureCSharpPool`1/DebugTrace<T>
 class CORDL_TYPE PureCSharpPool_1_DebugTrace : public ::System::Object {
@@ -90,11 +82,10 @@ public:
 };
 // Non member Declarations
 } // namespace OSCE::Networking
-// Dependencies OSCE.Networking.IPureCSharpPoolElement, System.Object
+// Dependencies System.Object
 namespace OSCE::Networking {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::OSCE::Networking::IPureCSharpPoolElement*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: OSCE.Networking.PureCSharpPool`1<T>
 class CORDL_TYPE PureCSharpPool_1 : public ::System::Object {

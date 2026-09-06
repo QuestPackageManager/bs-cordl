@@ -6,9 +6,7 @@ CORDL_MODULE_INIT
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 CORDL_MODULE_EXPORT(ICollectionPropertyBagVisitor)
 namespace Unity::Properties {
-template <typename TCollection, typename TElement>
-  requires(::cordl_internals::type_constraint<TCollection, ::System::Collections::Generic::ICollection_1<TElement>*>)
-class ICollectionPropertyBag_2;
+template <typename TCollection, typename TElement> class ICollectionPropertyBag_2;
 }
 // Forward declare root types
 namespace Unity::Properties {

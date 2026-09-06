@@ -51,14 +51,10 @@ namespace UnityEngine::InputSystem::EnhancedTouch {
 class Touch___c;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-template <typename TValue>
-  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-struct InputStateHistory_1_Record;
+template <typename TValue> struct InputStateHistory_1_Record;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-template <typename TValue>
-  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-class InputStateHistory_1;
+template <typename TValue> class InputStateHistory_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct TouchState;
@@ -70,9 +66,7 @@ namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct ReadOnlyArray_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class SavedStructState_1_TypedRestore;
+template <typename T> class SavedStructState_1_TypedRestore;
 }
 namespace UnityEngine::InputSystem {
 struct TouchPhase;

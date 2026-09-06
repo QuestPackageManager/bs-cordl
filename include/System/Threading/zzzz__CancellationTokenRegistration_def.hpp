@@ -14,9 +14,7 @@ namespace System::Threading {
 class CancellationCallbackInfo;
 }
 namespace System::Threading {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-struct SparselyPopulatedArrayAddInfo_1;
+template <typename T> struct SparselyPopulatedArrayAddInfo_1;
 }
 namespace System {
 class IAsyncDisposable;

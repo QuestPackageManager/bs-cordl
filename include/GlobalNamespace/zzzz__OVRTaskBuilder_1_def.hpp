@@ -15,9 +15,7 @@ namespace GlobalNamespace {
 class OVRObjectPool_IPoolObject;
 }
 namespace GlobalNamespace {
-template <typename T, typename TStateMachine>
-  requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
-class OVRTaskBuilder_1_PooledStateMachine_1;
+template <typename T, typename TStateMachine> class OVRTaskBuilder_1_PooledStateMachine_1;
 }
 namespace GlobalNamespace {
 template <typename T> class OVRTaskBuilder_1_PooledStateMachine;
@@ -42,9 +40,7 @@ namespace GlobalNamespace {
 template <typename T> class OVRTaskBuilder_1_PooledStateMachine;
 }
 namespace GlobalNamespace {
-template <typename T, typename TStateMachine>
-  requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
-class OVRTaskBuilder_1_PooledStateMachine_1;
+template <typename T, typename TStateMachine> class OVRTaskBuilder_1_PooledStateMachine_1;
 }
 namespace GlobalNamespace {
 template <typename T> struct OVRTaskBuilder_1;
@@ -124,11 +120,10 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies OVRTaskBuilder`1::PooledStateMachine<T>, System.Runtime.CompilerServices.IAsyncStateMachine
+// Dependencies OVRTaskBuilder`1::PooledStateMachine<T>
 namespace GlobalNamespace {
 // cpp template
 template <typename T, typename TStateMachine>
-  requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
 // Is value type: false
 // CS Name: OVRTaskBuilder`1/PooledStateMachine`1<T,TStateMachine>
 class CORDL_TYPE OVRTaskBuilder_1_PooledStateMachine_1 : public ::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine<T> {
@@ -205,9 +200,7 @@ public:
   // Declarations
   using PooledStateMachine = ::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine<T>;
 
-  template <typename TStateMachine>
-    requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
-  using PooledStateMachine_1 = ::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>;
+  template <typename TStateMachine> using PooledStateMachine_1 = ::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>;
 
   __declspec(property(get = get_Task)) ::GlobalNamespace::OVRTask_1<T> Task;
 

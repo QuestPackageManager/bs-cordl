@@ -15,51 +15,40 @@
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 template <typename T, typename TDomainModel>
-  requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
 inline void BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1<T, TDomainModel>::setStaticF___9(::BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1<T, TDomainModel>* value) {
   ::cordl_internals::setStaticField<::BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1<T, TDomainModel>*, "<>9", ::BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1<T, TDomainModel>*>(
       std::forward<::BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1<T, TDomainModel>*>(value));
 }
 template <typename T, typename TDomainModel>
-  requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
 inline ::BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1<T, TDomainModel>* BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1<T, TDomainModel>::getStaticF___9() {
   return ::cordl_internals::getStaticField<::BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1<T, TDomainModel>*, "<>9", ::BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1<T, TDomainModel>*>();
 }
 template <typename T, typename TDomainModel>
-  requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
 inline void BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1<T, TDomainModel>::setStaticF___9__12_0(::System::Func_2<::System::Threading::Tasks::Task_1<T>*, TDomainModel>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::System::Threading::Tasks::Task_1<T>*, TDomainModel>*, "<>9__12_0", ::BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1<T, TDomainModel>*>(
       std::forward<::System::Func_2<::System::Threading::Tasks::Task_1<T>*, TDomainModel>*>(value));
 }
 template <typename T, typename TDomainModel>
-  requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
 inline ::System::Func_2<::System::Threading::Tasks::Task_1<T>*, TDomainModel>* BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1<T, TDomainModel>::getStaticF___9__12_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::System::Threading::Tasks::Task_1<T>*, TDomainModel>*, "<>9__12_0",
                                            ::BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1<T, TDomainModel>*>();
 }
-template <typename T, typename TDomainModel>
-  requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
-inline void BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1<T, TDomainModel>::_ctor() {
+template <typename T, typename TDomainModel> inline void BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1<T, TDomainModel>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1<T, TDomainModel>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T, typename TDomainModel>
-  requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
-inline TDomainModel BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1<T, TDomainModel>::_Query_b__12_0(::System::Threading::Tasks::Task_1<T>* result) {
+template <typename T, typename TDomainModel> inline TDomainModel BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1<T, TDomainModel>::_Query_b__12_0(::System::Threading::Tasks::Task_1<T>* result) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1<T, TDomainModel>*>(),
                                                                                          { "<Query>b__12_0", {}, { ::i2c::type_of<::System::Threading::Tasks::Task_1<T>*>() } })));
   return ::cordl_internals::RunMethodRethrow<TDomainModel>(this, ___internal_method, result);
 }
 template <typename T, typename TDomainModel>
-  requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
 inline ::BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1<T, TDomainModel>* BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1<T, TDomainModel>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1<T, TDomainModel>*>());
 }
 // Ctor Parameters []
-template <typename T, typename TDomainModel>
-  requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
-constexpr ::BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1<T, TDomainModel>::MockGraphQLClient_1___c__12_1() {}
+template <typename T, typename TDomainModel> constexpr ::BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1<T, TDomainModel>::MockGraphQLClient_1___c__12_1() {}
 template <typename T> constexpr T& BeatSaber::GraphQL::MockGraphQLClient_1<T>::__cordl_internal_get_QueryResult() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___QueryResult;

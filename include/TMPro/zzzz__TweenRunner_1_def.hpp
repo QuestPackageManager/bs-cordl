@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "TMPro/zzzz__ITweenValue_def.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TweenRunner_1)
@@ -21,23 +20,17 @@ namespace System {
 class Object;
 }
 namespace TMPro {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::TMPro::ITweenValue*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class TweenRunner_1__Start_d__2;
+template <typename T> class TweenRunner_1__Start_d__2;
 }
 namespace UnityEngine {
 class MonoBehaviour;
 }
 // Forward declare root types
 namespace TMPro {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::TMPro::ITweenValue*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class TweenRunner_1;
+template <typename T> class TweenRunner_1;
 }
 namespace TMPro {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::TMPro::ITweenValue*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class TweenRunner_1__Start_d__2;
+template <typename T> class TweenRunner_1__Start_d__2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::TMPro::TweenRunner_1);
@@ -45,11 +38,10 @@ MARK_GEN_REF_T_PTR(::TMPro::TweenRunner_1__Start_d__2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::TMPro::TweenRunner_1, "TMPro", "TweenRunner`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::TMPro::TweenRunner_1__Start_d__2, "TMPro", "TweenRunner`1/<Start>d__2");
 // [CompilerGenerated]
-// Dependencies System.Object, TMPro.ITweenValue
+// Dependencies System.Object
 namespace TMPro {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::TMPro::ITweenValue*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: TMPro.TweenRunner`1/<Start>d__2<T>
 class CORDL_TYPE TweenRunner_1__Start_d__2 : public ::System::Object {
@@ -172,11 +164,10 @@ public:
 };
 // Non member Declarations
 } // namespace TMPro
-// Dependencies System.Object, TMPro.ITweenValue
+// Dependencies System.Object
 namespace TMPro {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::TMPro::ITweenValue*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: TMPro.TweenRunner`1<T>
 class CORDL_TYPE TweenRunner_1 : public ::System::Object {

@@ -75,9 +75,7 @@ namespace UnityEngine::InputSystem {
 class InputControlExtensions__GetAllButtonPresses_d__43;
 }
 namespace UnityEngine::InputSystem {
-template <typename TValue>
-  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-class InputControl_1;
+template <typename TValue> class InputControl_1;
 }
 namespace UnityEngine::InputSystem {
 class InputControl;

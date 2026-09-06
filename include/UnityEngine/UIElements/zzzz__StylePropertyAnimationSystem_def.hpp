@@ -42,9 +42,7 @@ namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
 }
 namespace UnityEngine::Pool {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class ObjectPool_1;
+template <typename T> class ObjectPool_1;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyId;

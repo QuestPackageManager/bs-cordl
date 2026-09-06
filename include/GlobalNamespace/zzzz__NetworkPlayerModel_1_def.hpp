@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BaseNetworkPlayerModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectionManager_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayerModel_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -33,14 +32,10 @@ namespace GlobalNamespace {
 class IBeatSaberConnectedPlayer;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*>)
-class IConnectionInitParams_1;
+template <typename T> class IConnectionInitParams_1;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::INetworkPlayerModel*>)
-class INetworkPlayerModelPartyConfig_1;
+template <typename T> class INetworkPlayerModelPartyConfig_1;
 }
 namespace GlobalNamespace {
 class INetworkPlayerModel;
@@ -49,44 +44,28 @@ namespace GlobalNamespace {
 class INetworkPlayer;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NetworkPlayerModel_1_JoinMatchmakingPartyConfig;
+template <typename T> class NetworkPlayerModel_1_JoinMatchmakingPartyConfig;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NetworkPlayerModel_1_NetworkPlayer;
+template <typename T> class NetworkPlayerModel_1_NetworkPlayer;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NetworkPlayerModel_1_NetworkServer;
+template <typename T> class NetworkPlayerModel_1_NetworkServer;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NetworkPlayerModel_1_StartClientPartyConfig;
+template <typename T> class NetworkPlayerModel_1_StartClientPartyConfig;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NetworkPlayerModel_1__GetOtherPlayers_d__61;
+template <typename T> class NetworkPlayerModel_1__GetOtherPlayers_d__61;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NetworkPlayerModel_1__GetPartyPlayers_d__60;
+template <typename T> class NetworkPlayerModel_1__GetPartyPlayers_d__60;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NetworkPlayerModel_1___c__DisplayClass62_0;
+template <typename T> class NetworkPlayerModel_1___c__DisplayClass62_0;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NetworkPlayerModel_1___c;
+template <typename T> class NetworkPlayerModel_1___c;
 }
 namespace GlobalNamespace {
 struct PublicServerInfo;
@@ -132,49 +111,31 @@ class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NetworkPlayerModel_1;
+template <typename T> class NetworkPlayerModel_1;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NetworkPlayerModel_1_JoinMatchmakingPartyConfig;
+template <typename T> class NetworkPlayerModel_1_JoinMatchmakingPartyConfig;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NetworkPlayerModel_1_NetworkPlayer;
+template <typename T> class NetworkPlayerModel_1_NetworkPlayer;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NetworkPlayerModel_1_NetworkServer;
+template <typename T> class NetworkPlayerModel_1_NetworkServer;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NetworkPlayerModel_1_StartClientPartyConfig;
+template <typename T> class NetworkPlayerModel_1_StartClientPartyConfig;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NetworkPlayerModel_1__GetOtherPlayers_d__61;
+template <typename T> class NetworkPlayerModel_1__GetOtherPlayers_d__61;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NetworkPlayerModel_1__GetPartyPlayers_d__60;
+template <typename T> class NetworkPlayerModel_1__GetPartyPlayers_d__60;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NetworkPlayerModel_1___c;
+template <typename T> class NetworkPlayerModel_1___c;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NetworkPlayerModel_1___c__DisplayClass62_0;
+template <typename T> class NetworkPlayerModel_1___c__DisplayClass62_0;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::NetworkPlayerModel_1);
@@ -195,11 +156,10 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::NetworkPlayerModel_1__GetOtherPla
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60, "", "NetworkPlayerModel`1/<GetPartyPlayers>d__60");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::NetworkPlayerModel_1___c, "", "NetworkPlayerModel`1/<>c");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass62_0, "", "NetworkPlayerModel`1/<>c__DisplayClass62_0");
-// Dependencies IConnectionManager, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: NetworkPlayerModel`1/NetworkPlayer<T>
 class CORDL_TYPE NetworkPlayerModel_1_NetworkPlayer : public ::System::Object {
@@ -379,11 +339,10 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies BaseNetworkPlayerModel::PartyConfig, IConnectionManager
+// Dependencies BaseNetworkPlayerModel::PartyConfig
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: NetworkPlayerModel`1/JoinMatchmakingPartyConfig<T>
 class CORDL_TYPE NetworkPlayerModel_1_JoinMatchmakingPartyConfig : public ::GlobalNamespace::BaseNetworkPlayerModel_PartyConfig {
@@ -445,11 +404,10 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies BaseNetworkPlayerModel::PartyConfig, IConnectionManager
+// Dependencies BaseNetworkPlayerModel::PartyConfig
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: NetworkPlayerModel`1/StartClientPartyConfig<T>
 class CORDL_TYPE NetworkPlayerModel_1_StartClientPartyConfig : public ::GlobalNamespace::BaseNetworkPlayerModel_PartyConfig {
@@ -487,11 +445,10 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies BeatmapLevelSelectionMask, GameplayServerConfiguration, IConnectionManager, System.Object
+// Dependencies BeatmapLevelSelectionMask, GameplayServerConfiguration, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: NetworkPlayerModel`1/NetworkServer<T>
 class CORDL_TYPE NetworkPlayerModel_1_NetworkServer : public ::System::Object {
@@ -735,11 +692,10 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // [CompilerGenerated]
-// Dependencies IConnectionManager, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: NetworkPlayerModel`1/<>c<T>
 class CORDL_TYPE NetworkPlayerModel_1___c : public ::System::Object {
@@ -789,11 +745,10 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // [CompilerGenerated]
-// Dependencies BeatmapLevelSelectionMask, GameplayServerConfiguration, IConnectionManager, System.Object
+// Dependencies BeatmapLevelSelectionMask, GameplayServerConfiguration, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: NetworkPlayerModel`1/<>c__DisplayClass62_0<T>
 class CORDL_TYPE NetworkPlayerModel_1___c__DisplayClass62_0 : public ::System::Object {
@@ -880,11 +835,10 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // [CompilerGenerated]
-// Dependencies IConnectionManager, System.Collections.Generic.List`1::Enumerator<T>, System.Object
+// Dependencies System.Collections.Generic.List`1::Enumerator<T>, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: NetworkPlayerModel`1/<GetOtherPlayers>d__61<T>
 class CORDL_TYPE NetworkPlayerModel_1__GetOtherPlayers_d__61 : public ::System::Object {
@@ -1045,11 +999,10 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // [CompilerGenerated]
-// Dependencies IConnectionManager, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: NetworkPlayerModel`1/<GetPartyPlayers>d__60<T>
 class CORDL_TYPE NetworkPlayerModel_1__GetPartyPlayers_d__60 : public ::System::Object {
@@ -1204,11 +1157,10 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies BaseNetworkPlayerModel, IConnectionManager, INetworkPlayerModel
+// Dependencies BaseNetworkPlayerModel, INetworkPlayerModel
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: NetworkPlayerModel`1<T>
 class CORDL_TYPE NetworkPlayerModel_1 : public ::GlobalNamespace::BaseNetworkPlayerModel {

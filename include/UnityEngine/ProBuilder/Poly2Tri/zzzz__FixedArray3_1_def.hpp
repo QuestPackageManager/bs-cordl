@@ -26,20 +26,14 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class FixedArray3_1__Enumerate_d__10;
+template <typename T> class FixedArray3_1__Enumerate_d__10;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class FixedArray3_1__Enumerate_d__10;
+template <typename T> class FixedArray3_1__Enumerate_d__10;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-struct FixedArray3_1;
+template <typename T> struct FixedArray3_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1__Enumerate_d__10);
@@ -51,7 +45,6 @@ DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1, "Uni
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.ProBuilder.Poly2Tri.FixedArray3`1<T>
 struct CORDL_TYPE FixedArray3_1 {
@@ -133,7 +126,6 @@ public:
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.ProBuilder.Poly2Tri.FixedArray3`1/<Enumerate>d__10<T>
 class CORDL_TYPE FixedArray3_1__Enumerate_d__10 : public ::System::Object {

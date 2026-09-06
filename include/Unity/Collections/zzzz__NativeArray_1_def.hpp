@@ -42,43 +42,29 @@ namespace Unity::Collections {
 struct NativeArrayOptions;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1_Enumerator;
+template <typename T> struct NativeArray_1_Enumerator;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1_ReadOnly;
+template <typename T> struct NativeArray_1_ReadOnly;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct ReadOnly_NativeArray_1_Enumerator;
+template <typename T> struct ReadOnly_NativeArray_1_Enumerator;
 }
 namespace Unity::Jobs {
 struct JobHandle;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1;
+template <typename T> struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1_Enumerator;
+template <typename T> struct NativeArray_1_Enumerator;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1_ReadOnly;
+template <typename T> struct NativeArray_1_ReadOnly;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct ReadOnly_NativeArray_1_Enumerator;
+template <typename T> struct ReadOnly_NativeArray_1_Enumerator;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::NativeArray_1);
@@ -100,7 +86,6 @@ DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::ReadOnly_NativeArray_1_Enumerator,
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeArray`1<T>
 struct CORDL_TYPE NativeArray_1 {
@@ -313,7 +298,6 @@ public:
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeArray`1/Enumerator<T>
 struct CORDL_TYPE NativeArray_1_Enumerator {
@@ -395,7 +379,6 @@ public:
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeArray`1/ReadOnly<T>
 struct CORDL_TYPE NativeArray_1_ReadOnly {
@@ -480,7 +463,6 @@ public:
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeArray`1/ReadOnly/Enumerator<T>
 struct CORDL_TYPE ReadOnly_NativeArray_1_Enumerator {

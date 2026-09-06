@@ -10,9 +10,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AddressablesLoader)
 namespace BGLib::AsyncInitialization {
-template <typename TInstantiate, typename TReturn>
-  requires(::cordl_internals::type_constraint<TInstantiate, TReturn>)
-struct AddressablesLoader__InstantiateFromAddressableToContainer_d__0_2;
+template <typename TInstantiate, typename TReturn> struct AddressablesLoader__InstantiateFromAddressableToContainer_d__0_2;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -34,9 +32,7 @@ namespace BGLib::AsyncInitialization {
 class AddressablesLoader;
 }
 namespace BGLib::AsyncInitialization {
-template <typename TInstantiate, typename TReturn>
-  requires(::cordl_internals::type_constraint<TInstantiate, TReturn>)
-struct AddressablesLoader__InstantiateFromAddressableToContainer_d__0_2;
+template <typename TInstantiate, typename TReturn> struct AddressablesLoader__InstantiateFromAddressableToContainer_d__0_2;
 }
 // Write type traits
 MARK_REF_T(::BGLib::AsyncInitialization::AddressablesLoader*);
@@ -49,7 +45,6 @@ DEFINE_IL2CPP_GEN_CLASS(::BGLib::AsyncInitialization::AddressablesLoader__Instan
 namespace BGLib::AsyncInitialization {
 // cpp template
 template <typename TInstantiate, typename TReturn>
-  requires(::cordl_internals::type_constraint<TInstantiate, TReturn>)
 // Is value type: true
 // CS Name: BGLib.AsyncInitialization.AddressablesLoader/<InstantiateFromAddressableToContainer>d__0`2<TInstantiate,TReturn>
 struct CORDL_TYPE AddressablesLoader__InstantiateFromAddressableToContainer_d__0_2 {
@@ -114,7 +109,6 @@ class CORDL_TYPE AddressablesLoader : public ::System::Object {
 public:
   // Declarations
   template <typename TInstantiate, typename TReturn>
-    requires(::cordl_internals::type_constraint<TInstantiate, TReturn>)
   using _InstantiateFromAddressableToContainer_d__0_2 = ::BGLib::AsyncInitialization::AddressablesLoader__InstantiateFromAddressableToContainer_d__0_2<TInstantiate, TReturn>;
 
   /// [AsyncStateMachine(typeof(BGLib.AsyncInitialization.AddressablesLoader::<InstantiateFromAddressableToContainer>d__0`2<TInstantiate, TReturn>))]

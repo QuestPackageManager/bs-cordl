@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__ISet_1_def.hpp"
 CORDL_MODULE_EXPORT(ISetPropertyBag_2)
 namespace System {
 class Object;
@@ -12,9 +11,7 @@ namespace Unity::Properties {
 template <typename TContainer> class ICollectionPropertyBagAccept_1;
 }
 namespace Unity::Properties {
-template <typename TCollection, typename TElement>
-  requires(::cordl_internals::type_constraint<TCollection, ::System::Collections::Generic::ICollection_1<TElement>*>)
-class ICollectionPropertyBag_2;
+template <typename TCollection, typename TElement> class ICollectionPropertyBag_2;
 }
 namespace Unity::Properties {
 template <typename TContainer, typename TKey> class IKeyedProperties_2;
@@ -30,18 +27,15 @@ template <typename TContainer> class ISetPropertyBagAccept_1;
 }
 // Forward declare root types
 namespace Unity::Properties {
-template <typename TSet, typename TElement>
-  requires(::cordl_internals::type_constraint<TSet, ::System::Collections::Generic::ISet_1<TElement>*>)
-class ISetPropertyBag_2;
+template <typename TSet, typename TElement> class ISetPropertyBag_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Unity::Properties::ISetPropertyBag_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Properties::ISetPropertyBag_2, "Unity.Properties", "ISetPropertyBag`2");
-// Dependencies System.Collections.Generic.ISet`1<T>
+// Dependencies
 namespace Unity::Properties {
 // cpp template
 template <typename TSet, typename TElement>
-  requires(::cordl_internals::type_constraint<TSet, ::System::Collections::Generic::ISet_1<TElement>*>)
 // Is value type: false
 // CS Name: Unity.Properties.ISetPropertyBag`2<TSet,TElement>
 class CORDL_TYPE ISetPropertyBag_2 {

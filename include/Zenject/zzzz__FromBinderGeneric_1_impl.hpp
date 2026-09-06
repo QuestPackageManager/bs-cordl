@@ -21,67 +21,51 @@
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__ScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
 template <typename TContract, typename TFactory>
-  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TContract>*>)
 inline void Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>::setStaticF___9(::Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>* value) {
   ::cordl_internals::setStaticField<::Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>*, "<>9", ::Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>*>(
       std::forward<::Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>*>(value));
 }
-template <typename TContract, typename TFactory>
-  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TContract>*>)
-inline ::Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>* Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>::getStaticF___9() {
+template <typename TContract, typename TFactory> inline ::Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>* Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>::getStaticF___9() {
   return ::cordl_internals::getStaticField<::Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>*, "<>9", ::Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>*>();
 }
 template <typename TContract, typename TFactory>
-  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TContract>*>)
 inline void Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>::setStaticF___9__1_0(::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>* value) {
   ::cordl_internals::setStaticField<::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>*, "<>9__1_0",
                                     ::Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>*>(
       std::forward<::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>*>(value));
 }
 template <typename TContract, typename TFactory>
-  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TContract>*>)
 inline ::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>* Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>::getStaticF___9__1_0() {
   return ::cordl_internals::getStaticField<::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>*, "<>9__1_0",
                                            ::Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>*>();
 }
-template <typename TContract, typename TFactory>
-  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TContract>*>)
-inline void Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>::_ctor() {
+template <typename TContract, typename TFactory> inline void Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TContract, typename TFactory>
-  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TContract>*>)
 inline void Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>::_FromFactory_b__1_0(::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>* x) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>*>(),
                                                            { "<FromFactory>b__1_0", {}, { ::i2c::type_of<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, x);
 }
-template <typename TContract, typename TFactory>
-  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TContract>*>)
-inline ::System::Object* Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>::__zenCreate(::ArrayW<::System::Object*> P_0) {
+template <typename TContract, typename TFactory> inline ::System::Object* Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>::__zenCreate(::ArrayW<::System::Object*> P_0) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>*>(), { "__zenCreate", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, P_0);
 }
-template <typename TContract, typename TFactory>
-  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TContract>*>)
-inline ::Zenject::InjectTypeInfo* Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>::__zenCreateInjectTypeInfo() {
+template <typename TContract, typename TFactory> inline ::Zenject::InjectTypeInfo* Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>::__zenCreateInjectTypeInfo() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
-template <typename TContract, typename TFactory>
-  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TContract>*>)
-inline ::Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>* Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>::New_ctor() {
+template <typename TContract, typename TFactory> inline ::Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>* Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>*>());
 }
 // Ctor Parameters []
-template <typename TContract, typename TFactory>
-  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TContract>*>)
-constexpr ::Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>::FromBinderGeneric_1___c__1_1() {}
+template <typename TContract, typename TFactory> constexpr ::Zenject::FromBinderGeneric_1___c__1_1<TContract, TFactory>::FromBinderGeneric_1___c__1_1() {}
 template <typename TContract> constexpr ::System::Func_2<TContract, bool>*& Zenject::FromBinderGeneric_1___c__DisplayClass14_0<TContract>::__cordl_internal_get_predicate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___predicate;

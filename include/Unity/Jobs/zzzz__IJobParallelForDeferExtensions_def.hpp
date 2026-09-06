@@ -24,39 +24,29 @@ namespace System {
 class Object;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeList_1;
+template <typename T> struct NativeList_1;
 }
 namespace Unity::Jobs::LowLevel::Unsafe {
 struct JobRanges;
 }
 namespace Unity::Jobs {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForDefer*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct IJobParallelForDeferExtensions_JobParallelForDeferProducer_1;
+template <typename T> struct IJobParallelForDeferExtensions_JobParallelForDeferProducer_1;
 }
 namespace Unity::Jobs {
 struct JobHandle;
 }
 namespace Unity::Jobs {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForDefer*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class JobParallelForDeferProducer_1_IJobParallelForDeferExtensions_ExecuteJobFunction;
+template <typename T> class JobParallelForDeferProducer_1_IJobParallelForDeferExtensions_ExecuteJobFunction;
 }
 // Forward declare root types
 namespace Unity::Jobs {
 class IJobParallelForDeferExtensions;
 }
 namespace Unity::Jobs {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForDefer*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class JobParallelForDeferProducer_1_IJobParallelForDeferExtensions_ExecuteJobFunction;
+template <typename T> class JobParallelForDeferProducer_1_IJobParallelForDeferExtensions_ExecuteJobFunction;
 }
 namespace Unity::Jobs {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForDefer*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct IJobParallelForDeferExtensions_JobParallelForDeferProducer_1;
+template <typename T> struct IJobParallelForDeferExtensions_JobParallelForDeferProducer_1;
 }
 // Write type traits
 MARK_REF_T(::Unity::Jobs::IJobParallelForDeferExtensions*);
@@ -66,11 +56,10 @@ DEFINE_IL2CPP_CLASS(::Unity::Jobs::IJobParallelForDeferExtensions*, "Unity.Jobs"
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Jobs::JobParallelForDeferProducer_1_IJobParallelForDeferExtensions_ExecuteJobFunction, "Unity.Jobs",
                             "IJobParallelForDeferExtensions/JobParallelForDeferProducer`1/ExecuteJobFunction");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Jobs::IJobParallelForDeferExtensions_JobParallelForDeferProducer_1, "Unity.Jobs", "IJobParallelForDeferExtensions/JobParallelForDeferProducer`1");
-// Dependencies System.MulticastDelegate, Unity.Jobs.IJobParallelForDefer
+// Dependencies System.MulticastDelegate
 namespace Unity::Jobs {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForDefer*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: Unity.Jobs.IJobParallelForDeferExtensions/JobParallelForDeferProducer`1/ExecuteJobFunction<T>
 class CORDL_TYPE JobParallelForDeferProducer_1_IJobParallelForDeferExtensions_ExecuteJobFunction : public ::System::MulticastDelegate {
@@ -112,11 +101,10 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Jobs
-// Dependencies System.IntPtr, Unity.Burst.SharedStatic`1<T>, Unity.Jobs.IJobParallelForDefer
+// Dependencies System.IntPtr, Unity.Burst.SharedStatic`1<T>
 namespace Unity::Jobs {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForDefer*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Jobs.IJobParallelForDeferExtensions/JobParallelForDeferProducer`1<T>
 #pragma pack(push, 0)
@@ -162,9 +150,7 @@ namespace Unity::Jobs {
 class CORDL_TYPE IJobParallelForDeferExtensions : public ::System::Object {
 public:
   // Declarations
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForDefer*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  using JobParallelForDeferProducer_1 = ::Unity::Jobs::IJobParallelForDeferExtensions_JobParallelForDeferProducer_1<T>;
+  template <typename T> using JobParallelForDeferProducer_1 = ::Unity::Jobs::IJobParallelForDeferExtensions_JobParallelForDeferProducer_1<T>;
 
   /// @brief Method EarlyJobInit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>

@@ -3,8 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/zzzz__Component_def.hpp"
-#include "Zenject/zzzz__IPoolable_6_def.hpp"
 #include "Zenject/zzzz__MemoryPool_7_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 CORDL_MODULE_EXPORT(MonoPoolableMemoryPool_7)
@@ -19,20 +17,15 @@ class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::UnityEngine::Component*> &&
-           ::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*>)
-class MonoPoolableMemoryPool_7;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue> class MonoPoolableMemoryPool_7;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::MonoPoolableMemoryPool_7);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::MonoPoolableMemoryPool_7, "Zenject", "MonoPoolableMemoryPool`7");
-// Dependencies UnityEngine.Component, Zenject.IPoolable`6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>, Zenject.MemoryPool`7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>
+// Dependencies Zenject.MemoryPool`7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::UnityEngine::Component*> &&
-           ::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*>)
 // Is value type: false
 // CS Name: Zenject.MonoPoolableMemoryPool`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue>
 class CORDL_TYPE MonoPoolableMemoryPool_7 : public ::Zenject::MemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue> {

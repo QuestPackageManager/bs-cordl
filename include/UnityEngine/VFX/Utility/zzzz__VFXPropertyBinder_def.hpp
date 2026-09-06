@@ -34,9 +34,7 @@ namespace UnityEngine::VFX::Utility {
 class VFXBinderBase;
 }
 namespace UnityEngine::VFX::Utility {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::VFX::Utility::VFXBinderBase*>)
-class VFXPropertyBinder__GetPropertyBinders_d__17_1;
+template <typename T> class VFXPropertyBinder__GetPropertyBinders_d__17_1;
 }
 namespace UnityEngine::VFX {
 class VisualEffect;
@@ -49,9 +47,7 @@ namespace UnityEngine::VFX::Utility {
 class VFXPropertyBinder;
 }
 namespace UnityEngine::VFX::Utility {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::VFX::Utility::VFXBinderBase*>)
-class VFXPropertyBinder__GetPropertyBinders_d__17_1;
+template <typename T> class VFXPropertyBinder__GetPropertyBinders_d__17_1;
 }
 // Write type traits
 MARK_REF_T(::UnityEngine::VFX::Utility::VFXPropertyBinder*);
@@ -59,11 +55,10 @@ MARK_GEN_REF_T_PTR(::UnityEngine::VFX::Utility::VFXPropertyBinder__GetPropertyBi
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::Utility::VFXPropertyBinder*, "UnityEngine.VFX.Utility", "VFXPropertyBinder");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::VFX::Utility::VFXPropertyBinder__GetPropertyBinders_d__17_1, "UnityEngine.VFX.Utility", "VFXPropertyBinder/<GetPropertyBinders>d__17`1");
 // [CompilerGenerated]
-// Dependencies System.Collections.Generic.List`1::Enumerator<T>, System.Object, UnityEngine.VFX.Utility.VFXBinderBase
+// Dependencies System.Collections.Generic.List`1::Enumerator<T>, System.Object
 namespace UnityEngine::VFX::Utility {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::VFX::Utility::VFXBinderBase*>)
 // Is value type: false
 // CS Name: UnityEngine.VFX.Utility.VFXPropertyBinder/<GetPropertyBinders>d__17`1<T>
 class CORDL_TYPE VFXPropertyBinder__GetPropertyBinders_d__17_1 : public ::System::Object {
@@ -234,9 +229,7 @@ namespace UnityEngine::VFX::Utility {
 class CORDL_TYPE VFXPropertyBinder : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::UnityEngine::VFX::Utility::VFXBinderBase*>)
-  using _GetPropertyBinders_d__17_1 = ::UnityEngine::VFX::Utility::VFXPropertyBinder__GetPropertyBinders_d__17_1<T>;
+  template <typename T> using _GetPropertyBinders_d__17_1 = ::UnityEngine::VFX::Utility::VFXPropertyBinder__GetPropertyBinders_d__17_1<T>;
 
   /// @brief Field m_Bindings, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Bindings,

@@ -45,9 +45,7 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::Pool {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class ObjectPool_1;
+template <typename T> class ObjectPool_1;
 }
 namespace UnityEngine {
 template <typename T> class AwaitableAsyncMethodBuilder_1_Awaitable_IStateMachineBox;

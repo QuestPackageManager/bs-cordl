@@ -12,40 +12,77 @@ namespace System {
 template <typename TResult> class Func_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::EventBase_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-class EventBase_1___c;
+template <typename T> class EventBase_1___c;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class ObjectPool_1;
+template <typename T> class ObjectPool_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class EventBase_1;
+template <typename T> class EventBase_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::EventBase_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-class EventBase_1___c;
+template <typename T> class EventBase_1___c;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::EventBase_1);
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::EventBase_1___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::EventBase_1, "UnityEngine.UIElements", "EventBase`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::EventBase_1___c, "UnityEngine.UIElements", "EventBase`1/<>c");
+// [CompilerGenerated]
+// Dependencies System.Object
+namespace UnityEngine::UIElements {
+// cpp template
+template <typename T>
+// Is value type: false
+// CS Name: UnityEngine.UIElements.EventBase`1/<>c<T>
+class CORDL_TYPE EventBase_1___c : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::EventBase_1___c<T>* __9;
+
+  static inline ::UnityEngine::UIElements::EventBase_1___c<T>* New_ctor();
+
+  /// @brief Method <.cctor>b__15_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T __cctor_b__15_0();
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::UnityEngine::UIElements::EventBase_1___c<T>* getStaticF___9();
+
+  static inline void setStaticF___9(::UnityEngine::UIElements::EventBase_1___c<T>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EventBase_1___c();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "EventBase_1___c", modifiers: "&&", def_value: None, comment: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  EventBase_1___c(EventBase_1___c&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "EventBase_1___c", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  EventBase_1___c(EventBase_1___c const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4449 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace UnityEngine::UIElements
 // [EventCategory((UnityEngine.UIElements.EventCategory)0)]
 // Dependencies UnityEngine.UIElements.EventBase, UnityEngine.UIElements.EventCategory
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.EventBase`1<T>
 class CORDL_TYPE EventBase_1 : public ::UnityEngine::UIElements::EventBase {
@@ -136,53 +173,6 @@ public:
 
   /// @brief Field m_RefCount, offset: 0x60, size: 0x4, def value: None
   int32_t ___m_RefCount;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace UnityEngine::UIElements
-// [CompilerGenerated]
-// Dependencies System.Object, UnityEngine.UIElements.EventBase`1<T>
-namespace UnityEngine::UIElements {
-// cpp template
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::EventBase_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-// Is value type: false
-// CS Name: UnityEngine.UIElements.EventBase`1/<>c<T>
-class CORDL_TYPE EventBase_1___c : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::EventBase_1___c<T>* __9;
-
-  static inline ::UnityEngine::UIElements::EventBase_1___c<T>* New_ctor();
-
-  /// @brief Method <.cctor>b__15_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline T __cctor_b__15_0();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  static inline ::UnityEngine::UIElements::EventBase_1___c<T>* getStaticF___9();
-
-  static inline void setStaticF___9(::UnityEngine::UIElements::EventBase_1___c<T>* value);
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EventBase_1___c();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventBase_1___c", modifiers: "&&", def_value: None, comment: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EventBase_1___c(EventBase_1___c&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "EventBase_1___c", modifiers: "const&", def_value: None, comment: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EventBase_1___c(EventBase_1___c const&) = delete;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4449 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

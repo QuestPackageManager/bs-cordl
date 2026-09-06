@@ -7,9 +7,7 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(NativeSliceDebugView_1)
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class NativeSliceDebugView_1;
+template <typename T> class NativeSliceDebugView_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Unity::Collections::NativeSliceDebugView_1);
@@ -18,7 +16,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Collections::NativeSliceDebugView_1, "Unity
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: Unity.Collections.NativeSliceDebugView`1<T>
 class CORDL_TYPE NativeSliceDebugView_1 : public ::System::Object {

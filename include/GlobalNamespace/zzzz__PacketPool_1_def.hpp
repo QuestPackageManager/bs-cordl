@@ -3,14 +3,11 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IPoolablePacket_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PacketPool_1)
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IPoolablePacket*>)
-class IPacketPool_1;
+template <typename T> class IPacketPool_1;
 }
 namespace GlobalNamespace {
 class IPacketPool;
@@ -23,18 +20,15 @@ template <typename T> class ConcurrentBag_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IPoolablePacket*> && ::cordl_internals::default_constructor_constraint<T>)
-class PacketPool_1;
+template <typename T> class PacketPool_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::PacketPool_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::PacketPool_1, "", "PacketPool`1");
-// Dependencies IPoolablePacket, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IPoolablePacket*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: PacketPool`1<T>
 class CORDL_TYPE PacketPool_1 : public ::System::Object {

@@ -7,9 +7,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(LabelScopeInfo)
 namespace System::Linq::Expressions::Interpreter {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::reference_type_constraint<TKey>)
-class HybridReferenceDictionary_2;
+template <typename TKey, typename TValue> class HybridReferenceDictionary_2;
 }
 namespace System::Linq::Expressions::Interpreter {
 class LabelInfo;

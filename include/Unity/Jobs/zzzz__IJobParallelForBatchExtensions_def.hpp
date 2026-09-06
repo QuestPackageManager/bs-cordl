@@ -27,31 +27,23 @@ namespace Unity::Jobs::LowLevel::Unsafe {
 struct JobRanges;
 }
 namespace Unity::Jobs {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct IJobParallelForBatchExtensions_JobParallelForBatchProducer_1;
+template <typename T> struct IJobParallelForBatchExtensions_JobParallelForBatchProducer_1;
 }
 namespace Unity::Jobs {
 struct JobHandle;
 }
 namespace Unity::Jobs {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction;
+template <typename T> class JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction;
 }
 // Forward declare root types
 namespace Unity::Jobs {
 class IJobParallelForBatchExtensions;
 }
 namespace Unity::Jobs {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction;
+template <typename T> class JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction;
 }
 namespace Unity::Jobs {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct IJobParallelForBatchExtensions_JobParallelForBatchProducer_1;
+template <typename T> struct IJobParallelForBatchExtensions_JobParallelForBatchProducer_1;
 }
 // Write type traits
 MARK_REF_T(::Unity::Jobs::IJobParallelForBatchExtensions*);
@@ -61,11 +53,10 @@ DEFINE_IL2CPP_CLASS(::Unity::Jobs::IJobParallelForBatchExtensions*, "Unity.Jobs"
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Jobs::JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction, "Unity.Jobs",
                             "IJobParallelForBatchExtensions/JobParallelForBatchProducer`1/ExecuteJobFunction");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Jobs::IJobParallelForBatchExtensions_JobParallelForBatchProducer_1, "Unity.Jobs", "IJobParallelForBatchExtensions/JobParallelForBatchProducer`1");
-// Dependencies System.MulticastDelegate, Unity.Jobs.IJobParallelForBatch
+// Dependencies System.MulticastDelegate
 namespace Unity::Jobs {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: Unity.Jobs.IJobParallelForBatchExtensions/JobParallelForBatchProducer`1/ExecuteJobFunction<T>
 class CORDL_TYPE JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction : public ::System::MulticastDelegate {
@@ -107,11 +98,10 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Jobs
-// Dependencies System.IntPtr, Unity.Burst.SharedStatic`1<T>, Unity.Jobs.IJobParallelForBatch
+// Dependencies System.IntPtr, Unity.Burst.SharedStatic`1<T>
 namespace Unity::Jobs {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Jobs.IJobParallelForBatchExtensions/JobParallelForBatchProducer`1<T>
 #pragma pack(push, 0)
@@ -157,9 +147,7 @@ namespace Unity::Jobs {
 class CORDL_TYPE IJobParallelForBatchExtensions : public ::System::Object {
 public:
   // Declarations
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  using JobParallelForBatchProducer_1 = ::Unity::Jobs::IJobParallelForBatchExtensions_JobParallelForBatchProducer_1<T>;
+  template <typename T> using JobParallelForBatchProducer_1 = ::Unity::Jobs::IJobParallelForBatchExtensions_JobParallelForBatchProducer_1<T>;
 
   /// @brief Method EarlyJobInit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>

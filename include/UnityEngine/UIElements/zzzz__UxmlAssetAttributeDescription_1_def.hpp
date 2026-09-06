@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__TypedUxmlAttributeDescription_1_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(UxmlAssetAttributeDescription_1)
 namespace UnityEngine::UIElements {
 struct CreationContext;
@@ -14,18 +13,15 @@ class IUxmlAttributes;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
-class UxmlAssetAttributeDescription_1;
+template <typename T> class UxmlAssetAttributeDescription_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::UxmlAssetAttributeDescription_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::UxmlAssetAttributeDescription_1, "UnityEngine.UIElements", "UxmlAssetAttributeDescription`1");
-// Dependencies UnityEngine.Object, UnityEngine.UIElements.TypedUxmlAttributeDescription`1<T>
+// Dependencies UnityEngine.UIElements.TypedUxmlAttributeDescription`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UxmlAssetAttributeDescription`1<T>
 class CORDL_TYPE UxmlAssetAttributeDescription_1 : public ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<T> {

@@ -58,9 +58,7 @@ namespace Zenject {
 class ConventionFilterTypesBinder___c__DisplayClass8_0;
 }
 namespace Zenject {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
-class ConventionFilterTypesBinder___c__DisplayClass9_0_1;
+template <typename T> class ConventionFilterTypesBinder___c__DisplayClass9_0_1;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -97,9 +95,7 @@ namespace Zenject {
 class ConventionFilterTypesBinder___c__DisplayClass8_0;
 }
 namespace Zenject {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
-class ConventionFilterTypesBinder___c__DisplayClass9_0_1;
+template <typename T> class ConventionFilterTypesBinder___c__DisplayClass9_0_1;
 }
 // Write type traits
 MARK_REF_T(::Zenject::ConventionFilterTypesBinder*);
@@ -665,11 +661,10 @@ static_assert(sizeof(::Zenject::ConventionFilterTypesBinder___c__DisplayClass8_0
 
 } // namespace Zenject
 // [CompilerGenerated]
-// Dependencies System.Attribute, System.Object
+// Dependencies System.Object
 namespace Zenject {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
 // Is value type: false
 // CS Name: Zenject.ConventionFilterTypesBinder/<>c__DisplayClass9_0`1<T>
 class CORDL_TYPE ConventionFilterTypesBinder___c__DisplayClass9_0_1 : public ::System::Object {
@@ -749,9 +744,7 @@ public:
 
   using __c__DisplayClass8_0 = ::Zenject::ConventionFilterTypesBinder___c__DisplayClass8_0;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
-  using __c__DisplayClass9_0_1 = ::Zenject::ConventionFilterTypesBinder___c__DisplayClass9_0_1<T>;
+  template <typename T> using __c__DisplayClass9_0_1 = ::Zenject::ConventionFilterTypesBinder___c__DisplayClass9_0_1<T>;
 
   /// @brief Method DerivingFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::ConventionFilterTypesBinder* DerivingFrom();

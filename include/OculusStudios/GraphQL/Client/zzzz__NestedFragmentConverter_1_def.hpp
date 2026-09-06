@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
-#include "OculusStudios/GraphQL/Client/zzzz__IFragment_def.hpp"
 CORDL_MODULE_EXPORT(NestedFragmentConverter_1)
 namespace Newtonsoft::Json::Linq {
 class JObject;
@@ -29,18 +28,15 @@ class Type;
 }
 // Forward declare root types
 namespace OculusStudios::GraphQL::Client {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::Client::IFragment*>)
-class NestedFragmentConverter_1;
+template <typename T> class NestedFragmentConverter_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::OculusStudios::GraphQL::Client::NestedFragmentConverter_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::OculusStudios::GraphQL::Client::NestedFragmentConverter_1, "OculusStudios.GraphQL.Client", "NestedFragmentConverter`1");
-// Dependencies Newtonsoft.Json.JsonConverter, OculusStudios.GraphQL.Client.IFragment
+// Dependencies Newtonsoft.Json.JsonConverter
 namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::Client::IFragment*>)
 // Is value type: false
 // CS Name: OculusStudios.GraphQL.Client.NestedFragmentConverter`1<T>
 class CORDL_TYPE NestedFragmentConverter_1 : public ::Newtonsoft::Json::JsonConverter {

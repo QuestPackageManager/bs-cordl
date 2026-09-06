@@ -9,9 +9,7 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class WeakReference_1;
+template <typename T> class WeakReference_1;
 }
 namespace UnityEngine::Pool {
 class IPool;

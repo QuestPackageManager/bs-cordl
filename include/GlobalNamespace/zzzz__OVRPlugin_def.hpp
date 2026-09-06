@@ -788,9 +788,7 @@ namespace GlobalNamespace {
 struct OVRPlugin_PerfMetrics;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct OVRPlugin_PinnedArray_1;
+template <typename T> struct OVRPlugin_PinnedArray_1;
 }
 namespace GlobalNamespace {
 struct OVRPlugin_PlatformUI;
@@ -1075,14 +1073,10 @@ namespace GlobalNamespace {
 class OVRPlugin___c__DisplayClass537_0;
 }
 namespace GlobalNamespace {
-template <typename TStatus>
-  requires(::cordl_internals::type_constraint<TStatus, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TStatus> && ::cordl_internals::default_constructor_constraint<TStatus>)
-struct OVRResult_1;
+template <typename TStatus> struct OVRResult_1;
 }
 namespace GlobalNamespace {
-template <typename TValue, typename TStatus>
-  requires(::cordl_internals::type_constraint<TStatus, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TStatus> && ::cordl_internals::default_constructor_constraint<TStatus>)
-struct OVRResult_2;
+template <typename TValue, typename TStatus> struct OVRResult_2;
 }
 namespace GlobalNamespace {
 template <typename TResult> struct OVRTask_1;
@@ -1121,9 +1115,7 @@ namespace System {
 struct IntPtr;
 }
 namespace System {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct Nullable_1;
+template <typename T> struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -1138,9 +1130,7 @@ namespace Unity::Collections {
 struct Allocator;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1;
+template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine {
 struct Matrix4x4;
@@ -2047,9 +2037,7 @@ namespace GlobalNamespace {
 struct OVRPlugin_PassthroughPreferences;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct OVRPlugin_PinnedArray_1;
+template <typename T> struct OVRPlugin_PinnedArray_1;
 }
 namespace GlobalNamespace {
 struct OVRPlugin_PolygonalBoundary2DInternal;
@@ -20384,7 +20372,6 @@ static_assert(sizeof(::GlobalNamespace::OVRPlugin_SceneCaptureRequestInternal) =
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: OVRPlugin/PinnedArray`1<T>
 struct CORDL_TYPE OVRPlugin_PinnedArray_1 {
@@ -29005,9 +28992,7 @@ public:
 
   using PerfMetrics = ::GlobalNamespace::OVRPlugin_PerfMetrics;
 
-  template <typename T>
-    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  using PinnedArray_1 = ::GlobalNamespace::OVRPlugin_PinnedArray_1<T>;
+  template <typename T> using PinnedArray_1 = ::GlobalNamespace::OVRPlugin_PinnedArray_1<T>;
 
   using PlatformUI = ::GlobalNamespace::OVRPlugin_PlatformUI;
 

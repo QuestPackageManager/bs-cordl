@@ -3,8 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IComparable_1_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeParallelMultiHashMap_2_def.hpp"
 #include <cstdint>
@@ -16,43 +14,29 @@ namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
-           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-struct UnsafeParallelMultiHashMap_2;
+template <typename TKey, typename TValue> struct UnsafeParallelMultiHashMap_2;
 }
 namespace Unity::Collections {
 struct AllocatorManager_AllocatorHandle;
 }
 namespace Unity::Collections {
-template <typename Key, typename Value>
-  requires(::cordl_internals::type_constraint<Value, ::System::Collections::IList*>)
-struct ListPair_2;
+template <typename Key, typename Value> struct ListPair_2;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1;
+template <typename T> struct NativeArray_1;
 }
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::type_constraint<TKey, ::System::IComparable_1<TKey>*> &&
-           ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
-           ::cordl_internals::default_constructor_constraint<TValue>)
-class UnsafeParallelMultiHashMapDebuggerTypeProxy_2;
+template <typename TKey, typename TValue> class UnsafeParallelMultiHashMapDebuggerTypeProxy_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelMultiHashMapDebuggerTypeProxy_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelMultiHashMapDebuggerTypeProxy_2, "Unity.Collections.LowLevel.Unsafe",
                             "UnsafeParallelMultiHashMapDebuggerTypeProxy`2");
-// Dependencies System.IComparable`1<T>, System.IEquatable`1<T>, System.Object, Unity.Collections.LowLevel.Unsafe.UnsafeParallelMultiHashMap`2<TKey, TValue>
+// Dependencies System.Object, Unity.Collections.LowLevel.Unsafe.UnsafeParallelMultiHashMap`2<TKey, TValue>
 namespace Unity::Collections::LowLevel::Unsafe {
 // cpp template
 template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::type_constraint<TKey, ::System::IComparable_1<TKey>*> &&
-           ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
-           ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: false
 // CS Name: Unity.Collections.LowLevel.Unsafe.UnsafeParallelMultiHashMapDebuggerTypeProxy`2<TKey,TValue>
 class CORDL_TYPE UnsafeParallelMultiHashMapDebuggerTypeProxy_2 : public ::System::Object {

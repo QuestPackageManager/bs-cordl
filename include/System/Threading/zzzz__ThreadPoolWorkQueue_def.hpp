@@ -19,9 +19,7 @@ namespace System::Threading {
 class ThreadPoolWorkQueue_QueueSegment;
 }
 namespace System::Threading {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class ThreadPoolWorkQueue_SparseArray_1;
+template <typename T> class ThreadPoolWorkQueue_SparseArray_1;
 }
 namespace System::Threading {
 class ThreadPoolWorkQueue_WorkStealingQueue;
@@ -34,9 +32,7 @@ namespace System::Threading {
 class ThreadPoolWorkQueue_QueueSegment;
 }
 namespace System::Threading {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class ThreadPoolWorkQueue_SparseArray_1;
+template <typename T> class ThreadPoolWorkQueue_SparseArray_1;
 }
 namespace System::Threading {
 class ThreadPoolWorkQueue_WorkStealingQueue;
@@ -54,7 +50,6 @@ DEFINE_IL2CPP_CLASS(::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue*,
 namespace System::Threading {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: false
 // CS Name: System.Threading.ThreadPoolWorkQueue/SparseArray`1<T>
 class CORDL_TYPE ThreadPoolWorkQueue_SparseArray_1 : public ::System::Object {
@@ -332,9 +327,7 @@ public:
   // Declarations
   using QueueSegment = ::System::Threading::ThreadPoolWorkQueue_QueueSegment;
 
-  template <typename T>
-    requires(::cordl_internals::reference_type_constraint<T>)
-  using SparseArray_1 = ::System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>;
+  template <typename T> using SparseArray_1 = ::System::Threading::ThreadPoolWorkQueue_SparseArray_1<T>;
 
   using WorkStealingQueue = ::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue;
 

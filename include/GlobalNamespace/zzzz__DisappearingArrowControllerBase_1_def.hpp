@@ -3,9 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__ICubeNoteControllerInitializable_1_def.hpp"
-#include "GlobalNamespace/zzzz__INoteMovementProvider_def.hpp"
-#include "GlobalNamespace/zzzz__INoteVisualModifierTypeProvider_def.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
@@ -20,20 +17,15 @@ class MeshRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::ICubeNoteControllerInitializable_1<T>*> &&
-           ::cordl_internals::type_constraint<T, ::GlobalNamespace::INoteVisualModifierTypeProvider*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::INoteMovementProvider*>)
-class DisappearingArrowControllerBase_1;
+template <typename T> class DisappearingArrowControllerBase_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::DisappearingArrowControllerBase_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::DisappearingArrowControllerBase_1, "", "DisappearingArrowControllerBase`1");
-// Dependencies ICubeNoteControllerInitializable`1<T>, INoteMovementProvider, INoteVisualModifierTypeProvider, MaterialPropertyBlockController, UnityEngine.MonoBehaviour
+// Dependencies MaterialPropertyBlockController, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::ICubeNoteControllerInitializable_1<T>*> &&
-           ::cordl_internals::type_constraint<T, ::GlobalNamespace::INoteVisualModifierTypeProvider*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::INoteMovementProvider*>)
 // Is value type: false
 // CS Name: DisappearingArrowControllerBase`1<T>
 class CORDL_TYPE DisappearingArrowControllerBase_1 : public ::UnityEngine::MonoBehaviour {

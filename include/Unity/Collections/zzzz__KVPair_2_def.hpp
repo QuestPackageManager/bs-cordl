@@ -3,33 +3,25 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(KVPair_2)
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey>)
-struct HashMapHelper_1;
+template <typename TKey> struct HashMapHelper_1;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
-           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-struct KVPair_2;
+template <typename TKey, typename TValue> struct KVPair_2;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::KVPair_2);
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::KVPair_2, "Unity.Collections", "KVPair`2");
 // [DebuggerDisplay("Key = {Key}, Value = {Value}")]
 // [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32) })]
-// Dependencies System.IEquatable`1<T>
+// Dependencies
 namespace Unity::Collections {
 // cpp template
 template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
-           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: true
 // CS Name: Unity.Collections.KVPair`2<TKey,TValue>
 struct CORDL_TYPE KVPair_2 {

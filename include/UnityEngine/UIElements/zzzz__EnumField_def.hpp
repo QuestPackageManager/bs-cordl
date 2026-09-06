@@ -55,9 +55,7 @@ namespace UnityEngine::UIElements {
 class PointerDownEvent;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class PointerEventBase_1;
+template <typename T> class PointerEventBase_1;
 }
 namespace UnityEngine::UIElements {
 class PointerMoveEvent;

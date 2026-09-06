@@ -22,9 +22,7 @@ namespace UnityEngine::UIElements {
 class KeyDownEvent;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class NavigationEventBase_1;
+template <typename T> class NavigationEventBase_1;
 }
 namespace UnityEngine::UIElements {
 class TextElement;

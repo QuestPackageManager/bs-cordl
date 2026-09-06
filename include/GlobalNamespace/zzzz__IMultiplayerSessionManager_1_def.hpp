@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstdint>
@@ -18,9 +17,7 @@ namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-template <typename TConnectedPlayer>
-  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*>)
-class IMultiplayerSessionManager_1_IMultiplayerSessionInitializer;
+template <typename TConnectedPlayer> class IMultiplayerSessionManager_1_IMultiplayerSessionInitializer;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
@@ -33,25 +30,20 @@ class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename TConnectedPlayer>
-  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*>)
-class IMultiplayerSessionManager_1;
+template <typename TConnectedPlayer> class IMultiplayerSessionManager_1;
 }
 namespace GlobalNamespace {
-template <typename TConnectedPlayer>
-  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*>)
-class IMultiplayerSessionManager_1_IMultiplayerSessionInitializer;
+template <typename TConnectedPlayer> class IMultiplayerSessionManager_1_IMultiplayerSessionInitializer;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::IMultiplayerSessionManager_1);
 MARK_GEN_REF_T_PTR(::GlobalNamespace::IMultiplayerSessionManager_1_IMultiplayerSessionInitializer);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::IMultiplayerSessionManager_1, "", "IMultiplayerSessionManager`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::IMultiplayerSessionManager_1_IMultiplayerSessionInitializer, "", "IMultiplayerSessionManager`1/IMultiplayerSessionInitializer");
-// Dependencies IConnectedPlayer
+// Dependencies
 namespace GlobalNamespace {
 // cpp template
 template <typename TConnectedPlayer>
-  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*>)
 // Is value type: false
 // CS Name: IMultiplayerSessionManager`1/IMultiplayerSessionInitializer<TConnectedPlayer>
 class CORDL_TYPE IMultiplayerSessionManager_1_IMultiplayerSessionInitializer {
@@ -71,11 +63,10 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies IConnectedPlayer, LiteNetLib.Utils.INetSerializable
+// Dependencies LiteNetLib.Utils.INetSerializable
 namespace GlobalNamespace {
 // cpp template
 template <typename TConnectedPlayer>
-  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*>)
 // Is value type: false
 // CS Name: IMultiplayerSessionManager`1<TConnectedPlayer>
 class CORDL_TYPE IMultiplayerSessionManager_1 {

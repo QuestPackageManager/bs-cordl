@@ -46,9 +46,7 @@ namespace UnityEngine::UIElements::Layout {
 struct LayoutJustify;
 }
 namespace UnityEngine::UIElements::Layout {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct LayoutList_1;
+template <typename T> struct LayoutList_1;
 }
 namespace UnityEngine::UIElements::Layout {
 class LayoutMeasureFunction;

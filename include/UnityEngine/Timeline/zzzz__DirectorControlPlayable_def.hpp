@@ -24,10 +24,7 @@ namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace UnityEngine::Playables {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Playables::IPlayableBehaviour*> && ::cordl_internals::reference_type_constraint<T> &&
-           ::cordl_internals::default_constructor_constraint<T>)
-struct ScriptPlayable_1;
+template <typename T> struct ScriptPlayable_1;
 }
 namespace UnityEngine::Timeline {
 struct DirectorControlPlayable_PauseAction;

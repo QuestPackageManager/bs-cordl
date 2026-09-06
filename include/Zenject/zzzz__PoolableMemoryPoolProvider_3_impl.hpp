@@ -1,7 +1,5 @@
 #pragma once
 // IWYU pragma private; include "Zenject/PoolableMemoryPoolProvider_3.hpp"
-#include "Zenject/zzzz__IPoolable_2_impl.hpp"
-#include "Zenject/zzzz__MemoryPool_3_impl.hpp"
 #include "Zenject/zzzz__PoolableMemoryPoolProviderBase_1_impl.hpp"
 #include "Zenject/zzzz__PoolableMemoryPoolProvider_3_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -9,50 +7,35 @@
 #include "System/zzzz__Guid_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_def.hpp"
 #include "Zenject/zzzz__IValidatable_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
-template <typename TParam1, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_2<TParam1, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_3<TParam1, ::Zenject::IMemoryPool*, TContract>*>)
-constexpr TMemoryPool& Zenject::PoolableMemoryPoolProvider_3<TParam1, TContract, TMemoryPool>::__cordl_internal_get__pool() {
+template <typename TParam1, typename TContract, typename TMemoryPool> constexpr TMemoryPool& Zenject::PoolableMemoryPoolProvider_3<TParam1, TContract, TMemoryPool>::__cordl_internal_get__pool() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pool;
 }
 template <typename TParam1, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_2<TParam1, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_3<TParam1, ::Zenject::IMemoryPool*, TContract>*>)
 constexpr TMemoryPool const& Zenject::PoolableMemoryPoolProvider_3<TParam1, TContract, TMemoryPool>::__cordl_internal_get__pool() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pool;
 }
 template <typename TParam1, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_2<TParam1, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_3<TParam1, ::Zenject::IMemoryPool*, TContract>*>)
 constexpr void Zenject::PoolableMemoryPoolProvider_3<TParam1, TContract, TMemoryPool>::__cordl_internal_set__pool(TMemoryPool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pool = value;
 }
 template <typename TParam1, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_2<TParam1, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_3<TParam1, ::Zenject::IMemoryPool*, TContract>*>)
 inline void Zenject::PoolableMemoryPoolProvider_3<TParam1, TContract, TMemoryPool>::_ctor(::Zenject::DiContainer* container, ::System::Guid poolId) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::PoolableMemoryPoolProvider_3<TParam1, TContract, TMemoryPool>*>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::Zenject::DiContainer*>(), ::i2c::type_of<::System::Guid>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container, poolId);
 }
-template <typename TParam1, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_2<TParam1, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_3<TParam1, ::Zenject::IMemoryPool*, TContract>*>)
-inline void Zenject::PoolableMemoryPoolProvider_3<TParam1, TContract, TMemoryPool>::Validate() {
+template <typename TParam1, typename TContract, typename TMemoryPool> inline void Zenject::PoolableMemoryPoolProvider_3<TParam1, TContract, TMemoryPool>::Validate() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::PoolableMemoryPoolProvider_3<TParam1, TContract, TMemoryPool>*>(), { "Validate", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TParam1, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_2<TParam1, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_3<TParam1, ::Zenject::IMemoryPool*, TContract>*>)
 inline void Zenject::PoolableMemoryPoolProvider_3<TParam1, TContract, TMemoryPool>::GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context,
                                                                                                                    ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args,
                                                                                                                    ::by_ref<::System::Action*> injectAction,
@@ -62,28 +45,18 @@ inline void Zenject::PoolableMemoryPoolProvider_3<TParam1, TContract, TMemoryPoo
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context, args, injectAction, buffer);
 }
 template <typename TParam1, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_2<TParam1, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_3<TParam1, ::Zenject::IMemoryPool*, TContract>*>)
 inline ::Zenject::PoolableMemoryPoolProvider_3<TParam1, TContract, TMemoryPool>* Zenject::PoolableMemoryPoolProvider_3<TParam1, TContract, TMemoryPool>::New_ctor(::Zenject::DiContainer* container,
                                                                                                                                                                   ::System::Guid poolId) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::PoolableMemoryPoolProvider_3<TParam1, TContract, TMemoryPool>*>(container, poolId));
 }
 /// @brief Convert operator to "::Zenject::IValidatable"
-template <typename TParam1, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_2<TParam1, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_3<TParam1, ::Zenject::IMemoryPool*, TContract>*>)
-constexpr Zenject::PoolableMemoryPoolProvider_3<TParam1, TContract, TMemoryPool>::operator ::Zenject::IValidatable*() noexcept {
+template <typename TParam1, typename TContract, typename TMemoryPool> constexpr Zenject::PoolableMemoryPoolProvider_3<TParam1, TContract, TMemoryPool>::operator ::Zenject::IValidatable*() noexcept {
   return static_cast<::Zenject::IValidatable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::Zenject::IValidatable"
 template <typename TParam1, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_2<TParam1, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_3<TParam1, ::Zenject::IMemoryPool*, TContract>*>)
 constexpr ::Zenject::IValidatable* Zenject::PoolableMemoryPoolProvider_3<TParam1, TContract, TMemoryPool>::i___Zenject__IValidatable() noexcept {
   return static_cast<::Zenject::IValidatable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-template <typename TParam1, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_2<TParam1, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_3<TParam1, ::Zenject::IMemoryPool*, TContract>*>)
-constexpr ::Zenject::PoolableMemoryPoolProvider_3<TParam1, TContract, TMemoryPool>::PoolableMemoryPoolProvider_3() {}
+template <typename TParam1, typename TContract, typename TMemoryPool> constexpr ::Zenject::PoolableMemoryPoolProvider_3<TParam1, TContract, TMemoryPool>::PoolableMemoryPoolProvider_3() {}

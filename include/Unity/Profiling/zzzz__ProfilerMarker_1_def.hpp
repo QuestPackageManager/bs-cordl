@@ -13,20 +13,14 @@ namespace Unity::Profiling {
 struct ProfilerCategory;
 }
 namespace Unity::Profiling {
-template <typename TP1>
-  requires(::cordl_internals::value_type_constraint<TP1> && ::cordl_internals::default_constructor_constraint<TP1>)
-struct ProfilerMarker_1_AutoScope;
+template <typename TP1> struct ProfilerMarker_1_AutoScope;
 }
 // Forward declare root types
 namespace Unity::Profiling {
-template <typename TP1>
-  requires(::cordl_internals::value_type_constraint<TP1> && ::cordl_internals::default_constructor_constraint<TP1>)
-struct ProfilerMarker_1;
+template <typename TP1> struct ProfilerMarker_1;
 }
 namespace Unity::Profiling {
-template <typename TP1>
-  requires(::cordl_internals::value_type_constraint<TP1> && ::cordl_internals::default_constructor_constraint<TP1>)
-struct ProfilerMarker_1_AutoScope;
+template <typename TP1> struct ProfilerMarker_1_AutoScope;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Profiling::ProfilerMarker_1);
@@ -38,7 +32,6 @@ DEFINE_IL2CPP_GEN_CLASS(::Unity::Profiling::ProfilerMarker_1_AutoScope, "Unity.P
 namespace Unity::Profiling {
 // cpp template
 template <typename TP1>
-  requires(::cordl_internals::value_type_constraint<TP1> && ::cordl_internals::default_constructor_constraint<TP1>)
 // Is value type: true
 // CS Name: Unity.Profiling.ProfilerMarker`1/AutoScope<TP1>
 #pragma pack(push, 0)
@@ -77,7 +70,6 @@ public:
 namespace Unity::Profiling {
 // cpp template
 template <typename TP1>
-  requires(::cordl_internals::value_type_constraint<TP1> && ::cordl_internals::default_constructor_constraint<TP1>)
 // Is value type: true
 // CS Name: Unity.Profiling.ProfilerMarker`1<TP1>
 #pragma pack(push, 0)

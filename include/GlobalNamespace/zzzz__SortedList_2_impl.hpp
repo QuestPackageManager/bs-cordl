@@ -1,139 +1,99 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/SortedList_2.hpp"
-#include "System/zzzz__IComparable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SortedList_2_def.hpp"
 #include "GlobalNamespace/zzzz__ISortedListItemProcessor_1_def.hpp"
 #include "GlobalNamespace/zzzz__ISortedList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
-template <typename T, typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::System::IComparable_1<TBase>*> && ::cordl_internals::reference_type_constraint<TBase>)
-constexpr ::System::Collections::Generic::LinkedList_1<TBase>*& GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_get__items() {
+template <typename T, typename TBase> constexpr ::System::Collections::Generic::LinkedList_1<TBase>*& GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_get__items() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____items;
 }
-template <typename T, typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::System::IComparable_1<TBase>*> && ::cordl_internals::reference_type_constraint<TBase>)
-constexpr ::System::Collections::Generic::LinkedList_1<TBase>* const& GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_get__items() const {
+template <typename T, typename TBase> constexpr ::System::Collections::Generic::LinkedList_1<TBase>* const& GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_get__items() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____items;
 }
-template <typename T, typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::System::IComparable_1<TBase>*> && ::cordl_internals::reference_type_constraint<TBase>)
-constexpr void GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_set__items(::System::Collections::Generic::LinkedList_1<TBase>* value) {
+template <typename T, typename TBase> constexpr void GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_set__items(::System::Collections::Generic::LinkedList_1<TBase>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____items = value;
 }
-template <typename T, typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::System::IComparable_1<TBase>*> && ::cordl_internals::reference_type_constraint<TBase>)
-constexpr ::GlobalNamespace::ISortedListItemProcessor_1<TBase>*& GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_get__sortedListDataProcessor() {
+template <typename T, typename TBase> constexpr ::GlobalNamespace::ISortedListItemProcessor_1<TBase>*& GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_get__sortedListDataProcessor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sortedListDataProcessor;
 }
 template <typename T, typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::System::IComparable_1<TBase>*> && ::cordl_internals::reference_type_constraint<TBase>)
 constexpr ::GlobalNamespace::ISortedListItemProcessor_1<TBase>* const& GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_get__sortedListDataProcessor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sortedListDataProcessor;
 }
 template <typename T, typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::System::IComparable_1<TBase>*> && ::cordl_internals::reference_type_constraint<TBase>)
 constexpr void GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_set__sortedListDataProcessor(::GlobalNamespace::ISortedListItemProcessor_1<TBase>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sortedListDataProcessor = value;
 }
-template <typename T, typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::System::IComparable_1<TBase>*> && ::cordl_internals::reference_type_constraint<TBase>)
-constexpr ::System::Collections::Generic::LinkedListNode_1<TBase>*& GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_get__lastUsedNode() {
+template <typename T, typename TBase> constexpr ::System::Collections::Generic::LinkedListNode_1<TBase>*& GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_get__lastUsedNode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastUsedNode;
 }
-template <typename T, typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::System::IComparable_1<TBase>*> && ::cordl_internals::reference_type_constraint<TBase>)
-constexpr ::System::Collections::Generic::LinkedListNode_1<TBase>* const& GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_get__lastUsedNode() const {
+template <typename T, typename TBase> constexpr ::System::Collections::Generic::LinkedListNode_1<TBase>* const& GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_get__lastUsedNode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastUsedNode;
 }
-template <typename T, typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::System::IComparable_1<TBase>*> && ::cordl_internals::reference_type_constraint<TBase>)
-constexpr void GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_set__lastUsedNode(::System::Collections::Generic::LinkedListNode_1<TBase>* value) {
+template <typename T, typename TBase> constexpr void GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_set__lastUsedNode(::System::Collections::Generic::LinkedListNode_1<TBase>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastUsedNode = value;
 }
-template <typename T, typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::System::IComparable_1<TBase>*> && ::cordl_internals::reference_type_constraint<TBase>)
-inline int32_t GlobalNamespace::SortedList_2<T, TBase>::get_count() {
+template <typename T, typename TBase> inline int32_t GlobalNamespace::SortedList_2<T, TBase>::get_count() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_2<T, TBase>*>(), { "get_count", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-template <typename T, typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::System::IComparable_1<TBase>*> && ::cordl_internals::reference_type_constraint<TBase>)
-inline ::System::Collections::Generic::LinkedList_1<TBase>* GlobalNamespace::SortedList_2<T, TBase>::get_items() {
+template <typename T, typename TBase> inline ::System::Collections::Generic::LinkedList_1<TBase>* GlobalNamespace::SortedList_2<T, TBase>::get_items() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_2<T, TBase>*>(), { "get_items", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::LinkedList_1<TBase>*>(this, ___internal_method);
 }
-template <typename T, typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::System::IComparable_1<TBase>*> && ::cordl_internals::reference_type_constraint<TBase>)
-inline void GlobalNamespace::SortedList_2<T, TBase>::_ctor(::GlobalNamespace::ISortedListItemProcessor_1<TBase>* sortedListDataProcessor) {
+template <typename T, typename TBase> inline void GlobalNamespace::SortedList_2<T, TBase>::_ctor(::GlobalNamespace::ISortedListItemProcessor_1<TBase>* sortedListDataProcessor) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_2<T, TBase>*>(), { ".ctor", {}, { ::i2c::type_of<::GlobalNamespace::ISortedListItemProcessor_1<TBase>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, sortedListDataProcessor);
 }
-template <typename T, typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::System::IComparable_1<TBase>*> && ::cordl_internals::reference_type_constraint<TBase>)
-inline ::System::Collections::Generic::LinkedListNode_1<TBase>* GlobalNamespace::SortedList_2<T, TBase>::Insert(TBase newItem) {
+template <typename T, typename TBase> inline ::System::Collections::Generic::LinkedListNode_1<TBase>* GlobalNamespace::SortedList_2<T, TBase>::Insert(TBase newItem) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_2<T, TBase>*>(), { "Insert", {}, { ::i2c::type_of<TBase>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::LinkedListNode_1<TBase>*>(this, ___internal_method, newItem);
 }
-template <typename T, typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::System::IComparable_1<TBase>*> && ::cordl_internals::reference_type_constraint<TBase>)
-inline void GlobalNamespace::SortedList_2<T, TBase>::Insert(::System::Collections::Generic::LinkedListNode_1<TBase>* newNode) {
+template <typename T, typename TBase> inline void GlobalNamespace::SortedList_2<T, TBase>::Insert(::System::Collections::Generic::LinkedListNode_1<TBase>* newNode) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_2<T, TBase>*>(),
                                                                                          { "Insert", {}, { ::i2c::type_of<::System::Collections::Generic::LinkedListNode_1<TBase>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newNode);
 }
-template <typename T, typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::System::IComparable_1<TBase>*> && ::cordl_internals::reference_type_constraint<TBase>)
-inline void GlobalNamespace::SortedList_2<T, TBase>::Remove(::System::Collections::Generic::LinkedListNode_1<TBase>* node) {
+template <typename T, typename TBase> inline void GlobalNamespace::SortedList_2<T, TBase>::Remove(::System::Collections::Generic::LinkedListNode_1<TBase>* node) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_2<T, TBase>*>(),
                                                                                          { "Remove", {}, { ::i2c::type_of<::System::Collections::Generic::LinkedListNode_1<TBase>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, node);
 }
-template <typename T, typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::System::IComparable_1<TBase>*> && ::cordl_internals::reference_type_constraint<TBase>)
-inline void GlobalNamespace::SortedList_2<T, TBase>::TouchLastUsedNode(::System::Collections::Generic::LinkedListNode_1<TBase>* node) {
+template <typename T, typename TBase> inline void GlobalNamespace::SortedList_2<T, TBase>::TouchLastUsedNode(::System::Collections::Generic::LinkedListNode_1<TBase>* node) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_2<T, TBase>*>(),
                                                                                          { "TouchLastUsedNode", {}, { ::i2c::type_of<::System::Collections::Generic::LinkedListNode_1<TBase>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, node);
 }
-template <typename T, typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::System::IComparable_1<TBase>*> && ::cordl_internals::reference_type_constraint<TBase>)
-inline void GlobalNamespace::SortedList_2<T, TBase>::InsertInternal(::System::Collections::Generic::LinkedListNode_1<TBase>* newItem) {
+template <typename T, typename TBase> inline void GlobalNamespace::SortedList_2<T, TBase>::InsertInternal(::System::Collections::Generic::LinkedListNode_1<TBase>* newItem) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SortedList_2<T, TBase>*>(),
                                                                                          { "InsertInternal", {}, { ::i2c::type_of<::System::Collections::Generic::LinkedListNode_1<TBase>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newItem);
 }
 template <typename T, typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::System::IComparable_1<TBase>*> && ::cordl_internals::reference_type_constraint<TBase>)
 inline ::GlobalNamespace::SortedList_2<T, TBase>* GlobalNamespace::SortedList_2<T, TBase>::New_ctor(::GlobalNamespace::ISortedListItemProcessor_1<TBase>* sortedListDataProcessor) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::SortedList_2<T, TBase>*>(sortedListDataProcessor));
 }
 /// @brief Convert operator to "::GlobalNamespace::ISortedList_1<TBase>"
-template <typename T, typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::System::IComparable_1<TBase>*> && ::cordl_internals::reference_type_constraint<TBase>)
-constexpr GlobalNamespace::SortedList_2<T, TBase>::operator ::GlobalNamespace::ISortedList_1<TBase>*() noexcept {
+template <typename T, typename TBase> constexpr GlobalNamespace::SortedList_2<T, TBase>::operator ::GlobalNamespace::ISortedList_1<TBase>*() noexcept {
   return static_cast<::GlobalNamespace::ISortedList_1<TBase>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::GlobalNamespace::ISortedList_1<TBase>"
-template <typename T, typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::System::IComparable_1<TBase>*> && ::cordl_internals::reference_type_constraint<TBase>)
-constexpr ::GlobalNamespace::ISortedList_1<TBase>* GlobalNamespace::SortedList_2<T, TBase>::i___GlobalNamespace__ISortedList_1_TBase_() noexcept {
+template <typename T, typename TBase> constexpr ::GlobalNamespace::ISortedList_1<TBase>* GlobalNamespace::SortedList_2<T, TBase>::i___GlobalNamespace__ISortedList_1_TBase_() noexcept {
   return static_cast<::GlobalNamespace::ISortedList_1<TBase>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-template <typename T, typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::System::IComparable_1<TBase>*> && ::cordl_internals::reference_type_constraint<TBase>)
-constexpr ::GlobalNamespace::SortedList_2<T, TBase>::SortedList_2() {}
+template <typename T, typename TBase> constexpr ::GlobalNamespace::SortedList_2<T, TBase>::SortedList_2() {}

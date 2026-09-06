@@ -5,122 +5,82 @@
 #include "GlobalNamespace/zzzz__BloomFilterUtil_def.hpp"
 #include "GlobalNamespace/zzzz__BloomFilterUtil_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr int32_t& GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>::__cordl_internal_get_hashCount() {
+template <typename T> constexpr int32_t& GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>::__cordl_internal_get_hashCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashCount;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr int32_t const& GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>::__cordl_internal_get_hashCount() const {
+template <typename T> constexpr int32_t const& GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>::__cordl_internal_get_hashCount() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashCount;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr void GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>::__cordl_internal_set_hashCount(int32_t value) {
+template <typename T> constexpr void GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>::__cordl_internal_set_hashCount(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hashCount = value;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr int32_t& GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>::__cordl_internal_get_hashBits() {
+template <typename T> constexpr int32_t& GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>::__cordl_internal_get_hashBits() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashBits;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr int32_t const& GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>::__cordl_internal_get_hashBits() const {
+template <typename T> constexpr int32_t const& GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>::__cordl_internal_get_hashBits() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashBits;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr void GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>::__cordl_internal_set_hashBits(int32_t value) {
+template <typename T> constexpr void GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>::__cordl_internal_set_hashBits(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hashBits = value;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-inline void GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>::_ctor() {
+template <typename T> inline void GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-inline T GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>::_ToBloomFilter_b__0(T bloomFilter, ::StringW str) {
+template <typename T> inline T GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>::_ToBloomFilter_b__0(T bloomFilter, ::StringW str) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>*>(),
                                                                                          { "<ToBloomFilter>b__0", {}, { ::i2c::type_of<T>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method, bloomFilter, str);
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-inline ::GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>* GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>::New_ctor() {
+template <typename T> inline ::GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>* GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>*>());
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr ::GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>::BloomFilterUtil___c__DisplayClass1_0_1() {}
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr int32_t& GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>::__cordl_internal_get_hashCount() {
+template <typename T> constexpr ::GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>::BloomFilterUtil___c__DisplayClass1_0_1() {}
+template <typename T> constexpr int32_t& GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>::__cordl_internal_get_hashCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashCount;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr int32_t const& GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>::__cordl_internal_get_hashCount() const {
+template <typename T> constexpr int32_t const& GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>::__cordl_internal_get_hashCount() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashCount;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr void GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>::__cordl_internal_set_hashCount(int32_t value) {
+template <typename T> constexpr void GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>::__cordl_internal_set_hashCount(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hashCount = value;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr int32_t& GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>::__cordl_internal_get_hashBits() {
+template <typename T> constexpr int32_t& GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>::__cordl_internal_get_hashBits() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashBits;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr int32_t const& GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>::__cordl_internal_get_hashBits() const {
+template <typename T> constexpr int32_t const& GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>::__cordl_internal_get_hashBits() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashBits;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr void GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>::__cordl_internal_set_hashBits(int32_t value) {
+template <typename T> constexpr void GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>::__cordl_internal_set_hashBits(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hashBits = value;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-inline void GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>::_ctor() {
+template <typename T> inline void GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-inline T GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>::_ToBloomFilter_b__0(T bloomFilter, uint32_t hash) {
+template <typename T> inline T GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>::_ToBloomFilter_b__0(T bloomFilter, uint32_t hash) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>*>(),
                                                                                          { "<ToBloomFilter>b__0", {}, { ::i2c::type_of<T>(), ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method, bloomFilter, hash);
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-inline ::GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>* GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>::New_ctor() {
+template <typename T> inline ::GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>* GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>*>());
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr ::GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>::BloomFilterUtil___c__DisplayClass2_0_1() {}
+template <typename T> constexpr ::GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>::BloomFilterUtil___c__DisplayClass2_0_1() {}
 template <typename T>
   requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
 inline T GlobalNamespace::BloomFilterUtil::ToBloomFilter(::StringW value, int32_t hashCount, int32_t hashBits) {

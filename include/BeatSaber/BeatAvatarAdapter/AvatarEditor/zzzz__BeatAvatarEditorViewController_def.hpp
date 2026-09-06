@@ -25,17 +25,13 @@ namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 class BeatAvatarEditorViewController___c__DisplayClass60_0;
 }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*> && ::cordl_internals::type_constraint<T, ::BeatSaber::BeatAvatarSDK::IAvatarPart*>)
-class BeatAvatarEditorViewController___c__DisplayClass62_0_1;
+template <typename T> class BeatAvatarEditorViewController___c__DisplayClass62_0_1;
 }
 namespace BeatSaber::BeatAvatarSDK {
 class AvatarDataModel;
 }
 namespace BeatSaber::BeatAvatarSDK {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*> && ::cordl_internals::type_constraint<T, ::BeatSaber::BeatAvatarSDK::IAvatarPart*>)
-class AvatarPartCollection_1;
+template <typename T> class AvatarPartCollection_1;
 }
 namespace BeatSaber::BeatAvatarSDK {
 struct AvatarPart;
@@ -102,9 +98,7 @@ namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 class BeatAvatarEditorViewController___c__DisplayClass60_0;
 }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*> && ::cordl_internals::type_constraint<T, ::BeatSaber::BeatAvatarSDK::IAvatarPart*>)
-class BeatAvatarEditorViewController___c__DisplayClass62_0_1;
+template <typename T> class BeatAvatarEditorViewController___c__DisplayClass62_0_1;
 }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 struct BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57;
@@ -231,11 +225,10 @@ static_assert(sizeof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEdi
 
 } // namespace BeatSaber::BeatAvatarAdapter::AvatarEditor
 // [CompilerGenerated]
-// Dependencies BeatSaber.BeatAvatarSDK.AvatarPart, BeatSaber.BeatAvatarSDK.IAvatarPart, System.Object, UnityEngine.Object
+// Dependencies BeatSaber.BeatAvatarSDK.AvatarPart, System.Object
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*> && ::cordl_internals::type_constraint<T, ::BeatSaber::BeatAvatarSDK::IAvatarPart*>)
 // Is value type: false
 // CS Name: BeatSaber.BeatAvatarAdapter.AvatarEditor.BeatAvatarEditorViewController/<>c__DisplayClass62_0`1<T>
 class CORDL_TYPE BeatAvatarEditorViewController___c__DisplayClass62_0_1 : public ::System::Object {
@@ -394,9 +387,7 @@ public:
 
   using __c__DisplayClass60_0 = ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*> && ::cordl_internals::type_constraint<T, ::BeatSaber::BeatAvatarSDK::IAvatarPart*>)
-  using __c__DisplayClass62_0_1 = ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass62_0_1<T>;
+  template <typename T> using __c__DisplayClass62_0_1 = ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass62_0_1<T>;
 
   /// @brief Field _applyButton, offset 0xe8, size 0x8
   __declspec(property(get = __cordl_internal_get__applyButton, put = __cordl_internal_set__applyButton)) ::UnityW<::UnityEngine::UI::Button> _applyButton;

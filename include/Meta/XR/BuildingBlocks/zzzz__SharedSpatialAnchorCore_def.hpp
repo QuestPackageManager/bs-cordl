@@ -21,14 +21,10 @@ namespace GlobalNamespace {
 struct OVRAnchor_ShareResult;
 }
 namespace GlobalNamespace {
-template <typename TStatus>
-  requires(::cordl_internals::type_constraint<TStatus, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TStatus> && ::cordl_internals::default_constructor_constraint<TStatus>)
-struct OVRResult_1;
+template <typename TStatus> struct OVRResult_1;
 }
 namespace GlobalNamespace {
-template <typename TValue, typename TStatus>
-  requires(::cordl_internals::type_constraint<TStatus, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TStatus> && ::cordl_internals::default_constructor_constraint<TStatus>)
-struct OVRResult_2;
+template <typename TValue, typename TStatus> struct OVRResult_2;
 }
 namespace GlobalNamespace {
 struct OVRSpaceUser;

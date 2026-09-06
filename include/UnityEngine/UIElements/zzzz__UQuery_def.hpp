@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__HierarchyTraversal_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UQuery)
 namespace System::Collections::Generic {
@@ -33,9 +32,7 @@ namespace UnityEngine::UIElements {
 class UQuery_IVisualPredicateWrapper;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
-class UQuery_IsOfType_1;
+template <typename T> class UQuery_IsOfType_1;
 }
 namespace UnityEngine::UIElements {
 class UQuery_SingleQueryMatcher;
@@ -60,9 +57,7 @@ namespace UnityEngine::UIElements {
 class UQuery_IVisualPredicateWrapper;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
-class UQuery_IsOfType_1;
+template <typename T> class UQuery_IsOfType_1;
 }
 namespace UnityEngine::UIElements {
 class UQuery_SingleQueryMatcher;
@@ -106,11 +101,10 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies System.Object, UnityEngine.UIElements.VisualElement
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UQuery/IsOfType`1<T>
 class CORDL_TYPE UQuery_IsOfType_1 : public ::System::Object {
@@ -407,9 +401,7 @@ public:
 
   using IVisualPredicateWrapper = ::UnityEngine::UIElements::UQuery_IVisualPredicateWrapper;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
-  using IsOfType_1 = ::UnityEngine::UIElements::UQuery_IsOfType_1<T>;
+  template <typename T> using IsOfType_1 = ::UnityEngine::UIElements::UQuery_IsOfType_1<T>;
 
   using SingleQueryMatcher = ::UnityEngine::UIElements::UQuery_SingleQueryMatcher;
 

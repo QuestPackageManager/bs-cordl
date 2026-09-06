@@ -3,57 +3,41 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "Unity/Collections/zzzz__AllocatorManager_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HashMapHelper_1)
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey>)
-struct HashMapHelper_1_Enumerator;
+template <typename TKey> struct HashMapHelper_1_Enumerator;
 }
 namespace Unity::Collections {
 struct AllocatorManager_AllocatorHandle;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
-           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-struct KVPair_2;
+template <typename TKey, typename TValue> struct KVPair_2;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1;
+template <typename T> struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
-           ::cordl_internals::default_constructor_constraint<TValue>)
-struct NativeKeyValueArrays_2;
+template <typename TKey, typename TValue> struct NativeKeyValueArrays_2;
 }
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey>)
-struct HashMapHelper_1;
+template <typename TKey> struct HashMapHelper_1;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey>)
-struct HashMapHelper_1_Enumerator;
+template <typename TKey> struct HashMapHelper_1_Enumerator;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1);
 MARK_GEN_VAL_T(::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1_Enumerator);
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1, "Unity.Collections.LowLevel.Unsafe", "HashMapHelper`1");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1_Enumerator, "Unity.Collections.LowLevel.Unsafe", "HashMapHelper`1/Enumerator");
-// Dependencies System.IEquatable`1<T>
+// Dependencies
 namespace Unity::Collections::LowLevel::Unsafe {
 // cpp template
 template <typename TKey>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey>)
 // Is value type: true
 // CS Name: Unity.Collections.LowLevel.Unsafe.HashMapHelper`1/Enumerator<TKey>
 struct CORDL_TYPE HashMapHelper_1_Enumerator {
@@ -109,11 +93,10 @@ public:
 // Non member Declarations
 } // namespace Unity::Collections::LowLevel::Unsafe
 // [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
-// Dependencies System.IEquatable`1<T>, Unity.Collections.AllocatorManager::AllocatorHandle
+// Dependencies Unity.Collections.AllocatorManager::AllocatorHandle
 namespace Unity::Collections::LowLevel::Unsafe {
 // cpp template
 template <typename TKey>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey>)
 // Is value type: true
 // CS Name: Unity.Collections.LowLevel.Unsafe.HashMapHelper`1<TKey>
 struct CORDL_TYPE HashMapHelper_1 {

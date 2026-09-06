@@ -3,25 +3,18 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__ILevelPackProductData_1_def.hpp"
-#include "GlobalNamespace/zzzz__ILevelProductData_def.hpp"
 CORDL_MODULE_EXPORT(ILevelPackProductDataContainer_2)
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename TLevelPackProductData, typename TLevelProductData>
-  requires(::cordl_internals::type_constraint<TLevelPackProductData, ::GlobalNamespace::ILevelPackProductData_1<TLevelProductData>*> &&
-           ::cordl_internals::type_constraint<TLevelProductData, ::GlobalNamespace::ILevelProductData*>)
-class ILevelPackProductDataContainer_2;
+template <typename TLevelPackProductData, typename TLevelProductData> class ILevelPackProductDataContainer_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::ILevelPackProductDataContainer_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::ILevelPackProductDataContainer_2, "", "ILevelPackProductDataContainer`2");
-// Dependencies ILevelPackProductData`1<TLevelProductData>, ILevelProductData
+// Dependencies
 namespace GlobalNamespace {
 // cpp template
 template <typename TLevelPackProductData, typename TLevelProductData>
-  requires(::cordl_internals::type_constraint<TLevelPackProductData, ::GlobalNamespace::ILevelPackProductData_1<TLevelProductData>*> &&
-           ::cordl_internals::type_constraint<TLevelProductData, ::GlobalNamespace::ILevelProductData*>)
 // Is value type: false
 // CS Name: ILevelPackProductDataContainer`2<TLevelPackProductData,TLevelProductData>
 class CORDL_TYPE ILevelPackProductDataContainer_2 {

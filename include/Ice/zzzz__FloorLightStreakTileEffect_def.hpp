@@ -13,9 +13,7 @@ namespace GlobalNamespace {
 class IAudioTimeSource;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class SimpleMemoryPool_1;
+template <typename T> class SimpleMemoryPool_1;
 }
 namespace Ice {
 class FloorLightStreakTileEffect_Element;

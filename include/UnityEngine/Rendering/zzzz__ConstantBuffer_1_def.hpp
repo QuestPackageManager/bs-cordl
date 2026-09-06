@@ -27,9 +27,7 @@ class Material;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
-template <typename CBType>
-  requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
-class ConstantBuffer_1;
+template <typename CBType> class ConstantBuffer_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::ConstantBuffer_1);
@@ -38,7 +36,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::ConstantBuffer_1, "UnityEn
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename CBType>
-  requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.ConstantBuffer`1<CBType>
 class CORDL_TYPE ConstantBuffer_1 : public ::UnityEngine::Rendering::ConstantBufferBase {

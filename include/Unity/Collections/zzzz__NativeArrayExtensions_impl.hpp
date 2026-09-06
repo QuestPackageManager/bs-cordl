@@ -12,21 +12,15 @@
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "Unity/Collections/zzzz__NativeHashSet_1_def.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_def.hpp"
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline void Unity::Collections::NativeArrayExtensions_NativeArrayStaticId_1<T>::setStaticF_s_staticSafetyId(::Unity::Burst::SharedStatic_1<int32_t> value) {
+template <typename T> inline void Unity::Collections::NativeArrayExtensions_NativeArrayStaticId_1<T>::setStaticF_s_staticSafetyId(::Unity::Burst::SharedStatic_1<int32_t> value) {
   ::cordl_internals::setStaticField<::Unity::Burst::SharedStatic_1<int32_t>, "s_staticSafetyId", ::Unity::Collections::NativeArrayExtensions_NativeArrayStaticId_1<T>>(
       std::forward<::Unity::Burst::SharedStatic_1<int32_t>>(value));
 }
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline ::Unity::Burst::SharedStatic_1<int32_t> Unity::Collections::NativeArrayExtensions_NativeArrayStaticId_1<T>::getStaticF_s_staticSafetyId() {
+template <typename T> inline ::Unity::Burst::SharedStatic_1<int32_t> Unity::Collections::NativeArrayExtensions_NativeArrayStaticId_1<T>::getStaticF_s_staticSafetyId() {
   return ::cordl_internals::getStaticField<::Unity::Burst::SharedStatic_1<int32_t>, "s_staticSafetyId", ::Unity::Collections::NativeArrayExtensions_NativeArrayStaticId_1<T>>();
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr ::Unity::Collections::NativeArrayExtensions_NativeArrayStaticId_1<T>::NativeArrayExtensions_NativeArrayStaticId_1() {}
+template <typename T> constexpr ::Unity::Collections::NativeArrayExtensions_NativeArrayStaticId_1<T>::NativeArrayExtensions_NativeArrayStaticId_1() {}
 template <typename T, typename U>
   requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<U>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline bool Unity::Collections::NativeArrayExtensions::Contains(::Unity::Collections::NativeArray_1<T> array, U value) {

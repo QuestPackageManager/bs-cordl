@@ -33,9 +33,7 @@ namespace UnityEngine::UIElements {
 class ListView_UxmlTraits;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
-class UxmlAssetAttributeDescription_1;
+template <typename T> class UxmlAssetAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;

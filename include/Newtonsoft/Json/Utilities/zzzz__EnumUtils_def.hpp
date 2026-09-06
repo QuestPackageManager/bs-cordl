@@ -21,9 +21,7 @@ namespace Newtonsoft::Json::Utilities {
 class EnumUtils___c;
 }
 namespace Newtonsoft::Json::Utilities {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class EnumUtils___c__4_1;
+template <typename T> class EnumUtils___c__4_1;
 }
 namespace Newtonsoft::Json::Utilities {
 template <typename T1, typename T2> struct StructMultiKey_2;
@@ -41,9 +39,7 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct Nullable_1;
+template <typename T> struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -62,9 +58,7 @@ namespace Newtonsoft::Json::Utilities {
 class EnumUtils___c;
 }
 namespace Newtonsoft::Json::Utilities {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class EnumUtils___c__4_1;
+template <typename T> class EnumUtils___c__4_1;
 }
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Utilities::EnumUtils*);
@@ -132,7 +126,6 @@ static_assert(sizeof(::Newtonsoft::Json::Utilities::EnumUtils___c) == 0x10, "Siz
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: Newtonsoft.Json.Utilities.EnumUtils/<>c__4`1<T>
 class CORDL_TYPE EnumUtils___c__4_1 : public ::System::Object {
@@ -192,9 +185,7 @@ public:
   // Declarations
   using __c = ::Newtonsoft::Json::Utilities::EnumUtils___c;
 
-  template <typename T>
-    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  using __c__4_1 = ::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>;
+  template <typename T> using __c__4_1 = ::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>;
 
   /// @brief Field ValuesAndNamesPerEnum, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ValuesAndNamesPerEnum, put = setStaticF_ValuesAndNamesPerEnum)) ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<

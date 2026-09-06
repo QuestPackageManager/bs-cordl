@@ -3,24 +3,20 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/zzzz__ISubsystemDescriptor_def.hpp"
 #include "UnityEngine/zzzz__IntegratedSubsystem_def.hpp"
 CORDL_MODULE_EXPORT(IntegratedSubsystem_1)
 // Forward declare root types
 namespace UnityEngine {
-template <typename TSubsystemDescriptor>
-  requires(::cordl_internals::type_constraint<TSubsystemDescriptor, ::UnityEngine::ISubsystemDescriptor*>)
-class IntegratedSubsystem_1;
+template <typename TSubsystemDescriptor> class IntegratedSubsystem_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::IntegratedSubsystem_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::IntegratedSubsystem_1, "UnityEngine", "IntegratedSubsystem`1");
 // [UsedByNativeCode("Subsystem_TSubsystemDescriptor")]
-// Dependencies UnityEngine.ISubsystemDescriptor, UnityEngine.IntegratedSubsystem
+// Dependencies UnityEngine.IntegratedSubsystem
 namespace UnityEngine {
 // cpp template
 template <typename TSubsystemDescriptor>
-  requires(::cordl_internals::type_constraint<TSubsystemDescriptor, ::UnityEngine::ISubsystemDescriptor*>)
 // Is value type: false
 // CS Name: UnityEngine.IntegratedSubsystem`1<TSubsystemDescriptor>
 class CORDL_TYPE IntegratedSubsystem_1 : public ::UnityEngine::IntegratedSubsystem {

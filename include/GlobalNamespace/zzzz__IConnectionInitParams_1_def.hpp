@@ -3,22 +3,18 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IConnectionManager_def.hpp"
 CORDL_MODULE_EXPORT(IConnectionInitParams_1)
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*>)
-class IConnectionInitParams_1;
+template <typename T> class IConnectionInitParams_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::IConnectionInitParams_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::IConnectionInitParams_1, "", "IConnectionInitParams`1");
-// Dependencies IConnectionManager
+// Dependencies
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*>)
 // Is value type: false
 // CS Name: IConnectionInitParams`1<T>
 class CORDL_TYPE IConnectionInitParams_1 {

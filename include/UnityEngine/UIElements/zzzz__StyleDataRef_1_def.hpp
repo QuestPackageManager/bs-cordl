@@ -3,9 +3,7 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IStyleDataGroup_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleDataRef_1)
@@ -16,35 +14,24 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::IStyleDataGroup_1<T>*> &&
-           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class StyleDataRef_1_RefCounted;
+template <typename T> class StyleDataRef_1_RefCounted;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::IStyleDataGroup_1<T>*> &&
-           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class StyleDataRef_1_RefCounted;
+template <typename T> class StyleDataRef_1_RefCounted;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::IStyleDataGroup_1<T>*> &&
-           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct StyleDataRef_1;
+template <typename T> struct StyleDataRef_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::StyleDataRef_1_RefCounted);
 MARK_GEN_VAL_T(::UnityEngine::UIElements::StyleDataRef_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::StyleDataRef_1_RefCounted, "UnityEngine.UIElements", "StyleDataRef`1/RefCounted");
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::StyleDataRef_1, "UnityEngine.UIElements", "StyleDataRef`1");
-// Dependencies System.IEquatable`1<T>, System.Object, UnityEngine.UIElements.IStyleDataGroup`1<T>
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::IStyleDataGroup_1<T>*> &&
-           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.StyleDataRef`1/RefCounted<T>
 class CORDL_TYPE StyleDataRef_1_RefCounted : public ::System::Object {
@@ -134,12 +121,10 @@ public:
 // Non member Declarations
 } // namespace UnityEngine::UIElements
 // [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-// Dependencies System.IEquatable`1<T>, UnityEngine.UIElements.IStyleDataGroup`1<T>
+// Dependencies
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::IStyleDataGroup_1<T>*> &&
-           ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.UIElements.StyleDataRef`1<T>
 struct CORDL_TYPE StyleDataRef_1 {

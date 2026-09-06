@@ -3,8 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Zenject/zzzz__IPoolable_2_def.hpp"
-#include "Zenject/zzzz__MemoryPool_3_def.hpp"
 #include "Zenject/zzzz__PoolableMemoryPoolProviderBase_1_def.hpp"
 CORDL_MODULE_EXPORT(PoolableMemoryPoolProvider_3)
 namespace System::Collections::Generic {
@@ -23,9 +21,6 @@ namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class IMemoryPool;
-}
-namespace Zenject {
 class IValidatable;
 }
 namespace Zenject {
@@ -36,21 +31,16 @@ struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {
-template <typename TParam1, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_2<TParam1, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_3<TParam1, ::Zenject::IMemoryPool*, TContract>*>)
-class PoolableMemoryPoolProvider_3;
+template <typename TParam1, typename TContract, typename TMemoryPool> class PoolableMemoryPoolProvider_3;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::PoolableMemoryPoolProvider_3);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::PoolableMemoryPoolProvider_3, "Zenject", "PoolableMemoryPoolProvider`3");
 // [NoReflectionBaking]
-// Dependencies Zenject.IPoolable`2<TParam1, TParam2>, Zenject.MemoryPool`3<TParam1, TParam2, TValue>, Zenject.PoolableMemoryPoolProviderBase`1<TContract>
+// Dependencies Zenject.PoolableMemoryPoolProviderBase`1<TContract>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TContract, typename TMemoryPool>
-  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_2<TParam1, ::Zenject::IMemoryPool*>*> &&
-           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_3<TParam1, ::Zenject::IMemoryPool*, TContract>*>)
 // Is value type: false
 // CS Name: Zenject.PoolableMemoryPoolProvider`3<TParam1,TContract,TMemoryPool>
 class CORDL_TYPE PoolableMemoryPoolProvider_3 : public ::Zenject::PoolableMemoryPoolProviderBase_1<TContract> {

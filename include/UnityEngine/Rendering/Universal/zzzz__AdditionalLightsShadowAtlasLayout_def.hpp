@@ -17,9 +17,7 @@ namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1;
+template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine::Rendering::Universal {
 struct AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest;

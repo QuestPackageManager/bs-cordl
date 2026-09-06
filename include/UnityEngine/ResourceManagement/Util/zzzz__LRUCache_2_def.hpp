@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LRUCache_2)
@@ -20,34 +19,27 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::ResourceManagement::Util {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*>)
-struct LRUCache_2_Entry;
+template <typename TKey, typename TValue> struct LRUCache_2_Entry;
 }
 namespace UnityEngine::ResourceManagement::Util {
 template <typename T> class LinkedListNodeCache_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*>)
-struct LRUCache_2;
+template <typename TKey, typename TValue> struct LRUCache_2;
 }
 namespace UnityEngine::ResourceManagement::Util {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*>)
-struct LRUCache_2_Entry;
+template <typename TKey, typename TValue> struct LRUCache_2_Entry;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::ResourceManagement::Util::LRUCache_2);
 MARK_GEN_VAL_T(::UnityEngine::ResourceManagement::Util::LRUCache_2_Entry);
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::ResourceManagement::Util::LRUCache_2, "UnityEngine.ResourceManagement.Util", "LRUCache`2");
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::ResourceManagement::Util::LRUCache_2_Entry, "UnityEngine.ResourceManagement.Util", "LRUCache`2/Entry");
-// Dependencies System.IEquatable`1<T>
+// Dependencies
 namespace UnityEngine::ResourceManagement::Util {
 // cpp template
 template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*>)
 // Is value type: true
 // CS Name: UnityEngine.ResourceManagement.Util.LRUCache`2/Entry<TKey,TValue>
 struct CORDL_TYPE LRUCache_2_Entry {
@@ -90,11 +82,10 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::ResourceManagement::Util
-// Dependencies System.IEquatable`1<T>
+// Dependencies
 namespace UnityEngine::ResourceManagement::Util {
 // cpp template
 template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*>)
 // Is value type: true
 // CS Name: UnityEngine.ResourceManagement.Util.LRUCache`2<TKey,TValue>
 struct CORDL_TYPE LRUCache_2 {

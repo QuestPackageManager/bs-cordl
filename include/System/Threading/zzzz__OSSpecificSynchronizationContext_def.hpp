@@ -8,14 +8,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(OSSpecificSynchronizationContext)
 namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::reference_type_constraint<TKey> && ::cordl_internals::reference_type_constraint<TValue>)
-class ConditionalWeakTable_2_CreateValueCallback;
+template <typename TKey, typename TValue> class ConditionalWeakTable_2_CreateValueCallback;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::reference_type_constraint<TKey> && ::cordl_internals::reference_type_constraint<TValue>)
-class ConditionalWeakTable_2;
+template <typename TKey, typename TValue> class ConditionalWeakTable_2;
 }
 namespace System::Threading {
 class OSSpecificSynchronizationContext_InvocationContext;

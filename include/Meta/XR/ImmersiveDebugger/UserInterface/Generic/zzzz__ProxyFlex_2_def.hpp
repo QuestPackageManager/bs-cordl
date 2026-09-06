@@ -3,8 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__Controller_def.hpp"
-#include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__ProxyController_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 #include <cstdint>
@@ -19,9 +17,7 @@ namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
 class LayoutStyle;
 }
 namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
-template <typename ControllerType>
-  requires(::cordl_internals::type_constraint<ControllerType, ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*>)
-class ProxyController_1;
+template <typename ControllerType> class ProxyController_1;
 }
 namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
 class ScrollView;
@@ -34,24 +30,15 @@ template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
-template <typename ControllerType, typename ProxyControllerType>
-  requires(::cordl_internals::type_constraint<ControllerType, ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*> &&
-           ::cordl_internals::default_constructor_constraint<ControllerType> &&
-           ::cordl_internals::type_constraint<ProxyControllerType, ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ProxyController_1<ControllerType>*> &&
-           ::cordl_internals::default_constructor_constraint<ProxyControllerType>)
-class ProxyFlex_2;
+template <typename ControllerType, typename ProxyControllerType> class ProxyFlex_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ProxyFlex_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ProxyFlex_2, "Meta.XR.ImmersiveDebugger.UserInterface.Generic", "ProxyFlex`2");
-// Dependencies Meta.XR.ImmersiveDebugger.UserInterface.Generic.Controller, Meta.XR.ImmersiveDebugger.UserInterface.Generic.ProxyController`1<ControllerType>, System.Object
+// Dependencies System.Object
 namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
 // cpp template
 template <typename ControllerType, typename ProxyControllerType>
-  requires(::cordl_internals::type_constraint<ControllerType, ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*> &&
-           ::cordl_internals::default_constructor_constraint<ControllerType> &&
-           ::cordl_internals::type_constraint<ProxyControllerType, ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ProxyController_1<ControllerType>*> &&
-           ::cordl_internals::default_constructor_constraint<ProxyControllerType>)
 // Is value type: false
 // CS Name: Meta.XR.ImmersiveDebugger.UserInterface.Generic.ProxyFlex`2<ControllerType,ProxyControllerType>
 class CORDL_TYPE ProxyFlex_2 : public ::System::Object {

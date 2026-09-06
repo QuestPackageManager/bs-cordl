@@ -3,23 +3,18 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDataSortedListForTypeAndIds_1)
 namespace GlobalNamespace {
-template <typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::GlobalNamespace::BeatmapDataItem*>)
-class BeatmapDataSortedListForTypeAndIds_1___c;
+template <typename TBase> class BeatmapDataSortedListForTypeAndIds_1___c;
 }
 namespace GlobalNamespace {
 template <typename T> class ISortedListItemProcessor_1;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
-class ISortedList_1;
+template <typename T> class ISortedList_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -41,14 +36,10 @@ template <typename T1, typename T2> struct ValueTuple_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::GlobalNamespace::BeatmapDataItem*>)
-class BeatmapDataSortedListForTypeAndIds_1;
+template <typename TBase> class BeatmapDataSortedListForTypeAndIds_1;
 }
 namespace GlobalNamespace {
-template <typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::GlobalNamespace::BeatmapDataItem*>)
-class BeatmapDataSortedListForTypeAndIds_1___c;
+template <typename TBase> class BeatmapDataSortedListForTypeAndIds_1___c;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1);
@@ -56,11 +47,10 @@ MARK_GEN_REF_T_PTR(::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1, "", "BeatmapDataSortedListForTypeAndIds`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1___c, "", "BeatmapDataSortedListForTypeAndIds`1/<>c");
 // [CompilerGenerated]
-// Dependencies BeatmapDataItem, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::GlobalNamespace::BeatmapDataItem*>)
 // Is value type: false
 // CS Name: BeatmapDataSortedListForTypeAndIds`1/<>c<TBase>
 class CORDL_TYPE BeatmapDataSortedListForTypeAndIds_1___c : public ::System::Object {
@@ -120,11 +110,10 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies BeatmapDataItem, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TBase>
-  requires(::cordl_internals::type_constraint<TBase, ::GlobalNamespace::BeatmapDataItem*>)
 // Is value type: false
 // CS Name: BeatmapDataSortedListForTypeAndIds`1<TBase>
 class CORDL_TYPE BeatmapDataSortedListForTypeAndIds_1 : public ::System::Object {

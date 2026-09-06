@@ -27,9 +27,7 @@ namespace System {
 class Object;
 }
 namespace System {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class WeakReference_1;
+template <typename T> class WeakReference_1;
 }
 namespace Unity::Collections {
 struct Allocator;
@@ -56,9 +54,7 @@ namespace UnityEngine::UIElements::Layout {
 struct LayoutNode;
 }
 namespace UnityEngine::UIElements::Layout {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class ManagedObjectStore_1;
+template <typename T> class ManagedObjectStore_1;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;

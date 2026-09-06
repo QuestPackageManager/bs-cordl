@@ -8,9 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BurstLike)
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct BurstLike_SharedStatic_1;
+template <typename T> struct BurstLike_SharedStatic_1;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
 class BurstLike_SharedStatic;
@@ -23,9 +21,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
 class BurstLike_SharedStatic;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct BurstLike_SharedStatic_1;
+template <typename T> struct BurstLike_SharedStatic_1;
 }
 // Write type traits
 MARK_REF_T(::Unity::Collections::LowLevel::Unsafe::BurstLike*);
@@ -40,7 +36,6 @@ DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::LowLevel::Unsafe::BurstLike_Shared
 namespace Unity::Collections::LowLevel::Unsafe {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.LowLevel.Unsafe.BurstLike/SharedStatic`1<T>
 struct CORDL_TYPE BurstLike_SharedStatic_1 {
@@ -122,9 +117,7 @@ public:
   // Declarations
   using SharedStatic = ::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic;
 
-  template <typename T>
-    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  using SharedStatic_1 = ::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<T>;
+  template <typename T> using SharedStatic_1 = ::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<T>;
 
 protected:
   // Ctor Parameters []

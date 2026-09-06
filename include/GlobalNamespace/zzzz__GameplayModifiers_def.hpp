@@ -33,9 +33,7 @@ namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace System {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct Nullable_1;
+template <typename T> struct Nullable_1;
 }
 namespace System {
 template <typename T1, typename T2, typename T3, typename T4> struct ValueTuple_4;

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 CORDL_MODULE_EXPORT(PoolWrapperFactory_2)
@@ -24,18 +23,15 @@ class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
-template <typename TParam1, typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IDisposable*>)
-class PoolWrapperFactory_2;
+template <typename TParam1, typename TValue> class PoolWrapperFactory_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::PoolWrapperFactory_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::PoolWrapperFactory_2, "Zenject", "PoolWrapperFactory`2");
-// Dependencies System.IDisposable, System.Object
+// Dependencies System.Object
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IDisposable*>)
 // Is value type: false
 // CS Name: Zenject.PoolWrapperFactory`2<TParam1,TValue>
 class CORDL_TYPE PoolWrapperFactory_2 : public ::System::Object {

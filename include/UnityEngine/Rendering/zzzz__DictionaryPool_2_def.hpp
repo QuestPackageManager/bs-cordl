@@ -12,14 +12,10 @@ namespace UnityEngine::Rendering {
 template <typename TKey, typename TValue> class DictionaryPool_2___c;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-struct ObjectPool_1_PooledObject;
+template <typename T> struct ObjectPool_1_PooledObject;
 }
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class ObjectPool_1;
+template <typename T> class ObjectPool_1;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {

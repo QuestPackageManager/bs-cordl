@@ -10,9 +10,7 @@ class Object;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Utils {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*>)
-class G_Singleton_1;
+template <typename T> class G_Singleton_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Tayx::Graphy::Utils::G_Singleton_1);
@@ -21,7 +19,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Tayx::Graphy::Utils::G_Singleton_1, "Tayx.Graphy.U
 namespace Tayx::Graphy::Utils {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*>)
 // Is value type: false
 // CS Name: Tayx.Graphy.Utils.G_Singleton`1<T>
 class CORDL_TYPE G_Singleton_1 : public ::UnityEngine::MonoBehaviour {

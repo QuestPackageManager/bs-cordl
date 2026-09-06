@@ -11,49 +11,35 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeArrayExtensions)
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct UnsafeHashSet_1;
+template <typename T> struct UnsafeHashSet_1;
 }
 namespace Unity::Collections {
 struct AllocatorManager_AllocatorHandle;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArrayExtensions_NativeArrayStaticId_1;
+template <typename T> struct NativeArrayExtensions_NativeArrayStaticId_1;
 }
 namespace Unity::Collections {
 struct NativeArrayOptions;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1_ReadOnly;
+template <typename T> struct NativeArray_1_ReadOnly;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1;
+template <typename T> struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeHashSet_1;
+template <typename T> struct NativeHashSet_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeList_1;
+template <typename T> struct NativeList_1;
 }
 // Forward declare root types
 namespace Unity::Collections {
 class NativeArrayExtensions;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArrayExtensions_NativeArrayStaticId_1;
+template <typename T> struct NativeArrayExtensions_NativeArrayStaticId_1;
 }
 // Write type traits
 MARK_REF_T(::Unity::Collections::NativeArrayExtensions*);
@@ -64,7 +50,6 @@ DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeArrayExtensions_NativeArrayS
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeArrayExtensions/NativeArrayStaticId`1<T>
 #pragma pack(push, 0)
@@ -102,9 +87,7 @@ namespace Unity::Collections {
 class CORDL_TYPE NativeArrayExtensions : public ::System::Object {
 public:
   // Declarations
-  template <typename T>
-    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  using NativeArrayStaticId_1 = ::Unity::Collections::NativeArrayExtensions_NativeArrayStaticId_1<T>;
+  template <typename T> using NativeArrayStaticId_1 = ::Unity::Collections::NativeArrayExtensions_NativeArrayStaticId_1<T>;
 
   /// [Extension]
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]

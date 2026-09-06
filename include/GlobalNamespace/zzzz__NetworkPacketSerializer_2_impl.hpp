@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/NetworkPacketSerializer_2.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_impl.hpp"
-#include "System/zzzz__IConvertible_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NetworkPacketSerializer_2_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPacketProcessedHandler_1_def.hpp"
@@ -22,92 +21,62 @@
 #include "System/zzzz__Func_4_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<TPacket>)
 inline void GlobalNamespace::NetworkPacketSerializer_2___c__12_1<TType, TData, TPacket>::setStaticF___9(::GlobalNamespace::NetworkPacketSerializer_2___c__12_1<TType, TData, TPacket>* value) {
   ::cordl_internals::setStaticField<::GlobalNamespace::NetworkPacketSerializer_2___c__12_1<TType, TData, TPacket>*, "<>9",
                                     ::GlobalNamespace::NetworkPacketSerializer_2___c__12_1<TType, TData, TPacket>*>(
       std::forward<::GlobalNamespace::NetworkPacketSerializer_2___c__12_1<TType, TData, TPacket>*>(value));
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<TPacket>)
 inline ::GlobalNamespace::NetworkPacketSerializer_2___c__12_1<TType, TData, TPacket>* GlobalNamespace::NetworkPacketSerializer_2___c__12_1<TType, TData, TPacket>::getStaticF___9() {
   return ::cordl_internals::getStaticField<::GlobalNamespace::NetworkPacketSerializer_2___c__12_1<TType, TData, TPacket>*, "<>9",
                                            ::GlobalNamespace::NetworkPacketSerializer_2___c__12_1<TType, TData, TPacket>*>();
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<TPacket>)
 inline void GlobalNamespace::NetworkPacketSerializer_2___c__12_1<TType, TData, TPacket>::setStaticF___9__12_0(::System::Func_2<TData, TPacket>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<TData, TPacket>*, "<>9__12_0", ::GlobalNamespace::NetworkPacketSerializer_2___c__12_1<TType, TData, TPacket>*>(
       std::forward<::System::Func_2<TData, TPacket>*>(value));
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<TPacket>)
 inline ::System::Func_2<TData, TPacket>* GlobalNamespace::NetworkPacketSerializer_2___c__12_1<TType, TData, TPacket>::getStaticF___9__12_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<TData, TPacket>*, "<>9__12_0", ::GlobalNamespace::NetworkPacketSerializer_2___c__12_1<TType, TData, TPacket>*>();
 }
-template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<TPacket>)
-inline void GlobalNamespace::NetworkPacketSerializer_2___c__12_1<TType, TData, TPacket>::_ctor() {
+template <typename TType, typename TData, typename TPacket> inline void GlobalNamespace::NetworkPacketSerializer_2___c__12_1<TType, TData, TPacket>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPacketSerializer_2___c__12_1<TType, TData, TPacket>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<TPacket>)
-inline TPacket GlobalNamespace::NetworkPacketSerializer_2___c__12_1<TType, TData, TPacket>::_RegisterCallback_b__12_0(TData data) {
+template <typename TType, typename TData, typename TPacket> inline TPacket GlobalNamespace::NetworkPacketSerializer_2___c__12_1<TType, TData, TPacket>::_RegisterCallback_b__12_0(TData data) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPacketSerializer_2___c__12_1<TType, TData, TPacket>*>(),
                                                                                          { "<RegisterCallback>b__12_0", {}, { ::i2c::type_of<TData>() } })));
   return ::cordl_internals::RunMethodRethrow<TPacket>(this, ___internal_method, data);
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<TPacket>)
 inline ::GlobalNamespace::NetworkPacketSerializer_2___c__12_1<TType, TData, TPacket>* GlobalNamespace::NetworkPacketSerializer_2___c__12_1<TType, TData, TPacket>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::NetworkPacketSerializer_2___c__12_1<TType, TData, TPacket>*>());
 }
 // Ctor Parameters []
+template <typename TType, typename TData, typename TPacket> constexpr ::GlobalNamespace::NetworkPacketSerializer_2___c__12_1<TType, TData, TPacket>::NetworkPacketSerializer_2___c__12_1() {}
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<TPacket>)
-constexpr ::GlobalNamespace::NetworkPacketSerializer_2___c__12_1<TType, TData, TPacket>::NetworkPacketSerializer_2___c__12_1() {}
-template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<TPacket>)
 constexpr ::System::Action_1<TPacket>*& GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass10_0_1<TType, TData, TPacket>::__cordl_internal_get_callback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<TPacket>)
 constexpr ::System::Action_1<TPacket>* const& GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass10_0_1<TType, TData, TPacket>::__cordl_internal_get_callback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<TPacket>)
 constexpr void GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass10_0_1<TType, TData, TPacket>::__cordl_internal_set_callback(::System::Action_1<TPacket>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___callback = value;
 }
-template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<TPacket>)
-inline void GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass10_0_1<TType, TData, TPacket>::_ctor() {
+template <typename TType, typename TData, typename TPacket> inline void GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass10_0_1<TType, TData, TPacket>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass10_0_1<TType, TData, TPacket>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<TPacket>)
 inline void GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass10_0_1<TType, TData, TPacket>::_RegisterCallback_b__0(TPacket packet, TData data) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass10_0_1<TType, TData, TPacket>*>(),
@@ -115,70 +84,49 @@ inline void GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass10_0_1<T
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, packet, data);
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<TPacket>)
 inline ::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass10_0_1<TType, TData, TPacket>*
 GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass10_0_1<TType, TData, TPacket>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass10_0_1<TType, TData, TPacket>*>());
 }
 // Ctor Parameters []
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<TPacket>)
 constexpr ::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass10_0_1<TType, TData, TPacket>::NetworkPacketSerializer_2___c__DisplayClass10_0_1() {}
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 constexpr ::System::Action_1<TPacket>*& GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass11_0_1<TType, TData, TPacket>::__cordl_internal_get_callback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 constexpr ::System::Action_1<TPacket>* const& GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass11_0_1<TType, TData, TPacket>::__cordl_internal_get_callback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 constexpr void GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass11_0_1<TType, TData, TPacket>::__cordl_internal_set_callback(::System::Action_1<TPacket>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___callback = value;
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 constexpr ::System::Func_1<TPacket>*& GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass11_0_1<TType, TData, TPacket>::__cordl_internal_get_constructor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___constructor;
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 constexpr ::System::Func_1<TPacket>* const& GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass11_0_1<TType, TData, TPacket>::__cordl_internal_get_constructor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___constructor;
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 constexpr void GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass11_0_1<TType, TData, TPacket>::__cordl_internal_set_constructor(::System::Func_1<TPacket>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___constructor = value;
 }
-template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
-inline void GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass11_0_1<TType, TData, TPacket>::_ctor() {
+template <typename TType, typename TData, typename TPacket> inline void GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass11_0_1<TType, TData, TPacket>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass11_0_1<TType, TData, TPacket>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 inline void GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass11_0_1<TType, TData, TPacket>::_RegisterCallback_b__0(TPacket packet, TData data) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass11_0_1<TType, TData, TPacket>*>(),
@@ -186,8 +134,6 @@ inline void GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass11_0_1<T
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, packet, data);
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 inline TPacket GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass11_0_1<TType, TData, TPacket>::_RegisterCallback_b__1(TData data) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass11_0_1<TType, TData, TPacket>*>(),
@@ -195,49 +141,34 @@ inline TPacket GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass11_0_
   return ::cordl_internals::RunMethodRethrow<TPacket>(this, ___internal_method, data);
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 inline ::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass11_0_1<TType, TData, TPacket>*
 GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass11_0_1<TType, TData, TPacket>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass11_0_1<TType, TData, TPacket>*>());
 }
 // Ctor Parameters []
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 constexpr ::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass11_0_1<TType, TData, TPacket>::NetworkPacketSerializer_2___c__DisplayClass11_0_1() {}
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 constexpr ::System::Func_1<TPacket>*& GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass13_0_1<TType, TData, TPacket>::__cordl_internal_get_constructor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___constructor;
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 constexpr ::System::Func_1<TPacket>* const& GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass13_0_1<TType, TData, TPacket>::__cordl_internal_get_constructor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___constructor;
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 constexpr void GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass13_0_1<TType, TData, TPacket>::__cordl_internal_set_constructor(::System::Func_1<TPacket>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___constructor = value;
 }
-template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
-inline void GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass13_0_1<TType, TData, TPacket>::_ctor() {
+template <typename TType, typename TData, typename TPacket> inline void GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass13_0_1<TType, TData, TPacket>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass13_0_1<TType, TData, TPacket>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 inline TPacket GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass13_0_1<TType, TData, TPacket>::_RegisterCallback_b__0(TData data) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass13_0_1<TType, TData, TPacket>*>(),
@@ -245,94 +176,67 @@ inline TPacket GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass13_0_
   return ::cordl_internals::RunMethodRethrow<TPacket>(this, ___internal_method, data);
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 inline ::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass13_0_1<TType, TData, TPacket>*
 GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass13_0_1<TType, TData, TPacket>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass13_0_1<TType, TData, TPacket>*>());
 }
 // Ctor Parameters []
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 constexpr ::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass13_0_1<TType, TData, TPacket>::NetworkPacketSerializer_2___c__DisplayClass13_0_1() {}
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 constexpr ::System::Func_2<TData, TPacket>*& GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass14_0_1<TType, TData, TPacket>::__cordl_internal_get_constructor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___constructor;
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 constexpr ::System::Func_2<TData, TPacket>* const& GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass14_0_1<TType, TData, TPacket>::__cordl_internal_get_constructor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___constructor;
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 constexpr void GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass14_0_1<TType, TData, TPacket>::__cordl_internal_set_constructor(::System::Func_2<TData, TPacket>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___constructor = value;
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 constexpr ::System::Action_2<TPacket, TData>*& GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass14_0_1<TType, TData, TPacket>::__cordl_internal_get_callback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 constexpr ::System::Action_2<TPacket, TData>* const& GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass14_0_1<TType, TData, TPacket>::__cordl_internal_get_callback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 constexpr void GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass14_0_1<TType, TData, TPacket>::__cordl_internal_set_callback(::System::Action_2<TPacket, TData>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___callback = value;
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 constexpr ::System::Func_4<::LiteNetLib::Utils::NetDataReader*, int32_t, TData, TPacket>*&
 GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass14_0_1<TType, TData, TPacket>::__cordl_internal_get_deserialize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___deserialize;
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 constexpr ::System::Func_4<::LiteNetLib::Utils::NetDataReader*, int32_t, TData, TPacket>* const&
 GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass14_0_1<TType, TData, TPacket>::__cordl_internal_get_deserialize() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___deserialize;
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 constexpr void GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass14_0_1<TType, TData, TPacket>::__cordl_internal_set_deserialize(
     ::System::Func_4<::LiteNetLib::Utils::NetDataReader*, int32_t, TData, TPacket>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___deserialize = value;
 }
-template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
-inline void GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass14_0_1<TType, TData, TPacket>::_ctor() {
+template <typename TType, typename TData, typename TPacket> inline void GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass14_0_1<TType, TData, TPacket>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass14_0_1<TType, TData, TPacket>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 inline TPacket GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass14_0_1<TType, TData, TPacket>::_RegisterCallback_b__0(::LiteNetLib::Utils::NetDataReader* reader, int32_t size, TData data) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass14_0_1<TType, TData, TPacket>*>(),
@@ -340,8 +244,6 @@ inline TPacket GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass14_0_
   return ::cordl_internals::RunMethodRethrow<TPacket>(this, ___internal_method, reader, size, data);
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 inline void GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass14_0_1<TType, TData, TPacket>::_RegisterCallback_b__1(::LiteNetLib::Utils::NetDataReader* reader, int32_t size, TData data) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass14_0_1<TType, TData, TPacket>*>(),
@@ -349,45 +251,35 @@ inline void GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass14_0_1<T
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader, size, data);
 }
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 inline ::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass14_0_1<TType, TData, TPacket>*
 GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass14_0_1<TType, TData, TPacket>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass14_0_1<TType, TData, TPacket>*>());
 }
 // Ctor Parameters []
 template <typename TType, typename TData, typename TPacket>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
-           ::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 constexpr ::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass14_0_1<TType, TData, TPacket>::NetworkPacketSerializer_2___c__DisplayClass14_0_1() {}
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 constexpr ::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*& GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass16_0<TType, TData>::__cordl_internal_get_subSubSerializer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subSubSerializer;
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 constexpr ::GlobalNamespace::INetworkPacketSubSerializer_1<TData>* const&
 GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass16_0<TType, TData>::__cordl_internal_get_subSubSerializer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subSubSerializer;
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 constexpr void GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass16_0<TType, TData>::__cordl_internal_set_subSubSerializer(::GlobalNamespace::INetworkPacketSubSerializer_1<TData>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___subSubSerializer = value;
 }
-template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
-inline void GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass16_0<TType, TData>::_ctor() {
+template <typename TType, typename TData> inline void GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass16_0<TType, TData>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass16_0<TType, TData>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 inline void GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass16_0<TType, TData>::_RegisterSubSerializer_b__0(::LiteNetLib::Utils::NetDataReader* reader, int32_t size, TData data) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass16_0<TType, TData>*>(),
@@ -395,155 +287,125 @@ inline void GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass16_0<TTy
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader, size, data);
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 inline ::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass16_0<TType, TData>* GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass16_0<TType, TData>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass16_0<TType, TData>*>());
 }
 // Ctor Parameters []
+template <typename TType, typename TData> constexpr ::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass16_0<TType, TData>::NetworkPacketSerializer_2___c__DisplayClass16_0() {}
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
-constexpr ::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass16_0<TType, TData>::NetworkPacketSerializer_2___c__DisplayClass16_0() {}
-template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 constexpr ::System::Collections::Generic::Dictionary_2<uint8_t, ::System::Action_3<::LiteNetLib::Utils::NetDataReader*, int32_t, TData>*>*&
 GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_get__messsageHandlers() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____messsageHandlers;
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 constexpr ::System::Collections::Generic::Dictionary_2<uint8_t, ::System::Action_3<::LiteNetLib::Utils::NetDataReader*, int32_t, TData>*>* const&
 GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_get__messsageHandlers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____messsageHandlers;
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 constexpr void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_set__messsageHandlers(
     ::System::Collections::Generic::Dictionary_2<uint8_t, ::System::Action_3<::LiteNetLib::Utils::NetDataReader*, int32_t, TData>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____messsageHandlers = value;
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, uint8_t>*& GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_get__typeRegistry() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____typeRegistry;
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, uint8_t>* const& GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_get__typeRegistry() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____typeRegistry;
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 constexpr void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_set__typeRegistry(::System::Collections::Generic::Dictionary_2<::System::Type*, uint8_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____typeRegistry = value;
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*, uint8_t>*&
 GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_get__subSerializerRegistry() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____subSerializerRegistry;
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*, uint8_t>* const&
 GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_get__subSerializerRegistry() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____subSerializerRegistry;
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 constexpr void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_set__subSerializerRegistry(
     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*, uint8_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____subSerializerRegistry = value;
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 constexpr ::System::Collections::Generic::Dictionary_2<uint8_t, ::StringW>*& GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_get__packetTypeNames() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packetTypeNames;
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 constexpr ::System::Collections::Generic::Dictionary_2<uint8_t, ::StringW>* const& GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_get__packetTypeNames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packetTypeNames;
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 constexpr void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_set__packetTypeNames(::System::Collections::Generic::Dictionary_2<uint8_t, ::StringW>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____packetTypeNames = value;
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 constexpr ::System::Collections::Generic::HashSet_1<uint8_t>*& GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_get__subSerializerPacketTypes() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____subSerializerPacketTypes;
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 constexpr ::System::Collections::Generic::HashSet_1<uint8_t>* const& GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_get__subSerializerPacketTypes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____subSerializerPacketTypes;
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 constexpr void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_set__subSerializerPacketTypes(::System::Collections::Generic::HashSet_1<uint8_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____subSerializerPacketTypes = value;
 }
-template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
-constexpr ::LiteNetLib::Utils::NetDataWriter*& GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_get__internalWriter() {
+template <typename TType, typename TData> constexpr ::LiteNetLib::Utils::NetDataWriter*& GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_get__internalWriter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____internalWriter;
 }
-template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
-constexpr ::LiteNetLib::Utils::NetDataWriter* const& GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_get__internalWriter() const {
+template <typename TType, typename TData> constexpr ::LiteNetLib::Utils::NetDataWriter* const& GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_get__internalWriter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____internalWriter;
 }
-template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
-constexpr void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_set__internalWriter(::LiteNetLib::Utils::NetDataWriter* value) {
+template <typename TType, typename TData> constexpr void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_set__internalWriter(::LiteNetLib::Utils::NetDataWriter* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____internalWriter = value;
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 constexpr ::GlobalNamespace::INetworkPacketProcessedHandler_1<TData>*& GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_get__packetProcessedHandler() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packetProcessedHandler;
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 constexpr ::GlobalNamespace::INetworkPacketProcessedHandler_1<TData>* const& GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_get__packetProcessedHandler() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packetProcessedHandler;
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 constexpr void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_set__packetProcessedHandler(::GlobalNamespace::INetworkPacketProcessedHandler_1<TData>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____packetProcessedHandler = value;
 }
-template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
-inline ::GlobalNamespace::INetworkPacketProcessedHandler_1<TData>* GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::get_PacketProcessedHandler() {
+template <typename TType, typename TData> inline ::GlobalNamespace::INetworkPacketProcessedHandler_1<TData>* GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::get_PacketProcessedHandler() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPacketSerializer_2<TType, TData>*>(), { "get_PacketProcessedHandler", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::INetworkPacketProcessedHandler_1<TData>*>(this, ___internal_method);
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::set_PacketProcessedHandler(::GlobalNamespace::INetworkPacketProcessedHandler_1<TData>* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPacketSerializer_2<TType, TData>*>(),
@@ -551,7 +413,6 @@ inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::set_Packet
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 template <typename TPacket>
   requires(::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<TPacket>)
 inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::RegisterCallback(TType packetType, ::System::Action_1<TPacket>* callback) {
@@ -562,7 +423,6 @@ inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::RegisterCa
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, packetType, callback);
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 template <typename TPacket>
   requires(::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::RegisterCallback(TType packetType, ::System::Action_1<TPacket>* callback, ::System::Func_1<TPacket>* constructor) {
@@ -575,7 +435,6 @@ inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::RegisterCa
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, packetType, callback, constructor);
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 template <typename TPacket>
   requires(::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<TPacket>)
 inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::RegisterCallback(TType packetType, ::System::Action_2<TPacket, TData>* callback) {
@@ -586,7 +445,6 @@ inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::RegisterCa
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, packetType, callback);
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 template <typename TPacket>
   requires(::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::RegisterCallback(TType packetType, ::System::Action_2<TPacket, TData>* callback, ::System::Func_1<TPacket>* constructor) {
@@ -599,7 +457,6 @@ inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::RegisterCa
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, packetType, callback, constructor);
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 template <typename TPacket>
   requires(::cordl_internals::type_constraint<TPacket, ::LiteNetLib::Utils::INetSerializable*>)
 inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::RegisterCallback(TType packetType, ::System::Action_2<TPacket, TData>* callback, ::System::Func_2<TData, TPacket>* constructor) {
@@ -611,17 +468,13 @@ inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::RegisterCa
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TPacket>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, packetType, callback, constructor);
 }
-template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
-template <typename TPacket>
-inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::UnregisterCallback(TType packetType) {
+template <typename TType, typename TData> template <typename TPacket> inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::UnregisterCallback(TType packetType) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPacketSerializer_2<TType, TData>*>(),
                                                                                               { "UnregisterCallback", { ::i2c::class_of<TPacket>() }, { ::i2c::type_of<TType>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TPacket>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, packetType);
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::RegisterSubSerializer(TType packetType, ::GlobalNamespace::INetworkPacketSubSerializer_1<TData>* subSubSerializer) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPacketSerializer_2<TType, TData>*>(),
@@ -629,22 +482,18 @@ inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::RegisterSu
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, packetType, subSubSerializer);
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::UnregisterSubSerializer(TType packetType, ::GlobalNamespace::INetworkPacketSubSerializer_1<TData>* subSubSerializer) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPacketSerializer_2<TType, TData>*>(),
                                               { "UnregisterSubSerializer", {}, { ::i2c::type_of<TType>(), ::i2c::type_of<::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, packetType, subSubSerializer);
 }
-template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
-inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::CopyFrom(::GlobalNamespace::NetworkPacketSerializer_2<TType, TData>* other) {
+template <typename TType, typename TData> inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::CopyFrom(::GlobalNamespace::NetworkPacketSerializer_2<TType, TData>* other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPacketSerializer_2<TType, TData>*>(),
                                                                                          { "CopyFrom", {}, { ::i2c::type_of<::GlobalNamespace::NetworkPacketSerializer_2<TType, TData>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, other);
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::SerializePacket(::LiteNetLib::Utils::NetDataWriter* writer, ::LiteNetLib::Utils::INetSerializable* packet) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPacketSerializer_2<TType, TData>*>(),
@@ -652,7 +501,6 @@ inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::SerializeP
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, writer, packet);
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::SerializePacketInternal(::LiteNetLib::Utils::NetDataWriter* externalWriter, ::LiteNetLib::Utils::INetSerializable* packet,
                                                                                               bool prependLength) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -662,23 +510,18 @@ inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::SerializeP
           { "SerializePacketInternal", {}, { ::i2c::type_of<::LiteNetLib::Utils::NetDataWriter*>(), ::i2c::type_of<::LiteNetLib::Utils::INetSerializable*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, externalWriter, packet, prependLength);
 }
-template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
-inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::ProcessAllPackets(::LiteNetLib::Utils::NetDataReader* reader, TData data) {
+template <typename TType, typename TData> inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::ProcessAllPackets(::LiteNetLib::Utils::NetDataReader* reader, TData data) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPacketSerializer_2<TType, TData>*>(),
                                                            { "ProcessAllPackets", {}, { ::i2c::type_of<::LiteNetLib::Utils::NetDataReader*>(), ::i2c::type_of<TData>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader, data);
 }
-template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
-inline bool GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::ProcessPacket(::LiteNetLib::Utils::NetDataReader* reader, TData data) {
+template <typename TType, typename TData> inline bool GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::ProcessPacket(::LiteNetLib::Utils::NetDataReader* reader, TData data) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPacketSerializer_2<TType, TData>*>(),
                                                                                          { "ProcessPacket", {}, { ::i2c::type_of<::LiteNetLib::Utils::NetDataReader*>(), ::i2c::type_of<TData>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, reader, data);
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::ProcessPacketInternal(::LiteNetLib::Utils::NetDataReader* reader, int32_t length, TData data) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPacketSerializer_2<TType, TData>*>(),
@@ -686,7 +529,6 @@ inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::ProcessPac
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader, length, data);
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 inline bool GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::TryGetPacketType(::System::Type* type, ::by_ref<uint8_t> packetType,
                                                                                        ::by_ref<::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*> subSerializer) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -697,15 +539,12 @@ inline bool GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::TryGetPack
                             { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::by_ref<uint8_t>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, type, packetType, subSerializer);
 }
-template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
-inline bool GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::HandlesType(::System::Type* type) {
+template <typename TType, typename TData> inline bool GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::HandlesType(::System::Type* type) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPacketSerializer_2<TType, TData>*>(), { "HandlesType", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, type);
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::INetworkPacketSubSerializer_TData__Serialize(::LiteNetLib::Utils::NetDataWriter* writer,
                                                                                                                    ::LiteNetLib::Utils::INetSerializable* packet) {
   static auto* ___internal_method =
@@ -716,7 +555,6 @@ inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::INetworkPa
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, writer, packet);
 }
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::INetworkPacketSubSerializer_TData__Deserialize(::LiteNetLib::Utils::NetDataReader* reader, int32_t length, TData data) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -724,61 +562,44 @@ inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::INetworkPa
                           { "INetworkPacketSubSerializer<TData>.Deserialize", {}, { ::i2c::type_of<::LiteNetLib::Utils::NetDataReader*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<TData>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader, length, data);
 }
-template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
-inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::Log(::StringW message) {
+template <typename TType, typename TData> inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::Log(::StringW message) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPacketSerializer_2<TType, TData>*>(), { "Log", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, message);
 }
-template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
-inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::_ctor() {
+template <typename TType, typename TData> inline void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPacketSerializer_2<TType, TData>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
-inline ::GlobalNamespace::NetworkPacketSerializer_2<TType, TData>* GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::New_ctor() {
+template <typename TType, typename TData> inline ::GlobalNamespace::NetworkPacketSerializer_2<TType, TData>* GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::NetworkPacketSerializer_2<TType, TData>*>());
 }
 /// @brief Convert operator to "::GlobalNamespace::INetworkPacketSerializer_1<TData>"
-template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
-constexpr GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::operator ::GlobalNamespace::INetworkPacketSerializer_1<TData>*() noexcept {
+template <typename TType, typename TData> constexpr GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::operator ::GlobalNamespace::INetworkPacketSerializer_1<TData>*() noexcept {
   return static_cast<::GlobalNamespace::INetworkPacketSerializer_1<TData>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::GlobalNamespace::INetworkPacketSerializer_1<TData>"
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 constexpr ::GlobalNamespace::INetworkPacketSerializer_1<TData>* GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::i___GlobalNamespace__INetworkPacketSerializer_1_TData_() noexcept {
   return static_cast<::GlobalNamespace::INetworkPacketSerializer_1<TData>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::GlobalNamespace::INetworkPacketProcessor_1<TData>"
-template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
-constexpr GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::operator ::GlobalNamespace::INetworkPacketProcessor_1<TData>*() noexcept {
+template <typename TType, typename TData> constexpr GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::operator ::GlobalNamespace::INetworkPacketProcessor_1<TData>*() noexcept {
   return static_cast<::GlobalNamespace::INetworkPacketProcessor_1<TData>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::GlobalNamespace::INetworkPacketProcessor_1<TData>"
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 constexpr ::GlobalNamespace::INetworkPacketProcessor_1<TData>* GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::i___GlobalNamespace__INetworkPacketProcessor_1_TData_() noexcept {
   return static_cast<::GlobalNamespace::INetworkPacketProcessor_1<TData>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::GlobalNamespace::INetworkPacketSubSerializer_1<TData>"
-template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
-constexpr GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::operator ::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*() noexcept {
+template <typename TType, typename TData> constexpr GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::operator ::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*() noexcept {
   return static_cast<::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::GlobalNamespace::INetworkPacketSubSerializer_1<TData>"
 template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
 constexpr ::GlobalNamespace::INetworkPacketSubSerializer_1<TData>* GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::i___GlobalNamespace__INetworkPacketSubSerializer_1_TData_() noexcept {
   return static_cast<::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-template <typename TType, typename TData>
-  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType>)
-constexpr ::GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::NetworkPacketSerializer_2() {}
+template <typename TType, typename TData> constexpr ::GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::NetworkPacketSerializer_2() {}

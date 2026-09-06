@@ -60,14 +60,10 @@ namespace UnityEngine::UIElements {
 class SortColumnDescriptions;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class UxmlEnumAttributeDescription_1;
+template <typename T> class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class UxmlObjectAttributeDescription_1;
+template <typename T> class UxmlObjectAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;

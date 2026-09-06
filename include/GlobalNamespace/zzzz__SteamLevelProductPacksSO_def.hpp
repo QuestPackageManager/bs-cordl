@@ -8,10 +8,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/arrayw.hpp"
 CORDL_MODULE_EXPORT(SteamLevelProductPacksSO)
 namespace GlobalNamespace {
-template <typename TLevelPackProductData, typename TLevelProductData>
-  requires(::cordl_internals::type_constraint<TLevelPackProductData, ::GlobalNamespace::ILevelPackProductData_1<TLevelProductData>*> &&
-           ::cordl_internals::type_constraint<TLevelProductData, ::GlobalNamespace::ILevelProductData*>)
-class ILevelPackProductDataContainer_2;
+template <typename TLevelPackProductData, typename TLevelProductData> class ILevelPackProductDataContainer_2;
 }
 namespace GlobalNamespace {
 class SteamLevelProductCollectionModel_LevelPackProductData;

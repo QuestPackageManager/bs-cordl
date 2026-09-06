@@ -3,27 +3,18 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SortJobDefer_2)
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct UnsafeList_1;
+template <typename T> struct UnsafeList_1;
 }
 namespace Unity::Collections {
-template <typename T, typename U>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
-           ::cordl_internals::type_constraint<U, ::System::Collections::Generic::IComparer_1<T>*>)
-struct SortJobDefer_2_SegmentSortMerge;
+template <typename T, typename U> struct SortJobDefer_2_SegmentSortMerge;
 }
 namespace Unity::Collections {
-template <typename T, typename U>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
-           ::cordl_internals::type_constraint<U, ::System::Collections::Generic::IComparer_1<T>*>)
-struct SortJobDefer_2_SegmentSort;
+template <typename T, typename U> struct SortJobDefer_2_SegmentSort;
 }
 namespace Unity::Jobs {
 class IJobParallelForDefer;
@@ -36,22 +27,13 @@ struct JobHandle;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T, typename U>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
-           ::cordl_internals::type_constraint<U, ::System::Collections::Generic::IComparer_1<T>*>)
-struct SortJobDefer_2;
+template <typename T, typename U> struct SortJobDefer_2;
 }
 namespace Unity::Collections {
-template <typename T, typename U>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
-           ::cordl_internals::type_constraint<U, ::System::Collections::Generic::IComparer_1<T>*>)
-struct SortJobDefer_2_SegmentSort;
+template <typename T, typename U> struct SortJobDefer_2_SegmentSort;
 }
 namespace Unity::Collections {
-template <typename T, typename U>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
-           ::cordl_internals::type_constraint<U, ::System::Collections::Generic::IComparer_1<T>*>)
-struct SortJobDefer_2_SegmentSortMerge;
+template <typename T, typename U> struct SortJobDefer_2_SegmentSortMerge;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::SortJobDefer_2);
@@ -61,12 +43,10 @@ DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::SortJobDefer_2, "Unity.Collections
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::SortJobDefer_2_SegmentSort, "Unity.Collections", "SortJobDefer`2/SegmentSort");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::SortJobDefer_2_SegmentSortMerge, "Unity.Collections", "SortJobDefer`2/SegmentSortMerge");
 // [BurstCompile]
-// Dependencies System.Collections.Generic.IComparer`1<T>, Unity.Collections.NativeList`1<T>
+// Dependencies Unity.Collections.NativeList`1<T>
 namespace Unity::Collections {
 // cpp template
 template <typename T, typename U>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
-           ::cordl_internals::type_constraint<U, ::System::Collections::Generic::IComparer_1<T>*>)
 // Is value type: true
 // CS Name: Unity.Collections.SortJobDefer`2/SegmentSort<T,U>
 struct CORDL_TYPE SortJobDefer_2_SegmentSort {
@@ -115,12 +95,10 @@ public:
 // Non member Declarations
 } // namespace Unity::Collections
 // [BurstCompile]
-// Dependencies System.Collections.Generic.IComparer`1<T>, Unity.Collections.NativeList`1<T>
+// Dependencies Unity.Collections.NativeList`1<T>
 namespace Unity::Collections {
 // cpp template
 template <typename T, typename U>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
-           ::cordl_internals::type_constraint<U, ::System::Collections::Generic::IComparer_1<T>*>)
 // Is value type: true
 // CS Name: Unity.Collections.SortJobDefer`2/SegmentSortMerge<T,U>
 struct CORDL_TYPE SortJobDefer_2_SegmentSortMerge {
@@ -164,12 +142,10 @@ public:
 // Non member Declarations
 } // namespace Unity::Collections
 // [GenerateTestsForBurstCompatibility(RequiredUnityDefine = "UNITY_2020_2_OR_NEWER", GenericTypeArguments = new[] { typeof(System.Int32),
-// typeof(Unity.Collections.NativeSortExtension::DefaultComparer`1<T>) })] Dependencies System.Collections.Generic.IComparer`1<T>, Unity.Collections.NativeList`1<T>
+// typeof(Unity.Collections.NativeSortExtension::DefaultComparer`1<T>) })] Dependencies Unity.Collections.NativeList`1<T>
 namespace Unity::Collections {
 // cpp template
 template <typename T, typename U>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
-           ::cordl_internals::type_constraint<U, ::System::Collections::Generic::IComparer_1<T>*>)
 // Is value type: true
 // CS Name: Unity.Collections.SortJobDefer`2<T,U>
 struct CORDL_TYPE SortJobDefer_2 {

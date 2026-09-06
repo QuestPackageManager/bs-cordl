@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 #include "System/zzzz__MulticastDelegate_def.hpp"
 CORDL_MODULE_EXPORT(BeatmapDataCallback_1)
 namespace System {
@@ -20,18 +19,15 @@ class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-class BeatmapDataCallback_1;
+template <typename T> class BeatmapDataCallback_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::BeatmapDataCallback_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::BeatmapDataCallback_1, "", "BeatmapDataCallback`1");
-// Dependencies BeatmapDataItem, System.MulticastDelegate
+// Dependencies System.MulticastDelegate
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
 // Is value type: false
 // CS Name: BeatmapDataCallback`1<T>
 class CORDL_TYPE BeatmapDataCallback_1 : public ::System::MulticastDelegate {

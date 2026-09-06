@@ -1,11 +1,9 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/BaseSlider_1.hpp"
-#include "System/zzzz__IComparable_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseFieldTraits_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseField_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__SliderDirection_impl.hpp"
-#include "UnityEngine/UIElements/zzzz__TypedUxmlAttributeDescription_1_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseSlider_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseSlider_1_def.hpp"
@@ -24,844 +22,563 @@
 #include "UnityEngine/UIElements/zzzz__TextField_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-template <typename TValueType, typename TValueUxmlAttributeType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*> &&
-           ::cordl_internals::type_constraint<TValueUxmlAttributeType, ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<TValueType>*> &&
-           ::cordl_internals::default_constructor_constraint<TValueUxmlAttributeType>)
-inline void UnityEngine::UIElements::BaseSlider_1_UxmlTraits_1<TValueType, TValueUxmlAttributeType>::_ctor() {
+template <typename TValueType, typename TValueUxmlAttributeType> inline void UnityEngine::UIElements::BaseSlider_1_UxmlTraits_1<TValueType, TValueUxmlAttributeType>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1_UxmlTraits_1<TValueType, TValueUxmlAttributeType>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TValueType, typename TValueUxmlAttributeType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*> &&
-           ::cordl_internals::type_constraint<TValueUxmlAttributeType, ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<TValueType>*> &&
-           ::cordl_internals::default_constructor_constraint<TValueUxmlAttributeType>)
 inline ::UnityEngine::UIElements::BaseSlider_1_UxmlTraits_1<TValueType, TValueUxmlAttributeType>* UnityEngine::UIElements::BaseSlider_1_UxmlTraits_1<TValueType, TValueUxmlAttributeType>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::BaseSlider_1_UxmlTraits_1<TValueType, TValueUxmlAttributeType>*>());
 }
 // Ctor Parameters []
-template <typename TValueType, typename TValueUxmlAttributeType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*> &&
-           ::cordl_internals::type_constraint<TValueUxmlAttributeType, ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<TValueType>*> &&
-           ::cordl_internals::default_constructor_constraint<TValueUxmlAttributeType>)
-constexpr ::UnityEngine::UIElements::BaseSlider_1_UxmlTraits_1<TValueType, TValueUxmlAttributeType>::BaseSlider_1_UxmlTraits_1() {}
+template <typename TValueType, typename TValueUxmlAttributeType> constexpr ::UnityEngine::UIElements::BaseSlider_1_UxmlTraits_1<TValueType, TValueUxmlAttributeType>::BaseSlider_1_UxmlTraits_1() {}
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType>::BaseSlider_1_SliderKey(int32_t value__) noexcept {
+template <typename TValueType> constexpr ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType>::BaseSlider_1_SliderKey(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
+template <typename TValueType> constexpr ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType>::BaseSlider_1_SliderKey() {}
+template <typename TValueType> constexpr ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType> UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType>::None{ static_cast<int32_t>(0x0) };
+template <typename TValueType> constexpr ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType> UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType>::Lowest{ static_cast<int32_t>(0x1) };
 template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType>::BaseSlider_1_SliderKey() {}
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType> UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType>::None{ static_cast<int32_t>(0x0) };
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType> UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType>::Lowest{ static_cast<int32_t>(0x1) };
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
 constexpr ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType> UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType>::LowerPage{ static_cast<int32_t>(0x2) };
+template <typename TValueType> constexpr ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType> UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType>::Lower{ static_cast<int32_t>(0x3) };
+template <typename TValueType> constexpr ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType> UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType>::Higher{ static_cast<int32_t>(0x4) };
 template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType> UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType>::Lower{ static_cast<int32_t>(0x3) };
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType> UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType>::Higher{ static_cast<int32_t>(0x4) };
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
 constexpr ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType> UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType>::HigherPage{ static_cast<int32_t>(0x5) };
 template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
 constexpr ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType> UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType>::Highest{ static_cast<int32_t>(0x6) };
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__dragContainer_k__BackingField() {
+template <typename TValueType> constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__dragContainer_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dragContainer_k__BackingField;
 }
 template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
 constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__dragContainer_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dragContainer_k__BackingField;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set__dragContainer_k__BackingField(::UnityEngine::UIElements::VisualElement* value) {
+template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set__dragContainer_k__BackingField(::UnityEngine::UIElements::VisualElement* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dragContainer_k__BackingField = value;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__dragElement_k__BackingField() {
+template <typename TValueType> constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__dragElement_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dragElement_k__BackingField;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__dragElement_k__BackingField() const {
+template <typename TValueType> constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__dragElement_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dragElement_k__BackingField;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set__dragElement_k__BackingField(::UnityEngine::UIElements::VisualElement* value) {
+template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set__dragElement_k__BackingField(::UnityEngine::UIElements::VisualElement* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dragElement_k__BackingField = value;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__trackElement_k__BackingField() {
+template <typename TValueType> constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__trackElement_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trackElement_k__BackingField;
 }
 template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
 constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__trackElement_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trackElement_k__BackingField;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set__trackElement_k__BackingField(::UnityEngine::UIElements::VisualElement* value) {
+template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set__trackElement_k__BackingField(::UnityEngine::UIElements::VisualElement* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____trackElement_k__BackingField = value;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__dragBorderElement_k__BackingField() {
+template <typename TValueType> constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__dragBorderElement_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dragBorderElement_k__BackingField;
 }
 template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
 constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__dragBorderElement_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dragBorderElement_k__BackingField;
 }
 template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
 constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set__dragBorderElement_k__BackingField(::UnityEngine::UIElements::VisualElement* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dragBorderElement_k__BackingField = value;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr ::UnityEngine::UIElements::TextField*& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__inputTextField_k__BackingField() {
+template <typename TValueType> constexpr ::UnityEngine::UIElements::TextField*& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__inputTextField_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inputTextField_k__BackingField;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr ::UnityEngine::UIElements::TextField* const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__inputTextField_k__BackingField() const {
+template <typename TValueType> constexpr ::UnityEngine::UIElements::TextField* const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__inputTextField_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inputTextField_k__BackingField;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set__inputTextField_k__BackingField(::UnityEngine::UIElements::TextField* value) {
+template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set__inputTextField_k__BackingField(::UnityEngine::UIElements::TextField* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____inputTextField_k__BackingField = value;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__fillElement_k__BackingField() {
+template <typename TValueType> constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__fillElement_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fillElement_k__BackingField;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__fillElement_k__BackingField() const {
+template <typename TValueType> constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__fillElement_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fillElement_k__BackingField;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set__fillElement_k__BackingField(::UnityEngine::UIElements::VisualElement* value) {
+template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set__fillElement_k__BackingField(::UnityEngine::UIElements::VisualElement* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fillElement_k__BackingField = value;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr bool& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_IsEditingTextField() {
+template <typename TValueType> constexpr bool& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_IsEditingTextField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsEditingTextField;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr bool const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_IsEditingTextField() const {
+template <typename TValueType> constexpr bool const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_IsEditingTextField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsEditingTextField;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set_m_IsEditingTextField(bool value) {
+template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set_m_IsEditingTextField(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IsEditingTextField = value;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr bool& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_Fill() {
+template <typename TValueType> constexpr bool& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_Fill() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Fill;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr bool const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_Fill() const {
+template <typename TValueType> constexpr bool const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_Fill() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Fill;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set_m_Fill(bool value) {
+template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set_m_Fill(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Fill = value;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr TValueType& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_LowValue() {
+template <typename TValueType> constexpr TValueType& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_LowValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LowValue;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr TValueType const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_LowValue() const {
+template <typename TValueType> constexpr TValueType const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_LowValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LowValue;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set_m_LowValue(TValueType value) {
+template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set_m_LowValue(TValueType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LowValue = value;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr TValueType& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_HighValue() {
+template <typename TValueType> constexpr TValueType& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_HighValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HighValue;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr TValueType const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_HighValue() const {
+template <typename TValueType> constexpr TValueType const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_HighValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HighValue;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set_m_HighValue(TValueType value) {
+template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set_m_HighValue(TValueType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_HighValue = value;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr float_t& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_PageSize() {
+template <typename TValueType> constexpr float_t& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_PageSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PageSize;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr float_t const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_PageSize() const {
+template <typename TValueType> constexpr float_t const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_PageSize() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PageSize;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set_m_PageSize(float_t value) {
+template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set_m_PageSize(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PageSize = value;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr bool& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_ShowInputField() {
+template <typename TValueType> constexpr bool& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_ShowInputField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ShowInputField;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr bool const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_ShowInputField() const {
+template <typename TValueType> constexpr bool const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_ShowInputField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ShowInputField;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set_m_ShowInputField(bool value) {
+template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set_m_ShowInputField(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ShowInputField = value;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr bool& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__clamped_k__BackingField() {
+template <typename TValueType> constexpr bool& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__clamped_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clamped_k__BackingField;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr bool const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__clamped_k__BackingField() const {
+template <typename TValueType> constexpr bool const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__clamped_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clamped_k__BackingField;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set__clamped_k__BackingField(bool value) {
+template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set__clamped_k__BackingField(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____clamped_k__BackingField = value;
 }
 template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
 constexpr ::UnityEngine::UIElements::ClampedDragger_1<TValueType>*& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__clampedDragger_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clampedDragger_k__BackingField;
 }
 template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
 constexpr ::UnityEngine::UIElements::ClampedDragger_1<TValueType>* const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__clampedDragger_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____clampedDragger_k__BackingField;
 }
 template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
 constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set__clampedDragger_k__BackingField(::UnityEngine::UIElements::ClampedDragger_1<TValueType>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____clampedDragger_k__BackingField = value;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr ::UnityEngine::Rect& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_DragElementStartPos() {
+template <typename TValueType> constexpr ::UnityEngine::Rect& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_DragElementStartPos() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DragElementStartPos;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr ::UnityEngine::Rect const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_DragElementStartPos() const {
+template <typename TValueType> constexpr ::UnityEngine::Rect const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_DragElementStartPos() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DragElementStartPos;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set_m_DragElementStartPos(::UnityEngine::Rect value) {
+template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set_m_DragElementStartPos(::UnityEngine::Rect value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DragElementStartPos = value;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr ::UnityEngine::UIElements::SliderDirection& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_Direction() {
+template <typename TValueType> constexpr ::UnityEngine::UIElements::SliderDirection& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_Direction() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Direction;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr ::UnityEngine::UIElements::SliderDirection const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_Direction() const {
+template <typename TValueType> constexpr ::UnityEngine::UIElements::SliderDirection const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_Direction() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Direction;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set_m_Direction(::UnityEngine::UIElements::SliderDirection value) {
+template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set_m_Direction(::UnityEngine::UIElements::SliderDirection value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Direction = value;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr bool& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_Inverted() {
+template <typename TValueType> constexpr bool& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_Inverted() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Inverted;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr bool const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_Inverted() const {
+template <typename TValueType> constexpr bool const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_Inverted() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Inverted;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set_m_Inverted(bool value) {
+template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set_m_Inverted(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Inverted = value;
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_lowValueProperty(::UnityEngine::UIElements::BindingId value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_lowValueProperty(::UnityEngine::UIElements::BindingId value) {
   ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "lowValueProperty", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(
       std::forward<::UnityEngine::UIElements::BindingId>(value));
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_lowValueProperty() {
+template <typename TValueType> inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_lowValueProperty() {
   return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "lowValueProperty", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>();
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_highValueProperty(::UnityEngine::UIElements::BindingId value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_highValueProperty(::UnityEngine::UIElements::BindingId value) {
   ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "highValueProperty", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(
       std::forward<::UnityEngine::UIElements::BindingId>(value));
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_highValueProperty() {
+template <typename TValueType> inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_highValueProperty() {
   return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "highValueProperty", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>();
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_rangeProperty(::UnityEngine::UIElements::BindingId value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_rangeProperty(::UnityEngine::UIElements::BindingId value) {
   ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "rangeProperty", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(
       std::forward<::UnityEngine::UIElements::BindingId>(value));
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_rangeProperty() {
+template <typename TValueType> inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_rangeProperty() {
   return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "rangeProperty", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>();
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_pageSizeProperty(::UnityEngine::UIElements::BindingId value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_pageSizeProperty(::UnityEngine::UIElements::BindingId value) {
   ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "pageSizeProperty", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(
       std::forward<::UnityEngine::UIElements::BindingId>(value));
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_pageSizeProperty() {
+template <typename TValueType> inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_pageSizeProperty() {
   return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "pageSizeProperty", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>();
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_showInputFieldProperty(::UnityEngine::UIElements::BindingId value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_showInputFieldProperty(::UnityEngine::UIElements::BindingId value) {
   ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "showInputFieldProperty", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(
       std::forward<::UnityEngine::UIElements::BindingId>(value));
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_showInputFieldProperty() {
+template <typename TValueType> inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_showInputFieldProperty() {
   return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "showInputFieldProperty", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>();
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_directionProperty(::UnityEngine::UIElements::BindingId value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_directionProperty(::UnityEngine::UIElements::BindingId value) {
   ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "directionProperty", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(
       std::forward<::UnityEngine::UIElements::BindingId>(value));
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_directionProperty() {
+template <typename TValueType> inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_directionProperty() {
   return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "directionProperty", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>();
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_invertedProperty(::UnityEngine::UIElements::BindingId value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_invertedProperty(::UnityEngine::UIElements::BindingId value) {
   ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "invertedProperty", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(
       std::forward<::UnityEngine::UIElements::BindingId>(value));
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_invertedProperty() {
+template <typename TValueType> inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_invertedProperty() {
   return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "invertedProperty", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>();
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_fillProperty(::UnityEngine::UIElements::BindingId value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_fillProperty(::UnityEngine::UIElements::BindingId value) {
   ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "fillProperty", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(
       std::forward<::UnityEngine::UIElements::BindingId>(value));
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_fillProperty() {
+template <typename TValueType> inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_fillProperty() {
   return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "fillProperty", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>();
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_ussClassName(::StringW value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_ussClassName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "ussClassName", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(std::forward<::StringW>(value));
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::StringW UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_ussClassName() {
+template <typename TValueType> inline ::StringW UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_ussClassName() {
   return ::cordl_internals::getStaticField<::StringW, "ussClassName", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>();
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_labelUssClassName(::StringW value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_labelUssClassName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "labelUssClassName", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(std::forward<::StringW>(value));
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::StringW UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_labelUssClassName() {
+template <typename TValueType> inline ::StringW UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_labelUssClassName() {
   return ::cordl_internals::getStaticField<::StringW, "labelUssClassName", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>();
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_inputUssClassName(::StringW value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_inputUssClassName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "inputUssClassName", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(std::forward<::StringW>(value));
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::StringW UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_inputUssClassName() {
+template <typename TValueType> inline ::StringW UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_inputUssClassName() {
   return ::cordl_internals::getStaticField<::StringW, "inputUssClassName", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>();
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_horizontalVariantUssClassName(::StringW value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_horizontalVariantUssClassName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "horizontalVariantUssClassName", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(std::forward<::StringW>(value));
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::StringW UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_horizontalVariantUssClassName() {
+template <typename TValueType> inline ::StringW UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_horizontalVariantUssClassName() {
   return ::cordl_internals::getStaticField<::StringW, "horizontalVariantUssClassName", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>();
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_verticalVariantUssClassName(::StringW value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_verticalVariantUssClassName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "verticalVariantUssClassName", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(std::forward<::StringW>(value));
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::StringW UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_verticalVariantUssClassName() {
+template <typename TValueType> inline ::StringW UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_verticalVariantUssClassName() {
   return ::cordl_internals::getStaticField<::StringW, "verticalVariantUssClassName", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>();
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_dragContainerUssClassName(::StringW value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_dragContainerUssClassName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "dragContainerUssClassName", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(std::forward<::StringW>(value));
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::StringW UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_dragContainerUssClassName() {
+template <typename TValueType> inline ::StringW UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_dragContainerUssClassName() {
   return ::cordl_internals::getStaticField<::StringW, "dragContainerUssClassName", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>();
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_trackerUssClassName(::StringW value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_trackerUssClassName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "trackerUssClassName", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(std::forward<::StringW>(value));
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::StringW UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_trackerUssClassName() {
+template <typename TValueType> inline ::StringW UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_trackerUssClassName() {
   return ::cordl_internals::getStaticField<::StringW, "trackerUssClassName", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>();
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_draggerUssClassName(::StringW value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_draggerUssClassName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "draggerUssClassName", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(std::forward<::StringW>(value));
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::StringW UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_draggerUssClassName() {
+template <typename TValueType> inline ::StringW UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_draggerUssClassName() {
   return ::cordl_internals::getStaticField<::StringW, "draggerUssClassName", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>();
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_draggerBorderUssClassName(::StringW value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_draggerBorderUssClassName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "draggerBorderUssClassName", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(std::forward<::StringW>(value));
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::StringW UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_draggerBorderUssClassName() {
+template <typename TValueType> inline ::StringW UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_draggerBorderUssClassName() {
   return ::cordl_internals::getStaticField<::StringW, "draggerBorderUssClassName", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>();
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_textFieldClassName(::StringW value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_textFieldClassName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "textFieldClassName", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(std::forward<::StringW>(value));
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::StringW UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_textFieldClassName() {
+template <typename TValueType> inline ::StringW UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_textFieldClassName() {
   return ::cordl_internals::getStaticField<::StringW, "textFieldClassName", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>();
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_fillUssClassName(::StringW value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_fillUssClassName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "fillUssClassName", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(std::forward<::StringW>(value));
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::StringW UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_fillUssClassName() {
+template <typename TValueType> inline ::StringW UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_fillUssClassName() {
   return ::cordl_internals::getStaticField<::StringW, "fillUssClassName", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>();
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_movableUssClassName(::StringW value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_movableUssClassName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "movableUssClassName", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(std::forward<::StringW>(value));
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::StringW UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_movableUssClassName() {
+template <typename TValueType> inline ::StringW UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_movableUssClassName() {
   return ::cordl_internals::getStaticField<::StringW, "movableUssClassName", ::UnityEngine::UIElements::BaseSlider_1<TValueType>*>();
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::BaseSlider_1<TValueType>::get_dragContainer() {
+template <typename TValueType> inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::BaseSlider_1<TValueType>::get_dragContainer() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "get_dragContainer", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_dragContainer(::UnityEngine::UIElements::VisualElement* value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_dragContainer(::UnityEngine::UIElements::VisualElement* value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(),
                                                                                          { "set_dragContainer", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::BaseSlider_1<TValueType>::get_dragElement() {
+template <typename TValueType> inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::BaseSlider_1<TValueType>::get_dragElement() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "get_dragElement", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_dragElement(::UnityEngine::UIElements::VisualElement* value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_dragElement(::UnityEngine::UIElements::VisualElement* value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(),
                                                                                          { "set_dragElement", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::BaseSlider_1<TValueType>::get_trackElement() {
+template <typename TValueType> inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::BaseSlider_1<TValueType>::get_trackElement() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "get_trackElement", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_trackElement(::UnityEngine::UIElements::VisualElement* value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_trackElement(::UnityEngine::UIElements::VisualElement* value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(),
                                                                                          { "set_trackElement", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::BaseSlider_1<TValueType>::get_dragBorderElement() {
+template <typename TValueType> inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::BaseSlider_1<TValueType>::get_dragBorderElement() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "get_dragBorderElement", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_dragBorderElement(::UnityEngine::UIElements::VisualElement* value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_dragBorderElement(::UnityEngine::UIElements::VisualElement* value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(),
                                                                                          { "set_dragBorderElement", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::UnityEngine::UIElements::TextField* UnityEngine::UIElements::BaseSlider_1<TValueType>::get_inputTextField() {
+template <typename TValueType> inline ::UnityEngine::UIElements::TextField* UnityEngine::UIElements::BaseSlider_1<TValueType>::get_inputTextField() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "get_inputTextField", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::TextField*>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_inputTextField(::UnityEngine::UIElements::TextField* value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_inputTextField(::UnityEngine::UIElements::TextField* value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(),
                                                                                          { "set_inputTextField", {}, { ::i2c::type_of<::UnityEngine::UIElements::TextField*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::BaseSlider_1<TValueType>::get_fillElement() {
+template <typename TValueType> inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::BaseSlider_1<TValueType>::get_fillElement() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "get_fillElement", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_fillElement(::UnityEngine::UIElements::VisualElement* value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_fillElement(::UnityEngine::UIElements::VisualElement* value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(),
                                                                                          { "set_fillElement", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::get_lowValue() {
+template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::get_lowValue() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "get_lowValue", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<TValueType>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_lowValue(TValueType value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_lowValue(TValueType value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "set_lowValue", {}, { ::i2c::type_of<TValueType>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::get_highValue() {
+template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::get_highValue() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "get_highValue", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<TValueType>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_highValue(TValueType value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_highValue(TValueType value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "set_highValue", {}, { ::i2c::type_of<TValueType>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::SetHighValueWithoutNotify(TValueType newHighValue) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::SetHighValueWithoutNotify(TValueType newHighValue) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "SetHighValueWithoutNotify", {}, { ::i2c::type_of<TValueType>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newHighValue);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::get_range() {
+template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::get_range() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "get_range", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<TValueType>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline float_t UnityEngine::UIElements::BaseSlider_1<TValueType>::get_pageSize() {
+template <typename TValueType> inline float_t UnityEngine::UIElements::BaseSlider_1<TValueType>::get_pageSize() {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 159 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_pageSize(float_t value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_pageSize(float_t value) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 160 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline bool UnityEngine::UIElements::BaseSlider_1<TValueType>::get_showInputField() {
+template <typename TValueType> inline bool UnityEngine::UIElements::BaseSlider_1<TValueType>::get_showInputField() {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 161 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_showInputField(bool value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_showInputField(bool value) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 162 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline bool UnityEngine::UIElements::BaseSlider_1<TValueType>::get_fill() {
+template <typename TValueType> inline bool UnityEngine::UIElements::BaseSlider_1<TValueType>::get_fill() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "get_fill", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_fill(bool value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_fill(bool value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "set_fill", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline bool UnityEngine::UIElements::BaseSlider_1<TValueType>::get_clamped() {
+template <typename TValueType> inline bool UnityEngine::UIElements::BaseSlider_1<TValueType>::get_clamped() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "get_clamped", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_clamped(bool value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_clamped(bool value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "set_clamped", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::UnityEngine::UIElements::ClampedDragger_1<TValueType>* UnityEngine::UIElements::BaseSlider_1<TValueType>::get_clampedDragger() {
+template <typename TValueType> inline ::UnityEngine::UIElements::ClampedDragger_1<TValueType>* UnityEngine::UIElements::BaseSlider_1<TValueType>::get_clampedDragger() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "get_clampedDragger", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::ClampedDragger_1<TValueType>*>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_clampedDragger(::UnityEngine::UIElements::ClampedDragger_1<TValueType>* value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_clampedDragger(::UnityEngine::UIElements::ClampedDragger_1<TValueType>* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(),
                                                            { "set_clampedDragger", {}, { ::i2c::type_of<::UnityEngine::UIElements::ClampedDragger_1<TValueType>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::Clamp(TValueType value, TValueType lowBound, TValueType highBound) {
+template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::Clamp(TValueType value, TValueType lowBound, TValueType highBound) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(),
                                                            { "Clamp", {}, { ::i2c::type_of<TValueType>(), ::i2c::type_of<TValueType>(), ::i2c::type_of<TValueType>() } })));
   return ::cordl_internals::RunMethodRethrow<TValueType>(this, ___internal_method, value, lowBound, highBound);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::GetClampedValue(TValueType newValue) {
+template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::GetClampedValue(TValueType newValue) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "GetClampedValue", {}, { ::i2c::type_of<TValueType>() } })));
   return ::cordl_internals::RunMethodRethrow<TValueType>(this, ___internal_method, newValue);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::get_value() {
+template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::get_value() {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 143 })));
   return ::cordl_internals::RunMethodRethrow<TValueType>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_value(TValueType value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_value(TValueType value) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 144 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
 inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, TValueType startValue) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 163 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, delta, speed, startValue);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::UnityEngine_UIElements_IValueField_TValueType__StartDragging() {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::UnityEngine_UIElements_IValueField_TValueType__StartDragging() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "UnityEngine.UIElements.IValueField<TValueType>.StartDragging", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::UnityEngine_UIElements_IValueField_TValueType__StopDragging() {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::UnityEngine_UIElements_IValueField_TValueType__StopDragging() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "UnityEngine.UIElements.IValueField<TValueType>.StopDragging", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::SetValueWithoutNotify(TValueType newValue) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::SetValueWithoutNotify(TValueType newValue) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 153 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newValue);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline ::UnityEngine::UIElements::SliderDirection UnityEngine::UIElements::BaseSlider_1<TValueType>::get_direction() {
+template <typename TValueType> inline ::UnityEngine::UIElements::SliderDirection UnityEngine::UIElements::BaseSlider_1<TValueType>::get_direction() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "get_direction", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::SliderDirection>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_direction(::UnityEngine::UIElements::SliderDirection value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_direction(::UnityEngine::UIElements::SliderDirection value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(),
                                                                                          { "set_direction", {}, { ::i2c::type_of<::UnityEngine::UIElements::SliderDirection>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline bool UnityEngine::UIElements::BaseSlider_1<TValueType>::get_inverted() {
+template <typename TValueType> inline bool UnityEngine::UIElements::BaseSlider_1<TValueType>::get_inverted() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "get_inverted", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_inverted(bool value) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_inverted(bool value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "set_inverted", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
 inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::_ctor(::StringW label, TValueType start, TValueType end, ::UnityEngine::UIElements::SliderDirection direction, float_t pageSize) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(),
                                                                                          { ".ctor",
@@ -870,266 +587,195 @@ inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::_ctor(::StringW l
                                                                                              ::i2c::type_of<::UnityEngine::UIElements::SliderDirection>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, label, start, end, direction, pageSize);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline float_t UnityEngine::UIElements::BaseSlider_1<TValueType>::GetClosestPowerOfTen(float_t positiveNumber) {
+template <typename TValueType> inline float_t UnityEngine::UIElements::BaseSlider_1<TValueType>::GetClosestPowerOfTen(float_t positiveNumber) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "GetClosestPowerOfTen", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, positiveNumber);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline float_t UnityEngine::UIElements::BaseSlider_1<TValueType>::RoundToMultipleOf(float_t value, float_t roundingValue) {
+template <typename TValueType> inline float_t UnityEngine::UIElements::BaseSlider_1<TValueType>::RoundToMultipleOf(float_t value, float_t roundingValue) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(),
                                                                                          { "RoundToMultipleOf", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, value, roundingValue);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::ClampValue() {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::ClampValue() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "ClampValue", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::SliderLerpUnclamped(TValueType a, TValueType b, float_t interpolant) {
+template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::SliderLerpUnclamped(TValueType a, TValueType b, float_t interpolant) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 164 })));
   return ::cordl_internals::RunMethodRethrow<TValueType>(this, ___internal_method, a, b, interpolant);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline float_t UnityEngine::UIElements::BaseSlider_1<TValueType>::SliderNormalizeValue(TValueType currentValue, TValueType lowerValue, TValueType higherValue) {
+template <typename TValueType> inline float_t UnityEngine::UIElements::BaseSlider_1<TValueType>::SliderNormalizeValue(TValueType currentValue, TValueType lowerValue, TValueType higherValue) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 165 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, currentValue, lowerValue, higherValue);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::SliderRange() {
+template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::SliderRange() {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 166 })));
   return ::cordl_internals::RunMethodRethrow<TValueType>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::ParseStringToValue(::StringW previousValue, ::StringW newValue) {
+template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::ParseStringToValue(::StringW previousValue, ::StringW newValue) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 167 })));
   return ::cordl_internals::RunMethodRethrow<TValueType>(this, ___internal_method, previousValue, newValue);
 }
 template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
 inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::ComputeValueFromKey(::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType> sliderKey, bool isShift) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 168 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, sliderKey, isShift);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::SliderLerpDirectionalUnclamped(TValueType a, TValueType b, float_t positionInterpolant) {
+template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::SliderLerpDirectionalUnclamped(TValueType a, TValueType b, float_t positionInterpolant) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(),
                                                            { "SliderLerpDirectionalUnclamped", {}, { ::i2c::type_of<TValueType>(), ::i2c::type_of<TValueType>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<TValueType>(this, ___internal_method, a, b, positionInterpolant);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::SetSliderValueFromDrag() {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::SetSliderValueFromDrag() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "SetSliderValueFromDrag", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
 inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::ComputeValueAndDirectionFromDrag(float_t sliderLength, float_t dragElementLength, float_t dragElementPos) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(),
                                                            { "ComputeValueAndDirectionFromDrag", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, sliderLength, dragElementLength, dragElementPos);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::SetSliderValueFromClick() {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::SetSliderValueFromClick() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "SetSliderValueFromClick", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "OnKeyDown", {}, { ::i2c::type_of<::UnityEngine::UIElements::KeyDownEvent*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::OnNavigationMove(::UnityEngine::UIElements::NavigationMoveEvent* evt) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::OnNavigationMove(::UnityEngine::UIElements::NavigationMoveEvent* evt) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(),
                                                                                          { "OnNavigationMove", {}, { ::i2c::type_of<::UnityEngine::UIElements::NavigationMoveEvent*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent* evt) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent* evt) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(),
                                                                                          { "OnNavigationSubmit", {}, { ::i2c::type_of<::UnityEngine::UIElements::NavigationSubmitEvent*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
 template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
 inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::ComputeValueAndDirectionFromClick(float_t sliderLength, float_t dragElementLength, float_t dragElementPos, float_t dragElementLastPos) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 169 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, sliderLength, dragElementLength, dragElementPos, dragElementLastPos);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::AdjustDragElement(float_t factor) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::AdjustDragElement(float_t factor) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "AdjustDragElement", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, factor);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::UpdateDragElementPosition(::UnityEngine::UIElements::GeometryChangedEvent* evt) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::UpdateDragElementPosition(::UnityEngine::UIElements::GeometryChangedEvent* evt) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(),
                                                                                          { "UpdateDragElementPosition", {}, { ::i2c::type_of<::UnityEngine::UIElements::GeometryChangedEvent*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::OnViewDataReady() {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::OnViewDataReady() {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 132 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline bool UnityEngine::UIElements::BaseSlider_1<TValueType>::SameValues(float_t a, float_t b, float_t epsilon) {
+template <typename TValueType> inline bool UnityEngine::UIElements::BaseSlider_1<TValueType>::SameValues(float_t a, float_t b, float_t epsilon) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(),
                                                                                          { "SameValues", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, a, b, epsilon);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::UpdateDragElementPosition() {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::UpdateDragElementPosition() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "UpdateDragElementPosition", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::UpdateFill(float_t normalizedValue) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::UpdateFill(float_t normalizedValue) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "UpdateFill", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, normalizedValue);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 12 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::UpdateTextFieldVisibility() {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::UpdateTextFieldVisibility() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "UpdateTextFieldVisibility", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::UpdateTextFieldValue() {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::UpdateTextFieldValue() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "UpdateTextFieldValue", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::OnFocusIn(::UnityEngine::UIElements::FocusInEvent* evt) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::OnFocusIn(::UnityEngine::UIElements::FocusInEvent* evt) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), { "OnFocusIn", {}, { ::i2c::type_of<::UnityEngine::UIElements::FocusInEvent*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::OnFocusOut(::UnityEngine::UIElements::FocusOutEvent* evt) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::OnFocusOut(::UnityEngine::UIElements::FocusOutEvent* evt) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(),
                                                                                          { "OnFocusOut", {}, { ::i2c::type_of<::UnityEngine::UIElements::FocusOutEvent*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::OnTextFieldFocusIn(::UnityEngine::UIElements::FocusInEvent* evt) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::OnTextFieldFocusIn(::UnityEngine::UIElements::FocusInEvent* evt) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(),
                                                                                          { "OnTextFieldFocusIn", {}, { ::i2c::type_of<::UnityEngine::UIElements::FocusInEvent*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::OnTextFieldFocusOut(::UnityEngine::UIElements::FocusOutEvent* evt) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::OnTextFieldFocusOut(::UnityEngine::UIElements::FocusOutEvent* evt) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(),
                                                                                          { "OnTextFieldFocusOut", {}, { ::i2c::type_of<::UnityEngine::UIElements::FocusOutEvent*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::OnTextFieldValueChange(::UnityEngine::UIElements::ChangeEvent_1<::StringW>* evt) {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::OnTextFieldValueChange(::UnityEngine::UIElements::ChangeEvent_1<::StringW>* evt) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(),
                                                            { "OnTextFieldValueChange", {}, { ::i2c::type_of<::UnityEngine::UIElements::ChangeEvent_1<::StringW>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::UpdateMixedValueContent() {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::UpdateMixedValueContent() {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 152 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::RegisterEditingCallbacks() {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::RegisterEditingCallbacks() {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 150 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::UnregisterEditingCallbacks() {
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::UnregisterEditingCallbacks() {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(), 151 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
 inline ::UnityEngine::UIElements::BaseSlider_1<TValueType>* UnityEngine::UIElements::BaseSlider_1<TValueType>::New_ctor(::StringW label, TValueType start, TValueType end,
                                                                                                                         ::UnityEngine::UIElements::SliderDirection direction, float_t pageSize) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>(label, start, end, direction, pageSize));
 }
 /// @brief Convert operator to "::UnityEngine::UIElements::IValueField_1<TValueType>"
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr UnityEngine::UIElements::BaseSlider_1<TValueType>::operator ::UnityEngine::UIElements::IValueField_1<TValueType>*() noexcept {
+template <typename TValueType> constexpr UnityEngine::UIElements::BaseSlider_1<TValueType>::operator ::UnityEngine::UIElements::IValueField_1<TValueType>*() noexcept {
   return static_cast<::UnityEngine::UIElements::IValueField_1<TValueType>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::UnityEngine::UIElements::IValueField_1<TValueType>"
 template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
 constexpr ::UnityEngine::UIElements::IValueField_1<TValueType>* UnityEngine::UIElements::BaseSlider_1<TValueType>::i___UnityEngine__UIElements__IValueField_1_TValueType_() noexcept {
   return static_cast<::UnityEngine::UIElements::IValueField_1<TValueType>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-constexpr ::UnityEngine::UIElements::BaseSlider_1<TValueType>::BaseSlider_1() {}
+template <typename TValueType> constexpr ::UnityEngine::UIElements::BaseSlider_1<TValueType>::BaseSlider_1() {}

@@ -12,9 +12,7 @@ class Object;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class RuleCache_1;
+template <typename T> class RuleCache_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::System::Runtime::CompilerServices::RuleCache_1);
@@ -25,7 +23,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Runtime::CompilerServices::RuleCache_1, "S
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: false
 // CS Name: System.Runtime.CompilerServices.RuleCache`1<T>
 class CORDL_TYPE RuleCache_1 : public ::System::Object {

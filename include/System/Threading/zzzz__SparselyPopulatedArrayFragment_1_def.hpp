@@ -9,9 +9,7 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(SparselyPopulatedArrayFragment_1)
 // Forward declare root types
 namespace System::Threading {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class SparselyPopulatedArrayFragment_1;
+template <typename T> class SparselyPopulatedArrayFragment_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::System::Threading::SparselyPopulatedArrayFragment_1);
@@ -21,7 +19,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Threading::SparselyPopulatedArrayFragment_
 namespace System::Threading {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: false
 // CS Name: System.Threading.SparselyPopulatedArrayFragment`1<T>
 class CORDL_TYPE SparselyPopulatedArrayFragment_1 : public ::System::Object {

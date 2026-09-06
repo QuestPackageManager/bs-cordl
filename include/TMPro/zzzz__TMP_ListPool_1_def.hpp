@@ -12,9 +12,7 @@ namespace TMPro {
 template <typename T> class TMP_ListPool_1___c;
 }
 namespace TMPro {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class TMP_ObjectPool_1;
+template <typename T> class TMP_ObjectPool_1;
 }
 // Forward declare root types
 namespace TMPro {

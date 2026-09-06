@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PlayerStateHash_def.hpp"
-#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include <cstdint>
@@ -16,9 +15,7 @@ namespace GlobalNamespace {
 class IPoolablePacket;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IPoolablePacket*> && ::cordl_internals::default_constructor_constraint<T>)
-class PacketPool_1;
+template <typename T> class PacketPool_1;
 }
 namespace GlobalNamespace {
 struct PlayerStateHash;
@@ -34,20 +31,15 @@ class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> &&
-           ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
-class PlayerIdentityPacket_1;
+template <typename TGameSpecificIdentityData> class PlayerIdentityPacket_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::PlayerIdentityPacket_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::PlayerIdentityPacket_1, "", "PlayerIdentityPacket`1");
-// Dependencies LiteNetLib.Utils.INetSerializable, PlayerStateHash, System.Object
+// Dependencies PlayerStateHash, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TGameSpecificIdentityData>
-  requires(::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> &&
-           ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 // Is value type: false
 // CS Name: PlayerIdentityPacket`1<TGameSpecificIdentityData>
 class CORDL_TYPE PlayerIdentityPacket_1 : public ::System::Object {

@@ -7,15 +7,11 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SparselyPopulatedArrayAddInfo_1)
 namespace System::Threading {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class SparselyPopulatedArrayFragment_1;
+template <typename T> class SparselyPopulatedArrayFragment_1;
 }
 // Forward declare root types
 namespace System::Threading {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-struct SparselyPopulatedArrayAddInfo_1;
+template <typename T> struct SparselyPopulatedArrayAddInfo_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::System::Threading::SparselyPopulatedArrayAddInfo_1);
@@ -24,7 +20,6 @@ DEFINE_IL2CPP_GEN_CLASS(::System::Threading::SparselyPopulatedArrayAddInfo_1, "S
 namespace System::Threading {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: true
 // CS Name: System.Threading.SparselyPopulatedArrayAddInfo`1<T>
 struct CORDL_TYPE SparselyPopulatedArrayAddInfo_1 {

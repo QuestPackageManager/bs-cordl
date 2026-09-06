@@ -8,9 +8,7 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(Fixed2_1)
 // Forward declare root types
 namespace UnityEngine::Rendering::Universal {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct Fixed2_1;
+template <typename T> struct Fixed2_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::Rendering::Universal::Fixed2_1);
@@ -20,7 +18,6 @@ DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::Rendering::Universal::Fixed2_1, "UnityEng
 namespace UnityEngine::Rendering::Universal {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.Rendering.Universal.Fixed2`1<T>
 struct CORDL_TYPE Fixed2_1 {

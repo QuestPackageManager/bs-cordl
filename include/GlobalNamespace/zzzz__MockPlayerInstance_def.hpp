@@ -35,9 +35,7 @@ namespace GlobalNamespace {
 struct DisconnectedReason;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*>)
-class IConnectionInitParams_1;
+template <typename T> class IConnectionInitParams_1;
 }
 namespace GlobalNamespace {
 class IConnectionManager;
@@ -73,9 +71,7 @@ namespace GlobalNamespace {
 struct MockPlayerInstance__Stop_d__30;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T>)
-class MockPlayerInstance___c__DisplayClass26_0_1;
+template <typename T> class MockPlayerInstance___c__DisplayClass26_0_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -99,9 +95,7 @@ namespace System {
 class IDisposable;
 }
 namespace System {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct Nullable_1;
+template <typename T> struct Nullable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -111,9 +105,7 @@ namespace GlobalNamespace {
 class MockPlayerInstance_FsmTickRunnable;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T>)
-class MockPlayerInstance___c__DisplayClass26_0_1;
+template <typename T> class MockPlayerInstance___c__DisplayClass26_0_1;
 }
 namespace GlobalNamespace {
 struct MockPlayerInstance__DisposeAsync_d__33;
@@ -219,11 +211,10 @@ static_assert(sizeof(::GlobalNamespace::MockPlayerInstance_FsmTickRunnable) == 0
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
-// Dependencies IConnectionManager, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T>)
 // Is value type: false
 // CS Name: MockPlayerInstance/<>c__DisplayClass26_0`1<T>
 class CORDL_TYPE MockPlayerInstance___c__DisplayClass26_0_1 : public ::System::Object {
@@ -499,9 +490,7 @@ public:
 
   using _Stop_d__30 = ::GlobalNamespace::MockPlayerInstance__Stop_d__30;
 
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T>)
-  using __c__DisplayClass26_0_1 = ::GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>;
+  template <typename T> using __c__DisplayClass26_0_1 = ::GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>;
 
   /// @brief Field _cancellationTokenSource, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__cancellationTokenSource, put = __cordl_internal_set__cancellationTokenSource)) ::System::Threading::CancellationTokenSource* _cancellationTokenSource;

@@ -26,14 +26,10 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::reference_type_constraint<TKey> && ::cordl_internals::reference_type_constraint<TValue>)
-class ConditionalWeakTable_2_CreateValueCallback;
+template <typename TKey, typename TValue> class ConditionalWeakTable_2_CreateValueCallback;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::reference_type_constraint<TKey> && ::cordl_internals::reference_type_constraint<TValue>)
-class ConditionalWeakTable_2_Enumerator;
+template <typename TKey, typename TValue> class ConditionalWeakTable_2_Enumerator;
 }
 namespace System {
 class IDisposable;
@@ -46,19 +42,13 @@ class Object;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::reference_type_constraint<TKey> && ::cordl_internals::reference_type_constraint<TValue>)
-class ConditionalWeakTable_2;
+template <typename TKey, typename TValue> class ConditionalWeakTable_2;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::reference_type_constraint<TKey> && ::cordl_internals::reference_type_constraint<TValue>)
-class ConditionalWeakTable_2_CreateValueCallback;
+template <typename TKey, typename TValue> class ConditionalWeakTable_2_CreateValueCallback;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::reference_type_constraint<TKey> && ::cordl_internals::reference_type_constraint<TValue>)
-class ConditionalWeakTable_2_Enumerator;
+template <typename TKey, typename TValue> class ConditionalWeakTable_2_Enumerator;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::System::Runtime::CompilerServices::ConditionalWeakTable_2);
@@ -71,7 +61,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Runtime::CompilerServices::ConditionalWeak
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TKey, typename TValue>
-  requires(::cordl_internals::reference_type_constraint<TKey> && ::cordl_internals::reference_type_constraint<TValue>)
 // Is value type: false
 // CS Name: System.Runtime.CompilerServices.ConditionalWeakTable`2/CreateValueCallback<TKey,TValue>
 class CORDL_TYPE ConditionalWeakTable_2_CreateValueCallback : public ::System::MulticastDelegate {
@@ -110,7 +99,6 @@ public:
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TKey, typename TValue>
-  requires(::cordl_internals::reference_type_constraint<TKey> && ::cordl_internals::reference_type_constraint<TValue>)
 // Is value type: false
 // CS Name: System.Runtime.CompilerServices.ConditionalWeakTable`2/Enumerator<TKey,TValue>
 class CORDL_TYPE ConditionalWeakTable_2_Enumerator : public ::System::Object {
@@ -223,7 +211,6 @@ public:
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TKey, typename TValue>
-  requires(::cordl_internals::reference_type_constraint<TKey> && ::cordl_internals::reference_type_constraint<TValue>)
 // Is value type: false
 // CS Name: System.Runtime.CompilerServices.ConditionalWeakTable`2<TKey,TValue>
 class CORDL_TYPE ConditionalWeakTable_2 : public ::System::Object {

@@ -12,9 +12,7 @@ namespace System::Net::Http::Headers {
 class AuthenticationHeaderValue;
 }
 namespace System::Net::Http::Headers {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class HttpHeaderValueCollection_1;
+template <typename T> class HttpHeaderValueCollection_1;
 }
 namespace System::Net::Http::Headers {
 class HttpRequestHeaders___c;
@@ -26,9 +24,7 @@ namespace System::Net::Http::Headers {
 class TransferCodingHeaderValue;
 }
 namespace System {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct Nullable_1;
+template <typename T> struct Nullable_1;
 }
 namespace System {
 template <typename T> class Predicate_1;

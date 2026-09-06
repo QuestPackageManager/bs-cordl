@@ -42,9 +42,7 @@ namespace System::Threading {
 struct CancellationToken;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1_ReadOnly;
+template <typename T> struct NativeArray_1_ReadOnly;
 }
 namespace UnityEngine::Networking {
 class UnityWebRequest;

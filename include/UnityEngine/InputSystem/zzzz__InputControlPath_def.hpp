@@ -46,9 +46,7 @@ namespace UnityEngine::InputSystem::Utilities {
 struct Substring;
 }
 namespace UnityEngine::InputSystem {
-template <typename TControl>
-  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
-struct InputControlList_1;
+template <typename TControl> struct InputControlList_1;
 }
 namespace UnityEngine::InputSystem {
 struct InputControlPath_HumanReadableStringOptions;

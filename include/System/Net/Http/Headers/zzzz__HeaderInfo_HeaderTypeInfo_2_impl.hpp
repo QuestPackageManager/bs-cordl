@@ -8,26 +8,19 @@
 #include "System/Net/Http/Headers/zzzz__HttpHeaders_def.hpp"
 #include "System/Net/Http/Headers/zzzz__TryParseDelegate_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-template <typename T, typename U>
-  requires(::cordl_internals::reference_type_constraint<U>)
-constexpr ::System::Net::Http::Headers::TryParseDelegate_1<T>*& GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>::__cordl_internal_get_parser() {
+template <typename T, typename U> constexpr ::System::Net::Http::Headers::TryParseDelegate_1<T>*& GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>::__cordl_internal_get_parser() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parser;
 }
-template <typename T, typename U>
-  requires(::cordl_internals::reference_type_constraint<U>)
-constexpr ::System::Net::Http::Headers::TryParseDelegate_1<T>* const& GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>::__cordl_internal_get_parser() const {
+template <typename T, typename U> constexpr ::System::Net::Http::Headers::TryParseDelegate_1<T>* const& GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>::__cordl_internal_get_parser() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parser;
 }
-template <typename T, typename U>
-  requires(::cordl_internals::reference_type_constraint<U>)
-constexpr void GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>::__cordl_internal_set_parser(::System::Net::Http::Headers::TryParseDelegate_1<T>* value) {
+template <typename T, typename U> constexpr void GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>::__cordl_internal_set_parser(::System::Net::Http::Headers::TryParseDelegate_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___parser = value;
 }
 template <typename T, typename U>
-  requires(::cordl_internals::reference_type_constraint<U>)
 inline void GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>::_ctor(::StringW name, ::System::Net::Http::Headers::TryParseDelegate_1<T>* parser,
                                                                       ::System::Net::Http::Headers::HttpHeaderKind headerKind) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -37,42 +30,32 @@ inline void GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>::_ctor(::StringW 
           { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Net::Http::Headers::TryParseDelegate_1<T>*>(), ::i2c::type_of<::System::Net::Http::Headers::HttpHeaderKind>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, name, parser, headerKind);
 }
-template <typename T, typename U>
-  requires(::cordl_internals::reference_type_constraint<U>)
-inline void GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>::AddToCollection(::System::Object* collection, ::System::Object* value) {
+template <typename T, typename U> inline void GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>::AddToCollection(::System::Object* collection, ::System::Object* value) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, collection, value);
 }
 template <typename T, typename U>
-  requires(::cordl_internals::reference_type_constraint<U>)
 inline ::System::Object* GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>::CreateCollection(::System::Net::Http::Headers::HttpHeaders* headers,
                                                                                               ::System::Net::Http::Headers::HeaderInfo* headerInfo) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, headers, headerInfo);
 }
-template <typename T, typename U>
-  requires(::cordl_internals::reference_type_constraint<U>)
-inline ::System::Collections::Generic::List_1<::StringW>* GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>::ToStringCollection(::System::Object* collection) {
+template <typename T, typename U> inline ::System::Collections::Generic::List_1<::StringW>* GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>::ToStringCollection(::System::Object* collection) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::StringW>*>(this, ___internal_method, collection);
 }
-template <typename T, typename U>
-  requires(::cordl_internals::reference_type_constraint<U>)
-inline bool GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>::TryParse(::StringW value, ::by_ref<::System::Object*> result) {
+template <typename T, typename U> inline bool GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>::TryParse(::StringW value, ::by_ref<::System::Object*> result) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, value, result);
 }
 template <typename T, typename U>
-  requires(::cordl_internals::reference_type_constraint<U>)
 inline ::GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>* GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>::New_ctor(::StringW name, ::System::Net::Http::Headers::TryParseDelegate_1<T>* parser,
                                                                                                                           ::System::Net::Http::Headers::HttpHeaderKind headerKind) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>*>(name, parser, headerKind));
 }
 // Ctor Parameters []
-template <typename T, typename U>
-  requires(::cordl_internals::reference_type_constraint<U>)
-constexpr ::GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>::HeaderInfo_HeaderTypeInfo_2() {}
+template <typename T, typename U> constexpr ::GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>::HeaderInfo_HeaderTypeInfo_2() {}

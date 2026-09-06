@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/Timeline/zzzz__IInterval_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IntervalTree_1)
@@ -15,31 +14,24 @@ namespace UnityEngine::Timeline {
 struct IntervalTreeNode;
 }
 namespace UnityEngine::Timeline {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Timeline::IInterval*>)
-struct IntervalTree_1_Entry;
+template <typename T> struct IntervalTree_1_Entry;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Timeline::IInterval*>)
-class IntervalTree_1;
+template <typename T> class IntervalTree_1;
 }
 namespace UnityEngine::Timeline {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Timeline::IInterval*>)
-struct IntervalTree_1_Entry;
+template <typename T> struct IntervalTree_1_Entry;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Timeline::IntervalTree_1);
 MARK_GEN_VAL_T(::UnityEngine::Timeline::IntervalTree_1_Entry);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Timeline::IntervalTree_1, "UnityEngine.Timeline", "IntervalTree`1");
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::Timeline::IntervalTree_1_Entry, "UnityEngine.Timeline", "IntervalTree`1/Entry");
-// Dependencies UnityEngine.Timeline.IInterval
+// Dependencies
 namespace UnityEngine::Timeline {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Timeline::IInterval*>)
 // Is value type: true
 // CS Name: UnityEngine.Timeline.IntervalTree`1/Entry<T>
 struct CORDL_TYPE IntervalTree_1_Entry {
@@ -72,11 +64,10 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::Timeline
-// Dependencies System.Object, UnityEngine.Timeline.IInterval
+// Dependencies System.Object
 namespace UnityEngine::Timeline {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Timeline::IInterval*>)
 // Is value type: false
 // CS Name: UnityEngine.Timeline.IntervalTree`1<T>
 class CORDL_TYPE IntervalTree_1 : public ::System::Object {

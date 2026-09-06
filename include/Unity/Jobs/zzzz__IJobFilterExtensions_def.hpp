@@ -25,27 +25,19 @@ namespace System {
 class Object;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeList_1;
+template <typename T> struct NativeList_1;
 }
 namespace Unity::Jobs::LowLevel::Unsafe {
 struct JobRanges;
 }
 namespace Unity::Jobs {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct IJobFilterExtensions_JobFilterProducer_1;
+template <typename T> struct IJobFilterExtensions_JobFilterProducer_1;
 }
 namespace Unity::Jobs {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction;
+template <typename T> class JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction;
 }
 namespace Unity::Jobs {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct JobFilterProducer_1_IJobFilterExtensions_JobWrapper;
+template <typename T> struct JobFilterProducer_1_IJobFilterExtensions_JobWrapper;
 }
 namespace Unity::Jobs {
 struct JobHandle;
@@ -55,19 +47,13 @@ namespace Unity::Jobs {
 class IJobFilterExtensions;
 }
 namespace Unity::Jobs {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-class JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction;
+template <typename T> class JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction;
 }
 namespace Unity::Jobs {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct IJobFilterExtensions_JobFilterProducer_1;
+template <typename T> struct IJobFilterExtensions_JobFilterProducer_1;
 }
 namespace Unity::Jobs {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct JobFilterProducer_1_IJobFilterExtensions_JobWrapper;
+template <typename T> struct JobFilterProducer_1_IJobFilterExtensions_JobWrapper;
 }
 // Write type traits
 MARK_REF_T(::Unity::Jobs::IJobFilterExtensions*);
@@ -78,11 +64,10 @@ DEFINE_IL2CPP_CLASS(::Unity::Jobs::IJobFilterExtensions*, "Unity.Jobs", "IJobFil
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction, "Unity.Jobs", "IJobFilterExtensions/JobFilterProducer`1/ExecuteJobFunction");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Jobs::IJobFilterExtensions_JobFilterProducer_1, "Unity.Jobs", "IJobFilterExtensions/JobFilterProducer`1");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Jobs::JobFilterProducer_1_IJobFilterExtensions_JobWrapper, "Unity.Jobs", "IJobFilterExtensions/JobFilterProducer`1/JobWrapper");
-// Dependencies Unity.Collections.NativeList`1<T>, Unity.Jobs.IJobFilter
+// Dependencies Unity.Collections.NativeList`1<T>
 namespace Unity::Jobs {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Jobs.IJobFilterExtensions/JobFilterProducer`1/JobWrapper<T>
 struct CORDL_TYPE JobFilterProducer_1_IJobFilterExtensions_JobWrapper {
@@ -116,11 +101,10 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Jobs
-// Dependencies System.MulticastDelegate, Unity.Jobs.IJobFilter
+// Dependencies System.MulticastDelegate
 namespace Unity::Jobs {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: Unity.Jobs.IJobFilterExtensions/JobFilterProducer`1/ExecuteJobFunction<T>
 class CORDL_TYPE JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction : public ::System::MulticastDelegate {
@@ -165,11 +149,10 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Jobs
-// Dependencies System.IntPtr, Unity.Burst.SharedStatic`1<T>, Unity.Jobs.IJobFilter
+// Dependencies System.IntPtr, Unity.Burst.SharedStatic`1<T>
 namespace Unity::Jobs {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Jobs.IJobFilterExtensions/JobFilterProducer`1<T>
 #pragma pack(push, 0)
@@ -224,9 +207,7 @@ namespace Unity::Jobs {
 class CORDL_TYPE IJobFilterExtensions : public ::System::Object {
 public:
   // Declarations
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobFilter*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  using JobFilterProducer_1 = ::Unity::Jobs::IJobFilterExtensions_JobFilterProducer_1<T>;
+  template <typename T> using JobFilterProducer_1 = ::Unity::Jobs::IJobFilterExtensions_JobFilterProducer_1<T>;
 
   /// @brief Method EarlyJobInit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>

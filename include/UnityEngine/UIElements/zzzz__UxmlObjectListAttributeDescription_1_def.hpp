@@ -16,9 +16,7 @@ class IUxmlAttributes;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
-class UxmlObjectListAttributeDescription_1;
+template <typename T> class UxmlObjectListAttributeDescription_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::UxmlObjectListAttributeDescription_1);
@@ -27,7 +25,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::UxmlObjectListAttributeDe
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UxmlObjectListAttributeDescription`1<T>
 class CORDL_TYPE UxmlObjectListAttributeDescription_1 : public ::UnityEngine::UIElements::UxmlObjectAttributeDescription_1<::System::Collections::Generic::List_1<T>*> {

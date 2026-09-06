@@ -4,24 +4,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Priority_Queue/zzzz__GenericPriorityQueueNode_1_def.hpp"
-#include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SimplePriorityQueue_2)
 namespace Priority_Queue {
-template <typename TItem, typename TPriority>
-  requires(::cordl_internals::type_constraint<TItem, ::Priority_Queue::GenericPriorityQueueNode_1<TPriority>*> && ::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
-class GenericPriorityQueue_2;
+template <typename TItem, typename TPriority> class GenericPriorityQueue_2;
 }
 namespace Priority_Queue {
-template <typename TItem, typename TPriority>
-  requires(::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
-class IPriorityQueue_2;
+template <typename TItem, typename TPriority> class IPriorityQueue_2;
 }
 namespace Priority_Queue {
-template <typename TItem, typename TPriority>
-  requires(::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
-class SimplePriorityQueue_2_SimpleNode;
+template <typename TItem, typename TPriority> class SimplePriorityQueue_2_SimpleNode;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -52,14 +45,10 @@ template <typename T> class Comparison_1;
 }
 // Forward declare root types
 namespace Priority_Queue {
-template <typename TItem, typename TPriority>
-  requires(::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
-class SimplePriorityQueue_2;
+template <typename TItem, typename TPriority> class SimplePriorityQueue_2;
 }
 namespace Priority_Queue {
-template <typename TItem, typename TPriority>
-  requires(::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
-class SimplePriorityQueue_2_SimpleNode;
+template <typename TItem, typename TPriority> class SimplePriorityQueue_2_SimpleNode;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Priority_Queue::SimplePriorityQueue_2);
@@ -67,11 +56,10 @@ MARK_GEN_REF_T_PTR(::Priority_Queue::SimplePriorityQueue_2_SimpleNode);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Priority_Queue::SimplePriorityQueue_2, "Priority_Queue", "SimplePriorityQueue`2");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Priority_Queue::SimplePriorityQueue_2_SimpleNode, "Priority_Queue", "SimplePriorityQueue`2/SimpleNode");
 // [Nullable(new[] { 0, 1 })]
-// Dependencies Priority_Queue.GenericPriorityQueueNode`1<TPriority>, System.IComparable`1<T>
+// Dependencies Priority_Queue.GenericPriorityQueueNode`1<TPriority>
 namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
-  requires(::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
 // Is value type: false
 // CS Name: Priority_Queue.SimplePriorityQueue`2/SimpleNode<TItem,TPriority>
 class CORDL_TYPE SimplePriorityQueue_2_SimpleNode : public ::Priority_Queue::GenericPriorityQueueNode_1<TPriority> {
@@ -128,11 +116,10 @@ public:
 } // namespace Priority_Queue
 // [NullableContext(1)]
 // [Nullable(0)]
-// Dependencies System.IComparable`1<T>, System.Object
+// Dependencies System.Object
 namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
-  requires(::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
 // Is value type: false
 // CS Name: Priority_Queue.SimplePriorityQueue`2<TItem,TPriority>
 class CORDL_TYPE SimplePriorityQueue_2 : public ::System::Object {

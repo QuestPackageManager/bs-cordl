@@ -51,48 +51,35 @@ inline ::GlobalNamespace::BloomPrePassRendererFeature_IterationHandle* GlobalNam
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassRendererFeature_IterationHandle::BloomPrePassRendererFeature_IterationHandle() {}
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
-constexpr ::System::Action_1<T>*& GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>::__cordl_internal_get_onLoadFinished() {
+template <typename T> constexpr ::System::Action_1<T>*& GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>::__cordl_internal_get_onLoadFinished() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onLoadFinished;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
-constexpr ::System::Action_1<T>* const& GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>::__cordl_internal_get_onLoadFinished() const {
+template <typename T> constexpr ::System::Action_1<T>* const& GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>::__cordl_internal_get_onLoadFinished() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onLoadFinished;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
-constexpr void GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>::__cordl_internal_set_onLoadFinished(::System::Action_1<T>* value) {
+template <typename T> constexpr void GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>::__cordl_internal_set_onLoadFinished(::System::Action_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___onLoadFinished = value;
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
-inline void GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>::_ctor() {
+template <typename T> inline void GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
 inline void GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>::_LoadAssetAsync_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> handle) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>*>(),
                                                            { "<LoadAssetAsync>b__0", {}, { ::i2c::type_of<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, handle);
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
-inline ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>* GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>::New_ctor() {
+template <typename T> inline ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>* GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>*>());
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
-constexpr ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>::BloomPrePassRendererFeature___c__DisplayClass10_0_1() {}
+template <typename T> constexpr ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>::BloomPrePassRendererFeature___c__DisplayClass10_0_1() {}
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass6_0._ctor
 template <>
 

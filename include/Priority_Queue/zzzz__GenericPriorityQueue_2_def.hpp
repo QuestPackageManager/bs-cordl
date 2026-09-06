@@ -3,26 +3,18 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Priority_Queue/zzzz__GenericPriorityQueueNode_1_def.hpp"
-#include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GenericPriorityQueue_2)
 namespace Priority_Queue {
-template <typename TItem, typename TPriority>
-  requires(::cordl_internals::type_constraint<TItem, ::Priority_Queue::GenericPriorityQueueNode_1<TPriority>*> && ::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
-class GenericPriorityQueue_2__GetEnumerator_d__25;
+template <typename TItem, typename TPriority> class GenericPriorityQueue_2__GetEnumerator_d__25;
 }
 namespace Priority_Queue {
-template <typename TItem, typename TPriority>
-  requires(::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
-class IFixedSizePriorityQueue_2;
+template <typename TItem, typename TPriority> class IFixedSizePriorityQueue_2;
 }
 namespace Priority_Queue {
-template <typename TItem, typename TPriority>
-  requires(::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
-class IPriorityQueue_2;
+template <typename TItem, typename TPriority> class IPriorityQueue_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
@@ -50,14 +42,10 @@ class Object;
 }
 // Forward declare root types
 namespace Priority_Queue {
-template <typename TItem, typename TPriority>
-  requires(::cordl_internals::type_constraint<TItem, ::Priority_Queue::GenericPriorityQueueNode_1<TPriority>*> && ::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
-class GenericPriorityQueue_2;
+template <typename TItem, typename TPriority> class GenericPriorityQueue_2;
 }
 namespace Priority_Queue {
-template <typename TItem, typename TPriority>
-  requires(::cordl_internals::type_constraint<TItem, ::Priority_Queue::GenericPriorityQueueNode_1<TPriority>*> && ::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
-class GenericPriorityQueue_2__GetEnumerator_d__25;
+template <typename TItem, typename TPriority> class GenericPriorityQueue_2__GetEnumerator_d__25;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Priority_Queue::GenericPriorityQueue_2);
@@ -65,11 +53,10 @@ MARK_GEN_REF_T_PTR(::Priority_Queue::GenericPriorityQueue_2__GetEnumerator_d__25
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Priority_Queue::GenericPriorityQueue_2, "Priority_Queue", "GenericPriorityQueue`2");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Priority_Queue::GenericPriorityQueue_2__GetEnumerator_d__25, "Priority_Queue", "GenericPriorityQueue`2/<GetEnumerator>d__25");
 // [CompilerGenerated]
-// Dependencies Priority_Queue.GenericPriorityQueueNode`1<TPriority>, System.IComparable`1<T>, System.Object
+// Dependencies System.Object
 namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
-  requires(::cordl_internals::type_constraint<TItem, ::Priority_Queue::GenericPriorityQueueNode_1<TPriority>*> && ::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
 // Is value type: false
 // CS Name: Priority_Queue.GenericPriorityQueue`2/<GetEnumerator>d__25<TItem,TPriority>
 class CORDL_TYPE GenericPriorityQueue_2__GetEnumerator_d__25 : public ::System::Object {
@@ -195,11 +182,10 @@ public:
 } // namespace Priority_Queue
 // [NullableContext(1)]
 // [Nullable(0)]
-// Dependencies Priority_Queue.GenericPriorityQueueNode`1<TPriority>, System.IComparable`1<T>, System.Object
+// Dependencies System.Object
 namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
-  requires(::cordl_internals::type_constraint<TItem, ::Priority_Queue::GenericPriorityQueueNode_1<TPriority>*> && ::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
 // Is value type: false
 // CS Name: Priority_Queue.GenericPriorityQueue`2<TItem,TPriority>
 class CORDL_TYPE GenericPriorityQueue_2 : public ::System::Object {

@@ -352,239 +352,165 @@ constexpr ::System::IDisposable* Newtonsoft::Json::Linq::JToken__AfterSelf_d__49
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JToken__AfterSelf_d__49::JToken__AfterSelf_d__49() {}
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr int32_t& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___1__state() {
+template <typename T> constexpr int32_t& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr int32_t const& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___1__state() const {
+template <typename T> constexpr int32_t const& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_set___1__state(int32_t value) {
+template <typename T> constexpr void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr T& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___2__current() {
+template <typename T> constexpr T& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr T const& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___2__current() const {
+template <typename T> constexpr T const& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_set___2__current(T value) {
+template <typename T> constexpr void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_set___2__current(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr int32_t& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___l__initialThreadId() {
+template <typename T> constexpr int32_t& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___l__initialThreadId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr int32_t const& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___l__initialThreadId() const {
+template <typename T> constexpr int32_t const& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___l__initialThreadId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_set___l__initialThreadId(int32_t value) {
+template <typename T> constexpr void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_set___l__initialThreadId(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr ::Newtonsoft::Json::Linq::JToken*& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___4__this() {
+template <typename T> constexpr ::Newtonsoft::Json::Linq::JToken*& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr ::Newtonsoft::Json::Linq::JToken* const& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___4__this() const {
+template <typename T> constexpr ::Newtonsoft::Json::Linq::JToken* const& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_set___4__this(::Newtonsoft::Json::Linq::JToken* value) {
+template <typename T> constexpr void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_set___4__this(::Newtonsoft::Json::Linq::JToken* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr ::ArrayW<::System::Object*>& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get__annotations_5__2() {
+template <typename T> constexpr ::ArrayW<::System::Object*>& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get__annotations_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____annotations_5__2;
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr ::ArrayW<::System::Object*> const& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get__annotations_5__2() const {
+template <typename T> constexpr ::ArrayW<::System::Object*> const& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get__annotations_5__2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____annotations_5__2;
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_set__annotations_5__2(::ArrayW<::System::Object*> value) {
+template <typename T> constexpr void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_set__annotations_5__2(::ArrayW<::System::Object*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____annotations_5__2 = value;
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr int32_t& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get__i_5__3() {
+template <typename T> constexpr int32_t& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get__i_5__3() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__3;
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr int32_t const& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get__i_5__3() const {
+template <typename T> constexpr int32_t const& Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_get__i_5__3() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__3;
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_set__i_5__3(int32_t value) {
+template <typename T> constexpr void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::__cordl_internal_set__i_5__3(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____i_5__3 = value;
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-inline void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::_ctor(int32_t __1__state) {
+template <typename T> inline void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-inline void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::System_IDisposable_Dispose() {
+template <typename T> inline void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::System_IDisposable_Dispose() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>*>(), { "System.IDisposable.Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-inline bool Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::MoveNext() {
+template <typename T> inline bool Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>*>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-inline T Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::System_Collections_Generic_IEnumerator_T__get_Current() {
+template <typename T> inline T Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::System_Collections_Generic_IEnumerator_T__get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>*>(), { "System.Collections.Generic.IEnumerator<T>.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-inline void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::System_Collections_IEnumerator_Reset() {
+template <typename T> inline void Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-inline ::System::Object* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::System_Collections_IEnumerator_get_Current() {
+template <typename T> inline ::System::Object* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-inline ::System::Collections::Generic::IEnumerator_1<T>* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::System_Collections_Generic_IEnumerable_T__GetEnumerator() {
+template <typename T> inline ::System::Collections::Generic::IEnumerator_1<T>* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::System_Collections_Generic_IEnumerable_T__GetEnumerator() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>*>(), { "System.Collections.Generic.IEnumerable<T>.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<T>*>(this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-inline ::System::Collections::IEnumerator* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::System_Collections_IEnumerable_GetEnumerator() {
+template <typename T> inline ::System::Collections::IEnumerator* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::System_Collections_IEnumerable_GetEnumerator() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
 /// @brief [DebuggerHidden]
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-inline ::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::New_ctor(int32_t __1__state) {
+template <typename T> inline ::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept {
+template <typename T> constexpr Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 constexpr ::System::Collections::Generic::IEnumerable_1<T>* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::i___System__Collections__Generic__IEnumerable_1_T_() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::operator ::System::Collections::IEnumerable*() noexcept {
+template <typename T> constexpr Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::operator ::System::Collections::IEnumerable*() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerable"
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr ::System::Collections::IEnumerable* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::i___System__Collections__IEnumerable() noexcept {
+template <typename T> constexpr ::System::Collections::IEnumerable* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::operator ::System::Collections::Generic::IEnumerator_1<T>*() noexcept {
+template <typename T> constexpr Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::operator ::System::Collections::Generic::IEnumerator_1<T>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 constexpr ::System::Collections::Generic::IEnumerator_1<T>* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::i___System__Collections__Generic__IEnumerator_1_T_() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::operator ::System::Collections::IEnumerator*() noexcept {
+template <typename T> constexpr Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr ::System::Collections::IEnumerator* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::i___System__Collections__IEnumerator() noexcept {
+template <typename T> constexpr ::System::Collections::IEnumerator* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::operator ::System::IDisposable*() noexcept {
+template <typename T> constexpr Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr ::System::IDisposable* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::i___System__IDisposable() noexcept {
+template <typename T> constexpr ::System::IDisposable* Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-constexpr ::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::JToken__Annotations_d__185_1() {}
+template <typename T> constexpr ::Newtonsoft::Json::Linq::JToken__Annotations_d__185_1<T>::JToken__Annotations_d__185_1() {}
 //  Writing Method size for method: ::Newtonsoft::Json::Linq::JToken__Annotations_d__186._ctor
 template <>
 

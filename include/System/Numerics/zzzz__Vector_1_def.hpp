@@ -12,9 +12,7 @@ namespace System::Numerics {
 struct Register;
 }
 namespace System::Numerics {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct Vector_1_VectorSizeHelper;
+template <typename T> struct Vector_1_VectorSizeHelper;
 }
 namespace System {
 template <typename T> class IEquatable_1;
@@ -30,14 +28,10 @@ class Object;
 }
 // Forward declare root types
 namespace System::Numerics {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct Vector_1;
+template <typename T> struct Vector_1;
 }
 namespace System::Numerics {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct Vector_1_VectorSizeHelper;
+template <typename T> struct Vector_1_VectorSizeHelper;
 }
 // Write type traits
 MARK_GEN_VAL_T(::System::Numerics::Vector_1);
@@ -50,7 +44,6 @@ DEFINE_IL2CPP_GEN_CLASS(::System::Numerics::Vector_1_VectorSizeHelper, "System.N
 namespace System::Numerics {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: System.Numerics.Vector`1<T>
 struct CORDL_TYPE Vector_1 {
@@ -192,7 +185,6 @@ public:
 namespace System::Numerics {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: System.Numerics.Vector`1/VectorSizeHelper<T>
 struct CORDL_TYPE Vector_1_VectorSizeHelper {

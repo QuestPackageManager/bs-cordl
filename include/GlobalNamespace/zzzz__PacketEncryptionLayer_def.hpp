@@ -23,9 +23,7 @@ namespace GlobalNamespace {
 class EncryptionUtility_IEncryptionState;
 }
 namespace GlobalNamespace {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::type_constraint<TValue, ::System::IDisposable*>)
-class ExpiringDictionary_2;
+template <typename TKey, typename TValue> class ExpiringDictionary_2;
 }
 namespace GlobalNamespace {
 class PacketEncryptionLayer_EncryptionStatistics;

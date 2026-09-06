@@ -5,14 +5,11 @@
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline void System::Collections::Generic::ShortEnumEqualityComparer_1<T>::_ctor() {
+template <typename T> inline void System::Collections::Generic::ShortEnumEqualityComparer_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Generic::ShortEnumEqualityComparer_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void System::Collections::Generic::ShortEnumEqualityComparer_1<T>::_ctor(::System::Runtime::Serialization::SerializationInfo* information,
                                                                                 ::System::Runtime::Serialization::StreamingContext context) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -21,37 +18,27 @@ inline void System::Collections::Generic::ShortEnumEqualityComparer_1<T>::_ctor(
                           { ".ctor", {}, { ::i2c::type_of<::System::Runtime::Serialization::SerializationInfo*>(), ::i2c::type_of<::System::Runtime::Serialization::StreamingContext>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, information, context);
 }
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline int32_t System::Collections::Generic::ShortEnumEqualityComparer_1<T>::GetHashCode(T obj) {
+template <typename T> inline int32_t System::Collections::Generic::ShortEnumEqualityComparer_1<T>::GetHashCode(T obj) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Collections::Generic::ShortEnumEqualityComparer_1<T>*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, obj);
 }
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline ::System::Collections::Generic::ShortEnumEqualityComparer_1<T>* System::Collections::Generic::ShortEnumEqualityComparer_1<T>::New_ctor() {
+template <typename T> inline ::System::Collections::Generic::ShortEnumEqualityComparer_1<T>* System::Collections::Generic::ShortEnumEqualityComparer_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Collections::Generic::ShortEnumEqualityComparer_1<T>*>());
 }
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::System::Collections::Generic::ShortEnumEqualityComparer_1<T>*
 System::Collections::Generic::ShortEnumEqualityComparer_1<T>::New_ctor(::System::Runtime::Serialization::SerializationInfo* information, ::System::Runtime::Serialization::StreamingContext context) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Collections::Generic::ShortEnumEqualityComparer_1<T>*>(information, context));
 }
 /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr System::Collections::Generic::ShortEnumEqualityComparer_1<T>::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
+template <typename T> constexpr System::Collections::Generic::ShortEnumEqualityComparer_1<T>::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
   return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr ::System::Runtime::Serialization::ISerializable* System::Collections::Generic::ShortEnumEqualityComparer_1<T>::i___System__Runtime__Serialization__ISerializable() noexcept {
   return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr ::System::Collections::Generic::ShortEnumEqualityComparer_1<T>::ShortEnumEqualityComparer_1() {}
+template <typename T> constexpr ::System::Collections::Generic::ShortEnumEqualityComparer_1<T>::ShortEnumEqualityComparer_1() {}

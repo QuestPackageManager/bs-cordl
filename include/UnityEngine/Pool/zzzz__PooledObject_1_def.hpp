@@ -9,15 +9,11 @@ namespace System {
 class IDisposable;
 }
 namespace UnityEngine::Pool {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class IObjectPool_1;
+template <typename T> class IObjectPool_1;
 }
 // Forward declare root types
 namespace UnityEngine::Pool {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-struct PooledObject_1;
+template <typename T> struct PooledObject_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::Pool::PooledObject_1);
@@ -26,7 +22,6 @@ DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::Pool::PooledObject_1, "UnityEngine.Pool",
 namespace UnityEngine::Pool {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.Pool.PooledObject`1<T>
 struct CORDL_TYPE PooledObject_1 {

@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/AddressableAssets/zzzz__AssetReference_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(AssetReferenceT_1)
 namespace UnityEngine::ResourceManagement::AsyncOperations {
@@ -15,18 +14,15 @@ class Object;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
-template <typename TObject>
-  requires(::cordl_internals::type_constraint<TObject, ::UnityEngine::Object*>)
-class AssetReferenceT_1;
+template <typename TObject> class AssetReferenceT_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::AddressableAssets::AssetReferenceT_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::AddressableAssets::AssetReferenceT_1, "UnityEngine.AddressableAssets", "AssetReferenceT`1");
-// Dependencies UnityEngine.AddressableAssets.AssetReference, UnityEngine.Object
+// Dependencies UnityEngine.AddressableAssets.AssetReference
 namespace UnityEngine::AddressableAssets {
 // cpp template
 template <typename TObject>
-  requires(::cordl_internals::type_constraint<TObject, ::UnityEngine::Object*>)
 // Is value type: false
 // CS Name: UnityEngine.AddressableAssets.AssetReferenceT`1<TObject>
 class CORDL_TYPE AssetReferenceT_1 : public ::UnityEngine::AddressableAssets::AssetReference {

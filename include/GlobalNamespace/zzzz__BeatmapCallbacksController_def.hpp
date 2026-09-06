@@ -25,9 +25,7 @@ namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
-class BeatmapDataCallback_1;
+template <typename T> class BeatmapDataCallback_1;
 }
 namespace GlobalNamespace {
 class BeatmapDataItem;

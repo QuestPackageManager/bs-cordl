@@ -5749,49 +5749,35 @@ constexpr ::GlobalNamespace::OVRPlugin_SceneCaptureRequestInternal::OVRPlugin_Sc
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin_SceneCaptureRequestInternal::OVRPlugin_SceneCaptureRequestInternal() {}
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline void GlobalNamespace::OVRPlugin_PinnedArray_1<T>::_ctor(::ArrayW<T> array) {
+template <typename T> inline void GlobalNamespace::OVRPlugin_PinnedArray_1<T>::_ctor(::ArrayW<T> array) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_PinnedArray_1<T>>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<T>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, array);
 }
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline void GlobalNamespace::OVRPlugin_PinnedArray_1<T>::Dispose() {
+template <typename T> inline void GlobalNamespace::OVRPlugin_PinnedArray_1<T>::Dispose() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_PinnedArray_1<T>>(), { "Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline ::System::IntPtr GlobalNamespace::OVRPlugin_PinnedArray_1<T>::op_Implicit___System__IntPtr(::GlobalNamespace::OVRPlugin_PinnedArray_1<T> pinnedArray) {
+template <typename T> inline ::System::IntPtr GlobalNamespace::OVRPlugin_PinnedArray_1<T>::op_Implicit___System__IntPtr(::GlobalNamespace::OVRPlugin_PinnedArray_1<T> pinnedArray) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_PinnedArray_1<T>>(), { "op_Implicit", {}, { ::i2c::type_of<::GlobalNamespace::OVRPlugin_PinnedArray_1<T>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, pinnedArray);
 }
 /// @brief Convert operator to "::System::IDisposable"
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr GlobalNamespace::OVRPlugin_PinnedArray_1<T>::operator ::System::IDisposable*() {
+template <typename T> constexpr GlobalNamespace::OVRPlugin_PinnedArray_1<T>::operator ::System::IDisposable*() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::IDisposable"
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr ::System::IDisposable* GlobalNamespace::OVRPlugin_PinnedArray_1<T>::i___System__IDisposable() {
+template <typename T> constexpr ::System::IDisposable* GlobalNamespace::OVRPlugin_PinnedArray_1<T>::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "_handle", ty: "::System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: Some("{}"), comment: None }]
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr ::GlobalNamespace::OVRPlugin_PinnedArray_1<T>::OVRPlugin_PinnedArray_1(::System::Runtime::InteropServices::GCHandle _handle) noexcept {
+template <typename T> constexpr ::GlobalNamespace::OVRPlugin_PinnedArray_1<T>::OVRPlugin_PinnedArray_1(::System::Runtime::InteropServices::GCHandle _handle) noexcept {
   this->_handle = _handle;
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr ::GlobalNamespace::OVRPlugin_PinnedArray_1<T>::OVRPlugin_PinnedArray_1() {}
+template <typename T> constexpr ::GlobalNamespace::OVRPlugin_PinnedArray_1<T>::OVRPlugin_PinnedArray_1() {}
 // Ctor Parameters [CppParam { name: "Space", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Uuid", ty: "::System::Guid", modifiers: "", def_value:
 // Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlugin_SpaceDiscoveryResult::OVRPlugin_SpaceDiscoveryResult(uint64_t Space, ::System::Guid Uuid) noexcept {

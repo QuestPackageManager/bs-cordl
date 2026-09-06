@@ -13,55 +13,35 @@ namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct UnsafeList_1;
+template <typename T> struct UnsafeList_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1_ReadOnly;
+template <typename T> struct NativeArray_1_ReadOnly;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1;
+template <typename T> struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeList_1;
+template <typename T> struct NativeList_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeSlice_1;
+template <typename T> struct NativeSlice_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
-struct NativeSortExtension_DefaultComparer_1;
+template <typename T> struct NativeSortExtension_DefaultComparer_1;
 }
 namespace Unity::Collections {
-template <typename T, typename U>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
-           ::cordl_internals::type_constraint<U, ::System::Collections::Generic::IComparer_1<T>*>)
-struct SortJobDefer_2;
+template <typename T, typename U> struct SortJobDefer_2;
 }
 namespace Unity::Collections {
-template <typename T, typename U>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
-           ::cordl_internals::type_constraint<U, ::System::Collections::Generic::IComparer_1<T>*>)
-struct SortJob_2;
+template <typename T, typename U> struct SortJob_2;
 }
 // Forward declare root types
 namespace Unity::Collections {
 class NativeSortExtension;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
-struct NativeSortExtension_DefaultComparer_1;
+template <typename T> struct NativeSortExtension_DefaultComparer_1;
 }
 // Write type traits
 MARK_REF_T(::Unity::Collections::NativeSortExtension*);
@@ -69,11 +49,10 @@ MARK_GEN_VAL_T(::Unity::Collections::NativeSortExtension_DefaultComparer_1);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::NativeSortExtension*, "Unity.Collections", "NativeSortExtension");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeSortExtension_DefaultComparer_1, "Unity.Collections", "NativeSortExtension/DefaultComparer`1");
 // [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
-// Dependencies System.IComparable`1<T>
+// Dependencies
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeSortExtension/DefaultComparer`1<T>
 #pragma pack(push, 0)
@@ -113,9 +92,7 @@ namespace Unity::Collections {
 class CORDL_TYPE NativeSortExtension : public ::System::Object {
 public:
   // Declarations
-  template <typename T>
-    requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
-  using DefaultComparer_1 = ::Unity::Collections::NativeSortExtension_DefaultComparer_1<T>;
+  template <typename T> using DefaultComparer_1 = ::Unity::Collections::NativeSortExtension_DefaultComparer_1<T>;
 
   /// [Extension]
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]

@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/UIElements/zzzz__BaseUxmlTraits_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(BaseUxmlFactory_2)
 namespace System {
@@ -18,21 +17,16 @@ class IUxmlAttributes;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename TCreatedType, typename TTraits>
-  requires(::cordl_internals::default_constructor_constraint<TCreatedType> && ::cordl_internals::type_constraint<TTraits, ::UnityEngine::UIElements::BaseUxmlTraits*> &&
-           ::cordl_internals::default_constructor_constraint<TTraits>)
-class BaseUxmlFactory_2;
+template <typename TCreatedType, typename TTraits> class BaseUxmlFactory_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::BaseUxmlFactory_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::BaseUxmlFactory_2, "UnityEngine.UIElements", "BaseUxmlFactory`2");
 // [Obsolete("BaseUxmlFactory<TCreatedType, TTraits> is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
-// Dependencies System.Object, UnityEngine.UIElements.BaseUxmlTraits
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TCreatedType, typename TTraits>
-  requires(::cordl_internals::default_constructor_constraint<TCreatedType> && ::cordl_internals::type_constraint<TTraits, ::UnityEngine::UIElements::BaseUxmlTraits*> &&
-           ::cordl_internals::default_constructor_constraint<TTraits>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.BaseUxmlFactory`2<TCreatedType,TTraits>
 class CORDL_TYPE BaseUxmlFactory_2 : public ::System::Object {

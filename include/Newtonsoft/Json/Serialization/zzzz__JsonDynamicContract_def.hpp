@@ -16,9 +16,7 @@ namespace System::Dynamic {
 class IDynamicMetaObjectProvider;
 }
 namespace System::Runtime::CompilerServices {
-template <typename T>
-  requires(::cordl_internals::reference_type_constraint<T>)
-class CallSite_1;
+template <typename T> class CallSite_1;
 }
 namespace System::Runtime::CompilerServices {
 class CallSite;

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__Attribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CachedAttributeGetter_1)
 namespace Newtonsoft::Json::Utilities {
@@ -14,18 +13,15 @@ class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
-class CachedAttributeGetter_1;
+template <typename T> class CachedAttributeGetter_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Newtonsoft::Json::Serialization::CachedAttributeGetter_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Newtonsoft::Json::Serialization::CachedAttributeGetter_1, "Newtonsoft.Json.Serialization", "CachedAttributeGetter`1");
-// Dependencies System.Attribute, System.Object
+// Dependencies System.Object
 namespace Newtonsoft::Json::Serialization {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
 // Is value type: false
 // CS Name: Newtonsoft.Json.Serialization.CachedAttributeGetter`1<T>
 class CORDL_TYPE CachedAttributeGetter_1 : public ::System::Object {

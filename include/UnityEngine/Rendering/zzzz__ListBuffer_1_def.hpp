@@ -8,9 +8,7 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ListBuffer_1)
 // Forward declare root types
 namespace UnityEngine::Rendering {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct ListBuffer_1;
+template <typename T> struct ListBuffer_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::Rendering::ListBuffer_1);
@@ -20,7 +18,6 @@ DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::Rendering::ListBuffer_1, "UnityEngine.Ren
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.Rendering.ListBuffer`1<T>
 struct CORDL_TYPE ListBuffer_1 {

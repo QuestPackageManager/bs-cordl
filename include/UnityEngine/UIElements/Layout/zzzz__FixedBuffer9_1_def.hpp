@@ -8,9 +8,7 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(FixedBuffer9_1)
 // Forward declare root types
 namespace UnityEngine::UIElements::Layout {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct FixedBuffer9_1;
+template <typename T> struct FixedBuffer9_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::UIElements::Layout::FixedBuffer9_1);
@@ -20,7 +18,6 @@ DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::Layout::FixedBuffer9_1, "Unit
 namespace UnityEngine::UIElements::Layout {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.UIElements.Layout.FixedBuffer9`1<T>
 struct CORDL_TYPE FixedBuffer9_1 {

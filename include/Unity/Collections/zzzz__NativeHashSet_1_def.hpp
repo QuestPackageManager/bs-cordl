@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__HashMapHelper_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -27,9 +26,7 @@ namespace System {
 class Object;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey>
-  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey>)
-struct HashMapHelper_1;
+template <typename TKey> struct HashMapHelper_1;
 }
 namespace Unity::Collections {
 struct AllocatorManager_AllocatorHandle;
@@ -38,38 +35,26 @@ namespace Unity::Collections {
 class INativeDisposable;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeArray_1;
+template <typename T> struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeHashSet_1_Enumerator;
+template <typename T> struct NativeHashSet_1_Enumerator;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeHashSet_1_ReadOnly;
+template <typename T> struct NativeHashSet_1_ReadOnly;
 }
 namespace Unity::Jobs {
 struct JobHandle;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeHashSet_1;
+template <typename T> struct NativeHashSet_1;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeHashSet_1_Enumerator;
+template <typename T> struct NativeHashSet_1_Enumerator;
 }
 namespace Unity::Collections {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-struct NativeHashSet_1_ReadOnly;
+template <typename T> struct NativeHashSet_1_ReadOnly;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::NativeHashSet_1);
@@ -80,11 +65,10 @@ DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeHashSet_1_Enumerator, "Unity
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeHashSet_1_ReadOnly, "Unity.Collections", "NativeHashSet`1/ReadOnly");
 // [NativeContainer]
 // [NativeContainerIsReadOnly]
-// Dependencies System.IEquatable`1<T>, Unity.Collections.LowLevel.Unsafe.HashMapHelper`1::Enumerator<TKey>
+// Dependencies Unity.Collections.LowLevel.Unsafe.HashMapHelper`1::Enumerator<TKey>
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeHashSet`1/Enumerator<T>
 struct CORDL_TYPE NativeHashSet_1_Enumerator {
@@ -151,11 +135,10 @@ public:
 // [NativeContainer]
 // [NativeContainerIsReadOnly]
 // [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
-// Dependencies System.IEquatable`1<T>
+// Dependencies
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeHashSet`1/ReadOnly<T>
 struct CORDL_TYPE NativeHashSet_1_ReadOnly {
@@ -247,11 +230,10 @@ public:
 // [NativeContainer]
 // [DebuggerTypeProxy(typeof(Unity.Collections.NativeHashSetDebuggerTypeProxy`1<T>))]
 // [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
-// Dependencies System.IEquatable`1<T>
+// Dependencies
 namespace Unity::Collections {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeHashSet`1<T>
 struct CORDL_TYPE NativeHashSet_1 {

@@ -24,10 +24,7 @@ struct JobHandle;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename TKey, typename TValue>
-  requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
-           ::cordl_internals::default_constructor_constraint<TValue>)
-struct NativeKeyValueArrays_2;
+template <typename TKey, typename TValue> struct NativeKeyValueArrays_2;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::NativeKeyValueArrays_2);
@@ -37,8 +34,6 @@ DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeKeyValueArrays_2, "Unity.Col
 namespace Unity::Collections {
 // cpp template
 template <typename TKey, typename TValue>
-  requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
-           ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeKeyValueArrays`2<TKey,TValue>
 struct CORDL_TYPE NativeKeyValueArrays_2 {

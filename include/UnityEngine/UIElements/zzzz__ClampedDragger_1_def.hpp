@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IComparable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Clickable_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include <cstddef>
@@ -13,14 +12,10 @@ namespace System {
 class Action;
 }
 namespace UnityEngine::UIElements {
-template <typename TValueType>
-  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
-class BaseSlider_1;
+template <typename TValueType> class BaseSlider_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
-struct ClampedDragger_1_DragDirection;
+template <typename T> struct ClampedDragger_1_DragDirection;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
@@ -30,14 +25,10 @@ struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
-struct ClampedDragger_1_DragDirection;
+template <typename T> struct ClampedDragger_1_DragDirection;
 }
 namespace UnityEngine::UIElements {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
-class ClampedDragger_1;
+template <typename T> class ClampedDragger_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::UIElements::ClampedDragger_1_DragDirection);
@@ -45,11 +36,10 @@ MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::ClampedDragger_1);
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::ClampedDragger_1_DragDirection, "UnityEngine.UIElements", "ClampedDragger`1/DragDirection");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::ClampedDragger_1, "UnityEngine.UIElements", "ClampedDragger`1");
 // [Flags]
-// Dependencies System.IComparable`1<T>
+// Dependencies
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
 // Is value type: true
 // CS Name: UnityEngine.UIElements.ClampedDragger`1/DragDirection<T>
 struct CORDL_TYPE ClampedDragger_1_DragDirection {
@@ -107,11 +97,10 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies System.IComparable`1<T>, UnityEngine.UIElements.ClampedDragger`1::DragDirection<T>, UnityEngine.UIElements.Clickable, UnityEngine.Vector2
+// Dependencies UnityEngine.UIElements.ClampedDragger`1::DragDirection<T>, UnityEngine.UIElements.Clickable, UnityEngine.Vector2
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.ClampedDragger`1<T>
 class CORDL_TYPE ClampedDragger_1 : public ::UnityEngine::UIElements::Clickable {

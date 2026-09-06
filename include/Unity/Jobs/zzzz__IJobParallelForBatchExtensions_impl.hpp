@@ -13,16 +13,13 @@
 #include "Unity/Jobs/LowLevel/Unsafe/zzzz__JobRanges_def.hpp"
 #include "Unity/Jobs/zzzz__IJobParallelForBatchExtensions_def.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_def.hpp"
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline void Unity::Jobs::JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction<T>::_ctor(::System::Object* object, ::System::IntPtr method) {
+template <typename T> inline void Unity::Jobs::JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction<T>::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction<T>*>(),
                                                            { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Jobs::JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction<T>::Invoke(::by_ref<T> jobData, ::System::IntPtr additionalPtr,
                                                                                                                     ::System::IntPtr bufferRangePatchData,
                                                                                                                     ::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges, int32_t jobIndex) {
@@ -32,7 +29,6 @@ inline void Unity::Jobs::JobParallelForBatchProducer_1_IJobParallelForBatchExten
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, jobData, additionalPtr, bufferRangePatchData, ranges, jobIndex);
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::System::IAsyncResult*
 Unity::Jobs::JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction<T>::BeginInvoke(::by_ref<T> jobData, ::System::IntPtr additionalPtr, ::System::IntPtr bufferRangePatchData,
                                                                                                              ::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges, int32_t jobIndex,
@@ -43,7 +39,6 @@ Unity::Jobs::JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_Execut
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, jobData, additionalPtr, bufferRangePatchData, ranges, jobIndex, callback, object);
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Jobs::JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction<T>::EndInvoke(::by_ref<T> jobData, ::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges,
                                                                                                                        ::System::IAsyncResult* result) {
   auto* ___internal_method =
@@ -52,35 +47,26 @@ inline void Unity::Jobs::JobParallelForBatchProducer_1_IJobParallelForBatchExten
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, jobData, ranges, result);
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Jobs::JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction<T>*
 Unity::Jobs::JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction<T>::New_ctor(::System::Object* object, ::System::IntPtr method) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Unity::Jobs::JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction<T>*>(object, method));
 }
 // Ctor Parameters []
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr ::Unity::Jobs::JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction<T>::JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction() {}
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline void Unity::Jobs::IJobParallelForBatchExtensions_JobParallelForBatchProducer_1<T>::setStaticF_jobReflectionData(::Unity::Burst::SharedStatic_1<::System::IntPtr> value) {
+template <typename T> inline void Unity::Jobs::IJobParallelForBatchExtensions_JobParallelForBatchProducer_1<T>::setStaticF_jobReflectionData(::Unity::Burst::SharedStatic_1<::System::IntPtr> value) {
   ::cordl_internals::setStaticField<::Unity::Burst::SharedStatic_1<::System::IntPtr>, "jobReflectionData", ::Unity::Jobs::IJobParallelForBatchExtensions_JobParallelForBatchProducer_1<T>>(
       std::forward<::Unity::Burst::SharedStatic_1<::System::IntPtr>>(value));
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline ::Unity::Burst::SharedStatic_1<::System::IntPtr> Unity::Jobs::IJobParallelForBatchExtensions_JobParallelForBatchProducer_1<T>::getStaticF_jobReflectionData() {
+template <typename T> inline ::Unity::Burst::SharedStatic_1<::System::IntPtr> Unity::Jobs::IJobParallelForBatchExtensions_JobParallelForBatchProducer_1<T>::getStaticF_jobReflectionData() {
   return ::cordl_internals::getStaticField<::Unity::Burst::SharedStatic_1<::System::IntPtr>, "jobReflectionData", ::Unity::Jobs::IJobParallelForBatchExtensions_JobParallelForBatchProducer_1<T>>();
 }
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline void Unity::Jobs::IJobParallelForBatchExtensions_JobParallelForBatchProducer_1<T>::Initialize() {
+template <typename T> inline void Unity::Jobs::IJobParallelForBatchExtensions_JobParallelForBatchProducer_1<T>::Initialize() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::IJobParallelForBatchExtensions_JobParallelForBatchProducer_1<T>>(), { "Initialize", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Jobs::IJobParallelForBatchExtensions_JobParallelForBatchProducer_1<T>::Execute(::by_ref<T> jobData, ::System::IntPtr additionalPtr, ::System::IntPtr bufferRangePatchData,
                                                                                                   ::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges, int32_t jobIndex) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::IJobParallelForBatchExtensions_JobParallelForBatchProducer_1<T>>(),
@@ -91,9 +77,7 @@ inline void Unity::Jobs::IJobParallelForBatchExtensions_JobParallelForBatchProdu
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, jobData, additionalPtr, bufferRangePatchData, ranges, jobIndex);
 }
 // Ctor Parameters []
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-constexpr ::Unity::Jobs::IJobParallelForBatchExtensions_JobParallelForBatchProducer_1<T>::IJobParallelForBatchExtensions_JobParallelForBatchProducer_1() {}
+template <typename T> constexpr ::Unity::Jobs::IJobParallelForBatchExtensions_JobParallelForBatchProducer_1<T>::IJobParallelForBatchExtensions_JobParallelForBatchProducer_1() {}
 template <typename T>
   requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Jobs::IJobParallelForBatchExtensions::EarlyJobInit() {

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
 CORDL_MODULE_EXPORT(IJEnumerable_1)
 namespace Newtonsoft::Json::Linq {
 class JToken;
@@ -19,20 +18,17 @@ class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
-template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
-class IJEnumerable_1;
+template <typename T> class IJEnumerable_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Newtonsoft::Json::Linq::IJEnumerable_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Newtonsoft::Json::Linq::IJEnumerable_1, "Newtonsoft.Json.Linq", "IJEnumerable`1");
 // [NullableContext(1)]
 // [DefaultMember("Item")]
-// Dependencies Newtonsoft.Json.Linq.JToken
+// Dependencies
 namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T>
-  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
 // Is value type: false
 // CS Name: Newtonsoft.Json.Linq.IJEnumerable`1<T>
 class CORDL_TYPE IJEnumerable_1 {

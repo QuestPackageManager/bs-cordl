@@ -16,15 +16,11 @@ namespace System {
 class Type;
 }
 namespace UnityEngine::InputSystem {
-template <typename TValue>
-  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-class InputProcessor_1;
+template <typename TValue> class InputProcessor_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
-template <typename TValue>
-  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
-class InputControl_1;
+template <typename TValue> class InputControl_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::InputSystem::InputControl_1);
@@ -33,7 +29,6 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::InputSystem::InputControl_1, "UnityEn
 namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TValue>
-  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.InputControl`1<TValue>
 class CORDL_TYPE InputControl_1 : public ::UnityEngine::InputSystem::InputControl {
